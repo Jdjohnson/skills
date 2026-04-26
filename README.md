@@ -1,16 +1,19 @@
 # Portable AI Skills
 
-Small, reusable AI skills and thinking prompts.
+These are public versions of skills I actually use.
 
-These are designed to be useful in two ways:
+The goal is simple: make reusable AI workflows that are stronger than a
+single prompt but still easy to copy into another tool. They should help with
+thinking, writing, briefings, meetings, research direction, and larger
+AI-assisted projects without dragging a private workspace behind them.
 
-- As copy/paste prompts in any major LLM.
-- As skill folders for tools that support reusable skills, such as Codex or Claude Code.
+Each owned skill starts at `SKILL.md`. That file is the front door. Most of the
+actual behavior lives in `nodes/`, with `references/` or `scripts/` added only
+when a skill needs examples, source material, or helper code.
 
-Some skills are single-file prompts. Others include `nodes/`, `references/`,
-or `scripts/` folders for deeper mode routing, examples, reusable instructions,
-and deterministic helpers. Start with the skill's `SKILL.md`; it is always the
-front door.
+I keep the public versions portable on purpose. They don't assume my local
+files, private notes, daily workflow, or machine setup. If a skill needs
+context, it asks for it.
 
 ## Owned Skills
 
@@ -29,7 +32,7 @@ front door.
 
 ## External References
 
-These are useful public skills or repos that I reference, but do not maintain or republish here.
+These are useful public skills or repos that I reference, but don't maintain or republish here.
 
 | Skill | Use it for | Source |
 |---|---|---|
@@ -40,13 +43,18 @@ These are useful public skills or repos that I reference, but do not maintain or
 
 ## Using A Skill
 
-If your AI tool supports skills, add the folder under `skills/` and let the tool discover its `SKILL.md`.
+If your AI tool supports skills, copy the whole folder under `skills/` and let
+the tool discover its `SKILL.md`.
 
-If your tool does not support skills, open the `SKILL.md`, copy the core instructions into a new chat, then add your topic or plan underneath.
+If your tool doesn't support skills, open `SKILL.md`, copy the relevant
+instructions into a new chat, then add your topic, draft, notes, or question
+underneath.
 
 ## Maintenance
 
-Owned skills are exported from a local curated source before publishing. External references should be updated from their upstream repositories.
+I keep a deeper private working set, then strip the private context before
+publishing here. For external references, check the upstream repos before
+copying anything forward.
 
 ## Attribution
 
