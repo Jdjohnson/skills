@@ -1,0 +1,46 @@
+{
+  "skill": "brief",
+  "cases": [
+    {
+      "id": "source-brief",
+      "prompt": "brief [pasted source text]",
+      "expected_nodes": [
+        "nodes/input-handling.md",
+        "nodes/brief-format.md",
+        "nodes/writing-standards.md",
+        "nodes/confidence.md"
+      ],
+      "expected_output_shape": [
+        "Bottom Line",
+        "Key Judgments",
+        "What To Decide",
+        "Gaps"
+      ]
+    },
+    {
+      "id": "topic-with-search",
+      "prompt": "brief this current topic",
+      "expected_nodes": [
+        "nodes/input-handling.md",
+        "nodes/brief-format.md",
+        "nodes/confidence.md"
+      ],
+      "expected_output_shape": [
+        "confidence tags",
+        "gaps",
+        "no invented citations"
+      ]
+    },
+    {
+      "id": "qa-followup",
+      "prompt": "brief delivered; expand judgment 2",
+      "expected_nodes": [
+        "nodes/qa-mode.md"
+      ],
+      "expected_output_shape": [
+        "source-anchored follow-up",
+        "new research boundary when needed"
+      ]
+    }
+  ]
+}

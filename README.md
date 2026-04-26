@@ -7,6 +7,10 @@ These are designed to be useful in two ways:
 - As copy/paste prompts in any major LLM.
 - As skill folders for tools that support reusable skills, such as Codex or Claude Code.
 
+Some skills are single-file prompts. Others include `nodes/` or `references/`
+folders for deeper mode routing, examples, and reusable instructions. Start
+with the skill's `SKILL.md`; it is always the front door.
+
 ## Owned Skills
 
 | Skill | Use it for | Link |

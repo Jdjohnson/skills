@@ -1,0 +1,45 @@
+{
+  "skill": "style-guide",
+  "cases": [
+    {
+      "id": "default-check-with-draft",
+      "prompt": "style-guide check [draft text]",
+      "expected_nodes": [
+        "nodes/source-of-truth.md",
+        "nodes/red-flags.md",
+        "nodes/checklist.md"
+      ],
+      "expected_output_shape": [
+        "red flags",
+        "checklist verdict",
+        "fix direction"
+      ]
+    },
+    {
+      "id": "calibrate",
+      "prompt": "style-guide calibrate from these examples",
+      "expected_nodes": [
+        "nodes/source-of-truth.md",
+        "nodes/calibrate.md"
+      ],
+      "expected_output_shape": [
+        "working profile",
+        "rules to apply",
+        "confidence"
+      ]
+    },
+    {
+      "id": "rewrite",
+      "prompt": "style-guide rewrite [draft text]",
+      "expected_nodes": [
+        "nodes/source-of-truth.md",
+        "nodes/red-flags.md",
+        "nodes/rewrite.md"
+      ],
+      "expected_output_shape": [
+        "revised copy",
+        "style notes"
+      ]
+    }
+  ]
+}
