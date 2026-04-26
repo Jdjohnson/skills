@@ -1,0 +1,59 @@
+{
+  "skill": "economist-council",
+  "parity_goal": "Preserve economist-grounded convergence, divergence, and pushback with a mandatory intake lock and clear sourced-versus-extrapolated discipline.",
+  "cases": [
+    {
+      "id": "intake-gate",
+      "prompt": "economist-council community resilience as AI continues to expand",
+      "expected_nodes": [
+        "nodes/intake-lock.md",
+        "nodes/source-discipline.md"
+      ],
+      "expected_output_shape": [
+        "plain-language topic lock",
+        "explicit confirmation before dispatch",
+        "no panel dispatch before approval"
+      ]
+    },
+    {
+      "id": "default-panel",
+      "prompt": "economist-council run the standing panel on AI, productivity, and regional labor adaptation.",
+      "expected_nodes": [
+        "nodes/panel-selection.md",
+        "nodes/dispatch-synthesis.md"
+      ],
+      "expected_output_shape": [
+        "Big Five default panel",
+        "convergence divergence and pushback synthesis",
+        "one useful question back"
+      ]
+    },
+    {
+      "id": "bench-adds",
+      "prompt": "economist-council add Diane Coyle for measurement and Restrepo for labor-share pressure.",
+      "expected_nodes": [
+        "nodes/panel-selection.md",
+        "nodes/intake-lock.md"
+      ],
+      "expected_output_shape": [
+        "bench additions with one-line rationale",
+        "approval check before dispatch",
+        "panel stays topic-relevant"
+      ]
+    },
+    {
+      "id": "latest-and-sourcing",
+      "prompt": "economist-council upgrade this for a stage talk with current quotes and URLs.",
+      "expected_nodes": [
+        "nodes/source-discipline.md",
+        "nodes/deep-dive.md",
+        "nodes/output-format.md"
+      ],
+      "expected_output_shape": [
+        "targeted latest lookup",
+        "sourced claims separated from extrapolations",
+        "URLs when available"
+      ]
+    }
+  ]
+}

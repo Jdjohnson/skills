@@ -1,94 +1,58 @@
 ---
 name: economist-council
+version: 1.1.0
 description: |
   Economist council for AI, labor, productivity, growth, inequality, and
   regional adaptation questions. Use when the user wants sourced convergence,
   divergence, and pushback from a standing panel before a talk, decision,
   strategy move, article, or research memo.
+argument-hint: "[AI/economy topic, framing, or rough question]"
+allowed-tools:
+  - Read
+  - Write
+  - Grep
+  - Glob
+  - WebSearch
+  - WebFetch
+  - AskUserQuestion
 ---
 
 # Economist Council
 
-Run an AI and economy question through a standing panel of economists, then synthesize where they converge, diverge, and push back.
+Run an AI-and-economy question through a standing panel of economists, then synthesize convergence, divergence, and pushback.
 
-## Fit
+## Mode Routing
 
-Use this for questions about:
+| Mode | Trigger | When | Node |
+|------|---------|------|------|
+| `intake` | default or new topic | Lock the actual question before dispatch | [[nodes/intake-lock.md]] |
+| `panel` | panel choice or scope question | Choose default or bench economists | [[nodes/panel-selection.md]] |
+| `dispatch` | confirmed topic and panel | Synthesize economist views from cache and targeted lookup | [[nodes/dispatch-synthesis.md]] |
+| `deep-dive` | "go deeper", debate, latest, quote-backed | Press one economist, disagreement, or source gap | [[nodes/deep-dive.md]] |
 
-- AI and labor
-- productivity and growth
-- inequality and distribution
-- firm adaptation
-- regional resilience
-- technological change
-- policy, measurement, or institutions
+Default mode: `intake`.
 
-Do not use it as a generic brainstorming shortcut. If the topic has no economic shape yet, clarify the topic first.
+## Core Rules
 
-## Default Panel
+1. Load [[nodes/intake-lock.md]] and [[nodes/source-discipline.md]] first.
+2. Use this for AI, labor, productivity, growth, inequality, firm adaptation, regional resilience, technological change, policy, measurement, or institutions.
+3. Do not use this as a generic brainstorming shortcut. If the topic has no economic shape yet, clarify before dispatch.
+4. Use [[nodes/panel-selection.md]] for the Big Five default panel and optional bench.
+5. Use the portable cache under `references/` before live lookup unless freshness, quotations, or recent developments matter.
+6. Do not invent quotes, publications, or positions. If a statement is inferred from a framework, label it as extrapolated.
+7. Save output only when the user asks or provides a destination.
 
-Default to the Big Five unless the user asks for a narrower or broader panel:
+## Output Contract
 
-- David Autor
-- Andrew McAfee
-- Erik Brynjolfsson
-- Daron Acemoglu
-- Philippe Aghion
+- Intake: locked question, intended output, audience, panel, and depth.
+- Dispatch: convergence, divergence, strongest pushback, practical implications, uncertainty, and one useful question back.
+- Deep dive: focused disagreement, one economist deeper, two-voice debate, or source-backed update.
 
-Optional bench:
+## Node Map
 
-- Carl Benedikt Frey
-- Anton Korinek
-- Pascual Restrepo
-- Diane Coyle
-- Michael Webb
-- Jason Furman
-- Anna Salomons
-- Joel Mokyr
-
-## Source Discipline
-
-Use `reference/*.md` as the standing cache. If a cached position is missing, either stay silent or mark the statement as an inference from the economist's known framework.
-
-For "latest", stage, publication, or quote-sensitive work, do targeted live lookup and cite current sources.
-
-Do not invent quotes, publications, or positions. Never promote a `TODO:` note from a reference file into output as if it were sourced.
-
-## Flow
-
-### 1. Lock The Question
-
-Restate:
-
-- the question
-- intended output
-- audience
-- default or requested panel
-- depth
-
-Do not dispatch the panel until the user confirms or corrects the framing.
-
-### 2. Dispatch The Panel
-
-For each approved economist, extract:
-
-- standing position on the locked topic
-- likely agreement
-- likely objection
-- what evidence they would want
-- what question they would ask back
-
-### 3. Synthesize
-
-Do not paste mini-essays back-to-back. Return:
-
-- convergence
-- divergence
-- strongest pushback
-- practical implications
-- what remains uncertain
-- one question back to the user
-
-### 4. Deepen
-
-On request, deepen one economist, stage a two-voice debate, or upgrade to a quote-backed memo.
+- [[nodes/intake-lock.md]]
+- [[nodes/panel-selection.md]]
+- [[nodes/source-discipline.md]]
+- [[nodes/dispatch-synthesis.md]]
+- [[nodes/deep-dive.md]]
+- [[nodes/output-format.md]]

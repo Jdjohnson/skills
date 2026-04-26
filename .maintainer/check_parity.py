@@ -9,7 +9,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PARITY_DIR = ROOT / ".maintainer" / "parity"
-SKILLS = ("style-guide", "writer", "brief")
+SKILLS = (
+    "style-guide",
+    "writer",
+    "brief",
+    "brainstorm",
+    "steelman",
+    "stuck",
+    "meeting-doc",
+    "economist-council",
+)
 FORBIDDEN = ("Dot", "Jarad", ".dot/", "/Users/", "Assistant", "jj-")
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
 
@@ -101,6 +110,36 @@ def validate_output_contracts(skill: str) -> None:
         for phase in ("phase-01-intake", "phase-06-draft", "phase-07-refine"):
             if phase not in text:
                 fail(f"writer missing phase route {phase}")
+    if skill == "brainstorm":
+        combined = text + (skill_root / "nodes" / "workflow.md").read_text()
+        for phrase in ("Current State", "Pressure Points", "exactly three questions"):
+            if phrase not in combined:
+                fail(f"brainstorm output contract missing {phrase}")
+    if skill == "steelman":
+        brief = (skill_root / "nodes" / "brief-output.md").read_text()
+        for header in ("The Strongest Case For", "The Strongest Case Against", "Key Assumptions"):
+            if header not in text and header not in brief:
+                fail(f"steelman output contract missing {header}")
+    if skill == "stuck":
+        wrap = (skill_root / "nodes" / "wrap.md").read_text()
+        for header in ("Primary Blocker", "Next 30 Minutes", "Win Today", "Setup For Tomorrow", "Ignore For Now"):
+            if header not in text and header not in wrap:
+                fail(f"stuck output contract missing {header}")
+    if skill == "meeting-doc":
+        for mode in ("prep", "close", "history", "review"):
+            if mode not in text:
+                fail(f"meeting-doc missing mode {mode}")
+        for header in ("What This Is", "What Happened", "Meeting History", "Meeting Review"):
+            found = header in text or any(header in node.read_text() for node in (skill_root / "nodes").glob("*.md"))
+            if not found:
+                fail(f"meeting-doc output contract missing {header}")
+    if skill == "economist-council":
+        combined = text + (skill_root / "nodes" / "output-format.md").read_text()
+        for header in ("Convergence", "Divergence", "Strongest Pushback"):
+            if header not in combined:
+                fail(f"economist-council output contract missing {header}")
+        if "references/" not in text and "references/" not in (skill_root / "nodes" / "source-discipline.md").read_text():
+            fail("economist-council missing references cache rule")
 
 
 def main() -> None:
