@@ -1,0 +1,36 @@
+{
+  "name": "portable-ai-skills",
+  "version": "1.0.0",
+  "description": "Portable AI skills and thinking prompts",
+  "homepage": "https://github.com/Jdjohnson/skills",
+  "keywords": [
+    "skills",
+    "prompts",
+    "thinking",
+    "brainstorm",
+    "steelman",
+    "run",
+    "codex",
+    "claude-code"
+  ],
+  "author": {
+    "name": "Jarad Johnson",
+    "url": "https://github.com/Jdjohnson"
+  },
+  "repository": "https://github.com/Jdjohnson/skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Portable AI Skills",
+    "shortDescription": "Brainstorm, steelman, and run skills",
+    "longDescription": "A small collection of portable AI skills for thinking work and larger supervised workflows.",
+    "developerName": "Jarad Johnson",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/Jdjohnson/skills",
+    "defaultPrompt": [
+      "Use brainstorm, steelman, or run for the current thinking task."
+    ],
+    "brandColor": "#1F4D3D"
+  }
+}

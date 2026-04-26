@@ -1,0 +1,4 @@
+.git/
+.claude-plugin/
+commands/
+skills/run/tests/
