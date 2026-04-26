@@ -1,15 +1,15 @@
 {
   "name": "portable-ai-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Portable AI skills and thinking prompts",
   "homepage": "https://github.com/Jdjohnson/skills",
   "keywords": [
     "skills",
     "prompts",
     "thinking",
-    "brainstorm",
-    "steelman",
-    "run",
+    "writing",
+    "research",
+    "meetings",
     "codex",
     "claude-code"
   ],
@@ -22,15 +22,29 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Portable AI Skills",
-    "shortDescription": "Brainstorm, steelman, and run skills",
-    "longDescription": "A small collection of portable AI skills for thinking work and larger supervised workflows.",
+    "shortDescription": "Reusable thinking, writing, meeting, and research skills",
+    "longDescription": "A collection of portable AI skills for structured thinking, writing, meeting preparation, and larger supervised workflows.",
     "developerName": "Jarad Johnson",
     "category": "Productivity",
-    "capabilities": ["Interactive", "Write"],
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
     "websiteURL": "https://github.com/Jdjohnson/skills",
     "defaultPrompt": [
-      "Use brainstorm, steelman, or run for the current thinking task."
+      "Use one of these portable skills for the current thinking, writing, meeting, research, or workflow task."
     ],
-    "brandColor": "#1F4D3D"
+    "brandColor": "#1F4D3D",
+    "skills": [
+      "brainstorm",
+      "steelman",
+      "run",
+      "brief",
+      "stuck",
+      "writer",
+      "style-guide",
+      "meeting-doc",
+      "economist-council"
+    ]
   }
 }
