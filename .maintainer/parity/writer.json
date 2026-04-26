@@ -1,0 +1,46 @@
+{
+  "skill": "writer",
+  "cases": [
+    {
+      "id": "brain-dump-start",
+      "prompt": "writer [brain dump]",
+      "expected_nodes": [
+        "nodes/workflow.md",
+        "nodes/phase-01-intake.md",
+        "nodes/phase-02-goal.md",
+        "nodes/phase-03-extract.md",
+        "nodes/phase-05-structure.md",
+        "nodes/phase-06-draft.md"
+      ],
+      "expected_output_shape": [
+        "working brief",
+        "reader goal",
+        "draft"
+      ]
+    },
+    {
+      "id": "just-draft-it",
+      "prompt": "writer just draft it from this topic",
+      "expected_nodes": [
+        "nodes/workflow.md",
+        "nodes/phase-06-draft.md"
+      ],
+      "expected_output_shape": [
+        "draft",
+        "assumptions or remaining choices"
+      ]
+    },
+    {
+      "id": "humanize",
+      "prompt": "writer humanize this draft",
+      "expected_nodes": [
+        "nodes/workflow.md",
+        "nodes/phase-07-refine.md"
+      ],
+      "expected_output_shape": [
+        "revised copy",
+        "notes"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 .git/
 .claude-plugin/
 commands/
+.maintainer/
 skills/run/tests/
