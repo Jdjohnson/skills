@@ -1,7 +1,7 @@
 interface:
   display_name: "ChatGPT Orders"
-  short_description: "Route ChatGPT Deep Research, Agent, and Pro review into explicit orders"
-  default_prompt: "Use $chatgpt to decide whether this should stay local or become a ChatGPT order, then draft the right order."
+  short_description: "Route ChatGPT Deep Research, Agent, and Pro review into bounded orders"
+  default_prompt: "Use $chatgpt to decide whether this should stay local or become a ChatGPT order, then place or package the right order."
 
 policy:
   allow_implicit_invocation: true

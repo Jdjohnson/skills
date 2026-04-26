@@ -13,6 +13,9 @@ Use this node first when the lane is not already explicit.
 4. If the task needs browser reach beyond the local agent's tools, choose [[lane-agent.md]].
 5. If the task needs a second opinion, prep pass, counterarguments, or hardening review and there is time for another model pass, choose [[lane-pro-review.md]].
 6. If local tools or subagents can finish faster and safer, return `Keep Local`.
+7. For any selected ChatGPT lane, choose an execution path:
+   - Use [[direct-placement.md]] when the host exposes browser control and it can be used without new credentials, payment, consent, or unsafe side effects.
+   - Use [[fallback-packet.md]] when direct placement is unavailable, blocked, unsafe, or explicitly not wanted.
 
 ## Keep Local Rule
 
