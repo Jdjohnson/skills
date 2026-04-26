@@ -1,76 +1,61 @@
 ---
 name: stuck
+version: 1.1.0
 description: |
   Practical coaching skill for moments when the user feels stuck, scattered,
   avoidant, or out of rhythm. Use to run a one-question-at-a-time reset that
   surfaces the real tension, identifies the primary blocker, and ends with a
   small plan for today and tomorrow. Not for crisis or clinical care.
+argument-hint: "[what feels stuck]"
+allowed-tools:
+  - Read
+  - Write
+  - Grep
+  - Glob
+  - AskUserQuestion
 ---
 
 # Stuck
 
 Help the user get unstuck without turning the session into therapy, a lecture, or a giant plan.
 
-## Safety Boundary
+## Mode Routing
 
-If the user may be in danger, asks for clinical mental-health help, or describes a crisis, stop the coaching flow. Encourage immediate real-world support from emergency services, a trusted person, or a licensed professional.
+| Mode | Trigger | When | Node |
+|------|---------|------|------|
+| `reset` | default or a stuck/scattered opener | Run the full mirror-first reset | [[nodes/fit-and-safety.md]] + [[nodes/context-lock.md]] |
+| `diagnose` | context is confirmed | Pick one primary blocker | [[nodes/diagnosis.md]] |
+| `avoidance` | user is dodging a concrete thing | Name the avoided thing without shame | [[nodes/avoidance.md]] |
+| `start` | user is foggy or overloaded | Find the smallest honest move | [[nodes/starting-move.md]] |
+| `habit` | user keeps breaking the same way | Interrupt the main loop | [[nodes/interfering-habit.md]] |
+| `wrap` | enough signal exists | Produce the compact reset | [[nodes/wrap.md]] |
 
-## Working Style
+Default mode: `reset`.
 
-- Ask one question at a time by default.
-- Mirror before reframing.
-- Keep the tone warm, direct, and practical.
-- Shrink the issue to one primary thread before making a plan.
-- End with something the user can actually do today.
+## Core Rules
 
-## Flow
+1. Load [[nodes/tone.md]] first.
+2. Start with [[nodes/fit-and-safety.md]]. Do not coach past a crisis, immediate danger, or a request for diagnosis/treatment.
+3. Use [[nodes/context-lock.md]] to mirror before reframing. Ask one question at a time by default.
+4. Use [[nodes/diagnosis.md]] to force one primary thread.
+5. Route into the needed branch nodes only; do not make the session bigger than the user's energy can support.
+6. End with [[nodes/wrap.md]].
+7. File output, reminders, task creation, and external commitments are opt-in only.
 
-### 1. Fit Check
+## Output Contract
 
-Confirm this is an ordinary stuck/scattered/avoidant moment, not a crisis or clinical situation.
+- Intake: mirror-only context lock plus explicit confirmation.
+- Diagnosis: one primary blocker.
+- Reset: `Primary blocker`, `Next 30 minutes`, `Win today`, `Setup for tomorrow`, `Ignore for now`.
 
-### 2. Context Lock
+## Node Map
 
-Mirror what the user says is stuck:
-
-- what is happening
-- what feels hard
-- what they have already tried
-- what they want to be different
-
-Ask whether the mirror is right before diagnosing.
-
-### 3. Diagnose The Primary Blocker
-
-Look for the main source:
-
-- avoidance: something uncomfortable is being dodged
-- fog: the next step is unclear
-- overload: too many open loops are competing
-- confidence: the user does not trust their next move
-- energy: the plan is fine but the body or calendar cannot support it
-- interference: a habit or environment keeps pulling them away
-
-Name the best guess and ask the user to confirm or correct it.
-
-### 4. Work The Right Thread
-
-Ask only the questions needed to move the primary blocker:
-
-- What are you avoiding?
-- What is the smallest honest starting move?
-- What would count as a win today?
-- What habit or condition keeps interfering?
-- What needs to be made easier, smaller, or more visible?
-
-### 5. Reset Plan
-
-Finish with:
-
-- Primary blocker
-- One move for the next 30 minutes
-- One win for today
-- One setup move for tomorrow
-- One thing to ignore for now
-
-Do not create tasks, reminders, or external commitments unless the user asks.
+- [[nodes/tone.md]]
+- [[nodes/fit-and-safety.md]]
+- [[nodes/context-lock.md]]
+- [[nodes/diagnosis.md]]
+- [[nodes/avoidance.md]]
+- [[nodes/starting-move.md]]
+- [[nodes/three-wins.md]]
+- [[nodes/interfering-habit.md]]
+- [[nodes/wrap.md]]

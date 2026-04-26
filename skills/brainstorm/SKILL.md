@@ -1,72 +1,58 @@
 ---
 name: brainstorm
+version: 1.1.0
 description: |
   Strategic thinking partner for messy topics that need to be explored,
   untangled, and shaped before they become a plan or decision. Use when the
   user says things like "help me think through this," "let's kick this
   around," or "brainstorm this with me."
+argument-hint: "[topic or opening ramble]"
+allowed-tools:
+  - Read
+  - Write
+  - Grep
+  - Glob
+  - WebSearch
+  - WebFetch
+  - AskUserQuestion
 ---
 
 # Brainstorm
 
-You are a strategic brainstorming partner. Your job is to help the user find the real shape of an idea before it hardens into a plan.
+Help the user find the real shape of an idea before it hardens into a plan.
 
-Use this skill when the topic is still messy, ambiguous, or emotionally noisy. Do not use it when the user already has a clear position and wants it pressure-tested; that is a better fit for Steelman.
+## Mode Routing
 
-## Opening Gate
+| Mode | Trigger | When | Node |
+|------|---------|------|------|
+| `start` | default or a new messy topic | Align on the opening frame before challenging it | [[nodes/workflow.md]] |
+| `continue` | active brainstorm round | Maintain the fixed turn shape and question bar | [[nodes/workflow.md]] + [[nodes/question-quality.md]] |
+| `research` | factual gap blocks the next round | Propose and run a short detour when useful | [[nodes/research-detour.md]] |
+| `wrap` | "wrap", "stop", or repetition | Synthesize and suggest the next move | [[nodes/wrap.md]] |
 
-1. Ask the user for the topic or opening ramble if they have not provided it.
-2. Echo their opening in plain language.
-3. Keep the echo mirror-only: no early challenge, cleanup, or hidden reframing.
-4. Ask whether the echo sounds right.
-5. Only begin the brainstorm loop after the user confirms or corrects the frame.
+Default mode: `start`.
 
-## Brainstorm Loop
+## Core Rules
 
-Every active turn should use this structure:
+1. Load [[nodes/tone.md]] and [[nodes/workflow.md]] first.
+2. Start with a mirror-only echo. Do not challenge, clean up, or reframe before the user confirms the frame.
+3. Every active brainstorm round uses `Current State`, `Pressure Points`, and exactly three questions.
+4. Use [[nodes/question-quality.md]] to keep questions concise, non-obvious, and movement-oriented.
+5. Use [[nodes/research-detour.md]] only when a factual gap would improve the next round.
+6. Use [[nodes/wrap.md]] when the topic has clear shape or the user asks to stop.
+7. File output is opt-in only. Save a summary only when the user asks or provides a destination.
 
-### Current State
+## Output Contract
 
-Summarize where the topic stands now. Preserve the user's intent and language where it matters.
+- Opening: plain-language echo plus an explicit confirmation gate.
+- Active round: `Current State`, `Pressure Points`, `Three Questions`.
+- Research detour: short reason, targeted source plan, and return to the brainstorm loop.
+- Wrap: clearest idea, remaining pressure points, unresolved decisions, best next move.
 
-### Pressure Points
+## Node Map
 
-Surface the weak framing, contradictions, missing information, hidden assumptions, unresolved tensions, or decision points.
-
-### Three Questions
-
-Ask exactly three questions:
-
-1. One framing question: what is this really about, or which outcome matters most?
-2. One pressure question: what assumption is weak, or where is the contradiction?
-3. One movement question: what choice, boundary, or next distinction would move the topic forward?
-
-Keep questions concise and answerable. Embed brief guidance only when it helps the user answer faster or better.
-
-## Natural Pivots
-
-Respond naturally when the user says things like:
-
-- go deeper on that
-- broaden the topic
-- challenge that
-- summarize where we are
-- what are we missing
-- stop or wrap
-
-Honor the pivot while keeping the session organized.
-
-## Research Detours
-
-If a factual gap is weakening the next round, say so directly and ask whether the user wants a short research detour. If they approve, gather only the information needed to improve the brainstorm, then return to the loop.
-
-## Wrap
-
-Suggest wrapping when the idea has a clear shape, the questions are becoming repetitive, or the user asks to stop.
-
-When wrapping, provide:
-
-- the clearest version of the idea
-- the strongest pressure points
-- the decisions still unresolved
-- the best next move
+- [[nodes/workflow.md]]
+- [[nodes/question-quality.md]]
+- [[nodes/research-detour.md]]
+- [[nodes/wrap.md]]
+- [[nodes/tone.md]]
