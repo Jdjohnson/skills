@@ -1,12 +1,13 @@
 ---
 name: run
-version: 1.0.0
+version: 1.1.0
 description: |
   Plan and run larger projects through a guided session, a structured
   blueprint, and a portable runner. Use when the work is too large or fuzzy
   for a single prompt and needs clear steps, tool routing, status checks, and
-  resume support.
-argument-hint: "[session | status | resume]"
+  resume support. Use `harden` when an existing thesis, argument, draft, or
+  plan needs a bounded verify/revise run before use.
+argument-hint: "[session | harden | status | resume]"
 allowed-tools:
   - Read
   - Write
@@ -40,6 +41,7 @@ The `run` planner handles the planning layer. The `run-workflow` CLI handles exe
 | Mode | Trigger | When | Node |
 |------|---------|------|------|
 | `session` | `/run` or `/run session` | Shape a high-trust, launch-ready run package | [[nodes/session.md]] |
+| `harden` | `/run harden` | Shape a verify/revise run for an existing thesis, argument, draft, or plan | [[nodes/harden.md]] |
 | `status` | `/run status` | Check progress on a running project | [[nodes/status.md]] |
 | `resume` | `/run resume` | Adjust and continue a stalled project | [[nodes/resume.md]] |
 
@@ -69,14 +71,17 @@ The planner does not auto-launch the work. It stops at a launch-ready package un
    - [[_shared/nodes/output-discipline.md]]
    - [[nodes/safety.md]]
 2. Determine mode from the command argument. No argument means `session`.
-3. Use [[nodes/blueprint-schema.md]] as the source of truth for `blueprint.json`.
-4. Keep the output user-facing and practical. Assume the person using this workflow is seeing it for the first time unless the conversation says otherwise.
+3. Use `session` for a new project/run package.
+4. Use `harden` only when the user already has a thesis, argument, claim, draft, or plan to strengthen. If the seed is too foggy to state as a one-sentence thesis, route to `steelman` first.
+5. Use [[nodes/blueprint-schema.md]] as the source of truth for `blueprint.json`.
+6. After `session`, `harden`, or `resume` writes or updates `blueprint.json`, use [[nodes/runner-handoff.md]] for the command handoff.
+7. Keep the output user-facing and practical. Assume the person using this workflow is seeing it for the first time unless the conversation says otherwise.
 
 ---
 
 ## Runner Commands
 
-After `session` or `resume` writes or updates `blueprint.json`, present these commands:
+After `session`, `harden`, or `resume` writes or updates `blueprint.json`, present the small command set from [[nodes/runner-handoff.md]]:
 
 **Validate the package**
 ```bash
@@ -95,50 +100,12 @@ run-workflow --follow <path-to-blueprint.json>
 
 `--follow` polls every 2 seconds by default. Override with `RUN_STATUS_POLL_SECONDS=<seconds>` when needed.
 
-**Standard launch mode**
+**Recommended launch mode**
 ```bash
-run-workflow --launch-mode standard <path-to-blueprint.json>
+run-workflow --launch-mode <recommended-mode> <path-to-blueprint.json>
 ```
 
-**Adaptive launch mode**
-```bash
-run-workflow --launch-mode adaptive <path-to-blueprint.json>
-```
-
-**Expansion launch mode**
-```bash
-run-workflow --launch-mode expansion <path-to-blueprint.json>
-```
-
-**Legacy supervised compatibility**
-```bash
-run-workflow --supervised <path-to-blueprint.json>
-```
-
-**Resume last blueprint path**
-```bash
-run-workflow --resume-last
-```
-
-**Watch mode**
-```bash
-run-workflow --watch <path-to-blueprint.json>
-```
-
-**Dry run**
-```bash
-run-workflow --dry-run <path-to-blueprint.json>
-```
-
-**Autonomy profile override**
-```bash
-run-workflow --autonomy-profile max <path-to-blueprint.json>
-```
-
-**Codex service-tier override**
-```bash
-run-workflow --codex-service-tier fast <path-to-blueprint.json>
-```
+Default to one recommended launch command. Mention alternate launch modes only when the recommendation is genuinely close or the user asks.
 
 The shared operator contract for both Codex and Claude Code is `run-workflow --status` and `run-workflow --follow`. They read `run-state.json`, `events.jsonl`, `blockers.jsonl`, and step attempt logs first, then fall back to `progress.md` and `blockers.md` for older run directories.
 
@@ -170,6 +137,8 @@ If the user is new, explain the workflow in those terms instead of assuming prio
 - [[nodes/blueprint-schema.md]]
 - [[nodes/safety.md]]
 - [[nodes/session.md]]
+- [[nodes/harden.md]]
+- [[nodes/runner-handoff.md]]
 - [[nodes/status.md]]
 - [[nodes/resume.md]]
 

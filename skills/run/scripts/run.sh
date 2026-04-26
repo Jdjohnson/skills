@@ -7,7 +7,7 @@ set -euo pipefail
 ##############################################################################
 # Config
 ##############################################################################
-VERSION="1.0.0"
+VERSION="1.1.0"
 CANONICAL_RUNNER_CMD="run-workflow"
 LEGACY_RUNNER_ALIAS="run-skill"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -1082,6 +1082,15 @@ elif status == "interrupted":
 elif status == "recovering":
     next_action = "Wait for recovery to finish unless the active attempt log shows a dead end."
 
+completion_notes = []
+if any((step.get("_attempts") or 0) > 1 for step in steps):
+    completion_notes.append("one or more steps needed retries")
+if any((step.get("_recovery_attempts") or 0) > 0 for step in steps) or recovery_active:
+    completion_notes.append("auto-recovery was used")
+if any(step.get("_last_failure") for step in steps):
+    completion_notes.append("a prior failure was recorded before the final state")
+completion_notes_summary = "; ".join(dict.fromkeys(completion_notes))
+
 terminal_outcome = ""
 terminal_outcome_display = ""
 if terminal:
@@ -1089,6 +1098,9 @@ if terminal:
         if counts["skipped"] > 0:
             terminal_outcome = "completed_with_skips"
             terminal_outcome_display = "Completed With Skips"
+        elif completion_notes_summary:
+            terminal_outcome = "completed_with_friction"
+            terminal_outcome_display = "Completed With Friction"
         else:
             terminal_outcome = "completed_cleanly"
             terminal_outcome_display = "Completed Cleanly"
@@ -1147,6 +1159,7 @@ snapshot = {
     "next_action": next_action,
     "inspect_artifact": inspect_artifact,
     "inspect_artifact_reason": inspect_artifact_reason,
+    "completion_notes": completion_notes_summary,
     "terminal_outcome": terminal_outcome,
     "terminal_outcome_display": terminal_outcome_display,
     "completion_summary_path": str(completion_summary_path.resolve()) if completion_summary_path.exists() else "",
@@ -1207,6 +1220,9 @@ if snapshot.get("retry_summary"):
 recovery = snapshot.get("recovery", {})
 if recovery.get("summary"):
     lines.append(f"Recovery: {recovery['summary']}")
+
+if snapshot.get("completion_notes"):
+    lines.append(f"Completion notes: {snapshot['completion_notes']}")
 
 if snapshot.get("latest_event"):
     lines.append("")
@@ -1375,7 +1391,7 @@ noise_re = re.compile(
     r"Auth\(TokenRefreshFailed\(\"Server returned error response: invalid_grant: Invalid refresh token\"\)\))"
 )
 pollution_re = re.compile(
-    r"(^Sent:\s|^To:\s|^Subject:\s|knowledge-base/centralized-kb|^/Users/.+:\d+:Subject:)"
+    r"(^Sent:\s|^To:\s|^Subject:\s|knowledge-base/centralized-kb|^/(?:[^:\n]+/)+[^:\n]+:\d+:Subject:)"
 )
 non_noise_lines = []
 for raw_line in text.splitlines():
@@ -2439,6 +2455,7 @@ outcome = snapshot.get("terminal_outcome_display") or snapshot.get("status_displ
 latest_event = snapshot.get("latest_event", "")
 latest_blocker = snapshot.get("latest_blocker", "")
 next_action = snapshot.get("next_action", "")
+completion_notes = snapshot.get("completion_notes", "")
 
 lines = [
     f"Run {outcome.lower()}: {project}",
@@ -2457,14 +2474,17 @@ elif latest_event:
 if next_action:
     lines.append(f"Next: {next_action}")
 
+if completion_notes:
+    lines.append(f"Notes: {completion_notes}")
+
 lines.append(f"Summary: {summary_path}")
 print("\n".join(lines))
 PY
 }
 
 append_completion_notification_log() {
-  local ts="$1" request_id="$2" terminal_outcome="$3" summary_display="$4" to="$5"
-  local body="$6" status="$7" note="$8" helper_name="$9" error_msg="${10}" transport_json="${11}"
+  local ts="$1" request_id="$2" terminal_outcome="$3" completion_notes="$4" summary_display="$5" to="$6"
+  local body="$7" status="$8" note="$9" helper_name="${10}" error_msg="${11}" transport_json="${12}"
 
   mkdir -p "$(dirname "$COMPLETION_NOTIFICATIONS_FILE")"
 
@@ -2474,6 +2494,7 @@ append_completion_notification_log() {
     --arg run_id "$(basename "$PROJECT_DIR")" \
     --arg project_dir "$(display_path_for_review "$PROJECT_DIR")" \
     --arg terminal_outcome "$terminal_outcome" \
+    --arg completion_notes "$completion_notes" \
     --arg summary_path "$summary_display" \
     --arg to "$to" \
     --arg body "$body" \
@@ -2489,6 +2510,7 @@ append_completion_notification_log() {
       run_id: $run_id,
       project_dir: $project_dir,
       terminal_outcome: $terminal_outcome,
+      completion_notes: $completion_notes,
       summary_path: $summary_path,
       to: $to,
       body: $body,
@@ -2508,7 +2530,7 @@ notify_completion_if_needed() {
   enabled=$(completion_notify_enabled)
   [[ "$enabled" == "true" ]] || return 0
 
-  local to summary_display request_id notify_ts terminal_outcome body note helper_name
+  local to summary_display request_id notify_ts terminal_outcome completion_notes body note helper_name
   to=$(get_completion_notify_to)
   summary_display=$(display_path_for_review "$COMPLETION_SUMMARY_FILE")
   request_id=$(generate_completion_request_id)
@@ -2518,6 +2540,13 @@ import json
 import sys
 snapshot = json.loads(sys.argv[1])
 print(snapshot.get("terminal_outcome") or snapshot.get("status", "unknown"))
+PY
+)
+  completion_notes=$(python3 - "$snapshot_json" <<'PY'
+import json
+import sys
+snapshot = json.loads(sys.argv[1])
+print(snapshot.get("completion_notes") or "")
 PY
 )
   body=$(build_completion_sms_body "$snapshot_json" "$summary_display")
@@ -2534,13 +2563,13 @@ PY
       transport_json=$(echo "$helper_output" | jq -c .)
     fi
     append_completion_notification_log \
-      "$notify_ts" "$request_id" "$terminal_outcome" "$summary_display" "$to" \
+      "$notify_ts" "$request_id" "$terminal_outcome" "$completion_notes" "$summary_display" "$to" \
       "$body" "notified" "$note" "$helper_name" "" "$transport_json"
     emit_event "completion_notify" "" "sent" "request_id=${request_id};to=${to};outcome=${terminal_outcome}"
   else
     helper_error=$(tail -20 "$helper_stderr" | tr '\n' ' ' | sed 's/[[:space:]]\+/ /g; s/[[:space:]]$//')
     append_completion_notification_log \
-      "$notify_ts" "$request_id" "$terminal_outcome" "$summary_display" "$to" \
+      "$notify_ts" "$request_id" "$terminal_outcome" "$completion_notes" "$summary_display" "$to" \
       "$body" "send_failed" "$note" "$helper_name" "$helper_error" "$transport_json"
     emit_event "completion_notify" "" "failed" "request_id=${request_id};outcome=${terminal_outcome};${helper_error}"
   fi
@@ -3544,6 +3573,9 @@ lines = [
 
 if summary_path.exists():
     lines.append(f"- Terminal summary: `{summary_path}`")
+
+if snapshot.get("completion_notes"):
+    lines.append(f"- Completion notes: {snapshot['completion_notes']}")
 
 lines.append("")
 lines.append("## What Shipped")

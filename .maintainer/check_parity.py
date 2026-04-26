@@ -18,6 +18,8 @@ SKILLS = (
     "stuck",
     "meeting-doc",
     "economist-council",
+    "chatgpt",
+    "run",
 )
 FORBIDDEN = ("Dot", "Jarad", ".dot/", "/Users/", "Assistant", "jj-")
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
@@ -140,6 +142,61 @@ def validate_output_contracts(skill: str) -> None:
                 fail(f"economist-council output contract missing {header}")
         if "references/" not in text and "references/" not in (skill_root / "nodes" / "source-discipline.md").read_text():
             fail("economist-council missing references cache rule")
+    if skill == "chatgpt":
+        if (skill_root / "tests").exists():
+            fail("chatgpt public skill folder must not contain tests")
+        if not (skill_root / "scripts" / "build_desktop_packet.py").exists():
+            fail("chatgpt missing fallback packet helper script")
+        combined = text
+        for node in (
+            "selector.md",
+            "trust-boundary.md",
+            "direct-placement.md",
+            "fallback-packet.md",
+            "lane-deep-research.md",
+            "lane-agent.md",
+            "lane-pro-review.md",
+        ):
+            path = skill_root / "nodes" / node
+            if not path.exists():
+                fail(f"chatgpt missing node {node}")
+            combined += path.read_text()
+        for phrase in (
+            "Keep Local",
+            "Execution path",
+            "Files/context to include",
+            "Copy/paste order",
+            "What to bring back",
+            "Result handling",
+            "20",
+        ):
+            if phrase not in combined:
+                fail(f"chatgpt output contract missing {phrase}")
+    if skill == "run":
+        if (skill_root / "tests").exists():
+            fail("run public skill folder must not contain tests")
+        for node in ("session.md", "harden.md", "status.md", "resume.md", "runner-handoff.md", "blueprint-schema.md"):
+            if not (skill_root / "nodes" / node).exists():
+                fail(f"run missing node {node}")
+        combined = text
+        for node in (skill_root / "nodes").glob("*.md"):
+            combined += node.read_text()
+        for mode in ("session", "harden", "status", "resume"):
+            if mode not in text:
+                fail(f"run missing mode {mode}")
+        for phrase in (
+            "run-workflow --validate",
+            "run-workflow --status",
+            "run-workflow --follow",
+            "one recommended launch command",
+            "blueprint.json",
+            "session.md",
+            "progress.md",
+            "completion-recap.md",
+            "Completed With Friction",
+        ):
+            if phrase not in combined:
+                fail(f"run output contract missing {phrase}")
 
 
 def main() -> None:

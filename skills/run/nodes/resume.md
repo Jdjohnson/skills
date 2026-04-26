@@ -58,23 +58,17 @@ Assume the user may not know how `run` packages work yet. Briefly explain what i
    # Validate the updated package before launch
    run-workflow --validate <path>/blueprint.json
 
-   # Standard: run the approved plan and stop on failure or blocker
-   run-workflow --launch-mode standard <path>/blueprint.json
+   # Check status without launching
+   run-workflow --status <path>/blueprint.json
 
-   # Adaptive: fixed scope, bounded blocker removal, restart on disruption or timeout
-   run-workflow --launch-mode adaptive <path>/blueprint.json
+   # Follow the run live after launch
+   run-workflow --follow <path>/blueprint.json
 
-   # Expansion: adaptive behavior plus bounded step creation during execution
-   run-workflow --launch-mode expansion <path>/blueprint.json
-
-   # Legacy supervised compatibility
-   run-workflow --supervised <path>/blueprint.json
-
-   # Watch mode
-   run-workflow --watch <path>/blueprint.json
+   # Recommended launch mode
+   run-workflow --launch-mode <recommended-mode> <path>/blueprint.json
    ```
 
-   Use the launch-mode ladder as the preferred handoff. Treat `--supervised` as legacy compatibility.
+   Use one recommended launch command by default. Treat `--watch` and `--supervised` as advanced or compatibility options.
    If the run stopped in `Incomplete / Blocked`, describe the blocker in the same terms the shared status surface uses before proposing a resume path.
    Recommend the next command in plain English instead of only pasting the command block.
 
@@ -95,4 +89,4 @@ Assume the user may not know how `run` packages work yet. Briefly explain what i
 
 - Updated `blueprint.json`
 - Resume entry appended to `progress.md`
-- Launch package presented with `--validate` plus `standard`, `adaptive`, and `expansion` commands
+- Launch package presented with `--validate`, `--status`, `--follow`, and one recommended launch command

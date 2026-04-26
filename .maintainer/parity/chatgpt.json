@@ -1,8 +1,8 @@
 {
   "skill": "chatgpt",
-  "parity_goal": "Turn explicit ChatGPT requests into clear orders while keeping the local agent canonical and ChatGPT returns clearly bounded.",
-  "behavior_signature_before": "Ambient ChatGPT policy spread across prompts or docs with no dedicated routing surface.",
-  "behavior_signature_after": "Node-first ChatGPT router with explicit order phrasing, lane selection, and preserved trust boundary.",
+  "parity_goal": "Turn explicit ChatGPT requests into clear orders while keeping local work canonical and ChatGPT returns clearly bounded.",
+  "behavior_signature_before": "Node-first order router with manual copy/paste orders only.",
+  "behavior_signature_after": "Portable order router with Keep Local, lane selection, host-supported direct placement, and fallback order packet support.",
   "cases": [
     {
       "id": "deep-research-order",
@@ -10,14 +10,19 @@
       "expected_nodes": [
         "nodes/trust-boundary.md",
         "nodes/selector.md",
+        "nodes/direct-placement.md",
+        "nodes/fallback-packet.md",
         "nodes/lane-deep-research.md"
       ],
       "expected_output_shape": [
         "chatgpt deep research order title",
         "why this lane",
+        "execution path",
         "files/context to include",
+        "required chatgpt connectors/apps",
         "copy/paste order",
-        "what to bring back"
+        "what to bring back",
+        "result handling"
       ]
     },
     {
@@ -26,11 +31,15 @@
       "expected_nodes": [
         "nodes/trust-boundary.md",
         "nodes/selector.md",
+        "nodes/direct-placement.md",
+        "nodes/fallback-packet.md",
         "nodes/lane-agent.md"
       ],
       "expected_output_shape": [
         "chatgpt agent order title",
         "why this lane",
+        "execution path",
+        "files/context to include",
         "copy/paste order",
         "what to bring back"
       ]
@@ -41,11 +50,14 @@
       "expected_nodes": [
         "nodes/trust-boundary.md",
         "nodes/selector.md",
+        "nodes/direct-placement.md",
+        "nodes/fallback-packet.md",
         "nodes/lane-pro-review.md"
       ],
       "expected_output_shape": [
         "chatgpt pro review order title",
         "stress-test framing",
+        "execution path",
         "copy/paste order",
         "what to bring back"
       ]

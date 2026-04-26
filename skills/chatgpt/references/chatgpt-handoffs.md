@@ -13,9 +13,10 @@ The local agent stays canonical. ChatGPT is a delegated surface for leverage, no
 ## Default Loop
 
 1. The local agent chooses the lane and drafts the prompt.
-2. The user runs it in ChatGPT.
-3. The user brings back the full response plus any artifacts, links, IDs, or copied outputs.
-4. The local agent reconciles the result, verifies where needed, and writes the durable result into the workspace.
+2. If the host supports direct ChatGPT placement, the local agent places the order and captures the result or waiting state.
+3. If direct placement is unavailable or unsuitable, the user runs the copy/paste order or upload packet in ChatGPT.
+4. The full response plus artifacts, links, IDs, or copied outputs come back to the local agent.
+5. The local agent reconciles the result, verifies where needed, and writes the durable result into the workspace.
 
 If the task is simple, local, or time-sensitive, do it locally instead of handing it off.
 
@@ -153,6 +154,6 @@ Return format:
 
 ## Return Rule
 
-The user should bring back the full ChatGPT response, not just a summary, unless the response is too large to paste. If it is too large, bring back the highest-signal sections plus a note about what was omitted.
+For fallback orders, the user should bring back the full ChatGPT response, not just a summary, unless the response is too large to paste. If it is too large, bring back the highest-signal sections plus a note about what was omitted.
 
 The local agent is responsible for turning returned ChatGPT output into the local, durable result.

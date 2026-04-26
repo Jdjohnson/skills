@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-REPO_ROOT="$(cd "${SCRIPT_DIR}/../../.." && pwd)"
+REPO_ROOT="$(cd "${SCRIPT_DIR}/../.." && pwd)"
 RUNNER="${REPO_ROOT}/skills/run/scripts/run.sh"
 WORK_ROOT="$(mktemp -d "${TMPDIR:-/tmp}/run-workflow-regression.XXXXXX")"
 

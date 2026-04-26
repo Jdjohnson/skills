@@ -49,7 +49,8 @@ Assume the user may be seeing these artifacts for the first time. Explain the cu
    - Expect the rendered surface to call out the active attempt budget, recovery state, latest blocker, and `Inspect next` artifact when those signals exist.
    - `Recovering` means the runner is still trying to self-heal inside the configured bounded recovery path.
    - `Incomplete / Blocked` or exhausted attempt/recovery language means the run has stopped and needs a human decision before continuing.
-   - `Completed Cleanly` and `Completed With Skips` are the terminal outcome labels to repeat back.
+   - `Completed Cleanly`, `Completed With Friction`, and `Completed With Skips` are the terminal outcome labels to repeat back.
+   - `Completed With Friction` means the run finished successfully after retries, recovery, rerouting, or another bounded intervention. Include the `Completion notes:` line when present.
    - The live follow mode stops cleanly when the run reaches a terminal state instead of tailing forever.
    - Terminal runs also persist the same outcome summary to `completion-summary.txt` and a recap-ready artifact to `completion-recap.md` in the run directory.
    - When the recap artifact exists, the shared surface should point `Inspect next` at `completion-recap.md`; use that as the first read when someone needs a finished-run recap.

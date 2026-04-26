@@ -139,9 +139,9 @@ Run each stage in order. Pause for input anywhere uncertainty materially changes
    - update `session.md` to its locked current-truth state
 3. Present the launch layer:
    - validation command
-   - `standard` launch command
-   - `adaptive` launch command
-   - `expansion` launch command
+   - status command
+   - follow command
+   - one recommended launch command
 4. Explain the ladder in plain English:
    - `standard`: run the approved plan and stop on failure or blocker
    - `adaptive`: fixed scope, bounded blocker removal, restart on disruption or timeout
@@ -216,19 +216,19 @@ Write this layer for a general reader who is encountering the run for the first 
 # Validate the package before launch
 run-workflow --validate <path>/blueprint.json
 
-# Standard: run the approved plan and stop on failure or blocker
-run-workflow --launch-mode standard <path>/blueprint.json
+# Check status without launching
+run-workflow --status <path>/blueprint.json
 
-# Adaptive: fixed scope, bounded blocker removal, restart on disruption or timeout
-run-workflow --launch-mode adaptive <path>/blueprint.json
+# Follow the run live after launch
+run-workflow --follow <path>/blueprint.json
 
-# Expansion: adaptive behavior plus bounded step creation during execution
-run-workflow --launch-mode expansion <path>/blueprint.json
+# Recommended launch mode
+run-workflow --launch-mode <recommended-mode> <path>/blueprint.json
 ```
 
 Close with a plain-language explanation of which launch mode you recommend and why.
 
-Use the `standard` / `adaptive` / `expansion` ladder as the primary handoff. Mention `--supervised` only as legacy compatibility.
+Use exactly one recommended launch command in the default handoff. Mention alternate launch modes only when the recommendation is genuinely close or the user asks.
 
 ---
 
@@ -237,4 +237,4 @@ Use the `standard` / `adaptive` / `expansion` ladder as the primary handoff. Men
 - `session.md` created early and updated throughout planning
 - `blueprint.json` written at lock time
 - `progress.md` initialized at lock time
-- final launch package presented with `--validate` plus `standard`, `adaptive`, and `expansion` commands
+- final launch package presented with `--validate`, `--status`, `--follow`, and one recommended launch command
