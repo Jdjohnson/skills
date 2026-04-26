@@ -1,0 +1,67 @@
+{
+  "skill": "chatgpt",
+  "parity_goal": "Turn explicit ChatGPT requests into clear orders while keeping the local agent canonical and ChatGPT returns clearly bounded.",
+  "behavior_signature_before": "Ambient ChatGPT policy spread across prompts or docs with no dedicated routing surface.",
+  "behavior_signature_after": "Node-first ChatGPT router with explicit order phrasing, lane selection, and preserved trust boundary.",
+  "cases": [
+    {
+      "id": "deep-research-order",
+      "prompt": "$chatgpt research the vendor landscape for X and draft the right order",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md",
+        "nodes/lane-deep-research.md"
+      ],
+      "expected_output_shape": [
+        "chatgpt deep research order title",
+        "why this lane",
+        "files/context to include",
+        "copy/paste order",
+        "what to bring back"
+      ]
+    },
+    {
+      "id": "agent-order",
+      "prompt": "Place a ChatGPT order to have Agent collect the pricing details from the website",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md",
+        "nodes/lane-agent.md"
+      ],
+      "expected_output_shape": [
+        "chatgpt agent order title",
+        "why this lane",
+        "copy/paste order",
+        "what to bring back"
+      ]
+    },
+    {
+      "id": "pro-review-order",
+      "prompt": "$chatgpt give me a second-pass review on this architecture decision",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md",
+        "nodes/lane-pro-review.md"
+      ],
+      "expected_output_shape": [
+        "chatgpt pro review order title",
+        "stress-test framing",
+        "copy/paste order",
+        "what to bring back"
+      ]
+    },
+    {
+      "id": "keep-local",
+      "prompt": "$chatgpt what time is it right now in Springfield",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md"
+      ],
+      "expected_output_shape": [
+        "keep local",
+        "one-sentence why",
+        "recommended local next step"
+      ]
+    }
+  ]
+}
