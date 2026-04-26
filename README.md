@@ -14,6 +14,7 @@ These are designed to be useful in two ways:
 | brainstorm | Untangling a messy topic before it becomes a plan | [brainstorm](./skills/brainstorm/SKILL.md) |
 | steelman | Pressure-testing and strengthening an idea, argument, strategy, or decision | [steelman](./skills/steelman/SKILL.md) |
 | run | Planning and supervising larger AI-assisted projects | [run](./skills/run/SKILL.md) |
+| chatgpt | Routing ChatGPT Deep Research, Agent, and Pro review into explicit orders | [chatgpt](./skills/chatgpt/SKILL.md) |
 | brief | Turning complex material into a concise executive brief | [brief](./skills/brief/SKILL.md) |
 | stuck | Getting unstuck with a practical reset plan | [stuck](./skills/stuck/SKILL.md) |
 | writer | Taking rough ideas through a structured writing workflow | [writer](./skills/writer/SKILL.md) |

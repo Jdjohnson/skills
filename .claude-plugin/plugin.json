@@ -1,6 +1,6 @@
 {
   "name": "portable-ai-skills",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Portable AI skills and thinking prompts",
   "homepage": "https://github.com/Jdjohnson/skills",
   "keywords": [
@@ -10,6 +10,7 @@
     "writing",
     "research",
     "meetings",
+    "chatgpt",
     "codex",
     "claude-code"
   ],
@@ -39,6 +40,7 @@
       "brainstorm",
       "steelman",
       "run",
+      "chatgpt",
       "brief",
       "stuck",
       "writer",
