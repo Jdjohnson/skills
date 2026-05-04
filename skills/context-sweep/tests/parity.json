@@ -1,12 +1,12 @@
 {
-  "skill": "jj-context-sweep",
-  "parity_goal": "Preserve a standalone best-effort cross-app context sweep that writes deduped timestamp-true daily-note log entries and advances checkpoints per source only after successful writes.",
-  "behavior_signature_before": "Private skill gathered Superhuman, Slack, Notion, CRM, and local Codex context into a private daily note with per-source checkpoints.",
-  "behavior_signature_after": "Public skill keeps the same gathering, classification, deterministic write, dedupe, and checkpoint behavior while using portable journal and runtime paths.",
+  "skill": "context-sweep",
+  "parity_goal": "Preserve a standalone best-effort cross-app context sweep that uses Superhuman for sent work email, writes deduped timestamp-true daily-note log entries, and advances checkpoints per source only after successful writes.",
+  "behavior_signature_before": "New skill.",
+  "behavior_signature_after": "Router + nodes keep the standalone sweep contract, honest best-effort source handling, deterministic daily-note writes, and per-source checkpoint advancement.",
   "cases": [
     {
       "id": "normal-run",
-      "prompt": "jj-context-sweep",
+      "prompt": "/context-sweep",
       "expected_nodes": [
         "nodes/checkpoints.md",
         "nodes/gather.md",
@@ -21,7 +21,7 @@
     },
     {
       "id": "dry-run",
-      "prompt": "jj-context-sweep dry-run",
+      "prompt": "/context-sweep dry-run",
       "expected_nodes": [
         "nodes/checkpoints.md",
         "nodes/gather.md",
@@ -36,7 +36,7 @@
     },
     {
       "id": "since-override",
-      "prompt": "jj-context-sweep since:2026-04-22T09:00:00-05:00",
+      "prompt": "/context-sweep since:2026-04-22T09:00:00-05:00",
       "expected_nodes": [
         "nodes/checkpoints.md",
         "nodes/gather.md",
