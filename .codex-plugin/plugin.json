@@ -1,6 +1,6 @@
 {
   "name": "portable-ai-skills",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Portable AI skills and thinking prompts",
   "homepage": "https://github.com/Jdjohnson/skills",
   "keywords": [
@@ -46,7 +46,8 @@
       "writer",
       "style-guide",
       "meeting-doc",
-      "economist-council"
+      "economist-council",
+      "jj-context-sweep"
     ]
   }
 }

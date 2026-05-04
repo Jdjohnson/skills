@@ -20,6 +20,7 @@ SKILLS = (
     "economist-council",
     "chatgpt",
     "run",
+    "jj-context-sweep",
 )
 FORBIDDEN = ("Dot", "Jarad", ".dot/", "/Users/", "Assistant", "jj-")
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
@@ -86,11 +87,12 @@ def validate_wikilinks(skill: str) -> None:
 
 def validate_no_local_leakage(skill: str) -> None:
     skill_root = ROOT / "skills" / skill
+    forbidden = tuple(token for token in FORBIDDEN if not (skill == "jj-context-sweep" and token == "jj-"))
     for path in skill_root.rglob("*"):
         if not path.is_file():
             continue
         text = path.read_text(errors="ignore")
-        for token in FORBIDDEN:
+        for token in forbidden:
             if token in text:
                 fail(f"{path.relative_to(ROOT)} contains forbidden local token: {token}")
 
@@ -197,6 +199,26 @@ def validate_output_contracts(skill: str) -> None:
         ):
             if phrase not in combined:
                 fail(f"run output contract missing {phrase}")
+    if skill == "jj-context-sweep":
+        if not (skill_root / "scripts" / "jj_context_sweep.py").exists():
+            fail("jj-context-sweep missing helper script")
+        if not (skill_root / "README.md").exists():
+            fail("jj-context-sweep missing README")
+        combined = text
+        for node in ("checkpoints.md", "gather.md", "classify.md", "write.md"):
+            path = skill_root / "nodes" / node
+            if not path.exists():
+                fail(f"jj-context-sweep missing node {node}")
+            combined += path.read_text()
+        for phrase in (
+            ".context-sweep/jj-context-sweep/state.json",
+            ".context-sweep/journal",
+            "stable markers",
+            "per-source checkpoints",
+            "dry-run",
+        ):
+            if phrase not in combined and phrase not in (skill_root / "README.md").read_text():
+                fail(f"jj-context-sweep output contract missing {phrase}")
 
 
 def main() -> None:

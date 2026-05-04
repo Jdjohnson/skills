@@ -29,6 +29,7 @@ context, it asks for it.
 | style-guide | Calibrating and checking writing against a voice or style | [style-guide](./skills/style-guide/SKILL.md) |
 | meeting-doc | Creating one useful meeting prep, closeout, or recap document | [meeting-doc](./skills/meeting-doc/SKILL.md) |
 | economist-council | Running AI and economy questions through a sourced economist panel | [economist-council](./skills/economist-council/SKILL.md) |
+| jj-context-sweep | Sweeping high-signal cross-app context into a daily note | [jj-context-sweep](./skills/jj-context-sweep/SKILL.md) |
 
 ## External References
 
