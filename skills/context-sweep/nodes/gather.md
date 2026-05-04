@@ -1,6 +1,6 @@
 ---
 description: |
-  Gather rules and source-specific collection patterns for jj-context-sweep.
+  Gather rules and source-specific collection patterns for context-sweep.
   Load after checkpoints are understood.
 ---
 
@@ -80,7 +80,7 @@ Rules:
 Use the deterministic local parser:
 
 ```bash
-python3 skills/jj-context-sweep/scripts/jj_context_sweep.py codex --since "<ISO-8601>"
+python3 skills/context-sweep/scripts/context_sweep.py codex --since "<ISO-8601>"
 ```
 
 Rules:

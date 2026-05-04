@@ -28,11 +28,11 @@ TIMESTAMP_RE = re.compile(r"^\* \*\*(?P<label>[^*]+)\*\* — ")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Reusable helpers for jj-context-sweep state, Codex parsing, and daily-note writes."
+        description="Reusable helpers for context-sweep state, Codex parsing, and daily-note writes."
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    state = subparsers.add_parser("state", help="Show or initialize jj-context-sweep state.")
+    state = subparsers.add_parser("state", help="Show or initialize context-sweep state.")
     state.add_argument("--root", default=".", help="Workspace root")
     state.add_argument("--state-path", help="Override state.json path")
     state.add_argument("--init", action="store_true", help="Create the state file if missing")
@@ -52,7 +52,7 @@ def parse_args() -> argparse.Namespace:
 
     write = subparsers.add_parser(
         "write",
-        help="Write/update jj-context-sweep log items and advance checkpoints when allowed.",
+        help="Write/update context-sweep log items and advance checkpoints when allowed.",
     )
     write.add_argument("--root", default=".", help="Workspace root")
     write.add_argument("--date", help="Target local date in YYYY-MM-DD")
@@ -193,7 +193,7 @@ def default_state() -> dict:
 def get_state_path(root: Path, override: str | None = None) -> Path:
     if override:
         return Path(override).expanduser().resolve()
-    return root / ".context-sweep" / "jj-context-sweep" / "state.json"
+    return root / ".context-sweep" / "context-sweep" / "state.json"
 
 
 def ensure_state_parent(state_path: Path) -> None:

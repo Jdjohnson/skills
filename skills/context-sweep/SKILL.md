@@ -1,5 +1,5 @@
 ---
-name: jj-context-sweep
+name: context-sweep
 version: 1.0.0
 description: |
   Best-effort cross-app context sweep. Gathers sent Superhuman work email,
@@ -17,7 +17,7 @@ allowed-tools:
   - AskUserQuestion
 ---
 
-# jj-context-sweep — Cross-App Daily Context Sweep
+# context-sweep — Cross-App Daily Context Sweep
 
 Sweep the operating surfaces around a working day, keep only the high-signal context, and write it directly into a daily note `## Log`.
 
@@ -26,10 +26,10 @@ This public version is standalone. It does not assume a private assistant worksp
 ## Invocation
 
 ```text
-/jj-context-sweep
-/jj-context-sweep dry-run
-/jj-context-sweep since:2026-04-22T09:00:00-05:00
-/jj-context-sweep since:2026-04-22T09:00:00-05:00 dry-run
+/context-sweep
+/context-sweep dry-run
+/context-sweep since:2026-04-22T09:00:00-05:00
+/context-sweep since:2026-04-22T09:00:00-05:00 dry-run
 ```
 
 ## Mode Routing
@@ -49,7 +49,7 @@ This public version is standalone. It does not assume a private assistant worksp
 
 ## Portable Runtime
 
-- Checkpoints default to `.context-sweep/jj-context-sweep/state.json`.
+- Checkpoints default to `.context-sweep/context-sweep/state.json`.
 - Daily-note writes default to `.context-sweep/journal/YYYY-MM-DD.md`.
 - Pass `--journal-file <path>` to the helper when the user has a real journal file.
 - Pass `--state-path <path>` when the user wants checkpoints somewhere else.

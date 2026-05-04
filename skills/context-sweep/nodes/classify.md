@@ -1,6 +1,6 @@
 ---
 description: |
-  Conservative keep/skip rules for jj-context-sweep. Load after gathering and
+  Conservative keep/skip rules for context-sweep. Load after gathering and
   before writing.
 ---
 

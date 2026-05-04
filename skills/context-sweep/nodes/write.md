@@ -1,6 +1,6 @@
 ---
 description: |
-  Deterministic daily-note write path for jj-context-sweep. Load after gather
+  Deterministic daily-note write path for context-sweep. Load after gather
   and classify.
 ---
 
@@ -9,19 +9,19 @@ description: |
 Use the helper script for all daily-note writes and checkpoint updates:
 
 ```bash
-python3 skills/jj-context-sweep/scripts/jj_context_sweep.py write --root . --payload-file <path>
+python3 skills/context-sweep/scripts/context_sweep.py write --root . --payload-file <path>
 ```
 
 To write into a specific journal file:
 
 ```bash
-python3 skills/jj-context-sweep/scripts/jj_context_sweep.py write --root . --journal-file <path> --payload-file <path>
+python3 skills/context-sweep/scripts/context_sweep.py write --root . --journal-file <path> --payload-file <path>
 ```
 
 For dry-run:
 
 ```bash
-python3 skills/jj-context-sweep/scripts/jj_context_sweep.py write --root . --payload-file <path> --dry-run
+python3 skills/context-sweep/scripts/context_sweep.py write --root . --payload-file <path> --dry-run
 ```
 
 ## Payload Contract
@@ -54,7 +54,7 @@ Write a temporary JSON payload with this shape:
       "source_id": "019db8ca-f63b-7063-9eae-40e40a0def34",
       "timestamp": "2026-04-22T14:01:00-05:00",
       "end_timestamp": "2026-04-22T14:15:00-05:00",
-      "summary": "Worked in Codex from workspace: Implement jj-context-sweep."
+      "summary": "Worked in Codex from workspace: Implement context-sweep."
     }
   ]
 }

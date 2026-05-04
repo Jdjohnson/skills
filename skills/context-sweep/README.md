@@ -1,6 +1,6 @@
-# JJ Context Sweep
+# Context Sweep
 
-`jj-context-sweep` is a best-effort daily context collector. It helps an AI assistant gather the useful traces from a workday across email, Slack, Notion, CRM activity, and local Codex sessions, then write only the high-signal items into a markdown daily note.
+`context-sweep` is a best-effort daily context collector. It helps an AI assistant gather the useful traces from a workday across email, Slack, Notion, CRM activity, and local Codex sessions, then write only the high-signal items into a markdown daily note.
 
 The skill is meant for people who work across too many surfaces and want a durable end-of-day record without dumping every notification into their notes.
 
@@ -22,10 +22,10 @@ The skill is meant for people who work across too many surfaces and want a durab
 ## Invocation
 
 ```text
-jj-context-sweep
-jj-context-sweep dry-run
-jj-context-sweep since:2026-04-22T09:00:00-05:00
-jj-context-sweep since:2026-04-22T09:00:00-05:00 dry-run
+context-sweep
+context-sweep dry-run
+context-sweep since:2026-04-22T09:00:00-05:00
+context-sweep since:2026-04-22T09:00:00-05:00 dry-run
 ```
 
 ## Runtime Files
@@ -33,14 +33,14 @@ jj-context-sweep since:2026-04-22T09:00:00-05:00 dry-run
 By default, the helper writes portable local state under the workspace root:
 
 ```text
-.context-sweep/jj-context-sweep/state.json
+.context-sweep/context-sweep/state.json
 .context-sweep/journal/YYYY-MM-DD.md
 ```
 
 To use your own journal file:
 
 ```bash
-python3 skills/jj-context-sweep/scripts/jj_context_sweep.py write \
+python3 skills/context-sweep/scripts/context_sweep.py write \
   --root . \
   --journal-file path/to/today.md \
   --payload-file /tmp/context-sweep-payload.json
@@ -60,26 +60,26 @@ Use `--state-path` if you want checkpoint state somewhere else.
 Show state:
 
 ```bash
-python3 skills/jj-context-sweep/scripts/jj_context_sweep.py state --root .
+python3 skills/context-sweep/scripts/context_sweep.py state --root .
 ```
 
 Initialize state:
 
 ```bash
-python3 skills/jj-context-sweep/scripts/jj_context_sweep.py state --root . --init
+python3 skills/context-sweep/scripts/context_sweep.py state --root . --init
 ```
 
 Summarize local Codex sessions since a timestamp:
 
 ```bash
-python3 skills/jj-context-sweep/scripts/jj_context_sweep.py codex \
+python3 skills/context-sweep/scripts/context_sweep.py codex \
   --since "2026-04-22T09:00:00-05:00"
 ```
 
 Dry-run a write:
 
 ```bash
-python3 skills/jj-context-sweep/scripts/jj_context_sweep.py write \
+python3 skills/context-sweep/scripts/context_sweep.py write \
   --root . \
   --payload-file /tmp/context-sweep-payload.json \
   --dry-run
@@ -121,5 +121,5 @@ Valid sources are `superhuman`, `slack`, `notion`, `crm`, and `codex`.
 Run the unit tests from the repo root:
 
 ```bash
-python3 -m unittest skills/jj-context-sweep/tests/test_jj_context_sweep.py
+python3 -m unittest skills/context-sweep/tests/test_context_sweep.py
 ```

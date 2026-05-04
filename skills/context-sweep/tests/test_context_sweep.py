@@ -22,9 +22,9 @@ def load_module(module_name: str, path: Path):
     return module
 
 
-JJ_CONTEXT_SWEEP = load_module(
-    "jj_context_sweep",
-    ROOT / "skills" / "jj-context-sweep" / "scripts" / "jj_context_sweep.py",
+CONTEXT_SWEEP = load_module(
+    "context_sweep",
+    ROOT / "skills" / "context-sweep" / "scripts" / "context_sweep.py",
 )
 
 
@@ -55,7 +55,7 @@ class LogWriterTests(unittest.TestCase):
             },
         ]
 
-        updated, actions = JJ_CONTEXT_SWEEP.upsert_log_items(
+        updated, actions = CONTEXT_SWEEP.upsert_log_items(
             content=base,
             items=items,
             note_date=self.note_date,
@@ -80,20 +80,20 @@ class LogWriterTests(unittest.TestCase):
             "timestamp": "2026-04-22T13:07:00-05:00",
             "summary": "Sent revised note.",
         }
-        once, _ = JJ_CONTEXT_SWEEP.upsert_log_items(
+        once, _ = CONTEXT_SWEEP.upsert_log_items(
             content="# Wednesday, April 22, 2026\n\n## Log\n\n",
             items=[original_item],
             note_date=self.note_date,
             timezone=self.timezone,
         )
-        twice, actions = JJ_CONTEXT_SWEEP.upsert_log_items(
+        twice, actions = CONTEXT_SWEEP.upsert_log_items(
             content=once,
             items=[updated_item],
             note_date=self.note_date,
             timezone=self.timezone,
         )
 
-        marker = JJ_CONTEXT_SWEEP.build_marker("superhuman", "msg-2")
+        marker = CONTEXT_SWEEP.build_marker("superhuman", "msg-2")
         self.assertEqual(twice.count(marker), 1)
         self.assertEqual(actions[0]["action"], "updated")
         self.assertIn("Sent revised note.", twice)
@@ -106,13 +106,13 @@ class LogWriterTests(unittest.TestCase):
             "end_timestamp": "2026-04-22T10:15:00-05:00",
             "summary": "Worked in Codex from workspace: build a helper.",
         }
-        once, _ = JJ_CONTEXT_SWEEP.upsert_log_items(
+        once, _ = CONTEXT_SWEEP.upsert_log_items(
             content="# Wednesday, April 22, 2026\n\n## Log\n\n",
             items=[item],
             note_date=self.note_date,
             timezone=self.timezone,
         )
-        twice, actions = JJ_CONTEXT_SWEEP.upsert_log_items(
+        twice, actions = CONTEXT_SWEEP.upsert_log_items(
             content=once,
             items=[item],
             note_date=self.note_date,
@@ -128,11 +128,11 @@ class StateAndWriteTests(unittest.TestCase):
         self.timezone = ZoneInfo("America/Chicago")
 
     def test_apply_checkpoint_updates_advances_only_success_sources(self) -> None:
-        state = JJ_CONTEXT_SWEEP.default_state()
+        state = CONTEXT_SWEEP.default_state()
         state["sources"]["superhuman"]["high_water"] = "2026-04-22T14:00:00-05:00"
         state["sources"]["crm"]["high_water"] = "2026-04-22T09:00:00-05:00"
 
-        updated = JJ_CONTEXT_SWEEP.apply_checkpoint_updates(
+        updated = CONTEXT_SWEEP.apply_checkpoint_updates(
             state=state,
             source_results={
                 "superhuman": {
@@ -157,7 +157,7 @@ class StateAndWriteTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
             daily_file = root / "2026" / "week-17_2026-04-20_to_2026-04-26" / "2026-04-22-wed" / "2026-04-22-wed.md"
-            state_path = root / ".context-sweep" / "jj-context-sweep" / "state.json"
+            state_path = root / ".context-sweep" / "context-sweep" / "state.json"
 
             payload = {
                 "sources": {
@@ -182,7 +182,7 @@ class StateAndWriteTests(unittest.TestCase):
                 ],
             }
 
-            result = JJ_CONTEXT_SWEEP.write_payload(
+            result = CONTEXT_SWEEP.write_payload(
                 root=root,
                 payload=payload,
                 target_date="2026-04-22",
@@ -206,7 +206,7 @@ class StateAndWriteTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
             daily_file = root / "2026" / "week-17_2026-04-20_to_2026-04-26" / "2026-04-22-wed" / "2026-04-22-wed.md"
-            state_path = root / ".context-sweep" / "jj-context-sweep" / "state.json"
+            state_path = root / ".context-sweep" / "context-sweep" / "state.json"
 
             payload = {
                 "sources": {
@@ -225,7 +225,7 @@ class StateAndWriteTests(unittest.TestCase):
                 ],
             }
 
-            result = JJ_CONTEXT_SWEEP.write_payload(
+            result = CONTEXT_SWEEP.write_payload(
                 root=root,
                 payload=payload,
                 target_date="2026-04-22",
@@ -268,7 +268,7 @@ class CodexParserTests(unittest.TestCase):
                     "payload": {
                         "type": "message",
                         "role": "user",
-                        "content": [{"type": "input_text", "text": "Implement jj-context-sweep."}],
+                        "content": [{"type": "input_text", "text": "Implement context-sweep."}],
                     },
                 },
                 {
@@ -309,7 +309,7 @@ class CodexParserTests(unittest.TestCase):
                 encoding="utf-8",
             )
 
-            candidates = JJ_CONTEXT_SWEEP.collect_codex_candidates(
+            candidates = CONTEXT_SWEEP.collect_codex_candidates(
                 codex_home=codex_home,
                 since=datetime.fromisoformat("2026-04-22T18:30:00+00:00"),
                 timezone=self.timezone,
@@ -320,7 +320,7 @@ class CodexParserTests(unittest.TestCase):
             self.assertEqual(candidate["source_id"], active_thread)
             self.assertEqual(candidate["cwd"], "/home/example/projects/workspace")
             self.assertIn("workspace", candidate["summary"])
-            self.assertIn("Implement jj-context-sweep.", candidate["summary"])
+            self.assertIn("Implement context-sweep.", candidate["summary"])
             self.assertEqual(candidate["end_timestamp"], "2026-04-22T14:15:00-05:00")
 
 
@@ -329,7 +329,7 @@ class NormalizationTests(unittest.TestCase):
         self.timezone = ZoneInfo("America/Chicago")
 
     def test_normalize_superhuman_item(self) -> None:
-        candidate = JJ_CONTEXT_SWEEP.normalize_superhuman_item(
+        candidate = CONTEXT_SWEEP.normalize_superhuman_item(
             {
                 "id": "18fabc",
                 "thread_id": "thread-9",
@@ -347,7 +347,7 @@ class NormalizationTests(unittest.TestCase):
         self.assertIn("Component wizard", candidate["summary"])
 
     def test_normalize_slack_message(self) -> None:
-        candidate = JJ_CONTEXT_SWEEP.normalize_slack_message(
+        candidate = CONTEXT_SWEEP.normalize_slack_message(
             {
                 "ts": "1713812400.000200",
                 "channel_name": "deals",
@@ -361,7 +361,7 @@ class NormalizationTests(unittest.TestCase):
         self.assertIn("Ochsner", candidate["summary"])
 
     def test_normalize_notion_candidate(self) -> None:
-        candidate = JJ_CONTEXT_SWEEP.normalize_notion_candidate(
+        candidate = CONTEXT_SWEEP.normalize_notion_candidate(
             {
                 "id": "page-1",
                 "title": "AI workflow notes",
@@ -377,7 +377,7 @@ class NormalizationTests(unittest.TestCase):
         self.assertIn("Meeting Notes", candidate["summary"])
 
     def test_normalize_crm_row(self) -> None:
-        candidate = JJ_CONTEXT_SWEEP.normalize_crm_row(
+        candidate = CONTEXT_SWEEP.normalize_crm_row(
             {
                 "audit_id": "audit-7",
                 "deal_id": "deal-3",

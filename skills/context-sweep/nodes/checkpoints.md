@@ -1,6 +1,6 @@
 ---
 description: |
-  Per-source checkpoint rules for jj-context-sweep. Load before any gather or
+  Per-source checkpoint rules for context-sweep. Load before any gather or
   write step.
 ---
 
@@ -10,12 +10,12 @@ Use per-source checkpoints, not one global watermark.
 
 State lives at:
 
-- `.context-sweep/jj-context-sweep/state.json`
+- `.context-sweep/context-sweep/state.json`
 
 Read it with:
 
 ```bash
-python3 skills/jj-context-sweep/scripts/jj_context_sweep.py state --root .
+python3 skills/context-sweep/scripts/context_sweep.py state --root .
 ```
 
 ## Effective Lower Bound
