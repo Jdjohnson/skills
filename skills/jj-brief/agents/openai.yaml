@@ -1,0 +1,4 @@
+interface:
+  display_name: "JJ Brief"
+  short_description: "Turn source material or a topic into a short executive brief"
+  default_prompt: "Use $jj-brief to brief me on this topic or source material."

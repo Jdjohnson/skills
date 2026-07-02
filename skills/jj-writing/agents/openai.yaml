@@ -1,0 +1,4 @@
+interface:
+  display_name: "JJ Writing"
+  short_description: "Develop drafts from ideas, notes, source, or rough text"
+  default_prompt: "Use $jj-writing to turn this idea or rough text into a usable draft."

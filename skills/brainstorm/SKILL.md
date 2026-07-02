@@ -1,12 +1,10 @@
 ---
 name: brainstorm
-version: 1.1.0
 description: |
   Strategic thinking partner for messy topics that need to be explored,
   untangled, and shaped before they become a plan or decision. Use when the
   user says things like "help me think through this," "let's kick this
   around," or "brainstorm this with me."
-argument-hint: "[topic or opening ramble]"
 allowed-tools:
   - Read
   - Write

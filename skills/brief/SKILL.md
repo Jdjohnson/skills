@@ -1,12 +1,10 @@
 ---
 name: brief
-version: 1.1.0
 description: |
   Executive briefing partner for quickly understanding complex material.
   Use when the user provides pasted text, a file, a URL, or a topic and wants
   a concise brief with bottom line, key judgments, confidence, decisions, and
   gaps. Do not use for long-form research reports or polished prose drafts.
-argument-hint: "[topic, URL, file path, or pasted material]"
 allowed-tools:
   - Read
   - Write

@@ -1,13 +1,11 @@
 ---
 name: run
-version: 1.1.0
 description: |
   Plan and run larger projects through a guided session, a structured
   blueprint, and a portable runner. Use when the work is too large or fuzzy
   for a single prompt and needs clear steps, tool routing, status checks, and
   resume support. Use `harden` when an existing thesis, argument, draft, or
   plan needs a bounded verify/revise run before use.
-argument-hint: "[session | harden | status | resume]"
 allowed-tools:
   - Read
   - Write

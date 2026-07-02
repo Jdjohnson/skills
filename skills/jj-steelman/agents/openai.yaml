@@ -1,0 +1,4 @@
+interface:
+  display_name: "JJ Steelman"
+  short_description: "Pressure-test and strengthen an idea through interview rounds"
+  default_prompt: "Use $jj-steelman to pressure-test this idea."

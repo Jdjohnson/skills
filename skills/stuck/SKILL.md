@@ -1,12 +1,10 @@
 ---
 name: stuck
-version: 1.1.0
 description: |
   Practical coaching skill for moments when the user feels stuck, scattered,
   avoidant, or out of rhythm. Use to run a one-question-at-a-time reset that
   surfaces the real tension, identifies the primary blocker, and ends with a
   small plan for today and tomorrow. Not for crisis or clinical care.
-argument-hint: "[what feels stuck]"
 allowed-tools:
   - Read
   - Write

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Code CLI"
+  short_description: "Delegate bounded work to Claude Code"
+  default_prompt: "Use $claude-code to delegate a bounded plan-mode task through the local Claude Code CLI."

@@ -1,0 +1,138 @@
+{
+  "skill": "jj-chatgpt",
+  "parity_goal": "Turn ChatGPT use into an explicit order and return surface while keeping Dot local-first and non-canonical ChatGPT returns clearly bounded.",
+  "behavior_signature_before": "Old Dot skill package with lane selection, inbound digesting, direct placement preference, and Desktop packet fallback.",
+  "behavior_signature_after": "New Dot JJ Pack skill under addons/jarad-pack/skills/jj-chatgpt with updated local route names, embedded order templates, direct placement first, and Desktop packets as fallback/manual support.",
+  "cases": [
+    {
+      "id": "inbound-chatgpt-return",
+      "prompt": "ChatGPT returned this from the Pro review. Digest it and incorporate what matters locally.",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md",
+        "nodes/inbound-chatgpt.md"
+      ],
+      "expected_output_shape": [
+        "chatgpt inbound digest title",
+        "source/provenance",
+        "what chatgpt was doing",
+        "best local dot lane",
+        "what to accept",
+        "what needs verification",
+        "canonical handling",
+        "next local action",
+        "no direct placement or desktop packet unless sending back to chatgpt"
+      ]
+    },
+    {
+      "id": "dot-daily-packet-inbound",
+      "prompt": "Here is the Dot Daily packet from ChatGPT. Use it for my morning journal.",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md",
+        "nodes/inbound-chatgpt.md"
+      ],
+      "expected_output_shape": [
+        "chatgpt inbound digest title",
+        "source/provenance dot daily packet",
+        "best local dot lane ms-plan",
+        "what to accept",
+        "what needs verification",
+        "canonical handling",
+        "next local action follows ms-plan day planning"
+      ]
+    },
+    {
+      "id": "unlabeled-paste-not-inbound",
+      "prompt": "Digest this pasted research summary and tell me what matters.",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md"
+      ],
+      "expected_output_shape": [
+        "not chatgpt inbound without explicit provenance",
+        "route by normal local skill or ask one targeted provenance question only if handling changes",
+        "no inbound-chatgpt node",
+        "no desktop packet"
+      ]
+    },
+    {
+      "id": "deep-research-order",
+      "prompt": "$chatgpt research the vendor landscape for X and draft the right order",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md",
+        "nodes/direct-placement.md",
+        "nodes/lane-deep-research.md",
+        "nodes/desktop-packet.md"
+      ],
+      "expected_output_shape": [
+        "chatgpt deep research order title",
+        "why this lane",
+        "execution path",
+        "files/context to include",
+        "required chatgpt connectors/apps",
+        "direct placement run",
+        "desktop packet when direct placement is blocked or unsafe",
+        "fallback copy-paste order and desktop packet only as final fallback",
+        "result handling"
+      ]
+    },
+    {
+      "id": "agent-order-with-chat-language",
+      "prompt": "Place a Chat order to have Agent collect the pricing details from the website",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md",
+        "nodes/direct-placement.md",
+        "nodes/lane-atlas-agent.md",
+        "nodes/desktop-packet.md"
+      ],
+      "expected_output_shape": [
+        "chatgpt agent order title",
+        "why this lane",
+        "execution path",
+        "required chatgpt connectors/apps",
+        "direct placement run",
+        "desktop packet when direct placement is blocked or unsafe",
+        "fallback copy-paste order and desktop packet only as final fallback",
+        "result handling"
+      ]
+    },
+    {
+      "id": "pro-review-order",
+      "prompt": "$chatgpt give me a second-pass review on this architecture decision",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md",
+        "nodes/direct-placement.md",
+        "nodes/lane-pro-review.md",
+        "nodes/desktop-packet.md"
+      ],
+      "expected_output_shape": [
+        "chatgpt pro review order title",
+        "stress-test framing",
+        "execution path",
+        "required chatgpt connectors/apps",
+        "direct placement run",
+        "desktop packet when direct placement is blocked or unsafe",
+        "fallback copy-paste order and desktop packet only as final fallback",
+        "result handling"
+      ]
+    },
+    {
+      "id": "keep-local",
+      "prompt": "$chatgpt what time is it right now in Springfield",
+      "expected_nodes": [
+        "nodes/trust-boundary.md",
+        "nodes/selector.md"
+      ],
+      "expected_output_shape": [
+        "keep local",
+        "one-sentence why",
+        "recommended local next step",
+        "no desktop packet"
+      ]
+    }
+  ]
+}

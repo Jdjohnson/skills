@@ -4,12 +4,13 @@ from __future__ import annotations
 import json
 import re
 import sys
+import zipfile
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 PARITY_DIR = ROOT / ".maintainer" / "parity"
-SKILLS = (
+PUBLIC_SKILLS = (
     "style-guide",
     "writer",
     "brief",
@@ -22,7 +23,32 @@ SKILLS = (
     "run",
     "context-sweep",
 )
+JARAD_PACK_SKILLS = (
+    "jj-brainstorm",
+    "jj-brief",
+    "jj-chatgpt",
+    "jj-steelman",
+    "jj-writing",
+)
+PERSONAL_SKILLS = (
+    "claude-code",
+    "codex",
+    "dot-recall",
+    "gpt-researcher",
+    "grok-build",
+    "gws-cli",
+    "jj-intake",
+    "jj-log",
+    "jj-reflect",
+    "jj-writer",
+    "ms-crm",
+    "opencode",
+)
+SKILLS = PUBLIC_SKILLS + JARAD_PACK_SKILLS + PERSONAL_SKILLS
+CLI_DOWNLOAD_SKILLS = ("claude-code", "codex", "grok-build", "opencode")
 FORBIDDEN = ("Dot", "Jarad", ".dot/", "/Users/", "Assistant", "jj-")
+GENERATED_CACHE_SUFFIXES = (".pyc", ".pyo")
+GENERATED_CACHE_NAMES = ("__pycache__",)
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
 
 
@@ -36,6 +62,50 @@ def load_json(path: Path) -> dict:
         return json.loads(path.read_text())
     except json.JSONDecodeError as exc:
         fail(f"{path.relative_to(ROOT)} is invalid JSON: {exc}")
+
+
+def validate_skill_folder(skill: str) -> None:
+    skill_root = ROOT / "skills" / skill
+    skill_md = skill_root / "SKILL.md"
+    if not skill_md.exists():
+        fail(f"missing skills/{skill}/SKILL.md")
+
+    text = skill_md.read_text()
+    match = re.search(r"^---\n(.*?)\n---", text, re.S)
+    if not match:
+        fail(f"skills/{skill}/SKILL.md missing YAML frontmatter")
+    name_match = re.search(r"^name:\s*([^\n]+)", match.group(1), re.M)
+    if not name_match:
+        fail(f"skills/{skill}/SKILL.md missing name field")
+    name = name_match.group(1).strip().strip('\"\'')
+    if name != skill:
+        fail(f"skills/{skill}/SKILL.md name field is {name!r}")
+    if not re.search(r"^description:\s*", match.group(1), re.M):
+        fail(f"skills/{skill}/SKILL.md missing description field")
+
+
+def validate_no_generated_caches(skill: str) -> None:
+    skill_root = ROOT / "skills" / skill
+    for path in skill_root.rglob("*"):
+        if path.name in GENERATED_CACHE_NAMES or path.suffix in GENERATED_CACHE_SUFFIXES:
+            fail(f"{path.relative_to(ROOT)} is generated cache output")
+
+
+def validate_cli_download(skill: str) -> None:
+    path = ROOT / "downloads" / "cli-skills" / f"{skill}-skill.zip"
+    if not path.exists():
+        fail(f"missing CLI skill download for {skill}")
+    if path.stat().st_size == 0:
+        fail(f"empty CLI skill download for {skill}")
+
+    with zipfile.ZipFile(path) as archive:
+        names = set(archive.namelist())
+    required = f"skills/{skill}/SKILL.md"
+    if required not in names:
+        fail(f"{path.relative_to(ROOT)} missing {required}")
+    for name in names:
+        if "__pycache__" in name or name.endswith((".pyc", ".pyo")):
+            fail(f"{path.relative_to(ROOT)} contains generated cache output: {name}")
 
 
 def validate_parity_file(skill: str) -> None:
@@ -221,11 +291,22 @@ def validate_output_contracts(skill: str) -> None:
 
 
 def main() -> None:
-    for skill in SKILLS:
+    for skill in PUBLIC_SKILLS:
+        validate_skill_folder(skill)
         validate_parity_file(skill)
         validate_wikilinks(skill)
         validate_no_local_leakage(skill)
+        validate_no_generated_caches(skill)
         validate_output_contracts(skill)
+
+    for skill in JARAD_PACK_SKILLS + PERSONAL_SKILLS:
+        validate_skill_folder(skill)
+        validate_wikilinks(skill)
+        validate_no_generated_caches(skill)
+
+    for skill in CLI_DOWNLOAD_SKILLS:
+        validate_cli_download(skill)
+
     print("Maintainer parity checks passed.")
 
 

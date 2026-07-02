@@ -1,7 +1,7 @@
 {
   "name": "portable-ai-skills",
-  "version": "1.6.0",
-  "description": "Portable AI skills and thinking prompts",
+  "version": "1.7.0",
+  "description": "Portable AI skills plus Jarad Pack and Dot workspace personal skill snapshots",
   "homepage": "https://github.com/Jdjohnson/skills",
   "keywords": [
     "skills",
@@ -23,8 +23,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Portable AI Skills",
-    "shortDescription": "Reusable thinking, writing, meeting, and research skills",
-    "longDescription": "A collection of portable AI skills for structured thinking, writing, meeting preparation, and larger supervised workflows.",
+    "shortDescription": "Portable skills plus Jarad Pack and Dot personal skill snapshots",
+    "longDescription": "A collection of portable AI skills, normalized Dot Core Jarad Pack skill-package exports, and Dot workspace personal skill snapshots for structured thinking, writing, meetings, research, and local-agent workflows.",
     "developerName": "Jarad Johnson",
     "category": "Productivity",
     "capabilities": [
@@ -33,7 +33,7 @@
     ],
     "websiteURL": "https://github.com/Jdjohnson/skills",
     "defaultPrompt": [
-      "Use one of these portable skills for the current thinking, writing, meeting, research, or workflow task."
+      "Use the matching portable, Jarad Pack, or Dot workspace personal skill for the current task."
     ],
     "brandColor": "#1F4D3D",
     "skills": [
@@ -47,7 +47,24 @@
       "style-guide",
       "meeting-doc",
       "economist-council",
-      "context-sweep"
+      "context-sweep",
+      "jj-brainstorm",
+      "jj-brief",
+      "jj-chatgpt",
+      "jj-steelman",
+      "jj-writing",
+      "claude-code",
+      "codex",
+      "dot-recall",
+      "gpt-researcher",
+      "grok-build",
+      "gws-cli",
+      "jj-intake",
+      "jj-log",
+      "jj-reflect",
+      "jj-writer",
+      "ms-crm",
+      "opencode"
     ]
   }
 }

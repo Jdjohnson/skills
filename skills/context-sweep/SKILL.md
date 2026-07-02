@@ -1,12 +1,10 @@
 ---
 name: context-sweep
-version: 1.0.0
 description: |
   Best-effort cross-app context sweep. Gathers sent Superhuman work email,
   sent Slack, best-effort Notion activity, CRM updates, and local Codex usage
   since per-source checkpoints, then writes only high-signal items into a
   daily note `## Log` with stable dedupe markers.
-argument-hint: "[dry-run] [since:<ISO-8601>]"
 allowed-tools:
   - Read
   - Write

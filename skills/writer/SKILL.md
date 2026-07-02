@@ -1,12 +1,10 @@
 ---
 name: writer
-version: 1.1.0
 description: |
   Writing partner for turning rough ideas, notes, or drafts into publishable
   prose. Use for articles, essays, posts, memos, talks, or other writing that
   needs intake, goal clarity, story extraction, research, structure, drafting,
   and refinement.
-argument-hint: "[start | draft | refine | humanize] [topic, notes, draft, or file path]"
 allowed-tools:
   - Read
   - Write
