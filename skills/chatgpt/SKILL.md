@@ -1,13 +1,11 @@
 ---
 name: chatgpt
-version: 1.1.0
 description: |
   ChatGPT escalation router. Use when the user says `$chatgpt`, asks for a
   ChatGPT order, or explicitly mentions ChatGPT Deep Research, ChatGPT Agent,
   or ChatGPT Pro review. Decide whether the work should stay local or become a
   ChatGPT order, then either place it through host-supported browser control or
   prepare a bounded fallback order/packet.
-argument-hint: "[deep-research | agent | pro-review]"
 allowed-tools:
   - Read
   - Write

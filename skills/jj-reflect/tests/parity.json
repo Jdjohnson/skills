@@ -1,0 +1,76 @@
+{
+  "skill": "jj-reflect",
+  "parity_goal": "Ship the standalone reflection lane migrated out of jj-journal while pointing at new Dot day folders, source journals, and migrated Old Dot journal material.",
+  "behavior_signature_before": "Reflection lived inside the broader old jj-journal surface alongside planning, intake, and context-sweep behavior.",
+  "behavior_signature_after": "JJ Reflect only reads relevant journal material and produces grounded reflections; planning, inbox intake, writing voice, and external mutations stay with their current owners.",
+  "cases": [
+    {
+      "id": "today-reflection",
+      "prompt": "$jj-reflect today",
+      "expected_nodes": [
+        "nodes/sources.md",
+        "nodes/workflow.md"
+      ],
+      "expected_sources": [
+        "/Users/jaradjohnson/Dot/MEMORY.md",
+        "/Users/jaradjohnson/Dot/timeline/**/<YYYY-MM-DD>-day/<YYYY-MM-DD>-day.md",
+        "/Users/jaradjohnson/Dot/timeline/**/<YYYY-MM-DD>-day/source/*journal*.md"
+      ],
+      "expected_output_shape": [
+        "main pattern first",
+        "short source-grounded signals",
+        "one useful question",
+        "no day-plan rewrite"
+      ]
+    },
+    {
+      "id": "range-reflection",
+      "prompt": "$jj-reflect last week",
+      "expected_nodes": [
+        "nodes/sources.md",
+        "nodes/workflow.md"
+      ],
+      "expected_sources": [
+        "/Users/jaradjohnson/Dot/timeline/**/<date>-day/<date>-day.md",
+        "/Users/jaradjohnson/Dot/timeline/**/<date>-day/source/*journal*.md",
+        "/Users/jaradjohnson/Dot/timeline/**/<date>-day/source/*context-sweep*journal*.md"
+      ],
+      "expected_output_shape": [
+        "pattern over time",
+        "what changed",
+        "what keeps returning"
+      ]
+    },
+    {
+      "id": "legacy-trigger",
+      "prompt": "$jj-journal reflect on this week",
+      "expected_nodes": [
+        "nodes/sources.md",
+        "nodes/workflow.md"
+      ],
+      "expected_output_shape": [
+        "routes to jj-reflect",
+        "does not revive old jj-journal intake",
+        "does not require old state.md"
+      ]
+    },
+    {
+      "id": "intake-boundary",
+      "prompt": "$jj-reflect on what came in through email and SMS",
+      "expected_output_shape": [
+        "routes inbox triage to jj-intake",
+        "may reflect only after a journal source is provided or identified",
+        "does not read or mutate external inboxes"
+      ]
+    },
+    {
+      "id": "planning-boundary",
+      "prompt": "$jj-reflect plan my day from this journal",
+      "expected_output_shape": [
+        "reflection may identify themes",
+        "day planning routes to ms-plan day",
+        "timeline writes require explicit capture/update request"
+      ]
+    }
+  ]
+}

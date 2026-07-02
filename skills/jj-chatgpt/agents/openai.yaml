@@ -1,0 +1,7 @@
+interface:
+  display_name: "ChatGPT Orders"
+  short_description: "Turn ChatGPT use into explicit orders"
+  default_prompt: "Use $chatgpt to decide whether this should stay local or become a ChatGPT order. Draft the final order and upload list first; only place suitable orders through a safe direct ChatGPT/browser-control path after explicit user approval, otherwise use the Desktop packet/manual fallback."
+
+policy:
+  allow_implicit_invocation: false

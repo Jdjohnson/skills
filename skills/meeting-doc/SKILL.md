@@ -1,11 +1,9 @@
 ---
 name: meeting-doc
-version: 1.1.0
 description: |
   Meeting document skill for creating one useful prep, closeout, history, or
   review document from supplied context. Use when the user wants a practical
   meeting artifact without setting up a meeting database or workflow system.
-argument-hint: "[prep | close | history | review] [meeting context, notes, transcript, URL, or file]"
 allowed-tools:
   - Read
   - Write

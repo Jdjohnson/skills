@@ -1,12 +1,10 @@
 ---
 name: economist-council
-version: 1.1.0
 description: |
   Economist council for AI, labor, productivity, growth, inequality, and
   regional adaptation questions. Use when the user wants sourced convergence,
   divergence, and pushback from a standing panel before a talk, decision,
   strategy move, article, or research memo.
-argument-hint: "[AI/economy topic, framing, or rough question]"
 allowed-tools:
   - Read
   - Write

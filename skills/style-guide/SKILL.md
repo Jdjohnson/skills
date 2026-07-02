@@ -1,11 +1,9 @@
 ---
 name: style-guide
-version: 1.1.0
 description: |
   Voice calibration and style enforcement skill. Use to infer a target voice
   from examples, audit drafts for style drift, provide rewrite guidance, or
   run a final publish checklist.
-argument-hint: "[calibrate | check | rewrite | redflags | checklist] [text, file path, or excerpt]"
 allowed-tools:
   - Read
   - Grep

@@ -1,0 +1,4 @@
+interface:
+  display_name: "JJ Intake"
+  short_description: "Triage Dot comms SMS/email intake with five-field reviews"
+  default_prompt: "Use $jj-intake to refresh Dot's external comms inbox at /Users/jaradjohnson/Developer/projects/dot-comms/inbox safely, review all active items, quietly file obvious distractions to the current day log, bring remaining items to Jarad using only Title, Link, Overview, Relevance, and Suggestion, archive handled source files under /Users/jaradjohnson/Developer/projects/dot-comms/runtime/jj-intake, and finish with a short receipt."

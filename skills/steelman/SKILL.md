@@ -1,12 +1,10 @@
 ---
 name: steelman
-version: 1.1.0
 description: |
   Interview-driven intellectual sparring partner for strengthening and
   pressure-testing an idea, argument, strategy, or decision. Use when the user
   wants the strongest version of a view, plus its best counterarguments,
   assumptions, tradeoffs, risks, and next steps.
-argument-hint: "[idea, position, decision, or strategy]"
 allowed-tools:
   - Read
   - Write

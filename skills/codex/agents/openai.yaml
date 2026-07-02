@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex CLI"
+  short_description: "Delegate bounded work to Codex GPT-5.5"
+  default_prompt: "Use $codex to delegate a bounded, depth-heavy task to GPT-5.5 through the local Codex CLI."
