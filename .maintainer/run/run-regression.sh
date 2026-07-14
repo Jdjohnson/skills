@@ -122,7 +122,8 @@ PY
 run_runner() {
   local stub_dir="$1"
   shift
-  PATH="${stub_dir}:$PATH" "$RUNNER" "$@"
+  mkdir -p "${WORK_ROOT}/home"
+  HOME="${WORK_ROOT}/home" PATH="${stub_dir}:$PATH" "$RUNNER" "$@"
 }
 
 test_validate_and_run() {

@@ -6,14 +6,6 @@ description: |
   for a single prompt and needs clear steps, tool routing, status checks, and
   resume support. Use `harden` when an existing thesis, argument, draft, or
   plan needs a bounded verify/revise run before use.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Glob
-  - Grep
-  - Bash
-  - AskUserQuestion
 ---
 
 # /run - Plan, Launch, and Supervise Bigger Work

@@ -1,4 +1,0 @@
-interface:
-  display_name: "MSCRM Deals"
-  short_description: "Create new MSCRM deals only after Jarad approval and Slack notification"
-  default_prompt: "Use $ms-crm to prepare a new MSCRM deal approval packet, wait for Jarad Johnson's exact approval text, create the approved deal, notify Slack through SLACK_DEAL_WEBHOOK_URL, and report approval, CRM, and Slack status."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writer"
+  short_description: "Develop rough material into clear prose"
+  default_prompt: "Use $writer to develop these notes into a clear draft."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan"
+  short_description: "Co-create an approved plan for a work period"
+  default_prompt: "Use $plan to co-create my plan one approval phase at a time."

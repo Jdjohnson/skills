@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brainstorm"
+  short_description: "Find the shape of a messy idea"
+  default_prompt: "Use $brainstorm to help me find the real shape of this idea."

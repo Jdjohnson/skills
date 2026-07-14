@@ -50,7 +50,6 @@ PRIVATE_PROMPT_PATTERNS = (
     (r"\bsource\s+(csv|exports?)\b", "source_export_request"),
     (r"\b(users?|projects?|gpts?)\s+export\b", "workspace_usage_export"),
     (r"\bChatGPT Enterprise usage\b", "enterprise_usage_data"),
-    (r"\bPSB Bank\b", "client_identifier_psb_bank"),
 )
 
 MODE_PREFACE = {
@@ -88,7 +87,10 @@ class CommandResult:
     stderr: str
 
 
-def redact(text: str, env: dict[str, str] | None = None) -> str:
+def redact(text: str | bytes, env: dict[str, str] | None = None) -> str:
+    # Timeout paths can hand us bytes (subprocess captures before decode).
+    if isinstance(text, bytes):
+        text = text.decode("utf-8", errors="replace")
     if not text:
         return text
 
@@ -165,6 +167,9 @@ def run_subprocess(
             timeout=timeout,
             check=False,
             env=env,
+            # Never let the child inherit a live stdin pipe — codex exec
+            # blocks reading it and hangs to timeout.
+            stdin=subprocess.DEVNULL,
         )
         return CommandResult(
             argv=argv,
@@ -331,16 +336,18 @@ def audit_external_data_safety(prompt: str, args: argparse.Namespace) -> dict[st
             findings.append(label)
 
     findings = list(dict.fromkeys(findings))
-    issues = ["external_private_data_not_allowed"] if findings else []
+    waived = bool(findings) and bool(getattr(args, "allow_private_data", False))
+    issues = ["external_private_data_not_allowed"] if findings and not waived else []
     return {
         "ok": not issues,
         "data_classification": classification,
         "findings": findings,
+        "waived": waived,
         "issues": issues,
         "recommendation": (
-            "Run private/client data analysis locally in the orchestrating agent, or create a sanitized "
-            "aggregate packet with no raw export paths, client identifiers, user-level rows, or source files "
-            "before using external agents."
+            "Run private/client data analysis locally in the orchestrating agent, create a sanitized "
+            "aggregate packet, or — with the user's explicit instruction — re-run with "
+            "--allow-private-data to waive the block."
         )
         if issues
         else None,
@@ -418,7 +425,9 @@ def build_codex_argv(
         args.cwd,
         "--skip-git-repo-check",
         "--sandbox",
-        MODE_SANDBOX[mode],
+        # --full-access uses Codex's native unrestricted sandbox level; runs
+        # are still headless with approval_policy=never.
+        "danger-full-access" if getattr(args, "full_access", False) else MODE_SANDBOX[mode],
         "--model",
         model,
         "-c",
@@ -675,6 +684,11 @@ def add_prompt_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--prompt-file")
     parser.add_argument("--stdin", action="store_true")
     parser.add_argument("--data-classification", choices=DATA_CLASSIFICATIONS, default="internal")
+    parser.add_argument(
+        "--allow-private-data",
+        action="store_true",
+        help="Waive the private-data block (requires the user's explicit instruction); findings are still reported.",
+    )
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -702,6 +716,11 @@ def build_parser() -> argparse.ArgumentParser:
     add_prompt_args(run)
     run.add_argument("--run-id")
     run.add_argument("--dry-run", action="store_true")
+    run.add_argument(
+        "--full-access",
+        action="store_true",
+        help="Run Codex with its unrestricted sandbox (danger-full-access) instead of the mode's sandbox.",
+    )
     run.set_defaults(func=do_run)
 
     return parser

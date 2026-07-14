@@ -77,7 +77,7 @@ class GrokDelegateTests(unittest.TestCase):
                 raise SystemExit(9)
                 """,
             )
-            secret = "xai-test-secret-value"
+            secret = "fake-grok-secret-value"
             result = run_wrapper(
                 ["doctor", "--grok-bin", str(fake), "--cwd", str(root)],
                 env={"XAI_API_KEY": secret},
@@ -171,7 +171,7 @@ class GrokDelegateTests(unittest.TestCase):
             )
             self.assertEqual(
                 payload["command"]["argv"][payload["command"]["argv"].index("--model") + 1],
-                "grok-composer-2.5-fast",
+                "grok-4.5",
             )
 
     def test_run_blocks_private_source_packet_before_cli_invocation(self) -> None:
@@ -188,9 +188,8 @@ class GrokDelegateTests(unittest.TestCase):
                 """,
             )
             private_prompt = (
-                "Review PSB Bank ChatGPT Enterprise usage from raw CSV exports at "
-                "/Users/jaradjohnson/Developer/ai-hub/Dot/projects/psb/source-material/2026-06/"
-                "PSB Bank users export (2026-05-01 - 2026-05-31).csv"
+                "Review a client usage export from raw CSV files at "
+                "/projects/example/source-material/2026-06/users-export.csv"
             )
             result = run_wrapper(
                 [
@@ -455,7 +454,7 @@ class GrokDelegateTests(unittest.TestCase):
     def test_failure_classification_and_redaction(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            secret = "xai-test-secret-value"
+            secret = "fake-grok-secret-value"
             fake = make_fake_grok(
                 root,
                 """\
