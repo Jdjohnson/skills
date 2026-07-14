@@ -1,45 +1,14 @@
 {
   "skill": "steelman",
-  "parity_goal": "Preserve interview-first pressure testing with adaptive angles, quick command handling, synthesis, and a final steelman brief.",
+  "parity_goal": "Preserve the public steelman contract without private workspace assumptions.",
   "cases": [
     {
-      "id": "new-topic",
-      "prompt": "steelman Should we acquire an HVAC company first?",
-      "expected_nodes": [
-        "nodes/workflow.md",
-        "nodes/angles.md",
-        "nodes/question-quality.md"
-      ],
-      "expected_output_shape": [
-        "2-4 probing questions",
-        "round synthesis",
-        "angle-based progression"
-      ]
-    },
-    {
-      "id": "in-session-pivot",
-      "prompt": "go deeper on assumptions",
-      "expected_nodes": [
-        "nodes/quick-commands.md",
-        "nodes/angle-selection.md"
-      ],
-      "expected_output_shape": [
-        "deeper probes",
-        "adjusted angle sequencing",
-        "continued interview flow"
-      ]
-    },
-    {
-      "id": "wrap-request",
-      "prompt": "wrap it up",
-      "expected_nodes": [
-        "nodes/wrap-synthesis.md",
-        "nodes/brief-output.md"
-      ],
-      "expected_output_shape": [
-        "pre-brief synthesis check",
-        "final steelman brief",
-        "chat output by default"
+      "id": "generic-smoke",
+      "prompt": "$steelman example request",
+      "expected": [
+        "routes to the named skill",
+        "uses only supplied or configured context",
+        "preserves approval and evidence boundaries"
       ]
     }
   ]

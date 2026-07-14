@@ -5,15 +5,6 @@ description: |
   prose. Use for articles, essays, posts, memos, talks, or other writing that
   needs intake, goal clarity, story extraction, research, structure, drafting,
   and refinement.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - WebSearch
-  - WebFetch
-  - AskUserQuestion
 ---
 
 # Writer
@@ -48,9 +39,9 @@ Run the workflow rules in [[nodes/workflow.md]], then use the phase nodes:
 6. Draft: [[nodes/phase-06-draft.md]]
 7. Refine: [[nodes/phase-07-refine.md]]
 
-## Optional Companion Passes
+## Voice and refinement
 
-If a separate style-guide skill is available, use it as a companion for calibration, red flags, and final checklist. If a humanizer-style cleanup skill is available, use it during refinement when the draft has AI-pattern residue. These are optional helpers, not hard dependencies.
+Use samples, a style brief, or workspace instructions supplied by the user as optional calibration. During refinement, remove formulaic AI-writing patterns without erasing the writer's meaning or natural cadence. The skill has no required voice profile or companion skill.
 
 ## Output
 

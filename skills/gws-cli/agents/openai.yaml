@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Workspace CLI"
+  short_description: "Run guarded Google Workspace CLI operations"
+  default_prompt: "Use $gws-cli to perform this bounded Google Workspace operation safely."

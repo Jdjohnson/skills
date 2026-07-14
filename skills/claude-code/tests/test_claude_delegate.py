@@ -78,7 +78,7 @@ class ClaudeDelegateTests(unittest.TestCase):
                 raise SystemExit(9)
                 """,
             )
-            secret = "sk-ant-test-secret-value"
+            secret = "fake-claude-secret-value"
             result = run_wrapper(
                 ["doctor", "--claude-bin", str(fake), "--cwd", str(root)],
                 env={"ANTHROPIC_API_KEY": secret},
@@ -194,9 +194,8 @@ class ClaudeDelegateTests(unittest.TestCase):
                 """,
             )
             private_prompt = (
-                "Review PSB Bank ChatGPT Enterprise usage from raw CSV exports at "
-                "/Users/jaradjohnson/Developer/ai-hub/Dot/projects/psb/source-material/2026-06/"
-                "PSB Bank users export (2026-05-01 - 2026-05-31).csv"
+                "Review a client usage export from raw CSV files at "
+                "/projects/example/source-material/2026-06/users-export.csv"
             )
             result = run_wrapper(
                 [
@@ -287,7 +286,7 @@ class ClaudeDelegateTests(unittest.TestCase):
     def test_failure_classification_and_redaction(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            secret = "sk-ant-test-secret-value"
+            secret = "fake-claude-secret-value"
             fake = make_fake_claude(
                 root,
                 """\

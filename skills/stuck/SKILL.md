@@ -5,12 +5,6 @@ description: |
   avoidant, or out of rhythm. Use to run a one-question-at-a-time reset that
   surfaces the real tension, identifies the primary blocker, and ends with a
   small plan for today and tomorrow. Not for crisis or clinical care.
-allowed-tools:
-  - Read
-  - Write
-  - Grep
-  - Glob
-  - AskUserQuestion
 ---
 
 # Stuck

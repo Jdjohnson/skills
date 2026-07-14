@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brief"
+  short_description: "Turn complex material into a concise brief"
+  default_prompt: "Use $brief to turn this source material into a decision-ready brief."

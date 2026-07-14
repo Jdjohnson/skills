@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stuck"
+  short_description: "Diagnose a block and choose a starting move"
+  default_prompt: "Use $stuck to help me diagnose this block and choose a small next move."

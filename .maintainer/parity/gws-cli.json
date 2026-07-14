@@ -1,0 +1,15 @@
+{
+  "skill": "gws-cli",
+  "parity_goal": "Preserve the public gws-cli contract without private workspace assumptions.",
+  "cases": [
+    {
+      "id": "generic-smoke",
+      "prompt": "$gws-cli example request",
+      "expected": [
+        "routes to the named skill",
+        "uses only supplied or configured context",
+        "preserves approval and evidence boundaries"
+      ]
+    }
+  ]
+}

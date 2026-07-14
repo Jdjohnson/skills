@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meeting"
+  short_description: "Prepare, close, find, and review meetings"
+  default_prompt: "Use $meeting to prepare for or close out this meeting from the available sources."

@@ -1,5 +1,0 @@
-interface:
-  display_name: "JJ Reflect"
-  short_description: "Reflect across Jarad's journals and Dot day folders"
-  default_prompt: "Use $jj-reflect to read Jarad's relevant journal sources from /Users/jaradjohnson/Dot/timeline day folders, source journal files, and migrated Old Dot journal/context-sweep material, then provide a concise source-grounded reflection without taking over day planning or inbox intake."
-

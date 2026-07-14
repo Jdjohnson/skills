@@ -1,0 +1,15 @@
+{
+  "skill": "plan",
+  "parity_goal": "Preserve the public plan contract without private workspace assumptions.",
+  "cases": [
+    {
+      "id": "generic-smoke",
+      "prompt": "$plan example request",
+      "expected": [
+        "routes to the named skill",
+        "uses only supplied or configured context",
+        "preserves approval and evidence boundaries"
+      ]
+    }
+  ]
+}

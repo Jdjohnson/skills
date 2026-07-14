@@ -1,7 +1,7 @@
 {
-  "name": "portable-ai-skills",
-  "version": "1.7.0",
-  "description": "Portable AI skills plus Jarad Pack and Dot workspace personal skill snapshots",
+  "name": "generic-ai-skills",
+  "version": "2.0.0",
+  "description": "A generic bank of reusable AI skills for thinking, writing, research, meetings, and agent tooling",
   "homepage": "https://github.com/Jdjohnson/skills",
   "keywords": [
     "skills",
@@ -10,9 +10,7 @@
     "writing",
     "research",
     "meetings",
-    "chatgpt",
-    "codex",
-    "claude-code"
+    "agent-tooling"
   ],
   "author": {
     "name": "Jarad Johnson",
@@ -22,9 +20,9 @@
   "license": "MIT",
   "skills": "./skills/",
   "interface": {
-    "displayName": "Portable AI Skills",
-    "shortDescription": "Portable skills plus Jarad Pack and Dot personal skill snapshots",
-    "longDescription": "A collection of portable AI skills, normalized Dot Core Jarad Pack skill-package exports, and Dot workspace personal skill snapshots for structured thinking, writing, meetings, research, and local-agent workflows.",
+    "displayName": "Generic AI Skills",
+    "shortDescription": "Reusable skills for knowledge work and agent tooling",
+    "longDescription": "Seventeen portable skills for thinking, planning, writing, meetings, research, and bounded agent or CLI workflows.",
     "developerName": "Jarad Johnson",
     "category": "Productivity",
     "capabilities": [
@@ -33,36 +31,26 @@
     ],
     "websiteURL": "https://github.com/Jdjohnson/skills",
     "defaultPrompt": [
-      "Use the matching portable, Jarad Pack, or Dot workspace personal skill for the current task."
+      "Use the matching generic skill for the current task."
     ],
     "brandColor": "#1F4D3D",
     "skills": [
       "brainstorm",
-      "steelman",
-      "chatgpt",
       "brief",
+      "plan",
+      "steelman",
       "stuck",
       "writer",
-      "style-guide",
-      "meeting-doc",
-      "economist-council",
-      "context-sweep",
-      "jj-brainstorm",
-      "jj-brief",
-      "jj-chatgpt",
-      "jj-steelman",
-      "jj-writing",
+      "meeting",
+      "work-log",
+      "chatgpt",
       "claude-code",
       "codex",
-      "dot-recall",
-      "gpt-researcher",
+      "context-sweep",
       "grok-build",
       "gws-cli",
-      "jj-intake",
-      "jj-log",
-      "jj-reflect",
-      "jj-writer",
-      "opencode"
+      "opencode",
+      "economist-council"
     ]
   }
 }

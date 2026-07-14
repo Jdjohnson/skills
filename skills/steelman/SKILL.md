@@ -5,14 +5,6 @@ description: |
   pressure-testing an idea, argument, strategy, or decision. Use when the user
   wants the strongest version of a view, plus its best counterarguments,
   assumptions, tradeoffs, risks, and next steps.
-allowed-tools:
-  - Read
-  - Write
-  - Grep
-  - Glob
-  - WebSearch
-  - WebFetch
-  - AskUserQuestion
 ---
 
 # Steelman

@@ -29,14 +29,13 @@ CREDENTIAL_ENV_NAMES = (
 )
 
 DEFAULT_GROK_CANDIDATES = (
-    "/Users/jaradjohnson/.grok/bin/grok",
     "~/.grok/bin/grok",
     "~/.local/bin/grok",
     "/opt/homebrew/bin/grok",
     "/usr/local/bin/grok",
 )
 
-DEFAULT_GROK_MODEL = "grok-composer-2.5-fast"
+DEFAULT_GROK_MODEL = "grok-4.5"
 
 COMPAT_ENV_NAMES = (
     "GROK_CLAUDE_SKILLS_ENABLED",
@@ -70,7 +69,6 @@ PRIVATE_PROMPT_PATTERNS = (
     (r"\bsource\s+(csv|exports?)\b", "source_export_request"),
     (r"\b(users?|projects?|gpts?)\s+export\b", "workspace_usage_export"),
     (r"\bChatGPT Enterprise usage\b", "enterprise_usage_data"),
-    (r"\bPSB Bank\b", "client_identifier_psb_bank"),
 )
 
 
@@ -206,8 +204,8 @@ def present_credentials(env: dict[str, str] | None = None) -> list[str]:
 def grok_env(args: argparse.Namespace) -> tuple[dict[str, str], dict[str, str]]:
     env = os.environ.copy()
     policy: dict[str, str] = {}
-    compat = getattr(args, "compat", "dot-only")
-    if compat in {"dot-only", "none"}:
+    compat = getattr(args, "compat", "host-only")
+    if compat in {"host-only", "none"}:
         for name in COMPAT_ENV_NAMES:
             env[name] = "false"
             policy[name] = "false"
@@ -516,7 +514,7 @@ def do_doctor(args: argparse.Namespace) -> int:
 
 
 def do_probe(args: argparse.Namespace) -> int:
-    args.compat = getattr(args, "compat", "dot-only")
+    args.compat = getattr(args, "compat", "host-only")
     args.allow_mcp = False
     args.allow_subagents = False
     args.allow_web = False
@@ -672,7 +670,7 @@ def add_common(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--grok-bin", help="Path or command name for Grok Build CLI.")
     parser.add_argument("--cwd", default=os.getcwd(), help="Trusted project directory to run Grok in.")
     parser.add_argument("--timeout", type=int, default=600, help="Subprocess timeout in seconds.")
-    parser.add_argument("--compat", choices=["dot-only", "all", "none"], default="dot-only")
+    parser.add_argument("--compat", choices=["host-only", "all", "none"], default="host-only")
 
 
 def add_prompt_args(parser: argparse.ArgumentParser) -> None:

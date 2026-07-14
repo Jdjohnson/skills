@@ -1,78 +1,14 @@
 {
   "skill": "chatgpt",
-  "parity_goal": "Turn explicit ChatGPT requests into clear orders while keeping local work canonical and ChatGPT returns clearly bounded.",
-  "behavior_signature_before": "Node-first order router with manual copy/paste orders only.",
-  "behavior_signature_after": "Portable order router with Keep Local, lane selection, host-supported direct placement, and fallback order packet support.",
+  "parity_goal": "Preserve the public chatgpt contract without private workspace assumptions.",
   "cases": [
     {
-      "id": "deep-research-order",
-      "prompt": "$chatgpt research the vendor landscape for X and draft the right order",
-      "expected_nodes": [
-        "nodes/trust-boundary.md",
-        "nodes/selector.md",
-        "nodes/direct-placement.md",
-        "nodes/fallback-packet.md",
-        "nodes/lane-deep-research.md"
-      ],
-      "expected_output_shape": [
-        "chatgpt deep research order title",
-        "why this lane",
-        "execution path",
-        "files/context to include",
-        "required chatgpt connectors/apps",
-        "copy/paste order",
-        "what to bring back",
-        "result handling"
-      ]
-    },
-    {
-      "id": "agent-order",
-      "prompt": "Place a ChatGPT order to have Agent collect the pricing details from the website",
-      "expected_nodes": [
-        "nodes/trust-boundary.md",
-        "nodes/selector.md",
-        "nodes/direct-placement.md",
-        "nodes/fallback-packet.md",
-        "nodes/lane-agent.md"
-      ],
-      "expected_output_shape": [
-        "chatgpt agent order title",
-        "why this lane",
-        "execution path",
-        "files/context to include",
-        "copy/paste order",
-        "what to bring back"
-      ]
-    },
-    {
-      "id": "pro-review-order",
-      "prompt": "$chatgpt give me a second-pass review on this architecture decision",
-      "expected_nodes": [
-        "nodes/trust-boundary.md",
-        "nodes/selector.md",
-        "nodes/direct-placement.md",
-        "nodes/fallback-packet.md",
-        "nodes/lane-pro-review.md"
-      ],
-      "expected_output_shape": [
-        "chatgpt pro review order title",
-        "stress-test framing",
-        "execution path",
-        "copy/paste order",
-        "what to bring back"
-      ]
-    },
-    {
-      "id": "keep-local",
-      "prompt": "$chatgpt what time is it right now in Springfield",
-      "expected_nodes": [
-        "nodes/trust-boundary.md",
-        "nodes/selector.md"
-      ],
-      "expected_output_shape": [
-        "keep local",
-        "one-sentence why",
-        "recommended local next step"
+      "id": "generic-smoke",
+      "prompt": "$chatgpt example request",
+      "expected": [
+        "routes to the named skill",
+        "uses only supplied or configured context",
+        "preserves approval and evidence boundaries"
       ]
     }
   ]
