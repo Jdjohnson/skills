@@ -1,57 +1,14 @@
 {
   "skill": "brainstorm",
-  "parity_goal": "Preserve alignment-first brainstorming with a fixed active-turn structure, short research detours, and permission-based wrap behavior.",
+  "parity_goal": "Preserve the public brainstorm contract without private workspace assumptions.",
   "cases": [
     {
-      "id": "alignment-gate",
-      "prompt": "brainstorm I keep saying I want a productized AI offer, but I cannot tell if I mean a real offer or just a clearer way to talk about custom work.",
-      "expected_nodes": [
-        "nodes/workflow.md",
-        "nodes/tone.md"
-      ],
-      "expected_output_shape": [
-        "plain-language echo",
-        "explicit confirmation gate",
-        "no early challenge or hidden reframe"
-      ]
-    },
-    {
-      "id": "active-round",
-      "prompt": "Let's brainstorm this topic. We keep collapsing our AI thinking back into custom delivery.",
-      "expected_nodes": [
-        "nodes/workflow.md",
-        "nodes/question-quality.md"
-      ],
-      "expected_output_shape": [
-        "Current State",
-        "Pressure Points",
-        "exactly three questions"
-      ]
-    },
-    {
-      "id": "research-detour",
-      "prompt": "Help me think through examples of agencies packaging AI work without turning it into endless custom service.",
-      "expected_nodes": [
-        "nodes/research-detour.md",
-        "nodes/workflow.md"
-      ],
-      "expected_output_shape": [
-        "proposed short research detour",
-        "targeted source plan",
-        "resume into the brainstorm loop"
-      ]
-    },
-    {
-      "id": "wrap-and-handoff",
-      "prompt": "I think we are mostly repeating ourselves now. Is there enough here to stop?",
-      "expected_nodes": [
-        "nodes/wrap.md",
-        "nodes/workflow.md"
-      ],
-      "expected_output_shape": [
-        "permission-based wrap",
-        "clearest version of the idea",
-        "best next move"
+      "id": "generic-smoke",
+      "prompt": "$brainstorm example request",
+      "expected": [
+        "routes to the named skill",
+        "uses only supplied or configured context",
+        "preserves approval and evidence boundaries"
       ]
     }
   ]

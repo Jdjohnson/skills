@@ -1,6 +1,0 @@
-interface:
-  display_name: "JJ Log"
-  short_description: "Log active work threads into Dot records"
-  default_prompt: "Use $jj-log to close out this active work thread into the explicit Today file, optional ad hoc memory note, and explicit Asana task."
-policy:
-  allow_implicit_invocation: false

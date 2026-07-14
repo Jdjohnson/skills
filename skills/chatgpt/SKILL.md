@@ -6,13 +6,6 @@ description: |
   or ChatGPT Pro review. Decide whether the work should stay local or become a
   ChatGPT order, then either place it through host-supported browser control or
   prepare a bounded fallback order/packet.
-allowed-tools:
-  - Read
-  - Write
-  - Bash
-  - Grep
-  - Glob
-  - AskUserQuestion
 ---
 
 # ChatGPT Orders

@@ -5,14 +5,6 @@ description: |
   Use when the user provides pasted text, a file, a URL, or a topic and wants
   a concise brief with bottom line, key judgments, confidence, decisions, and
   gaps. Do not use for long-form research reports or polished prose drafts.
-allowed-tools:
-  - Read
-  - Write
-  - Grep
-  - Glob
-  - WebSearch
-  - WebFetch
-  - AskUserQuestion
 ---
 
 # Brief

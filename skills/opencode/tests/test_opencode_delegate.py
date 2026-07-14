@@ -253,9 +253,8 @@ class OpenCodeDelegateTests(unittest.TestCase):
                 """,
             )
             private_prompt = (
-                "Review PSB Bank ChatGPT Enterprise usage from raw CSV exports at "
-                "/Users/jaradjohnson/Developer/ai-hub/Dot/projects/psb/source-material/2026-06/"
-                "PSB Bank users export (2026-05-01 - 2026-05-31).csv"
+                "Review a client usage export from raw CSV files at "
+                "/projects/example/source-material/2026-06/users-export.csv"
             )
             result = run_wrapper(
                 [
@@ -546,7 +545,7 @@ class OpenCodeDelegateTests(unittest.TestCase):
                     print("1.17.5")
                     raise SystemExit(0)
                 if sys.argv[1:] in (["auth", "list"], ["models", "ollama-cloud"]):
-                    print("Unknown: FileSystem.open (/Users/jaradjohnson/.local/share/opencode/log/opencode.log)", file=sys.stderr)
+                    print("Unknown: FileSystem.open (/home/example/.local/share/opencode/log/opencode.log)", file=sys.stderr)
                     raise SystemExit(1)
                 raise SystemExit(9)
                 """,

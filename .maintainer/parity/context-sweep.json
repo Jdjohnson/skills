@@ -1,52 +1,14 @@
 {
   "skill": "context-sweep",
-  "parity_goal": "Preserve a standalone best-effort cross-app context sweep that writes deduped timestamp-true daily-note log entries and advances checkpoints per source only after successful writes.",
-  "behavior_signature_before": "Private skill gathered Superhuman, Slack, Notion, CRM, and local Codex context into a private daily note with per-source checkpoints.",
-  "behavior_signature_after": "Public skill keeps the same gathering, classification, deterministic write, dedupe, and checkpoint behavior while using portable journal and runtime paths.",
+  "parity_goal": "Preserve the public context-sweep contract without private workspace assumptions.",
   "cases": [
     {
-      "id": "normal-run",
-      "prompt": "context-sweep",
-      "expected_nodes": [
-        "nodes/checkpoints.md",
-        "nodes/gather.md",
-        "nodes/classify.md",
-        "nodes/write.md"
-      ],
-      "expected_output_shape": [
-        "best-effort Superhuman Slack Notion CRM Codex sweep",
-        "direct write into the configured daily note log",
-        "per-source success skipped failed reporting"
-      ]
-    },
-    {
-      "id": "dry-run",
-      "prompt": "context-sweep dry-run",
-      "expected_nodes": [
-        "nodes/checkpoints.md",
-        "nodes/gather.md",
-        "nodes/classify.md",
-        "nodes/write.md"
-      ],
-      "expected_output_shape": [
-        "would-write set only",
-        "no daily-note mutation",
-        "no checkpoint advancement"
-      ]
-    },
-    {
-      "id": "since-override",
-      "prompt": "context-sweep since:2026-04-22T09:00:00-05:00",
-      "expected_nodes": [
-        "nodes/checkpoints.md",
-        "nodes/gather.md",
-        "nodes/classify.md",
-        "nodes/write.md"
-      ],
-      "expected_output_shape": [
-        "override lower bound applied to this run",
-        "forward-only checkpoint rule",
-        "honest best-effort limits for Notion and CRM"
+      "id": "generic-smoke",
+      "prompt": "$context-sweep example request",
+      "expected": [
+        "routes to the named skill",
+        "uses only supplied or configured context",
+        "preserves approval and evidence boundaries"
       ]
     }
   ]

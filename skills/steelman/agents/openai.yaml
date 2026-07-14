@@ -1,0 +1,4 @@
+interface:
+  display_name: "Steelman"
+  short_description: "Pressure-test and strengthen an idea"
+  default_prompt: "Use $steelman to pressure-test and strengthen this idea."
