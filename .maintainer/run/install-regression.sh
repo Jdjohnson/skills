@@ -111,8 +111,8 @@ test_install_is_idempotent_for_existing_run_paths() {
   stdout_path="${WORK_ROOT}/idempotent.stdout"
   stderr_path="${WORK_ROOT}/idempotent.stderr"
 
-  HOME="${home_dir}" python3 "${INSTALLER}" --host both >/dev/null 2>/dev/null
-  HOME="${home_dir}" python3 "${INSTALLER}" --host both >"${stdout_path}" 2>"${stderr_path}"
+  HOME="${home_dir}" CODEX_HOME="${home_dir}/.codex" python3 "${INSTALLER}" --host both >/dev/null 2>/dev/null
+  HOME="${home_dir}" CODEX_HOME="${home_dir}/.codex" python3 "${INSTALLER}" --host both >"${stdout_path}" 2>"${stderr_path}"
 
   assert_exists "${home_dir}/.codex/skills/run/SKILL.md" "Codex run planner should still exist after reinstall"
   assert_exists "${home_dir}/.claude/skills/run/SKILL.md" "Claude run planner should still exist after reinstall"

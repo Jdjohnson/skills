@@ -5,14 +5,6 @@ description: |
   untangled, and shaped before they become a plan or decision. Use when the
   user says things like "help me think through this," "let's kick this
   around," or "brainstorm this with me."
-allowed-tools:
-  - Read
-  - Write
-  - Grep
-  - Glob
-  - WebSearch
-  - WebFetch
-  - AskUserQuestion
 ---
 
 # Brainstorm

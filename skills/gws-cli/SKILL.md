@@ -1,83 +1,42 @@
 ---
 name: gws-cli
-description: |
-  Google Workspace CLI routing guard. Use for Google Docs, Drive, Sheets,
-  Slides, and audit-grade Gmail/Calendar verification or export. Day-to-day
-  work email and calendar management routes through Superhuman Mail MCP first.
+description: Run guarded Google Workspace command-line operations through local helper scripts. Use for bounded Drive, Sheets, Gmail, or Calendar reads; for approved mutations; or when exact JSON evidence and restore-safe handling matter.
 ---
 
-# GWS CLI
+# Google Workspace CLI
 
-Use the local Google Workspace CLI path for Google Workspace files and for
-deterministic Gmail/Calendar verification, export, or recovery.
+Use the narrowest bundled helper that fits the request. Prefer read-only inspection. Mutations require an explicit target and clear user approval.
 
-This skill takes precedence over connector-first defaults in `dot-work`, `docs`,
-and other skills for its trigger surface. When this skill applies, do not route
-the same Google Workspace work through native Google connectors or MCP plugins.
+## Helpers
 
-## When To Use
+Resolve `<skill-root>` to this skill's installed directory.
 
-- Jarad asks about Google Drive, Google Docs, Google Sheets, Google Slides, or Google Workspace file operations.
-- Jarad asks for exact Gmail/Calendar verification, exports, restore-safe cleanup, audit-grade evidence, or fallback after Superhuman is unavailable or ambiguous.
-- Another skill needs deterministic Google Workspace data as part of its workflow.
+- Gmail: `python3 <skill-root>/scripts/google_gmail.py --help`
+- Calendar: `python3 <skill-root>/scripts/google_calendar.py --help`
+- Drive: `python3 <skill-root>/scripts/google_drive.py --help`
+- Sheets: `python3 <skill-root>/scripts/google_sheets_read.py --help`
+- Export an authenticated CLI token bundle: `python3 <skill-root>/scripts/google_token_export.py --help`
+- Create a token bundle from Application Default Credentials: `python3 <skill-root>/scripts/google_token_from_adc.py --help`
 
-Do not trigger for generic web search just because Google exists as a search engine.
+Read [smoke tests](nodes/smoke-tests.md) when validating a new setup.
 
-## Routing Rule
+## Routing
 
-Use Superhuman Mail MCP first for day-to-day work email and calendar management.
-Use local GWS CLI routes for Google Workspace files and Gmail/Calendar
-verification:
+1. Identify the Workspace product, account, resource, and intended read or mutation.
+2. Run `--help` before using an unfamiliar subcommand.
+3. Use the smallest result window and fields that answer the request.
+4. For a mutation, preview or re-read the exact target and confirm approval.
+5. Capture resource IDs, URLs, counts, and returned state without exposing token contents.
+6. Verify the post-mutation state from the service.
 
-- Prefer the thin wrappers in `.dot-skills/gws-cli/scripts/` when they fit the job.
-- Use raw `gws` when a wrapper does not cover the needed operation.
-- Use the canonical token bundle at `~/.config/gws/token_full.json`.
-- If this is fallback after Superhuman timeout/unavailability, keep the action
-  read-only unless Jarad separately approved a mutation. Run the local wrapper
-  once for the bounded evidence needed; do not retry Superhuman or switch to
-  Google/Gmail/Calendar connector tools.
+## Authentication
 
-Do not use:
-
-- Google MCP servers
-- curated Google plugins
-- Drive, Docs, Sheets, Slides, Gmail, or Calendar connector tools
-
-If another skill also applies, keep this routing rule active underneath it. For
-email/calendar tasks, Superhuman owns the default route and `gws-cli` is the
-verifier or recovery fallback.
-
-## Useful Local Commands
-
-Start with status when auth or scope is uncertain:
-
-```bash
-gws auth status
-```
-
-Common wrapper families:
-
-```bash
-python3 .dot-skills/gws-cli/scripts/google_gmail.py
-python3 .dot-skills/gws-cli/scripts/google_calendar.py
-python3 .dot-skills/gws-cli/scripts/google_drive.py
-python3 .dot-skills/gws-cli/scripts/google_sheets_read.py
-```
-
-Use raw `gws` for supported operations that do not have a wrapper:
-
-```bash
-gws --help
-gws <service> <resource> <action> --help
-```
-
-## Verification
-
-Read-only smoke checks: [smoke-tests](nodes/smoke-tests.md)
+The helpers use the installed Google CLI and a local token bundle, normally `~/.config/gws/token_full.json`. Treat credential files as secrets: never print, copy into a repository, or include their values in receipts. If authentication is absent or invalid, report the interactive setup step instead of asking for pasted credentials.
 
 ## Safety
 
-- Do not print tokens, credential files, or auth bundles.
-- If CLI auth is broken, diagnose with `gws auth status` before attempting repair.
-- If a Google operation would delete, move, overwrite, or share sensitive data, get explicit user approval first unless Jarad already made the target and permissions explicit.
-- Mutation-capable wrappers (`draft`, `archive`, `modify-labels`, `create-native`, raw `gws` writes) require explicit user approval before use.
+- Do not delete, move, overwrite, share, send, or change permissions without explicit approval.
+- Prefer reversible operations and preserve stable IDs for recovery.
+- Never infer an account or resource when more than one is available.
+- Keep live-service tests separate from local regression tests.
+- A local command receipt is not proof of a remote mutation unless the returned service state confirms it.

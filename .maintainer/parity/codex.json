@@ -1,0 +1,15 @@
+{
+  "skill": "codex",
+  "parity_goal": "Preserve the public codex contract without private workspace assumptions.",
+  "cases": [
+    {
+      "id": "generic-smoke",
+      "prompt": "$codex example request",
+      "expected": [
+        "routes to the named skill",
+        "uses only supplied or configured context",
+        "preserves approval and evidence boundaries"
+      ]
+    }
+  ]
+}

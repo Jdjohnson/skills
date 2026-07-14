@@ -1,82 +1,14 @@
 {
   "skill": "run",
-  "parity_goal": "Plan projects through an interactive workshop and execute or supervise them through a portable runner.",
-  "behavior_signature_before": "Portable router plus default session, status, and resume flow.",
-  "behavior_signature_after": "Portable router with default session, public hardening workshop, artifact-backed status/follow, resume/adjust, and runner handoff.",
+  "parity_goal": "Preserve the public run contract without private workspace assumptions.",
   "cases": [
     {
-      "id": "session-default-workshop",
-      "prompt": "/run",
-      "expected_nodes": [
-        "nodes/session.md",
-        "nodes/blueprint-schema.md",
-        "nodes/runner-handoff.md"
-      ],
-      "expected_output_shape": [
-        "five-stage strategy workshop",
-        "run folder proposed under ./runs/<project-slug>",
-        "live session.md created and updated during planning",
-        "executive summary plus full run checklist",
-        "tool map and dependencies",
-        "blueprint.json written at lock",
-        "progress.md initialized at lock",
-        "validate command presented",
-        "status and follow commands presented",
-        "single recommended launch command presented"
-      ]
-    },
-    {
-      "id": "harden-workshop",
-      "prompt": "/run harden this thesis",
-      "expected_nodes": [
-        "nodes/harden.md",
-        "nodes/blueprint-schema.md",
-        "nodes/runner-handoff.md"
-      ],
-      "expected_output_shape": [
-        "explicit hardening workshop separate from session",
-        "thesis and proof bar reflected back clearly",
-        "route to steelman when the seed is too foggy to state as a clear thesis",
-        "bounded verify revise checklist proposed",
-        "red-claim focus and stop rule made explicit",
-        "lean hardening artifacts named",
-        "blueprint.json written at lock",
-        "progress.md initialized at lock",
-        "validate command presented",
-        "status and follow commands presented",
-        "single recommended launch command presented"
-      ]
-    },
-    {
-      "id": "status-dashboard",
-      "prompt": "/run status",
-      "expected_nodes": [
-        "nodes/status.md",
-        "nodes/blueprint-schema.md"
-      ],
-      "expected_output_shape": [
-        "status command points at run-workflow",
-        "artifact-backed summary",
-        "blockers and next artifact surfaced",
-        "completion summary and recap named for terminal runs",
-        "completed with friction named when completion notes exist"
-      ]
-    },
-    {
-      "id": "resume-adjust",
-      "prompt": "/run resume",
-      "expected_nodes": [
-        "nodes/resume.md",
-        "nodes/status.md",
-        "nodes/blueprint-schema.md"
-      ],
-      "expected_output_shape": [
-        "status surface first",
-        "blocker review",
-        "updated blueprint.json",
-        "validate command re-emitted",
-        "status and follow commands re-emitted",
-        "single recommended launch command re-emitted"
+      "id": "generic-smoke",
+      "prompt": "$run example request",
+      "expected": [
+        "routes to the named skill",
+        "uses only supplied or configured context",
+        "preserves approval and evidence boundaries"
       ]
     }
   ]

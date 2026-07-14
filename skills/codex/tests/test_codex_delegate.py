@@ -204,9 +204,8 @@ class CodexDelegateTests(unittest.TestCase):
                 """,
             )
             private_prompt = (
-                "Review PSB Bank ChatGPT Enterprise usage from raw CSV exports at "
-                "/Users/jaradjohnson/Developer/ai-hub/Dot/projects/psb/source-material/2026-06/"
-                "PSB Bank users export (2026-05-01 - 2026-05-31).csv"
+                "Review a client usage export from raw CSV files at "
+                "/projects/example/source-material/2026-06/users-export.csv"
             )
             result = run_wrapper(
                 [
@@ -247,6 +246,53 @@ class CodexDelegateTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0)
         self.assertTrue(payload["ok"])
         self.assertEqual(payload["status"], "safe")
+
+    def test_explicit_private_data_waiver_is_reported(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            fake = make_fake_codex(root, FAKE_PREAMBLE + "raise SystemExit(42)\n")
+            result = run_wrapper(
+                [
+                    "run",
+                    "--codex-bin",
+                    str(fake),
+                    "--cwd",
+                    str(root),
+                    "--allow-private-data",
+                    "--prompt",
+                    "Review raw CSV files at /projects/example/source-material/usage.csv",
+                    "--dry-run",
+                ]
+            )
+            payload = json.loads(result.stdout)
+
+            self.assertEqual(result.returncode, 0)
+            self.assertTrue(payload["data_safety"]["waived"])
+            self.assertIn("source_material_path", payload["data_safety"]["findings"])
+
+    def test_explicit_full_access_uses_native_unrestricted_sandbox(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            fake = make_fake_codex(root, FAKE_PREAMBLE + "raise SystemExit(42)\n")
+            result = run_wrapper(
+                [
+                    "run",
+                    "--codex-bin",
+                    str(fake),
+                    "--cwd",
+                    str(root),
+                    "--full-access",
+                    "--prompt",
+                    "Inspect the isolated environment.",
+                    "--dry-run",
+                ]
+            )
+            payload = json.loads(result.stdout)
+            argv = payload["command"]["argv"]
+
+            self.assertEqual(result.returncode, 0)
+            self.assertEqual(argv[argv.index("--sandbox") + 1], "danger-full-access")
+            self.assertIn('approval_policy="never"', argv)
 
     def test_probe_requires_exact_ready_from_last_message(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -368,7 +414,7 @@ class CodexDelegateTests(unittest.TestCase):
     def test_usage_limit_failure_classification_and_redaction(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            secret = "sk-test-secret-value-123456"
+            secret = "fake-codex-secret-value"
             fake = make_fake_codex(
                 root,
                 FAKE_PREAMBLE

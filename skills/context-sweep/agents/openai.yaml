@@ -1,4 +1,4 @@
 interface:
   display_name: "Context Sweep"
-  short_description: "Sweep high-signal context from Superhuman, Slack, Notion, CRM, and Codex into a daily note"
-  default_prompt: "Use context-sweep to gather high-signal cross-app context since the last successful sweep, write it into the configured daily note log, and report any skipped or partial sources honestly."
+  short_description: "Gather configured sources into a deduped daily log"
+  default_prompt: "Use $context-sweep to gather high-signal activity from my configured sources into today's log."

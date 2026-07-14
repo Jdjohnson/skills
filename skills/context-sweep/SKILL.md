@@ -1,53 +1,23 @@
 ---
 name: context-sweep
-description: |
-  Best-effort cross-app context sweep. Gathers sent Superhuman work email,
-  sent Slack, best-effort Notion activity, CRM updates, and local Codex usage
-  since per-source checkpoints, then writes only high-signal items into a
-  daily note `## Log` with stable dedupe markers.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Bash
-  - ToolSearch
-  - AskUserQuestion
+description: Gather high-signal activity from user-configured sources into a daily note with stable deduplication and per-source checkpoints. Use for a best-effort cross-source context sweep, a dry run, or a bounded sweep since a specific time.
 ---
 
-# context-sweep — Cross-App Daily Context Sweep
+# Context Sweep
 
-Sweep the operating surfaces around a working day, keep only the high-signal context, and write it directly into a daily note `## Log`.
+Gather useful activity from the sources available in the current host, keep only context worth reconstructing later, and write it into a daily note `## Log`.
 
-This public version is standalone. It does not assume a private assistant workspace, a private daily-note system, or any local workspace layout.
+## Modes
 
-## Invocation
+- Normal: gather, classify, write, then advance checkpoints for successful sources.
+- `dry-run`: gather and classify without writing or advancing checkpoints.
+- `since:<ISO-8601>`: use the supplied lower bound for this run while keeping stored checkpoints forward-only.
 
-```text
-/context-sweep
-/context-sweep dry-run
-/context-sweep since:2026-04-22T09:00:00-05:00
-/context-sweep since:2026-04-22T09:00:00-05:00 dry-run
-```
+Read [checkpoints](nodes/checkpoints.md), [gather](nodes/gather.md), [classify](nodes/classify.md), and [write](nodes/write.md) in that order.
 
-## Mode Routing
+## Portable runtime
 
-| Mode | When | Behavior | Node |
-|------|------|----------|------|
-| **normal** | Standard sweep request | Gather, classify, write to the configured daily note, then advance successful per-source checkpoints | [[nodes/gather.md]], [[nodes/classify.md]], [[nodes/write.md]], [[nodes/checkpoints.md]] |
-| **dry-run** | User says `dry-run` | Gather and classify, but do not write or advance checkpoints | [[nodes/gather.md]], [[nodes/classify.md]], [[nodes/write.md]], [[nodes/checkpoints.md]] |
-| **since override** | User says `since:<ISO-8601>` | Use the override as the lower bound for this run's gathering window while keeping checkpoint writes forward-only | [[nodes/checkpoints.md]], [[nodes/gather.md]], [[nodes/classify.md]], [[nodes/write.md]] |
-
-## Working Contract
-
-1. Read `[[nodes/checkpoints.md]]` first so per-source windows are correct.
-2. Read `[[nodes/gather.md]]` and gather each source best-effort.
-3. Read `[[nodes/classify.md]]` and keep only context worth reconstructing later.
-4. Read `[[nodes/write.md]]` and write through the helper so dedupe/order/checkpoints stay deterministic.
-
-## Portable Runtime
-
-- Checkpoints default to `.context-sweep/context-sweep/state.json`.
-- Daily-note writes default to `.context-sweep/journal/YYYY-MM-DD.md`.
-- Pass `--journal-file <path>` to the helper when the user has a real journal file.
-- Pass `--state-path <path>` when the user wants checkpoints somewhere else.
+- State defaults to `.context-sweep/state.json`.
+- Daily notes default to `.context-sweep/journal/YYYY-MM-DD.md`.
+- Use `--state-path` and `--journal-file` to follow an existing workspace convention.
+- Source names are configuration. The helper accepts stable lowercase source slugs and does not require any particular provider.

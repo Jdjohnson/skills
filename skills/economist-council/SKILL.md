@@ -5,14 +5,6 @@ description: |
   regional adaptation questions. Use when the user wants sourced convergence,
   divergence, and pushback from a standing panel before a talk, decision,
   strategy move, article, or research memo.
-allowed-tools:
-  - Read
-  - Write
-  - Grep
-  - Glob
-  - WebSearch
-  - WebFetch
-  - AskUserQuestion
 ---
 
 # Economist Council

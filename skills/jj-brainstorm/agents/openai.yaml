@@ -1,4 +1,0 @@
-interface:
-  display_name: "JJ Brainstorm"
-  short_description: "Explore messy ideas and capture useful thinking"
-  default_prompt: "Use $jj-brainstorm to help me think through this idea."

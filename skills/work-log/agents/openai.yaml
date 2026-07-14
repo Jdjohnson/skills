@@ -1,0 +1,4 @@
+interface:
+  display_name: "Work Log"
+  short_description: "Close out active work into configured records"
+  default_prompt: "Use $work-log to record a concise closeout for this active thread."

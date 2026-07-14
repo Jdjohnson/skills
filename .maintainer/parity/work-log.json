@@ -1,0 +1,15 @@
+{
+  "skill": "work-log",
+  "parity_goal": "Preserve the public work-log contract without private workspace assumptions.",
+  "cases": [
+    {
+      "id": "generic-smoke",
+      "prompt": "$work-log example request",
+      "expected": [
+        "routes to the named skill",
+        "uses only supplied or configured context",
+        "preserves approval and evidence boundaries"
+      ]
+    }
+  ]
+}

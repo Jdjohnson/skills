@@ -1,0 +1,4 @@
+interface:
+  display_name: "Economist Council"
+  short_description: "Synthesize sourced economist perspectives"
+  default_prompt: "Use $economist-council to examine this question through sourced economist perspectives."

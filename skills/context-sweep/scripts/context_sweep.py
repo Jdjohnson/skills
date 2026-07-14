@@ -8,20 +8,12 @@ import re
 import subprocess
 import sys
 from datetime import date, datetime
-from email.utils import getaddresses, parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
 
-SOURCES = ("superhuman", "slack", "notion", "crm", "codex")
-SOURCE_LABELS = {
-    "superhuman": "Superhuman",
-    "slack": "Slack",
-    "notion": "Notion",
-    "crm": "CRM",
-    "codex": "Codex",
-}
+SOURCE_SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9._-]{0,63}$")
 LOG_MARKER_PREFIX = "ctx"
 TIMESTAMP_RE = re.compile(r"^\* \*\*(?P<label>[^*]+)\*\* — ")
 
@@ -102,48 +94,6 @@ def isoformat_local(value: datetime, timezone: ZoneInfo) -> str:
     return value.astimezone(timezone).isoformat()
 
 
-def normalize_addresses(value: str | None) -> str:
-    addresses = getaddresses([value or ""])
-    cleaned: list[str] = []
-    for name, email_address in addresses:
-        if name:
-            cleaned.append(collapse_whitespace(name))
-            continue
-        if email_address:
-            cleaned.append(email_address.split("@", 1)[0])
-    if not cleaned:
-        return ""
-    if len(cleaned) == 1:
-        return cleaned[0]
-    return f"{cleaned[0]} +{len(cleaned) - 1}"
-
-
-def normalize_address_field(value: object) -> str:
-    if isinstance(value, list):
-        parts: list[str] = []
-        for item in value:
-            if isinstance(item, dict):
-                parts.append(str(item.get("email") or item.get("address") or item.get("name") or ""))
-            else:
-                parts.append(str(item))
-        return normalize_addresses(", ".join(part for part in parts if part))
-    if isinstance(value, dict):
-        return normalize_addresses(str(value.get("email") or value.get("address") or value.get("name") or ""))
-    return normalize_addresses(str(value or ""))
-
-
-def parse_message_datetime(value: str, timezone: ZoneInfo) -> datetime:
-    if not value:
-        raise ValueError("message missing timestamp")
-    try:
-        parsed = parse_iso_datetime(value)
-    except ValueError:
-        parsed = parsedate_to_datetime(value)
-        if parsed.tzinfo is None:
-            parsed = parsed.replace(tzinfo=ZoneInfo("UTC"))
-    return parsed.astimezone(timezone)
-
-
 def month_day_prefix(value: datetime) -> str:
     return f"{value.strftime('%b')} {value.day}"
 
@@ -175,19 +125,7 @@ def build_marker(source: str, source_id: str) -> str:
 
 
 def default_state() -> dict:
-    return {
-        "version": 1,
-        "sources": {
-            source: {
-                "high_water": None,
-                "last_success_at": None,
-                "last_run_at": None,
-                "last_status": None,
-                "last_note": None,
-            }
-            for source in SOURCES
-        },
-    }
+    return {"version": 1, "sources": {}}
 
 
 def get_state_path(root: Path, override: str | None = None) -> Path:
@@ -207,8 +145,8 @@ def load_state(state_path: Path) -> dict:
     payload = json.loads(state_path.read_text(encoding="utf-8"))
     state["version"] = payload.get("version", 1)
     loaded_sources = payload.get("sources", {})
-    for source in SOURCES:
-        state["sources"][source].update(loaded_sources.get(source, {}))
+    if isinstance(loaded_sources, dict):
+        state["sources"] = loaded_sources
     return state
 
 
@@ -293,7 +231,7 @@ def build_log_entry(item: dict, note_date: date, timezone: ZoneInfo) -> str:
     end = parse_iso_datetime(end_value).astimezone(timezone) if end_value else None
     label = format_log_label(start=start, end=end, note_date=note_date)
     summary = collapse_whitespace(item["summary"])
-    source_label = SOURCE_LABELS.get(item["source"], item["source"].title())
+    source_label = item["source"].replace("-", " ").replace("_", " ").title()
     marker = build_marker(item["source"], item["source_id"])
     return f"* **{label}** — [{source_label}] {summary} {marker}"
 
@@ -305,8 +243,8 @@ def normalize_write_item(item: dict, timezone: ZoneInfo) -> dict | None:
     source_id = item.get("source_id")
     timestamp = item.get("timestamp")
     summary = collapse_whitespace(item.get("summary"))
-    if source not in SOURCES:
-        raise ValueError(f"unknown source: {source!r}")
+    if not isinstance(source, str) or not SOURCE_SLUG_RE.fullmatch(source):
+        raise ValueError(f"invalid source slug: {source!r}")
     if not source_id:
         raise ValueError("item missing source_id")
     if not timestamp:
@@ -395,9 +333,16 @@ def upsert_log_items(
 def apply_checkpoint_updates(state: dict, source_results: dict, run_finished_at: str) -> dict:
     updated = json.loads(json.dumps(state))
     for source, payload in source_results.items():
-        if source not in updated["sources"]:
-            continue
-        source_state = updated["sources"][source]
+        source_state = updated["sources"].setdefault(
+            source,
+            {
+                "high_water": None,
+                "last_success_at": None,
+                "last_run_at": None,
+                "last_status": None,
+                "last_note": None,
+            },
+        )
         source_state["last_run_at"] = run_finished_at
         source_state["last_status"] = payload.get("status")
         source_state["last_note"] = payload.get("note")
@@ -455,8 +400,12 @@ def write_payload(
     )
 
     run_finished_at = datetime.now(tz=timezone).isoformat()
+    source_names = set(payload.get("sources", {}))
+    source_names.update(item["source"] for item in normalized_items)
     source_results = {}
-    for source in SOURCES:
+    for source in sorted(source_names):
+        if not SOURCE_SLUG_RE.fullmatch(source):
+            raise ValueError(f"invalid source slug: {source!r}")
         source_results[source] = dict(payload.get("sources", {}).get(source, {}))
         source_results[source].setdefault("status", None)
         source_results[source].setdefault("high_water", None)
@@ -508,131 +457,6 @@ def summarize_codex_user_messages(messages: list[str], cwd: str | None) -> str:
     if tail == lead:
         return f"Worked in Codex from {cwd_label}: {lead}"
     return f"Worked in Codex from {cwd_label}: {lead}; later {tail}"
-
-
-def normalize_superhuman_item(item: dict, timezone: ZoneInfo) -> dict:
-    timestamp_value = (
-        item.get("sent_at")
-        or item.get("date")
-        or item.get("last_message_at")
-        or item.get("updated_at")
-        or item.get("created_at")
-    )
-    sent_at = parse_message_datetime(str(timestamp_value or ""), timezone)
-    source_id = item.get("message_id") or item.get("id") or item.get("thread_id")
-    if not source_id:
-        raise ValueError("superhuman item missing id")
-    recipient = normalize_address_field(item.get("to") or item.get("recipients"))
-    subject = trim_text(item.get("subject"), limit=90)
-    snippet = trim_text(item.get("snippet") or item.get("summary") or item.get("body_text"), limit=120)
-    summary = "Sent work email"
-    if recipient:
-        summary += f" to {recipient}"
-    if subject:
-        summary += f" re {subject}"
-    if snippet:
-        summary += f": {snippet}"
-    return {
-        "source": "superhuman",
-        "source_id": str(source_id),
-        "thread_id": item.get("thread_id") or item.get("threadId"),
-        "timestamp": sent_at.isoformat(),
-        "summary": summary,
-        "kind": "sent_email",
-        "subject": subject,
-        "recipient": recipient,
-    }
-
-
-def slack_timestamp_to_datetime(value: str | int | float, timezone: ZoneInfo) -> datetime:
-    return datetime.fromtimestamp(float(value), tz=ZoneInfo("UTC")).astimezone(timezone)
-
-
-def normalize_slack_message(message: dict, timezone: ZoneInfo) -> dict:
-    ts_value = message.get("ts") or message.get("timestamp")
-    if ts_value is None:
-        raise ValueError("slack message missing ts")
-    channel_name = (
-        message.get("channel_name")
-        or (message.get("channel") or {}).get("name")
-        or message.get("channel_id")
-        or "DM"
-    )
-    text = trim_text(message.get("text") or message.get("snippet"), limit=160)
-    summary = f"Sent Slack message in {channel_name}: {text}" if text else f"Sent Slack message in {channel_name}."
-    return {
-        "source": "slack",
-        "source_id": str(ts_value),
-        "timestamp": slack_timestamp_to_datetime(ts_value, timezone).isoformat(),
-        "summary": summary,
-        "kind": "sent_message",
-        "channel_name": channel_name,
-        "permalink": message.get("permalink"),
-    }
-
-
-def notion_title(candidate: dict) -> str:
-    raw_title = (
-        candidate.get("title")
-        or candidate.get("page_title")
-        or candidate.get("name")
-        or candidate.get("plain_text")
-    )
-    return trim_text(raw_title, limit=100) or "Untitled page"
-
-
-def normalize_notion_candidate(candidate: dict, timezone: ZoneInfo) -> dict:
-    last_edited = candidate.get("last_edited_time")
-    created = candidate.get("created_time")
-    timestamp_value = last_edited or created
-    if not timestamp_value:
-        raise ValueError("notion candidate missing created/edited time")
-    event_time = parse_iso_datetime(timestamp_value).astimezone(timezone)
-    action = "Updated" if last_edited else "Created"
-    title = notion_title(candidate)
-    summary = f"{action} Notion page {title}"
-    parent = trim_text(candidate.get("parent_title") or candidate.get("database_title"), limit=80)
-    if parent:
-        summary += f" in {parent}"
-    return {
-        "source": "notion",
-        "source_id": str(candidate.get("id")),
-        "timestamp": event_time.isoformat(),
-        "summary": summary,
-        "kind": "page_activity",
-        "url": candidate.get("url"),
-        "title": title,
-    }
-
-
-def normalize_crm_row(row: dict, timezone: ZoneInfo) -> dict:
-    timestamp_value = row.get("updated_at") or row.get("created_at")
-    if not timestamp_value:
-        raise ValueError("crm row missing updated_at/created_at")
-    event_time = parse_iso_datetime(timestamp_value).astimezone(timezone)
-    stage = collapse_whitespace(row.get("stage"))
-    deal_name = trim_text(row.get("deal_name") or row.get("name"), limit=90) or "Untitled deal"
-    company = trim_text(row.get("company_name"), limit=60)
-    summary = f"CRM update for {deal_name}"
-    if company:
-        summary += f" ({company})"
-    if stage:
-        summary += f": now in {stage}"
-    note_excerpt = trim_text(row.get("note_excerpt") or row.get("change_summary"), limit=110)
-    if note_excerpt:
-        summary += f" — {note_excerpt}"
-    source_id = row.get("audit_id") or row.get("id") or row.get("deal_id")
-    if not source_id:
-        raise ValueError("crm row missing id/audit_id/deal_id")
-    return {
-        "source": "crm",
-        "source_id": str(source_id),
-        "timestamp": event_time.isoformat(),
-        "summary": summary,
-        "kind": "deal_update",
-        "deal_id": row.get("deal_id") or row.get("id"),
-        "deal_name": deal_name,
-    }
 
 
 def parse_rollout_events(rollout_path: Path) -> tuple[str | None, str | None, list[tuple[datetime, str]]]:
