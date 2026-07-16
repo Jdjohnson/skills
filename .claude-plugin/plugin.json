@@ -1,6 +1,6 @@
 {
   "name": "generic-ai-skills",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A generic bank of reusable AI skills for thinking, writing, research, meetings, and agent tooling",
   "homepage": "https://github.com/Jdjohnson/skills",
   "keywords": ["skills", "prompts", "thinking", "writing", "research", "meetings", "agent-tooling"],
@@ -11,13 +11,13 @@
   "interface": {
     "displayName": "Generic AI Skills",
     "shortDescription": "Reusable skills for knowledge work and agent tooling",
-    "longDescription": "Seventeen portable skills for thinking, planning, writing, meetings, research, and bounded agent or CLI workflows.",
+    "longDescription": "Eighteen portable skills for thinking, planning, writing, meetings, research, and bounded agent or CLI workflows.",
     "developerName": "Jarad Johnson",
     "category": "Productivity",
     "capabilities": ["Interactive", "Write"],
     "websiteURL": "https://github.com/Jdjohnson/skills",
     "defaultPrompt": ["Use the matching generic skill for the current task."],
     "brandColor": "#1F4D3D",
-    "skills": ["brainstorm", "brief", "plan", "steelman", "stuck", "writer", "meeting", "work-log", "chatgpt", "claude-code", "codex", "context-sweep", "grok-build", "gws-cli", "opencode", "run", "economist-council"]
+    "skills": ["brainstorm", "brief", "decision-walkthrough", "plan", "steelman", "stuck", "writer", "meeting", "work-log", "chatgpt", "claude-code", "codex", "context-sweep", "grok-build", "gws-cli", "opencode", "run", "economist-council"]
   }
 }

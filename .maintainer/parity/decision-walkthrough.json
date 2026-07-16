@@ -1,0 +1,24 @@
+{
+  "skill": "decision-walkthrough",
+  "parity_goal": "Preserve the source-led, one-decision-at-a-time workflow without private workspace assumptions.",
+  "cases": [
+    {
+      "id": "feedback-walkthrough",
+      "prompt": "$decision-walkthrough Walk me through this feedback and help me decide what to do.",
+      "expected": [
+        "accounts for every source item while grouping only shared decisions",
+        "presents one source-backed recommendation and decision question at a time",
+        "maintains one practical decision log and ends with an implementation checklist"
+      ]
+    },
+    {
+      "id": "evidence-gap",
+      "prompt": "$decision-walkthrough Help me choose between the conflicting recommendations in these notes.",
+      "expected": [
+        "distinguishes fact from inference",
+        "uses Needs evidence when a recommendation would require invented assumptions",
+        "asks only for the fastest missing fact before requesting the final decision"
+      ]
+    }
+  ]
+}
