@@ -1,6 +1,6 @@
 # Generic AI Skills
 
-A public bank of 17 reusable skills for thinking, planning, writing, meetings, research, and agent tooling. Published skills avoid private workspace assumptions, personal voice profiles, client context, and organization-specific routing.
+A public bank of 18 reusable skills for thinking, planning, writing, meetings, research, and agent tooling. Published skills avoid private workspace assumptions, personal voice profiles, client context, and organization-specific routing.
 
 ## Install
 
@@ -25,6 +25,7 @@ Each skill starts at `skills/<name>/SKILL.md`. Supporting nodes, references, scr
 |---|---|
 | [brainstorm](./skills/brainstorm/SKILL.md) | Finding the shape of a messy idea before turning it into a plan |
 | [brief](./skills/brief/SKILL.md) | Turning source material into a concise executive brief |
+| [decision-walkthrough](./skills/decision-walkthrough/SKILL.md) | Working through source material one decision at a time and recording the settled result |
 | [plan](./skills/plan/SKILL.md) | Co-creating day, week, or month plans through approval phases |
 | [steelman](./skills/steelman/SKILL.md) | Pressure-testing and strengthening an idea, argument, or decision |
 | [stuck](./skills/stuck/SKILL.md) | Diagnosing a block and choosing a practical starting move |

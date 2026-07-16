@@ -1,0 +1,4 @@
+interface:
+  display_name: "Decision Walkthrough"
+  short_description: "Walk through source material one decision at a time"
+  default_prompt: "Use $decision-walkthrough to help me work through this source material one meaningful decision at a time and finish with a practical decision log."
