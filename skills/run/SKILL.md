@@ -1,16 +1,15 @@
 ---
 name: run
 description: |
-  Plan and run larger projects through a guided session, a structured
-  blueprint, and a portable runner. Use when the work is too large or fuzzy
-  for a single prompt and needs clear steps, tool routing, status checks, and
-  resume support. Use `harden` when an existing thesis, argument, draft, or
-  plan needs a bounded verify/revise run before use.
+  Plan and run larger projects through a guided session, blueprint, and
+  portable runner. Use when work is too large or fuzzy for one prompt and
+  needs clear steps, tool routing, status checks, or resume support. Use
+  harden for bounded verify/revise runs on an existing thesis, draft, or plan.
 ---
 
 # /run - Plan, Launch, and Supervise Bigger Work
 
-`run` is for work that should be treated like a small project, not a one-off prompt.
+`run` treats larger work like a small project instead of a one-off prompt.
 
 `run` is a portable workflow runner for AI tools, distributed as a skill for Codex and Claude Code.
 
@@ -24,8 +23,6 @@ Use it when you want to:
 
 The `run` planner handles the planning layer. The `run-workflow` CLI handles execution and supervision. `run-skill` remains available as a legacy compatibility alias.
 
----
-
 ## Mode Routing
 
 | Mode | Trigger | When | Node |
@@ -36,8 +33,6 @@ The `run` planner handles the planning layer. The `run-workflow` CLI handles exe
 | `resume` | `/run resume` | Adjust and continue a stalled project | [[nodes/resume.md]] |
 
 Default mode: `session`.
-
----
 
 ## What To Expect
 
@@ -52,8 +47,6 @@ When you start with `/run` or `$run`, the planner will usually:
 
 The planner does not auto-launch the work. It stops at a launch-ready package unless you choose to run it separately.
 
----
-
 ## Core Rules
 
 1. Load shared controls first:
@@ -67,30 +60,28 @@ The planner does not auto-launch the work. It stops at a launch-ready package un
 6. After `session`, `harden`, or `resume` writes or updates `blueprint.json`, use [[nodes/runner-handoff.md]] for the command handoff.
 7. Keep the output user-facing and practical. Assume the person using this workflow is seeing it for the first time unless the conversation says otherwise.
 
----
-
 ## Runner Commands
 
 After `session`, `harden`, or `resume` writes or updates `blueprint.json`, present the small command set from [[nodes/runner-handoff.md]]:
 
-**Validate the package**
+Validate the package:
 ```bash
 run-workflow --validate <path-to-blueprint.json>
 ```
 
-**See a one-shot status summary**
+See a one-shot status summary:
 ```bash
 run-workflow --status <path-to-blueprint.json>
 ```
 
-**Follow the run live**
+Follow the run live:
 ```bash
 run-workflow --follow <path-to-blueprint.json>
 ```
 
 `--follow` polls every 2 seconds by default. Override with `RUN_STATUS_POLL_SECONDS=<seconds>` when needed.
 
-**Recommended launch mode**
+Recommended launch mode:
 ```bash
 run-workflow --launch-mode <recommended-mode> <path-to-blueprint.json>
 ```
@@ -106,8 +97,6 @@ Model defaults:
 - Codex: `gpt-5.4` with `xhigh` reasoning effort
 
 Override those in `blueprint.json` with `defaults.models.*` or step-level fields.
-
----
 
 ## Mental Model
 

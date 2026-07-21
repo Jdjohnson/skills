@@ -23,10 +23,10 @@ Each skill starts at `skills/<name>/SKILL.md`. Supporting nodes, references, scr
 
 | Skill | Use it for |
 |---|---|
-| [brainstorm](./skills/brainstorm/SKILL.md) | Finding the shape of a messy idea before turning it into a plan |
-| [brief](./skills/brief/SKILL.md) | Turning source material into a concise executive brief |
-| [decision-walkthrough](./skills/decision-walkthrough/SKILL.md) | Working through source material one decision at a time and recording the settled result |
-| [plan](./skills/plan/SKILL.md) | Co-creating day, week, or month plans through approval phases |
+| [brainstorm](./skills/brainstorm/SKILL.md) | Exploring messy topics before they become a plan or decision |
+| [brief](./skills/brief/SKILL.md) | Creating concise briefs from pasted text, files, URLs, or topics |
+| [decision-walkthrough](./skills/decision-walkthrough/SKILL.md) | Walking supplied material one decision at a time with a running log |
+| [plan](./skills/plan/SKILL.md) | Co-creating day, week, or month plans through lightweight approval phases |
 | [steelman](./skills/steelman/SKILL.md) | Pressure-testing and strengthening an idea, argument, or decision |
 | [stuck](./skills/stuck/SKILL.md) | Diagnosing a block and choosing a practical starting move |
 
@@ -34,22 +34,22 @@ Each skill starts at `skills/<name>/SKILL.md`. Supporting nodes, references, scr
 
 | Skill | Use it for |
 |---|---|
-| [writer](./skills/writer/SKILL.md) | Developing source-backed writing through a structured process |
-| [meeting](./skills/meeting/SKILL.md) | Preparing, closing, finding, and reviewing meetings |
+| [writer](./skills/writer/SKILL.md) | Turning rough ideas, notes, or drafts into publishable prose |
+| [meeting](./skills/meeting/SKILL.md) | Preparing, closing, finding history, and reviewing meeting patterns |
 | [work-log](./skills/work-log/SKILL.md) | Explicitly closing out an active work thread into configured records |
 
 ### Agent and tooling
 
 | Skill | Use it for |
 |---|---|
-| [chatgpt](./skills/chatgpt/SKILL.md) | Packaging explicit ChatGPT research, agent, and review handoffs |
+| [chatgpt](./skills/chatgpt/SKILL.md) | Routing explicit ChatGPT orders, Deep Research, Agent, or Pro review |
 | [claude-code](./skills/claude-code/SKILL.md) | Delegating bounded work to the Claude Code CLI |
 | [codex](./skills/codex/SKILL.md) | Delegating bounded work to the Codex CLI |
-| [context-sweep](./skills/context-sweep/SKILL.md) | Gathering high-signal context from configured sources into a daily note |
+| [context-sweep](./skills/context-sweep/SKILL.md) | Gathering configured source activity into a daily note with checkpoints |
 | [grok-build](./skills/grok-build/SKILL.md) | Delegating bounded work to the Grok CLI |
-| [gws-cli](./skills/gws-cli/SKILL.md) | Running guarded Google Workspace CLI operations |
+| [gws-cli](./skills/gws-cli/SKILL.md) | Running guarded Google Workspace CLI reads and approved mutations |
 | [opencode](./skills/opencode/SKILL.md) | Delegating bounded work to the OpenCode CLI |
-| [run](./skills/run/SKILL.md) | Planning and supervising larger AI-assisted projects |
+| [run](./skills/run/SKILL.md) | Planning and running larger projects with tool routing and resume support |
 
 ### Research
 

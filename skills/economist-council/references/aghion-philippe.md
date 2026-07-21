@@ -24,11 +24,11 @@ Sources:
 
 ## Key Frameworks
 
-- **Schumpeterian growth** - innovation and creative destruction drive long-run
+- Schumpeterian growth: innovation and creative destruction drive long-run
   productivity growth.
-- **Task complementarity** - AI can improve jobs when it replaces narrower task
+- Task complementarity: AI can improve jobs when it replaces narrower task
   bundles and frees workers for higher-value work.
-- **Competition and policy** - diffusion, firm incentives, and competition
+- Competition and policy: diffusion, firm incentives, and competition
   policy shape whether AI's gains spread.
 
 Sources:
@@ -60,14 +60,14 @@ Sources:
 
 ### On disagreement
 > "I have to confess a profound disagreement with them on this."
--- The Growth and Employment Effects of AI, 2024, https://www.frbsf.org/news-and-media/events/2024/04/philippe-aghion-the-growth-and-employment-effects-of-ai/
+Source: The Growth and Employment Effects of AI, 2024, https://www.frbsf.org/news-and-media/events/2024/04/philippe-aghion-the-growth-and-employment-effects-of-ai/
 
 ### On employment effects
 > "overall, there is a positive effect of AI employment"
--- The Growth and Employment Effects of AI, 2024, https://www.frbsf.org/news-and-media/events/2024/04/philippe-aghion-the-growth-and-employment-effects-of-ai/
+Source: The Growth and Employment Effects of AI, 2024, https://www.frbsf.org/news-and-media/events/2024/04/philippe-aghion-the-growth-and-employment-effects-of-ai/
 
 > "AI makes a difference, but for the better."
--- The Growth and Employment Effects of AI, 2024, https://www.frbsf.org/news-and-media/events/2024/04/philippe-aghion-the-growth-and-employment-effects-of-ai/
+Source: The Growth and Employment Effects of AI, 2024, https://www.frbsf.org/news-and-media/events/2024/04/philippe-aghion-the-growth-and-employment-effects-of-ai/
 
 ## Methodological Style
 
@@ -92,11 +92,11 @@ Sources:
 
 ## Where Others Push Back
 
-- **Daron Acemoglu** - much smaller near-term macro estimates and a stronger
+- Daron Acemoglu: much smaller near-term macro estimates and a stronger
   warning about capital taking the upside.
-- **David Autor** - more focused on whether expertise broadens in a pro-worker
+- David Autor: more focused on whether expertise broadens in a pro-worker
   direction than on growth arithmetic alone.
-- **Diane Coyle** - would remind that even real gains can be slow to show up in
+- Diane Coyle: would remind that even real gains can be slow to show up in
   official statistics.
 
 Sources:

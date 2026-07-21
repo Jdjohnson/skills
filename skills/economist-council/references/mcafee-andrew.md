@@ -27,12 +27,12 @@ Sources:
 
 ## Key Frameworks
 
-- **Competitiveness chasm** - AI is likely to widen the gap between highly
+- Competitiveness chasm: AI is likely to widen the gap between highly
   technical firms and the rest.
-- **More AI, not less** - better outcomes come from steering and adopting AI,
+- More AI, not less: better outcomes come from steering and adopting AI,
   not freezing progress.
-- **Organization readiness** - the hard part is not only the model; it is how
-  firms train, redesign, and implement.
+- Organization readiness: the hard part includes how firms train, redesign,
+  and implement.
 
 Sources:
 - https://ide.mit.edu/insights/bigaimit-event-recap-ai-at-a-crossroad/
@@ -66,18 +66,18 @@ Sources:
 
 ### On risk framing
 > "I personally am not worried about the existential, the alignment risks of AI."
--- Clip Bloomberg Business Week: OpenAI and Tech, 2023, https://news.mit.edu/news-clip/bloomberg-191
+Source: Clip Bloomberg Business Week: OpenAI and Tech, 2023, https://news.mit.edu/news-clip/bloomberg-191
 
 ### On competitive dynamics
 > "I predict AI will widen the chasm even further."
--- BIG.AI@MIT Event Recap: AI at a Crossroads, 2024, https://ide.mit.edu/insights/bigaimit-event-recap-ai-at-a-crossroad/
+Source: BIG.AI@MIT Event Recap: AI at a Crossroads, 2024, https://ide.mit.edu/insights/bigaimit-event-recap-ai-at-a-crossroad/
 
 > "The world will be faster, but also more uncertain."
--- BIG.AI@MIT Event Recap: AI at a Crossroads, 2024, https://ide.mit.edu/insights/bigaimit-event-recap-ai-at-a-crossroad/
+Source: BIG.AI@MIT Event Recap: AI at a Crossroads, 2024, https://ide.mit.edu/insights/bigaimit-event-recap-ai-at-a-crossroad/
 
 ### On tech optimism
 > "we need more AI and tech progress, not less"
--- Andrew McAfee Emphasizes Tech for Good, MIT IDE, https://ide.mit.edu/insights/andrew-mcafee-emphasizes-tech-for-good/
+Source: Andrew McAfee Emphasizes Tech for Good, MIT IDE, https://ide.mit.edu/insights/andrew-mcafee-emphasizes-tech-for-good/
 
 ## Methodological Style
 
@@ -105,11 +105,11 @@ Sources:
 
 ## Where Others Push Back
 
-- **David Autor** - wants stronger focus on how AI changes the value of
+- David Autor: wants stronger focus on how AI changes the value of
   expertise and whether worker power rises or falls.
-- **Daron Acemoglu** - expects much smaller near-term macro gains and sees more
+- Daron Acemoglu: expects much smaller near-term macro gains and sees more
   downside in capital-labor distribution.
-- **Diane Coyle** - would push that measured AI gains can lag, hide, or be
+- Diane Coyle: would push that measured AI gains can lag, hide, or be
   miscounted in standard statistics.
 
 Sources:

@@ -24,11 +24,11 @@ Sources:
 
 ## Key Frameworks
 
-- **Useful knowledge** - growth compounds when practical and scientific
+- Useful knowledge: growth compounds when practical and scientific
   knowledge reinforce one another.
-- **Institutional prerequisites** - technology alone is not enough; institutions
+- Institutional prerequisites: technology alone is not enough; institutions
   determine whether progress compounds.
-- **Historical analogy** - AI should be read against other radical inventions
+- Historical analogy: AI should be read against other radical inventions
   whose implications took time to become legible.
 
 Sources:
@@ -38,7 +38,7 @@ Sources:
 
 ## Recent Work (2023+)
 
-### Joel Mokyr -- Interview (2025, NobelPrize.org)
+### Joel Mokyr interview (2025, NobelPrize.org)
 - URL: https://www.nobelprize.org/prizes/economic-sciences/2025/mokyr/1925720-interview-transcript/
 - Summary: Nobel interview with a direct discussion of AI's place in long-run
   technological change.
@@ -61,7 +61,7 @@ Sources:
 ## Quote Library
 
 > "we are only at the beginning of it"
--- Joel Mokyr -- Interview, 2025, https://www.nobelprize.org/prizes/economic-sciences/2025/mokyr/1925720-interview-transcript/
+Source: Joel Mokyr interview, 2025, https://www.nobelprize.org/prizes/economic-sciences/2025/mokyr/1925720-interview-transcript/
 
 > "AI will be essential in physics, in chemistry, in biology, in economics"
--- Joel Mokyr -- Interview, 2025, https://www.nobelprize.org/prizes/economic-sciences/2025/mokyr/1925720-interview-transcript/
+Source: Joel Mokyr interview, 2025, https://www.nobelprize.org/prizes/economic-sciences/2025/mokyr/1925720-interview-transcript/

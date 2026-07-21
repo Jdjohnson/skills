@@ -22,11 +22,11 @@ Sources:
 
 ## Key Frameworks
 
-- **Measurement frontier** - AI may be transformative before standard
+- Measurement frontier: AI may be transformative before standard
   statistics show it clearly.
-- **Productivity vs welfare** - official output measures can miss value, timing,
+- Productivity vs welfare: official output measures can miss value, timing,
   and who benefits.
-- **Digital economy accounting** - free services, data, and platform-mediated
+- Digital economy accounting: free services, data, and platform-mediated
   diffusion complicate straightforward GDP readings.
 
 Sources:
@@ -52,7 +52,7 @@ Sources:
 ## Quote Library
 
 > "conventional economic statistics tell the story of transformation only with long lags"
--- Making AI Count: The Next Measurement Frontier, 2025, https://www.nber.org/chapters/c15307.pdf
+Source: Making AI Count: The Next Measurement Frontier, 2025, https://www.nber.org/chapters/c15307.pdf
 
 > "what does it mean for the economy to improve, and who benefits?"
--- Diane Coyle profile, Bennett School of Public Policy, https://www.bennettschool.cam.ac.uk/about-us/person/diane-coyle/
+Source: Diane Coyle profile, Bennett School of Public Policy, https://www.bennettschool.cam.ac.uk/about-us/person/diane-coyle/

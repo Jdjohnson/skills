@@ -1,11 +1,10 @@
 ---
 name: chatgpt
 description: |
-  ChatGPT escalation router. Use when the user says `$chatgpt`, asks for a
-  ChatGPT order, or explicitly mentions ChatGPT Deep Research, ChatGPT Agent,
-  or ChatGPT Pro review. Decide whether the work should stay local or become a
-  ChatGPT order, then either place it through host-supported browser control or
-  prepare a bounded fallback order/packet.
+  Route explicit ChatGPT work: $chatgpt, ChatGPT orders, Deep Research, Agent,
+  or Pro review. Decide whether the task stays local or becomes a ChatGPT
+  order, then place it through host-supported browser control or prepare a
+  bounded fallback packet.
 ---
 
 # ChatGPT Orders
@@ -59,17 +58,16 @@ Turn ChatGPT use into an explicit order surface the local agent can route on pur
 - Copy/paste order templates and the return boundary live in [[references/chatgpt-handoffs.md]].
 - Fallback packet helper: `scripts/build_desktop_packet.py`.
 
-## Node Map
+## Support Map
 
-- [[nodes/selector.md]]
-- [[nodes/trust-boundary.md]]
-- [[nodes/direct-placement.md]]
-- [[nodes/fallback-packet.md]]
-- [[nodes/lane-deep-research.md]]
-- [[nodes/lane-agent.md]]
-- [[nodes/lane-pro-review.md]]
-
-## Shared Dependencies
-
-- Interaction gates: [[shared/interaction-gates.md]]
-- Output discipline: [[shared/output-discipline.md]]
+| File | Purpose |
+|------|---------|
+| [[nodes/selector.md]] | Choose Keep Local, Deep Research, Agent, or Pro review. |
+| [[nodes/trust-boundary.md]] | Keep ChatGPT delegated and the local agent canonical. |
+| [[nodes/direct-placement.md]] | Place an order directly when the host supports it. |
+| [[nodes/fallback-packet.md]] | Build a copy/paste packet when direct placement is unavailable. |
+| [[nodes/lane-deep-research.md]] | Shape a Deep Research order. |
+| [[nodes/lane-agent.md]] | Shape an Agent order. |
+| [[nodes/lane-pro-review.md]] | Shape a Pro review order. |
+| [[shared/interaction-gates.md]] | Preserve approval and handoff gates. |
+| [[shared/output-discipline.md]] | Keep outputs bounded and state-aware. |

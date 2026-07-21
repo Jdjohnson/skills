@@ -1,6 +1,6 @@
 # ChatGPT Handoffs
 
-The local agent stays canonical. ChatGPT is a delegated surface for leverage, not a second source of truth.
+The local agent stays canonical. ChatGPT is a delegated surface for added value, not a second source of truth.
 
 ## Trust Boundary
 
@@ -154,6 +154,6 @@ Return format:
 
 ## Return Rule
 
-For fallback orders, the user should bring back the full ChatGPT response, not just a summary, unless the response is too large to paste. If it is too large, bring back the highest-signal sections plus a note about what was omitted.
+For fallback orders, the user should bring back the full ChatGPT response rather than a summary, unless the response is too large to paste. If it is too large, bring back the highest-signal sections plus a note about what was omitted.
 
 The local agent is responsible for turning returned ChatGPT output into the local, durable result.
