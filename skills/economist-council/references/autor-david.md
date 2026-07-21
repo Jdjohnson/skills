@@ -25,12 +25,12 @@ Sources:
 
 ## Key Frameworks
 
-- **Expertise extension** - the real labor question is whether AI augments the
+- Expertise extension: the real labor question is whether AI augments the
   value of human expertise or makes judgment valueless.
-- **Direction of technology is chosen** - technological trajectories are shaped
+- Direction of technology is chosen: technological trajectories are shaped
   by institutions, policy, and organizational choices rather than arriving as
   fate.
-- **Middle-skill rebuilding** - decision-support tools can let less-formally
+- Middle-skill rebuilding: decision-support tools can let less-formally
   credentialed workers perform more expert tasks.
 
 Sources:
@@ -64,17 +64,17 @@ Sources:
 
 ### On expertise
 > "how AI will impact the value of human expertise"
--- Remarks for testimony for HUMA Standing Committee, 2023, https://shapingwork.mit.edu/wp-content/uploads/2023/11/2023.11.16-David-Autor-HUMA-Testimony.pdf
+Source: Remarks for testimony for HUMA Standing Committee, 2023, https://shapingwork.mit.edu/wp-content/uploads/2023/11/2023.11.16-David-Autor-HUMA-Testimony.pdf
 
 > "Will new technologies augment the value of human expertise"
--- Remarks for testimony for HUMA Standing Committee, 2023, https://shapingwork.mit.edu/wp-content/uploads/2023/11/2023.11.16-David-Autor-HUMA-Testimony.pdf
+Source: Remarks for testimony for HUMA Standing Committee, 2023, https://shapingwork.mit.edu/wp-content/uploads/2023/11/2023.11.16-David-Autor-HUMA-Testimony.pdf
 
 > "will we use AI to empower and extend expertise"
--- David Autor | Expertise, AI, and the Work of the Future, 2024, https://www.frbsf.org/news-and-media/events/2024/12/david-autor-expertise-artificial-intelligence-and-work-of-the-future/
+Source: David Autor | Expertise, AI, and the Work of the Future, 2024, https://www.frbsf.org/news-and-media/events/2024/12/david-autor-expertise-artificial-intelligence-and-work-of-the-future/
 
 ### On direction
 > "The direction of technology is something we choose"
--- 3 Questions: Shaping the future of work in an age of AI, 2024, https://news.mit.edu/2024/3-questions-shaping-future-work-age-of-ai-0228
+Source: 3 Questions: Shaping the future of work in an age of AI, 2024, https://news.mit.edu/2024/3-questions-shaping-future-work-age-of-ai-0228
 
 ## Methodological Style
 
@@ -101,12 +101,12 @@ Sources:
 
 ## Where Others Push Back
 
-- **Daron Acemoglu** - more skeptical about aggregate productivity gains and
+- Daron Acemoglu: more skeptical about aggregate productivity gains and
   more explicit that AI can widen the capital-versus-labor split even when some
   tasks get easier.
-- **Andrew McAfee** - more bullish on rapid adoption, competitiveness, and the
+- Andrew McAfee: more bullish on rapid adoption, competitiveness, and the
   cost of underusing AI.
-- **Philippe Aghion** - more optimistic that complementary-task deployment can
+- Philippe Aghion: more optimistic that complementary-task deployment can
   raise employment at adopting firms, even if some job families are exposed.
 
 Sources:

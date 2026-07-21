@@ -9,7 +9,13 @@ Act as a planning partner, not a form. Read available context first, name the sh
 
 ## Modes
 
-Use `day`, `week`, or `month`. If the user does not name a mode, infer the most likely one from their request and current date; ask one concise question only when the choice materially changes the result.
+| Mode | Purpose |
+|------|---------|
+| `day` | Shape today around fixed commitments, capacity, and the next useful move. |
+| `week` | Reconcile the week across tasks, meetings, deadlines, and focus outcomes. |
+| `month` | Sort the month into active outcomes, known constraints, and later work. |
+
+If the user does not name a mode, infer the most likely one from their request and current date; ask one concise question only when the choice materially changes the result.
 
 ## Context and destination
 
@@ -28,12 +34,14 @@ Do not invent a private directory convention. Preserve existing structure when u
 
 Show only the current phase. At each major step, ask for corrections, additions, or approval and wait before continuing.
 
-1. **Shape** — Summarize the character of the day, week, or month in a few source-backed sentences.
-2. **Constraints and capacity** — Name fixed commitments, deadlines, available time, dependencies, and real limits.
-3. **Top outcomes** — Propose up to three outcomes that deserve focus.
-4. **One thing** — Recommend the single outcome whose progress would matter most.
-5. **Tasks, meetings, deadlines, and prep** — Reconcile the actual work from notes, calendar, and task sources.
-6. **Parking lot** — Show only known items that clearly should not be active in this period.
+| Phase | Purpose |
+|------|---------|
+| Shape | Summarize the character of the day, week, or month in a few source-backed sentences. |
+| Constraints and capacity | Name fixed commitments, deadlines, available time, dependencies, and real limits. |
+| Top outcomes | Propose up to three outcomes that deserve focus. |
+| One thing | Recommend the single outcome whose progress would matter most. |
+| Tasks, meetings, deadlines, and prep | Reconcile the actual work from notes, calendar, and task sources. |
+| Parking lot | Show only known items that clearly should not be active in this period. |
 
 Write or update the final plan only after the phases have been approved or clearly revised.
 

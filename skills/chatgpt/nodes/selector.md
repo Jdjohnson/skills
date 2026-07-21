@@ -19,7 +19,7 @@ Use this node first when the lane is not already explicit.
 
 ## Keep Local Rule
 
-Use `Keep Local` when ChatGPT is clearly the wrong tool, not just because the task is doable locally. If the user explicitly asked for a ChatGPT order and ChatGPT is merely optional, still pick the best ChatGPT lane.
+Use `Keep Local` when the task would not benefit from ChatGPT. If the user explicitly asked for a ChatGPT order and ChatGPT is merely optional, still pick the best ChatGPT lane.
 
 ## Output
 
