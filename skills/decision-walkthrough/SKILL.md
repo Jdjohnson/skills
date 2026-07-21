@@ -1,6 +1,6 @@
 ---
 name: decision-walkthrough
-description: Facilitate a source-led walkthrough that breaks feedback, research, notes, audits, transcripts, plans, drafts, or linked material into meaningful decisions, asks for the user's input one decision at a time, keeps a practical running decision log, and finishes with an implementation-ready checklist. Use only when the user invokes this skill or explicitly asks to walk through supplied material item by item, take it one piece at a time, or digest it together and make decisions. Do not trigger for ordinary summarization, categorization, recommendations, or general decision support.
+description: Walk through supplied feedback, research, notes, audits, transcripts, plans, drafts, or links one decision at a time; keep a running decision log and finish with an implementation checklist. Use only on explicit invocation or item-by-item walkthrough language; do not use for ordinary summarization or recommendations.
 ---
 
 # Decision Walkthrough

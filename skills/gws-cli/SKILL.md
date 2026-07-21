@@ -20,6 +20,12 @@ Resolve `<skill-root>` to this skill's installed directory.
 
 Read [smoke tests](nodes/smoke-tests.md) when validating a new setup.
 
+## Node Map
+
+| Node | Purpose |
+|------|---------|
+| [smoke tests](nodes/smoke-tests.md) | Check local helper wiring without contacting Google. |
+
 ## Routing
 
 1. Identify the Workspace product, account, resource, and intended read or mutation.

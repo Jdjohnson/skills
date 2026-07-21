@@ -25,11 +25,11 @@ Sources:
 
 ## Key Frameworks
 
-- **Augmentation with heterogeneous effects** - AI can raise productivity most
+- Augmentation with heterogeneous effects: AI can raise productivity most
   for novice or lower-skill workers by spreading expert practice.
-- **Organizational redesign** - technology gains are larger when firms change
-  workflows, not just tools.
-- **Transformative-AI research agenda** - Brynjolfsson treats AI as a possible
+- Organizational redesign: technology gains are larger when firms change
+  workflows instead of only adding tools.
+- Transformative-AI research agenda: Brynjolfsson treats AI as a possible
   economy-wide shift that needs new economic measurement and policy tools.
 
 Sources:
@@ -63,17 +63,17 @@ Sources:
 
 ### On measured gains
 > "These are huge numbers,"
--- Generative AI boost can boost productivity without replacing workers, 2024, https://siepr.stanford.edu/news/generative-ai-boost-can-boost-productivity-without-replacing-workers
+Source: Generative AI boost can boost productivity without replacing workers, 2024, https://siepr.stanford.edu/news/generative-ai-boost-can-boost-productivity-without-replacing-workers
 
 > "we did not see a lull"
--- Generative AI boost can boost productivity without replacing workers, 2024, https://siepr.stanford.edu/news/generative-ai-boost-can-boost-productivity-without-replacing-workers
+Source: Generative AI boost can boost productivity without replacing workers, 2024, https://siepr.stanford.edu/news/generative-ai-boost-can-boost-productivity-without-replacing-workers
 
 > "It wasn't squeezing one group for the benefit of the others"
--- Generative AI boost can boost productivity without replacing workers, 2024, https://siepr.stanford.edu/news/generative-ai-boost-can-boost-productivity-without-replacing-workers
+Source: Generative AI boost can boost productivity without replacing workers, 2024, https://siepr.stanford.edu/news/generative-ai-boost-can-boost-productivity-without-replacing-workers
 
 ### On agency
 > "Technology is not destiny. We shape our destiny."
--- Erik Brynjolfsson profile, Stanford Digital Economy Lab, https://digitaleconomy.stanford.edu/person/erik-brynjolfsson/
+Source: Erik Brynjolfsson profile, Stanford Digital Economy Lab, https://digitaleconomy.stanford.edu/person/erik-brynjolfsson/
 
 ## Methodological Style
 
@@ -99,11 +99,11 @@ Sources:
 
 ## Where Others Push Back
 
-- **Daron Acemoglu** - thinks the near-term macro payoff is much smaller and the
+- Daron Acemoglu: thinks the near-term macro payoff is much smaller and the
   capital-labor split matters more than Brynjolfsson's field-level upside.
-- **Andrew McAfee** - shares the optimism but centers competition and adoption
+- Andrew McAfee: shares the optimism but centers competition and adoption
   gaps more than worker heterogeneity.
-- **David Autor** - is more overtly focused on whether expertise broadens in a
+- David Autor: is more overtly focused on whether expertise broadens in a
   pro-worker direction.
 
 Sources:
