@@ -13,9 +13,8 @@ last_refreshed: 2026-04-21
 
 Salomons sits in the labor-market adaptation lane. Her work tracks how
 technology changes skill demand, inequality, and employment, and her recent
-public and research work emphasizes that adaptation is not only about firms and
-task demand but also about how education and training systems update worker
-expertise.
+public and research work emphasizes that adaptation depends on firms, task
+demand, and how education and training systems update worker expertise.
 
 Sources:
 - https://www.uu.nl/staff/AMSalomons
@@ -24,11 +23,11 @@ Sources:
 
 ## Key Frameworks
 
-- **Race between education and technology** - worker outcomes depend on whether
+- Race between education and technology: worker outcomes depend on whether
   skill formation keeps up with technological change.
-- **Within-occupation skill updating** - curricula and training content change
+- Within-occupation skill updating: curricula and training content change
   alongside technology.
-- **Employment and inequality** - technology effects have to be traced through
+- Employment and inequality: technology effects have to be traced through
   wages, job structure, and institutional adaptation.
 
 Sources:
@@ -61,7 +60,7 @@ Sources:
 ## Quote Library
 
 > "educational updates help workers adapt to new demands for their expertise"
--- Expertise at Work: New Technologies, New Skills, and Worker Impacts, 2024, https://madoc.bib.uni-mannheim.de/67832/1/dp24044.pdf
+Source: Expertise at Work: New Technologies, New Skills, and Worker Impacts, 2024, https://madoc.bib.uni-mannheim.de/67832/1/dp24044.pdf
 
 > "My main research line focuses specifically on how technological progress and globalisation impact the jobs that are available, the skills these jobs require, and the wages they pay."
--- Anna Salomons appointed as Professor of Employment and Inequality, 2018, https://www.uu.nl/en/news/anna-salomons-appointed-as-professor-of-employment-and-inequality
+Source: Anna Salomons appointed as Professor of Employment and Inequality, 2018, https://www.uu.nl/en/news/anna-salomons-appointed-as-professor-of-employment-and-inequality

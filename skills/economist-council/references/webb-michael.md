@@ -24,10 +24,10 @@ Sources:
 
 ## Key Frameworks
 
-- **Occupational AI exposure** - use text overlap between patents and task
+- Occupational AI exposure: use text overlap between patents and task
   descriptions to map which jobs AI is aimed at.
-- **High-skill exposure** - AI does not only target routine middle-skill work.
-- **Growth with uncertainty** - fast capability growth does not automatically
+- High-skill exposure: AI reaches beyond routine middle-skill work.
+- Growth with uncertainty: fast capability growth does not automatically
   settle the labor-market outcome.
 
 Sources:
@@ -37,7 +37,7 @@ Sources:
 
 ## Recent Work (public source surface)
 
-### Michael Webb on whether AI will soon cause job loss, lower incomes, and higher inequality -- or the opposite (2023, 80,000 Hours)
+### Michael Webb on whether AI will soon cause job loss, lower incomes, and higher inequality, or the opposite (2023, 80,000 Hours)
 - URL: https://80000hours.org/podcast/episodes/michael-webb-ai-jobs-labour-market/
 - Summary: Long-form public interview on AI, jobs, inequality, and explosive
   growth scenarios.
@@ -59,7 +59,7 @@ Sources:
 ## Quote Library
 
 > "it is high-skill occupations that are most exposed to artificial intelligence."
--- The Impact of Artificial Intelligence on the Labor Market, https://www.michaelwebb.co/webb_ai.pdf
+Source: The Impact of Artificial Intelligence on the Labor Market, https://www.michaelwebb.co/webb_ai.pdf
 
 > "enough to power 20 or 30 years of incredible economic growth"
--- Michael Webb on whether AI will soon cause job loss, lower incomes, and higher inequality -- or the opposite, 2023, https://80000hours.org/podcast/episodes/michael-webb-ai-jobs-labour-market/
+Source: Michael Webb on whether AI will soon cause job loss, lower incomes, and higher inequality, or the opposite, 2023, https://80000hours.org/podcast/episodes/michael-webb-ai-jobs-labour-market/

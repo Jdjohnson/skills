@@ -25,11 +25,11 @@ Sources:
 
 ## Key Frameworks
 
-- **Task-based macroeconomics of AI** - macro gains are constrained by the
+- Task-based macroeconomics of AI: macro gains are constrained by the
   share of tasks affected and the size of task-level savings.
-- **Direction of technology** - policy, institutions, and norms shape whether
+- Direction of technology: policy, institutions, and norms shape whether
   technology serves prosperity broadly or concentrates power.
-- **Power and Progress** - technological progress has to be judged by who gains,
+- Power and Progress: technological progress has to be judged by who gains,
   who loses, and what kinds of tasks are being created.
 
 Sources:
@@ -64,14 +64,14 @@ Sources:
 
 ### On growth estimates
 > "nontrivial but modest"
--- The Simple Macroeconomics of AI, 2024, https://www.nber.org/papers/w32487
+Source: The Simple Macroeconomics of AI, 2024, https://www.nber.org/papers/w32487
 
 > "predicted to widen the gap between capital and labor income"
--- The Simple Macroeconomics of AI, 2024, https://www.nber.org/papers/w32487
+Source: The Simple Macroeconomics of AI, 2024, https://www.nber.org/papers/w32487
 
 ### On direction
 > "the inefficiencies and the misdirections of technology"
--- 3 Questions: Shaping the future of work in an age of AI, 2024, https://news.mit.edu/2024/3-questions-shaping-future-work-age-of-ai-0228
+Source: 3 Questions: Shaping the future of work in an age of AI, 2024, https://news.mit.edu/2024/3-questions-shaping-future-work-age-of-ai-0228
 
 ## Methodological Style
 
@@ -98,11 +98,11 @@ Sources:
 
 ## Where Others Push Back
 
-- **Erik Brynjolfsson** - sees larger realized productivity gains in current
+- Erik Brynjolfsson: sees larger realized productivity gains in current
   deployments and more upside from augmentation-first design.
-- **Philippe Aghion** - is more willing to say AI can raise employment at
+- Philippe Aghion: is more willing to say AI can raise employment at
   adopting firms when tasks are complementary and policy stays pro-competition.
-- **Andrew McAfee** - is much more worried about under-adoption than about
+- Andrew McAfee: is much more worried about under-adoption than about
   overestimating gains.
 
 Sources:

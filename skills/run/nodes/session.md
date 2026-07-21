@@ -14,29 +14,23 @@ Load shared controls:
 
 Reference: [[blueprint-schema.md]]
 
----
-
 ## Purpose
 
 Use `session` when the project needs more structure than a direct prompt.
 
 This mode is for projects that are:
-- higher leverage
+- high-stakes
 - fuzzier in scope
 - riskier if shaped poorly
 - more dependent on the right tool and execution posture
 
 `/run` routes here by default. `/run session` is the explicit form.
 
----
-
 ## Inputs
 
 - User's project description
 - Optional: likely repo directory or subdirectory this work should live in
 - Optional: existing files, briefs, constraints, or acceptance criteria that materially shape the run
-
----
 
 ## Operating Rules
 
@@ -55,15 +49,13 @@ When the run package includes prose a human will read directly:
 - avoid report voice, filler, and fake certainty
 - keep checklist rows, IDs, tool routing, dependencies, and launch commands technical
 
----
-
 ## Session Flow - Five Stages
 
 Run each stage in order. Pause for input anywhere uncertainty materially changes the plan.
 
 ### Stage 1: Frame
 
-**Goal**: Understand the run at the level of outcome, stakes, and constraints.
+Goal: Understand the run at the level of outcome, stakes, and constraints.
 
 1. Ask for the project in broad terms: goal, stakes, files, constraints, and what "done" looks like.
 2. Reflect back a draft:
@@ -80,7 +72,7 @@ Run each stage in order. Pause for input anywhere uncertainty materially changes
 
 ### Stage 2: Pressure-Test
 
-**Goal**: Find weak spots before decomposition.
+Goal: Find weak spots before decomposition.
 
 1. Pressure-test:
    - what success actually means
@@ -95,7 +87,7 @@ Run each stage in order. Pause for input anywhere uncertainty materially changes
 
 ### Stage 3: Decompose
 
-**Goal**: Turn the project into a bounded executable run.
+Goal: Turn the project into a bounded executable run.
 
 1. Propose a run checklist with bounded steps.
 2. Each step should expose:
@@ -111,7 +103,7 @@ Run each stage in order. Pause for input anywhere uncertainty materially changes
 
 ### Stage 4: Route
 
-**Goal**: Assign the right execution tool and posture to each step.
+Goal: Assign the right execution tool and posture to each step.
 
 1. Recommend a tool for each step, including `skill:*` routing when relevant.
 2. Show skill steps with their runner in plain English, for example:
@@ -130,7 +122,7 @@ Run each stage in order. Pause for input anywhere uncertainty materially changes
 
 ### Stage 5: Lock
 
-**Goal**: Turn the session into launch artifacts and a clear handoff.
+Goal: Turn the session into launch artifacts and a clear handoff.
 
 1. Present the final package as a human-readable review, not raw JSON.
 2. On approval:
@@ -147,8 +139,6 @@ Run each stage in order. Pause for input anywhere uncertainty materially changes
    - `adaptive`: fixed scope, bounded blocker removal, restart on disruption or timeout
    - `expansion`: adaptive behavior plus bounded step creation during execution
 5. Keep `--supervised` available only as legacy compatibility language.
-
----
 
 ## `session.md` Contract
 

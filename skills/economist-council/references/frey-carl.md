@@ -22,11 +22,11 @@ Sources:
 
 ## Key Frameworks
 
-- **Future of work through historical analogy** - read AI against earlier
+- Future of work through historical analogy: read AI against earlier
   industrial and computing transitions.
-- **Exposure reappraisal** - generative AI reaches farther into cognitive and
+- Exposure reappraisal: generative AI reaches farther into cognitive and
   creative work than earlier machine-learning expectations suggested.
-- **Technology trap** - distributional outcomes hinge on institutions, power,
+- Technology trap: distributional outcomes hinge on institutions, power,
   and who adapts fastest.
 
 Sources:
@@ -52,7 +52,7 @@ Sources:
 ## Quote Library
 
 > "The number of domains in which AI has apparently acquired human-level mastery is simply breath-taking."
--- Generative AI and the Future of Work: A Reappraisal, 2023, https://www.oxfordmartin.ox.ac.uk/downloads/academic/2023-FoW-Working-Paper-Generative-AI-and-the-Future-of-Work-A-Reappraisal-combined.pdf
+Source: Generative AI and the Future of Work: A Reappraisal, 2023, https://www.oxfordmartin.ox.ac.uk/downloads/academic/2023-FoW-Working-Paper-Generative-AI-and-the-Future-of-Work-A-Reappraisal-combined.pdf
 
 > "did we underestimate the near-term scope of automation?"
--- Generative AI and the Future of Work: A Reappraisal, 2023, https://www.oxfordmartin.ox.ac.uk/downloads/academic/2023-FoW-Working-Paper-Generative-AI-and-the-Future-of-Work-A-Reappraisal-combined.pdf
+Source: Generative AI and the Future of Work: A Reappraisal, 2023, https://www.oxfordmartin.ox.ac.uk/downloads/academic/2023-FoW-Working-Paper-Generative-AI-and-the-Future-of-Work-A-Reappraisal-combined.pdf

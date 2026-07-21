@@ -9,9 +9,20 @@ Gather useful activity from the sources available in the current host, keep only
 
 ## Modes
 
-- Normal: gather, classify, write, then advance checkpoints for successful sources.
-- `dry-run`: gather and classify without writing or advancing checkpoints.
-- `since:<ISO-8601>`: use the supplied lower bound for this run while keeping stored checkpoints forward-only.
+| Mode | Purpose |
+|------|---------|
+| Normal | Gather, classify, write, then advance checkpoints for successful sources. |
+| `dry-run` | Gather and classify without writing or advancing checkpoints. |
+| `since:<ISO-8601>` | Use the supplied lower bound for this run while keeping stored checkpoints forward-only. |
+
+## Node Map
+
+| Node | Purpose |
+|------|---------|
+| [checkpoints](nodes/checkpoints.md) | Load and advance per-source progress safely. |
+| [gather](nodes/gather.md) | Pull bounded activity from configured sources. |
+| [classify](nodes/classify.md) | Keep durable signal and drop noise. |
+| [write](nodes/write.md) | Append useful context to the daily note. |
 
 Read [checkpoints](nodes/checkpoints.md), [gather](nodes/gather.md), [classify](nodes/classify.md), and [write](nodes/write.md) in that order.
 

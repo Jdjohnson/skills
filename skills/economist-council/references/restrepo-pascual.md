@@ -23,11 +23,11 @@ Sources:
 
 ## Key Frameworks
 
-- **Tasks and automation** - technology changes income distribution through task
+- Tasks and automation: technology changes income distribution through task
   substitution and creation.
-- **Bottleneck vs supplementary work** - in AGI scenarios, the key distinction
+- Bottleneck vs supplementary work: in AGI scenarios, the key distinction
   is whether work constrains growth or sits outside the bottleneck.
-- **Labor share pressure** - even strong output growth can leave labor with a
+- Labor share pressure: even strong output growth can leave labor with a
   shrinking share.
 
 Sources:
@@ -52,7 +52,7 @@ Sources:
 ## Quote Library
 
 > "I distinguish between bottleneck and supplementary work"
--- We Won't be Missed: Work and Growth in the AGI World, 2025, https://www.nber.org/papers/w34423
+Source: We Won't be Missed: Work and Growth in the AGI World, 2025, https://www.nber.org/papers/w34423
 
 > "the share of labor income in GDP converges to zero"
--- We Won't be Missed: Work and Growth in the AGI World, 2025, https://www.nber.org/papers/w34423
+Source: We Won't be Missed: Work and Growth in the AGI World, 2025, https://www.nber.org/papers/w34423

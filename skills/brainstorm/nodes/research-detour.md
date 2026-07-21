@@ -11,7 +11,7 @@ Good reasons:
 - real examples would sharpen the idea
 - benchmarks or outside patterns would change the decision
 - the user supplied a URL or file that should anchor the brainstorm
-- a missing fact affects the shape, not just polish
+- a missing fact affects the shape rather than polish
 
 ## Detour Shape
 

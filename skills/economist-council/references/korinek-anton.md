@@ -22,11 +22,11 @@ Sources:
 
 ## Key Frameworks
 
-- **Transformative AI** - analyze AI as a possible economy-wide regime change,
-  not just another software tool.
-- **Scenario planning** - compare business-as-usual automation against faster
+- Transformative AI: analyze AI as a possible economy-wide regime change
+  rather than another software tool.
+- Scenario planning: compare business-as-usual automation against faster
   transformative-AI timelines.
-- **Policy readiness** - economics has to prepare for growth, distribution, and
+- Policy readiness: economics has to prepare for growth, distribution, and
   meaning-of-work questions before the transition is fully visible.
 
 Sources:
@@ -51,7 +51,7 @@ Sources:
 ## Quote Library
 
 > "the most significant economic transformation since the Industrial Revolution"
--- The Economics of Transformative AI, 2024, https://www.nber.org/reporter/2024number4/economics-transformative-ai
+Source: The Economics of Transformative AI, 2024, https://www.nber.org/reporter/2024number4/economics-transformative-ai
 
 > "our world will be transformed before my children have grown up"
--- The Economics of Transformative AI, 2024, https://www.nber.org/reporter/2024number4/economics-transformative-ai
+Source: The Economics of Transformative AI, 2024, https://www.nber.org/reporter/2024number4/economics-transformative-ai
