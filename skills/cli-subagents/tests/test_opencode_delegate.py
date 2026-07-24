@@ -23,6 +23,18 @@ def make_fake_opencode(directory: Path, body: str) -> Path:
 
 def run_wrapper(args: list[str], env: dict[str, str] | None = None) -> subprocess.CompletedProcess[str]:
     merged_env = os.environ.copy()
+    for name in (
+        "OLLAMA_API_KEY",
+        "OLLAMA_CLOUD_API_KEY",
+        "OPENCODE_AUTH_TOKEN",
+        "OPENAI_API_KEY",
+        "ANTHROPIC_API_KEY",
+        "CLAUDE_CODE_OAUTH_TOKEN",
+        "XAI_API_KEY",
+        "GEMINI_API_KEY",
+        "GOOGLE_API_KEY",
+    ):
+        merged_env.pop(name, None)
     if env:
         merged_env.update(env)
     return subprocess.run(
@@ -81,6 +93,36 @@ class OpenCodeDelegateTests(unittest.TestCase):
             self.assertFalse(payload["ok"])
             self.assertIn("opencode_auth_missing", payload["issues"])
             self.assertEqual(payload["auth"]["method"], "missing")
+
+    def test_unrelated_provider_key_does_not_satisfy_auth(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            fake = make_fake_opencode(
+                root,
+                """\
+                #!/usr/bin/env python3
+                import sys
+                if sys.argv[1:] == ["--version"]:
+                    print("1.17.5")
+                    raise SystemExit(0)
+                if sys.argv[1:] == ["auth", "list"]:
+                    print("Google environment")
+                    raise SystemExit(0)
+                if sys.argv[1:] == ["models", "ollama-cloud"]:
+                    print("ollama-cloud/glm-5.2")
+                    raise SystemExit(0)
+                raise SystemExit(9)
+                """,
+            )
+            result = run_wrapper(
+                ["doctor", "--opencode-bin", str(fake), "--cwd", str(root)],
+                env={"GEMINI_API_KEY": "unrelated-provider-key"},
+            )
+            payload = json.loads(result.stdout)
+
+            self.assertEqual(result.returncode, 2)
+            self.assertIn("opencode_auth_missing", payload["issues"])
+            self.assertEqual(payload["auth"]["env_credentials"], [])
 
     def test_doctor_requires_ollama_cloud_model(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -146,6 +188,51 @@ class OpenCodeDelegateTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0)
             self.assertTrue(payload["ok"])
             self.assertEqual(payload["model"]["provider"], "openai")
+
+    def test_google_provider_aliases_gemini_key_for_probe(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            fake = make_fake_opencode(
+                root,
+                """\
+                #!/usr/bin/env python3
+                import json
+                import os
+                import sys
+                if sys.argv[1:] == ["--version"]:
+                    print("1.17.5")
+                    raise SystemExit(0)
+                if sys.argv[1:] == ["auth", "list"]:
+                    print("Google environment")
+                    raise SystemExit(0)
+                if sys.argv[1:] == ["models", "google"]:
+                    print("google/gemini-3.1-flash-lite")
+                    raise SystemExit(0)
+                if os.environ.get("GOOGLE_GENERATIVE_AI_API_KEY") != os.environ.get("GEMINI_API_KEY"):
+                    print("Google Generative AI API key is missing.", file=sys.stderr)
+                    raise SystemExit(1)
+                print(json.dumps({"text": "OPENCODE_READY"}))
+                raise SystemExit(0)
+                """,
+            )
+            result = run_wrapper(
+                [
+                    "probe",
+                    "--allow-inactive",
+                    "--opencode-bin",
+                    str(fake),
+                    "--cwd",
+                    str(root),
+                    "--model",
+                    "google/gemini-3.1-flash-lite",
+                ],
+                env={"GEMINI_API_KEY": "gemini-provider-key"},
+            )
+            payload = json.loads(result.stdout)
+
+            self.assertEqual(result.returncode, 0)
+            self.assertTrue(payload["ok"])
+            self.assertEqual(payload["probe"]["response_text"], "OPENCODE_READY")
 
     def test_default_discovery_uses_candidate_fallback(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -619,6 +706,52 @@ class OpenCodeDelegateTests(unittest.TestCase):
             self.assertEqual(payload["failure_kind"], "state_schema_incompatible")
             self.assertNotIn(secret, result.stdout)
             self.assertIn("<redacted:OLLAMA_API_KEY>", payload["result"]["stderr"])
+
+    def test_subscription_failure_redacts_cookie_header(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            fake = make_fake_opencode(
+                root,
+                """\
+                #!/usr/bin/env python3
+                import json
+                import sys
+                if sys.argv[1:] == ["--version"]:
+                    print("1.17.5")
+                    raise SystemExit(0)
+                if sys.argv[1:] == ["auth", "list"]:
+                    print("Ollama Cloud api")
+                    raise SystemExit(0)
+                if sys.argv[1:] == ["models", "ollama-cloud"]:
+                    print("ollama-cloud/glm-5.2")
+                    raise SystemExit(0)
+                print(json.dumps({
+                    "error": {
+                        "message": "Forbidden: this model requires a subscription, upgrade for access",
+                        "responseHeaders": {"set-cookie": "aid=private-cookie-value; Secure"}
+                    }
+                }))
+                raise SystemExit(1)
+                """,
+            )
+            result = run_wrapper(
+                [
+                    "run",
+                    "--allow-inactive",
+                    "--opencode-bin",
+                    str(fake),
+                    "--cwd",
+                    str(root),
+                    "--prompt",
+                    "Review this.",
+                ]
+            )
+            payload = json.loads(result.stdout)
+
+            self.assertEqual(result.returncode, 1)
+            self.assertEqual(payload["failure_kind"], "subscription_required")
+            self.assertNotIn("private-cookie-value", result.stdout)
+            self.assertIn("<redacted:cookie>", result.stdout)
 
     def test_partial_output_timeout_returns_receipt(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

@@ -26,6 +26,7 @@ SECRET_ENV_NAMES = (
     "XAI_API_KEY",
     "GEMINI_API_KEY",
     "GOOGLE_API_KEY",
+    "GOOGLE_GENERATIVE_AI_API_KEY",
 )
 
 CREDENTIAL_ENV_NAMES = (
@@ -38,7 +39,27 @@ CREDENTIAL_ENV_NAMES = (
     "XAI_API_KEY",
     "GEMINI_API_KEY",
     "GOOGLE_API_KEY",
+    "GOOGLE_GENERATIVE_AI_API_KEY",
 )
+
+PROVIDER_CREDENTIAL_ENV_NAMES = {
+    "ollama-cloud": ("OLLAMA_API_KEY", "OLLAMA_CLOUD_API_KEY", "OPENCODE_AUTH_TOKEN"),
+    "openai": ("OPENAI_API_KEY", "OPENCODE_AUTH_TOKEN"),
+    "anthropic": ("ANTHROPIC_API_KEY", "CLAUDE_CODE_OAUTH_TOKEN", "OPENCODE_AUTH_TOKEN"),
+    "xai": ("XAI_API_KEY", "OPENCODE_AUTH_TOKEN"),
+    "google": (
+        "GEMINI_API_KEY",
+        "GOOGLE_API_KEY",
+        "GOOGLE_GENERATIVE_AI_API_KEY",
+        "OPENCODE_AUTH_TOKEN",
+    ),
+    "gemini": (
+        "GEMINI_API_KEY",
+        "GOOGLE_API_KEY",
+        "GOOGLE_GENERATIVE_AI_API_KEY",
+        "OPENCODE_AUTH_TOKEN",
+    ),
+}
 
 DEFAULT_OPENCODE_CANDIDATES = (
     "~/.local/bin/opencode",
@@ -99,6 +120,12 @@ def redact(text: str | bytes, env: dict[str, str] | None = None) -> str:
     redacted = re.sub(
         r"(Bearer\s+)[A-Za-z0-9._~+/=-]{12,}",
         r"\1<redacted:bearer-token>",
+        redacted,
+        flags=re.IGNORECASE,
+    )
+    redacted = re.sub(
+        r"([\"']?set-cookie[\"']?\s*[:=]\s*[\"']?)[^\"\r\n]+",
+        r"\1<redacted:cookie>",
         redacted,
         flags=re.IGNORECASE,
     )
@@ -209,6 +236,23 @@ def present_credentials(env: dict[str, str] | None = None) -> list[str]:
     return [name for name in CREDENTIAL_ENV_NAMES if env.get(name)]
 
 
+def provider_credentials(provider: str, env: dict[str, str] | None = None) -> list[str]:
+    env = env or os.environ
+    names = PROVIDER_CREDENTIAL_ENV_NAMES.get(provider, ("OPENCODE_AUTH_TOKEN",))
+    return [name for name in names if env.get(name)]
+
+
+def provider_env(provider: str) -> dict[str, str]:
+    env = os.environ.copy()
+    if (
+        provider in {"google", "gemini"}
+        and env.get("GEMINI_API_KEY")
+        and not env.get("GOOGLE_GENERATIVE_AI_API_KEY")
+    ):
+        env["GOOGLE_GENERATIVE_AI_API_KEY"] = env["GEMINI_API_KEY"]
+    return env
+
+
 def parse_json_output(output: str) -> Any:
     stripped = output.strip()
     if not stripped:
@@ -278,7 +322,16 @@ def classify_failure(returncode: int, stdout: str, stderr: str) -> str | None:
         return "state_schema_incompatible"
     if "not logged in" in text or "sign in" in text or "login" in text or "authentication required" in text:
         return "missing_auth"
-    if "invalid api key" in text or "unauthorized" in text or "oauth" in text or "forbidden" in text:
+    if "requires a subscription" in text or "upgrade for access" in text:
+        return "subscription_required"
+    if (
+        "invalid api key" in text
+        or "api key is missing" in text
+        or "providerautherror" in text
+        or "unauthorized" in text
+        or "oauth" in text
+        or "forbidden" in text
+    ):
         return "missing_auth"
     if "unable to connect" in text or "enotfound" in text or "econnreset" in text:
         return "network_or_sandbox"
@@ -404,7 +457,7 @@ def build_opencode_argv(args: argparse.Namespace, prompt: str, *, probe: bool = 
 def summarize_auth_list(result: CommandResult, provider: str) -> dict[str, Any]:
     text = (result.stdout or result.stderr).strip()
     lower = text.lower()
-    env_credentials = present_credentials()
+    env_credentials = provider_credentials(provider)
     provider_names = {provider.lower(), provider.lower().replace("-", " ")}
     provider_present = any(name and name in lower for name in provider_names)
     ok = result.returncode == 0 and provider_present
@@ -427,7 +480,7 @@ def collect_preflight(args: argparse.Namespace, require_auth: bool = True, requi
     auth: dict[str, Any] = {
         "ok": False,
         "method": "missing",
-        "env_credentials": present_credentials(),
+        "env_credentials": [],
         "provider": None,
         "provider_present": False,
     }
@@ -542,7 +595,12 @@ def do_probe(args: argparse.Namespace) -> int:
         json_print(payload)
         return 0
 
-    result = run_subprocess(argv, cwd=cwd, timeout=args.timeout)
+    result = run_subprocess(
+        argv,
+        cwd=cwd,
+        timeout=args.timeout,
+        env=provider_env(payload["model"]["provider"]),
+    )
     parsed = parse_json_output(result.stdout)
     response_text = extract_response_text(parsed, result.stdout)
     exact_ready = result.returncode == 0 and is_ready_response(response_text)
@@ -622,16 +680,26 @@ def do_run(args: argparse.Namespace) -> int:
         json_print(payload)
         return 0
 
-    result = run_subprocess(argv, cwd=cwd, timeout=args.timeout)
+    result = run_subprocess(
+        argv,
+        cwd=cwd,
+        timeout=args.timeout,
+        env=provider_env(payload["model"]["provider"]),
+    )
     parsed = parse_json_output(result.stdout)
     response_text = extract_response_text(parsed, result.stdout)
     semantic_failure = semantic_json_failure(parsed, response_text)
     ok = result.returncode == 0 and semantic_failure is None and bool(response_text.strip())
+    failure_kind = (
+        classify_failure(result.returncode, result.stdout, result.stderr)
+        if result.returncode != 0
+        else semantic_failure
+    )
     payload.update(
         {
             "ok": ok,
             "status": "complete" if ok else "blocked",
-            "failure_kind": semantic_failure or classify_failure(result.returncode, result.stdout, result.stderr),
+            "failure_kind": failure_kind,
             "mode": args.mode,
             "result": {
                 "returncode": result.returncode,
