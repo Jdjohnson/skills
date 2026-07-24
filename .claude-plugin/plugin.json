@@ -1,6 +1,6 @@
 {
   "name": "generic-ai-skills",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "A generic bank of reusable AI skills for thinking, writing, research, meetings, and agent tooling",
   "homepage": "https://github.com/Jdjohnson/skills",
   "keywords": [
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "Generic AI Skills",
     "shortDescription": "Reusable skills for knowledge work and agent tooling",
-    "longDescription": "Eighteen portable skills for thinking, planning, writing, meetings, research, and bounded agent or CLI workflows.",
+    "longDescription": "Fifteen portable skills for thinking, planning, writing, meetings, research, and bounded agent or CLI workflows.",
     "developerName": "Jarad Johnson",
     "category": "Productivity",
     "capabilities": [
@@ -45,12 +45,9 @@
       "meeting",
       "work-log",
       "chatgpt",
-      "claude-code",
-      "codex",
+      "cli-subagents",
       "context-sweep",
-      "grok-build",
       "gws-cli",
-      "opencode",
       "economist-council"
     ]
   }

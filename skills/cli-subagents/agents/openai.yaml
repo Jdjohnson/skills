@@ -1,0 +1,4 @@
+interface:
+  display_name: "CLI Subagents"
+  short_description: "Route work to the right local CLI agent"
+  default_prompt: "Use $cli-subagents to delegate this task to the best local CLI agent."
