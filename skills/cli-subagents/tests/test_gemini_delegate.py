@@ -38,7 +38,7 @@ def run_wrapper(args: list[str], env: dict[str, str] | None = None) -> subproces
 
 
 class GeminiDelegateTests(unittest.TestCase):
-    def test_doctor_reports_current_default(self) -> None:
+    def test_doctor_marks_gemini_inactive(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             fake = make_fake(
@@ -60,8 +60,34 @@ class GeminiDelegateTests(unittest.TestCase):
 
             self.assertEqual(result.returncode, 0)
             self.assertTrue(payload["ok"])
+            self.assertFalse(payload["active"])
+            self.assertEqual(payload["status"], "inactive-ready")
             self.assertEqual(payload["model"], "gemini-3.6-flash")
             self.assertEqual(payload["auth"]["method"], "environment")
+
+    def test_run_requires_explicit_inactive_opt_in(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            fake = make_fake(
+                root,
+                """\
+                #!/usr/bin/env python3
+                import sys
+                if sys.argv[1:] == ["--version"]:
+                    print("0.52.0")
+                    raise SystemExit(0)
+                raise SystemExit(9)
+                """,
+            )
+            result = run_wrapper(
+                ["run", "--gemini-bin", str(fake), "--cwd", str(root), "--prompt", "Review this."],
+                env={"GEMINI_API_KEY": "fake-google-credential"},
+            )
+            payload = json.loads(result.stdout)
+
+            self.assertEqual(result.returncode, 2)
+            self.assertEqual(payload["status"], "inactive")
+            self.assertIn("gemini_inactive_requires_explicit_opt_in", payload["issues"])
 
     def test_run_dry_run_uses_plan_mode_and_concrete_model(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -84,6 +110,7 @@ class GeminiDelegateTests(unittest.TestCase):
                     str(fake),
                     "--cwd",
                     str(root),
+                    "--allow-inactive",
                     "--prompt",
                     "Inspect the screenshots.",
                     "--run-id",
@@ -119,7 +146,7 @@ class GeminiDelegateTests(unittest.TestCase):
                 """,
             )
             result = run_wrapper(
-                ["probe", "--gemini-bin", str(fake), "--cwd", str(root)],
+                ["probe", "--allow-inactive", "--gemini-bin", str(fake), "--cwd", str(root)],
                 env={"GOOGLE_API_KEY": "fake-google-credential"},
             )
             payload = json.loads(result.stdout)
@@ -152,6 +179,7 @@ class GeminiDelegateTests(unittest.TestCase):
                     str(fake),
                     "--cwd",
                     str(root),
+                    "--allow-inactive",
                     "--timeout",
                     "1",
                     "--prompt",
