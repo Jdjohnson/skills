@@ -40,6 +40,12 @@ def redact(text: str | bytes, secret_env_names: tuple[str, ...]) -> str:
         redacted,
         flags=re.IGNORECASE,
     )
+    redacted = re.sub(
+        r"([\"']?set-cookie[\"']?\s*[:=]\s*[\"']?)[^\"\r\n]+",
+        r"\1<redacted:cookie>",
+        redacted,
+        flags=re.IGNORECASE,
+    )
     return redacted
 
 

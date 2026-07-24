@@ -97,6 +97,7 @@ class CursorDelegateTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0)
             self.assertEqual(payload["status"], "dry-run")
             self.assertEqual(Path(argv[0]).name, "cursor-agent")
+            self.assertIn("--trust", argv)
             self.assertEqual(argv[argv.index("--mode") + 1], "plan")
             self.assertEqual(argv[argv.index("--model") + 1], "gpt-5.6-sol-medium")
             self.assertNotIn("--force", argv)
