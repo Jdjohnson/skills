@@ -71,9 +71,11 @@ the same rules as any other writing here:
   sections keep exactly the same meaning and strictness. Tighten wording,
   never scope.
 - Skill names and invocation forms stay stable. Renames break habits and
-  saved commands.
+  saved commands. A repo-owner-approved major inventory migration must be
+  versioned and documented.
 - No merging, splitting, or deleting skills, and no new modes, config, or
-  process. Less over more.
+  process unless the repo owner explicitly requests that major migration.
+  Less over more.
 
 ## Checklist for any skill edit
 

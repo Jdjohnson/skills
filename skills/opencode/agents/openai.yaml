@@ -1,4 +1,0 @@
-interface:
-  display_name: "OpenCode CLI"
-  short_description: "Delegate bounded work to OpenCode"
-  default_prompt: "Use $opencode to get a bounded third opinion through the local OpenCode CLI."

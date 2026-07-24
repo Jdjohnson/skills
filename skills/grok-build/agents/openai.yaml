@@ -1,4 +1,0 @@
-interface:
-  display_name: "Grok Build CLI"
-  short_description: "Delegate bounded work to Grok Build"
-  default_prompt: "Use $grok-build to delegate a bounded headless task through the local Grok Build CLI."

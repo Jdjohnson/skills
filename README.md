@@ -1,6 +1,6 @@
 # Generic AI Skills
 
-A public bank of 18 reusable skills for thinking, planning, writing, meetings, research, and agent tooling. Published skills avoid private workspace assumptions, personal voice profiles, client context, and organization-specific routing.
+A public bank of 15 reusable skills for thinking, planning, writing, meetings, research, and agent tooling. Published skills avoid private workspace assumptions, personal voice profiles, client context, and organization-specific routing.
 
 ## Install
 
@@ -16,6 +16,8 @@ npx skills@latest add Jdjohnson/skills --skill brainstorm --skill plan
 ```
 
 Each skill starts at `skills/<name>/SKILL.md`. Supporting nodes, references, scripts, and tests stay inside that skill's directory.
+
+Version 3 consolidates the former `claude-code`, `codex`, `grok-build`, and `opencode` skills into `cli-subagents`. Use `$cli-subagents` and select the matching node.
 
 ## Skills
 
@@ -43,12 +45,9 @@ Each skill starts at `skills/<name>/SKILL.md`. Supporting nodes, references, scr
 | Skill | Use it for |
 |---|---|
 | [chatgpt](./skills/chatgpt/SKILL.md) | Routing explicit ChatGPT orders, Deep Research, Agent, or Pro review |
-| [claude-code](./skills/claude-code/SKILL.md) | Delegating bounded work to the Claude Code CLI |
-| [codex](./skills/codex/SKILL.md) | Delegating bounded work to the Codex CLI |
+| [cli-subagents](./skills/cli-subagents/SKILL.md) | Routing bounded work across active and inactive local CLI agents |
 | [context-sweep](./skills/context-sweep/SKILL.md) | Gathering configured source activity into a daily note with checkpoints |
-| [grok-build](./skills/grok-build/SKILL.md) | Delegating bounded work to the Grok CLI |
 | [gws-cli](./skills/gws-cli/SKILL.md) | Running guarded Google Workspace CLI reads and approved mutations |
-| [opencode](./skills/opencode/SKILL.md) | Delegating bounded work to the OpenCode CLI |
 | [run](./skills/run/SKILL.md) | Planning and running larger projects with tool routing and resume support |
 
 ### Research
