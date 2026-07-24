@@ -10,8 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS = (
     "brainstorm", "brief", "decision-walkthrough", "plan", "steelman", "stuck",
     "writer", "meeting", "work-log",
-    "chatgpt", "claude-code", "codex", "context-sweep", "grok-build",
-    "gws-cli", "opencode", "run",
+    "chatgpt", "cli-subagents", "context-sweep", "gws-cli", "run",
     "economist-council",
 )
 SKILL_SET = set(SKILLS)
@@ -81,8 +80,8 @@ def validate_inventory() -> None:
 
     for manifest_name in (".codex-plugin/plugin.json", ".claude-plugin/plugin.json"):
         data = load_json(ROOT / manifest_name)
-        if data.get("version") != "2.1.0":
-            fail(f"{manifest_name} must declare version 2.1.0")
+        if data.get("version") != "3.0.0":
+            fail(f"{manifest_name} must declare version 3.0.0")
         if data.get("interface", {}).get("skills") != list(SKILLS):
             fail(f"{manifest_name} skill inventory or order is stale")
 
@@ -184,7 +183,7 @@ def main() -> None:
         validate_skill(skill)
     validate_links()
     validate_scrub()
-    print("Maintainer checks passed: 18 generic skills, metadata, parity, links, scrub, and distribution.")
+    print("Maintainer checks passed: 15 generic skills, metadata, parity, links, scrub, and distribution.")
 
 
 if __name__ == "__main__":

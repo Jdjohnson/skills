@@ -1,0 +1,42 @@
+{
+  "skill": "cli-subagents",
+  "parity_goal": "Route bounded CLI work through one portable skill with active and inactive provider nodes.",
+  "cases": [
+    {
+      "id": "quality-workhorse",
+      "prompt": "$cli-subagents delegate a difficult implementation where quality matters",
+      "expected": [
+        "routes to Codex Sol with medium or high effort",
+        "keeps the caller as coordinator",
+        "verifies the result"
+      ]
+    },
+    {
+      "id": "creative-judgment",
+      "prompt": "$cli-subagents ask a second model to review the design and tone",
+      "expected": [
+        "routes to Claude Fable with medium or high effort",
+        "uses a bounded prompt",
+        "keeps final judgment with the coordinator"
+      ]
+    },
+    {
+      "id": "supervised-fast-lane",
+      "prompt": "$cli-subagents use a cheap fast model to inspect screenshots",
+      "expected": [
+        "routes to Gemini",
+        "uses a concrete current model ID",
+        "requires Claude or Codex oversight for consequential output"
+      ]
+    },
+    {
+      "id": "inactive-provider",
+      "prompt": "$cli-subagents use Cursor for this task",
+      "expected": [
+        "notes that Cursor is inactive",
+        "requires explicit selection",
+        "calls cursor-agent rather than agent"
+      ]
+    }
+  ]
+}
