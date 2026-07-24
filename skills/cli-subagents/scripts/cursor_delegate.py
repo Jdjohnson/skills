@@ -97,6 +97,7 @@ def build_argv(args: argparse.Namespace, prompt: str, *, probe: bool = False) ->
         "json",
         "--workspace",
         args.cwd,
+        "--trust",
         "--sandbox",
         "enabled",
     ]
@@ -138,7 +139,13 @@ def do_probe(args: argparse.Namespace) -> int:
             "ok": result.returncode == 0 and exact,
             "status": "ready" if result.returncode == 0 and exact else "blocked",
             "failure_kind": None if exact else classify_failure(result.returncode, result.stdout, result.stderr) or "unexpected_response",
-            "result": {"returncode": result.returncode, "response_text": response},
+            "result": {
+                "returncode": result.returncode,
+                "response_text": response,
+                "stdout": result.stdout,
+                "stderr": result.stderr,
+                "json": parsed,
+            },
         }
     )
     json_print(payload)
