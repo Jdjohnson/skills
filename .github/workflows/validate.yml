@@ -1,0 +1,35 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate inventory and metadata
+        run: python3 .maintainer/check_parity.py
+      - name: Run skill unit tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r test_file; do
+            python3 "$test_file"
+          done < <(find skills -path '*/tests/test_*.py' -type f | sort)
+      - name: Run ChatGPT packet tests
+        run: python3 .maintainer/chatgpt/test_build_desktop_packet.py
+      - name: Run workflow regressions
+        shell: bash
+        run: |
+          bash .maintainer/run/run-regression.sh
+          bash .maintainer/run/install-regression.sh
