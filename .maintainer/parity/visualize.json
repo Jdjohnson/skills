@@ -1,0 +1,50 @@
+{
+  "skill": "visualize",
+  "parity_goal": "Preserve explicit-only invocation, no-diagram routing, native FigJam fallback, and proof-before-handoff without private assumptions.",
+  "cases": [
+    {
+      "id": "simple-process",
+      "prompt": "$visualize Turn these five process steps and one approval decision into a clear FigJam diagram.",
+      "expected": [
+        "chooses the simplest spatial form and one reading direction",
+        "uses a compact manifest before drawing",
+        "completes semantic, structural, visual, and compression review before handoff"
+      ]
+    },
+    {
+      "id": "no-diagram",
+      "prompt": "$visualize Compare these exact balances, costs, and totals so I can check the math.",
+      "expected": [
+        "returns a table because position adds no meaning",
+        "does not ask for a Figma plan or destination",
+        "makes no FigJam mutation"
+      ]
+    },
+    {
+      "id": "existing-board",
+      "prompt": "$visualize Add this approved flow as one new section in the supplied FigJam board.",
+      "expected": [
+        "inspects and matches the board's visual language",
+        "returns every changed node ID and proves existing geometry stayed unchanged",
+        "verifies final readback and screenshots before handoff"
+      ]
+    },
+    {
+      "id": "widget-resource-fallback",
+      "prompt": "$visualize Create the flow even though the FigJam inline widget resource is unavailable.",
+      "expected": [
+        "uses native use_figma rather than retrying the broken widget",
+        "resolves a plan and creates one FigJam file when no board exists",
+        "verifies with get_figjam and returns a plain Markdown link"
+      ]
+    },
+    {
+      "id": "implicit-near-miss",
+      "prompt": "Explain the difference between a customer journey and a service blueprint.",
+      "expected": [
+        "answers normally without invoking visualize",
+        "does not create a FigJam file"
+      ]
+    }
+  ]
+}

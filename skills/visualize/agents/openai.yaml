@@ -1,0 +1,6 @@
+interface:
+  display_name: "Visualize"
+  short_description: "Turn settled concepts into reviewed FigJam diagrams"
+  default_prompt: "Use $visualize to turn this work into the clearest useful FigJam diagram and complete QA before showing it to me."
+policy:
+  allow_implicit_invocation: false

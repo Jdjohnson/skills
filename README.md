@@ -1,6 +1,6 @@
 # Generic AI Skills
 
-A public bank of 15 reusable skills for thinking, planning, writing, meetings, research, and agent tooling. Published skills avoid private workspace assumptions, personal voice profiles, client context, and organization-specific routing.
+A public bank of 16 reusable skills for thinking, planning, writing, meetings, research, and agent tooling. Published skills avoid private workspace assumptions, personal voice profiles, client context, and organization-specific routing.
 
 ## Install
 
@@ -29,6 +29,7 @@ Version 3 consolidates the former `claude-code`, `codex`, `grok-build`, and `ope
 | [brief](./skills/brief/SKILL.md) | Creating concise briefs from pasted text, files, URLs, or topics |
 | [decision-walkthrough](./skills/decision-walkthrough/SKILL.md) | Walking supplied material one decision at a time with a running log |
 | [plan](./skills/plan/SKILL.md) | Co-creating day, week, or month plans through lightweight approval phases |
+| [visualize](./skills/visualize/SKILL.md) | Turning settled concepts into sparse, editable FigJam diagrams with QA |
 | [steelman](./skills/steelman/SKILL.md) | Pressure-testing and strengthening an idea, argument, or decision |
 | [stuck](./skills/stuck/SKILL.md) | Diagnosing a block and choosing a practical starting move |
 
