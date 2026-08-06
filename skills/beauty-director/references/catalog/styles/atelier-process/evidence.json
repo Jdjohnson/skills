@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "atelier-process",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Couture toiles as three-dimensional working sketches",
+    "creatorOrTradition": "Haute couture ateliers and dressmaking practice",
+    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2016/manus-x-machina/exhibition-galleries",
+    "whyCanonical": "The Met explains how inexpensive muslin toiles enable draping, tailoring, experimentation, fit refinement, and the translation of a design idea into material form."
+  },
+  "sources": [
+    {
+      "title": "Manus x Machina exhibition galleries: Toiles",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2016/manus-x-machina/exhibition-galleries",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Toiles are preliminary three-dimensional sketches used for draping, tailoring, experimentation, and refinements in fit.",
+        "Atelier flou and atelier tailleur practices support showing both dress-form work and flat-pattern development."
+      ]
+    },
+    {
+      "title": "I Do: Yohji Yamamoto wedding dress",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://blog.metmuseum.org/blogmode/2008/03/12/i-do/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Visible grain lines, tucks, darts, stitches, and dressmaker's marks make the draping process legible.",
+        "Provisional muslin can communicate the energy of a sketch while retaining careful atelier finish."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches illustrated, atelier signal, craft signal, fabric, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/atelier-process/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/atelier-process/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches illustrated, atelier signal, craft signal, fabric, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

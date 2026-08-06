@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "concrete-poetry",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Dieter Roth's concrete poetry and ideograms",
+    "creatorOrTradition": "Dieter Roth and the postwar Concrete Poetry movement",
+    "sourceUrl": "https://www.moma.org/interactives/exhibitions/2013/dieter_roth/category_works/concrete/",
+    "whyCanonical": "MoMA describes concrete poetry as language whose placement receives the same attention as meaning and sound, with letters becoming abstract compositional material."
+  },
+  "sources": [
+    {
+      "title": "Dieter Roth: The Concrete",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/interactives/exhibitions/2013/dieter_roth/category_works/concrete/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Concrete poetry gives spatial presentation equal weight with language, sound, and syncopation.",
+        "Roth's ideograms support treating language parts as visual elements arranged for compositional value."
+      ]
+    },
+    {
+      "title": "A throw of the dice",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/interactives/exhibitions/2012/new_to_the_print_collection/works/un-coup-jamais/index.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Mallarme's spatial typography demonstrates how line placement, type size, and spread structure can carry meaning.",
+        "Broodthaers's transformation of text into black bars supports the guide's distinction between language and image."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach letterform as image, typographic, poetry signal, abstract form while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/concrete-poetry/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/concrete-poetry/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach letterform as image, typographic, poetry signal, abstract form while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

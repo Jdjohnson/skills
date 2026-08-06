@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "crt-terminal",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI built-in imagegen",
+  "promptRecordStatus": "exact",
+  "prompt": "Create an original late-1980s to early-1990s computer terminal workstation in a dark room: amber and green monospaced command-line text on a curved CRT, beige mechanical keyboard, coiled cables, desk notes, subtle phosphor glow, authentic utilitarian interface. Cinematic but grounded, recognizable hacker-terminal atmosphere. No Matrix-style falling code, no brand logos, no readable credentials, no malware instructions, and no watermark.",
+  "sourceOutputStatus": "original_tool_response_not_retained",
+  "finalAsset": "assets/refs/crt-terminal/generated-01.jpg",
+  "finalSha256": "3811f00d3c7a9751b8311ae75d27ab9903f9d639259db1e0f77b3cb9ea872f65",
+  "postProcessing": "AI-generated source image center-cropped to a 4:5 portrait and resized to 800x1000 pixels; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "pattern-playground",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of a modular continuous pattern field.\nUse case: brand-system\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original seamless all-over pattern built from one coherent kit of arches, dots, stepped lines, leaves, and half-circles, repeated continuously across the entire field with controlled scale and color variation and one rule-based phase change where motifs rotate and invert without breaking the repeat.\nStyle/medium: screen-printed textile or wrapping-paper specimen photographed flat\nComposition/framing: portrait 4:5, one uninterrupted repeated field fills the frame edge to edge; a diagonal phase-change band remains part of the same system rather than a separate swatch, clear at thumbnail scale\nLighting/mood: inventive, systematic, joyful\nColor palette: cobalt, coral, leaf green, butter yellow, black, cream\nMaterials/textures: flat screen-print ink, slight misregistration, uncoated paper fibers\nText: no text\nConstraints: original module kit and seamless pattern, no grid of samples, no textile brand, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "c7dced34b6f165d8432ff2e951ff9b1277bd4947dff601fb833fa9ffc85f952a",
+  "finalAsset": "assets/refs/pattern-playground/generated-lead.jpg",
+  "finalSha256": "cf8c81389b5c62bbb42a8e9c78454e9418f64932a58711a4889d3ee7a6ee1569",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

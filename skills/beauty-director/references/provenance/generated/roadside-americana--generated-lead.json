@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "roadside-americana",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of postwar roadside Americana.\nUse case: photorealistic-natural\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original dusk photograph of a fictional roadside motel and diner sign cluster with boomerang geometry, painted arrows, neon tubing, low-slung canopy, and sun-faded desert color.\nStyle/medium: documentary architectural photography\nComposition/framing: portrait 4:5, one tall sign as lead with low motel context, strong silhouette at thumbnail scale\nLighting/mood: blue-hour sky, warm neon glow, nostalgic but unsentimental\nColor palette: turquoise, coral, cream, red neon, dusty blue\nMaterials/textures: painted steel, weathered stucco, neon glass, asphalt\nText: abstract letter-like shapes and numerals only\nConstraints: fictional unbranded place, no existing landmark, no real business name, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "ef5c4dab42212df0e8eb0dfaa3595cce563205dfab5b12ab62c0424165342af1",
+  "finalAsset": "assets/refs/roadside-americana/generated-lead.jpg",
+  "finalSha256": "cd860da2884b9aecb6a95984a3a0ba636a3a2cfcaab4d758cc2d600ae0b2fcf9",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

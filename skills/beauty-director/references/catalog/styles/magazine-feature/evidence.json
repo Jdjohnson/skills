@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "magazine-feature",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Museum and culture magazine feature spreads",
+    "creatorOrTradition": "Magazine editors, art directors, photographers, and writers",
+    "sourceUrl": "https://www.metmuseum.org/ja/perspectives/library-hanatsubaki-magazine",
+    "whyCanonical": "The Met's discussion of Hanatsubaki documents a sustained magazine identity in which photography, illustration, fashion, typography, and changing editorial direction combine across issues and spreads."
+  },
+  "sources": [
+    {
+      "title": "Library: Hanatsubaki Magazine",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/ja/perspectives/library-hanatsubaki-magazine",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The publication history shows magazine art direction as an evolving relationship among imagery, typography, culture, and editorial purpose.",
+        "The reproduced issues and spreads support strong openers within a continuous publication identity."
+      ]
+    },
+    {
+      "title": "Design Journal, Spring/Summer 2017",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/wp-content/uploads/2018/01/6_DesignJournal_SS2017_FINAL.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The journal provides complete institutional feature layouts combining headlines, essays, photographs, captions, and page-to-page pacing.",
+        "Its spread sequence demonstrates that a feature system must work after the opener, not only on one dramatic page."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches feature opener, headline deck, pull quote, image text pacing, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/magazine-feature/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/magazine-feature/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches feature opener, headline deck, pull quote, image text pacing, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

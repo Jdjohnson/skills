@@ -1,0 +1,57 @@
+{
+  "id": "monumental",
+  "group": "scale",
+  "definition": "Push forms toward monumental scale.",
+  "targetConcerns": [
+    "composition",
+    "imagery"
+  ],
+  "compatibleStyles": [
+    "brutalism",
+    "billboard-bold",
+    "empire-style",
+    "stage-spotlight"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "miniature"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "composition",
+          "path": "density",
+          "factor": 0.85
+        },
+        {
+          "op": "addParam",
+          "concern": "imagery",
+          "path": "abstraction",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

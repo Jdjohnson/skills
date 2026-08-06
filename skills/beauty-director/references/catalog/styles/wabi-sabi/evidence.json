@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "styleId": "wabi-sabi",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Wabi tea spaces and handmade tea ceramics shaped by simplicity, irregularity, and age",
+    "creatorOrTradition": "Japanese wabi and sabi aesthetic traditions",
+    "sourceUrl": "https://www.japanhouselondon.uk/read-and-watch/wabi-sabi-and-japanese-craft-nature-or-nurture/",
+    "whyCanonical": "Japan House distinguishes wabi's simplicity and imperfection from sabi's dignity through the passage of time, locating both in Japanese craft instead of generic distressed styling."
+  },
+  "sources": [
+    {
+      "title": "Wabi-sabi and Japanese craft: nature or nurture?",
+      "publisher": "Japan House London",
+      "url": "https://www.japanhouselondon.uk/read-and-watch/wabi-sabi-and-japanese-craft-nature-or-nurture/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Wabi relates to beauty in simplicity and imperfection, while sabi concerns the quiet dignity that develops through time.",
+        "Irregularity, simplicity, fragility, and restrained feeling are more accurate guides than a generic distressed-material look."
+      ]
+    },
+    {
+      "title": "Imperfectly Beautiful: Inventing Japanese Ceramic Style",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "url": "https://asia.si.edu/whats-on/exhibitions/imperfectly-beautiful-inventing-japanese-ceramic-style/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Late-sixteenth-century chanoyu participants valued handmade individuality over standardized symmetry in selected tea ceramics.",
+        "Touch, the potter's hand, and kiln effects helped the object communicate through material experience rather than surface decoration alone."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches asymmetry, patina, raw form, muted chroma, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/wabi-sabi/reference-02.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": {
+    "note": "Keep the Japanese intellectual and craft context visible. Use documented qualities of simplicity, irregularity, time, material care, and chanoyu rather than applying Japanese symbols, faux calligraphy, or generic Zen branding as decorative shorthand.",
+    "citations": [
+      "https://www.japanhouselondon.uk/read-and-watch/wabi-sabi-and-japanese-craft-nature-or-nurture/",
+      "https://asia.si.edu/whats-on/exhibitions/imperfectly-beautiful-inventing-japanese-ceramic-style/"
+    ]
+  },
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/wabi-sabi/reference-02.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches asymmetry, patina, raw form, muted chroma, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

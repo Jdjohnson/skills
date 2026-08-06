@@ -1,0 +1,165 @@
+{
+  "id": "wabi-sabi",
+  "displayName": "Wabi-Sabi",
+  "family": "organic-craft",
+  "definition": "Quiet composition centers natural material, asymmetry, weathering, repair, restraint, and impermanence, interpreted with Japanese cultural context rather than generic distressed styling.",
+  "axes": {
+    "minimalOrnate": -0.7,
+    "geometricOrganic": 0.6,
+    "polishedRaw": 0.5,
+    "calmEnergetic": -0.7,
+    "historicalFuturistic": -0.5,
+    "realisticAbstract": -0.3,
+    "warmCool": -0.4,
+    "lightDark": -0.6,
+    "playfulSerious": 0.4,
+    "handmadeMachined": -0.8,
+    "flatDeep": -0.6,
+    "everydayLuxurious": -0.5
+  },
+  "cues": [
+    "asymmetry",
+    "patina",
+    "raw-form",
+    "muted-chroma",
+    "meditative-pace"
+  ],
+  "antiCues": [
+    "chrome",
+    "neon",
+    "machine-precise",
+    "vivid-chroma"
+  ],
+  "emotionalEffects": [
+    "serene",
+    "humble",
+    "intimate"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "freeform",
+      "density": 0.32,
+      "symmetry": 0.2,
+      "margins": 0.45
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#D2CBBE",
+        "#5A6E7A",
+        "#8B6914",
+        "#EFE8DC",
+        "#2A2A28"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/wabi-sabi.svg",
+      "descriptor": "quiet serif or hand-informed mincho rhythm",
+      "weight": 400,
+      "tracking": 0.03
+    },
+    "shapeLine": {
+      "cornerRadius": 0.35,
+      "lineWeight": 0.35,
+      "curveTension": 0.55
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/organic-craft-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.65,
+      "tags": [
+        "clay",
+        "linen",
+        "paper"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.35,
+      "keyDirection": "side",
+      "gradient": 0.35
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.45,
+      "parallax": 0.08
+    },
+    "motion": {
+      "energy": 0.1,
+      "descriptor": "meditative"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.15,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 3,
+    "photography": 3,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 3,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a quiet Japanese material arrangement shaped by asymmetry, use, and the passage of time",
+    "framing": "Contextual tea-space or spare interior view with one handmade object, weathered timber, unbleached textile, and broad negative space; low side light reveals patina without glamorizing damage.",
+    "mustShow": [
+      "asymmetry",
+      "patina",
+      "raw-form",
+      "meditative-pace"
+    ],
+    "mustAvoid": [
+      "chrome",
+      "neon",
+      "generic distressed decor",
+      "isolated bowl product shot",
+      "decorative Japanese stereotypes",
+      "watermark",
+      "brand-logos"
+    ]
+  },
+  "culturalOrigin": "Japan",
+  "traditionalOrLivingPractice": true,
+  "requiresCulturalReview": true,
+  "culturalContext": {
+    "summary": "Japanese aesthetic of impermanence and incompleteness",
+    "antiCaricature": "Treat motifs as living or historically specific visual languages, not costume kitsch. Prefer structural grammar (line, rhythm, material) over stereotyped subjects. Avoid sacred symbol misuse.",
+    "guidance": "When applying this node, preserve source grammar and cite traditions. Prefer consultation with authoritative museum/catalog sources over pop caricature."
+  },
+  "related": [
+    "natural-textile",
+    "studio-pottery",
+    "botanical-watercolor"
+  ],
+  "contrasting": [
+    "modular-poster",
+    "neon-night-ui",
+    "flat-design-ui"
+  ]
+}

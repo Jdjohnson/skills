@@ -1,0 +1,158 @@
+{
+  "id": "neo-grotesk-editorial",
+  "displayName": "Neo-Grotesk Editorial",
+  "family": "modernist-grid",
+  "definition": "Neutral neo-grotesk typography, measured hierarchy, generous leading, sober image-text pacing, and restrained grayscale editorial systems.",
+  "axes": {
+    "minimalOrnate": -0.7,
+    "geometricOrganic": -0.6,
+    "polishedRaw": -0.5,
+    "calmEnergetic": -0.3,
+    "historicalFuturistic": -0.5,
+    "realisticAbstract": -0.1,
+    "warmCool": -0.1,
+    "lightDark": -0.4,
+    "playfulSerious": 0.7,
+    "handmadeMachined": 0.4,
+    "flatDeep": -0.5,
+    "everydayLuxurious": 0.3
+  },
+  "cues": [
+    "neo-grotesk",
+    "measured-hierarchy",
+    "flush-left",
+    "editorial-pace",
+    "grayscale"
+  ],
+  "antiCues": [
+    "novelty-display",
+    "collage",
+    "ornament",
+    "loud-chroma"
+  ],
+  "emotionalEffects": [
+    "scholarly",
+    "austere",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.4,
+      "symmetry": 0.25,
+      "margins": 0.5
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FFFFFF",
+        "#111111",
+        "#9900E1",
+        "#6E6E6E",
+        "#F0F0F0"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/helvetica-editorial.svg",
+      "descriptor": "neutral grotesk editorial hierarchy",
+      "weight": 400,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0,
+      "lineWeight": 0.3,
+      "curveTension": 0
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/modernist-grid-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.08,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "side",
+      "gradient": 0.2
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.25,
+      "parallax": 0.05
+    },
+    "motion": {
+      "energy": 0.15,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.02,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "photographic",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.15
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 3,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "a sober culture-magazine spread pairing one documentary portrait with an essay column",
+    "framing": "Flush-left neo-grotesk hierarchy, measured leading, grayscale image block, concise caption, and generous outer margin.",
+    "mustShow": [
+      "neo-grotesk",
+      "measured-hierarchy",
+      "editorial-pace"
+    ],
+    "mustAvoid": [
+      "novelty-display",
+      "loud-chroma",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "international-typographic-style",
+    "corporate-modernism",
+    "magazine-feature"
+  ],
+  "contrasting": [
+    "y2k-cyber",
+    "memphis-design",
+    "festival-banner"
+  ]
+}

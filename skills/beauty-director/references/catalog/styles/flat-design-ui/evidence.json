@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "flat-design-ui",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Early Material Design interface system",
+    "creatorOrTradition": "Google Material Design team",
+    "sourceUrl": "https://design.google/library/material-design-launch-2014",
+    "whyCanonical": "The system joined bold graphic clarity, simple surfaces, iconography, components, and cross-platform rules at the shift away from skeuomorphic interfaces."
+  },
+  "sources": [
+    {
+      "title": "Google's Material Design: A Look Back at Its Beginning",
+      "publisher": "Google Design",
+      "url": "https://design.google/library/material-design-launch-2014",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Material Design developed a shared visual language across desktop and mobile.",
+        "The system used simple shapes, iconography, controlled shadow, and rules for surfaces and motion."
+      ]
+    },
+    {
+      "title": "Material Design: Secrets & Stories Behind Google's UI",
+      "publisher": "Google Design",
+      "url": "https://design.google/m10",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Material Design began with a bold minimalist aesthetic and reusable open-source system.",
+        "Its component and UX guidance demonstrates that flat interface design is a system, not a set of isolated tiles."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches flat color, icon system, component hierarchy, minimal depth, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/flat-design-ui/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/flat-design-ui/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches flat color, icon system, component hierarchy, minimal depth, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

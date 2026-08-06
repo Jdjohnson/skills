@@ -1,0 +1,55 @@
+{
+  "id": "silhouette-hard",
+  "group": "contrast",
+  "definition": "Hard silhouette edges against ground.",
+  "targetConcerns": [
+    "shapeLine",
+    "lighting"
+  ],
+  "compatibleStyles": [
+    "graphic-black-and-white",
+    "rococo-salon"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "soft-blur-finish"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "shapeLine",
+          "path": "lineWeight",
+          "factor": 0.85
+        },
+        {
+          "op": "addParam",
+          "concern": "lighting",
+          "path": "contrast",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

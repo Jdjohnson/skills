@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "culture-review",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "The Dial and modernist culture-journal traditions",
+    "creatorOrTradition": "Editors, critics, writers, artists, and little-magazine publishers",
+    "sourceUrl": "https://mssp.byu.edu/journal/the-dial/index.html",
+    "whyCanonical": "The Dial archive establishes the culture review as an edited meeting of criticism, literature, visual art, reviews, and recurring issue identity rather than an undifferentiated long-form blog."
+  },
+  "sources": [
+    {
+      "title": "The Dial",
+      "publisher": "Brigham Young University Modernist Short Story Project",
+      "url": "https://mssp.byu.edu/journal/the-dial/index.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The journal archive documents an issue-based cultural publication carrying criticism, literature, and visual material.",
+        "Its contents support differentiated departments held together by masthead and editorial identity."
+      ]
+    },
+    {
+      "title": "Modernist Journals Project",
+      "publisher": "Brown University Library",
+      "url": "https://cds.lib.brown.edu/cds-project/modernist-journals-project",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The project preserves periodical networks in which criticism, art, politics, reviews, and experimental writing circulated together.",
+        "The collection provides comparative evidence for issue rhythm and editorial identity beyond a single title."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches criticism, essay review mix, section identity, art text dialogue, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/culture-review/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/culture-review/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches criticism, essay review mix, section identity, art text dialogue, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

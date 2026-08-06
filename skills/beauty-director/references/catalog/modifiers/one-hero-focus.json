@@ -1,0 +1,55 @@
+{
+  "id": "one-hero-focus",
+  "group": "density",
+  "definition": "Collapse to a single focal object with quiet ground.",
+  "targetConcerns": [
+    "composition",
+    "imagery"
+  ],
+  "compatibleStyles": [
+    "magazine-feature",
+    "modular-poster"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "multi-panel"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "composition",
+          "path": "density",
+          "factor": 0.85
+        },
+        {
+          "op": "addParam",
+          "concern": "imagery",
+          "path": "abstraction",
+          "amount": -0.15
+        }
+      ]
+    }
+  }
+}

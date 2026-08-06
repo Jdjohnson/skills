@@ -1,0 +1,160 @@
+{
+  "id": "studio-pottery",
+  "displayName": "Studio Pottery",
+  "family": "organic-craft",
+  "definition": "Wheel-thrown or hand-built vessel silhouettes, glaze depth, kiln variation, tactile clay, and small-batch process create a grounded ceramic presence.",
+  "axes": {
+    "minimalOrnate": -0.1,
+    "geometricOrganic": 0.8,
+    "polishedRaw": 0.6,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": -0.3,
+    "realisticAbstract": -0.5,
+    "warmCool": -0.3,
+    "lightDark": -0.2,
+    "playfulSerious": 0.1,
+    "handmadeMachined": -0.7,
+    "flatDeep": 0.2,
+    "everydayLuxurious": 0.2
+  },
+  "cues": [
+    "ceramic",
+    "craft-signal",
+    "sculptural",
+    "earth-chroma",
+    "atelier-signal"
+  ],
+  "antiCues": [
+    "chrome",
+    "plastic",
+    "screen-pixel",
+    "machine-precise"
+  ],
+  "emotionalEffects": [
+    "intimate",
+    "humble",
+    "warm-hearted"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "freeform",
+      "density": 0.4,
+      "symmetry": 0.25,
+      "margins": 0.35
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#E6D5B8",
+        "#5A2E1E",
+        "#2A4A5A",
+        "#C4A070",
+        "#14100E"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/studio-pottery.svg",
+      "descriptor": " understated serif for studio labels",
+      "weight": 400,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.5,
+      "lineWeight": 0.4,
+      "curveTension": 0.6
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/organic-craft-primary"
+      ],
+      "finish": "glaze",
+      "grain": 0.4,
+      "tags": [
+        "ceramic",
+        "clay",
+        "dust"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.48,
+      "keyDirection": "side",
+      "gradient": 0.32
+    },
+    "depth": {
+      "layers": 3,
+      "shadowSoftness": 0.4,
+      "parallax": 0.15
+    },
+    "motion": {
+      "energy": 0.15,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.12,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "photographic",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.3
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 3,
+    "photography": 3,
+    "motion-video": 1,
+    "product-3d": 3,
+    "interiors-architecture": 2,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "an authored ceramic vessel family with visible studio process and kiln-shaped surface",
+    "framing": "Three-quarter view of one unmistakable lead vessel with a smaller contrasting form, glaze tests, and part of the wheel or kiln shelf in context; raking side light reveals rim, foot, throwing or building marks, and glaze depth.",
+    "mustShow": [
+      "ceramic",
+      "craft-signal",
+      "sculptural"
+    ],
+    "mustAvoid": [
+      "chrome",
+      "plastic",
+      "factory-identical tableware",
+      "generic boho styling",
+      "isolated cracked bowl",
+      "watermark",
+      "brand-logos"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "wabi-sabi",
+    "shaker-utility",
+    "arts-and-crafts"
+  ],
+  "contrasting": [
+    "flat-design-ui",
+    "operational-dashboard",
+    "neon-night-ui"
+  ]
+}

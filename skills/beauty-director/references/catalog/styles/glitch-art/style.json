@@ -1,0 +1,164 @@
+{
+  "id": "glitch-art",
+  "displayName": "Glitch Art",
+  "family": "digital-native",
+  "definition": "Intentional signal failure becomes composition through channel offsets, scan lines, datamoshing, compression blocks, tearing, and broken color information.",
+  "axes": {
+    "minimalOrnate": -0.1,
+    "geometricOrganic": -0.5,
+    "polishedRaw": 0.6,
+    "calmEnergetic": 0.7,
+    "historicalFuturistic": 0.5,
+    "realisticAbstract": 0.7,
+    "warmCool": 0.4,
+    "lightDark": 0.4,
+    "playfulSerious": -0.1,
+    "handmadeMachined": 0.7,
+    "flatDeep": -0.1,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "digital-signal",
+    "screen-scale",
+    "raw-form",
+    "kinetic",
+    "planar",
+    "vivid-chroma",
+    "abstract-form",
+    "hard-edge",
+    "neon-chroma",
+    "rebellious"
+  ],
+  "antiCues": [
+    "minimal",
+    "paper",
+    "meditative-pace"
+  ],
+  "emotionalEffects": [
+    "rebellious",
+    "energized",
+    "mysterious"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.6,
+      "symmetry": 0.2,
+      "margins": 0.05
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FF0040",
+        "#00E5FF",
+        "#FFE600",
+        "#1A0A2E",
+        "#808080"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/glitch-corrupt.svg",
+      "descriptor": "distorted sans with channel-shift artifacts",
+      "weight": 700,
+      "tracking": 0.05
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/digital-native-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.7,
+      "tags": [
+        "screen-pixel",
+        "plastic"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.5,
+      "keyDirection": "front",
+      "gradient": 0.3
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.9,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "abstracted",
+      "subjectRules": [
+        "signal-failure-as-composition",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.8
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 3,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "an original raster image reorganized by intentional signal failure",
+    "framing": "recognizable movement-level approximation; one dominant artifact process using channel offset, scan displacement, compression blocks, or datamoshing",
+    "mustShow": [
+      "digital-signal",
+      "raw-form",
+      "kinetic"
+    ],
+    "mustAvoid": [
+      "minimal",
+      "paper",
+      "meditative-pace",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "vaporwave",
+    "y2k-cyber",
+    "crt-terminal"
+  ],
+  "contrasting": [
+    "literary-journal",
+    "type-specimen-book",
+    "culture-review"
+  ]
+}

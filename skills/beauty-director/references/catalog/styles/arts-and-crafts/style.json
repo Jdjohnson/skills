@@ -1,0 +1,161 @@
+{
+  "id": "arts-and-crafts",
+  "displayName": "Arts and Crafts",
+  "family": "organic-craft",
+  "definition": "Honest materials, visible making, botanical pattern, purposeful joinery, and integrated craft shape objects, interiors, and printed surfaces.",
+  "axes": {
+    "minimalOrnate": 0.1,
+    "geometricOrganic": 0.5,
+    "polishedRaw": 0.4,
+    "calmEnergetic": -0.6,
+    "historicalFuturistic": -0.6,
+    "realisticAbstract": -0.4,
+    "warmCool": -0.5,
+    "lightDark": -0.6,
+    "playfulSerious": 0.3,
+    "handmadeMachined": -0.7,
+    "flatDeep": -0.5,
+    "everydayLuxurious": -0.3
+  },
+  "cues": [
+    "craft-signal",
+    "organic",
+    "wood",
+    "earth-chroma",
+    "heritage-signal"
+  ],
+  "antiCues": [
+    "chrome",
+    "neon",
+    "plastic",
+    "machine-precise"
+  ],
+  "emotionalEffects": [
+    "warm-hearted",
+    "humble",
+    "timeless"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.48,
+      "symmetry": 0.35,
+      "margins": 0.28
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#6B8F71",
+        "#81C44A",
+        "#7A3D65",
+        "#E6F5EE",
+        "#148B7F"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/arts-and-crafts.svg",
+      "descriptor": "humanist serif with craft warmth",
+      "weight": 500,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.25,
+      "lineWeight": 0.45,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/organic-craft-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.55,
+      "tags": [
+        "wood",
+        "paper",
+        "linen"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.42,
+      "keyDirection": "side",
+      "gradient": 0.28
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.12
+    },
+    "motion": {
+      "energy": 0.2,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.35,
+      "tags": [
+        "organic"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.25
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 3,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 3,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "an integrated craft interior joining botanical pattern, honest wood, and useful objects",
+    "framing": "Wide three-quarter room view with block-printed botanical wall or textile, an oak chair or cabinet showing joinery, and a private-press page or tile as a secondary detail; gentle side light reveals grain and handwork.",
+    "mustShow": [
+      "craft-signal",
+      "organic",
+      "wood",
+      "heritage-signal"
+    ],
+    "mustAvoid": [
+      "chrome",
+      "neon",
+      "plastic",
+      "generic cottagecore styling",
+      "isolated floral wallpaper crop",
+      "watermark",
+      "brand-logos"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "wabi-sabi",
+    "letterpress-print",
+    "garden-sketchbook"
+  ],
+  "contrasting": [
+    "flat-design-ui",
+    "y2k-cyber",
+    "brutalism"
+  ]
+}

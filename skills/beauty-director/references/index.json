@@ -1,0 +1,4277 @@
+{
+  "version": 2,
+  "styles": [
+    {
+      "id": "international-typographic-style",
+      "displayName": "International Typographic Style",
+      "family": "modernist-grid",
+      "oneLiner": "Asymmetric modular grids, flush-left ragged-right sans typography, objective photography, disciplined scale, and active white space.",
+      "cues": [
+        "grid",
+        "flush-left",
+        "asymmetric",
+        "objective-photography",
+        "active-white-space"
+      ],
+      "antiCues": [
+        "ornate",
+        "centered-type",
+        "script-type",
+        "collage"
+      ],
+      "aliasPhrases": [
+        "Swiss International",
+        "swiss style"
+      ],
+      "paletteHexes": [
+        "#E30613",
+        "#000000",
+        "#FFFFFF",
+        "#F2F2F2",
+        "#1A4D8C"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/international-typographic-style/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "bauhaus-workshop",
+      "displayName": "Bauhaus Workshop",
+      "family": "modernist-grid",
+      "oneLiner": "Elemental geometry, asymmetric construction, functional lettering, material experiment, and workshop integration of art, craft, and production.",
+      "cues": [
+        "elemental-geometry",
+        "asymmetric",
+        "functional-type",
+        "workshop-material",
+        "primary-accent"
+      ],
+      "antiCues": [
+        "ornate",
+        "historicist",
+        "photorealistic",
+        "decorative-symmetry"
+      ],
+      "aliasPhrases": [
+        "Bauhaus Construct",
+        "bauhaus vibes"
+      ],
+      "paletteHexes": [
+        "#E63946",
+        "#1D3557",
+        "#F4A261",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/bauhaus-workshop/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "flat-design-ui",
+      "displayName": "Flat Design UI",
+      "family": "modernist-grid",
+      "oneLiner": "Post-skeuomorphic interfaces built from flat color planes, simple icons, clear component hierarchy, restrained rounding, and little or no simulated depth.",
+      "cues": [
+        "flat-color",
+        "icon-system",
+        "component-hierarchy",
+        "minimal-depth",
+        "screen-native"
+      ],
+      "antiCues": [
+        "ornate",
+        "glass-blur",
+        "photorealism",
+        "surface-texture"
+      ],
+      "aliasPhrases": [],
+      "paletteHexes": [
+        "#2563EB",
+        "#10B981",
+        "#F59E0B",
+        "#F8FAFC",
+        "#1E293B"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/flat-design-ui/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "isotype-statistical-graphics",
+      "displayName": "Isotype Statistical Graphics",
+      "family": "modernist-grid",
+      "oneLiner": "Repeated standardized pictograms encode quantities through count, comparison, grouping, and consistent scale rather than perspective or pictorial illustration.",
+      "cues": [
+        "repeated-pictograms",
+        "quantitative",
+        "consistent-scale",
+        "comparison",
+        "schematic"
+      ],
+      "antiCues": [
+        "wayfinding",
+        "isometric",
+        "photographic",
+        "decorative"
+      ],
+      "aliasPhrases": [
+        "isotype charts"
+      ],
+      "paletteHexes": [
+        "#0077B6",
+        "#E63946",
+        "#F4A261",
+        "#CAF0F8",
+        "#03045E"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/isotype-statistical-graphics/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "neo-grotesk-editorial",
+      "displayName": "Neo-Grotesk Editorial",
+      "family": "modernist-grid",
+      "oneLiner": "Neutral neo-grotesk typography, measured hierarchy, generous leading, sober image-text pacing, and restrained grayscale editorial systems.",
+      "cues": [
+        "neo-grotesk",
+        "measured-hierarchy",
+        "flush-left",
+        "editorial-pace",
+        "grayscale"
+      ],
+      "antiCues": [
+        "novelty-display",
+        "collage",
+        "ornament",
+        "loud-chroma"
+      ],
+      "aliasPhrases": [
+        "grown-up but not boring"
+      ],
+      "paletteHexes": [
+        "#FFFFFF",
+        "#111111",
+        "#9900E1",
+        "#6E6E6E",
+        "#F0F0F0"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/neo-grotesk-editorial/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "modular-poster",
+      "displayName": "Modular Poster",
+      "family": "modernist-grid",
+      "oneLiner": "A single poster surface organized by bold modules, high-contrast blocks, oversized display type, and a short public-message hierarchy.",
+      "cues": [
+        "poster-scale",
+        "modular-blocks",
+        "display-type",
+        "high-contrast",
+        "single-surface"
+      ],
+      "antiCues": [
+        "long-form",
+        "low-contrast",
+        "decorative-border",
+        "atmospheric-texture"
+      ],
+      "aliasPhrases": [
+        "modular poster"
+      ],
+      "paletteHexes": [
+        "#FF0033",
+        "#111111",
+        "#FFFF00",
+        "#FFFFFF",
+        "#0055FF"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/modular-poster/reference-01.jpg",
+        "assets/refs/modular-poster/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "swiss-phototypography",
+      "displayName": "Swiss Phototypography",
+      "family": "modernist-grid",
+      "oneLiner": "Photographs and sans-serif typography are co-structured on a strict grid, with crop, scale, and letterform operating as equal compositional units.",
+      "cues": [
+        "photo-type-integration",
+        "strict-grid",
+        "hard-crop",
+        "oversized-type",
+        "high-contrast"
+      ],
+      "antiCues": [
+        "illustrated",
+        "freeform-collage",
+        "ornament",
+        "script-type"
+      ],
+      "aliasPhrases": [],
+      "paletteHexes": [
+        "#0D0D0D",
+        "#FFFFFF",
+        "#A30000",
+        "#3E6B3A",
+        "#E4D5B5"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/swiss-phototypography/generated-01.jpg"
+      ]
+    },
+    {
+      "id": "ulm-systems-design",
+      "displayName": "Ulm Systems Design",
+      "family": "modernist-grid",
+      "oneLiner": "Rational families of product, identity, and information components use strict grids, serial logic, neutral materials, and systems thinking instead of decorative styling.",
+      "cues": [
+        "system-family",
+        "grid-defined",
+        "serial",
+        "technical-diagram",
+        "neutral-material"
+      ],
+      "antiCues": [
+        "ornate",
+        "one-off",
+        "expressionist",
+        "whimsical"
+      ],
+      "aliasPhrases": [
+        "Ulm System",
+        "ulm systems"
+      ],
+      "paletteHexes": [
+        "#2B2D42",
+        "#8D99AE",
+        "#EDF2F4",
+        "#EF233C",
+        "#D90429"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/ulm-systems-design/generated-01.jpg"
+      ]
+    },
+    {
+      "id": "civic-wayfinding",
+      "displayName": "Civic Wayfinding",
+      "family": "modernist-grid",
+      "oneLiner": "Viewing-distance typography, standardized pictograms, arrows, color coding, and environmental hierarchy route people through public space.",
+      "cues": [
+        "viewing-distance",
+        "directional",
+        "standardized-pictograms",
+        "color-coded",
+        "environmental"
+      ],
+      "antiCues": [
+        "quantitative-repetition",
+        "decoration",
+        "ambiguous-arrows",
+        "low-contrast"
+      ],
+      "aliasPhrases": [
+        "wayfinding signage"
+      ],
+      "paletteHexes": [
+        "#003049",
+        "#669BBC",
+        "#FDF0D5",
+        "#C1121F",
+        "#780000"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/civic-wayfinding/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "corporate-modernism",
+      "displayName": "Corporate Modernism",
+      "family": "modernist-grid",
+      "oneLiner": "Coherent modernist identity systems align marks, grids, typography, photography, color, and documents across an organization's touchpoints.",
+      "cues": [
+        "identity-system",
+        "cross-touchpoint",
+        "structured-type",
+        "consistent-mark",
+        "grid-photography"
+      ],
+      "antiCues": [
+        "ornate",
+        "collage",
+        "one-off-campaign",
+        "inconsistent-branding"
+      ],
+      "aliasPhrases": [
+        "modern brochure"
+      ],
+      "paletteHexes": [
+        "#0A9396",
+        "#94D2BD",
+        "#E9D8A6",
+        "#EE9B00",
+        "#005F73"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/corporate-modernism/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "arts-and-crafts",
+      "displayName": "Arts and Crafts",
+      "family": "organic-craft",
+      "oneLiner": "Honest materials, visible making, botanical pattern, purposeful joinery, and integrated craft shape objects, interiors, and printed surfaces.",
+      "cues": [
+        "craft-signal",
+        "organic",
+        "wood",
+        "earth-chroma",
+        "heritage-signal"
+      ],
+      "antiCues": [
+        "chrome",
+        "neon",
+        "plastic",
+        "machine-precise"
+      ],
+      "aliasPhrases": [
+        "Arts and Crafts"
+      ],
+      "paletteHexes": [
+        "#6B8F71",
+        "#81C44A",
+        "#7A3D65",
+        "#E6F5EE",
+        "#148B7F"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/arts-and-crafts/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "wabi-sabi",
+      "displayName": "Wabi-Sabi",
+      "family": "organic-craft",
+      "oneLiner": "Quiet composition centers natural material, asymmetry, weathering, repair, restraint, and impermanence, interpreted with Japanese cultural context rather than generic distressed styling.",
+      "cues": [
+        "asymmetry",
+        "patina",
+        "raw-form",
+        "muted-chroma",
+        "meditative-pace"
+      ],
+      "antiCues": [
+        "chrome",
+        "neon",
+        "machine-precise",
+        "vivid-chroma"
+      ],
+      "aliasPhrases": [
+        "Wabi-Sabi",
+        "wabi sabi imperfect"
+      ],
+      "paletteHexes": [
+        "#D2CBBE",
+        "#5A6E7A",
+        "#8B6914",
+        "#EFE8DC",
+        "#2A2A28"
+      ],
+      "requiresCulturalReview": true,
+      "referencePaths": [
+        "assets/refs/wabi-sabi/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "scandinavian-modern",
+      "displayName": "Scandinavian Modern",
+      "family": "organic-craft",
+      "oneLiner": "Human-scale modernism joins light wood, softened geometry, restrained color, tactile craft, and generous natural daylight in furniture and interiors.",
+      "cues": [
+        "mid-century",
+        "wood",
+        "sparse",
+        "domestic",
+        "light-defined"
+      ],
+      "antiCues": [
+        "ornate",
+        "neon",
+        "dense",
+        "baroque-era"
+      ],
+      "aliasPhrases": [
+        "Scandinavian Modern",
+        "scandinavian calm"
+      ],
+      "paletteHexes": [
+        "#F4EFE4",
+        "#2F5D50",
+        "#C45C26",
+        "#FFFFFF",
+        "#3A3A3A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/scandinavian-modern/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "studio-pottery",
+      "displayName": "Studio Pottery",
+      "family": "organic-craft",
+      "oneLiner": "Wheel-thrown or hand-built vessel silhouettes, glaze depth, kiln variation, tactile clay, and small-batch process create a grounded ceramic presence.",
+      "cues": [
+        "ceramic",
+        "craft-signal",
+        "sculptural",
+        "earth-chroma",
+        "atelier-signal"
+      ],
+      "antiCues": [
+        "chrome",
+        "plastic",
+        "screen-pixel",
+        "machine-precise"
+      ],
+      "aliasPhrases": [
+        "Studio Pottery",
+        "pottery studio"
+      ],
+      "paletteHexes": [
+        "#E6D5B8",
+        "#5A2E1E",
+        "#2A4A5A",
+        "#C4A070",
+        "#14100E"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/studio-pottery/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "letterpress-print",
+      "displayName": "Letterpress Print",
+      "family": "organic-craft",
+      "oneLiner": "Relief-printed type and image use visible impression, ink bite, limited color, press constraints, and tactile cotton or handmade stock.",
+      "cues": [
+        "letterpress-ink",
+        "paper",
+        "typographic",
+        "craft-signal",
+        "print-signal"
+      ],
+      "antiCues": [
+        "screen-pixel",
+        "neon",
+        "gradient-form",
+        "plastic"
+      ],
+      "aliasPhrases": [
+        "Letterpress Atelier",
+        "letterpress print"
+      ],
+      "paletteHexes": [
+        "#141414",
+        "#7A3B12",
+        "#1F3F3F",
+        "#FAF0E6",
+        "#6B1E2A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/letterpress-print/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "botanical-watercolor",
+      "displayName": "Botanical Watercolor",
+      "family": "organic-craft",
+      "oneLiner": "Transparent watercolor washes, soft pigment blooms, pencil contours, and observed plant structure balance fidelity with painterly atmosphere.",
+      "cues": [
+        "watercolor-wash",
+        "hand-drawn",
+        "painterly",
+        "illustrated",
+        "natural-signal"
+      ],
+      "antiCues": [
+        "neon",
+        "machine-precise",
+        "screen-pixel",
+        "chrome"
+      ],
+      "aliasPhrases": [
+        "Botanical Watercolor"
+      ],
+      "paletteHexes": [
+        "#7BA05B",
+        "#7478D4",
+        "#77995B",
+        "#FFF0FC",
+        "#3E2331"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/botanical-watercolor/reference-01.jpg",
+        "assets/refs/botanical-watercolor/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "natural-textile",
+      "displayName": "Natural Textile",
+      "family": "organic-craft",
+      "oneLiner": "Unbleached woven fibers, visible weave, selvage, soft folds, natural dyes, and domestic drape create quiet material-led compositions.",
+      "cues": [
+        "fabric",
+        "linen",
+        "raw-form",
+        "muted-chroma",
+        "domestic"
+      ],
+      "antiCues": [
+        "chrome",
+        "neon",
+        "plastic",
+        "screen-pixel"
+      ],
+      "aliasPhrases": [
+        "linen texture"
+      ],
+      "paletteHexes": [
+        "#E8D9B8",
+        "#3F6B49",
+        "#2DA052",
+        "#F4ECFB",
+        "#243847"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/natural-textile/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "artisan-bookbinding",
+      "displayName": "Artisan Bookbinding",
+      "family": "organic-craft",
+      "oneLiner": "Stitched signatures, exposed or case binding, deckled paper, cloth or leather covers, and intimate page rhythm make the book object visibly handmade.",
+      "cues": [
+        "paper",
+        "craft-signal",
+        "intimate-scale",
+        "collector-signal",
+        "heritage-signal"
+      ],
+      "antiCues": [
+        "screen-pixel",
+        "neon",
+        "kinetic",
+        "plastic"
+      ],
+      "aliasPhrases": [
+        "hand bound journal"
+      ],
+      "paletteHexes": [
+        "#3E2A1E",
+        "#00A655",
+        "#5A1F57",
+        "#D8E8F3",
+        "#206A5A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/artisan-bookbinding/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "shaker-utility",
+      "displayName": "Shaker Utility",
+      "family": "organic-craft",
+      "oneLiner": "Plain proportion, honest wood, visible joinery, repetition, and purpose-built storage express Shaker material culture without decorative excess.",
+      "cues": [
+        "utility-signal",
+        "wood",
+        "plain",
+        "symmetry",
+        "domestic"
+      ],
+      "antiCues": [
+        "ornate",
+        "chrome",
+        "neon",
+        "decorative-border"
+      ],
+      "aliasPhrases": [
+        "Shaker Utility",
+        "shaker simple"
+      ],
+      "paletteHexes": [
+        "#E4D6BC",
+        "#3A445F",
+        "#1E7A4F",
+        "#E8F4F7",
+        "#5F441E"
+      ],
+      "requiresCulturalReview": true,
+      "referencePaths": [
+        "assets/refs/shaker-utility/reference-01.jpg",
+        "assets/refs/shaker-utility/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "garden-sketchbook",
+      "displayName": "Garden Sketchbook",
+      "family": "organic-craft",
+      "oneLiner": "Multiple plein-air plant and garden studies share a page with loose pencil or wash, marginal notes, dates, crop fragments, and unfinished observational marks.",
+      "cues": [
+        "hand-drawn",
+        "illustrated",
+        "ragged",
+        "meditative-pace",
+        "watercolor-wash"
+      ],
+      "antiCues": [
+        "machine-precise",
+        "neon",
+        "commercial-form",
+        "screen-pixel"
+      ],
+      "aliasPhrases": [
+        "garden sketchbook"
+      ],
+      "paletteHexes": [
+        "#6B8E23",
+        "#CD853F",
+        "#9370DB",
+        "#FFFACD",
+        "#2F4F2F"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/garden-sketchbook/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "rococo-salon",
+      "displayName": "Rococo Salon",
+      "family": "ornate-historical",
+      "oneLiner": "Asymmetrical shell and C-scroll ornament, gilded filigree, powder color, curving furniture, and airy theatrical intimacy shape salon-scale composition.",
+      "cues": [
+        "ornate",
+        "pastel-chroma",
+        "decorative-border",
+        "soft-edge",
+        "rococo-era"
+      ],
+      "antiCues": [
+        "minimal",
+        "rough",
+        "high-contrast"
+      ],
+      "aliasPhrases": [
+        "rococo pastel"
+      ],
+      "paletteHexes": [
+        "#F4C2C2",
+        "#ACE1AF",
+        "#FFF8E7",
+        "#D4AF37",
+        "#B8D4E8"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/rococo-salon/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "baroque-chiaroscuro",
+      "displayName": "Baroque Chiaroscuro",
+      "family": "ornate-historical",
+      "oneLiner": "A hard directional light carves figures and objects from deep shadow, using diagonal movement, dense mass, and theatrical spatial drama.",
+      "cues": [
+        "ornate",
+        "shadow-heavy",
+        "painterly",
+        "baroque-era",
+        "edge-defined"
+      ],
+      "antiCues": [
+        "flat",
+        "minimal",
+        "pastel-chroma"
+      ],
+      "aliasPhrases": [
+        "baroque drama"
+      ],
+      "paletteHexes": [
+        "#3D2314",
+        "#198B00",
+        "#28BBC5",
+        "#5F351E",
+        "#E1E1F5"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/baroque-chiaroscuro/reference-01.jpg",
+        "assets/refs/baroque-chiaroscuro/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "illuminated-manuscript",
+      "displayName": "Illuminated Manuscript",
+      "family": "ornate-historical",
+      "oneLiner": "Parchment pages integrate script, decorated initials, border ornament, miniature imagery, and metallic illumination according to the manuscript's documented cultural and religious tradition.",
+      "cues": [
+        "gold-leaf",
+        "decorative-border",
+        "dense",
+        "medieval",
+        "page-scale"
+      ],
+      "antiCues": [
+        "screen-pixel",
+        "minimal",
+        "advertising-pace"
+      ],
+      "aliasPhrases": [
+        "Illuminated Manuscript",
+        "manuscript gold"
+      ],
+      "paletteHexes": [
+        "#1E3A8A",
+        "#CC3333",
+        "#C9A227",
+        "#F2E8C9",
+        "#2C2416"
+      ],
+      "requiresCulturalReview": true,
+      "referencePaths": [
+        "assets/refs/illuminated-manuscript/reference-01.jpg",
+        "assets/refs/illuminated-manuscript/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "art-nouveau",
+      "displayName": "Art Nouveau",
+      "family": "ornate-historical",
+      "oneLiner": "Whiplash curves, botanical structure, asymmetrical line, integrated lettering, and total-design ornament join image, object, and architecture.",
+      "cues": [
+        "organic",
+        "ornate",
+        "art-nouveau-era",
+        "linear",
+        "muted-chroma"
+      ],
+      "antiCues": [
+        "geometric",
+        "hard-edge",
+        "screen-pixel"
+      ],
+      "aliasPhrases": [
+        "Art Nouveau",
+        "art nouveau vines"
+      ],
+      "paletteHexes": [
+        "#9CAF88",
+        "#B39EB5",
+        "#B87333",
+        "#F5F0E6",
+        "#6B705C"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/art-nouveau/reference-01.jpg",
+        "assets/refs/art-nouveau/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "art-deco",
+      "displayName": "Art Deco",
+      "family": "ornate-historical",
+      "oneLiner": "Stepped and streamlined geometry, symmetry, sunbursts, metallic or lacquer accents, and machine-age luxury organize graphics, objects, interiors, and architecture.",
+      "cues": [
+        "geometric",
+        "art-deco-era",
+        "schematic",
+        "symmetry",
+        "luxury-signal"
+      ],
+      "antiCues": [
+        "organic",
+        "rough",
+        "hand-drawn"
+      ],
+      "aliasPhrases": [
+        "Art Deco",
+        "art deco luxury"
+      ],
+      "paletteHexes": [
+        "#1A1A1A",
+        "#C0C0C0",
+        "#00A86B",
+        "#B5A642",
+        "#FFFFF0"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/art-deco/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "victorian-ephemera",
+      "displayName": "Victorian Ephemera",
+      "family": "ornate-historical",
+      "oneLiner": "Nineteenth-century trade cards, keepsakes, advertisements, and scrapbook papers combine ornate display type, chromolithography, floral frames, die-cut forms, and layered density.",
+      "cues": [
+        "ornate",
+        "victorian-era",
+        "collage",
+        "dense",
+        "paper"
+      ],
+      "antiCues": [
+        "minimal",
+        "machine-precise",
+        "neon-chroma"
+      ],
+      "aliasPhrases": [
+        "victorian scrapbook"
+      ],
+      "paletteHexes": [
+        "#6B1F2A",
+        "#5C3A1E",
+        "#FAF0E6",
+        "#1F3F32",
+        "#B8860B"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/victorian-ephemera/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "byzantine-mosaic",
+      "displayName": "Byzantine Mosaic",
+      "family": "ornate-historical",
+      "oneLiner": "Eastern Roman and Eastern Christian mosaic programs use tesserae, gold ground, frontal iconography, shallow space, and monumental sacred placement, with cultural and religious context retained.",
+      "cues": [
+        "tessellated",
+        "gold-leaf",
+        "iconic",
+        "flat",
+        "framed"
+      ],
+      "antiCues": [
+        "deep",
+        "minimal",
+        "photographic"
+      ],
+      "aliasPhrases": [
+        "Byzantine Mosaic"
+      ],
+      "paletteHexes": [
+        "#C9A227",
+        "#1E3A8A",
+        "#6B1E3A",
+        "#0F6B4C",
+        "#F3E9D2"
+      ],
+      "requiresCulturalReview": true,
+      "referencePaths": [
+        "assets/refs/byzantine-mosaic/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "gothic-revival",
+      "displayName": "Gothic Revival",
+      "family": "ornate-historical",
+      "oneLiner": "Nineteenth-century revival design uses pointed arches, tracery, vertical rhythm, clustered detail, stained glass, and medievalizing type across buildings, interiors, and objects.",
+      "cues": [
+        "ornate",
+        "axial",
+        "medieval",
+        "shadow-heavy",
+        "monument-scale"
+      ],
+      "antiCues": [
+        "playful",
+        "pastel-chroma",
+        "flat"
+      ],
+      "aliasPhrases": [
+        "gothic cathedral"
+      ],
+      "paletteHexes": [
+        "#4A5568",
+        "#7B1E3A",
+        "#8B8680",
+        "#DAA520",
+        "#1C1C2E"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/gothic-revival/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "empire-style",
+      "displayName": "Empire Style",
+      "family": "ornate-historical",
+      "oneLiner": "Axial symmetry, monumental proportion, dark polished wood, marble, gilded mounts, laurel, eagle, and classical motifs express Napoleonic-era state luxury.",
+      "cues": [
+        "symmetry",
+        "classical-era",
+        "monument-scale",
+        "smooth",
+        "institutional"
+      ],
+      "antiCues": [
+        "collage",
+        "rough",
+        "neon-chroma"
+      ],
+      "aliasPhrases": [
+        "empire neoclassical"
+      ],
+      "paletteHexes": [
+        "#1B365D",
+        "#F1F5F0",
+        "#6CC961",
+        "#415C67",
+        "#3EC25A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/empire-style/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "belle-epoque-lithograph",
+      "displayName": "Belle Époque Lithograph",
+      "family": "ornate-historical",
+      "oneLiner": "Color lithography integrates hand-lettered headlines, lively figures, flat keyed color, and theatrical or urban publicity in a complete fin-de-siècle poster composition.",
+      "cues": [
+        "poster-scale",
+        "belle-epoque-era",
+        "organic",
+        "display-type",
+        "print-signal"
+      ],
+      "antiCues": [
+        "screen-pixel",
+        "minimal",
+        "meditative-pace"
+      ],
+      "aliasPhrases": [
+        "belle epoque poster"
+      ],
+      "paletteHexes": [
+        "#C41E3A",
+        "#FFFDD0",
+        "#008080",
+        "#D4AF37",
+        "#36454F"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/belle-epoque-lithograph/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "pop-art",
+      "displayName": "Pop Art",
+      "family": "pop-commercial",
+      "oneLiner": "Mass-media imagery becomes art through hard crop, repetition, halftone or screen-print texture, process color, flat contour, and deadpan commercial scale.",
+      "cues": [
+        "halftone",
+        "vivid-chroma",
+        "commercial",
+        "hard-edge",
+        "repetition"
+      ],
+      "antiCues": [
+        "muted-chroma",
+        "meditative-pace",
+        "ornate"
+      ],
+      "aliasPhrases": [
+        "Pop Art"
+      ],
+      "paletteHexes": [
+        "#FFEF00",
+        "#FF00FF",
+        "#00FFFF",
+        "#000000",
+        "#FFFFFF"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/pop-art/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "memphis-design",
+      "displayName": "Memphis Design",
+      "family": "pop-commercial",
+      "oneLiner": "Postmodern furniture and surface systems collide bold laminate color, asymmetrical geometric forms, squiggles, terrazzo-like pattern, and deliberately playful scale.",
+      "cues": [
+        "geometric",
+        "vivid-chroma",
+        "patterned",
+        "playful",
+        "1980s"
+      ],
+      "antiCues": [
+        "minimal",
+        "shadow-heavy",
+        "meditative-pace"
+      ],
+      "aliasPhrases": [
+        "Memphis",
+        "memphis design"
+      ],
+      "paletteHexes": [
+        "#FF1493",
+        "#40E0D0",
+        "#FFF44F",
+        "#000000",
+        "#FFFFFF"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/memphis-design/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "roadside-americana",
+      "displayName": "Roadside Americana",
+      "family": "pop-commercial",
+      "oneLiner": "Mid-century American motel, diner, gas-station, and highway commerce uses oversized neon, boomerang forms, painted signs, optimistic roadside architecture, and weathered vernacular color.",
+      "cues": [
+        "vernacular-form",
+        "street-signal",
+        "hand-drawn",
+        "vivid-chroma",
+        "mid-century"
+      ],
+      "antiCues": [
+        "luxury-signal",
+        "minimal",
+        "institutional"
+      ],
+      "aliasPhrases": [
+        "Roadside Americana",
+        "roadside motel"
+      ],
+      "paletteHexes": [
+        "#B7410E",
+        "#87CEEB",
+        "#FFF8DC",
+        "#228B22",
+        "#FFD700"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/roadside-americana/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "supermarket-packaging",
+      "displayName": "Supermarket Packaging",
+      "family": "pop-commercial",
+      "oneLiner": "Mass-market package fronts compete at shelf distance through bold brand blocks, product appetite cues, flavor and size hierarchy, nutrition structure, and repeated shelf presence.",
+      "cues": [
+        "packaging-signal",
+        "hierarchical",
+        "vivid-chroma",
+        "product-signal",
+        "mass-market-signal"
+      ],
+      "antiCues": [
+        "meditative-pace",
+        "shadow-heavy",
+        "hand-drawn"
+      ],
+      "aliasPhrases": [
+        "supermarket shelf"
+      ],
+      "paletteHexes": [
+        "#E31837",
+        "#FFD100",
+        "#2E8B57",
+        "#FFFFFF",
+        "#1C1C1C"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/supermarket-packaging/generated-01.jpg"
+      ]
+    },
+    {
+      "id": "comic-panel",
+      "displayName": "Comic Panel",
+      "family": "pop-commercial",
+      "oneLiner": "Sequential frames use ink contour, panel size, gutters, captions, balloons, action, and controlled reveal to make narrative movement legible.",
+      "cues": [
+        "panelized",
+        "outline",
+        "hard-edge",
+        "narrative",
+        "polychrome"
+      ],
+      "antiCues": [
+        "meditative-pace",
+        "photographic",
+        "minimal"
+      ],
+      "aliasPhrases": [
+        "Comic Panel",
+        "comic book"
+      ],
+      "paletteHexes": [
+        "#DC143C",
+        "#0047AB",
+        "#F5F0DC",
+        "#0D0D0D",
+        "#FFFFFF"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/comic-panel/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "carnival-poster",
+      "displayName": "Carnival Poster",
+      "family": "pop-commercial",
+      "oneLiner": "Wood-type scale, saturated circus inks, hyperbolic illustration, dense attraction hierarchy, and showman copy create a loud midway pitch.",
+      "cues": [
+        "festive-signal",
+        "poster-scale",
+        "polychrome",
+        "illustrated",
+        "recreational"
+      ],
+      "antiCues": [
+        "austere",
+        "minimal",
+        "clinical"
+      ],
+      "aliasPhrases": [
+        "carnival poster"
+      ],
+      "paletteHexes": [
+        "#E63946",
+        "#F4A261",
+        "#2A9D8F",
+        "#FFFBEB",
+        "#1D3557"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/carnival-poster/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "mid-century-advertising",
+      "displayName": "Mid-Century Advertising",
+      "family": "pop-commercial",
+      "oneLiner": "Optimistic commercial illustration or photography, polished product staging, bold headline, benefit copy, and controlled magazine-page hierarchy sell an aspirational postwar life.",
+      "cues": [
+        "commercial",
+        "mid-century",
+        "smooth",
+        "advertising-pace",
+        "print-signal"
+      ],
+      "antiCues": [
+        "rough",
+        "shadow-heavy",
+        "meditative-pace"
+      ],
+      "aliasPhrases": [
+        "retro ad"
+      ],
+      "paletteHexes": [
+        "#98D8C8",
+        "#FF6B6B",
+        "#FFF5E1",
+        "#008B8B",
+        "#333333"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/mid-century-advertising/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "sticker-bomb",
+      "displayName": "Sticker Bomb",
+      "family": "pop-commercial",
+      "oneLiner": "Overlapping die-cut stickers, varied scale, torn or lifted edges, abrasion, and little exposed ground create a dense portable surface collage.",
+      "cues": [
+        "collage",
+        "playful",
+        "vivid-chroma",
+        "layered",
+        "youth-signal"
+      ],
+      "antiCues": [
+        "minimal",
+        "institutional",
+        "shadow-heavy"
+      ],
+      "aliasPhrases": [
+        "sticker bomb"
+      ],
+      "paletteHexes": [
+        "#FF69B4",
+        "#32CD32",
+        "#FF8C00",
+        "#FFFFFF",
+        "#111111"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/sticker-bomb/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "billboard-bold",
+      "displayName": "Billboard Bold",
+      "family": "pop-commercial",
+      "oneLiner": "One dominant image or silhouette, a very short headline, extreme contrast, and monumental scale produce a three-second read at outdoor distance.",
+      "cues": [
+        "silhouette",
+        "monument-scale",
+        "polychrome",
+        "advertising-pace",
+        "letterform-as-image"
+      ],
+      "antiCues": [
+        "dense",
+        "meditative-pace",
+        "pastel-chroma"
+      ],
+      "aliasPhrases": [
+        "Billboard Bold",
+        "billboard big type"
+      ],
+      "paletteHexes": [
+        "#FF0000",
+        "#0047AB",
+        "#FFD700",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/billboard-bold/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "psychedelic-poster",
+      "displayName": "Psychedelic Poster",
+      "family": "pop-commercial",
+      "oneLiner": "Warped display lettering, saturated complementary color, optical vibration, dense illustration, and figure-ground ambiguity create immersive countercultural concert-poster energy.",
+      "cues": [
+        "display-type",
+        "vivid-chroma",
+        "dense",
+        "print-signal",
+        "organic"
+      ],
+      "antiCues": [
+        "minimal",
+        "clinical",
+        "meditative-pace"
+      ],
+      "aliasPhrases": [
+        "toy catalog"
+      ],
+      "paletteHexes": [
+        "#FF4444",
+        "#4FC3F7",
+        "#FFEB3B",
+        "#FAFAFA",
+        "#9E9E9E"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/psychedelic-poster/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "literary-journal",
+      "displayName": "Literary Journal",
+      "family": "editorial-literary",
+      "oneLiner": "Restrained typography, generous margins, long-form prose pacing, modest section cues, and low visual chrome create a quiet reading-first periodical.",
+      "cues": [
+        "long-form",
+        "generous-margins",
+        "flush-left",
+        "quiet-hierarchy",
+        "reading-first"
+      ],
+      "antiCues": [
+        "feature-drama",
+        "dense-apparatus",
+        "fashion-image",
+        "promotional-chrome"
+      ],
+      "aliasPhrases": [
+        "Literary Journal",
+        "like a paperback"
+      ],
+      "paletteHexes": [
+        "#F0E6D8",
+        "#50205A",
+        "#2F565A",
+        "#88BFA7",
+        "#48471C"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/literary-journal/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "fashion-editorial",
+      "displayName": "Fashion Editorial",
+      "family": "editorial-literary",
+      "oneLiner": "Art-directed fashion photography, controlled asymmetry, full-bleed or sharply framed figure, deliberate styling, and sparse display type create image-led spread drama.",
+      "cues": [
+        "art-directed-fashion",
+        "photographic",
+        "controlled-asymmetry",
+        "full-bleed",
+        "sparse-display-type"
+      ],
+      "antiCues": [
+        "catalog-grid",
+        "costume-plate",
+        "scholarly-apparatus",
+        "generic-lifestyle"
+      ],
+      "aliasPhrases": [
+        "Fashion Editorial",
+        "more editorial"
+      ],
+      "paletteHexes": [
+        "#FAF7F2",
+        "#549B1B",
+        "#0A0A0A",
+        "#6F1F4C",
+        "#A0A7C4"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/fashion-editorial/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "news-broadsheet",
+      "displayName": "News Broadsheet",
+      "family": "editorial-literary",
+      "oneLiner": "Masthead authority, multi-deck headlines, dense columns, captions, modular urgency, halftone imagery, and warm newsprint organize current information.",
+      "cues": [
+        "masthead",
+        "multi-deck-headline",
+        "dense-columns",
+        "captioned-photo",
+        "modular-urgency"
+      ],
+      "antiCues": [
+        "meditative-pace",
+        "luxury-whitespace",
+        "display-only",
+        "uncaptioned-imagery"
+      ],
+      "aliasPhrases": [
+        "News Broadsheet",
+        "newspaper energy"
+      ],
+      "paletteHexes": [
+        "#161616",
+        "#B00020",
+        "#0F5C4C",
+        "#EFE6D6",
+        "#F8F6F1"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/news-broadsheet/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "poetry-chapbook",
+      "displayName": "Poetry Chapbook",
+      "family": "editorial-literary",
+      "oneLiner": "A small-format poetry object uses line-break rhythm, white space as silence, intimate type, light paper texture, and restrained cover or binding choices.",
+      "cues": [
+        "verse-lineation",
+        "white-space",
+        "small-format",
+        "intimate-type",
+        "light-paper-texture"
+      ],
+      "antiCues": [
+        "prose-columns",
+        "magazine-chrome",
+        "oversized-display",
+        "dense-apparatus"
+      ],
+      "aliasPhrases": [
+        "like a paperback",
+        "poetry chapbook feel"
+      ],
+      "paletteHexes": [
+        "#F0E6D2",
+        "#5A592E",
+        "#6A838F",
+        "#88A7A8",
+        "#22242A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/poetry-chapbook/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "design-monograph",
+      "displayName": "Design Monograph",
+      "family": "editorial-literary",
+      "oneLiner": "Large object plates, repeated views, captions, dimensions, essays, and disciplined grids build a sustained visual argument about one designer, practice, or body of work.",
+      "cues": [
+        "object-plates",
+        "repeated-views",
+        "caption-discipline",
+        "dimensions",
+        "sustained-grid"
+      ],
+      "antiCues": [
+        "poster-only",
+        "unlabeled-objects",
+        "decorative-collage",
+        "single-hero"
+      ],
+      "aliasPhrases": [
+        "design monograph"
+      ],
+      "paletteHexes": [
+        "#FAFAF8",
+        "#AA45D6",
+        "#98978E",
+        "#C8D4D1",
+        "#312E38"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/design-monograph/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "magazine-feature",
+      "displayName": "Magazine Feature",
+      "family": "editorial-literary",
+      "oneLiner": "A feature opener and continuation spread coordinate headline, deck, pull quote, image, caption, columns, and pacing for a narrative magazine package.",
+      "cues": [
+        "feature-opener",
+        "headline-deck",
+        "pull-quote",
+        "image-text-pacing",
+        "continuation-spread"
+      ],
+      "antiCues": [
+        "quiet-journal",
+        "cover-only",
+        "uncaptioned-gallery",
+        "interface-panels"
+      ],
+      "aliasPhrases": [
+        "more editorial"
+      ],
+      "paletteHexes": [
+        "#F4EEE6",
+        "#2A90C2",
+        "#406A2F",
+        "#D9C0C7",
+        "#1A1916"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/magazine-feature/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "academic-journal",
+      "displayName": "Academic Journal",
+      "family": "editorial-literary",
+      "oneLiner": "Article title, abstract, author block, section hierarchy, citations, footnotes, figures, tables, and restrained typography signal scholarly publishing and close reading.",
+      "cues": [
+        "article-structure",
+        "abstract-block",
+        "citations-footnotes",
+        "figures-tables",
+        "scholarly-hierarchy"
+      ],
+      "antiCues": [
+        "magazine-drama",
+        "decorative-display",
+        "uncited-claims",
+        "promotional-cover"
+      ],
+      "aliasPhrases": [
+        "academic paper"
+      ],
+      "paletteHexes": [
+        "#F7F4EE",
+        "#792F1F",
+        "#832BA3",
+        "#9A9CA6",
+        "#16191A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/academic-journal/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "photo-essay",
+      "displayName": "Photo Essay",
+      "family": "editorial-literary",
+      "oneLiner": "A sequenced group of photographs carries the argument through edit, rhythm, scale, page turn, and minimal captioning rather than a single hero image.",
+      "cues": [
+        "photo-sequence",
+        "documentary-narrative",
+        "edit-rhythm",
+        "minimal-captions",
+        "page-turn"
+      ],
+      "antiCues": [
+        "single-hero",
+        "text-led",
+        "decorative-gallery",
+        "unrelated-images"
+      ],
+      "aliasPhrases": [
+        "photo essay"
+      ],
+      "paletteHexes": [
+        "#E5E8E1",
+        "#2E314A",
+        "#20A033",
+        "#0F0F0F",
+        "#9A897F"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/photo-essay/reference-01.jpg",
+        "assets/refs/photo-essay/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "type-specimen-book",
+      "displayName": "Type Specimen Book",
+      "family": "editorial-literary",
+      "oneLiner": "Type is the subject: alphabets, numerals, weights, sizes, glyph details, and setting examples are arranged in systematic comparison grids.",
+      "cues": [
+        "alphabet-display",
+        "weight-comparison",
+        "glyph-detail",
+        "setting-examples",
+        "systematic-grid"
+      ],
+      "antiCues": [
+        "image-led",
+        "mixed-typefaces",
+        "decorative-collage",
+        "unlabeled-samples"
+      ],
+      "aliasPhrases": [
+        "type specimen"
+      ],
+      "paletteHexes": [
+        "#F4F2ED",
+        "#E04E4E",
+        "#7A8A92",
+        "#D8D4CC",
+        "#222428"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/type-specimen-book/generated-lead.jpg",
+        "assets/refs/type-specimen-book/generated-support.jpg"
+      ]
+    },
+    {
+      "id": "culture-review",
+      "displayName": "Culture Review",
+      "family": "editorial-literary",
+      "oneLiner": "A branded culture-and-ideas publication mixes criticism, essays, reviews, interviews, art, and section hierarchy with thoughtful image-text pacing.",
+      "cues": [
+        "criticism",
+        "essay-review-mix",
+        "section-identity",
+        "art-text-dialogue",
+        "intellectual-brand"
+      ],
+      "antiCues": [
+        "literary-only",
+        "cover-only",
+        "news-urgency",
+        "lifestyle-promotion"
+      ],
+      "aliasPhrases": [
+        "grown-up but not boring",
+        "cultural quarterly"
+      ],
+      "paletteHexes": [
+        "#EDE4D4",
+        "#8B3A79",
+        "#322F5D",
+        "#7C5AC4",
+        "#1F1B1A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/culture-review/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "y2k-cyber",
+      "displayName": "Y2K Cyber",
+      "family": "digital-native",
+      "oneLiner": "Late-1990s and early-2000s techno-optimism uses chrome gradients, translucent plastic, bubble type, lens flares, bright silver-blue color, and glossy consumer-electronics form.",
+      "cues": [
+        "y2k-era",
+        "digital-signal",
+        "screen-scale",
+        "chrome",
+        "gradient-form",
+        "display-type",
+        "youth-signal",
+        "vivid-chroma",
+        "layered",
+        "reflective"
+      ],
+      "antiCues": [
+        "letterpress-ink",
+        "medieval",
+        "austere"
+      ],
+      "aliasPhrases": [
+        "Y2K Cyber",
+        "cozy futurism",
+        "cyber y2k"
+      ],
+      "paletteHexes": [
+        "#E8F4FF",
+        "#7EB8FF",
+        "#C4A0FF",
+        "#FFB8E8",
+        "#4A90D9"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/y2k-cyber/generated-lead.jpg",
+        "assets/refs/y2k-cyber/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "glitch-art",
+      "displayName": "Glitch Art",
+      "family": "digital-native",
+      "oneLiner": "Intentional signal failure becomes composition through channel offsets, scan lines, datamoshing, compression blocks, tearing, and broken color information.",
+      "cues": [
+        "digital-signal",
+        "screen-scale",
+        "raw-form",
+        "kinetic",
+        "planar",
+        "vivid-chroma",
+        "abstract-form",
+        "hard-edge",
+        "neon-chroma",
+        "rebellious"
+      ],
+      "antiCues": [
+        "minimal",
+        "paper",
+        "meditative-pace"
+      ],
+      "aliasPhrases": [
+        "glitch art"
+      ],
+      "paletteHexes": [
+        "#FF0040",
+        "#00E5FF",
+        "#FFE600",
+        "#1A0A2E",
+        "#808080"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/glitch-art/reference-01.jpg",
+        "assets/refs/glitch-art/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "crt-terminal",
+      "displayName": "CRT Terminal",
+      "family": "digital-native",
+      "oneLiner": "Monospaced green or amber phosphor text, black field, cursor, command prompt, dense line output, low-resolution glow, and strict text grid form the entire interface.",
+      "cues": [
+        "digital-signal",
+        "screen-scale",
+        "monochrome",
+        "text-type",
+        "machine-precise",
+        "technical-form",
+        "static",
+        "1980s",
+        "utility-signal",
+        "grid-defined"
+      ],
+      "antiCues": [
+        "ornate",
+        "pastel-chroma",
+        "photographic"
+      ],
+      "aliasPhrases": [
+        "terminal green"
+      ],
+      "paletteHexes": [
+        "#39FF14",
+        "#0A0A0A",
+        "#1A3D1A",
+        "#FFB000",
+        "#3D3D3D"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/crt-terminal/generated-01.jpg"
+      ]
+    },
+    {
+      "id": "glassmorphism",
+      "displayName": "Glassmorphism",
+      "family": "digital-native",
+      "oneLiner": "Frosted translucent panels float over imagery or color, using background blur, thin light borders, subtle depth, restrained highlights, and readable 2D interface hierarchy.",
+      "cues": [
+        "interface-signal",
+        "digital-signal",
+        "screen-scale",
+        "translucent",
+        "smooth",
+        "layered",
+        "minimal",
+        "contemporary",
+        "soft-edge",
+        "panelized"
+      ],
+      "antiCues": [
+        "rough",
+        "halftone",
+        "letterpress-ink"
+      ],
+      "aliasPhrases": [
+        "Soft UI Glass",
+        "cozy futurism",
+        "glassmorphism"
+      ],
+      "paletteHexes": [
+        "#F0F4FA",
+        "#5B8DEF",
+        "#E8A0BF",
+        "#FFFFFF",
+        "#3A4A5C"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/glassmorphism/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "8-bit-pixel-art",
+      "displayName": "8-Bit Pixel Art",
+      "family": "digital-native",
+      "oneLiner": "A consistent low-resolution grid, limited palette, tile maps, sprites, hard pixel edges, and compact HUD elements create an unmistakable 8-bit game-world grammar.",
+      "cues": [
+        "screen-pixel",
+        "screen-scale",
+        "digital-signal",
+        "play-signal",
+        "1980s",
+        "geometric",
+        "flat",
+        "hard-edge",
+        "youth-signal",
+        "iconic"
+      ],
+      "antiCues": [
+        "photographic",
+        "gradient-form",
+        "ornate"
+      ],
+      "aliasPhrases": [
+        "Pixel Retro",
+        "1990s educational CD-ROM",
+        "game boy pixel"
+      ],
+      "paletteHexes": [
+        "#306230",
+        "#0F380F",
+        "#8BAC0F",
+        "#E63946",
+        "#0F0F0F"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/8-bit-pixel-art/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "neon-night-ui",
+      "displayName": "Neon Night UI",
+      "family": "digital-native",
+      "oneLiner": "Dark-mode interfaces for music, clubs, events, or nightlife use selective neon accents, clear controls, active states, layered panels, and high-contrast type without becoming a cyberpunk environment painting.",
+      "cues": [
+        "neon",
+        "neon-chroma",
+        "interface-signal",
+        "digital-signal",
+        "screen-scale",
+        "high-contrast",
+        "vivid-chroma",
+        "layered",
+        "youth-signal",
+        "kinetic"
+      ],
+      "antiCues": [
+        "paper",
+        "earth-chroma",
+        "meditative-pace"
+      ],
+      "aliasPhrases": [],
+      "paletteHexes": [
+        "#00FFFF",
+        "#FF00FF",
+        "#0A1628",
+        "#000000",
+        "#FFFFFF"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/neon-night-ui/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "vaporwave",
+      "displayName": "Vaporwave",
+      "family": "digital-native",
+      "oneLiner": "Pastel sunset gradients, classical or mall imagery, early-computing fragments, Japanese-text motifs, low-fi collage, and slowed 1980s-1990s consumer nostalgia form a net-native remix.",
+      "cues": [
+        "pastel-chroma",
+        "digital-signal",
+        "screen-scale",
+        "1990s",
+        "gradient-form",
+        "layered",
+        "nostalgic",
+        "soft-edge",
+        "youth-signal",
+        "reflective"
+      ],
+      "antiCues": [
+        "ink-black",
+        "dense",
+        "austere"
+      ],
+      "aliasPhrases": [
+        "Vaporwave",
+        "vaporwave aesthetic"
+      ],
+      "paletteHexes": [
+        "#FFB6C1",
+        "#7FDBDA",
+        "#C4B5FD",
+        "#B794F4",
+        "#FFDAB9"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/vaporwave/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "operational-dashboard",
+      "displayName": "Operational Dashboard",
+      "family": "digital-native",
+      "oneLiner": "KPI cards, trends, breakdown charts, tables, filters, alerts, status, and dense but ordered panels support ongoing monitoring and action.",
+      "cues": [
+        "interface-signal",
+        "digital-signal",
+        "object-scale",
+        "diagrammatic",
+        "dense",
+        "panelized",
+        "grid-defined",
+        "technical-form",
+        "schematic",
+        "utility-signal"
+      ],
+      "antiCues": [
+        "hand-drawn",
+        "ornate",
+        "meditative-pace"
+      ],
+      "aliasPhrases": [
+        "dashboard UI"
+      ],
+      "paletteHexes": [
+        "#1E2433",
+        "#2ECC71",
+        "#3498DB",
+        "#E74C3C",
+        "#ECF0F1"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/operational-dashboard/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "spatial-ar-interface",
+      "displayName": "Spatial AR Interface",
+      "family": "digital-native",
+      "oneLiner": "Camera-world interfaces lock anchors, labels, guides, occlusion cues, depth marks, and controls to physical space rather than floating as a generic futuristic HUD.",
+      "cues": [
+        "spatial-signal",
+        "neon",
+        "interface-signal",
+        "near-future",
+        "outline",
+        "transparent",
+        "planar",
+        "wayfinding-signal",
+        "technical-form",
+        "isometric"
+      ],
+      "antiCues": [
+        "letterpress-ink",
+        "halftone",
+        "ornate"
+      ],
+      "aliasPhrases": [
+        "AR HUD"
+      ],
+      "paletteHexes": [
+        "#00E5FF",
+        "#FFFFFF",
+        "#1A2332",
+        "#FFB300",
+        "#4CAF50"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/spatial-ar-interface/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "live-stream-overlay",
+      "displayName": "Live-Stream Overlay",
+      "family": "digital-native",
+      "oneLiner": "Webcam frames, gameplay windows, alerts, chat-adjacent modules, goals, labels, and multiple audience-facing states compose a live broadcast surface.",
+      "cues": [
+        "performance-signal",
+        "interface-signal",
+        "digital-signal",
+        "screen-scale",
+        "layered",
+        "panelized",
+        "vivid-chroma",
+        "youth-signal",
+        "kinetic",
+        "framed"
+      ],
+      "antiCues": [
+        "meditative-pace",
+        "scholarly",
+        "letterpress-ink"
+      ],
+      "aliasPhrases": [
+        "twitch overlay"
+      ],
+      "paletteHexes": [
+        "#6441A4",
+        "#9146FF",
+        "#1F1F23",
+        "#FF4444",
+        "#FFFFFF"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/live-stream-overlay/generated-01.jpg"
+      ]
+    },
+    {
+      "id": "brutalism",
+      "displayName": "Brutalism",
+      "family": "brutalist-raw",
+      "oneLiner": "Monumental concrete mass, exposed structure, board-marked texture, deep voids, and severe repetition.",
+      "cues": [
+        "concrete",
+        "architectural-signal",
+        "monument-scale",
+        "edge-defined",
+        "austere",
+        "rough",
+        "geometric",
+        "institutional",
+        "material-defined",
+        "rebellious"
+      ],
+      "antiCues": [
+        "gold-leaf",
+        "pastel-chroma",
+        "luxurious-feel"
+      ],
+      "aliasPhrases": [
+        "Brutalism",
+        "brutalist"
+      ],
+      "paletteHexes": [
+        "#A39E98",
+        "#2A8B85",
+        "#26282A",
+        "#EFE0EE",
+        "#5A7067"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/brutalism/reference-01.jpg",
+        "assets/refs/brutalism/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "punk-zine",
+      "displayName": "Punk Zine",
+      "family": "brutalist-raw",
+      "oneLiner": "Xerox grain, hand-cut type, torn paste-up, staples, tape, and urgent cheap-print publication density.",
+      "cues": [
+        "collage",
+        "halftone",
+        "print-signal",
+        "street-signal",
+        "high-contrast",
+        "rebellious",
+        "improvised",
+        "ragged",
+        "dense",
+        "urgent"
+      ],
+      "antiCues": [
+        "luxurious-feel",
+        "smooth",
+        "sparse"
+      ],
+      "aliasPhrases": [
+        "Punk Zine",
+        "like a zine"
+      ],
+      "paletteHexes": [
+        "#1A1A1A",
+        "#F5F3EE",
+        "#E8F032",
+        "#C41E3A",
+        "#00A8C8"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/punk-zine/generated-01.jpg",
+        "assets/refs/punk-zine/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "industrial-warehouse",
+      "displayName": "Industrial Warehouse",
+      "family": "brutalist-raw",
+      "oneLiner": "Long steel bays, loading geometry, numbered zones, stenciled logistics, exposed utilities, and work-scale repetition.",
+      "cues": [
+        "industrial-signal",
+        "utility-signal",
+        "metal",
+        "concrete",
+        "environmental-scale",
+        "high-contrast",
+        "geometric",
+        "structured-type",
+        "austere",
+        "machine-precise"
+      ],
+      "antiCues": [
+        "silk",
+        "gold-leaf",
+        "pastel-chroma"
+      ],
+      "aliasPhrases": [
+        "Industrial Warehouse"
+      ],
+      "paletteHexes": [
+        "#5C6570",
+        "#428A6E",
+        "#48453D",
+        "#C0B2C4",
+        "#1E2623"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/industrial-warehouse/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "web-brutalism",
+      "displayName": "Web Brutalism",
+      "family": "brutalist-raw",
+      "oneLiner": "Browser-native pages with system type, plain links, default controls, exposed document structure, and deliberately blunt screen hierarchy.",
+      "cues": [
+        "digital-signal",
+        "interface-signal",
+        "screen-scale",
+        "typographic",
+        "flat",
+        "high-contrast",
+        "systematic",
+        "ink-black",
+        "raw-form",
+        "utility-signal"
+      ],
+      "antiCues": [
+        "translucent",
+        "gradient-form",
+        "luxurious-feel"
+      ],
+      "aliasPhrases": [
+        "Raw Web Brutal",
+        "too Web 2.0"
+      ],
+      "paletteHexes": [
+        "#C0C0C0",
+        "#0000EE",
+        "#FFFF00",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/web-brutalism/reference-01.jpg",
+        "assets/refs/web-brutalism/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "concrete-poetry",
+      "displayName": "Concrete Poetry",
+      "family": "brutalist-raw",
+      "oneLiner": "Words, letters, repetition, and spacing arranged so language becomes image, rhythm, and spatial composition.",
+      "cues": [
+        "letterform-as-image",
+        "typographic",
+        "poetry-signal",
+        "abstract-form",
+        "sparse",
+        "open-field",
+        "systematic",
+        "edge-defined",
+        "meditative-pace",
+        "clear-headed"
+      ],
+      "antiCues": [
+        "dense",
+        "collage",
+        "neon-chroma"
+      ],
+      "aliasPhrases": [
+        "Concrete Poetry"
+      ],
+      "paletteHexes": [
+        "#A8A4A0",
+        "#6A6B60",
+        "#E2E8DE",
+        "#363C34",
+        "#33B83E"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/concrete-poetry/reference-01.jpg",
+        "assets/refs/concrete-poetry/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "scaffold-structure",
+      "displayName": "Scaffold Structure",
+      "family": "brutalist-raw",
+      "oneLiner": "Temporary frames, cross-bracing, exposed joints, construction wraps, and modular assembly visible before finish.",
+      "cues": [
+        "industrial-signal",
+        "geometric",
+        "metal",
+        "environmental-scale",
+        "grid-defined",
+        "improvised",
+        "high-contrast",
+        "architectural-signal",
+        "machine-precise",
+        "layered"
+      ],
+      "antiCues": [
+        "velvet",
+        "gold-leaf",
+        "pastel-chroma"
+      ],
+      "aliasPhrases": [
+        "scaffold structure"
+      ],
+      "paletteHexes": [
+        "#8B8680",
+        "#E8B923",
+        "#2C2A28",
+        "#4A6FA5",
+        "#E0DCD6"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/scaffold-structure/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "industrial-monochrome",
+      "displayName": "Industrial Monochrome",
+      "family": "brutalist-raw",
+      "oneLiner": "Black, white, and steel-gray industrial graphics built from stencils, machine plates, manuals, warning bands, and disciplined single-ink contrast.",
+      "cues": [
+        "monochrome",
+        "industrial-signal",
+        "machine-precise",
+        "metal",
+        "high-contrast",
+        "systematic",
+        "austere",
+        "geometric",
+        "utility-signal",
+        "clinical"
+      ],
+      "antiCues": [
+        "vivid-chroma",
+        "pastel-chroma",
+        "gold-leaf"
+      ],
+      "aliasPhrases": [
+        "mono industrial"
+      ],
+      "paletteHexes": [
+        "#4A4A4A",
+        "#9A9A9A",
+        "#1A1A1A",
+        "#22A6E6",
+        "#D0D0D0"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/industrial-monochrome/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "graphic-brutalism",
+      "displayName": "Graphic Brutalism",
+      "family": "brutalist-raw",
+      "oneLiner": "Oversized blunt type, exposed layout seams, hard blocks, abrasive contrast, minimal finish, and intentionally unresolved graphic hierarchy.",
+      "cues": [
+        "typographic",
+        "high-contrast",
+        "raw-form",
+        "edge-defined",
+        "grid-defined",
+        "rebellious",
+        "urgent",
+        "ragged",
+        "flat",
+        "print-signal"
+      ],
+      "antiCues": [
+        "luxury-signal",
+        "smooth",
+        "gradient-form"
+      ],
+      "aliasPhrases": [
+        "less startup",
+        "anti brand"
+      ],
+      "paletteHexes": [
+        "#E8E0D0",
+        "#1A1816",
+        "#C41E3A",
+        "#2E86AB",
+        "#F4A261"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/graphic-brutalism/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "dada-collage",
+      "displayName": "Dada Collage",
+      "family": "brutalist-raw",
+      "oneLiner": "Absurdist photomontage, ruptured scale, mechanical fragments, clashing type, and chance juxtaposition assembled into an anti-rational page.",
+      "cues": [
+        "collage",
+        "rough",
+        "layered",
+        "improvised",
+        "print-signal",
+        "halftone",
+        "street-signal",
+        "dense",
+        "asymmetry",
+        "rebellious"
+      ],
+      "antiCues": [
+        "smooth",
+        "sparse",
+        "luxurious-feel"
+      ],
+      "aliasPhrases": [
+        "rubble collage"
+      ],
+      "paletteHexes": [
+        "#C4A882",
+        "#5A3A2A",
+        "#2A6070",
+        "#E8D8C0",
+        "#8B2E2E"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/dada-collage/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "operational-utility",
+      "displayName": "Operational Utility",
+      "family": "brutalist-raw",
+      "oneLiner": "Bare task hierarchy built from labels, arrows, numbered steps, control states, durable materials, and only the styling needed to operate correctly.",
+      "cues": [
+        "utility-signal",
+        "systematic",
+        "typographic",
+        "grid-defined",
+        "plain",
+        "wayfinding-signal",
+        "institutional",
+        "sparse",
+        "machine-precise",
+        "clear-headed"
+      ],
+      "antiCues": [
+        "ornate",
+        "luxurious-feel",
+        "collage"
+      ],
+      "aliasPhrases": [
+        "utility form"
+      ],
+      "paletteHexes": [
+        "#CFC9BC",
+        "#2F5560",
+        "#A32020",
+        "#6A655E",
+        "#F6F3EC"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/operational-utility/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "quiet-luxury",
+      "displayName": "Quiet Luxury",
+      "family": "luxe-atelier",
+      "oneLiner": "Expansive neutral fields, exceptional material detail, restrained typography, soft controlled light, and one impeccably staged object or gesture.",
+      "cues": [
+        "luxury-signal",
+        "atelier-signal",
+        "sparse",
+        "silk",
+        "marble",
+        "sensual",
+        "object-scale",
+        "smooth",
+        "fashion-signal",
+        "serene"
+      ],
+      "antiCues": [
+        "cardboard",
+        "rough",
+        "industrial-signal"
+      ],
+      "aliasPhrases": [
+        "Haute Luxury",
+        "make it feel expensive",
+        "quiet luxury"
+      ],
+      "paletteHexes": [
+        "#F7F1E8",
+        "#62C972",
+        "#1A1A1A",
+        "#8A6A84",
+        "#E8BCB4"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/quiet-luxury/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "jewelry-vitrine",
+      "displayName": "Jewelry Vitrine",
+      "family": "luxe-atelier",
+      "oneLiner": "Gem-scale objects isolated against velvet darkness with pinpoint light, glass reflections, precious detail, and museum-display spacing.",
+      "cues": [
+        "luxury-signal",
+        "object-scale",
+        "velvet",
+        "glass",
+        "light-defined",
+        "deep",
+        "machine-precise",
+        "collector-signal",
+        "sensual",
+        "shadow-heavy"
+      ],
+      "antiCues": [
+        "rough",
+        "cardboard",
+        "street-signal"
+      ],
+      "aliasPhrases": [
+        "Jewelry Vitrine",
+        "jewelry ad"
+      ],
+      "paletteHexes": [
+        "#0D0D0D",
+        "#F7F7F5",
+        "#C0C0C0",
+        "#D4AF37",
+        "#0B3D2E"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/jewelry-vitrine/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "couture-lookbook",
+      "displayName": "Couture Lookbook",
+      "family": "luxe-atelier",
+      "oneLiner": "A sequenced fashion story built from garment silhouette, drape, model rhythm, repeated framing, and controlled editorial pacing across pages.",
+      "cues": [
+        "fashion-signal",
+        "editorial-pace",
+        "pictorial",
+        "silk",
+        "asymmetry",
+        "luxurious-feel",
+        "atelier-signal",
+        "planar",
+        "sensual",
+        "editorial-signal"
+      ],
+      "antiCues": [
+        "industrial-signal",
+        "utility-signal",
+        "schematic"
+      ],
+      "aliasPhrases": [
+        "couture lookbook"
+      ],
+      "paletteHexes": [
+        "#FFF5F7",
+        "#762A8E",
+        "#111111",
+        "#37D4AC",
+        "#7E7D5D"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/couture-lookbook/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "boutique-hospitality",
+      "displayName": "Boutique Hospitality",
+      "family": "luxe-atelier",
+      "oneLiner": "Welcoming spatial luxury through warm practical light, crafted furniture, quiet reception cues, layered local material, and composed service touchpoints.",
+      "cues": [
+        "hospitality-signal",
+        "atelier-signal",
+        "brass",
+        "marble",
+        "warm-hearted",
+        "environmental-scale",
+        "layered",
+        "luxury-signal",
+        "serene",
+        "architectural-signal"
+      ],
+      "antiCues": [
+        "industrial-signal",
+        "rough",
+        "street-signal"
+      ],
+      "aliasPhrases": [
+        "Hotel Atelier",
+        "like a hotel brand"
+      ],
+      "paletteHexes": [
+        "#EFE6DA",
+        "#3A6E6B",
+        "#A6528A",
+        "#2F2C38",
+        "#A5AED8"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/boutique-hospitality/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "scent-campaign",
+      "displayName": "Scent Campaign",
+      "family": "luxe-atelier",
+      "oneLiner": "Glass, liquid, vapor, ingredients, gradient light, reflective shadow, and intimate ritual composed as a sensory product narrative.",
+      "cues": [
+        "sensual",
+        "glass",
+        "lacquer",
+        "object-scale",
+        "gradient-form",
+        "intimate-scale",
+        "luxury-signal",
+        "soft-edge",
+        "mysterious",
+        "product-signal"
+      ],
+      "antiCues": [
+        "industrial-signal",
+        "rough",
+        "high-contrast"
+      ],
+      "aliasPhrases": [
+        "perfume campaign"
+      ],
+      "paletteHexes": [
+        "#F6E9F0",
+        "#7A4E6E",
+        "#D4AF87",
+        "#2A2428",
+        "#A8B5A0"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/scent-campaign/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "gallery-white",
+      "displayName": "Gallery White",
+      "family": "luxe-atelier",
+      "oneLiner": "Isolated art objects, expansive white walls, neutral floors, restrained labels, track-light control, and contemplative negative space.",
+      "cues": [
+        "museum-signal",
+        "sparse",
+        "open-field",
+        "art-signal",
+        "institutional",
+        "serene",
+        "object-scale",
+        "negative-space",
+        "light-defined",
+        "clear-headed"
+      ],
+      "antiCues": [
+        "dense",
+        "collage",
+        "street-signal"
+      ],
+      "aliasPhrases": [
+        "Gallery White",
+        "quiet luxury",
+        "museum quiet"
+      ],
+      "paletteHexes": [
+        "#FAFAF8",
+        "#1A1A18",
+        "#E8C547",
+        "#6A8EAE",
+        "#C45C3A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/gallery-white/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "silk-editorial",
+      "displayName": "Silk Editorial",
+      "family": "luxe-atelier",
+      "oneLiner": "Silk sheen, liquid folds, soft shadow gradients, tactile macro detail, and spacious editorial pacing across image and type.",
+      "cues": [
+        "silk",
+        "editorial-pace",
+        "photographic",
+        "soft-edge",
+        "luxurious-feel",
+        "fashion-signal",
+        "layered",
+        "sensual",
+        "editorial-signal",
+        "smooth"
+      ],
+      "antiCues": [
+        "concrete",
+        "rough",
+        "industrial-signal"
+      ],
+      "aliasPhrases": [
+        "silk editorial"
+      ],
+      "paletteHexes": [
+        "#F3E6EA",
+        "#5C3A55",
+        "#C9A66B",
+        "#E8D5C4",
+        "#1E1A1C"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/silk-editorial/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "private-club",
+      "displayName": "Private Club",
+      "family": "luxe-atelier",
+      "oneLiner": "Dark wood rooms, low amber pools, deep upholstery, collected art, layered access cues, and quiet symmetrical arrangements for private social ritual.",
+      "cues": [
+        "luxury-signal",
+        "heritage-signal",
+        "wood",
+        "velvet",
+        "intimate-scale",
+        "shadow-heavy",
+        "ceremonial",
+        "warm-hearted",
+        "ornate",
+        "layered"
+      ],
+      "antiCues": [
+        "digital-signal",
+        "street-signal",
+        "neon-chroma"
+      ],
+      "aliasPhrases": [
+        "private club"
+      ],
+      "paletteHexes": [
+        "#120E0C",
+        "#475A10",
+        "#27C99A",
+        "#C8EAEA",
+        "#3A1E2B"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/private-club/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "watch-precision",
+      "displayName": "Watch Precision",
+      "family": "luxe-atelier",
+      "oneLiner": "Jewel-scale mechanical macro imagery with dial symmetry, gears, bridges, screws, engraved marks, and alternating brushed and polished metal.",
+      "cues": [
+        "machine-precise",
+        "object-scale",
+        "metal",
+        "glass",
+        "symmetry",
+        "collector-signal",
+        "luxury-signal",
+        "technical",
+        "clear-headed",
+        "minimal"
+      ],
+      "antiCues": [
+        "collage",
+        "rough",
+        "improvised"
+      ],
+      "aliasPhrases": [
+        "watch precision"
+      ],
+      "paletteHexes": [
+        "#E8ECF0",
+        "#1B3A4B",
+        "#C0A062",
+        "#5A6570",
+        "#0E1012"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/watch-precision/reference-01.jpg",
+        "assets/refs/watch-precision/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "atelier-process",
+      "displayName": "Atelier Process",
+      "family": "luxe-atelier",
+      "oneLiner": "Muslin draping, pinned fittings, pattern paper, swatches, pencil corrections, hand notes, and visible iteration at the making table.",
+      "cues": [
+        "illustrated",
+        "atelier-signal",
+        "craft-signal",
+        "fabric",
+        "annotated",
+        "intimate-scale",
+        "warm-hearted",
+        "improvised",
+        "paper",
+        "captioned"
+      ],
+      "antiCues": [
+        "machine-precise",
+        "digital-signal",
+        "neon-chroma"
+      ],
+      "aliasPhrases": [
+        "atelier sketch"
+      ],
+      "paletteHexes": [
+        "#FFF8EF",
+        "#D35400",
+        "#1F3A5F",
+        "#5DADE2",
+        "#1C1C1C"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/atelier-process/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "folk-embroidery",
+      "displayName": "Folk Embroidery",
+      "family": "folk-vernacular",
+      "oneLiner": "Named regional embroidery expressed through visible thread, cloth ground, stitch density, border placement, garment context, and tradition-specific motifs.",
+      "cues": [
+        "visible-thread",
+        "named-regional-motifs",
+        "stitch-density",
+        "cloth-ground",
+        "border-placement",
+        "garment-context",
+        "tactile-relief",
+        "handmade-irregularity"
+      ],
+      "antiCues": [
+        "generic-vector-folk",
+        "printed-fabric",
+        "culture-mixing",
+        "perfectly-uniform-line",
+        "placeless-symbols"
+      ],
+      "aliasPhrases": [
+        "Folk Embroidery"
+      ],
+      "paletteHexes": [
+        "#C41E3A",
+        "#431E5F",
+        "#E1F5E2",
+        "#164250",
+        "#1A1A1A"
+      ],
+      "requiresCulturalReview": true,
+      "referencePaths": [
+        "assets/refs/folk-embroidery/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "ukiyo-e",
+      "displayName": "Ukiyo-e",
+      "family": "folk-vernacular",
+      "oneLiner": "Japanese woodblock composition with flat color planes, forceful contour, cropped scale, compressed perspective, patterned surfaces, and controlled print gradients.",
+      "cues": [
+        "flat-color-planes",
+        "forceful-contour",
+        "cropped-scale",
+        "compressed-perspective",
+        "patterned-surfaces",
+        "print-gradation",
+        "asymmetrical-balance",
+        "woodblock-registration"
+      ],
+      "antiCues": [
+        "anime-pastiche",
+        "oil-painted-volume",
+        "western-point-perspective",
+        "random-japanese-symbols",
+        "airbrushed-gloss"
+      ],
+      "aliasPhrases": [
+        "Ukiyo-e",
+        "ukiyo-e print"
+      ],
+      "paletteHexes": [
+        "#1B365D",
+        "#E03C31",
+        "#D4A017",
+        "#1A1A1A",
+        "#F2E8D5"
+      ],
+      "requiresCulturalReview": true,
+      "referencePaths": [
+        "assets/refs/ukiyo-e/reference-01.jpg",
+        "assets/refs/ukiyo-e/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "roadside-vernacular",
+      "displayName": "Roadside Vernacular",
+      "family": "folk-vernacular",
+      "oneLiner": "Hand-painted local-business lettering, improvised sign shapes, weathered boards, bright practical color, and roadside placement.",
+      "cues": [
+        "hand-painted-lettering",
+        "road-scale-message",
+        "improvised-sign-shape",
+        "weathered-board",
+        "practical-bright-color",
+        "local-commerce",
+        "mixed-letterforms",
+        "site-specific-placement"
+      ],
+      "antiCues": [
+        "corporate-brand-system",
+        "polished-retro-diner",
+        "uniform-wayfinding",
+        "luxury-signage",
+        "digital-gradient"
+      ],
+      "aliasPhrases": [
+        "roadside folk sign"
+      ],
+      "paletteHexes": [
+        "#D32F2F",
+        "#4A19D2",
+        "#ECFFE7",
+        "#2F8B8A",
+        "#212121"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/roadside-vernacular/generated-01.jpg",
+        "assets/refs/roadside-vernacular/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "quilting-pattern",
+      "displayName": "Quilting Pattern",
+      "family": "folk-vernacular",
+      "oneLiner": "Patchwork modules, visible seam rhythm, repeated blocks, border systems, textile variation, and domestic-scale geometric construction.",
+      "cues": [
+        "pieced-blocks",
+        "seam-rhythm",
+        "fabric-variation",
+        "repeated-module",
+        "quilted-stitch-line",
+        "border-system",
+        "soft-relief",
+        "domestic-scale"
+      ],
+      "antiCues": [
+        "seamless-vector-pattern",
+        "tile-grid-without-fabric",
+        "perfect-digital-symmetry",
+        "printed-patchwork",
+        "flat-color-only"
+      ],
+      "aliasPhrases": [
+        "quilt pattern"
+      ],
+      "paletteHexes": [
+        "#B71C1C",
+        "#1A237E",
+        "#FAF3E0",
+        "#689F38",
+        "#5D4037"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/quilting-pattern/reference-01.jpg",
+        "assets/refs/quilting-pattern/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "mexican-tinwork",
+      "displayName": "Mexican Tinwork",
+      "family": "folk-vernacular",
+      "oneLiner": "Mexican painted and repoussé tin objects with hand-shaped frames, devotional or narrative imagery, saturated color, reflective metal, patina, and intimate shrine scale.",
+      "cues": [
+        "repousse-tin",
+        "painted-devotional-image",
+        "hand-shaped-frame",
+        "reflective-metal",
+        "saturated-color",
+        "punched-detail",
+        "patina",
+        "intimate-shrine-scale"
+      ],
+      "antiCues": [
+        "generic-rustic-metal",
+        "industrial-sheet-metal",
+        "unframed-vector-icon",
+        "random-latin-motifs",
+        "luxury-polish"
+      ],
+      "aliasPhrases": [
+        "tin folk art"
+      ],
+      "paletteHexes": [
+        "#1565C0",
+        "#C62828",
+        "#F5F5F5",
+        "#F9A825",
+        "#212121"
+      ],
+      "requiresCulturalReview": true,
+      "referencePaths": [
+        "assets/refs/mexican-tinwork/reference-01.jpg",
+        "assets/refs/mexican-tinwork/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "market-vernacular",
+      "displayName": "Market Vernacular",
+      "family": "folk-vernacular",
+      "oneLiner": "Dense merchant display built from stacked goods, handwritten price cards, awnings, crates, repeated containers, and improvised open-air hierarchy.",
+      "cues": [
+        "stacked-goods",
+        "handwritten-price-cards",
+        "repeated-containers",
+        "awning-stripes",
+        "crate-grid",
+        "seller-made-display",
+        "dense-open-air-hierarchy",
+        "practical-color"
+      ],
+      "antiCues": [
+        "minimal-retail-display",
+        "luxury-merchandising",
+        "empty-stall",
+        "corporate-planogram",
+        "sanitized-farmers-market"
+      ],
+      "aliasPhrases": [
+        "market stall color"
+      ],
+      "paletteHexes": [
+        "#E65100",
+        "#FBC02D",
+        "#33691E",
+        "#D7CCC8",
+        "#ECEFF1"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/market-vernacular/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "narrative-textile",
+      "displayName": "Narrative Textile",
+      "family": "folk-vernacular",
+      "oneLiner": "Sequential events carried across a continuous stitched, appliquéd, woven, or embroidered textile field, with figures, borders, labels, and material memory.",
+      "cues": [
+        "sequential-stitched-scenes",
+        "continuous-cloth-field",
+        "embroidered-figures",
+        "applique-borders",
+        "material-memory",
+        "directional-reading",
+        "hand-sewn-labels",
+        "diaspora-narrative"
+      ],
+      "antiCues": [
+        "generic-tapestry-filter",
+        "single-ornamental-motif",
+        "culture-mixing",
+        "printed-comic-panel",
+        "frameless-vector-scene"
+      ],
+      "aliasPhrases": [
+        "story cloth"
+      ],
+      "paletteHexes": [
+        "#8D6E63",
+        "#C62828",
+        "#1976D2",
+        "#F5F5DC",
+        "#37474F"
+      ],
+      "requiresCulturalReview": true,
+      "referencePaths": [
+        "assets/refs/narrative-textile/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "narrative-woodcut",
+      "displayName": "Narrative Woodcut",
+      "family": "folk-vernacular",
+      "oneLiner": "Carved relief line, heavy black shapes, limited ink, compressed figure-ground drama, and serial or tale-book narration.",
+      "cues": [
+        "carved-relief-line",
+        "heavy-black-shape",
+        "white-cut-mark",
+        "compressed-figure-ground",
+        "limited-ink",
+        "serial-scene",
+        "tale-book-rhythm",
+        "paper-impression"
+      ],
+      "antiCues": [
+        "multicolor-ukiyo-e",
+        "smooth-vector-line",
+        "photographic-halftone",
+        "painterly-wash",
+        "delicate-engraving"
+      ],
+      "aliasPhrases": [
+        "Woodcut Tale",
+        "woodcut story"
+      ],
+      "paletteHexes": [
+        "#8B0000",
+        "#000000",
+        "#FFFEF7",
+        "#6B8E23",
+        "#5C4033"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/narrative-woodcut/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "folk-tilework",
+      "displayName": "Folk Tilework",
+      "family": "folk-vernacular",
+      "oneLiner": "Glazed ceramic units assembled into repeated ornament or multi-tile narrative, with visible grout rhythm, architectural scale, saturated mineral color, and tradition-specific motifs.",
+      "cues": [
+        "glazed-ceramic-units",
+        "visible-grout-rhythm",
+        "architectural-assembly",
+        "mineral-color",
+        "repeated-ornament",
+        "multi-tile-image",
+        "surface-variation",
+        "tradition-specific-motif"
+      ],
+      "antiCues": [
+        "seamless-digital-pattern",
+        "generic-moroccan-mix",
+        "printed-ceramic-skin",
+        "culture-collage",
+        "bathroom-showroom"
+      ],
+      "aliasPhrases": [
+        "ceramic tile"
+      ],
+      "paletteHexes": [
+        "#0D47A1",
+        "#00838F",
+        "#FFF8E1",
+        "#BF360C",
+        "#212121"
+      ],
+      "requiresCulturalReview": true,
+      "referencePaths": [
+        "assets/refs/folk-tilework/reference-01.jpg",
+        "assets/refs/folk-tilework/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "festival-banner",
+      "displayName": "Festival Banner",
+      "family": "folk-vernacular",
+      "oneLiner": "Repeated paper or cloth banners, cutwork, carried flags, or overhead strands that turn public space into rhythmic ceremonial color and movement.",
+      "cues": [
+        "repeated-overhead-strands",
+        "cut-paper",
+        "cloth-flags",
+        "ceremonial-color",
+        "wind-movement",
+        "public-space-rhythm",
+        "hand-cut-variation",
+        "event-specific-symbols"
+      ],
+      "antiCues": [
+        "corporate-event-bunting",
+        "generic-party-flags",
+        "random-cultural-icons",
+        "static-wallpaper",
+        "plastic-pennant-chain"
+      ],
+      "aliasPhrases": [
+        "Festival Banner"
+      ],
+      "paletteHexes": [
+        "#D50000",
+        "#FFD600",
+        "#2962FF",
+        "#FFFFFF",
+        "#1B5E20"
+      ],
+      "requiresCulturalReview": true,
+      "referencePaths": [
+        "assets/refs/festival-banner/reference-01.jpg",
+        "assets/refs/festival-banner/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "field-guide",
+      "displayName": "Field Guide",
+      "family": "scientific-diagram",
+      "oneLiner": "Identification pages that combine observed specimens, keyed comparisons, diagnostic callouts, measurements, habitat or range, and concise field notes.",
+      "cues": [
+        "comparative-specimens",
+        "diagnostic-callouts",
+        "identification-key",
+        "range-map",
+        "measured-scale",
+        "concise-field-notes",
+        "taxonomic-hierarchy",
+        "portable-page"
+      ],
+      "antiCues": [
+        "single-decorative-portrait",
+        "unlabeled-nature-art",
+        "museum-wall-label",
+        "dense-research-paper",
+        "fantasy-species"
+      ],
+      "aliasPhrases": [
+        "Field Guide",
+        "old science textbook"
+      ],
+      "paletteHexes": [
+        "#6B7B3C",
+        "#E6E9F4",
+        "#2E314E",
+        "#A06B6E",
+        "#789C84"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/field-guide/generated-lead.jpg",
+        "assets/refs/field-guide/generated-support.jpg"
+      ]
+    },
+    {
+      "id": "anatomical-plate",
+      "displayName": "Anatomical Plate",
+      "family": "scientific-diagram",
+      "oneLiner": "Human or animal body systems rendered through precise contour, section, symmetry, leader lines, numbered structures, and didactic hierarchy.",
+      "cues": [
+        "sectioned-body",
+        "precise-contour",
+        "leader-lines",
+        "numbered-structures",
+        "didactic-hierarchy",
+        "symmetrical-view",
+        "layered-system",
+        "clinical-color"
+      ],
+      "antiCues": [
+        "medical-stock-photo",
+        "horror-gore",
+        "fantasy-anatomy",
+        "unlabeled-figure",
+        "decorative-skeleton"
+      ],
+      "aliasPhrases": [
+        "Anatomical Plate",
+        "old science textbook",
+        "anatomy plate"
+      ],
+      "paletteHexes": [
+        "#BDBDBD",
+        "#E8EAF6",
+        "#37474F",
+        "#C62828",
+        "#5D4037"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/anatomical-plate/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "cartographic-sheet",
+      "displayName": "Cartographic Sheet",
+      "family": "scientific-diagram",
+      "oneLiner": "Measured terrain organized through contour, water, route, boundary, elevation, scale, legend, and institutional map hierarchy.",
+      "cues": [
+        "contour-lines",
+        "scale-bar",
+        "map-legend",
+        "route-network",
+        "water-boundary",
+        "elevation-label",
+        "institutional-marginalia",
+        "symbol-hierarchy"
+      ],
+      "antiCues": [
+        "fantasy-map-ornament",
+        "satellite-image-only",
+        "unscaled-diagram",
+        "decorative-compass-rose",
+        "random-topography-lines"
+      ],
+      "aliasPhrases": [
+        "Cartographic Sheet",
+        "map sheet"
+      ],
+      "paletteHexes": [
+        "#A5D6A7",
+        "#90CAF9",
+        "#8D6E63",
+        "#FFFDE7",
+        "#37474F"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/cartographic-sheet/reference-01.jpg",
+        "assets/refs/cartographic-sheet/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "engineering-blueprint",
+      "displayName": "Engineering Blueprint",
+      "family": "scientific-diagram",
+      "oneLiner": "Cyanotype or negative-print engineering sheets with measured plans, dimensions, white-line structure, title blocks, material notes, and disciplined full-sheet order.",
+      "cues": [
+        "white-line-on-blue",
+        "measured-plan",
+        "dimension-string",
+        "title-block",
+        "section-elevation",
+        "material-note",
+        "revision-mark",
+        "full-sheet-order"
+      ],
+      "antiCues": [
+        "blue-neon-wireframe",
+        "concept-sketch",
+        "sci-fi-hud",
+        "unmeasured-outline",
+        "cropped-detail-only"
+      ],
+      "aliasPhrases": [
+        "Blueprint Tech",
+        "blueprint look"
+      ],
+      "paletteHexes": [
+        "#003366",
+        "#FFFFFF",
+        "#E8A54B",
+        "#4A90D9",
+        "#8B0000"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/engineering-blueprint/reference-01.jpg",
+        "assets/refs/engineering-blueprint/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "botanical-plate",
+      "displayName": "Botanical Plate",
+      "family": "scientific-diagram",
+      "oneLiner": "Whole plants and diagnostic parts systematically arranged with fine contour, restrained natural color, numbered variants, captions, and scientific white space.",
+      "cues": [
+        "whole-plant-view",
+        "dissected-details",
+        "scientific-accuracy",
+        "fine-contour",
+        "numbered-variants",
+        "restrained-natural-color",
+        "diagnostic-scale",
+        "white-space"
+      ],
+      "antiCues": [
+        "loose-botanical-watercolor",
+        "floral-pattern",
+        "bouquet-composition",
+        "decorative-herbarium",
+        "fantasy-plant"
+      ],
+      "aliasPhrases": [
+        "botanical plate"
+      ],
+      "paletteHexes": [
+        "#2E7D32",
+        "#F1F8E9",
+        "#1B5E20",
+        "#5D4037",
+        "#263238"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/botanical-plate/reference-01.jpg",
+        "assets/refs/botanical-plate/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "classic-infographic",
+      "displayName": "Classic Infographic",
+      "family": "scientific-diagram",
+      "oneLiner": "Editorial explanation through encoded quantity, comparative flow, numbered sequence, annotation, restrained color, and a clear visual argument on one page.",
+      "cues": [
+        "encoded-quantity",
+        "comparative-flow",
+        "visual-argument",
+        "annotated-sequence",
+        "restrained-color",
+        "one-page-synthesis",
+        "proportional-mark",
+        "explanatory-legend"
+      ],
+      "antiCues": [
+        "icon-cloud",
+        "dashboard-ui",
+        "decorative-chart",
+        "data-free-diagram",
+        "map-only"
+      ],
+      "aliasPhrases": [
+        "infographic classic"
+      ],
+      "paletteHexes": [
+        "#1565C0",
+        "#F4A836",
+        "#6AFF07",
+        "#FAFAFA",
+        "#424242"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/classic-infographic/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "lab-notebook",
+      "displayName": "Lab Notebook",
+      "family": "scientific-diagram",
+      "oneLiner": "Dated experimental pages with apparatus sketches, measured trials, calculations, crossings-out, observation notes, and evolving procedural thought.",
+      "cues": [
+        "dated-entry",
+        "apparatus-sketch",
+        "measured-trial",
+        "calculation",
+        "crossing-out",
+        "observation-note",
+        "procedural-sequence",
+        "evolving-thought"
+      ],
+      "antiCues": [
+        "clean-final-report",
+        "decorative-journal",
+        "grocery-ledger",
+        "scrapbook-collage",
+        "fake-equations"
+      ],
+      "aliasPhrases": [
+        "lab notebook"
+      ],
+      "paletteHexes": [
+        "#1E88E5",
+        "#F5F5F5",
+        "#FFEB3B",
+        "#757575",
+        "#E53935"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/lab-notebook/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "astro-chart",
+      "displayName": "Astro Chart",
+      "family": "scientific-diagram",
+      "oneLiner": "Celestial coordinates, radial grids, ecliptic bands, constellation figures, horizon rings, and annotated star fields organized as a measured sky.",
+      "cues": [
+        "celestial-coordinate-grid",
+        "star-magnitude",
+        "constellation-boundary",
+        "radial-sky-projection",
+        "ecliptic-band",
+        "annotated-star-field",
+        "horizon-ring",
+        "measured-sky"
+      ],
+      "antiCues": [
+        "astrology-zodiac-poster",
+        "space-nebula-art",
+        "random-stars",
+        "sci-fi-interface",
+        "decorative-constellation-lines"
+      ],
+      "aliasPhrases": [
+        "star chart"
+      ],
+      "paletteHexes": [
+        "#0D1B2A",
+        "#FFD54F",
+        "#ECEFF1",
+        "#37474F",
+        "#7986CB"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/astro-chart/reference-01.jpg",
+        "assets/refs/astro-chart/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "circuit-schematic",
+      "displayName": "Circuit Schematic",
+      "family": "scientific-diagram",
+      "oneLiner": "Complete electrical systems rendered through standardized symbols, component IDs, connected nets, functional blocks, legends, and readable signal flow.",
+      "cues": [
+        "standardized-symbol",
+        "connected-net",
+        "component-id",
+        "functional-block",
+        "signal-flow",
+        "junction-dot",
+        "reference-designator",
+        "electrical-legend"
+      ],
+      "antiCues": [
+        "pcb-photograph",
+        "decorative-circuit-pattern",
+        "unconnected-symbols",
+        "cyberpunk-trace",
+        "wiring-photo"
+      ],
+      "aliasPhrases": [
+        "circuit schematic"
+      ],
+      "paletteHexes": [
+        "#212121",
+        "#4CAF50",
+        "#F44336",
+        "#FAFAFA",
+        "#2196F3"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/circuit-schematic/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "specimen-label",
+      "displayName": "Specimen Label",
+      "family": "scientific-diagram",
+      "oneLiner": "Collection-linked cards and tags organized through accession number, taxonomic name, provenance, date, identifier hierarchy, and compact institutional type.",
+      "cues": [
+        "catalog-number",
+        "taxonomic-name",
+        "collection-locality",
+        "collector-date",
+        "compact-institutional-type",
+        "physical-tag",
+        "provenance-record",
+        "identifier-hierarchy"
+      ],
+      "antiCues": [
+        "visitor-wall-text",
+        "boutique-hangtag",
+        "decorative-latin",
+        "large-exhibition-panel",
+        "generic-library-card"
+      ],
+      "aliasPhrases": [
+        "museum quiet",
+        "museum wall label"
+      ],
+      "paletteHexes": [
+        "#F4F1EA",
+        "#634E46",
+        "#502B8B",
+        "#1E3022",
+        "#A8B9BC"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/specimen-label/reference-01.jpg",
+        "assets/refs/specimen-label/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "film-noir",
+      "displayName": "Film Noir",
+      "family": "cinematic-noir",
+      "oneLiner": "1940s–50s crime-night framing with low-key light, hard shadow cuts, smoke, wet streets, oblique interiors, silhouettes, and fatalistic urban tension.",
+      "cues": [
+        "low-key-light",
+        "hard-shadow-cuts",
+        "oblique-framing",
+        "urban-night",
+        "silhouette",
+        "wet-street",
+        "smoke-haze",
+        "fatalistic-tension"
+      ],
+      "antiCues": [
+        "high-key-pastel",
+        "cheerful-symmetry",
+        "flat-vector-color",
+        "glossy-lifestyle-light"
+      ],
+      "aliasPhrases": [
+        "Film Noir"
+      ],
+      "paletteHexes": [
+        "#0A0A0B",
+        "#B0A8A0",
+        "#F5F2F5",
+        "#C85A98",
+        "#3A4850"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/film-noir/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "neo-noir-neon",
+      "displayName": "Neo-Noir Neon",
+      "family": "cinematic-noir",
+      "oneLiner": "Contemporary urban noir built from wet reflective streets, colored practical light, deep shadow, human-scale night depth, and ambiguous narrative tension.",
+      "cues": [
+        "colored-practical-light",
+        "wet-reflections",
+        "deep-urban-night",
+        "human-scale-tension",
+        "magenta-cyan-spill",
+        "silhouetted-figures",
+        "rain-glass",
+        "ambiguous-narrative"
+      ],
+      "antiCues": [
+        "festival-brightness",
+        "clean-tourist-vista",
+        "flat-neon-ui",
+        "pastel-daylight"
+      ],
+      "aliasPhrases": [
+        "Neo-Noir Neon",
+        "neon noir"
+      ],
+      "paletteHexes": [
+        "#FF2DA8",
+        "#00E5FF",
+        "#14121C",
+        "#3D2B6B",
+        "#F8F8FF"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/neo-noir-neon/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "golden-hour-film",
+      "displayName": "Golden Hour Film",
+      "family": "cinematic-noir",
+      "oneLiner": "Narrative frames shaped by low amber light, long shadows, warm haze, flare, softened distance, and film-like highlight rolloff near sunrise or sunset.",
+      "cues": [
+        "low-amber-sun",
+        "long-shadow",
+        "warm-haze",
+        "rim-light",
+        "soft-highlight-rolloff",
+        "lens-flare",
+        "layered-distance",
+        "narrative-still"
+      ],
+      "antiCues": [
+        "orange-filter-only",
+        "flat-midday-light",
+        "neon-night",
+        "clinical-white-balance"
+      ],
+      "aliasPhrases": [
+        "Golden Hour Film",
+        "golden hour"
+      ],
+      "paletteHexes": [
+        "#E8A54B",
+        "#A0F5C0",
+        "#3C8B65",
+        "#E0FEFF",
+        "#284A4A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/golden-hour-film/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "documentary-grit",
+      "displayName": "Documentary Grit",
+      "family": "cinematic-noir",
+      "oneLiner": "Observational human scenes using available light, imperfect framing, contextual environment, visible grain, and anti-glamour surface truth.",
+      "cues": [
+        "observational-framing",
+        "available-light",
+        "contextual-environment",
+        "unpolished-surface",
+        "human-presence",
+        "visible-grain",
+        "caption-utility",
+        "ethical-context"
+      ],
+      "antiCues": [
+        "fashion-glamour",
+        "staged-heroics",
+        "decorative-distress",
+        "contextless-poverty-aesthetic"
+      ],
+      "aliasPhrases": [
+        "Documentary Grit"
+      ],
+      "paletteHexes": [
+        "#6B705C",
+        "#A39E93",
+        "#3D405B",
+        "#C8B6A6",
+        "#8D99AE"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/documentary-grit/reference-01.jpg",
+        "assets/refs/documentary-grit/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "stage-spotlight",
+      "displayName": "Stage Spotlight",
+      "family": "cinematic-noir",
+      "oneLiner": "A performer isolated inside one hard-edged pool or visible cone of theatrical light against surrounding black void and controlled haze.",
+      "cues": [
+        "single-light-pool",
+        "hard-edged-beam",
+        "performer-isolation",
+        "black-void",
+        "controlled-haze",
+        "top-light",
+        "stage-floor",
+        "sculptural-rim"
+      ],
+      "antiCues": [
+        "concert-wash",
+        "ambient-room-fill",
+        "multi-color-clutter",
+        "flat-front-light"
+      ],
+      "aliasPhrases": [
+        "stage spotlight"
+      ],
+      "paletteHexes": [
+        "#0D0D0D",
+        "#F2C14E",
+        "#4A6FA5",
+        "#5C1A1B",
+        "#F5F0E8"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/stage-spotlight/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "fog-atmosphere",
+      "displayName": "Fog Atmosphere",
+      "family": "cinematic-noir",
+      "oneLiner": "Low-contrast scenes where diffused air erases horizons, softens edges, separates depth into veils, and lets forms emerge or disappear.",
+      "cues": [
+        "diffused-air",
+        "erased-horizon",
+        "layered-veil-depth",
+        "low-contrast",
+        "soft-edge",
+        "emerging-form",
+        "muted-palette",
+        "luminous-mist"
+      ],
+      "antiCues": [
+        "crisp-distant-detail",
+        "hard-noir-shadow",
+        "dense-neon-signage",
+        "flat-white-overlay"
+      ],
+      "aliasPhrases": [
+        "foggy atmosphere"
+      ],
+      "paletteHexes": [
+        "#8A9BAA",
+        "#F0F2F5",
+        "#3A4048",
+        "#B8B4C4",
+        "#C4A882"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/fog-atmosphere/reference-01.jpg",
+        "assets/refs/fog-atmosphere/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "graphic-black-and-white",
+      "displayName": "Graphic Black & White",
+      "family": "cinematic-noir",
+      "oneLiner": "Contemporary photography reduced to crushed blacks, blown whites, hard light cuts, silhouettes, and stark shape-first composition.",
+      "cues": [
+        "crushed-black",
+        "blown-white",
+        "shape-first",
+        "hard-light-cut",
+        "silhouette",
+        "stark-crop",
+        "minimal-midtones",
+        "contemporary-photography"
+      ],
+      "antiCues": [
+        "soft-gray-range",
+        "period-noir-costume",
+        "scientific-plate",
+        "decorative-monochrome-pattern"
+      ],
+      "aliasPhrases": [
+        "black and white contrast"
+      ],
+      "paletteHexes": [
+        "#000000",
+        "#FFFFFF",
+        "#777777",
+        "#222222",
+        "#DDDDDD"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/graphic-black-and-white/reference-02.jpg"
+      ]
+    },
+    {
+      "id": "suspense-still",
+      "displayName": "Suspense Still",
+      "family": "cinematic-noir",
+      "oneLiner": "Thriller framing that creates quiet dread through off-center subjects, blocked sightlines, foreground obstruction, partial reveal, and charged negative space.",
+      "cues": [
+        "charged-negative-space",
+        "partial-reveal",
+        "foreground-obstruction",
+        "off-center-subject",
+        "blocked-sightline",
+        "quiet-dread",
+        "held-moment",
+        "cool-shadow"
+      ],
+      "antiCues": [
+        "action-climax",
+        "full-threat-reveal",
+        "balanced-portrait",
+        "playful-color-clutter"
+      ],
+      "aliasPhrases": [
+        "suspense still"
+      ],
+      "paletteHexes": [
+        "#1A1E24",
+        "#6A8A9A",
+        "#C45C3A",
+        "#E8E2D8",
+        "#3A3030"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/suspense-still/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "analog-cinema-titles",
+      "displayName": "Analog Cinema Titles",
+      "family": "cinematic-noir",
+      "oneLiner": "Screen-centered display type, optical or printed title effects, leader marks, analog film grain, limited color timing, and frame-aware cinematic graphic composition.",
+      "cues": [
+        "screen-centered-type",
+        "optical-effects",
+        "film-grain",
+        "leader-marks",
+        "limited-color-timing",
+        "credit-rhythm",
+        "frame-aware-layout",
+        "printed-title-card"
+      ],
+      "antiCues": [
+        "streaming-ui",
+        "generic-retro-poster",
+        "clean-digital-gradient",
+        "dense-interface-labels"
+      ],
+      "aliasPhrases": [
+        "retro cinema"
+      ],
+      "paletteHexes": [
+        "#C94C4C",
+        "#5B8A8A",
+        "#F2E8C9",
+        "#7A5C3E",
+        "#4A4A52"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/analog-cinema-titles/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "night-drive",
+      "displayName": "Night Drive",
+      "family": "cinematic-noir",
+      "oneLiner": "Moving-vehicle night point of view through windshield depth, dashboard glow, road vanishing point, passing signs, light trails, wet glass, and speed blur.",
+      "cues": [
+        "windshield-point-of-view",
+        "road-vanishing-point",
+        "dashboard-glow",
+        "passing-light",
+        "wet-glass",
+        "speed-blur",
+        "lane-rhythm",
+        "moving-night-depth"
+      ],
+      "antiCues": [
+        "parked-car-exterior",
+        "daytime-road",
+        "static-cityscape",
+        "racing-game-ui"
+      ],
+      "aliasPhrases": [
+        "night drive"
+      ],
+      "paletteHexes": [
+        "#3D5A45",
+        "#E5F0EF",
+        "#141412",
+        "#3B7FC2",
+        "#71D76B"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/night-drive/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "geometric-toy",
+      "displayName": "Geometric Toy",
+      "family": "playful-system",
+      "oneLiner": "Buildable wood or solid-color primitives—arches, cylinders, tracks, blocks, and curves—combined into cheerful modular object systems.",
+      "cues": [
+        "modular-primitives",
+        "buildable-parts",
+        "wood-block",
+        "solid-color",
+        "arches-and-cylinders",
+        "recombination",
+        "object-scale",
+        "tactile-play"
+      ],
+      "antiCues": [
+        "miniature-isometric-world",
+        "glossy-candy-plastic",
+        "flat-pattern-only",
+        "branded-construction-set"
+      ],
+      "aliasPhrases": [
+        "Geometric Toy"
+      ],
+      "paletteHexes": [
+        "#E63946",
+        "#FFD166",
+        "#118AB2",
+        "#FFFFFF",
+        "#2B2D42"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/geometric-toy/generated-lead.jpg",
+        "assets/refs/geometric-toy/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "kids-picture-book",
+      "displayName": "Kids Picture Book",
+      "family": "playful-system",
+      "oneLiner": "Child-centered illustrated spreads with large friendly type, warm characters, clear story beats, page-turn anticipation, and image-text pacing.",
+      "cues": [
+        "illustrated-spread",
+        "page-turn-pacing",
+        "warm-character",
+        "large-friendly-type",
+        "clear-story-beat",
+        "image-text-balance",
+        "child-eye-level",
+        "recurring-motif"
+      ],
+      "antiCues": [
+        "standalone-character-sheet",
+        "adult-editorial-density",
+        "toy-packaging",
+        "single-poster-composition"
+      ],
+      "aliasPhrases": [
+        "Kids Picture Book",
+        "1990s educational CD-ROM"
+      ],
+      "paletteHexes": [
+        "#F4C542",
+        "#5BA4D9",
+        "#6BBF59",
+        "#F08C7A",
+        "#FFF6E8"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/kids-picture-book/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "board-game-box",
+      "displayName": "Board Game Box",
+      "family": "playful-system",
+      "oneLiner": "Shelf-facing game packaging that combines a strong title world, illustrated premise, player and age cues, component previews, and rule-system iconography.",
+      "cues": [
+        "shelf-facing-title",
+        "illustrated-premise",
+        "component-preview",
+        "player-age-cues",
+        "rule-iconography",
+        "box-panel-hierarchy",
+        "retail-thumbnail",
+        "tabletop-world"
+      ],
+      "antiCues": [
+        "generic-vintage-ephemera",
+        "toy-catalog-grid",
+        "minimal-luxury-box",
+        "unlicensed-game-imitation"
+      ],
+      "aliasPhrases": [
+        "board game box"
+      ],
+      "paletteHexes": [
+        "#C41E3A",
+        "#37D493",
+        "#C8E2F5",
+        "#5A273B",
+        "#1A1A1A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/board-game-box/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "sticker-sheet-system",
+      "displayName": "Sticker Sheet System",
+      "family": "playful-system",
+      "oneLiner": "A coordinated family of die-cut motifs arranged on visible backing through kiss-cut outlines, repeat scale, collectible variation, and efficient sheet composition.",
+      "cues": [
+        "visible-backing-sheet",
+        "kiss-cut-outline",
+        "coordinated-motif-family",
+        "efficient-nesting",
+        "collectible-variation",
+        "consistent-offset",
+        "repeat-scale",
+        "peelable-edge"
+      ],
+      "antiCues": [
+        "isolated-die-cut-sticker",
+        "brand-identity-board",
+        "chaotic-overlap",
+        "deep-photographic-scene"
+      ],
+      "aliasPhrases": [
+        "sticker sheet"
+      ],
+      "paletteHexes": [
+        "#00B4D8",
+        "#FF006E",
+        "#FFBE0B",
+        "#FFFFFF",
+        "#ADB5BD"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/sticker-sheet-system/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "isometric-play",
+      "displayName": "Isometric Play",
+      "family": "playful-system",
+      "oneLiner": "Bright miniature worlds built on consistent isometric axes, readable object stacking, modular rooms or streets, and toy-like spatial scale.",
+      "cues": [
+        "equal-axis-projection",
+        "miniature-world",
+        "modular-room",
+        "readable-stacking",
+        "toy-scale",
+        "cutaway-space",
+        "consistent-angle",
+        "bright-object-family"
+      ],
+      "antiCues": [
+        "perspective-vanishing-point",
+        "random-3d-angle",
+        "flat-block-pattern",
+        "realistic-architectural-render"
+      ],
+      "aliasPhrases": [
+        "Isometric Play"
+      ],
+      "paletteHexes": [
+        "#52B788",
+        "#6C757D",
+        "#4CC9F0",
+        "#E63946",
+        "#FFD60A"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/isometric-play/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "pattern-playground",
+      "displayName": "Pattern Playground",
+      "family": "playful-system",
+      "oneLiner": "Tileable motif families that use repetition, controlled variation, cheerful color, scale shifts, and surprising recombination across a continuous surface.",
+      "cues": [
+        "seamless-repeat",
+        "motif-family",
+        "controlled-variation",
+        "scale-shift",
+        "color-rotation",
+        "continuous-surface",
+        "phase-change",
+        "playful-recombination"
+      ],
+      "antiCues": [
+        "single-emblem",
+        "rigid-identical-tile",
+        "narrative-scene",
+        "photographic-texture"
+      ],
+      "aliasPhrases": [
+        "pattern playground"
+      ],
+      "paletteHexes": [
+        "#FF6B6B",
+        "#95D5B2",
+        "#B8A9C9",
+        "#E9C46A",
+        "#264653"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/pattern-playground/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "emoji-grammar",
+      "displayName": "Emoji Grammar",
+      "family": "playful-system",
+      "oneLiner": "Interoperable emoji-like pictograms arranged in sequences, reactions, modifiers, or mini-stories so icons function as a compositional language.",
+      "cues": [
+        "pictogram-sequence",
+        "semantic-combination",
+        "modifier-logic",
+        "reaction-chain",
+        "interoperable-token",
+        "consistent-glyph-style",
+        "inline-rhythm",
+        "mini-story"
+      ],
+      "antiCues": [
+        "single-isolated-icon",
+        "brand-specific-glyph-copy",
+        "random-symbol-row",
+        "decorative-icon-grid"
+      ],
+      "aliasPhrases": [
+        "emoji grammar"
+      ],
+      "paletteHexes": [
+        "#FFCC00",
+        "#4DA6FF",
+        "#34C759",
+        "#FF3B30",
+        "#FFFFFF"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/emoji-grammar/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "candy-plastic",
+      "displayName": "Candy Plastic",
+      "family": "playful-system",
+      "oneLiner": "Rounded molded objects in translucent, frosted, or glossy candy colors, with softened industrial geometry, ribbed detail, and playful material depth.",
+      "cues": [
+        "rounded-molded-form",
+        "translucent-color",
+        "glossy-surface",
+        "frosted-depth",
+        "ribbed-detail",
+        "softened-industrial-geometry",
+        "specular-roll",
+        "object-scale"
+      ],
+      "antiCues": [
+        "raw-recycled-flake",
+        "matte-wood-block",
+        "paper-craft",
+        "flat-pastel-vector"
+      ],
+      "aliasPhrases": [
+        "soft plastics"
+      ],
+      "paletteHexes": [
+        "#FF8FAB",
+        "#98E2C6",
+        "#A8D8FF",
+        "#FFFFFF",
+        "#D4C4F0"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/candy-plastic/generated-01.jpg"
+      ]
+    },
+    {
+      "id": "paper-cut-collage",
+      "displayName": "Paper-Cut Collage",
+      "family": "playful-system",
+      "oneLiner": "Scissor-cut or torn colored paper layered into scenes and shapes, with visible edge irregularity, overlap, cast depth, and handmade composition.",
+      "cues": [
+        "cut-paper-edge",
+        "torn-edge",
+        "layered-overlap",
+        "cast-paper-shadow",
+        "handmade-irregularity",
+        "colored-sheet",
+        "flattened-scene",
+        "visible-fiber"
+      ],
+      "antiCues": [
+        "engraved-montage",
+        "smooth-vector-shape",
+        "photographic-cutout-only",
+        "glossy-plastic-depth"
+      ],
+      "aliasPhrases": [
+        "paper cut collage"
+      ],
+      "paletteHexes": [
+        "#D64545",
+        "#457B9D",
+        "#F4D35E",
+        "#8D6E63",
+        "#FFF8E7"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/paper-cut-collage/generated-lead.jpg"
+      ]
+    },
+    {
+      "id": "motion-sticker",
+      "displayName": "Motion Sticker",
+      "family": "playful-system",
+      "oneLiner": "Sticker-like characters or objects given kinetic life through squash, stretch, motion arcs, speed lines, repeated frames, and cutout-style bounce.",
+      "cues": [
+        "squash-and-stretch",
+        "motion-arc",
+        "speed-line",
+        "repeated-pose",
+        "cutout-bounce",
+        "bold-outline",
+        "kinetic-silhouette",
+        "anticipation-pose"
+      ],
+      "antiCues": [
+        "static-icon",
+        "full-sticker-sheet",
+        "photographic-motion-blur",
+        "rigid-symbol-grid"
+      ],
+      "aliasPhrases": [
+        "motion sticker"
+      ],
+      "paletteHexes": [
+        "#4361EE",
+        "#FF6D00",
+        "#06D6A0",
+        "#FFFFFF",
+        "#7209B7"
+      ],
+      "requiresCulturalReview": false,
+      "referencePaths": [
+        "assets/refs/motion-sticker/generated-lead.jpg"
+      ]
+    }
+  ]
+}

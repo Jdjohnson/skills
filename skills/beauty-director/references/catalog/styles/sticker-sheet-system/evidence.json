@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "sticker-sheet-system",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Kiss-cut sticker sheet construction",
+    "creatorOrTradition": "Cricut",
+    "sourceUrl": "https://cricut.com/blog/gb/introducing-create-sticker-in-design-space/",
+    "whyCanonical": "Cricut defines kiss-cutting as cutting the sticker layer while leaving the backing intact, the central physical signal of a sticker sheet."
+  },
+  "sources": [
+    {
+      "title": "Introducing Create Sticker in Design Space",
+      "publisher": "Cricut",
+      "url": "https://cricut.com/blog/gb/introducing-create-sticker-in-design-space/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A kiss cut follows each design through the sticker material while preserving a shared backing sheet."
+      ]
+    },
+    {
+      "title": "Custom Kiss-Cut Stickers",
+      "publisher": "Avery",
+      "url": "https://www.avery.com/custom-printing/stickers/calculator/kiss-cut-stickers",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Kiss-cut stickers retain backing and border, which support easy peeling, handling, and a visible frame around each shape."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches visible backing sheet, kiss cut outline, coordinated motif family, efficient nesting, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/sticker-sheet-system/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/sticker-sheet-system/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches visible backing sheet, kiss cut outline, coordinated motif family, efficient nesting, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

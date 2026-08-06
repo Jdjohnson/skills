@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beauty Director"
+  short_description: "Find and record a visual direction in images"
+  default_prompt: "Use $beauty-director to lead an image-first visual-direction walk for this project and write the approved beauty-profile.md."

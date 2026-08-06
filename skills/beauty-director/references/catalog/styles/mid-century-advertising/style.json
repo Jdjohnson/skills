@@ -1,0 +1,160 @@
+{
+  "id": "mid-century-advertising",
+  "displayName": "Mid-Century Advertising",
+  "family": "pop-commercial",
+  "definition": "Optimistic commercial illustration or photography, polished product staging, bold headline, benefit copy, and controlled magazine-page hierarchy sell an aspirational postwar life.",
+  "axes": {
+    "minimalOrnate": 0.5,
+    "geometricOrganic": -0.4,
+    "polishedRaw": -0.5,
+    "calmEnergetic": 0.6,
+    "historicalFuturistic": -0.4,
+    "realisticAbstract": 0.1,
+    "warmCool": -0.6,
+    "lightDark": -0.4,
+    "playfulSerious": -0.4,
+    "handmadeMachined": 0.4,
+    "flatDeep": -0.3,
+    "everydayLuxurious": 0.1
+  },
+  "cues": [
+    "commercial",
+    "mid-century",
+    "smooth",
+    "advertising-pace",
+    "print-signal"
+  ],
+  "antiCues": [
+    "rough",
+    "shadow-heavy",
+    "meditative-pace"
+  ],
+  "emotionalEffects": [
+    "nostalgic",
+    "joyful",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.6,
+      "symmetry": 0.55,
+      "margins": 0.14
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#98D8C8",
+        "#FF6B6B",
+        "#FFF5E1",
+        "#008B8B",
+        "#333333"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/retro-ad-slick.svg",
+      "descriptor": "mid-century geometric sans",
+      "weight": 600,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.45,
+      "curveTension": 0.35
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/pop-commercial-primary"
+      ],
+      "finish": "gloss",
+      "grain": 0.15,
+      "tags": [
+        "paper",
+        "ink",
+        "lacquer"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.25,
+      "parallax": 0.12
+    },
+    "motion": {
+      "energy": 0.55,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "stylized",
+      "subjectRules": [
+        "original postwar product promise",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 3,
+    "packaging": 2,
+    "photography": 2,
+    "motion-video": 2,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "an original postwar product advertisement built around one clear promise and one visual proof",
+    "framing": "pair a polished product rendering with an aspirational domestic scene, shaped headline, compact body copy, and deliberate open space",
+    "mustShow": [
+      "commercial",
+      "mid-century",
+      "smooth"
+    ],
+    "mustAvoid": [
+      "rough",
+      "shadow-heavy",
+      "meditative-pace",
+      "copied slogan or trademark",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "belle-epoque-lithograph",
+    "roadside-americana",
+    "psychedelic-poster"
+  ],
+  "contrasting": [
+    "graphic-brutalism",
+    "documentary-grit",
+    "concrete-poetry"
+  ]
+}

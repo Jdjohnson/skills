@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "ulm-systems-design",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Ulm School of Design product and information systems",
+    "creatorOrTradition": "Hochschule für Gestaltung Ulm",
+    "sourceUrl": "https://museumulm.de/en/collections/hfg-ulm/",
+    "whyCanonical": "The collection joins teaching, industrial products, graphics, and the Ulm model of structured design work rather than presenting one isolated visual motif."
+  },
+  "sources": [
+    {
+      "title": "HfG Ulm",
+      "publisher": "Museum Ulm",
+      "url": "https://museumulm.de/en/collections/hfg-ulm/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The institutional collection documents HfG Ulm through teaching and resolved industrial products.",
+        "Stacking tableware, the Ulm stool, and Braun product work support serial product-system evidence."
+      ]
+    },
+    {
+      "title": "Archival research and service",
+      "publisher": "HfG-Archiv / Museum Ulm",
+      "url": "https://hfg-archiv.museumulm.de/en/archival-research-and-service/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The archive preserves original files, product models, two-dimensional graphic designs, and institutional collections.",
+        "The source base supports researching relationships across product, identity, and information work."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches system family, grid defined, serial, technical diagram, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/ulm-systems-design/generated-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/ulm-systems-design/generated-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches system family, grid defined, serial, technical diagram, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

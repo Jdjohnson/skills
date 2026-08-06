@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "motion-sticker",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Squash-and-stretch animation principles",
+    "creatorOrTradition": "Adobe",
+    "sourceUrl": "https://www.adobe.com/creativecloud/animation/discover/principles-of-animation.html",
+    "whyCanonical": "Adobe identifies squash and stretch, anticipation, staging, arcs, and timing as foundational ways to make animated objects feel weighted and alive."
+  },
+  "sources": [
+    {
+      "title": "12 Principles of Animation",
+      "publisher": "Adobe",
+      "url": "https://www.adobe.com/creativecloud/animation/discover/principles-of-animation.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Squash and stretch, anticipation, staging, arcs, and timing give drawn movement weight, clarity, and expressive life."
+      ]
+    },
+    {
+      "title": "Stylizing Animation By Example",
+      "publisher": "ACM Transactions on Graphics",
+      "url": "https://doi.org/10.1145/2461912.2461929",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The paper presents example-driven stylization that preserves expressive drawn appearance with temporal coherence across animated sequences."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The repeated bird poses form a clear motion sequence. Arcs, squash-and-stretch, impact marks, expression changes, and consistent character design make motion—not merely sticker styling—the primary lesson. The independently approved lead is assets/refs/motion-sticker/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/motion-sticker/generated-lead.jpg",
+    "notes": "The repeated bird poses form a clear motion sequence. Arcs, squash-and-stretch, impact marks, expression changes, and consistent character design make motion—not merely sticker styling—the primary lesson.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

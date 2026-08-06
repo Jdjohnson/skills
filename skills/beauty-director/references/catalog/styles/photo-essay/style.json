@@ -1,0 +1,160 @@
+{
+  "id": "photo-essay",
+  "displayName": "Photo Essay",
+  "family": "editorial-literary",
+  "definition": "A sequenced group of photographs carries the argument through edit, rhythm, scale, page turn, and minimal captioning rather than a single hero image.",
+  "axes": {
+    "minimalOrnate": -0.4,
+    "geometricOrganic": 0.2,
+    "polishedRaw": -0.3,
+    "calmEnergetic": 0.2,
+    "historicalFuturistic": -0.2,
+    "realisticAbstract": -0.5,
+    "warmCool": -0.2,
+    "lightDark": 0.2,
+    "playfulSerious": 0.3,
+    "handmadeMachined": -0.1,
+    "flatDeep": 0.2,
+    "everydayLuxurious": 0.1
+  },
+  "cues": [
+    "photo-sequence",
+    "documentary-narrative",
+    "edit-rhythm",
+    "minimal-captions",
+    "page-turn"
+  ],
+  "antiCues": [
+    "single-hero",
+    "text-led",
+    "decorative-gallery",
+    "unrelated-images"
+  ],
+  "emotionalEffects": [
+    "intimate",
+    "dramatic",
+    "nostalgic"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.35,
+      "symmetry": 0.45,
+      "margins": 0.08
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#E5E8E1",
+        "#2E314A",
+        "#20A033",
+        "#0F0F0F",
+        "#9A897F"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/photo-essay.svg",
+      "descriptor": "quiet sans captions under full-bleed images",
+      "weight": 400,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/editorial-literary-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.35,
+      "tags": [
+        "paper",
+        "film-grain"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.55,
+      "keyDirection": "side",
+      "gradient": 0.4
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "documentary-sequence",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.15
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 3,
+    "motion-video": 2,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a three-image documentary sequence moving from place to person to decisive detail",
+    "framing": "Published spread and following page with varied image scale, consistent tonal edit, minimal captions, and an unmistakable narrative progression.",
+    "mustShow": [
+      "photo-sequence",
+      "documentary-narrative",
+      "edit-rhythm"
+    ],
+    "mustAvoid": [
+      "single-hero",
+      "text-led",
+      "unrelated-images",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "fashion-editorial",
+    "news-broadsheet",
+    "magazine-feature"
+  ],
+  "contrasting": [
+    "type-specimen-book",
+    "operational-dashboard",
+    "crt-terminal"
+  ]
+}

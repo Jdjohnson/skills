@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "roadside-americana",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Route 66 roadside signs and novelty architecture",
+    "creatorOrTradition": "Twentieth-century American roadside commercial vernacular",
+    "sourceUrl": "https://www.nps.gov/articles/000/marketing-perspective-route-66-roadside-architecture.htm",
+    "whyCanonical": "Road-facing businesses establish the style's giant signs, literal novelty shapes, neon, long-distance legibility, automobile scale, and improvised commercial personality."
+  },
+  "sources": [
+    {
+      "title": "A Marketing Perspective on Route 66 Roadside Architecture",
+      "publisher": "National Park Service",
+      "url": "https://www.nps.gov/articles/000/marketing-perspective-route-66-roadside-architecture.htm",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Roadside businesses used architecture, oversized signs, novelty form, and rapid visual recognition to attract motorists traveling at speed."
+      ]
+    },
+    {
+      "title": "Route 66: How to Preserve Your Sign",
+      "publisher": "National Park Service",
+      "url": "https://www.nps.gov/articles/000/route-66-how-to-preserve-your-sign.htm",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Historic sign materials, paint, neon, mounting, scale, and weathering are specific physical features rather than a generic retro filter."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches vernacular form, street signal, hand drawn, vivid chroma, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/roadside-americana/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/roadside-americana/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches vernacular form, street signal, hand drawn, vivid chroma, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

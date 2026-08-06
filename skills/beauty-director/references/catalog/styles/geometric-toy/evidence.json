@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "geometric-toy",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Century of the Child: construction toys",
+    "creatorOrTradition": "Museum of Modern Art",
+    "sourceUrl": "https://www.moma.org/momaorg/shared/pdfs/docs/publication_pdf/3156/COTC_Section1_revised.pdf",
+    "whyCanonical": "MoMA connects geometric construction toys with imaginative world-building, modular parts, and design education across the twentieth century."
+  },
+  "sources": [
+    {
+      "title": "Century of the Child: Growing by Design, 1900–2000",
+      "publisher": "Museum of Modern Art",
+      "url": "https://www.moma.org/momaorg/shared/pdfs/docs/publication_pdf/3156/COTC_Section1_revised.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Construction toys use modular geometric elements to support imaginative building and learning through play."
+      ]
+    },
+    {
+      "title": "Playing with Modern Design",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/2017/03/19/playing-with-modern-design/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Reductive colorful toy forms connect modern design vocabulary with creativity, play, and learning."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach modular primitives, buildable parts, wood block, solid color while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/geometric-toy/generated-lead.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/geometric-toy/generated-lead.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach modular primitives, buildable parts, wood block, solid color while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

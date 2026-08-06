@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "suspense-still",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Death Jump — Eiffel Tower (1912)",
+    "creatorOrTradition": "British Pathé; analysis by BFI Sight and Sound",
+    "sourceUrl": "https://www.bfi.org.uk/sight-and-sound/archives-online-british-pathes-death-jump-eiffel-tower-1912",
+    "whyCanonical": "BFI's analysis identifies suspense in a subject placed at the far edge beside beckoning empty space and in the duration before the decisive act."
+  },
+  "sources": [
+    {
+      "title": "Archives online: British Pathé’s Death Jump — Eiffel Tower (1912)",
+      "publisher": "British Film Institute",
+      "url": "https://www.bfi.org.uk/sight-and-sound/archives-online-british-pathes-death-jump-eiffel-tower-1912",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Edge placement, empty space, duration, and delayed action can produce high suspense without visual spectacle."
+      ]
+    },
+    {
+      "title": "How 12 Angry Men works — in 25 frames",
+      "publisher": "British Film Institute",
+      "url": "https://www.bfi.org.uk/features/how-12-angry-men-works-25-frames",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Changes in framing, camera height, encroaching figures, and darkness can turn a static room into escalating screen tension."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches charged negative space, partial reveal, foreground obstruction, off center subject, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/suspense-still/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/suspense-still/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches charged negative space, partial reveal, foreground obstruction, off center subject, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

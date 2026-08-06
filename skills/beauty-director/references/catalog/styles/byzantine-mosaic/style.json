@@ -1,0 +1,166 @@
+{
+  "id": "byzantine-mosaic",
+  "displayName": "Byzantine Mosaic",
+  "family": "ornate-historical",
+  "definition": "Eastern Roman and Eastern Christian mosaic programs use tesserae, gold ground, frontal iconography, shallow space, and monumental sacred placement, with cultural and religious context retained.",
+  "axes": {
+    "minimalOrnate": 0.9,
+    "geometricOrganic": -0.4,
+    "polishedRaw": -0.5,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": -0.9,
+    "realisticAbstract": -0.4,
+    "warmCool": -0.2,
+    "lightDark": 0.1,
+    "playfulSerious": 0.5,
+    "handmadeMachined": -0.5,
+    "flatDeep": -0.8,
+    "everydayLuxurious": 0.8
+  },
+  "cues": [
+    "tessellated",
+    "gold-leaf",
+    "iconic",
+    "flat",
+    "framed"
+  ],
+  "antiCues": [
+    "deep",
+    "minimal",
+    "photographic"
+  ],
+  "emotionalEffects": [
+    "monumental",
+    "solemn",
+    "timeless"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "axial",
+      "density": 0.9,
+      "symmetry": 0.7,
+      "margins": 0.3
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#C9A227",
+        "#1E3A8A",
+        "#6B1E3A",
+        "#0F6B4C",
+        "#F3E9D2"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/byzantine-mosaic.svg",
+      "descriptor": "uncial-inspired caps",
+      "weight": 700,
+      "tracking": 0.04
+    },
+    "shapeLine": {
+      "cornerRadius": 0.15,
+      "lineWeight": 0.5,
+      "curveTension": 0.25
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/ornate-historical-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.3,
+      "tags": [
+        "glass",
+        "gold-leaf",
+        "stone"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.2
+    },
+    "depth": {
+      "layers": 1,
+      "shadowSoftness": 0.1,
+      "parallax": 0
+    },
+    "motion": {
+      "energy": 0.15,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/ornate-historical"
+      ],
+      "density": 0.9,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "iconic",
+      "subjectRules": [
+        "tradition-specific sacred mosaic program",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.5
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 0,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "a gold-ground sacred mosaic program organized around a frontal central figure",
+    "framing": "use hierarchical scale, formal symmetry, contour, and shimmering tesserae across an architectural surface while keeping subject and setting culturally specific",
+    "mustShow": [
+      "tessellated",
+      "gold-leaf",
+      "iconic"
+    ],
+    "mustAvoid": [
+      "deep",
+      "minimal",
+      "photographic",
+      "generic luxury pattern",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": "Eastern Mediterranean",
+  "traditionalOrLivingPractice": true,
+  "requiresCulturalReview": true,
+  "culturalContext": {
+    "summary": "Eastern Roman / Byzantine mosaic programs",
+    "antiCaricature": "Treat motifs as living or historically specific visual languages, not costume kitsch. Prefer structural grammar (line, rhythm, material) over stereotyped subjects. Avoid sacred symbol misuse.",
+    "guidance": "When applying this node, preserve source grammar and cite traditions. Prefer consultation with authoritative museum/catalog sources over pop caricature."
+  },
+  "related": [
+    "illuminated-manuscript",
+    "gothic-revival",
+    "empire-style"
+  ],
+  "contrasting": [
+    "glitch-art",
+    "documentary-grit",
+    "web-brutalism"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "artisan-bookbinding",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Sewn signatures cased into a crafted cover as a durable working book",
+    "creatorOrTradition": "Hand bookbinding and book-conservation practice",
+    "sourceUrl": "https://blogs.loc.gov/preservation/2023/06/binding/",
+    "whyCanonical": "The Library of Congress describes binding as an engineered relationship among sewn or glued text block, spine, boards, endpapers, and covering, with protection and usable opening as core purposes."
+  },
+  "sources": [
+    {
+      "title": "Why We Bind",
+      "publisher": "Library of Congress Preservation Directorate",
+      "url": "https://blogs.loc.gov/preservation/2023/06/binding/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Books with sewn signatures are assembled as a text block and cased into a cover and spine built from board and covering material.",
+        "A binding is functional engineering that protects pages while keeping the volume accessible to readers."
+      ]
+    },
+    {
+      "title": "The Fragility of Joints and Hinges",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/perspectives/joints-and-hinges",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Joints and hinges form the flexible structural connection where boards meet the spine and determine how a book opens.",
+        "Leather, vellum, textile, and paper are all established covering or structural materials whose wear reveals the book's construction."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches paper, craft signal, intimate scale, collector signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/artisan-bookbinding/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/artisan-bookbinding/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches paper, craft signal, intimate scale, collector signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "dada-collage",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of Dada photomontage and typographic collage.\nUse case: poster-campaign\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original anarchic cultural poster assembled from torn newsprint, mechanical fragments, one anonymous mannequin head, rotated letterforms, abrupt scale jumps, red overprint, and visibly pasted seams.\nStyle/medium: hand-cut analog collage photographed flat, with crude ink and letterpress fragments\nComposition/framing: portrait 4:5, explosive diagonal collision around a central gear-eye motif, asymmetric white gaps, unmistakable at thumbnail scale\nLighting/mood: disruptive, absurd, urgent\nColor palette: newsprint cream, black, scarlet, dirty gray\nMaterials/textures: torn paper fibers, glue wrinkles, halftone dots, stamped ink\nText: use only the exact word NOW and numeral 7; all other marks abstract\nConstraints: original source fragments and fictional ephemera, no real newspaper, no real person likeness, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "537b1d5d1a79be8759ba1464469247d5c15760d82ca8695f936d1bf97901979b",
+  "finalAsset": "assets/refs/dada-collage/generated-lead.jpg",
+  "finalSha256": "3dd915cee6c9739d011d1b64381dc5091c772018f7cedb374fd0584e13fe66c7",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

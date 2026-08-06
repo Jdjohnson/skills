@@ -1,0 +1,16 @@
+{
+  "name": "beauty-director",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Image-led visual direction skill with an authored style catalog",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build:attribution": "node scripts/build/build-attribution.mjs",
+    "build:index": "node scripts/build/build-index.mjs",
+    "validate": "node scripts/build/validate-catalog.mjs && node scripts/build/validate-authorship.mjs && node scripts/build/validate-image-sources.mjs",
+    "test": "node tests/smoke.mjs"
+  }
+}

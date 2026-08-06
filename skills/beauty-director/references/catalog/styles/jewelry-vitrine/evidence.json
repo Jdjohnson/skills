@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "jewelry-vitrine",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Jewelry isolated as a resplendent crafted object",
+    "creatorOrTradition": "Museum jewelry display and decorative-arts object study",
+    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2018/jewelry/resplendent-body",
+    "whyCanonical": "The Met frames jewelry through material value, design quality, craftsmanship, reflection, refraction, and the shift of attention from the wearer to the object itself."
+  },
+  "sources": [
+    {
+      "title": "The Resplendent Body",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2018/jewelry/resplendent-body",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Jewelry display depends on material value, design quality, craftsmanship, and controlled interaction with light.",
+        "The object can become the primary focus, supporting isolation and close inspection rather than lifestyle staging."
+      ]
+    },
+    {
+      "title": "Pendant with Shri, Cleveland Museum of Art 1953.14",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Pakistan,_Gandhara,_Sirkap,_Kushan_Period_-_Pendant_with_Shri_-_1953.14_-_Cleveland_Museum_of_Art.tif",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The exact bundled object source records the small precious scale, metal setting, gemstones, and museum provenance.",
+        "The frontal record provides construction detail but also demonstrates why a stronger vitrine-specific lead is still needed."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches luxury signal, object scale, velvet, glass, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/jewelry-vitrine/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/jewelry-vitrine/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches luxury signal, object scale, velvet, glass, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

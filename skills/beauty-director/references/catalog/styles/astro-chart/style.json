@@ -1,0 +1,163 @@
+{
+  "id": "astro-chart",
+  "displayName": "Astro Chart",
+  "family": "scientific-diagram",
+  "definition": "Celestial coordinates, radial grids, ecliptic bands, constellation figures, horizon rings, and annotated star fields organized as a measured sky.",
+  "axes": {
+    "minimalOrnate": -0.4,
+    "geometricOrganic": -0.7,
+    "polishedRaw": -0.5,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": -0.2,
+    "realisticAbstract": 0.4,
+    "warmCool": 0.3,
+    "lightDark": 0.6,
+    "playfulSerious": 0.5,
+    "handmadeMachined": 0.4,
+    "flatDeep": -0.7,
+    "everydayLuxurious": -0.2
+  },
+  "cues": [
+    "celestial-coordinate-grid",
+    "star-magnitude",
+    "constellation-boundary",
+    "radial-sky-projection",
+    "ecliptic-band",
+    "annotated-star-field",
+    "horizon-ring",
+    "measured-sky"
+  ],
+  "antiCues": [
+    "astrology-zodiac-poster",
+    "space-nebula-art",
+    "random-stars",
+    "sci-fi-interface",
+    "decorative-constellation-lines"
+  ],
+  "emotionalEffects": [
+    "mysterious",
+    "scholarly",
+    "serene"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "radial",
+      "density": 0.5,
+      "symmetry": 0.8,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#0D1B2A",
+        "#FFD54F",
+        "#ECEFF1",
+        "#37474F",
+        "#7986CB"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/astro-chart.svg",
+      "descriptor": "system sans/display",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/scientific-diagram-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.3,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.55,
+      "keyDirection": "front",
+      "gradient": 0.4
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "use-real-celestial-coordinate-logic",
+        "encode-magnitude-and-position",
+        "distinguish-constellation-boundary-from-artwork",
+        "avoid-astrology-conflation"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 3,
+    "editorial-document": 2,
+    "social-advertising": 2,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 0,
+    "interiors-architecture": 1,
+    "data-visualization": 3
+  },
+  "heroRecipe": {
+    "motif": "a measured sky map plotted in celestial coordinates with magnitude-coded stars, constellation boundaries, and reference lines",
+    "framing": "show the complete projection or planisphere with coordinate structure, labels, legend, and horizon or ecliptic relationship",
+    "mustShow": [
+      "celestial grid",
+      "magnitude hierarchy",
+      "constellation or catalog annotation"
+    ],
+    "mustAvoid": [
+      "zodiac fortune symbols",
+      "cinematic nebula background",
+      "random star scatter",
+      "HUD chrome",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "cartographic-sheet",
+    "engineering-blueprint",
+    "classic-infographic"
+  ],
+  "contrasting": [
+    "market-vernacular",
+    "roadside-vernacular",
+    "supermarket-packaging"
+  ]
+}

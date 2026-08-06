@@ -1,0 +1,163 @@
+{
+  "id": "cartographic-sheet",
+  "displayName": "Cartographic Sheet",
+  "family": "scientific-diagram",
+  "definition": "Measured terrain organized through contour, water, route, boundary, elevation, scale, legend, and institutional map hierarchy.",
+  "axes": {
+    "minimalOrnate": -0.6,
+    "geometricOrganic": -0.1,
+    "polishedRaw": -0.4,
+    "calmEnergetic": -0.3,
+    "historicalFuturistic": -0.3,
+    "realisticAbstract": -0.5,
+    "warmCool": 0.2,
+    "lightDark": -0.4,
+    "playfulSerious": 0.6,
+    "handmadeMachined": 0.3,
+    "flatDeep": -0.5,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "contour-lines",
+    "scale-bar",
+    "map-legend",
+    "route-network",
+    "water-boundary",
+    "elevation-label",
+    "institutional-marginalia",
+    "symbol-hierarchy"
+  ],
+  "antiCues": [
+    "fantasy-map-ornament",
+    "satellite-image-only",
+    "unscaled-diagram",
+    "decorative-compass-rose",
+    "random-topography-lines"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "scholarly",
+    "austere"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.5,
+      "symmetry": 0.4,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#A5D6A7",
+        "#90CAF9",
+        "#8D6E63",
+        "#FFFDE7",
+        "#37474F"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/cartographic-sheet.svg",
+      "descriptor": "system sans/display",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/scientific-diagram-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.35,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "encode-measured-terrain",
+        "include-scale-legend-and-orientation",
+        "use-consistent-map-symbols",
+        "distinguish-terrain-route-water-and-boundary"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 1,
+    "web-app": 3,
+    "presentation": 3,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 3
+  },
+  "heroRecipe": {
+    "motif": "a complete measured terrain sheet where contours, water, routes, boundaries, labels, legend, and scale work together",
+    "framing": "show the mapped area and its marginal information as one disciplined page rather than cropping to decorative contour texture",
+    "mustShow": [
+      "elevation contours",
+      "symbol and label hierarchy",
+      "scale legend or coordinate system"
+    ],
+    "mustAvoid": [
+      "fantasy ornament",
+      "meaningless contour wallpaper",
+      "satellite image without mapping",
+      "unreadable labels",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "astro-chart",
+    "engineering-blueprint",
+    "classic-infographic"
+  ],
+  "contrasting": [
+    "narrative-textile",
+    "quilting-pattern",
+    "vaporwave"
+  ]
+}

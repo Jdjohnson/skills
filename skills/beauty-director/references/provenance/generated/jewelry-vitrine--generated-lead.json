@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "jewelry-vitrine",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of jewelry vitrine art direction.\nUse case: ads-marketing\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original museum-vitrine jewelry campaign featuring one abstract sculptural ring suspended above a dark plinth, razor-controlled reflections, gemstone-like caustics, precise micro-scale typography, and large areas of black.\nStyle/medium: ultra-refined studio product photography and campaign layout\nComposition/framing: portrait 4:5, ring sits just above center with a long elegant shadow, tiny caption system at base, unmistakable at thumbnail scale\nLighting/mood: precious, exact, dramatic\nColor palette: black, platinum, clear crystal, one deep emerald accent\nMaterials/textures: polished metal, optical glass, velvet-black surface\nText: use only the exact title OBJECT 01\nConstraints: original fictional jewelry design, no real brand, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "ae989cacb2a8cc2cbd3c001c8ec879985b44eb10a12312b4d888debbbda3ec62",
+  "finalAsset": "assets/refs/jewelry-vitrine/generated-lead.jpg",
+  "finalSha256": "e494b0e83f40cff17fc68a32a2da6072a5705938033d7bd8958ee64fc8a9eb61",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

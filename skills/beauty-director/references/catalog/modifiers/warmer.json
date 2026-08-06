@@ -1,0 +1,55 @@
+{
+  "id": "warmer",
+  "group": "temperature",
+  "definition": "Shift palette and light toward warm bias.",
+  "targetConcerns": [
+    "palette",
+    "lighting"
+  ],
+  "compatibleStyles": [
+    "golden-hour-film",
+    "quiet-luxury",
+    "botanical-watercolor",
+    "film-noir"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "cooler"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "hueRotate",
+          "degrees": 18
+        },
+        {
+          "op": "addParam",
+          "concern": "lighting",
+          "path": "gradient",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

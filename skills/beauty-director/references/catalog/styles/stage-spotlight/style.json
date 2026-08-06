@@ -1,0 +1,163 @@
+{
+  "id": "stage-spotlight",
+  "displayName": "Stage Spotlight",
+  "family": "cinematic-noir",
+  "definition": "A performer isolated inside one hard-edged pool or visible cone of theatrical light against surrounding black void and controlled haze.",
+  "axes": {
+    "minimalOrnate": -0.4,
+    "geometricOrganic": -0.4,
+    "polishedRaw": -0.5,
+    "calmEnergetic": -0.5,
+    "historicalFuturistic": -0.1,
+    "realisticAbstract": -0.4,
+    "warmCool": 0.1,
+    "lightDark": 0.9,
+    "playfulSerious": 0.4,
+    "handmadeMachined": 0.3,
+    "flatDeep": 0.8,
+    "everydayLuxurious": 0.4
+  },
+  "cues": [
+    "single-light-pool",
+    "hard-edged-beam",
+    "performer-isolation",
+    "black-void",
+    "controlled-haze",
+    "top-light",
+    "stage-floor",
+    "sculptural-rim"
+  ],
+  "antiCues": [
+    "concert-wash",
+    "ambient-room-fill",
+    "multi-color-clutter",
+    "flat-front-light"
+  ],
+  "emotionalEffects": [
+    "dramatic",
+    "monumental",
+    "mysterious"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "radial",
+      "density": 0.25,
+      "symmetry": 0.8,
+      "margins": 0.25
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#0D0D0D",
+        "#F2C14E",
+        "#4A6FA5",
+        "#5C1A1B",
+        "#F5F0E8"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/stage-spotlight.svg",
+      "descriptor": "bold display caps with theatrical tracking",
+      "weight": 700,
+      "tracking": 0.08
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/cinematic-noir-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.2,
+      "tags": [
+        "velvet",
+        "dust"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.95,
+      "keyDirection": "top",
+      "gradient": 0.85
+    },
+    "depth": {
+      "layers": 3,
+      "shadowSoftness": 0.3,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.2,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.05,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "photographic",
+      "subjectRules": [
+        "style-specific-subject",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.2
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 3,
+    "editorial-document": 1,
+    "social-advertising": 2,
+    "packaging": 1,
+    "photography": 3,
+    "motion-video": 2,
+    "product-3d": 2,
+    "interiors-architecture": 2,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "solo performer in one light pool",
+    "framing": "Center a performer inside a controlled cone of warm top light on a dark stage; show the pool edge on the floor and a faint cool rim through haze.",
+    "mustShow": [
+      "single-light-pool",
+      "performer-isolation",
+      "black-void"
+    ],
+    "mustAvoid": [
+      "concert-wash",
+      "ambient-room-fill",
+      "multi-color-clutter",
+      "flat-front-light",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "baroque-chiaroscuro",
+    "suspense-still",
+    "fashion-editorial"
+  ],
+  "contrasting": [
+    "pattern-playground",
+    "emoji-grammar",
+    "operational-dashboard"
+  ]
+}

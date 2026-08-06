@@ -1,0 +1,160 @@
+{
+  "id": "carnival-poster",
+  "displayName": "Carnival Poster",
+  "family": "pop-commercial",
+  "definition": "Wood-type scale, saturated circus inks, hyperbolic illustration, dense attraction hierarchy, and showman copy create a loud midway pitch.",
+  "axes": {
+    "minimalOrnate": 0.6,
+    "geometricOrganic": 0.3,
+    "polishedRaw": 0.3,
+    "calmEnergetic": 1,
+    "historicalFuturistic": -0.3,
+    "realisticAbstract": -0.2,
+    "warmCool": -0.4,
+    "lightDark": -0.4,
+    "playfulSerious": -0.7,
+    "handmadeMachined": -0.4,
+    "flatDeep": -0.3,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "festive-signal",
+    "poster-scale",
+    "polychrome",
+    "illustrated",
+    "recreational"
+  ],
+  "antiCues": [
+    "austere",
+    "minimal",
+    "clinical"
+  ],
+  "emotionalEffects": [
+    "joyful",
+    "playful",
+    "energized"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.8,
+      "symmetry": 0.45,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#E63946",
+        "#F4A261",
+        "#2A9D8F",
+        "#FFFBEB",
+        "#1D3557"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/carnival-poster.svg",
+      "descriptor": "show-card display with shadow fill",
+      "weight": 800,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.35,
+      "lineWeight": 0.65,
+      "curveTension": 0.5
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/pop-commercial-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.35,
+      "tags": [
+        "paper",
+        "ink",
+        "matte-paint"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.65,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.3,
+      "parallax": 0.15
+    },
+    "motion": {
+      "energy": 0.9,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.6,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "pictorial",
+      "subjectRules": [
+        "fictional midway attraction",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 3,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "an original midway show poster built around one exaggerated headline attraction",
+    "framing": "stack attraction name, spectacular image, superlative claims, and event details into a loud vertical hierarchy readable from across a fairground",
+    "mustShow": [
+      "festive-signal",
+      "poster-scale",
+      "vivid-chroma"
+    ],
+    "mustAvoid": [
+      "austere",
+      "minimal",
+      "clinical",
+      "real performer identity",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "belle-epoque-lithograph",
+    "roadside-americana",
+    "billboard-bold"
+  ],
+  "contrasting": [
+    "academic-journal",
+    "lab-notebook",
+    "civic-wayfinding"
+  ]
+}

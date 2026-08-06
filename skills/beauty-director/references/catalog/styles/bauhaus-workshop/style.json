@@ -1,0 +1,157 @@
+{
+  "id": "bauhaus-workshop",
+  "displayName": "Bauhaus Workshop",
+  "family": "modernist-grid",
+  "definition": "Elemental geometry, asymmetric construction, functional lettering, material experiment, and workshop integration of art, craft, and production.",
+  "axes": {
+    "minimalOrnate": -0.7,
+    "geometricOrganic": -1,
+    "polishedRaw": -0.4,
+    "calmEnergetic": -0.1,
+    "historicalFuturistic": 0.3,
+    "realisticAbstract": 0.3,
+    "warmCool": 0.3,
+    "lightDark": -0.2,
+    "playfulSerious": 0.4,
+    "handmadeMachined": 0.6,
+    "flatDeep": -0.4,
+    "everydayLuxurious": -0.3
+  },
+  "cues": [
+    "elemental-geometry",
+    "asymmetric",
+    "functional-type",
+    "workshop-material",
+    "primary-accent"
+  ],
+  "antiCues": [
+    "ornate",
+    "historicist",
+    "photorealistic",
+    "decorative-symmetry"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "energized"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.45,
+      "symmetry": 0.35,
+      "margins": 0.4
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#E63946",
+        "#1D3557",
+        "#F4A261",
+        "#FFFFFF",
+        "#000000"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/bauhaus-construct.svg",
+      "descriptor": "geometric sans with constructivist tension",
+      "weight": 500,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0,
+      "lineWeight": 0.5,
+      "curveTension": 0
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/modernist-grid-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.05,
+      "tags": [
+        "paper",
+        "matte-paint"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.6,
+      "keyDirection": "top",
+      "gradient": 0.1
+    },
+    "depth": {
+      "layers": 1,
+      "shadowSoftness": 0.1,
+      "parallax": 0
+    },
+    "motion": {
+      "energy": 0.35,
+      "descriptor": "mechanical"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.1,
+      "tags": [
+        "geometric"
+      ]
+    },
+    "imagery": {
+      "treatment": "abstracted",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.6
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 3,
+    "web-app": 2,
+    "presentation": 3,
+    "editorial-document": 2,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 2,
+    "interiors-architecture": 2,
+    "data-visualization": 3
+  },
+  "heroRecipe": {
+    "motif": "a Bauhaus preliminary-course study joining paper, wire, type, and elemental shapes",
+    "framing": "Asymmetric tabletop composition with circle, bar, folded plane, material swatches, and functional lettering treated as constructed form.",
+    "mustShow": [
+      "elemental-geometry",
+      "workshop-material",
+      "functional-type"
+    ],
+    "mustAvoid": [
+      "ornate",
+      "historicist",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "international-typographic-style",
+    "isotype-statistical-graphics",
+    "ulm-systems-design"
+  ],
+  "contrasting": [
+    "rococo-salon",
+    "folk-embroidery",
+    "academic-journal"
+  ]
+}

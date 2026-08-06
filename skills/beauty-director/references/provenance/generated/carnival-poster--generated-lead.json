@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "carnival-poster",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation\nUse case: ads-marketing\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an entirely original contemporary carnival poster for a fictional ethical night fair, built as a complete uncropped poster with a loud showman hierarchy.\nScene/backdrop: warm cream paper, every poster edge visible with a generous printed margin\nSubject: an exuberant aerial ribbon performer above a moonlit Ferris wheel, supported by small original scenes of a carousel, juggling, and fireworks\nStyle/medium: saturated circus-lithograph illustration with wood-type scale, coarse halftone, overprint, and slight paper age\nComposition/framing: portrait 4:5; complete top banner, large central attraction, secondary attraction bursts, and a clear lower date-and-place block; all headline letters and figures fully inside the frame and readable at thumbnail scale\nColor palette: vermilion, sunflower yellow, cobalt, emerald, black, paper cream\nText (verbatim): \"LUNA MIDWAY\", \"ONE NIGHT\", \"SATURDAY\", \"RIVER PARK\"\nConstraints: original fictional event and performers; celebratory and humane; complete legible hierarchy; no cropped headline; no trademark; no logo; no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "7a4b7ec1262956300e311b637ae0006208f98519d246e1c75f29816475e8318b",
+  "finalAsset": "assets/refs/carnival-poster/generated-lead.jpg",
+  "finalSha256": "0b3f57ea1364d4cc4d9a88fd9c753aacdc5592f5b000e95d2913e1e10c03df93",
+  "postProcessing": "Source output proportionally resized to fit within 800x1000 pixels, padded at the sides to preserve the complete generated composition, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

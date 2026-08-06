@@ -1,0 +1,162 @@
+{
+  "id": "victorian-ephemera",
+  "displayName": "Victorian Ephemera",
+  "family": "ornate-historical",
+  "definition": "Nineteenth-century trade cards, keepsakes, advertisements, and scrapbook papers combine ornate display type, chromolithography, floral frames, die-cut forms, and layered density.",
+  "axes": {
+    "minimalOrnate": 0.7,
+    "geometricOrganic": 0.5,
+    "polishedRaw": 0.2,
+    "calmEnergetic": -0.2,
+    "historicalFuturistic": -0.8,
+    "realisticAbstract": -0.5,
+    "warmCool": -0.6,
+    "lightDark": 0.4,
+    "playfulSerious": 0.3,
+    "handmadeMachined": -0.8,
+    "flatDeep": 0.3,
+    "everydayLuxurious": 0.4
+  },
+  "cues": [
+    "ornate",
+    "victorian-era",
+    "collage",
+    "dense",
+    "paper"
+  ],
+  "antiCues": [
+    "minimal",
+    "machine-precise",
+    "neon-chroma"
+  ],
+  "emotionalEffects": [
+    "nostalgic",
+    "intimate",
+    "whimsical"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.8,
+      "symmetry": 0.25,
+      "margins": 0.22
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#6B1F2A",
+        "#5C3A1E",
+        "#FAF0E6",
+        "#1F3F32",
+        "#B8860B"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/victorian-ephemera.svg",
+      "descriptor": "Victorian display with flourishes",
+      "weight": 600,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.35,
+      "lineWeight": 0.45,
+      "curveTension": 0.6
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/ornate-historical-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.4,
+      "tags": [
+        "paper",
+        "ink",
+        "fabric"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.5,
+      "keyDirection": "front",
+      "gradient": 0.35
+    },
+    "depth": {
+      "layers": 4,
+      "shadowSoftness": 0.55,
+      "parallax": 0.35
+    },
+    "motion": {
+      "energy": 0.25,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/ornate-historical"
+      ],
+      "density": 0.8,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "layered printed ephemera",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.3
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 2,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 0,
+    "interiors-architecture": 2,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "an overlapping cluster of trade cards, chromolithographed scraps, labels, and die-cut ornaments",
+    "framing": "assemble mismatched paper scales into a dense but readable keepsake-page hierarchy, preserving printed edges, aging, and typographic variety",
+    "mustShow": [
+      "ornate",
+      "victorian-era",
+      "collage"
+    ],
+    "mustAvoid": [
+      "minimal",
+      "machine-precise",
+      "neon-chroma",
+      "single pristine flat icon",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "rococo-salon",
+    "gothic-revival",
+    "letterpress-print"
+  ],
+  "contrasting": [
+    "y2k-cyber",
+    "operational-dashboard",
+    "international-typographic-style"
+  ]
+}

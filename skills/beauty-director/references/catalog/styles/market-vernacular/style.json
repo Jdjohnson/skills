@@ -1,0 +1,165 @@
+{
+  "id": "market-vernacular",
+  "displayName": "Market Vernacular",
+  "family": "folk-vernacular",
+  "definition": "Dense merchant display built from stacked goods, handwritten price cards, awnings, crates, repeated containers, and improvised open-air hierarchy.",
+  "axes": {
+    "minimalOrnate": 0,
+    "geometricOrganic": 0.4,
+    "polishedRaw": 0.3,
+    "calmEnergetic": 0.5,
+    "historicalFuturistic": -0.6,
+    "realisticAbstract": -0.3,
+    "warmCool": -0.5,
+    "lightDark": -0.2,
+    "playfulSerious": -0.4,
+    "handmadeMachined": -0.9,
+    "flatDeep": -0.3,
+    "everydayLuxurious": -0.7
+  },
+  "cues": [
+    "stacked-goods",
+    "handwritten-price-cards",
+    "repeated-containers",
+    "awning-stripes",
+    "crate-grid",
+    "seller-made-display",
+    "dense-open-air-hierarchy",
+    "practical-color"
+  ],
+  "antiCues": [
+    "minimal-retail-display",
+    "luxury-merchandising",
+    "empty-stall",
+    "corporate-planogram",
+    "sanitized-farmers-market"
+  ],
+  "emotionalEffects": [
+    "energized",
+    "joyful",
+    "warm-hearted"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.85,
+      "symmetry": 0.2,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#E65100",
+        "#FBC02D",
+        "#33691E",
+        "#D7CCC8",
+        "#ECEFF1"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/market-stall.svg",
+      "descriptor": "hand-informed display",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/folk-vernacular-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.6,
+      "tags": [
+        "cardboard",
+        "fabric"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.6,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/folk-vernacular"
+      ],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "show-goods-as-display-structure",
+        "include-seller-made-signage",
+        "retain-temporary-stall-materials",
+        "avoid-poverty-aestheticization"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 3,
+    "packaging": 3,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "an open-air merchant display built from repeated goods, crates, shade, and handwritten prices",
+    "framing": "use a frontal or three-quarter view that reveals how product density, temporary structure, and pedestrian access form one visual system",
+    "mustShow": [
+      "stacked merchandise",
+      "improvised price hierarchy",
+      "awning crate or table structure"
+    ],
+    "mustAvoid": [
+      "empty lifestyle stall",
+      "premium boutique styling",
+      "national brand dominance",
+      "staged disorder",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "roadside-vernacular",
+    "folk-embroidery",
+    "festival-banner"
+  ],
+  "contrasting": [
+    "specimen-label",
+    "field-guide",
+    "international-typographic-style"
+  ]
+}

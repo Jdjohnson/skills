@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "isometric-play",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Isometric protractor and equal-axis drawing",
+    "creatorOrTradition": "National Museum of American History, Smithsonian Institution",
+    "sourceUrl": "https://americanhistory.si.edu/collections/object/nmah_904417",
+    "whyCanonical": "The Smithsonian describes isometric drawing as depicting three-dimensional objects with equal scales along three axes."
+  },
+  "sources": [
+    {
+      "title": "Isometric Protractor Presented to Alexander Leslie",
+      "publisher": "National Museum of American History, Smithsonian Institution",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_904417",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Isometric projection depicts three-dimensional form with equal scale on three axes, providing the style's non-negotiable spatial discipline."
+      ]
+    },
+    {
+      "title": "Architectural drawing",
+      "publisher": "Museum of Modern Art",
+      "url": "https://www.moma.org/collection/terms/architectural-drawing",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Axonometric and isometric drawings can communicate spatial structure in a single image without conventional pictorial perspective."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches equal axis projection, miniature world, modular room, readable stacking, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/isometric-play/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/isometric-play/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches equal axis projection, miniature world, modular room, readable stacking, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

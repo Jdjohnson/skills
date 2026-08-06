@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "isotype-statistical-graphics",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Gesellschaft und Wirtschaft and the Isotype Picture Dictionary",
+    "creatorOrTradition": "Otto Neurath, Marie Neurath, Gerd Arntz, and the Isotype team",
+    "sourceUrl": "https://isotyperevisited.org/2012/08/society-and-economy.php",
+    "whyCanonical": "The charts and production archive show standardized pictograms designed as repeatable units for representing social facts quantitatively."
+  },
+  "sources": [
+    {
+      "title": "Society and economy",
+      "publisher": "Isotype Revisited",
+      "url": "https://isotyperevisited.org/2012/08/society-and-economy.php",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Isotype pictograms were designed as repeatable building blocks for charts.",
+        "The Picture Dictionary reduced each symbol to the characteristics needed to state facts."
+      ]
+    },
+    {
+      "title": "Isotype-neurath.jpg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Isotype-neurath.jpg",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The exact audited file demonstrates repeated equal-scale pictograms arranged for comparison.",
+        "Its visual structure separates statistical counting from a standalone wayfinding icon."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches repeated pictograms, quantitative, consistent scale, comparison, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/isotype-statistical-graphics/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/isotype-statistical-graphics/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches repeated pictograms, quantitative, consistent scale, comparison, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

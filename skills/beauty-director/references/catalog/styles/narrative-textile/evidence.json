@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "styleId": "narrative-textile",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "My Yia Vang's Hmong Story Cloth",
+    "creatorOrTradition": "Hmong pictorial embroidery tradition",
+    "sourceUrl": "https://americanhistory.si.edu/collections/object/nmah_1301157",
+    "whyCanonical": "The documented work clearly joins sequential reading, embroidered figures, landscape, layered borders, refugee history, maker biography, and sale within diaspora life."
+  },
+  "sources": [
+    {
+      "title": "My Yia Vang's Hmong Story Cloth",
+      "publisher": "National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1301157",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Hmong pictorial embroidery can carry sequential accounts of village life, displacement, migration, and refugee camps through figures, scenery, and bordered cloth."
+      ]
+    },
+    {
+      "title": "Hmong Story Cloths: Preserving Historical and Cultural Treasures",
+      "publisher": "Smithsonian Libraries and Archives",
+      "url": "https://www.si.edu/object/hmong-story-cloths-preserving-historical-cultural-treasures-linda-gerdner-phd-rn-faan%3Asiris_sil_1167508",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Hmong story cloths visually document history and culture through outlined images, multicolored satin stitch, intricate details, and pieced borders."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches sequential stitched scenes, continuous cloth field, embroidered figures, applique borders, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/narrative-textile/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": {
+    "note": "Name the precise community, maker, place, and historical circumstances. Hmong paj ntaub, arpilleras, Bayeux-related works, and other narrative textiles have different origins and uses. Do not combine their motifs or treat migration, war, displacement, sacred history, or personal testimony as freely available decoration; foreground maker voice and context.",
+    "citations": [
+      "https://americanhistory.si.edu/collections/object/nmah_1301157",
+      "https://www.si.edu/object/hmong-story-cloths-preserving-historical-cultural-treasures-linda-gerdner-phd-rn-faan%3Asiris_sil_1167508"
+    ]
+  },
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/narrative-textile/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches sequential stitched scenes, continuous cloth field, embroidered figures, applique borders, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

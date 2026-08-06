@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "academic-journal",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Structured full-text biomedical journal article",
+    "creatorOrTradition": "Scholarly publishers, researchers, and the National Library of Medicine",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3687192/",
+    "whyCanonical": "The preserved article exposes the complete scholarly apparatus—title, authorship, abstract, sections, figures, citations, and references—needed to distinguish an academic journal from merely dense editorial typography."
+  },
+  "sources": [
+    {
+      "title": "Art of reading a journal article: Methodically and effectively",
+      "publisher": "National Library of Medicine, PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3687192/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The full-text record demonstrates machine-readable and reader-visible hierarchy across article metadata, sections, references, and supporting material.",
+        "It supports depicting a complete research article rather than decorative columns and equations."
+      ]
+    },
+    {
+      "title": "Ten simple rules for structuring papers",
+      "publisher": "National Library of Medicine, PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5619685/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The article provides a second real example of abstract, sectional prose, tables or figures, citations, and bibliography working as one reading system.",
+        "The accessible record supports the distinction between scholarly publication structure and institutional marketing."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches article structure, abstract block, citations footnotes, figures tables, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/academic-journal/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/academic-journal/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches article structure, abstract block, citations footnotes, figures tables, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

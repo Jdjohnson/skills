@@ -1,0 +1,56 @@
+{
+  "id": "more-glass",
+  "group": "material-shift",
+  "definition": "Bias materials toward glass and transparency.",
+  "targetConcerns": [
+    "materialTexture",
+    "depth"
+  ],
+  "compatibleStyles": [
+    "brutalism",
+    "natural-textile"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "folk-vernacular",
+    "organic-craft"
+  ],
+  "incompatibleModifiers": [],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "materialTexture",
+          "path": "grain",
+          "factor": 0.85
+        },
+        {
+          "op": "addParam",
+          "concern": "depth",
+          "path": "parallax",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

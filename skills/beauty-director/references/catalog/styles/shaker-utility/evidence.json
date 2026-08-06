@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "styleId": "shaker-utility",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Mount Lebanon Shaker workrooms, peg rails, storage furniture, chairs, and useful objects",
+    "creatorOrTradition": "United Society of Believers, especially the Mount Lebanon Shaker community",
+    "sourceUrl": "https://www.shakermuseum.us/the-shakers",
+    "whyCanonical": "Shaker Museum situates furniture, baskets, boxes, brooms, agriculture, manufacturing, and design within the community's religious, social, and entrepreneurial life rather than treating plain objects as anonymous rustic style."
+  },
+  "sources": [
+    {
+      "title": "The Shakers",
+      "publisher": "Shaker Museum",
+      "url": "https://www.shakermuseum.us/the-shakers",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Shaker craft and manufacturing belonged to a specific communal religious society whose members made furniture, baskets, brooms, boxes, and other useful goods.",
+        "Usefulness, innovation, communal life, and rejection of the superfluous are central context for interpreting the material culture."
+      ]
+    },
+    {
+      "title": "The wonderful world of joinery",
+      "publisher": "Shaker Museum",
+      "url": "https://www.shakermuseum.us/the-wonderful-world-of-joinery?nocache=1",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Shaker woodworkers used precise mortise-and-tenon, dovetail, dado, and other joints to make strong useful furniture and architectural fittings.",
+        "Threaded pegs and peg boards demonstrate a distinctive union of repeated visual order, practical maintenance, and mechanical invention."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach utility signal, wood, plain, symmetry while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/shaker-utility/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": {
+    "note": "Present Shaker Utility as the material culture of a named American religious community. Ground visual choices in documented daily work, communal order, practical invention, and museum-held objects; avoid costume figures, generalized Christian symbolism, farmhouse nostalgia, and claims that plain wood alone is Shaker.",
+    "citations": [
+      "https://www.shakermuseum.us/the-shakers",
+      "https://www.shakermuseum.us/the-wonderful-world-of-joinery?nocache=1"
+    ]
+  },
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/shaker-utility/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach utility signal, wood, plain, symmetry while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

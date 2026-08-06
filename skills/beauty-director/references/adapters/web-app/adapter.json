@@ -1,0 +1,50 @@
+{
+  "id": "web-app",
+  "displayName": "Web App",
+  "concernWeights": {
+    "typography": 0.16,
+    "composition": 0.16,
+    "palette": 0.14,
+    "shapeLine": 0.12,
+    "imagery": 0.1,
+    "depth": 0.08,
+    "lighting": 0.08,
+    "motion": 0.06,
+    "materialTexture": 0.05,
+    "ornament": 0.05
+  },
+  "functionalFloors": {
+    "minContrast": {
+      "mode": "clamp",
+      "path": "lighting.contrast",
+      "min": 0.35
+    },
+    "legibleType": {
+      "mode": "replace",
+      "path": "typography.weight",
+      "value": 500
+    }
+  },
+  "reduceTraits": [],
+  "payloadFields": [
+    "composition",
+    "palette",
+    "typography",
+    "shapeLine",
+    "materialTexture",
+    "lighting",
+    "depth",
+    "motion",
+    "ornament",
+    "imagery"
+  ],
+  "incompatibleTags": [],
+  "constraints": [
+    {
+      "id": "contrast-floor",
+      "mode": "clamp",
+      "path": "lighting.contrast",
+      "min": 0.2
+    }
+  ]
+}

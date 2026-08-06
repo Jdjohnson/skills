@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "civic-wayfinding",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "New York City Subway Directional Signage",
+    "creatorOrTradition": "Massimo Vignelli, Bob Noorda, and MTA New York City Transit",
+    "sourceUrl": "https://www.moma.org/collection/works/89619",
+    "whyCanonical": "The sign demonstrates a coordinated environmental system using durable material, viewing-distance typography, direction, and institutional consistency."
+  },
+  "sources": [
+    {
+      "title": "New York City Subway Directional Signage",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/89619",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The work is a full environmental directional sign manufactured for a transit system.",
+        "Its scale and porcelain-enamel material distinguish wayfinding from a standalone icon sheet."
+      ]
+    },
+    {
+      "title": "Emergency Exit ISO Pictogram (green).svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Emergency_Exit_ISO_Pictogram_(green).svg",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The audited public-domain file demonstrates standardized public-information pictogram construction.",
+        "It supports icon consistency but requires wider environmental evidence to teach the full node."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches viewing distance, directional, standardized pictograms, color coded, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/civic-wayfinding/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/civic-wayfinding/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches viewing distance, directional, standardized pictograms, color coded, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

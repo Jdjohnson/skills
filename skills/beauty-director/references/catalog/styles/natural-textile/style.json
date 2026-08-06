@@ -1,0 +1,160 @@
+{
+  "id": "natural-textile",
+  "displayName": "Natural Textile",
+  "family": "organic-craft",
+  "definition": "Unbleached woven fibers, visible weave, selvage, soft folds, natural dyes, and domestic drape create quiet material-led compositions.",
+  "axes": {
+    "minimalOrnate": -0.3,
+    "geometricOrganic": 0.4,
+    "polishedRaw": 0.2,
+    "calmEnergetic": -0.7,
+    "historicalFuturistic": -0.8,
+    "realisticAbstract": -0.4,
+    "warmCool": -0.3,
+    "lightDark": 0.3,
+    "playfulSerious": 0.3,
+    "handmadeMachined": -0.5,
+    "flatDeep": -0.4,
+    "everydayLuxurious": 0.3
+  },
+  "cues": [
+    "fabric",
+    "linen",
+    "raw-form",
+    "muted-chroma",
+    "domestic"
+  ],
+  "antiCues": [
+    "chrome",
+    "neon",
+    "plastic",
+    "screen-pixel"
+  ],
+  "emotionalEffects": [
+    "calm",
+    "intimate",
+    "humble"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.36,
+      "symmetry": 0.35,
+      "margins": 0.44
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#E8D9B8",
+        "#3F6B49",
+        "#2DA052",
+        "#F4ECFB",
+        "#243847"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/linen-textile.svg",
+      "descriptor": "light serif on textile ground",
+      "weight": 300,
+      "tracking": 0.03
+    },
+    "shapeLine": {
+      "cornerRadius": 0.2,
+      "lineWeight": 0.3,
+      "curveTension": 0.35
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/organic-craft-primary"
+      ],
+      "finish": "woven",
+      "grain": 0.55,
+      "tags": [
+        "linen",
+        "fabric"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.36,
+      "keyDirection": "window",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.38,
+      "parallax": 0.08
+    },
+    "motion": {
+      "energy": 0.1,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.08,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "photographic",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.25
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 3,
+    "photography": 3,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 3,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "natural fiber cloth understood through weave, selvage, drape, and domestic use",
+    "framing": "Broad window-lit arrangement of unbleached linen, hemp, cotton, or wool with soft folds and a visible selvage, paired with one macro area where thread, slub, and weave direction remain legible.",
+    "mustShow": [
+      "fabric",
+      "linen",
+      "raw-form",
+      "domestic"
+    ],
+    "mustAvoid": [
+      "chrome",
+      "neon",
+      "synthetic microfiber sheen",
+      "luxury silk editorial",
+      "anonymous seamless texture",
+      "watermark",
+      "brand-logos"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "wabi-sabi",
+    "scandinavian-modern",
+    "artisan-bookbinding"
+  ],
+  "contrasting": [
+    "neon-night-ui",
+    "flat-design-ui",
+    "8-bit-pixel-art"
+  ]
+}

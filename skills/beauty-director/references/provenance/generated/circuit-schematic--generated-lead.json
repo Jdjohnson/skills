@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "circuit-schematic",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of an electronic circuit schematic.\nUse case: information-design\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original technical schematic poster for a fictional audio synthesizer with standardized component symbols, signal paths, modular blocks, reference numbers, test points, one enlarged waveform inset, and disciplined engineering annotation.\nStyle/medium: precise ink-and-vector technical drawing printed on archival drafting stock\nComposition/framing: portrait 4:5, left-to-right signal path zigzags through four modules, waveform inset upper right, legend and test table below, clear at thumbnail scale\nLighting/mood: analytical, elegant, exact\nColor palette: deep navy ground, fine cyan lines, white notation, small amber test points\nMaterials/textures: matte drafting film, crisp luminous linework, subtle fold marks\nText: use only the exact label SIGNAL 04 and numerals 1, 2, 3, 4; all other notation as symbols and abstract bars\nConstraints: original nonfunctional fictional circuit, no manufacturer, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "437653dddbf3f8515fc7989d59323a192acaecbd71a4b5a7c944ebd4b0258a29",
+  "finalAsset": "assets/refs/circuit-schematic/generated-lead.jpg",
+  "finalSha256": "a2b5040eb2e7e4d71074b738ac70cc3597e08bcc91d0193df5c9986838eb1b1c",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

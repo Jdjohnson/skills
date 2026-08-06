@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "comic-panel",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation\nUse case: illustration-story\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original finished four-panel comic page about a bicycle courier recovering a windblown map before it falls into a canal.\nScene/backdrop: one continuous rainy city canal setting across the sequence\nSubject: the same courier in a yellow raincoat and red bicycle in every panel; panel 1 establishes the loose map, panel 2 accelerates the chase, panel 3 shows a narrow near-miss at the canal edge, panel 4 resolves with the courier holding the map\nStyle/medium: bold black ink contour, limited flat process color, subtle process-dot print texture\nComposition/framing: portrait 4:5 with four clearly separated panels, visible gutters, varied shot scale, clear left-to-right then top-to-bottom reading order, controlled reveal, intact panel borders\nText (verbatim): \"THE MAP!\", \"WAIT!\", \"GOT IT.\"\nConstraints: place each phrase once in a clean speech balloon with correct tails and reading order; consistent character, costume, bicycle, weather, and setting; complete uncropped art and balloons; original characters; no logo; no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "d7ac200c0e30bc001035f0ba3bf94a49047c454ae65806d294af32ed1c2c545d",
+  "finalAsset": "assets/refs/comic-panel/generated-lead.jpg",
+  "finalSha256": "0c54cfc992905bd7c31234c5bf276f8f8ffc5fbd453f01fc83bdf4cd29a0b3c4",
+  "postProcessing": "Source output proportionally resized to fit within 800x1000 pixels, padded at the sides to preserve the complete generated composition, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

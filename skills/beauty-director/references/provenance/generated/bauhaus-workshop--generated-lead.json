@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "bauhaus-workshop",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of Bauhaus workshop practice.\nUse case: stylized-concept\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original workshop presentation combining elemental geometry, asymmetric construction, functional lettering shapes, and material studies in paper, painted wood, metal, and glass.\nStyle/medium: museum-quality photographed student workshop board and objects\nComposition/framing: portrait 4:5, one asymmetric composition with circle, bar, triangle, material swatches, and a small constructed object; strong silhouette at thumbnail scale\nColor palette: vermilion, cobalt, mustard, black, white\nLighting/mood: even archival studio light, experimental and functional\nText: abstract bars and numerals only\nConstraints: original workshop study, integrated art-craft-production logic, no copied Bauhaus work, no existing logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "862ad5f708ffb94f2b8bbf6ecd4a0c2e64ef8c8b808ae9fbf4e294fa5269801a",
+  "finalAsset": "assets/refs/bauhaus-workshop/generated-lead.jpg",
+  "finalSha256": "88a31e097faec303bd562028c7271392f4e31dd87e44261db240391c7b4c185e",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

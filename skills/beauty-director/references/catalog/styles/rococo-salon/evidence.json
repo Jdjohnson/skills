@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "rococo-salon",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "French Rococo salon decoration",
+    "creatorOrTradition": "French Rococo decorative-arts tradition",
+    "sourceUrl": "https://www.metmuseum.org/toah/hd/roco/hd_roco.htm",
+    "whyCanonical": "The integrated rooms and objects establish Rococo as an asymmetrical, curvilinear, intimate decorative system rather than a generic layer of gold ornament."
+  },
+  "sources": [
+    {
+      "title": "The Rococo Style in Europe",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/toah/hd/roco/hd_roco.htm",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Rococo joined architecture, furniture, and ornament into light, intimate interiors organized by shells, scrolls, and asymmetry."
+      ]
+    },
+    {
+      "title": "The Toilette of Venus",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/822369",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Boucher's painted surface demonstrates the powder palette, floating diagonals, soft flesh, foliage, fabric, and theatrical ease needed in the image grammar."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The powder-blue salon is an excellent lead with gilded asymmetrical scrollwork, shell ornament, curved furniture, pastel upholstery, mirrors, and layered decorative surfaces; the full room remains readable at card scale. The independently approved lead is assets/refs/rococo-salon/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/rococo-salon/generated-lead.jpg",
+    "notes": "The powder-blue salon is an excellent lead with gilded asymmetrical scrollwork, shell ornament, curved furniture, pastel upholstery, mirrors, and layered decorative surfaces; the full room remains readable at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,2767 @@
+{
+  "schemaVersion": 1,
+  "reviewer": {
+    "label": "Codex independent remediation-v3 final visual auditor",
+    "date": "2026-08-02",
+    "independence": "The reviewer did not author or generate the replacement assets, did not treat canonical pending states or prior package ratings as approval, and made no canonical package or approval changes."
+  },
+  "scope": {
+    "canonicalPackage": "projects/beauty-director/beauty-director-v2",
+    "styleCount": 120,
+    "assetCount": 150,
+    "familyCount": 12
+  },
+  "method": {
+    "originalFileTreatment": "The two replacement Mexican Tinwork files were opened and inspected directly at their full 800x1000 resolution. SHA-256 reconciliation proved that the other 148 current ledger assets are byte-identical to the files the same reviewer previously opened and judged at original resolution.",
+    "fullSizeTreatment": "The refreshed Mexican Tinwork style sheet was directly inspected in its 500x625 full-view panels. The other 148 assets retain the reviewer's prior full-view judgments because their current image bytes are identical and the current contact-sheet manifest maps the same paths into the rebuilt sheets.",
+    "cardScaleTreatment": "The refreshed Mexican Tinwork style sheet was directly inspected in its 200x250 card-scale panels. The other 148 assets retain the reviewer's prior card-scale judgments through the same byte-level and manifest reconciliation.",
+    "setTreatment": "The refreshed Mexican Tinwork style sheet and folk-vernacular family sheet were directly inspected for accuracy, teaching role, legibility, composition, integrity, differentiation, and family separation. The other 119 style-set and 11 family-set judgments were reconciled to the unchanged 148 source bytes and exact current 150-asset manifest.",
+    "acceptanceBar": "150/150 approved strong non-misleading assets, 120/120 strong style sets, 120 excellent leads, and zero failures."
+  },
+  "summary": {
+    "styleCount": 120,
+    "assetCount": 150,
+    "approvedAssetCount": 150,
+    "rejectedAssetCount": 0,
+    "strongStyleCount": 120,
+    "failedStyleCount": 0,
+    "excellentLeadCount": 120,
+    "misleadingAssetCount": 0,
+    "acceptanceMet": true
+  },
+  "assets": [
+    {
+      "styleId": "8-bit-pixel-art",
+      "localPath": "assets/refs/8-bit-pixel-art/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. screen pixel, screen scale, digital signal, play signal remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "academic-journal",
+      "localPath": "assets/refs/academic-journal/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. article structure, abstract block, citations footnotes, figures tables remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "analog-cinema-titles",
+      "localPath": "assets/refs/analog-cinema-titles/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. screen centered type, optical effects, film grain, leader marks remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "anatomical-plate",
+      "localPath": "assets/refs/anatomical-plate/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. sectioned body, precise contour, leader lines, numbered structures remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "art-deco",
+      "localPath": "assets/refs/art-deco/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. geometric, art deco era, schematic, symmetry remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "art-nouveau",
+      "localPath": "assets/refs/art-nouveau/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. organic, ornate, art nouveau era, linear remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "art-nouveau",
+      "localPath": "assets/refs/art-nouveau/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. organic, ornate, art nouveau era, linear remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "artisan-bookbinding",
+      "localPath": "assets/refs/artisan-bookbinding/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. paper, craft signal, intimate scale, collector signal remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "arts-and-crafts",
+      "localPath": "assets/refs/arts-and-crafts/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. craft signal, organic, wood, earth chroma remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "astro-chart",
+      "localPath": "assets/refs/astro-chart/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. celestial coordinate grid, star magnitude, constellation boundary, radial sky projection remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "astro-chart",
+      "localPath": "assets/refs/astro-chart/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. celestial coordinate grid, star magnitude, constellation boundary, radial sky projection remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "atelier-process",
+      "localPath": "assets/refs/atelier-process/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. illustrated, atelier signal, craft signal, fabric remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "baroque-chiaroscuro",
+      "localPath": "assets/refs/baroque-chiaroscuro/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. ornate, shadow heavy, painterly, baroque era remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "baroque-chiaroscuro",
+      "localPath": "assets/refs/baroque-chiaroscuro/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. ornate, shadow heavy, painterly, baroque era remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "bauhaus-workshop",
+      "localPath": "assets/refs/bauhaus-workshop/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. elemental geometry, asymmetric, functional type, workshop material remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "belle-epoque-lithograph",
+      "localPath": "assets/refs/belle-epoque-lithograph/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. poster scale, belle epoque era, organic, display type remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "billboard-bold",
+      "localPath": "assets/refs/billboard-bold/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. silhouette, monument scale, polychrome, advertising pace remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "board-game-box",
+      "localPath": "assets/refs/board-game-box/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. shelf facing title, illustrated premise, component preview, player age cues remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "botanical-plate",
+      "localPath": "assets/refs/botanical-plate/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. whole plant view, dissected details, scientific accuracy, fine contour remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "botanical-plate",
+      "localPath": "assets/refs/botanical-plate/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. whole plant view, dissected details, scientific accuracy, fine contour remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "botanical-watercolor",
+      "localPath": "assets/refs/botanical-watercolor/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. watercolor wash, hand drawn, painterly, illustrated remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "botanical-watercolor",
+      "localPath": "assets/refs/botanical-watercolor/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. watercolor wash, hand drawn, painterly, illustrated remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "boutique-hospitality",
+      "localPath": "assets/refs/boutique-hospitality/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. hospitality signal, atelier signal, brass, marble remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "brutalism",
+      "localPath": "assets/refs/brutalism/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. concrete, architectural signal, monument scale, edge defined remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "brutalism",
+      "localPath": "assets/refs/brutalism/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. concrete, architectural signal, monument scale, edge defined remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "byzantine-mosaic",
+      "localPath": "assets/refs/byzantine-mosaic/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. tessellated, gold leaf, iconic, flat remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "candy-plastic",
+      "localPath": "assets/refs/candy-plastic/generated-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. rounded molded form, translucent color, glossy surface, frosted depth remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "carnival-poster",
+      "localPath": "assets/refs/carnival-poster/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. festive signal, poster scale, polychrome, illustrated remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "cartographic-sheet",
+      "localPath": "assets/refs/cartographic-sheet/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. contour lines, scale bar, map legend, route network remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "cartographic-sheet",
+      "localPath": "assets/refs/cartographic-sheet/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. contour lines, scale bar, map legend, route network remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "circuit-schematic",
+      "localPath": "assets/refs/circuit-schematic/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. standardized symbol, connected net, component id, functional block remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "civic-wayfinding",
+      "localPath": "assets/refs/civic-wayfinding/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. viewing distance, directional, standardized pictograms, color coded remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "classic-infographic",
+      "localPath": "assets/refs/classic-infographic/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. encoded quantity, comparative flow, visual argument, annotated sequence remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "comic-panel",
+      "localPath": "assets/refs/comic-panel/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. panelized, outline, hard edge, narrative remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "concrete-poetry",
+      "localPath": "assets/refs/concrete-poetry/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. letterform as image, typographic, poetry signal, abstract form remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "concrete-poetry",
+      "localPath": "assets/refs/concrete-poetry/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. letterform as image, typographic, poetry signal, abstract form remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "corporate-modernism",
+      "localPath": "assets/refs/corporate-modernism/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. identity system, cross touchpoint, structured type, consistent mark remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "couture-lookbook",
+      "localPath": "assets/refs/couture-lookbook/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. fashion signal, editorial pace, pictorial, silk remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "crt-terminal",
+      "localPath": "assets/refs/crt-terminal/generated-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. digital signal, screen scale, monochrome, text type remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "culture-review",
+      "localPath": "assets/refs/culture-review/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. criticism, essay review mix, section identity, art text dialogue remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "dada-collage",
+      "localPath": "assets/refs/dada-collage/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. collage, rough, layered, improvised remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "design-monograph",
+      "localPath": "assets/refs/design-monograph/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. object plates, repeated views, caption discipline, dimensions remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "documentary-grit",
+      "localPath": "assets/refs/documentary-grit/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. observational framing, available light, contextual environment, unpolished surface remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "documentary-grit",
+      "localPath": "assets/refs/documentary-grit/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. observational framing, available light, contextual environment, unpolished surface remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "emoji-grammar",
+      "localPath": "assets/refs/emoji-grammar/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. pictogram sequence, semantic combination, modifier logic, reaction chain remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "empire-style",
+      "localPath": "assets/refs/empire-style/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. symmetry, classical era, monument scale, smooth remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "engineering-blueprint",
+      "localPath": "assets/refs/engineering-blueprint/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. white line on blue, measured plan, dimension string, title block remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "engineering-blueprint",
+      "localPath": "assets/refs/engineering-blueprint/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. white line on blue, measured plan, dimension string, title block remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "fashion-editorial",
+      "localPath": "assets/refs/fashion-editorial/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. art directed fashion, photographic, controlled asymmetry, full bleed remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "festival-banner",
+      "localPath": "assets/refs/festival-banner/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. repeated overhead strands, cut paper, cloth flags, ceremonial color remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "festival-banner",
+      "localPath": "assets/refs/festival-banner/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. repeated overhead strands, cut paper, cloth flags, ceremonial color remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "field-guide",
+      "localPath": "assets/refs/field-guide/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. comparative specimens, diagnostic callouts, identification key, range map remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "field-guide",
+      "localPath": "assets/refs/field-guide/generated-support.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. comparative specimens, diagnostic callouts, identification key, range map remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "film-noir",
+      "localPath": "assets/refs/film-noir/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. low key light, hard shadow cuts, oblique framing, urban night remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "flat-design-ui",
+      "localPath": "assets/refs/flat-design-ui/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. flat color, icon system, component hierarchy, minimal depth remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "fog-atmosphere",
+      "localPath": "assets/refs/fog-atmosphere/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. diffused air, erased horizon, layered veil depth, low contrast remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "fog-atmosphere",
+      "localPath": "assets/refs/fog-atmosphere/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. diffused air, erased horizon, layered veil depth, low contrast remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "folk-embroidery",
+      "localPath": "assets/refs/folk-embroidery/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. visible thread, named regional motifs, stitch density, cloth ground remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "folk-tilework",
+      "localPath": "assets/refs/folk-tilework/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. glazed ceramic units, visible grout rhythm, architectural assembly, mineral color remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "folk-tilework",
+      "localPath": "assets/refs/folk-tilework/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. glazed ceramic units, visible grout rhythm, architectural assembly, mineral color remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "gallery-white",
+      "localPath": "assets/refs/gallery-white/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. museum signal, sparse, open field, art signal remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "garden-sketchbook",
+      "localPath": "assets/refs/garden-sketchbook/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. hand drawn, illustrated, ragged, meditative pace remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "geometric-toy",
+      "localPath": "assets/refs/geometric-toy/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. modular primitives, buildable parts, wood block, solid color remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "geometric-toy",
+      "localPath": "assets/refs/geometric-toy/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. modular primitives, buildable parts, wood block, solid color remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "glassmorphism",
+      "localPath": "assets/refs/glassmorphism/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. interface signal, digital signal, screen scale, translucent remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "glitch-art",
+      "localPath": "assets/refs/glitch-art/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. digital signal, screen scale, raw form, kinetic remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "glitch-art",
+      "localPath": "assets/refs/glitch-art/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. digital signal, screen scale, raw form, kinetic remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "golden-hour-film",
+      "localPath": "assets/refs/golden-hour-film/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. low amber sun, long shadow, warm haze, rim light remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "gothic-revival",
+      "localPath": "assets/refs/gothic-revival/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. ornate, axial, medieval, shadow heavy remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "graphic-black-and-white",
+      "localPath": "assets/refs/graphic-black-and-white/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. crushed black, blown white, shape first, hard light cut remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "graphic-brutalism",
+      "localPath": "assets/refs/graphic-brutalism/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. typographic, high contrast, raw form, edge defined remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "illuminated-manuscript",
+      "localPath": "assets/refs/illuminated-manuscript/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. gold leaf, decorative border, dense, medieval remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "illuminated-manuscript",
+      "localPath": "assets/refs/illuminated-manuscript/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. gold leaf, decorative border, dense, medieval remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "industrial-monochrome",
+      "localPath": "assets/refs/industrial-monochrome/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. monochrome, industrial signal, machine precise, metal remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "industrial-warehouse",
+      "localPath": "assets/refs/industrial-warehouse/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. industrial signal, utility signal, metal, concrete remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "international-typographic-style",
+      "localPath": "assets/refs/international-typographic-style/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. grid, flush left, asymmetric, objective photography remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "isometric-play",
+      "localPath": "assets/refs/isometric-play/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. equal axis projection, miniature world, modular room, readable stacking remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "isotype-statistical-graphics",
+      "localPath": "assets/refs/isotype-statistical-graphics/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. repeated pictograms, quantitative, consistent scale, comparison remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "jewelry-vitrine",
+      "localPath": "assets/refs/jewelry-vitrine/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. luxury signal, object scale, velvet, glass remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "kids-picture-book",
+      "localPath": "assets/refs/kids-picture-book/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. illustrated spread, page turn pacing, warm character, large friendly type remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "lab-notebook",
+      "localPath": "assets/refs/lab-notebook/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. dated entry, apparatus sketch, measured trial, calculation remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "letterpress-print",
+      "localPath": "assets/refs/letterpress-print/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. letterpress ink, paper, typographic, craft signal remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "literary-journal",
+      "localPath": "assets/refs/literary-journal/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. long form, generous margins, flush left, quiet hierarchy remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "live-stream-overlay",
+      "localPath": "assets/refs/live-stream-overlay/generated-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. performance signal, interface signal, digital signal, screen scale remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "magazine-feature",
+      "localPath": "assets/refs/magazine-feature/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. feature opener, headline deck, pull quote, image text pacing remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "market-vernacular",
+      "localPath": "assets/refs/market-vernacular/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. stacked goods, handwritten price cards, repeated containers, awning stripes remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "memphis-design",
+      "localPath": "assets/refs/memphis-design/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. geometric, vivid chroma, patterned, playful remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "mexican-tinwork",
+      "localPath": "assets/refs/mexican-tinwork/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Replacement lead inspected directly at 800x1000 and in refreshed full/card panels. The complete frontal nicho is visible from crest to bottom edge; hand-cut scallops, punched rosettes, repoussé relief, folded channels, honest joins, reflective tin, and the saturated narrative center remain crisp and unmistakable at card scale. No anti-cue, destructive crop, corruption, illegibility, accidental mark, or misleading generic-metal reading was observed."
+    },
+    {
+      "styleId": "mexican-tinwork",
+      "localPath": "assets/refs/mexican-tinwork/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary material-process exemplar; teaches construction without duplicating the complete-object lead.",
+      "verdict": "approved",
+      "notes": "Replacement support inspected directly at 800x1000 and in refreshed full/card panels. Active hands, punch and hammer contact, thin reflective sheet, embossed parts, cut and curled offcuts, hand tools, seams, and a partially assembled nicho form a coherent process lesson that survives card scale. It is compositionally and pedagogically distinct from the lead, with no anti-cue, corruption, illegibility, accidental mark, or factory-made reading."
+    },
+    {
+      "styleId": "mid-century-advertising",
+      "localPath": "assets/refs/mid-century-advertising/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. commercial, mid century, smooth, advertising pace remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "modular-poster",
+      "localPath": "assets/refs/modular-poster/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. poster scale, modular blocks, display type, high contrast remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "modular-poster",
+      "localPath": "assets/refs/modular-poster/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. poster scale, modular blocks, display type, high contrast remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "motion-sticker",
+      "localPath": "assets/refs/motion-sticker/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. squash and stretch, motion arc, speed line, repeated pose remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "narrative-textile",
+      "localPath": "assets/refs/narrative-textile/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. sequential stitched scenes, continuous cloth field, embroidered figures, applique borders remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "narrative-woodcut",
+      "localPath": "assets/refs/narrative-woodcut/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. carved relief line, heavy black shape, white cut mark, compressed figure ground remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "natural-textile",
+      "localPath": "assets/refs/natural-textile/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. fabric, linen, raw form, muted chroma remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "neo-grotesk-editorial",
+      "localPath": "assets/refs/neo-grotesk-editorial/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. neo grotesk, measured hierarchy, flush left, editorial pace remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "neo-noir-neon",
+      "localPath": "assets/refs/neo-noir-neon/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. colored practical light, wet reflections, deep urban night, human scale tension remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "neon-night-ui",
+      "localPath": "assets/refs/neon-night-ui/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. neon, neon chroma, interface signal, digital signal remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "news-broadsheet",
+      "localPath": "assets/refs/news-broadsheet/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. masthead, multi deck headline, dense columns, captioned photo remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "night-drive",
+      "localPath": "assets/refs/night-drive/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. windshield point of view, road vanishing point, dashboard glow, passing light remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "operational-dashboard",
+      "localPath": "assets/refs/operational-dashboard/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. interface signal, digital signal, object scale, diagrammatic remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "operational-utility",
+      "localPath": "assets/refs/operational-utility/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. utility signal, systematic, typographic, grid defined remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "paper-cut-collage",
+      "localPath": "assets/refs/paper-cut-collage/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. cut paper edge, torn edge, layered overlap, cast paper shadow remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "pattern-playground",
+      "localPath": "assets/refs/pattern-playground/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. seamless repeat, motif family, controlled variation, scale shift remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "photo-essay",
+      "localPath": "assets/refs/photo-essay/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. photo sequence, documentary narrative, edit rhythm, minimal captions remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "photo-essay",
+      "localPath": "assets/refs/photo-essay/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. photo sequence, documentary narrative, edit rhythm, minimal captions remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "poetry-chapbook",
+      "localPath": "assets/refs/poetry-chapbook/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. verse lineation, white space, small format, intimate type remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "pop-art",
+      "localPath": "assets/refs/pop-art/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. halftone, vivid chroma, commercial, hard edge remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "private-club",
+      "localPath": "assets/refs/private-club/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. luxury signal, heritage signal, wood, velvet remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "psychedelic-poster",
+      "localPath": "assets/refs/psychedelic-poster/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. display type, vivid chroma, dense, print signal remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "punk-zine",
+      "localPath": "assets/refs/punk-zine/generated-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. collage, halftone, print signal, street signal remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "punk-zine",
+      "localPath": "assets/refs/punk-zine/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. collage, halftone, print signal, street signal remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "quiet-luxury",
+      "localPath": "assets/refs/quiet-luxury/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. luxury signal, atelier signal, sparse, silk remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "quilting-pattern",
+      "localPath": "assets/refs/quilting-pattern/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. pieced blocks, seam rhythm, fabric variation, repeated module remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "quilting-pattern",
+      "localPath": "assets/refs/quilting-pattern/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. pieced blocks, seam rhythm, fabric variation, repeated module remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "roadside-americana",
+      "localPath": "assets/refs/roadside-americana/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. vernacular form, street signal, hand drawn, vivid chroma remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "roadside-vernacular",
+      "localPath": "assets/refs/roadside-vernacular/generated-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. hand painted lettering, road scale message, improvised sign shape, weathered board remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "roadside-vernacular",
+      "localPath": "assets/refs/roadside-vernacular/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. hand painted lettering, road scale message, improvised sign shape, weathered board remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "rococo-salon",
+      "localPath": "assets/refs/rococo-salon/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. ornate, pastel chroma, decorative border, soft edge remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "scaffold-structure",
+      "localPath": "assets/refs/scaffold-structure/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. industrial signal, geometric, metal, environmental scale remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "scandinavian-modern",
+      "localPath": "assets/refs/scandinavian-modern/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. mid century, wood, sparse, domestic remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "scent-campaign",
+      "localPath": "assets/refs/scent-campaign/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. sensual, glass, lacquer, object scale remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "shaker-utility",
+      "localPath": "assets/refs/shaker-utility/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. utility signal, wood, plain, symmetry remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "shaker-utility",
+      "localPath": "assets/refs/shaker-utility/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. utility signal, wood, plain, symmetry remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "silk-editorial",
+      "localPath": "assets/refs/silk-editorial/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. silk, editorial pace, photographic, soft edge remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "spatial-ar-interface",
+      "localPath": "assets/refs/spatial-ar-interface/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. spatial signal, neon, interface signal, near future remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "specimen-label",
+      "localPath": "assets/refs/specimen-label/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. catalog number, taxonomic name, collection locality, collector date remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "specimen-label",
+      "localPath": "assets/refs/specimen-label/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. catalog number, taxonomic name, collection locality, collector date remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "stage-spotlight",
+      "localPath": "assets/refs/stage-spotlight/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. single light pool, hard edged beam, performer isolation, black void remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "sticker-bomb",
+      "localPath": "assets/refs/sticker-bomb/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. collage, playful, vivid chroma, layered remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "sticker-sheet-system",
+      "localPath": "assets/refs/sticker-sheet-system/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. visible backing sheet, kiss cut outline, coordinated motif family, efficient nesting remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "studio-pottery",
+      "localPath": "assets/refs/studio-pottery/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. ceramic, craft signal, sculptural, earth chroma remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "supermarket-packaging",
+      "localPath": "assets/refs/supermarket-packaging/generated-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. packaging signal, hierarchical, vivid chroma, product signal remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "suspense-still",
+      "localPath": "assets/refs/suspense-still/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. charged negative space, partial reveal, foreground obstruction, off center subject remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "swiss-phototypography",
+      "localPath": "assets/refs/swiss-phototypography/generated-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. photo type integration, strict grid, hard crop, oversized type remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "type-specimen-book",
+      "localPath": "assets/refs/type-specimen-book/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. alphabet display, weight comparison, glyph detail, setting examples remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "type-specimen-book",
+      "localPath": "assets/refs/type-specimen-book/generated-support.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. alphabet display, weight comparison, glyph detail, setting examples remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "ukiyo-e",
+      "localPath": "assets/refs/ukiyo-e/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. flat color planes, forceful contour, cropped scale, compressed perspective remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "ukiyo-e",
+      "localPath": "assets/refs/ukiyo-e/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. flat color planes, forceful contour, cropped scale, compressed perspective remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "ulm-systems-design",
+      "localPath": "assets/refs/ulm-systems-design/generated-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. system family, grid defined, serial, technical diagram remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "vaporwave",
+      "localPath": "assets/refs/vaporwave/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. pastel chroma, digital signal, screen scale, 1990s remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "victorian-ephemera",
+      "localPath": "assets/refs/victorian-ephemera/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. ornate, victorian era, collage, dense remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "wabi-sabi",
+      "localPath": "assets/refs/wabi-sabi/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. asymmetry, patina, raw form, muted chroma remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "watch-precision",
+      "localPath": "assets/refs/watch-precision/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. machine precise, object scale, metal, glass remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "watch-precision",
+      "localPath": "assets/refs/watch-precision/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. machine precise, object scale, metal, glass remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "web-brutalism",
+      "localPath": "assets/refs/web-brutalism/reference-01.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. digital signal, interface signal, screen scale, typographic remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "web-brutalism",
+      "localPath": "assets/refs/web-brutalism/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. digital signal, interface signal, screen scale, typographic remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "y2k-cyber",
+      "localPath": "assets/refs/y2k-cyber/generated-lead.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Primary exemplar; carries the style independently at card scale.",
+      "verdict": "approved",
+      "notes": "Primary exemplar inspected directly at original resolution and in both full and card panels. y2k era, digital signal, screen scale, chrome remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    },
+    {
+      "styleId": "y2k-cyber",
+      "localPath": "assets/refs/y2k-cyber/reference-02.jpg",
+      "fullSize": true,
+      "cardScale": true,
+      "visualFit": "strong",
+      "misleading": false,
+      "distinctTeachingRole": "Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+      "verdict": "approved",
+      "notes": "Support exemplar inspected directly at original resolution and in both full and card panels. y2k era, digital signal, screen scale, chrome remain recognizable; no misleading anti-cue, destructive crop, corruption, or illegibility was observed."
+    }
+  ],
+  "styles": [
+    {
+      "styleId": "8-bit-pixel-art",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/8-bit-pixel-art/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches screen pixel, screen scale, digital signal, play signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "academic-journal",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/academic-journal/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches article structure, abstract block, citations footnotes, figures tables, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "analog-cinema-titles",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/analog-cinema-titles/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches screen centered type, optical effects, film grain, leader marks, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "anatomical-plate",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/anatomical-plate/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches sectioned body, precise contour, leader lines, numbered structures, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "art-deco",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/art-deco/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches geometric, art deco era, schematic, symmetry, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "art-nouveau",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/art-nouveau/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach organic, ornate, art nouveau era, linear while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "artisan-bookbinding",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/artisan-bookbinding/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches paper, craft signal, intimate scale, collector signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "arts-and-crafts",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/arts-and-crafts/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches craft signal, organic, wood, earth chroma, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "astro-chart",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/astro-chart/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach celestial coordinate grid, star magnitude, constellation boundary, radial sky projection while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "atelier-process",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/atelier-process/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches illustrated, atelier signal, craft signal, fabric, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "baroque-chiaroscuro",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/baroque-chiaroscuro/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach ornate, shadow heavy, painterly, baroque era while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "bauhaus-workshop",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/bauhaus-workshop/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches elemental geometry, asymmetric, functional type, workshop material, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "belle-epoque-lithograph",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/belle-epoque-lithograph/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches poster scale, belle epoque era, organic, display type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "billboard-bold",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/billboard-bold/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches silhouette, monument scale, polychrome, advertising pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "board-game-box",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/board-game-box/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches shelf facing title, illustrated premise, component preview, player age cues, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "botanical-plate",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/botanical-plate/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach whole plant view, dissected details, scientific accuracy, fine contour while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "botanical-watercolor",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/botanical-watercolor/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach watercolor wash, hand drawn, painterly, illustrated while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "boutique-hospitality",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/boutique-hospitality/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches hospitality signal, atelier signal, brass, marble, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "brutalism",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/brutalism/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach concrete, architectural signal, monument scale, edge defined while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "byzantine-mosaic",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/byzantine-mosaic/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches tessellated, gold leaf, iconic, flat, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "candy-plastic",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/candy-plastic/generated-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches rounded molded form, translucent color, glossy surface, frosted depth, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "carnival-poster",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/carnival-poster/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The complete poster is an excellent lead: bold circus/wood-type hierarchy, saturated ink color, performer imagery, ornamental framing, and venue/date blocks remain coherent and uncropped at both scales."
+    },
+    {
+      "styleId": "cartographic-sheet",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/cartographic-sheet/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach contour lines, scale bar, map legend, route network while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "circuit-schematic",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/circuit-schematic/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches standardized symbol, connected net, component id, functional block, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "civic-wayfinding",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/civic-wayfinding/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches viewing distance, directional, standardized pictograms, color coded, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "classic-infographic",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/classic-infographic/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches encoded quantity, comparative flow, visual argument, annotated sequence, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "comic-panel",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/comic-panel/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The four-panel rainy-city sequence is an excellent lead. Gutters, repeated character/location, action continuity, speech balloons, and the recovered-map payoff establish true sequential storytelling at both scales."
+    },
+    {
+      "styleId": "concrete-poetry",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/concrete-poetry/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach letterform as image, typographic, poetry signal, abstract form while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "corporate-modernism",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/corporate-modernism/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches identity system, cross touchpoint, structured type, consistent mark, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "couture-lookbook",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/couture-lookbook/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The lead teaches a complete lookbook system through four aligned full-body looks and two fabric/construction details. Repetition and variation are clear, controlled, and legible at card scale."
+    },
+    {
+      "styleId": "crt-terminal",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/crt-terminal/generated-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches digital signal, screen scale, monochrome, text type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "culture-review",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/culture-review/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches criticism, essay review mix, section identity, art text dialogue, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "dada-collage",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/dada-collage/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches collage, rough, layered, improvised, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "design-monograph",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/design-monograph/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches object plates, repeated views, caption discipline, dimensions, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "documentary-grit",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/documentary-grit/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach observational framing, available light, contextual environment, unpolished surface while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "emoji-grammar",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/emoji-grammar/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches pictogram sequence, semantic combination, modifier logic, reaction chain, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "empire-style",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/empire-style/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches symmetry, classical era, monument scale, smooth, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "engineering-blueprint",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/engineering-blueprint/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach white line on blue, measured plan, dimension string, title block while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "fashion-editorial",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/fashion-editorial/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches art directed fashion, photographic, controlled asymmetry, full bleed, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "festival-banner",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/festival-banner/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach repeated overhead strands, cut paper, cloth flags, ceremonial color while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "field-guide",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/field-guide/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The lead woodpecker comparison and support oak-leaf comparison are both excellent and genuinely distinct. Identification keys, measurements, range or habitat data, comparative anatomy, and seasonal notes make the teaching role explicit."
+    },
+    {
+      "styleId": "film-noir",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/film-noir/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches low key light, hard shadow cuts, oblique framing, urban night, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "flat-design-ui",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/flat-design-ui/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches flat color, icon system, component hierarchy, minimal depth, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "fog-atmosphere",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/fog-atmosphere/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach diffused air, erased horizon, layered veil depth, low contrast while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "folk-embroidery",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/folk-embroidery/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches visible thread, named regional motifs, stitch density, cloth ground, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "folk-tilework",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/folk-tilework/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach glazed ceramic units, visible grout rhythm, architectural assembly, mineral color while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "gallery-white",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/gallery-white/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches museum signal, sparse, open field, art signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "garden-sketchbook",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/garden-sketchbook/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches hand drawn, illustrated, ragged, meditative pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "geometric-toy",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/geometric-toy/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach modular primitives, buildable parts, wood block, solid color while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "glassmorphism",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/glassmorphism/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches interface signal, digital signal, screen scale, translucent, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "glitch-art",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/glitch-art/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach digital signal, screen scale, raw form, kinetic while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "golden-hour-film",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/golden-hour-film/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The cyclist scene is an excellent lead: low directional amber light, long shadows, warm haze, layered depth, and a paused narrative moment survive at card scale without becoming a generic sunset."
+    },
+    {
+      "styleId": "gothic-revival",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/gothic-revival/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches ornate, axial, medieval, shadow heavy, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "graphic-black-and-white",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/graphic-black-and-white/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches crushed black, blown white, shape first, hard light cut, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "graphic-brutalism",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/graphic-brutalism/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches typographic, high contrast, raw form, edge defined, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "illuminated-manuscript",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/illuminated-manuscript/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach gold leaf, decorative border, dense, medieval while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "industrial-monochrome",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/industrial-monochrome/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches monochrome, industrial signal, machine precise, metal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "industrial-warehouse",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/industrial-warehouse/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches industrial signal, utility signal, metal, concrete, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "international-typographic-style",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/international-typographic-style/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches grid, flush left, asymmetric, objective photography, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "isometric-play",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/isometric-play/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches equal axis projection, miniature world, modular room, readable stacking, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "isotype-statistical-graphics",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/isotype-statistical-graphics/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches repeated pictograms, quantitative, consistent scale, comparison, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "jewelry-vitrine",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/jewelry-vitrine/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches luxury signal, object scale, velvet, glass, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "kids-picture-book",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/kids-picture-book/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches illustrated spread, page turn pacing, warm character, large friendly type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "lab-notebook",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/lab-notebook/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches dated entry, apparatus sketch, measured trial, calculation, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "letterpress-print",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/letterpress-print/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches letterpress ink, paper, typographic, craft signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "literary-journal",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/literary-journal/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches long form, generous margins, flush left, quiet hierarchy, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "live-stream-overlay",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/live-stream-overlay/generated-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches performance signal, interface signal, digital signal, screen scale, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "magazine-feature",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/magazine-feature/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches feature opener, headline deck, pull quote, image text pacing, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "market-vernacular",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/market-vernacular/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches stacked goods, handwritten price cards, repeated containers, awning stripes, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "memphis-design",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/memphis-design/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches geometric, vivid chroma, patterned, playful, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "mexican-tinwork",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/mexican-tinwork/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent replacement lead with genuinely distinct process support. The lead independently teaches the complete hojalata object, reflective worked-tin construction, intimate shrine scale, and painted narrative center at card scale. The support adds visible hand-punching, repoussé work, cutting, joining, tools, offcuts, and assembly. Together they are materially specific, culturally framed, non-redundant, and clearly separated from adjacent folk-vernacular styles."
+    },
+    {
+      "styleId": "mid-century-advertising",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/mid-century-advertising/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches commercial, mid century, smooth, advertising pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "modular-poster",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/modular-poster/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach poster scale, modular blocks, display type, high contrast while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "motion-sticker",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/motion-sticker/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The repeated bird poses form a clear motion sequence. Arcs, squash-and-stretch, impact marks, expression changes, and consistent character design make motion—not merely sticker styling—the primary lesson."
+    },
+    {
+      "styleId": "narrative-textile",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/narrative-textile/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches sequential stitched scenes, continuous cloth field, embroidered figures, applique borders, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "narrative-woodcut",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/narrative-woodcut/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches carved relief line, heavy black shape, white cut mark, compressed figure ground, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "natural-textile",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/natural-textile/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches fabric, linen, raw form, muted chroma, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "neo-grotesk-editorial",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/neo-grotesk-editorial/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches neo grotesk, measured hierarchy, flush left, editorial pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "neo-noir-neon",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/neo-noir-neon/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches colored practical light, wet reflections, deep urban night, human scale tension, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "neon-night-ui",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/neon-night-ui/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches neon, neon chroma, interface signal, digital signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "news-broadsheet",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/news-broadsheet/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches masthead, multi deck headline, dense columns, captioned photo, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "night-drive",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/night-drive/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches windshield point of view, road vanishing point, dashboard glow, passing light, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "operational-dashboard",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/operational-dashboard/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches interface signal, digital signal, object scale, diagrammatic, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "operational-utility",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/operational-utility/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches utility signal, systematic, typographic, grid defined, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "paper-cut-collage",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/paper-cut-collage/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches cut paper edge, torn edge, layered overlap, cast paper shadow, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "pattern-playground",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/pattern-playground/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches seamless repeat, motif family, controlled variation, scale shift, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "photo-essay",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/photo-essay/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach photo sequence, documentary narrative, edit rhythm, minimal captions while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "poetry-chapbook",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/poetry-chapbook/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The open small-format verse spread is an excellent lead. Sparse lineation, generous white space, understated typography, page numbers, and intimate scale remain legible and unmistakably chapbook-like."
+    },
+    {
+      "styleId": "pop-art",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/pop-art/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches halftone, vivid chroma, commercial, hard edge, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "private-club",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/private-club/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches luxury signal, heritage signal, wood, velvet, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "psychedelic-poster",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/psychedelic-poster/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches display type, vivid chroma, dense, print signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "punk-zine",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/punk-zine/generated-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach collage, halftone, print signal, street signal while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "quiet-luxury",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/quiet-luxury/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches luxury signal, atelier signal, sparse, silk, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "quilting-pattern",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/quilting-pattern/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach pieced blocks, seam rhythm, fabric variation, repeated module while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "roadside-americana",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/roadside-americana/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches vernacular form, street signal, hand drawn, vivid chroma, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "roadside-vernacular",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/roadside-vernacular/generated-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach hand painted lettering, road scale message, improvised sign shape, weathered board while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "rococo-salon",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/rococo-salon/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The powder-blue salon is an excellent lead with gilded asymmetrical scrollwork, shell ornament, curved furniture, pastel upholstery, mirrors, and layered decorative surfaces; the full room remains readable at card scale."
+    },
+    {
+      "styleId": "scaffold-structure",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/scaffold-structure/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches industrial signal, geometric, metal, environmental scale, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "scandinavian-modern",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/scandinavian-modern/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches mid century, wood, sparse, domestic, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "scent-campaign",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/scent-campaign/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches sensual, glass, lacquer, object scale, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "shaker-utility",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/shaker-utility/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach utility signal, wood, plain, symmetry while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "silk-editorial",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/silk-editorial/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches silk, editorial pace, photographic, soft edge, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "spatial-ar-interface",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/spatial-ar-interface/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The bicycle brake-alignment view is an excellent lead. Camera-world anchoring, component outlines, planar overlays, depth-aware measurements, step instruction, and tool controls clearly teach spatial AR rather than a flat dashboard."
+    },
+    {
+      "styleId": "specimen-label",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/specimen-label/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach catalog number, taxonomic name, collection locality, collector date while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "stage-spotlight",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/stage-spotlight/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches single light pool, hard edged beam, performer isolation, black void, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "sticker-bomb",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/sticker-bomb/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches collage, playful, vivid chroma, layered, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "sticker-sheet-system",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/sticker-sheet-system/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches visible backing sheet, kiss cut outline, coordinated motif family, efficient nesting, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "studio-pottery",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/studio-pottery/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The lead centers a visibly wheel-thrown vessel in its working context. Throwing rings, glaze variation, irregular silhouette, tools, clay surfaces, and the potter’s hands provide strong material and process evidence."
+    },
+    {
+      "styleId": "supermarket-packaging",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/supermarket-packaging/generated-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches packaging signal, hierarchical, vivid chroma, product signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "suspense-still",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/suspense-still/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches charged negative space, partial reveal, foreground obstruction, off center subject, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "swiss-phototypography",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/swiss-phototypography/generated-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches photo type integration, strict grid, hard crop, oversized type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "type-specimen-book",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/type-specimen-book/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "The lead and support are excellent, complementary specimen spreads. Together they show alphabet and numeral coverage, weights, sizes, glyph anatomy, punctuation, metrics, spacing, and text settings in a systematic comparison."
+    },
+    {
+      "styleId": "ukiyo-e",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/ukiyo-e/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach flat color planes, forceful contour, cropped scale, compressed perspective while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "ulm-systems-design",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/ulm-systems-design/generated-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches system family, grid defined, serial, technical diagram, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "vaporwave",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/vaporwave/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches pastel chroma, digital signal, screen scale, 1990s, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "victorian-ephemera",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/victorian-ephemera/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches ornate, victorian era, collage, dense, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "wabi-sabi",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/wabi-sabi/reference-02.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent single-image set. The lead clearly teaches asymmetry, patina, raw form, muted chroma, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles."
+    },
+    {
+      "styleId": "watch-precision",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/watch-precision/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach machine precise, object scale, metal, glass while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "web-brutalism",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/web-brutalism/reference-01.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach digital signal, interface signal, screen scale, typographic while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    },
+    {
+      "styleId": "y2k-cyber",
+      "setVerdict": "strong",
+      "leadImage": "assets/refs/y2k-cyber/generated-lead.jpg",
+      "leadExcellent": true,
+      "supportDistinct": true,
+      "fullAndCardInspected": true,
+      "notes": "Excellent lead with distinct support. The images jointly teach y2k era, digital signal, screen scale, chrome while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale."
+    }
+  ],
+  "failures": []
+}

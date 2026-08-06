@@ -1,0 +1,50 @@
+{
+  "id": "more-textile",
+  "group": "material-shift",
+  "definition": "Bias materials toward cloth and weave.",
+  "targetConcerns": [
+    "materialTexture"
+  ],
+  "compatibleStyles": [
+    "natural-textile",
+    "quilting-pattern",
+    "folk-embroidery",
+    "narrative-textile"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "digital-native"
+  ],
+  "incompatibleModifiers": [],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "materialTexture",
+          "path": "grain",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

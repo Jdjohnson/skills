@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "field-guide",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "A Field Guide to the Ants of New England",
+    "creatorOrTradition": "Natural-history field-guide publishing",
+    "sourceUrl": "https://www.si.edu/object/field-guide-ants-new-england-aaron-m-ellison-and-others%3Asiris_sil_1116175",
+    "whyCanonical": "The documented guide combines line drawings, photographs, range maps, keys, descriptions, ecology, and identification across many related species."
+  },
+  "sources": [
+    {
+      "title": "A Field Guide to the Ants of New England",
+      "publisher": "Smithsonian Libraries and Archives",
+      "url": "https://www.si.edu/object/field-guide-ants-new-england-aaron-m-ellison-and-others%3Asiris_sil_1116175",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Field guides support identification through comparative drawings, photographs, species descriptions, keys, range, ecology, and life-history information."
+      ]
+    },
+    {
+      "title": "A Field Guide to Mushrooms, North America",
+      "publisher": "Smithsonian Libraries and Archives",
+      "url": "https://www.si.edu/object/siris_sil_1081476",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A portable identification guide organizes many species through taxonomic groups, detailed descriptions, illustrations, safety notes, glossary, and index."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The lead woodpecker comparison and support oak-leaf comparison are both excellent and genuinely distinct. Identification keys, measurements, range or habitat data, comparative anatomy, and seasonal notes make the teaching role explicit. The independently approved lead is assets/refs/field-guide/generated-lead.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/field-guide/generated-lead.jpg",
+    "notes": "The lead woodpecker comparison and support oak-leaf comparison are both excellent and genuinely distinct. Identification keys, measurements, range or habitat data, comparative anatomy, and seasonal notes make the teaching role explicit.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

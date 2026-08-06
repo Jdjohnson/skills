@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "fog-atmosphere",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Night Vision: Photography After Dark",
+    "creatorOrTradition": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2011/night-vision-photography-after-dark",
+    "whyCanonical": "The Met notes that fog and rising mist reflect and diffuse available light, producing distinct nocturnal atmosphere."
+  },
+  "sources": [
+    {
+      "title": "Night Vision: Photography After Dark",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2011/night-vision-photography-after-dark",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Fog and wet surfaces reflect and diffuse light, changing both exposure and nocturnal mood."
+      ]
+    },
+    {
+      "title": "Boden Sea, Uttwil",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/267010",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Luminous haze, shredding mist, and horizon structure demonstrate how atmospheric variation can create perceptual depth with minimal subject matter."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach diffused air, erased horizon, layered veil depth, low contrast while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/fog-atmosphere/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/fog-atmosphere/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach diffused air, erased horizon, layered veil depth, low contrast while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

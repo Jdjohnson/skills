@@ -1,0 +1,48 @@
+{
+  "id": "symmetrical",
+  "group": "structure",
+  "definition": "Force bilateral symmetry.",
+  "targetConcerns": [
+    "composition"
+  ],
+  "compatibleStyles": [
+    "international-typographic-style",
+    "punk-zine"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "asymmetrical"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "composition",
+          "path": "symmetry",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

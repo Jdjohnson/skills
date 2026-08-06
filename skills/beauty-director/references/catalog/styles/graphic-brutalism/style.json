@@ -1,0 +1,165 @@
+{
+  "id": "graphic-brutalism",
+  "displayName": "Graphic Brutalism",
+  "family": "brutalist-raw",
+  "definition": "Oversized blunt type, exposed layout seams, hard blocks, abrasive contrast, minimal finish, and intentionally unresolved graphic hierarchy.",
+  "axes": {
+    "minimalOrnate": -0.3,
+    "geometricOrganic": 0.4,
+    "polishedRaw": 0.9,
+    "calmEnergetic": 0.6,
+    "historicalFuturistic": 0.4,
+    "realisticAbstract": 0.6,
+    "warmCool": 0.4,
+    "lightDark": 0.2,
+    "playfulSerious": -0.5,
+    "handmadeMachined": 0.8,
+    "flatDeep": -0.3,
+    "everydayLuxurious": -0.5
+  },
+  "cues": [
+    "typographic",
+    "high-contrast",
+    "raw-form",
+    "edge-defined",
+    "grid-defined",
+    "rebellious",
+    "urgent",
+    "ragged",
+    "flat",
+    "print-signal"
+  ],
+  "antiCues": [
+    "luxury-signal",
+    "smooth",
+    "gradient-form"
+  ],
+  "emotionalEffects": [
+    "rebellious",
+    "urgent",
+    "humble"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.55,
+      "symmetry": 0.25,
+      "margins": 0.07
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#E8E0D0",
+        "#1A1816",
+        "#C41E3A",
+        "#2E86AB",
+        "#F4A261"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/anti-brand.svg",
+      "descriptor": "marker scrawl over struck-through corporate sans",
+      "weight": 700,
+      "tracking": 0.05
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/brutalist-raw-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.85,
+      "tags": [
+        "cardboard",
+        "paper",
+        "matte-paint"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.85,
+      "keyDirection": "front",
+      "gradient": 0.3
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.65,
+      "descriptor": "jitter"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "collage",
+      "subjectRules": [
+        "blunt-graphic-pressure-first",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.5
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 2,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "oversized headline blocks colliding with a severely cropped original image",
+    "framing": "flat poster field; exposed rules, abrupt scale jumps, and one signal color create authored friction",
+    "mustShow": [
+      "typographic",
+      "high-contrast",
+      "raw-form"
+    ],
+    "mustAvoid": [
+      "luxury-signal",
+      "smooth",
+      "gradient-form",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "punk-zine",
+    "dada-collage",
+    "web-brutalism"
+  ],
+  "contrasting": [
+    "quiet-luxury",
+    "private-club",
+    "jewelry-vitrine"
+  ]
+}

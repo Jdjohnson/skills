@@ -1,0 +1,169 @@
+{
+  "id": "narrative-textile",
+  "displayName": "Narrative Textile",
+  "family": "folk-vernacular",
+  "definition": "Sequential events carried across a continuous stitched, appliquéd, woven, or embroidered textile field, with figures, borders, labels, and material memory.",
+  "axes": {
+    "minimalOrnate": 0.5,
+    "geometricOrganic": 0.6,
+    "polishedRaw": 0.5,
+    "calmEnergetic": 0.3,
+    "historicalFuturistic": -0.6,
+    "realisticAbstract": -0.1,
+    "warmCool": -0.4,
+    "lightDark": -0.2,
+    "playfulSerious": 0.8,
+    "handmadeMachined": -0.8,
+    "flatDeep": -0.2,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "sequential-stitched-scenes",
+    "continuous-cloth-field",
+    "embroidered-figures",
+    "applique-borders",
+    "material-memory",
+    "directional-reading",
+    "hand-sewn-labels",
+    "diaspora-narrative"
+  ],
+  "antiCues": [
+    "generic-tapestry-filter",
+    "single-ornamental-motif",
+    "culture-mixing",
+    "printed-comic-panel",
+    "frameless-vector-scene"
+  ],
+  "emotionalEffects": [
+    "solemn",
+    "nostalgic",
+    "intimate"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "serial",
+      "density": 0.7,
+      "symmetry": 0.4,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#8D6E63",
+        "#C62828",
+        "#1976D2",
+        "#F5F5DC",
+        "#37474F"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/story-cloth.svg",
+      "descriptor": "hand-informed display",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/folk-vernacular-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.55,
+      "tags": [
+        "fabric",
+        "thread"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/folk-vernacular"
+      ],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "name-the-textile-tradition",
+        "preserve-sequence-and-reading-order",
+        "show-stitch-or-weave-construction",
+        "avoid-interchangeable-story-cloth-labels"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 0,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a continuous stitched textile carrying several connected events through figures, landscape, border, and directional reading",
+    "framing": "show the whole narrative field first, with enough material detail to follow thread, appliqué, seams, and scene transitions",
+    "mustShow": [
+      "multiple sequential events",
+      "visible textile construction",
+      "coherent border or directional device"
+    ],
+    "mustAvoid": [
+      "generic medieval tapestry",
+      "printed comic layout",
+      "mixed cultural costumes",
+      "flattened vector imitation",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": "Southeast Asia / diaspora",
+  "traditionalOrLivingPractice": true,
+  "requiresCulturalReview": true,
+  "culturalContext": {
+    "summary": "Narrative textile traditions including Hmong story cloths",
+    "antiCaricature": "Treat motifs as living or historically specific visual languages, not costume kitsch. Prefer structural grammar (line, rhythm, material) over stereotyped subjects. Avoid sacred symbol misuse.",
+    "guidance": "When applying this node, preserve source grammar and cite traditions. Prefer consultation with authoritative museum/catalog sources over pop caricature."
+  },
+  "related": [
+    "folk-embroidery",
+    "ukiyo-e",
+    "narrative-woodcut"
+  ],
+  "contrasting": [
+    "classic-infographic",
+    "operational-dashboard",
+    "live-stream-overlay"
+  ]
+}

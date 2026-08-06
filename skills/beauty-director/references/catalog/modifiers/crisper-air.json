@@ -1,0 +1,55 @@
+{
+  "id": "crisper-air",
+  "group": "atmosphere",
+  "definition": "Clear air, hard distant edges.",
+  "targetConcerns": [
+    "lighting",
+    "depth"
+  ],
+  "compatibleStyles": [
+    "fog-atmosphere",
+    "gallery-white"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "foggy"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "lighting",
+          "path": "contrast",
+          "factor": 1.15
+        },
+        {
+          "op": "addParam",
+          "concern": "depth",
+          "path": "parallax",
+          "amount": -0.15
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "id": "artisan-bookbinding",
+  "displayName": "Artisan Bookbinding",
+  "family": "organic-craft",
+  "definition": "Stitched signatures, exposed or case binding, deckled paper, cloth or leather covers, and intimate page rhythm make the book object visibly handmade.",
+  "axes": {
+    "minimalOrnate": 0.1,
+    "geometricOrganic": 0.3,
+    "polishedRaw": 0.5,
+    "calmEnergetic": -0.6,
+    "historicalFuturistic": -1,
+    "realisticAbstract": -0.4,
+    "warmCool": -0.5,
+    "lightDark": -0.3,
+    "playfulSerious": 0.4,
+    "handmadeMachined": -0.7,
+    "flatDeep": 0.2,
+    "everydayLuxurious": 0.2
+  },
+  "cues": [
+    "paper",
+    "craft-signal",
+    "intimate-scale",
+    "collector-signal",
+    "heritage-signal"
+  ],
+  "antiCues": [
+    "screen-pixel",
+    "neon",
+    "kinetic",
+    "plastic"
+  ],
+  "emotionalEffects": [
+    "intimate",
+    "scholarly",
+    "nostalgic"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.42,
+      "symmetry": 0.4,
+      "margins": 0.38
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#3E2A1E",
+        "#00A655",
+        "#5A1F57",
+        "#D8E8F3",
+        "#206A5A"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/hand-bound-journal.svg",
+      "descriptor": "bookplate serif for colophon zones",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.15,
+      "lineWeight": 0.35,
+      "curveTension": 0.2
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/organic-craft-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.45,
+      "tags": [
+        "paper",
+        "fabric",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.44,
+      "keyDirection": "desk-lamp",
+      "gradient": 0.28
+    },
+    "depth": {
+      "layers": 3,
+      "shadowSoftness": 0.42,
+      "parallax": 0.12
+    },
+    "motion": {
+      "energy": 0.12,
+      "descriptor": "page-turn"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.18,
+      "tags": [
+        "decorative-border"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.2
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 2,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a hand-bound book whose signatures, sewing, spine, boards, and covering reveal its construction",
+    "framing": "Three-quarter desk view of a finished volume opening beside a partially bound sewn text block; show folded signatures, thread at the gutter, cloth or leather cover, paper edge, and one precise binding tool under warm side light.",
+    "mustShow": [
+      "paper",
+      "craft-signal",
+      "intimate-scale"
+    ],
+    "mustAvoid": [
+      "screen-pixel",
+      "neon",
+      "spiral notebook",
+      "generic vintage book stack",
+      "fantasy grimoire styling",
+      "watermark",
+      "brand-logos"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "letterpress-print",
+    "garden-sketchbook",
+    "lab-notebook"
+  ],
+  "contrasting": [
+    "live-stream-overlay",
+    "spatial-ar-interface",
+    "operational-dashboard"
+  ]
+}

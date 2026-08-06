@@ -9,6 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = (
     "brainstorm", "brief", "decision-walkthrough", "plan", "visualize", "steelman", "stuck",
+    "beauty-director",
     "meeting", "work-log",
     "chatgpt", "cli-subagents", "context-sweep", "gws-cli", "run",
     "economist-council",
@@ -20,7 +21,7 @@ LEGAL_ATTRIBUTION_PATHS = {
     Path(".codex-plugin/plugin.json"), Path(".claude-plugin/plugin.json"),
 }
 FORBIDDEN_PATTERNS = (
-    (re.compile(r"\bDot\b", re.I), "private host name"),
+    (re.compile(r"\bDot\b"), "private host name"),
     (re.compile(r"\bjj-[a-z0-9-]+", re.I), "personal skill name"),
     (re.compile(r"\bms-[a-z0-9-]+", re.I), "organization skill name"),
     (re.compile(r"\.dot-skills|\.dot-core|\.dot-addons", re.I), "private route"),
@@ -39,6 +40,8 @@ SECRET_PATTERNS = (
 )
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
+FENCED_CODE_RE = re.compile(r"```.*?```", re.S)
+INLINE_CODE_RE = re.compile(r"`[^`\n]+`")
 
 
 def fail(message: str) -> None:
@@ -77,8 +80,8 @@ def validate_inventory() -> None:
 
     for manifest_name in (".codex-plugin/plugin.json", ".claude-plugin/plugin.json"):
         data = load_json(ROOT / manifest_name)
-        if data.get("version") != "4.0.0":
-            fail(f"{manifest_name} must declare version 4.0.0")
+        if data.get("version") != "4.1.0":
+            fail(f"{manifest_name} must declare version 4.1.0")
         if data.get("interface", {}).get("skills") != list(SKILLS):
             fail(f"{manifest_name} skill inventory or order is stale")
 
@@ -128,8 +131,10 @@ def validate_links() -> None:
         if path.suffix.lower() != ".md":
             continue
         text = path.read_text(encoding="utf-8")
-        targets = [match.group(1).split("|", 1)[0] for match in WIKILINK_RE.finditer(text)]
-        targets += [match.group(1).split("#", 1)[0] for match in MARKDOWN_LINK_RE.finditer(text)]
+        prose = FENCED_CODE_RE.sub("", text)
+        prose = INLINE_CODE_RE.sub("", prose)
+        targets = [match.group(1).split("|", 1)[0] for match in WIKILINK_RE.finditer(prose)]
+        targets += [match.group(1).split("#", 1)[0] for match in MARKDOWN_LINK_RE.finditer(prose)]
         for target in targets:
             if not target or target.startswith(("#", "http://", "https://", "mailto:")):
                 continue
@@ -180,7 +185,7 @@ def main() -> None:
         validate_skill(skill)
     validate_links()
     validate_scrub()
-    print("Maintainer checks passed: 15 generic skills, metadata, parity, links, scrub, and distribution.")
+    print("Maintainer checks passed: 16 generic skills, metadata, parity, links, scrub, and distribution.")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "specimen-label",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Charles W. Richmond original bird specimen labels",
+    "creatorOrTradition": "Smithsonian natural-history collection practice",
+    "sourceUrl": "https://siarchives.si.edu/collections/fbr_item_modsi5709",
+    "whyCanonical": "The Smithsonian record documents labels numbered by specimen and carrying field number, species, locality, sex, collector, date, and survey."
+  },
+  "sources": [
+    {
+      "title": "Original Labels, #82500-#351759",
+      "publisher": "Smithsonian Institution Archives",
+      "url": "https://siarchives.si.edu/collections/fbr_item_modsi5709",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Historic bird specimen labels combine a unique number with field number, species, locality, sex, collector, date, and survey information."
+      ]
+    },
+    {
+      "title": "Pinned Insect Digitisation",
+      "publisher": "Natural History Museum, London",
+      "url": "https://www.nhm.ac.uk/our-science/services/collections/digital/programme/pinned-insect-digitisation.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Pinned specimens retain adjacent labels whose upper cards commonly record collecting date, locality, collector, taxonomy, type status, and collection location."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach catalog number, taxonomic name, collection locality, collector date while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/specimen-label/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/specimen-label/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach catalog number, taxonomic name, collection locality, collector date while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

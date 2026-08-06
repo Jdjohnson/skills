@@ -1,0 +1,33 @@
+{
+  "skill": "beauty-director",
+  "parity_goal": "Preserve the portable image-first visual-direction walk, visible-choice contract, and exact profile handoff without private workspace assumptions.",
+  "cases": [
+    {
+      "id": "initial-visible-choice",
+      "prompt": "$beauty-director I need a calm, trustworthy direction for a behavioral-health website, but not sterile or spa-like.",
+      "expected": [
+        "routes from the bundled index to three meaningfully different styles",
+        "puts every option name, approved reference image, one-liner, first three cues, palette, rationale, and question in one final answer",
+        "keeps visual choices out of commentary and allows rejection of all three"
+      ]
+    },
+    {
+      "id": "explained-rejection-and-depth",
+      "prompt": "$beauty-director None of these. They are too polished. I want rough screenprint energy and bolder type.",
+      "expected": [
+        "does not ask the user to repeat an already-clear rejection reason",
+        "does not repeat rejected styles and returns a new complete rendered choice set",
+        "after a selection, stays inside the chosen style and compares its approved anchor and expressions before any broader adjustment"
+      ]
+    },
+    {
+      "id": "accepted-cultural-profile",
+      "prompt": "$beauty-director Ukiyo-e is right for this museum booklet. Good-go. Save the accepted profile in the supplied project.",
+      "expected": [
+        "stops the walk after approval and asks only for a missing destination",
+        "writes exactly the required beauty-profile sections with 150 to 250 words of medium-specific application guidance",
+        "includes the approved reference plus all required cultural citations and a grounded respectful-use note"
+      ]
+    }
+  ]
+}

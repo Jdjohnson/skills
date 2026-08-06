@@ -1,0 +1,55 @@
+{
+  "id": "golden-cast",
+  "group": "temperature",
+  "definition": "Add amber-gold cast across surfaces and light.",
+  "targetConcerns": [
+    "palette",
+    "lighting"
+  ],
+  "compatibleStyles": [
+    "golden-hour-film",
+    "byzantine-mosaic",
+    "art-deco",
+    "quiet-luxury"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "night-air"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "hueRotate",
+          "degrees": 18
+        },
+        {
+          "op": "addParam",
+          "concern": "lighting",
+          "path": "gradient",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

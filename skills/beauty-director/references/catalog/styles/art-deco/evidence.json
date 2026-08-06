@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "art-deco",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Paris Art Deco decorative arts",
+    "creatorOrTradition": "International Art Deco movement",
+    "sourceUrl": "https://www.vam.ac.uk/articles/an-introduction-to-art-deco/",
+    "whyCanonical": "The movement's luxury materials, stepped geometry, symmetry, stylization, and machine-age imagery provide a broader anchor than a generic black-and-gold graphic treatment."
+  },
+  "sources": [
+    {
+      "title": "An introduction to Art Deco",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/an-introduction-to-art-deco/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Art Deco combined modern geometric form with luxury craft, stylized motifs, rich surfaces, and an enthusiasm for speed and technology."
+      ]
+    },
+    {
+      "title": "Art Deco printmakers",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/art-deco-printmakers",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Period printmaking demonstrates the movement's simplified silhouettes, controlled color, rhythmic geometry, and graphic treatment of modern life."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches geometric, art deco era, schematic, symmetry, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/art-deco/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/art-deco/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches geometric, art deco era, schematic, symmetry, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

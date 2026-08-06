@@ -1,0 +1,163 @@
+{
+  "id": "field-guide",
+  "displayName": "Field Guide",
+  "family": "scientific-diagram",
+  "definition": "Identification pages that combine observed specimens, keyed comparisons, diagnostic callouts, measurements, habitat or range, and concise field notes.",
+  "axes": {
+    "minimalOrnate": -0.7,
+    "geometricOrganic": -0.6,
+    "polishedRaw": -0.6,
+    "calmEnergetic": -0.5,
+    "historicalFuturistic": -0.4,
+    "realisticAbstract": -0.7,
+    "warmCool": 0.3,
+    "lightDark": -0.5,
+    "playfulSerious": 0.5,
+    "handmadeMachined": -0.2,
+    "flatDeep": -0.9,
+    "everydayLuxurious": -0.6
+  },
+  "cues": [
+    "comparative-specimens",
+    "diagnostic-callouts",
+    "identification-key",
+    "range-map",
+    "measured-scale",
+    "concise-field-notes",
+    "taxonomic-hierarchy",
+    "portable-page"
+  ],
+  "antiCues": [
+    "single-decorative-portrait",
+    "unlabeled-nature-art",
+    "museum-wall-label",
+    "dense-research-paper",
+    "fantasy-species"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "scholarly",
+    "calm"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.35,
+      "symmetry": 0.6,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#6B7B3C",
+        "#E6E9F4",
+        "#2E314E",
+        "#A06B6E",
+        "#789C84"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/field-guide.svg",
+      "descriptor": "system sans/display",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/scientific-diagram-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.3,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "compare-similar-species",
+        "label-diagnostic-features",
+        "include-scale-range-or-habitat",
+        "prioritize-identification-over-decoration"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 1,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 0,
+    "interiors-architecture": 1,
+    "data-visualization": 3
+  },
+  "heroRecipe": {
+    "motif": "a compact identification spread comparing several similar species through images, measurements, field marks, and range information",
+    "framing": "organize the page for quick lookup with specimens aligned for comparison and the most diagnostic differences called out",
+    "mustShow": [
+      "comparative specimen views",
+      "diagnostic labels or arrows",
+      "scale habitat or range context"
+    ],
+    "mustAvoid": [
+      "single decorative hero",
+      "unverifiable fantasy anatomy",
+      "long continuous essay",
+      "photographic collage without hierarchy",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "botanical-plate",
+    "classic-infographic",
+    "specimen-label"
+  ],
+  "contrasting": [
+    "festival-banner",
+    "market-vernacular",
+    "neon-night-ui"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "more-ornament",
+  "group": "ornament-level",
+  "definition": "Increase motif density and decorative fill.",
+  "targetConcerns": [
+    "ornament"
+  ],
+  "compatibleStyles": [
+    "art-deco",
+    "victorian-ephemera",
+    "folk-embroidery",
+    "belle-epoque-lithograph"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "brutalist-raw",
+    "modernist-grid"
+  ],
+  "incompatibleModifiers": [
+    "strip-ornament"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "ornament",
+          "path": "density",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

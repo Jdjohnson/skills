@@ -1,0 +1,61 @@
+{
+  "id": "sun-bleached",
+  "group": "temperature",
+  "definition": "Fade chroma as if sun-worn and dry.",
+  "targetConcerns": [
+    "palette",
+    "materialTexture"
+  ],
+  "compatibleStyles": [
+    "golden-hour-film",
+    "international-typographic-style"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "humid-glow"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "saturationScale",
+          "factor": 0.85
+        },
+        {
+          "op": "lightnessShift",
+          "amount": 0.15
+        },
+        {
+          "op": "addParam",
+          "concern": "materialTexture",
+          "path": "grain",
+          "amount": -0.15
+        }
+      ]
+    },
+    "heroOverlay": {
+      "type": "colorMatrix",
+      "strength": 0.35
+    }
+  }
+}

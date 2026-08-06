@@ -1,0 +1,158 @@
+{
+  "id": "isotype-statistical-graphics",
+  "displayName": "Isotype Statistical Graphics",
+  "family": "modernist-grid",
+  "definition": "Repeated standardized pictograms encode quantities through count, comparison, grouping, and consistent scale rather than perspective or pictorial illustration.",
+  "axes": {
+    "minimalOrnate": -0.4,
+    "geometricOrganic": -0.4,
+    "polishedRaw": -0.6,
+    "calmEnergetic": -0.2,
+    "historicalFuturistic": -0.1,
+    "realisticAbstract": 0.4,
+    "warmCool": 0.2,
+    "lightDark": -0.1,
+    "playfulSerious": 0.5,
+    "handmadeMachined": 0.8,
+    "flatDeep": -0.4,
+    "everydayLuxurious": -0.5
+  },
+  "cues": [
+    "repeated-pictograms",
+    "quantitative",
+    "consistent-scale",
+    "comparison",
+    "schematic"
+  ],
+  "antiCues": [
+    "wayfinding",
+    "isometric",
+    "photographic",
+    "decorative"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "clinical"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.55,
+      "symmetry": 0.5,
+      "margins": 0.3
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#0077B6",
+        "#E63946",
+        "#F4A261",
+        "#CAF0F8",
+        "#03045E"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/isotype-diagram.svg",
+      "descriptor": "compact sans for diagram labels",
+      "weight": 600,
+      "tracking": 0.03
+    },
+    "shapeLine": {
+      "cornerRadius": 0.15,
+      "lineWeight": 0.4,
+      "curveTension": 0.1
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/modernist-grid-primary"
+      ],
+      "finish": "matte",
+      "grain": 0,
+      "tags": [
+        "ink",
+        "paper"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.5,
+      "keyDirection": "top-left",
+      "gradient": 0.08
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.1,
+      "parallax": 0.05
+    },
+    "motion": {
+      "energy": 0.25,
+      "descriptor": "stepped"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.05,
+      "tags": [
+        "outline"
+      ]
+    },
+    "imagery": {
+      "treatment": "diagrammatic",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.7
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 3,
+    "web-app": 2,
+    "presentation": 3,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 2,
+    "interiors-architecture": 3,
+    "data-visualization": 3
+  },
+  "heroRecipe": {
+    "motif": "a public-health comparison chart built from repeated human and household pictograms",
+    "framing": "Rows of identical unit icons align to a baseline; quantity is shown by count and grouping, with one restrained accent color and no perspective.",
+    "mustShow": [
+      "repeated-pictograms",
+      "quantitative",
+      "consistent-scale"
+    ],
+    "mustAvoid": [
+      "wayfinding",
+      "isometric",
+      "photographic",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "civic-wayfinding",
+    "bauhaus-workshop",
+    "circuit-schematic"
+  ],
+  "contrasting": [
+    "quiet-luxury",
+    "academic-journal",
+    "anatomical-plate"
+  ]
+}

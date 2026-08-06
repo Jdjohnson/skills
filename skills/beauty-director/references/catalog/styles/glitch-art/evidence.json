@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "glitch-art",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "The Glitch Moment(um)",
+    "creatorOrTradition": "Rosa Menkman and glitch-art practice",
+    "sourceUrl": "https://networkcultures.org/blog/publication/no-04-the-glitch-momentum-rosa-menkman/",
+    "whyCanonical": "Menkman's foundational account connects glitch art to compression, feedback, signal noise, technical failure, cultural meaning, and the visible specificity of media artifacts."
+  },
+  "sources": [
+    {
+      "title": "The Glitch Moment(um)",
+      "publisher": "Institute of Network Cultures",
+      "url": "https://networkcultures.org/blog/publication/no-04-the-glitch-momentum-rosa-menkman/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Glitch art operates across glitches, compression, feedback, and other noise artifacts rather than one decorative RGB effect.",
+        "The artifact's technical and cultural specificity is central to the practice."
+      ]
+    },
+    {
+      "title": "The Collapse of PAL",
+      "publisher": "Rhizome ArtBase",
+      "url": "https://artbase.rhizome.org/wiki/Q2051",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Rosa Menkman's work uses analog signal, compression, glitches, feedback, image bending, and damaged capture hardware as material processes.",
+        "The work establishes signal failure and obsolete media behavior as compositional content."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach digital signal, screen scale, raw form, kinetic while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/glitch-art/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/glitch-art/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach digital signal, screen scale, raw form, kinetic while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

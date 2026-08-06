@@ -1,0 +1,53 @@
+{
+  "id": "ink-blacker",
+  "group": "contrast",
+  "definition": "Deepen blacks toward ink-dense print.",
+  "targetConcerns": [
+    "palette",
+    "typography"
+  ],
+  "compatibleStyles": [
+    "graphic-black-and-white",
+    "rococo-salon"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "pastelize"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "lightnessShift",
+          "amount": -0.15
+        },
+        {
+          "op": "addParam",
+          "concern": "typography",
+          "path": "tracking",
+          "amount": -0.15
+        }
+      ]
+    }
+  }
+}

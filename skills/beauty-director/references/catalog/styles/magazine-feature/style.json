@@ -1,0 +1,160 @@
+{
+  "id": "magazine-feature",
+  "displayName": "Magazine Feature",
+  "family": "editorial-literary",
+  "definition": "A feature opener and continuation spread coordinate headline, deck, pull quote, image, caption, columns, and pacing for a narrative magazine package.",
+  "axes": {
+    "minimalOrnate": -0.3,
+    "geometricOrganic": -0.5,
+    "polishedRaw": -0.4,
+    "calmEnergetic": 0.1,
+    "historicalFuturistic": -0.2,
+    "realisticAbstract": -0.2,
+    "warmCool": -0.1,
+    "lightDark": 0.1,
+    "playfulSerious": 0.1,
+    "handmadeMachined": -0.2,
+    "flatDeep": -0.1,
+    "everydayLuxurious": 0.2
+  },
+  "cues": [
+    "feature-opener",
+    "headline-deck",
+    "pull-quote",
+    "image-text-pacing",
+    "continuation-spread"
+  ],
+  "antiCues": [
+    "quiet-journal",
+    "cover-only",
+    "uncaptioned-gallery",
+    "interface-panels"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "intimate",
+    "energized"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.4,
+      "symmetry": 0.55,
+      "margins": 0.1
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#F4EEE6",
+        "#2A90C2",
+        "#406A2F",
+        "#D9C0C7",
+        "#1A1916"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/magazine-feature.svg",
+      "descriptor": "feature display with body serif",
+      "weight": 600,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/editorial-literary-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.25,
+      "tags": [
+        "paper",
+        "matte-paint"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.5,
+      "keyDirection": "front",
+      "gradient": 0.3
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "reported-feature-subject",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 2,
+    "packaging": 1,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a complete magazine package showing a dramatic opener beside its denser continuation spread",
+    "framing": "Feature title, deck, lead image, caption, pull quote, columns, and continuation rhythm shown with visible page edges and a shared hierarchy.",
+    "mustShow": [
+      "feature-opener",
+      "headline-deck",
+      "continuation-spread"
+    ],
+    "mustAvoid": [
+      "quiet-journal",
+      "cover-only",
+      "interface-panels",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "literary-journal",
+    "fashion-editorial",
+    "culture-review"
+  ],
+  "contrasting": [
+    "crt-terminal",
+    "8-bit-pixel-art",
+    "spatial-ar-interface"
+  ]
+}
