@@ -1,6 +1,6 @@
 # Generic AI Skills
 
-A public bank of 16 reusable skills for thinking, planning, writing, meetings, research, and agent tooling. Published skills avoid private workspace assumptions, personal voice profiles, client context, and organization-specific routing.
+A public bank of 15 reusable skills for thinking, planning, meetings, research, and agent tooling. Published skills avoid private workspace assumptions, personal voice profiles, client context, and organization-specific routing.
 
 ## Install
 
@@ -19,6 +19,8 @@ Each skill starts at `skills/<name>/SKILL.md`. Supporting nodes, references, scr
 
 Version 3 consolidates the former `claude-code`, `codex`, `grok-build`, and `opencode` skills into `cli-subagents`. Use `$cli-subagents` and select the matching node.
 
+Version 4 retires the former `writer` workflow. Use the model's normal drafting behavior, or the linked upstream Humanizer when a finished draft only needs AI-pattern cleanup.
+
 ## Skills
 
 ### Thinking and planning
@@ -33,11 +35,10 @@ Version 3 consolidates the former `claude-code`, `codex`, `grok-build`, and `ope
 | [steelman](./skills/steelman/SKILL.md) | Pressure-testing and strengthening an idea, argument, or decision |
 | [stuck](./skills/stuck/SKILL.md) | Diagnosing a block and choosing a practical starting move |
 
-### Writing and meetings
+### Meetings and records
 
 | Skill | Use it for |
 |---|---|
-| [writer](./skills/writer/SKILL.md) | Turning rough ideas, notes, or drafts into publishable prose |
 | [meeting](./skills/meeting/SKILL.md) | Preparing, closing, finding history, and reviewing meeting patterns |
 | [work-log](./skills/work-log/SKILL.md) | Explicitly closing out an active work thread into configured records |
 
