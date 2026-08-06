@@ -1,0 +1,2424 @@
+{
+  "version": 1,
+  "aliases": [
+    {
+      "id": "alias-1",
+      "phrase": "Swiss International",
+      "normalized": "swiss international",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "international-typographic-style"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-2",
+      "phrase": "Bauhaus Construct",
+      "normalized": "bauhaus construct",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "bauhaus-workshop"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-3",
+      "phrase": "Art Deco",
+      "normalized": "art deco",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "art-deco"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-4",
+      "phrase": "Art Nouveau",
+      "normalized": "art nouveau",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "art-nouveau"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-5",
+      "phrase": "Memphis",
+      "normalized": "memphis",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "memphis-design"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-6",
+      "phrase": "Brutalism",
+      "normalized": "brutalism",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "brutalism"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-7",
+      "phrase": "Ukiyo-e",
+      "normalized": "ukiyo e",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "ukiyo-e"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-8",
+      "phrase": "Wabi-Sabi",
+      "normalized": "wabi sabi",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "wabi-sabi"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-9",
+      "phrase": "Vaporwave",
+      "normalized": "vaporwave",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "vaporwave"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-10",
+      "phrase": "Y2K Cyber",
+      "normalized": "y2k cyber",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "y2k-cyber"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-11",
+      "phrase": "Film Noir",
+      "normalized": "film noir",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "film-noir"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-12",
+      "phrase": "Pop Art",
+      "normalized": "pop art",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "pop-art"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-13",
+      "phrase": "Byzantine Mosaic",
+      "normalized": "byzantine mosaic",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "byzantine-mosaic"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-14",
+      "phrase": "Illuminated Manuscript",
+      "normalized": "illuminated manuscript",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "illuminated-manuscript"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-15",
+      "phrase": "Haute Luxury",
+      "normalized": "haute luxury",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "quiet-luxury"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-16",
+      "phrase": "Comic Panel",
+      "normalized": "comic panel",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "comic-panel"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-17",
+      "phrase": "Blueprint Tech",
+      "normalized": "blueprint tech",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "engineering-blueprint"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-18",
+      "phrase": "Neo-Noir Neon",
+      "normalized": "neo noir neon",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "neo-noir-neon"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-19",
+      "phrase": "Scandinavian Modern",
+      "normalized": "scandinavian modern",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "scandinavian-modern"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-20",
+      "phrase": "Arts and Crafts",
+      "normalized": "arts and crafts",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "arts-and-crafts"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-21",
+      "phrase": "Letterpress Atelier",
+      "normalized": "letterpress atelier",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "letterpress-print"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-22",
+      "phrase": "Field Guide",
+      "normalized": "field guide",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "field-guide"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-23",
+      "phrase": "Botanical Watercolor",
+      "normalized": "botanical watercolor",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "botanical-watercolor"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-24",
+      "phrase": "Punk Zine",
+      "normalized": "punk zine",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "punk-zine"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-25",
+      "phrase": "Raw Web Brutal",
+      "normalized": "raw web brutal",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "web-brutalism"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-26",
+      "phrase": "Soft UI Glass",
+      "normalized": "soft ui glass",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "glassmorphism"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-27",
+      "phrase": "Pixel Retro",
+      "normalized": "pixel retro",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "8-bit-pixel-art"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-28",
+      "phrase": "Roadside Americana",
+      "normalized": "roadside americana",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "roadside-americana"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-29",
+      "phrase": "Billboard Bold",
+      "normalized": "billboard bold",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "billboard-bold"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-30",
+      "phrase": "Literary Journal",
+      "normalized": "literary journal",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "literary-journal"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-31",
+      "phrase": "Fashion Editorial",
+      "normalized": "fashion editorial",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "fashion-editorial"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-32",
+      "phrase": "News Broadsheet",
+      "normalized": "news broadsheet",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "news-broadsheet"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-33",
+      "phrase": "Shaker Utility",
+      "normalized": "shaker utility",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "shaker-utility"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-34",
+      "phrase": "Studio Pottery",
+      "normalized": "studio pottery",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "studio-pottery"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-35",
+      "phrase": "Cartographic Sheet",
+      "normalized": "cartographic sheet",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "cartographic-sheet"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-36",
+      "phrase": "Anatomical Plate",
+      "normalized": "anatomical plate",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "anatomical-plate"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-37",
+      "phrase": "Kids Picture Book",
+      "normalized": "kids picture book",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "kids-picture-book"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-38",
+      "phrase": "Geometric Toy",
+      "normalized": "geometric toy",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "geometric-toy"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-39",
+      "phrase": "Gallery White",
+      "normalized": "gallery white",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "gallery-white"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-40",
+      "phrase": "Concrete Poetry",
+      "normalized": "concrete poetry",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "concrete-poetry"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-41",
+      "phrase": "Industrial Warehouse",
+      "normalized": "industrial warehouse",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "industrial-warehouse"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-42",
+      "phrase": "Hotel Atelier",
+      "normalized": "hotel atelier",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "boutique-hospitality"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-43",
+      "phrase": "Jewelry Vitrine",
+      "normalized": "jewelry vitrine",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "jewelry-vitrine"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-44",
+      "phrase": "Folk Embroidery",
+      "normalized": "folk embroidery",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "folk-embroidery"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-45",
+      "phrase": "Woodcut Tale",
+      "normalized": "woodcut tale",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "narrative-woodcut"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-46",
+      "phrase": "Festival Banner",
+      "normalized": "festival banner",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "festival-banner"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-47",
+      "phrase": "Golden Hour Film",
+      "normalized": "golden hour film",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "golden-hour-film"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-48",
+      "phrase": "Documentary Grit",
+      "normalized": "documentary grit",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "documentary-grit"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-49",
+      "phrase": "Isometric Play",
+      "normalized": "isometric play",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "isometric-play"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-50",
+      "phrase": "Ulm System",
+      "normalized": "ulm system",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "ulm-systems-design"
+        }
+      ],
+      "weight": 0.95,
+      "kind": "canonicalName"
+    },
+    {
+      "id": "alias-51",
+      "phrase": "cozy futurism",
+      "normalized": "cozy futurism",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "glassmorphism"
+        },
+        {
+          "kind": "style",
+          "id": "y2k-cyber"
+        }
+      ],
+      "weight": 0.85,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-52",
+      "phrase": "old science textbook",
+      "normalized": "old science textbook",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "field-guide"
+        },
+        {
+          "kind": "style",
+          "id": "anatomical-plate"
+        }
+      ],
+      "weight": 0.9,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-53",
+      "phrase": "more human",
+      "normalized": "more human",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "handmadeMachined",
+          "value": -0.4
+        },
+        {
+          "kind": "axis",
+          "id": "polishedRaw",
+          "value": 0.2
+        }
+      ],
+      "weight": 0.8,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-54",
+      "phrase": "1990s educational CD-ROM",
+      "normalized": "1990s educational cd rom",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "8-bit-pixel-art"
+        },
+        {
+          "kind": "style",
+          "id": "kids-picture-book"
+        }
+      ],
+      "weight": 0.9,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-55",
+      "phrase": "make it feel expensive",
+      "normalized": "make it feel expensive",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "quiet-luxury"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-56",
+      "phrase": "less startup",
+      "normalized": "less startup",
+      "targets": [
+        {
+          "kind": "exclusionSuggestion",
+          "id": "corporate-flat-ui"
+        },
+        {
+          "kind": "style",
+          "id": "graphic-brutalism"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-57",
+      "phrase": "like a paperback",
+      "normalized": "like a paperback",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "literary-journal"
+        },
+        {
+          "kind": "style",
+          "id": "poetry-chapbook"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-58",
+      "phrase": "too Web 2.0",
+      "normalized": "too web 2 0",
+      "targets": [
+        {
+          "kind": "exclusionSuggestion",
+          "id": "soft-ui-glass"
+        },
+        {
+          "kind": "style",
+          "id": "web-brutalism"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-59",
+      "phrase": "grown-up but not boring",
+      "normalized": "grown up but not boring",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "neo-grotesk-editorial"
+        },
+        {
+          "kind": "style",
+          "id": "culture-review"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-60",
+      "phrase": "quiet luxury",
+      "normalized": "quiet luxury",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "quiet-luxury"
+        },
+        {
+          "kind": "style",
+          "id": "gallery-white"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-61",
+      "phrase": "more editorial",
+      "normalized": "more editorial",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "magazine-feature"
+        },
+        {
+          "kind": "style",
+          "id": "fashion-editorial"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-62",
+      "phrase": "museum quiet",
+      "normalized": "museum quiet",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "gallery-white"
+        },
+        {
+          "kind": "style",
+          "id": "specimen-label"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-63",
+      "phrase": "like a zine",
+      "normalized": "like a zine",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "punk-zine"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-64",
+      "phrase": "more handmade",
+      "normalized": "more handmade",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "handmadeMachined",
+          "value": -0.5
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-65",
+      "phrase": "more polished",
+      "normalized": "more polished",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "polishedRaw",
+          "value": -0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-66",
+      "phrase": "warmer please",
+      "normalized": "warmer please",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "warmCool",
+          "value": -0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-67",
+      "phrase": "cooler tone",
+      "normalized": "cooler tone",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "warmCool",
+          "value": 0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-68",
+      "phrase": "darker mood",
+      "normalized": "darker mood",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "lightDark",
+          "value": 0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-69",
+      "phrase": "lighter airy",
+      "normalized": "lighter airy",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "lightDark",
+          "value": -0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-70",
+      "phrase": "flatten it",
+      "normalized": "flatten it",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "flatDeep",
+          "value": -0.5
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-71",
+      "phrase": "more depth",
+      "normalized": "more depth",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "flatDeep",
+          "value": 0.5
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-72",
+      "phrase": "less playful",
+      "normalized": "less playful",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "playfulSerious",
+          "value": 0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-73",
+      "phrase": "more playful",
+      "normalized": "more playful",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "playfulSerious",
+          "value": -0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-74",
+      "phrase": "swiss style",
+      "normalized": "swiss style",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "international-typographic-style"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-75",
+      "phrase": "bauhaus vibes",
+      "normalized": "bauhaus vibes",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "bauhaus-workshop"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-76",
+      "phrase": "memphis design",
+      "normalized": "memphis design",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "memphis-design"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-77",
+      "phrase": "brutalist",
+      "normalized": "brutalist",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "brutalism"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-78",
+      "phrase": "cyber y2k",
+      "normalized": "cyber y2k",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "y2k-cyber"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-79",
+      "phrase": "vaporwave aesthetic",
+      "normalized": "vaporwave aesthetic",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "vaporwave"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-80",
+      "phrase": "comic book",
+      "normalized": "comic book",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "comic-panel"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-81",
+      "phrase": "blueprint look",
+      "normalized": "blueprint look",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "engineering-blueprint"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-82",
+      "phrase": "neon noir",
+      "normalized": "neon noir",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "neo-noir-neon"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-83",
+      "phrase": "not corporate",
+      "normalized": "not corporate",
+      "targets": [
+        {
+          "kind": "exclusionSuggestion",
+          "id": "corporate-flat-ui"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-84",
+      "phrase": "no neon",
+      "normalized": "no neon",
+      "targets": [
+        {
+          "kind": "exclusionSuggestion",
+          "tag": "neon"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-85",
+      "phrase": "not a field guide",
+      "normalized": "not a field guide",
+      "targets": [
+        {
+          "kind": "exclusionSuggestion",
+          "id": "field-guide"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-86",
+      "phrase": "like a hotel brand",
+      "normalized": "like a hotel brand",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "boutique-hospitality"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-87",
+      "phrase": "perfume campaign",
+      "normalized": "perfume campaign",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "scent-campaign"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-88",
+      "phrase": "jewelry ad",
+      "normalized": "jewelry ad",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "jewelry-vitrine"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-89",
+      "phrase": "newspaper energy",
+      "normalized": "newspaper energy",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "news-broadsheet"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-90",
+      "phrase": "poetry chapbook feel",
+      "normalized": "poetry chapbook feel",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "poetry-chapbook"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-91",
+      "phrase": "academic paper",
+      "normalized": "academic paper",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "academic-journal"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-92",
+      "phrase": "type specimen",
+      "normalized": "type specimen",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "type-specimen-book"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-93",
+      "phrase": "dashboard UI",
+      "normalized": "dashboard ui",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "operational-dashboard"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-94",
+      "phrase": "terminal green",
+      "normalized": "terminal green",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "crt-terminal"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-95",
+      "phrase": "glitch art",
+      "normalized": "glitch art",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "glitch-art"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-96",
+      "phrase": "AR HUD",
+      "normalized": "ar hud",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "spatial-ar-interface"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-97",
+      "phrase": "twitch overlay",
+      "normalized": "twitch overlay",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "live-stream-overlay"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-98",
+      "phrase": "game boy pixel",
+      "normalized": "game boy pixel",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "8-bit-pixel-art"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-99",
+      "phrase": "glassmorphism",
+      "normalized": "glassmorphism",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "glassmorphism"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-100",
+      "phrase": "supermarket shelf",
+      "normalized": "supermarket shelf",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "supermarket-packaging"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-101",
+      "phrase": "carnival poster",
+      "normalized": "carnival poster",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "carnival-poster"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-102",
+      "phrase": "roadside motel",
+      "normalized": "roadside motel",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "roadside-americana"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-103",
+      "phrase": "toy catalog",
+      "normalized": "toy catalog",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "psychedelic-poster"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-104",
+      "phrase": "sticker bomb",
+      "normalized": "sticker bomb",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "sticker-bomb"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-105",
+      "phrase": "billboard big type",
+      "normalized": "billboard big type",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "billboard-bold"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-106",
+      "phrase": "retro ad",
+      "normalized": "retro ad",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "mid-century-advertising"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-107",
+      "phrase": "art deco luxury",
+      "normalized": "art deco luxury",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "art-deco"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-108",
+      "phrase": "art nouveau vines",
+      "normalized": "art nouveau vines",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "art-nouveau"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-109",
+      "phrase": "rococo pastel",
+      "normalized": "rococo pastel",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "rococo-salon"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-110",
+      "phrase": "baroque drama",
+      "normalized": "baroque drama",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "baroque-chiaroscuro"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-111",
+      "phrase": "gothic cathedral",
+      "normalized": "gothic cathedral",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "gothic-revival"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-112",
+      "phrase": "manuscript gold",
+      "normalized": "manuscript gold",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "illuminated-manuscript"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-114",
+      "phrase": "victorian scrapbook",
+      "normalized": "victorian scrapbook",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "victorian-ephemera"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-115",
+      "phrase": "belle epoque poster",
+      "normalized": "belle epoque poster",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "belle-epoque-lithograph"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-116",
+      "phrase": "empire neoclassical",
+      "normalized": "empire neoclassical",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "empire-style"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-117",
+      "phrase": "wabi sabi imperfect",
+      "normalized": "wabi sabi imperfect",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "wabi-sabi"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-118",
+      "phrase": "shaker simple",
+      "normalized": "shaker simple",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "shaker-utility"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-119",
+      "phrase": "scandinavian calm",
+      "normalized": "scandinavian calm",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "scandinavian-modern"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-120",
+      "phrase": "letterpress print",
+      "normalized": "letterpress print",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "letterpress-print"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-122",
+      "phrase": "garden sketchbook",
+      "normalized": "garden sketchbook",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "garden-sketchbook"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-123",
+      "phrase": "linen texture",
+      "normalized": "linen texture",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "natural-textile"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-124",
+      "phrase": "pottery studio",
+      "normalized": "pottery studio",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "studio-pottery"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-125",
+      "phrase": "hand bound journal",
+      "normalized": "hand bound journal",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "artisan-bookbinding"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-126",
+      "phrase": "ukiyo-e print",
+      "normalized": "ukiyo e print",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "ukiyo-e"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-128",
+      "phrase": "quilt pattern",
+      "normalized": "quilt pattern",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "quilting-pattern"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-129",
+      "phrase": "woodcut story",
+      "normalized": "woodcut story",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "narrative-woodcut"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-130",
+      "phrase": "tin folk art",
+      "normalized": "tin folk art",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "mexican-tinwork"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-131",
+      "phrase": "market stall color",
+      "normalized": "market stall color",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "market-vernacular"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-133",
+      "phrase": "story cloth",
+      "normalized": "story cloth",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "narrative-textile"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-134",
+      "phrase": "ceramic tile",
+      "normalized": "ceramic tile",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "folk-tilework"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-135",
+      "phrase": "roadside folk sign",
+      "normalized": "roadside folk sign",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "roadside-vernacular"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-136",
+      "phrase": "anatomy plate",
+      "normalized": "anatomy plate",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "anatomical-plate"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-137",
+      "phrase": "star chart",
+      "normalized": "star chart",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "astro-chart"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-138",
+      "phrase": "map sheet",
+      "normalized": "map sheet",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "cartographic-sheet"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-139",
+      "phrase": "circuit schematic",
+      "normalized": "circuit schematic",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "circuit-schematic"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-140",
+      "phrase": "lab notebook",
+      "normalized": "lab notebook",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "lab-notebook"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-141",
+      "phrase": "infographic classic",
+      "normalized": "infographic classic",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "classic-infographic"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-142",
+      "phrase": "museum wall label",
+      "normalized": "museum wall label",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "specimen-label"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-143",
+      "phrase": "botanical plate",
+      "normalized": "botanical plate",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "botanical-plate"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-145",
+      "phrase": "golden hour",
+      "normalized": "golden hour",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "golden-hour-film"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-147",
+      "phrase": "foggy atmosphere",
+      "normalized": "foggy atmosphere",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "fog-atmosphere"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-148",
+      "phrase": "black and white contrast",
+      "normalized": "black and white contrast",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "graphic-black-and-white"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-149",
+      "phrase": "suspense still",
+      "normalized": "suspense still",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "suspense-still"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-150",
+      "phrase": "retro cinema",
+      "normalized": "retro cinema",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "analog-cinema-titles"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-151",
+      "phrase": "night drive",
+      "normalized": "night drive",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "night-drive"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-152",
+      "phrase": "stage spotlight",
+      "normalized": "stage spotlight",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "stage-spotlight"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-154",
+      "phrase": "board game box",
+      "normalized": "board game box",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "board-game-box"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-155",
+      "phrase": "sticker sheet",
+      "normalized": "sticker sheet",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "sticker-sheet-system"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-157",
+      "phrase": "pattern playground",
+      "normalized": "pattern playground",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "pattern-playground"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-158",
+      "phrase": "emoji grammar",
+      "normalized": "emoji grammar",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "emoji-grammar"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-159",
+      "phrase": "soft plastics",
+      "normalized": "soft plastics",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "candy-plastic"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-160",
+      "phrase": "paper cut collage",
+      "normalized": "paper cut collage",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "paper-cut-collage"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-161",
+      "phrase": "motion sticker",
+      "normalized": "motion sticker",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "motion-sticker"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-163",
+      "phrase": "anti brand",
+      "normalized": "anti brand",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "graphic-brutalism"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-164",
+      "phrase": "utility form",
+      "normalized": "utility form",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "operational-utility"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-165",
+      "phrase": "scaffold structure",
+      "normalized": "scaffold structure",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "scaffold-structure"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-166",
+      "phrase": "rubble collage",
+      "normalized": "rubble collage",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "dada-collage"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-167",
+      "phrase": "mono industrial",
+      "normalized": "mono industrial",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "industrial-monochrome"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-168",
+      "phrase": "couture lookbook",
+      "normalized": "couture lookbook",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "couture-lookbook"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-169",
+      "phrase": "silk editorial",
+      "normalized": "silk editorial",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "silk-editorial"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-170",
+      "phrase": "private club",
+      "normalized": "private club",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "private-club"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-171",
+      "phrase": "watch precision",
+      "normalized": "watch precision",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "watch-precision"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-172",
+      "phrase": "atelier sketch",
+      "normalized": "atelier sketch",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "atelier-process"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-173",
+      "phrase": "design monograph",
+      "normalized": "design monograph",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "design-monograph"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-174",
+      "phrase": "photo essay",
+      "normalized": "photo essay",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "photo-essay"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-175",
+      "phrase": "cultural quarterly",
+      "normalized": "cultural quarterly",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "culture-review"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-176",
+      "phrase": "modular poster",
+      "normalized": "modular poster",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "modular-poster"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-177",
+      "phrase": "modern brochure",
+      "normalized": "modern brochure",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "corporate-modernism"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-178",
+      "phrase": "wayfinding signage",
+      "normalized": "wayfinding signage",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "civic-wayfinding"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-179",
+      "phrase": "ulm systems",
+      "normalized": "ulm systems",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "ulm-systems-design"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-180",
+      "phrase": "isotype charts",
+      "normalized": "isotype charts",
+      "targets": [
+        {
+          "kind": "style",
+          "id": "isotype-statistical-graphics"
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-181",
+      "phrase": "make it quieter",
+      "normalized": "make it quieter",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "calmEnergetic",
+          "value": -0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-182",
+      "phrase": "more energy",
+      "normalized": "more energy",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "calmEnergetic",
+          "value": 0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-183",
+      "phrase": "more ornate",
+      "normalized": "more ornate",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "minimalOrnate",
+          "value": 0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-184",
+      "phrase": "more minimal",
+      "normalized": "more minimal",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "minimalOrnate",
+          "value": -0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-185",
+      "phrase": "historical feel",
+      "normalized": "historical feel",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "historicalFuturistic",
+          "value": -0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-186",
+      "phrase": "futuristic feel",
+      "normalized": "futuristic feel",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "historicalFuturistic",
+          "value": 0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-187",
+      "phrase": "luxurious",
+      "normalized": "luxurious",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "everydayLuxurious",
+          "value": 0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-188",
+      "phrase": "everyday ordinary",
+      "normalized": "everyday ordinary",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "everydayLuxurious",
+          "value": -0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-189",
+      "phrase": "organic shapes",
+      "normalized": "organic shapes",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "geometricOrganic",
+          "value": 0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    },
+    {
+      "id": "alias-190",
+      "phrase": "more geometric",
+      "normalized": "more geometric",
+      "targets": [
+        {
+          "kind": "axis",
+          "id": "geometricOrganic",
+          "value": -0.4
+        }
+      ],
+      "weight": 0.88,
+      "kind": "trend"
+    }
+  ]
+}

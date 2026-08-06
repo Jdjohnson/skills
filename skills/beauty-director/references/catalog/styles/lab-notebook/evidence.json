@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "lab-notebook",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Joseph Henry's Record of Experiments",
+    "creatorOrTradition": "Smithsonian scientific notebook collections",
+    "sourceUrl": "https://siarchives.si.edu/node/32415",
+    "whyCanonical": "The Smithsonian describes dated, carefully maintained notebooks that record experimental progress, immediate scraps, measurements, reflection, revisions, and priority claims."
+  },
+  "sources": [
+    {
+      "title": "Record of Experiments Introduction",
+      "publisher": "Smithsonian Institution Archives",
+      "url": "https://siarchives.si.edu/node/32415",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Laboratory notebooks can serve as dated working records that document experiments, evolving thought, later annotations, and the evidentiary sequence of research."
+      ]
+    },
+    {
+      "title": "Joseph Henry Notebook, Sound, Weather, 1865-1866",
+      "publisher": "Smithsonian Institution Archives",
+      "url": "https://siarchives.si.edu/collections/siris_sic_13760",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A real pocket notebook combines subject notes, instruments, experimental materials, measurements, data, and diagrams across a working sequence."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches dated entry, apparatus sketch, measured trial, calculation, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/lab-notebook/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/lab-notebook/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches dated entry, apparatus sketch, measured trial, calculation, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "circuit-schematic",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "IEEE standard graphic symbols for logic functions",
+    "creatorOrTradition": "Electrical and electronic schematic standards",
+    "sourceUrl": "https://standards.ieee.org/ieee/91_91a/241/",
+    "whyCanonical": "The standard treats graphic symbols as an international language for understanding functional behavior, connections, dependencies, and complex logic without needing physical-device detail."
+  },
+  "sources": [
+    {
+      "title": "IEEE Standard Graphic Symbols for Logic Functions",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/91_91a/241/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Standard symbols communicate logic behavior, inputs, outputs, connections, dependencies, combinational and sequential elements, and complex functions."
+      ]
+    },
+    {
+      "title": "Recommended Practice for Representation of Schematic Symbols in STEP AP 210",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://www.nist.gov/publications/proposed-recommended-practice-representation-schematic-symbols-step-ap-210-iso-10303",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A schematic symbol is a drafting representation of a functional element for human visualization, interpretation, and manipulation."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches standardized symbol, connected net, component id, functional block, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/circuit-schematic/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/circuit-schematic/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches standardized symbol, connected net, component id, functional block, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

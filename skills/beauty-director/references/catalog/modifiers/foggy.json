@@ -1,0 +1,61 @@
+{
+  "id": "foggy",
+  "group": "atmosphere",
+  "definition": "Add fog and soft depth attenuation.",
+  "targetConcerns": [
+    "lighting",
+    "depth"
+  ],
+  "compatibleStyles": [
+    "fog-atmosphere",
+    "film-noir",
+    "night-drive",
+    "wabi-sabi"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "crisper-air"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "lighting",
+          "path": "contrast",
+          "factor": 0.85
+        },
+        {
+          "op": "addParam",
+          "concern": "depth",
+          "path": "shadowSoftness",
+          "amount": 0.15
+        }
+      ]
+    },
+    "heroOverlay": {
+      "type": "vignette",
+      "strength": 0.35
+    }
+  }
+}

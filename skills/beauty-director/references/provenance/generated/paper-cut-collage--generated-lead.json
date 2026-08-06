@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "paper-cut-collage",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of layered paper-cut collage.\nUse case: editorial-illustration\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original editorial illustration of a nighttime garden ecosystem built entirely from hand-cut paper layers, with overlapping leaves, moths, a pond, moon reflections, small hidden creatures, visibly raised edges, cast shadows, and simplified but expressive shapes.\nStyle/medium: photographed dimensional paper-cut artwork\nComposition/framing: portrait 4:5, circular pond anchors lower center, foliage frames both sides, moon and moth create an upper focal point, readable at thumbnail scale\nLighting/mood: enchanted, tactile, calm\nColor palette: midnight navy, teal, moss, lavender, pale moon yellow, coral accents\nMaterials/textures: dyed paper fibers, scored folds, deckled cut edges, real layer shadows\nText: no text\nConstraints: original fictional scene and creatures, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "07bbf984ffe4845f2edea38fb073cc7e128be1fd05977f5fc84f4532c48a2f2a",
+  "finalAsset": "assets/refs/paper-cut-collage/generated-lead.jpg",
+  "finalSha256": "b0c245be2346f2b7b2f2bd268f19e8f5748d83fbcd0d1d92ddbc2f5935a40544",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

@@ -1,0 +1,165 @@
+{
+  "id": "roadside-vernacular",
+  "displayName": "Roadside Vernacular",
+  "family": "folk-vernacular",
+  "definition": "Hand-painted local-business lettering, improvised sign shapes, weathered boards, bright practical color, and roadside placement.",
+  "axes": {
+    "minimalOrnate": 0.8,
+    "geometricOrganic": 0.6,
+    "polishedRaw": 0.5,
+    "calmEnergetic": 0.3,
+    "historicalFuturistic": -0.5,
+    "realisticAbstract": -0.2,
+    "warmCool": -0.3,
+    "lightDark": -0.3,
+    "playfulSerious": -0.6,
+    "handmadeMachined": -0.8,
+    "flatDeep": -0.3,
+    "everydayLuxurious": -0.5
+  },
+  "cues": [
+    "hand-painted-lettering",
+    "road-scale-message",
+    "improvised-sign-shape",
+    "weathered-board",
+    "practical-bright-color",
+    "local-commerce",
+    "mixed-letterforms",
+    "site-specific-placement"
+  ],
+  "antiCues": [
+    "corporate-brand-system",
+    "polished-retro-diner",
+    "uniform-wayfinding",
+    "luxury-signage",
+    "digital-gradient"
+  ],
+  "emotionalEffects": [
+    "joyful",
+    "nostalgic",
+    "humble"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.55,
+      "symmetry": 0.2,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#D32F2F",
+        "#4A19D2",
+        "#ECFFE7",
+        "#2F8B8A",
+        "#212121"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/roadside-folk.svg",
+      "descriptor": "hand-informed display",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/folk-vernacular-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.65,
+      "tags": [
+        "wood",
+        "matte-paint"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.5,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/folk-vernacular"
+      ],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "show-sign-with-its-roadside-site",
+        "preserve-local-lettering-character",
+        "include-weather-and-repair",
+        "avoid-nostalgia-theme-park-staging"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 3,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 3,
+    "packaging": 2,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "a hand-painted local-business sign standing in direct relationship to a road and modest storefront",
+    "framing": "show enough sky, shoulder, façade, or lot to make viewing distance and improvised placement legible",
+    "mustShow": [
+      "painted lettering",
+      "site-made shape or support",
+      "weathered practical color"
+    ],
+    "mustAvoid": [
+      "generic retro badge",
+      "national brand marks",
+      "perfect vector lettering",
+      "theme-park polish",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "market-vernacular",
+    "narrative-woodcut",
+    "festival-banner"
+  ],
+  "contrasting": [
+    "international-typographic-style",
+    "neo-grotesk-editorial",
+    "engineering-blueprint"
+  ]
+}

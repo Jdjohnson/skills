@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "swiss-phototypography",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Swiss photo-type poster construction",
+    "creatorOrTradition": "Swiss modernist phototypography tradition",
+    "sourceUrl": "https://www.moma.org/artists/4154-josef-muller-brockmann",
+    "whyCanonical": "Müller-Brockmann's poster holdings establish disciplined modernist integration of photography, sans typography, crop, and grid."
+  },
+  "sources": [
+    {
+      "title": "Josef Müller-Brockmann",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/artists/4154-josef-muller-brockmann",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "MoMA's holdings include photo-led exhibition and cultural posters within Müller-Brockmann's modernist practice.",
+        "The body of work supports strict integration rather than generic text laid over an image."
+      ]
+    },
+    {
+      "title": "Dariush Borbor Graphic Design, Poster, Tehran, 2018",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Dariush_Borbor_(Architect_and_Urban_Planner)_Graphic_Design,,_Poster,_Tehran,_2018.jpg",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The audited author-released poster provides lawful contextual evidence of photographic and typographic construction.",
+        "The audit also shows that this reference is not canonical enough to lead the final set."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches photo type integration, strict grid, hard crop, oversized type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/swiss-phototypography/generated-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/swiss-phototypography/generated-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches photo type integration, strict grid, hard crop, oversized type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "watch-precision",
+  "displayName": "Watch Precision",
+  "family": "luxe-atelier",
+  "definition": "Jewel-scale mechanical macro imagery with dial symmetry, gears, bridges, screws, engraved marks, and alternating brushed and polished metal.",
+  "axes": {
+    "minimalOrnate": -0.5,
+    "geometricOrganic": -0.7,
+    "polishedRaw": -0.8,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": 0.2,
+    "realisticAbstract": -0.5,
+    "warmCool": -0.4,
+    "lightDark": 0.2,
+    "playfulSerious": 0.7,
+    "handmadeMachined": -0.4,
+    "flatDeep": 0.3,
+    "everydayLuxurious": 0.8
+  },
+  "cues": [
+    "machine-precise",
+    "object-scale",
+    "metal",
+    "glass",
+    "symmetry",
+    "collector-signal",
+    "luxury-signal",
+    "technical",
+    "clear-headed",
+    "minimal"
+  ],
+  "antiCues": [
+    "collage",
+    "rough",
+    "improvised"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "timeless",
+    "luxurious-feel"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "centered",
+      "density": 0.2,
+      "symmetry": 0.9,
+      "margins": 0.16
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#E8ECF0",
+        "#1B3A4B",
+        "#C0A062",
+        "#5A6570",
+        "#0E1012"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/watch-precision.svg",
+      "descriptor": "neutral grotesk with instrument numerals",
+      "weight": 400,
+      "tracking": 0.03
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/luxe-atelier-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.03,
+      "tags": [
+        "metal",
+        "glass",
+        "enamel"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.6,
+      "keyDirection": "front",
+      "gradient": 0.4
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "mechanical-credibility-first",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.1
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 3,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 3,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "original mechanical watch movement with plausible plates, wheels, springs, and finishing",
+    "framing": "axis-aligned macro view; controlled reflections and selective focus reveal calibrated part relationships",
+    "mustShow": [
+      "machine-precise",
+      "object-scale",
+      "metal"
+    ],
+    "mustAvoid": [
+      "collage",
+      "rough",
+      "improvised",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "jewelry-vitrine",
+    "gallery-white",
+    "industrial-monochrome"
+  ],
+  "contrasting": [
+    "dada-collage",
+    "punk-zine",
+    "graphic-brutalism"
+  ]
+}

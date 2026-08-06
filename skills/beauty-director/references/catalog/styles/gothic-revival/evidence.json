@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "gothic-revival",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Nineteenth-century Gothic Revival design",
+    "creatorOrTradition": "British and international Gothic Revival movement",
+    "sourceUrl": "https://www.vam.ac.uk/articles/the-gothic-style-an-introduction",
+    "whyCanonical": "Revival architecture and designed objects establish pointed structure, vertical rhythm, tracery, material craft, and moral-historical intent as a coordinated design language."
+  },
+  "sources": [
+    {
+      "title": "The Gothic style – an introduction",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/the-gothic-style-an-introduction",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Gothic Revival drew on medieval pointed construction, tracery, carving, and vertical emphasis across architecture and decorative arts."
+      ]
+    },
+    {
+      "title": "Stained glass: Gothic Revival and beyond",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/stained-glass-gothic-revival-and-beyond",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Revival stained glass demonstrates how colored transmitted light, lead structure, figure, and architectural framing produce atmosphere and hierarchy."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches ornate, axial, medieval, shadow heavy, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/gothic-revival/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/gothic-revival/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches ornate, axial, medieval, shadow heavy, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

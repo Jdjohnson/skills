@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "art-nouveau",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "The Art Nouveau whiplash line",
+    "creatorOrTradition": "International Art Nouveau design movement",
+    "sourceUrl": "https://www.vam.ac.uk/articles/the-whiplash/",
+    "whyCanonical": "The elastic asymmetrical curve explains how Art Nouveau binds stems, hair, bodies, lettering, furniture, and architecture into an integrated organic composition."
+  },
+  "sources": [
+    {
+      "title": "The whiplash",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/the-whiplash/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The whiplash is a dynamic, sinuous line whose changing tension organizes both structural and decorative Art Nouveau forms."
+      ]
+    },
+    {
+      "title": "Art Nouveau: an international style",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Art Nouveau crossed media and national variants while pursuing integrated design, stylized natural forms, and a break from copied historical ornament."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach organic, ornate, art nouveau era, linear while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/art-nouveau/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/art-nouveau/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach organic, ornate, art nouveau era, linear while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

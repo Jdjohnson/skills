@@ -1,0 +1,58 @@
+{
+  "id": "posterize",
+  "group": "contrast",
+  "definition": "Reduce value steps toward poster-like flats.",
+  "targetConcerns": [
+    "palette",
+    "shapeLine"
+  ],
+  "compatibleStyles": [
+    "graphic-black-and-white",
+    "rococo-salon"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "organic-craft",
+    "luxe-atelier"
+  ],
+  "incompatibleModifiers": [],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "saturationScale",
+          "factor": 1.075
+        },
+        {
+          "op": "lightnessShift",
+          "amount": 0
+        },
+        {
+          "op": "addParam",
+          "concern": "shapeLine",
+          "path": "lineWeight",
+          "amount": -0.15
+        }
+      ]
+    }
+  }
+}

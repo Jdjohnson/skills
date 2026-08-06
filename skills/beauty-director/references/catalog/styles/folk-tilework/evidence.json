@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "styleId": "folk-tilework",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Islamic architectural tile pattern",
+    "creatorOrTradition": "Islamic ceramic and architectural traditions",
+    "sourceUrl": "https://www.metmuseum.org/de/essays/geometric-patterns-in-islamic-art",
+    "whyCanonical": "The Met shows geometric systems moving across architecture and objects through coherent abstract structure rather than isolated ornamental motifs."
+  },
+  "sources": [
+    {
+      "title": "Geometric Patterns in Islamic Art",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/de/essays/geometric-patterns-in-islamic-art",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Geometric designs operate as structured architectural surface systems across tile, wood, stone, manuscript, glass, and textile traditions."
+      ]
+    },
+    {
+      "title": "Infinite Repetition in Nonrepeating Patterns",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/articles/infinite-repetition?rss=1",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Glazed cut tiles, mortar, repeated and interlaced shapes, and architectural scale create ordered fields with both local variation and large-system coherence."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach glazed ceramic units, visible grout rhythm, architectural assembly, mineral color while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/folk-tilework/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": {
+    "note": "Name the precise regional, religious, architectural, and workshop context instead of treating all glazed ornament as one folk style. Keep Arabic or other scripts accurate and meaningful, distinguish sacred settings from domestic decoration, and do not combine Islamic, Mexican, Portuguese, Mediterranean, or other tile vocabularies without a documented historical relationship.",
+    "citations": [
+      "https://www.metmuseum.org/de/essays/geometric-patterns-in-islamic-art",
+      "https://www.metmuseum.org/articles/infinite-repetition?rss=1"
+    ]
+  },
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/folk-tilework/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach glazed ceramic units, visible grout rhythm, architectural assembly, mineral color while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

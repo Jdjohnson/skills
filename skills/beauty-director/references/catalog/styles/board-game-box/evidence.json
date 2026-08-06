@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "board-game-box",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Illustrated historical board-game sheets",
+    "creatorOrTradition": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/free-to-use/games-for-fun-and-relaxation/",
+    "whyCanonical": "The Library's collection shows how printed game imagery can carry rules, play structure, and component behavior in one graphic artifact."
+  },
+  "sources": [
+    {
+      "title": "Games for Fun and Relaxation",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/free-to-use/games-for-fun-and-relaxation/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Game graphics can integrate image, printed play surface, pieces, and rules into a coherent usable artifact."
+      ]
+    },
+    {
+      "title": "Dietrich Hecht collection of Bilderbogen",
+      "publisher": "Library of Congress",
+      "url": "https://findingaids.loc.gov/repositories/31/resources/6523",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Historical game sheets combine bright illustration, narrative frames, printed rules, boards, and cut-out play elements."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches shelf facing title, illustrated premise, component preview, player age cues, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/board-game-box/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/board-game-box/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches shelf facing title, illustrated premise, component preview, player age cues, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "gallery-white",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "MoMA's white-walled modern gallery standard",
+    "creatorOrTradition": "Modern museum exhibition design and the white-cube gallery",
+    "sourceUrl": "https://www.moma.org/explore/inside_out/2010/03/11/small-steps-lead-to-bigger-changes-moma-s-shifting-wall-colors/",
+    "whyCanonical": "MoMA describes chromatically simple white galleries as an influential international display norm and shows that even the exact shade is an intentional exhibition-design decision."
+  },
+  "sources": [
+    {
+      "title": "Small Steps Lead to Bigger Changes: MoMA's Shifting Wall Colors",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/explore/inside_out/2010/03/11/small-steps-lead-to-bigger-changes-moma-s-shifting-wall-colors/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "White-walled space became an international norm for modern and contemporary art display.",
+        "Subtle wall color and controlled neutrality are deliberate design decisions rather than an absence of design."
+      ]
+    },
+    {
+      "title": "Exhibition Design Innovations That Help Us Think about Art Differently",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/magazine/articles/840",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Exhibition design shapes how a visitor perceives, sequences, and relates works within a gallery.",
+        "The gallery should support art and visitor understanding rather than merely supply an empty white background."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches museum signal, sparse, open field, art signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/gallery-white/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/gallery-white/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches museum signal, sparse, open field, art signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

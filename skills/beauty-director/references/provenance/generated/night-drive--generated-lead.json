@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "night-drive",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of cinematic night-drive imagery.\nUse case: campaign-key-art\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original view through a rain-specked windshield on a nocturnal highway, with smeared taillights, dashboard reflections, sodium-vapor road markings, a distant overpass, and one cyan roadside sign reduced to abstract geometry.\nStyle/medium: atmospheric color cinematography from a fictional road film\nComposition/framing: portrait 4:5, road vanishing point slightly off center, dashboard edge low, light trails and wet glass create layered depth, clear at thumbnail scale\nLighting/mood: restless, solitary, hypnotic\nColor palette: midnight blue, black, sodium amber, brake-light red, cyan\nMaterials/textures: wet windshield, asphalt reflections, optical bloom, fine film grain\nText: use only the numeral 11 on the abstract sign\nConstraints: no visible driver, no real highway or car brand, no logo, no watermark, no copied film still",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "4668a6e5856ca806087b1bf53bf269b682aeca6ba16d223fcb84949655fb4c06",
+  "finalAsset": "assets/refs/night-drive/generated-lead.jpg",
+  "finalSha256": "13288e65373e38ddbccc4b194d1a7f4b5f2b0a88a3dbd92b29a796fa28463faf",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

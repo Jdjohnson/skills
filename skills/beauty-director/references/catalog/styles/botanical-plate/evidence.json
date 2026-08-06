@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "botanical-plate",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Kew botanical illustration practice",
+    "creatorOrTradition": "Royal Botanic Gardens Kew scientific illustration tradition",
+    "sourceUrl": "https://www.kew.org/read-and-watch/what-is-botanic-art",
+    "whyCanonical": "Kew describes the plate as a scientific, collaborative visual definition of a plant that can show essential details more clearly than photography."
+  },
+  "sources": [
+    {
+      "title": "What Is Botanical Art?",
+      "publisher": "Royal Botanic Gardens Kew",
+      "url": "https://www.kew.org/read-and-watch/what-is-botanic-art",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Botanical plates support scientific records by accurately showing plant form and diagnostic details selected through collaboration between artist and botanist."
+      ]
+    },
+    {
+      "title": "Botanical Art and Illustration",
+      "publisher": "Smithsonian Gardens",
+      "url": "https://gardens.si.edu/exhibitions/orchids-hidden-stories-of-groundbreaking-women/botanical-art-and-illustration/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Scientific botanical illustration emphasizes accurate and complete depiction and often includes dissected views in a restrained visual language."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach whole plant view, dissected details, scientific accuracy, fine contour while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/botanical-plate/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/botanical-plate/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach whole plant view, dissected details, scientific accuracy, fine contour while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

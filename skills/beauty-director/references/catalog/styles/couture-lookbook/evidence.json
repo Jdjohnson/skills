@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "couture-lookbook",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Charles James couture as a sequenced study of silhouette and construction",
+    "creatorOrTradition": "Haute couture presentation and fashion collection documentation",
+    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2014/charles-james-beyond-fashion",
+    "whyCanonical": "The Met presents iconic gowns through dramatic installation, detailed views, analytical animations, x-rays, pattern pieces, and grouped construction themes that together model a rigorous lookbook sequence."
+  },
+  "sources": [
+    {
+      "title": "Charles James: Beyond Fashion",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2014/charles-james-beyond-fashion",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Couture presentation benefits from full silhouettes, construction analysis, detail views, and a coherent grouping logic.",
+        "Dramatic display can remain informative when fabric, pattern, and garment architecture stay legible."
+      ]
+    },
+    {
+      "title": "Balenciaga: Shaping Fashion",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/exhibitions/balenciaga-shaping-fashion.com",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A collection can be taught through complete garments, work photographs, fabric details, and x-ray views of construction.",
+        "Repeated attention to silhouette and craftsmanship supports consistent editorial sequencing across multiple looks."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The lead teaches a complete lookbook system through four aligned full-body looks and two fabric/construction details. Repetition and variation are clear, controlled, and legible at card scale. The independently approved lead is assets/refs/couture-lookbook/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/couture-lookbook/generated-lead.jpg",
+    "notes": "The lead teaches a complete lookbook system through four aligned full-body looks and two fabric/construction details. Repetition and variation are clear, controlled, and legible at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

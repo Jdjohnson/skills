@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "roadside-vernacular",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI built-in imagegen",
+  "promptRecordStatus": "exact",
+  "prompt": "Create an original documentary-style daylight photograph of a handmade rural American roadside attraction: a quirky painted wooden sign structure, folk-built animal silhouette, hand-cut metal ornaments, and weathered bright paint beside a two-lane road. Vernacular, exuberant, imperfect, and unmistakably roadside folk art. Use decorative letter-like shapes but no readable words, brands, existing landmark, logo, or watermark.",
+  "sourceOutputStatus": "original_tool_response_not_retained",
+  "finalAsset": "assets/refs/roadside-vernacular/generated-01.jpg",
+  "finalSha256": "d31956d621e7fef5885252685553334eb6642aba8358320677820138206a45d6",
+  "postProcessing": "AI-generated source image center-cropped to a 4:5 portrait and resized to 800x1000 pixels; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

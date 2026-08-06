@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "operational-utility",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of operational utility graphics.\nUse case: service-system\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original field-service instruction board for a fictional water system using a strict zone map, numbered procedure steps, equipment pictograms, status chips, a maintenance table, and a large directional action panel.\nStyle/medium: durable printed operations placard with modular information design\nComposition/framing: portrait 4:5, rigid grid, map upper right, step sequence left, status table below, one large blue action arrow, readable at thumbnail scale\nLighting/mood: matter-of-fact, dependable, public-service clarity\nColor palette: off-white, black, utility blue, status green, hazard amber\nMaterials/textures: laminated paper, screen-printed ink, metal clip board\nText: use only the exact label FIELD UNIT and numerals 1, 2, 3, 4; all other labels as abstract bars\nConstraints: original fictional system and icons, no agency, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "ef29453e6a6299a6810a68e7c148ff4597b097ac2a3e3182b30319ab6c159a29",
+  "finalAsset": "assets/refs/operational-utility/generated-lead.jpg",
+  "finalSha256": "55eb029bf8535bb8067111486149e427689686d98aee4ae8538b34a73f37950e",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

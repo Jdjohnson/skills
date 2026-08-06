@@ -1,0 +1,157 @@
+{
+  "id": "swiss-phototypography",
+  "displayName": "Swiss Phototypography",
+  "family": "modernist-grid",
+  "definition": "Photographs and sans-serif typography are co-structured on a strict grid, with crop, scale, and letterform operating as equal compositional units.",
+  "axes": {
+    "minimalOrnate": -0.6,
+    "geometricOrganic": -0.4,
+    "polishedRaw": -0.4,
+    "calmEnergetic": 0.2,
+    "historicalFuturistic": -0.4,
+    "realisticAbstract": -0.3,
+    "warmCool": 0.3,
+    "lightDark": 0.3,
+    "playfulSerious": 0.5,
+    "handmadeMachined": 0.5,
+    "flatDeep": -0.3,
+    "everydayLuxurious": 0.2
+  },
+  "cues": [
+    "photo-type-integration",
+    "strict-grid",
+    "hard-crop",
+    "oversized-type",
+    "high-contrast"
+  ],
+  "antiCues": [
+    "illustrated",
+    "freeform-collage",
+    "ornament",
+    "script-type"
+  ],
+  "emotionalEffects": [
+    "dramatic",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.55,
+      "symmetry": 0.2,
+      "margins": 0.1
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#0D0D0D",
+        "#FFFFFF",
+        "#A30000",
+        "#3E6B3A",
+        "#E4D5B5"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/swiss-photo-type.svg",
+      "descriptor": "oversized sans integrated with photo",
+      "weight": 800,
+      "tracking": -0.03
+    },
+    "shapeLine": {
+      "cornerRadius": 0,
+      "lineWeight": 0.45,
+      "curveTension": 0
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/modernist-grid-primary"
+      ],
+      "finish": "gloss",
+      "grain": 0.05,
+      "tags": [
+        "paper",
+        "film-grain"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.7,
+      "keyDirection": "side",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 3,
+      "shadowSoftness": 0.2,
+      "parallax": 0.15
+    },
+    "motion": {
+      "energy": 0.35,
+      "descriptor": "slow-reveal"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.03,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "photographic",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.25
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 3,
+    "packaging": 1,
+    "photography": 3,
+    "motion-video": 2,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a photographic exhibition poster in which one giant letterform cuts across the image",
+    "framing": "Full-bleed documentary crop locked to a strict grid, with oversized sans forms acting as masks and small flush-left information bands.",
+    "mustShow": [
+      "photo-type-integration",
+      "strict-grid",
+      "oversized-type"
+    ],
+    "mustAvoid": [
+      "illustrated",
+      "freeform-collage",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "neo-grotesk-editorial",
+    "international-typographic-style",
+    "photo-essay"
+  ],
+  "contrasting": [
+    "8-bit-pixel-art",
+    "folk-embroidery",
+    "botanical-watercolor"
+  ]
+}

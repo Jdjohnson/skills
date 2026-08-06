@@ -1,0 +1,165 @@
+{
+  "id": "operational-utility",
+  "displayName": "Operational Utility",
+  "family": "brutalist-raw",
+  "definition": "Bare task hierarchy built from labels, arrows, numbered steps, control states, durable materials, and only the styling needed to operate correctly.",
+  "axes": {
+    "minimalOrnate": -0.8,
+    "geometricOrganic": -0.4,
+    "polishedRaw": 0.1,
+    "calmEnergetic": -0.5,
+    "historicalFuturistic": -0.4,
+    "realisticAbstract": -0.2,
+    "warmCool": -0.2,
+    "lightDark": 0.1,
+    "playfulSerious": 0.4,
+    "handmadeMachined": -0.1,
+    "flatDeep": -0.5,
+    "everydayLuxurious": -0.9
+  },
+  "cues": [
+    "utility-signal",
+    "systematic",
+    "typographic",
+    "grid-defined",
+    "plain",
+    "wayfinding-signal",
+    "institutional",
+    "sparse",
+    "machine-precise",
+    "clear-headed"
+  ],
+  "antiCues": [
+    "ornate",
+    "luxurious-feel",
+    "collage"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "humble",
+    "austere"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.4,
+      "symmetry": 0.7,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#CFC9BC",
+        "#2F5560",
+        "#A32020",
+        "#6A655E",
+        "#F6F3EC"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/utility-form.svg",
+      "descriptor": "neutral sans with functional hierarchy",
+      "weight": 500,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/brutalist-raw-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.3,
+      "tags": [
+        "paper",
+        "plastic",
+        "metal"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.6,
+      "keyDirection": "front",
+      "gradient": 0.2
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "diagrammatic",
+      "subjectRules": [
+        "action-hierarchy-first",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.3
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 3,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 3
+  },
+  "heroRecipe": {
+    "motif": "public equipment instruction panel showing action, sequence, status, and recovery",
+    "framing": "straight-on view; regulated color, tabular fields, arrows, and numbered components make use immediate",
+    "mustShow": [
+      "utility-signal",
+      "systematic",
+      "typographic"
+    ],
+    "mustAvoid": [
+      "ornate",
+      "luxurious-feel",
+      "collage",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "industrial-monochrome",
+    "web-brutalism",
+    "industrial-warehouse"
+  ],
+  "contrasting": [
+    "scent-campaign",
+    "couture-lookbook",
+    "art-nouveau"
+  ]
+}

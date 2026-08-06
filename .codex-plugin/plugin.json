@@ -1,13 +1,14 @@
 {
   "name": "generic-ai-skills",
-  "version": "4.0.0",
-  "description": "A generic bank of reusable AI skills for thinking, planning, research, meetings, and agent tooling",
+  "version": "4.1.0",
+  "description": "A generic bank of reusable AI skills for thinking, planning, visual direction, research, meetings, and agent tooling",
   "homepage": "https://github.com/Jdjohnson/skills",
   "keywords": [
     "skills",
     "prompts",
     "thinking",
     "planning",
+    "visual-direction",
     "research",
     "meetings",
     "agent-tooling"
@@ -22,7 +23,7 @@
   "interface": {
     "displayName": "Generic AI Skills",
     "shortDescription": "Reusable skills for knowledge work and agent tooling",
-    "longDescription": "Fifteen portable skills for thinking, planning, meetings, research, and bounded agent or CLI workflows.",
+    "longDescription": "Sixteen portable skills for thinking, planning, visual direction, meetings, research, and bounded agent or CLI workflows.",
     "developerName": "Jarad Johnson",
     "category": "Productivity",
     "capabilities": [
@@ -42,6 +43,7 @@
       "visualize",
       "steelman",
       "stuck",
+      "beauty-director",
       "meeting",
       "work-log",
       "chatgpt",

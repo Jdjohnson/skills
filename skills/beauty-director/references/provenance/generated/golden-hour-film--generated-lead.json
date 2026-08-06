@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "golden-hour-film",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation\nUse case: photorealistic-natural\nAsset type: Beauty Director cinematic style reference, portrait 4:5\nPrimary request: Create an original narrative film still of a cyclist pausing on a rural ridge at sunset to look toward a distant farmhouse after a long ride.\nScene/backdrop: layered meadow foreground, ridge path, softened fields and farmhouse in the far distance\nSubject: one cyclist beside a bicycle, coat edge and hair lit from behind, a small dust trail settling across the path\nStyle/medium: photorealistic 35mm cinematic still with subtle natural grain and gentle highlight rolloff\nComposition/framing: portrait 4:5; low sun clearly enters from just outside the left edge, cyclist at middle distance, one long cast shadow sweeps diagonally across the foreground, readable silhouette and open sky\nLighting/mood: low amber rim light, warm haze, restrained lens flare, cool neutral shadow plane, hopeful and transitional\nColor palette: honey, pale straw, dusty rose, olive, softened blue-gray\nConstraints: directional sunrise-or-sunset lighting structure must remain obvious without relying on uniform color cast; layered distance, credible skin and materials, no text, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "51638a727e0bd6a0978b3109b199c3ac2158dd0e6ee15f5f44ba8b030593a4db",
+  "finalAsset": "assets/refs/golden-hour-film/generated-lead.jpg",
+  "finalSha256": "0d22d182394931bf83c8a0dab152d3b889911eec2613b653dfc348719c76bc16",
+  "postProcessing": "Source output proportionally resized to fit within 800x1000 pixels, padded at the sides to preserve the complete generated composition, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

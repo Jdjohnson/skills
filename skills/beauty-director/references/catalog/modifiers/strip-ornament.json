@@ -1,0 +1,53 @@
+{
+  "id": "strip-ornament",
+  "group": "ornament-level",
+  "definition": "Remove decorative motifs toward bare structure.",
+  "targetConcerns": [
+    "ornament"
+  ],
+  "compatibleStyles": [
+    "international-typographic-style",
+    "flat-design-ui",
+    "gallery-white",
+    "operational-utility"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "ornate-historical",
+    "folk-vernacular"
+  ],
+  "incompatibleModifiers": [
+    "more-ornament"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "ornament",
+          "path": "density",
+          "factor": 0.85
+        }
+      ]
+    }
+  }
+}

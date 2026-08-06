@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "spatial-ar-interface",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "World-anchored augmented-reality object and annotation",
+    "creatorOrTradition": "ARCore and contemporary spatial-interface practice",
+    "sourceUrl": "https://developers.google.com/ar/develop/anchors",
+    "whyCanonical": "ARCore anchors make digital objects appear to remain at a fixed position and orientation in physical space as environmental understanding and camera pose update."
+  },
+  "sources": [
+    {
+      "title": "Working with Anchors",
+      "publisher": "Google for Developers ARCore",
+      "url": "https://developers.google.com/ar/develop/anchors",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Anchors keep virtual content attached to a world-space pose as environmental understanding changes.",
+        "Objects should remain near their anchor so registration behaves believably."
+      ]
+    },
+    {
+      "title": "Spatial layout",
+      "publisher": "Apple Developer Human Interface Guidelines",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Distance, occlusion, shadow, reflection, and scale communicate depth and must agree with physical experience.",
+        "Spatial content should live in the environment, preserve a comfortable field of view, and use depth only when it clarifies hierarchy or task."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The bicycle brake-alignment view is an excellent lead. Camera-world anchoring, component outlines, planar overlays, depth-aware measurements, step instruction, and tool controls clearly teach spatial AR rather than a flat dashboard. The independently approved lead is assets/refs/spatial-ar-interface/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/spatial-ar-interface/generated-lead.jpg",
+    "notes": "The bicycle brake-alignment view is an excellent lead. Camera-world anchoring, component outlines, planar overlays, depth-aware measurements, step instruction, and tool controls clearly teach spatial AR rather than a flat dashboard.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

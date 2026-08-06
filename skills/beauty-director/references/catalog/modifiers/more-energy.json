@@ -1,0 +1,55 @@
+{
+  "id": "more-energy",
+  "group": "motion-energy",
+  "definition": "Increase motion descriptors and diagonal force.",
+  "targetConcerns": [
+    "motion",
+    "composition"
+  ],
+  "compatibleStyles": [
+    "motion-sticker",
+    "film-noir"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "calmer-motion"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "motion",
+          "path": "energy",
+          "factor": 1.15
+        },
+        {
+          "op": "addParam",
+          "concern": "composition",
+          "path": "density",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

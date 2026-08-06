@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "emoji-grammar",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Unicode Emoji sequences and modifiers",
+    "creatorOrTradition": "Unicode Consortium",
+    "sourceUrl": "https://unicode.org/reports/tr51/",
+    "whyCanonical": "Unicode defines emoji as pictographic symbols and specifies structured core, modifier, flag, tag, and joiner sequences that can behave as single grapheme clusters."
+  },
+  "sources": [
+    {
+      "title": "Unicode Technical Standard #51: Unicode Emoji",
+      "publisher": "Unicode Consortium",
+      "url": "https://unicode.org/reports/tr51/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Emoji systems use defined characters, presentation styles, modifiers, and multi-code-point sequences to preserve interoperable meaning."
+      ]
+    },
+    {
+      "title": "Full Emoji Modifier Sequences",
+      "publisher": "Unicode Consortium",
+      "url": "https://unicode.org/emoji/charts/full-emoji-modifiers.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Modifier sequences demonstrate how a base pictogram and structured variation operate as a coordinated token family across implementations."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches pictogram sequence, semantic combination, modifier logic, reaction chain, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/emoji-grammar/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/emoji-grammar/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches pictogram sequence, semantic combination, modifier logic, reaction chain, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

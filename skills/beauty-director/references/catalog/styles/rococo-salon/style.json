@@ -1,0 +1,162 @@
+{
+  "id": "rococo-salon",
+  "displayName": "Rococo Salon",
+  "family": "ornate-historical",
+  "definition": "Asymmetrical shell and C-scroll ornament, gilded filigree, powder color, curving furniture, and airy theatrical intimacy shape salon-scale composition.",
+  "axes": {
+    "minimalOrnate": 0.9,
+    "geometricOrganic": 0.5,
+    "polishedRaw": -0.5,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": -1,
+    "realisticAbstract": -0.5,
+    "warmCool": -0.5,
+    "lightDark": -0.4,
+    "playfulSerious": -0.3,
+    "handmadeMachined": -0.6,
+    "flatDeep": 0.3,
+    "everydayLuxurious": 0.7
+  },
+  "cues": [
+    "ornate",
+    "pastel-chroma",
+    "decorative-border",
+    "soft-edge",
+    "rococo-era"
+  ],
+  "antiCues": [
+    "minimal",
+    "rough",
+    "high-contrast"
+  ],
+  "emotionalEffects": [
+    "whimsical",
+    "luxurious-feel",
+    "nostalgic"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.75,
+      "symmetry": 0.2,
+      "margins": 0.25
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#F4C2C2",
+        "#ACE1AF",
+        "#FFF8E7",
+        "#D4AF37",
+        "#B8D4E8"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/rococo-pastel.svg",
+      "descriptor": "swash display with delicate serif",
+      "weight": 400,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.8,
+      "lineWeight": 0.3,
+      "curveTension": 0.85
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/ornate-historical-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.15,
+      "tags": [
+        "gold-leaf",
+        "silk",
+        "marble"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.35,
+      "keyDirection": "top",
+      "gradient": 0.4
+    },
+    "depth": {
+      "layers": 3,
+      "shadowSoftness": 0.7,
+      "parallax": 0.3
+    },
+    "motion": {
+      "energy": 0.35,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/ornate-historical"
+      ],
+      "density": 0.85,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "salon-scale ornament as spatial frame",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.25
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 2,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 3,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "an asymmetrical gilded salon vignette with shells, scrolls, and intimate figures",
+    "framing": "curl the ornament around an off-center social scene so architecture, furniture, and painted surface behave as one airy decorative field",
+    "mustShow": [
+      "ornate",
+      "pastel-chroma",
+      "decorative-border"
+    ],
+    "mustAvoid": [
+      "minimal",
+      "rough",
+      "high-contrast",
+      "severe axial geometry",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "victorian-ephemera",
+    "belle-epoque-lithograph",
+    "baroque-chiaroscuro"
+  ],
+  "contrasting": [
+    "brutalism",
+    "industrial-monochrome",
+    "crt-terminal"
+  ]
+}

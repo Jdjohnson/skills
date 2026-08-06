@@ -1,6 +1,6 @@
 # Generic AI Skills
 
-A public bank of 15 reusable skills for thinking, planning, meetings, research, and agent tooling. Published skills avoid private workspace assumptions, personal voice profiles, client context, and organization-specific routing.
+A public bank of 16 reusable skills for thinking, planning, visual direction, meetings, research, and agent tooling. Published skills avoid private workspace assumptions, personal voice profiles, client context, and organization-specific routing.
 
 ## Install
 
@@ -34,6 +34,12 @@ Version 4 retires the former `writer` workflow. Use the model's normal drafting 
 | [visualize](./skills/visualize/SKILL.md) | Turning settled concepts into sparse, editable FigJam diagrams with QA |
 | [steelman](./skills/steelman/SKILL.md) | Pressure-testing and strengthening an idea, argument, or decision |
 | [stuck](./skills/stuck/SKILL.md) | Diagnosing a block and choosing a practical starting move |
+
+### Visual direction
+
+| Skill | Use it for |
+|---|---|
+| [beauty-director](./skills/beauty-director/SKILL.md) | Turning natural-language taste into an image-first, approved visual direction and durable beauty profile |
 
 ### Meetings and records
 
@@ -69,3 +75,7 @@ These projects are linked, not republished here:
 
 The maintainer validator enforces the exact inventory, portable metadata, working internal links, parity fixtures, source scrubbing, and the absence of generated caches or committed install archives. Regression tests are local and must not perform live external mutations.
 
+## Attribution
+
+
+Beauty Director bundles public-domain and Creative Commons reference assets. Their file-level terms, creator credits, modification notices, and source links are recorded in [its generated attribution ledger](./skills/beauty-director/ATTRIBUTION.md) and control those assets instead of the repository-wide MIT license.

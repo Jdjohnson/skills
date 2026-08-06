@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "styleId": "mexican-tinwork",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "El Gran Poder de Dios niche",
+    "creatorOrTradition": "New Mexican tinwork and devotional arts",
+    "sourceUrl": "https://americanhistory.si.edu/collections/object/nmah_1143061",
+    "whyCanonical": "The Smithsonian object joins tin and wood craft, devotional imagery, named makers, regional history, and cultural affirmation in one clearly documented nicho."
+  },
+  "sources": [
+    {
+      "title": "El Gran Poder de Dios Niche",
+      "publisher": "National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1143061",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A documented New Mexican nicho combines tinwork, wood, paint, glass, devotional imagery, named artists, and cultural affirmation."
+      ]
+    },
+    {
+      "title": "Santos and Ofrendas: Ten Highlights of Latinx Art at the Smithsonian",
+      "publisher": "Smithsonian Institution",
+      "url": "https://www.si.edu/object/santos-ofrendas-ten-highlights-latinx-art-smithsonian%3Aposts_5e5c0cbb8415b99874119efd0588155a",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "New Mexican retablo practice uses saturated outlined sacred imagery within a living santero tradition shaped by Mexican and Southwest cultural histories."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent replacement lead with genuinely distinct process support. The lead independently teaches the complete hojalata object, reflective worked-tin construction, intimate shrine scale, and painted narrative center at card scale. The support adds visible hand-punching, repoussé work, cutting, joining, tools, offcuts, and assembly. Together they are materially specific, culturally framed, non-redundant, and clearly separated from adjacent folk-vernacular styles. The independently approved lead is assets/refs/mexican-tinwork/reference-01.jpg. Distinct supporting role: Complementary material-process exemplar; teaches construction without duplicating the complete-object lead.",
+  "culturalContext": {
+    "note": "Name the specific retablo, nicho, santero, Mexican, or New Mexican context and preserve maker, devotional, and community meaning. Do not extract saints, votive narratives, or milagro-like symbols as generic Southwestern decoration. For contemporary use, favor commissioned work, accurate attribution, and non-sacred structural cues when cultural participation is absent.",
+    "citations": [
+      "https://americanhistory.si.edu/collections/object/nmah_1143061",
+      "https://www.si.edu/object/santos-ofrendas-ten-highlights-latinx-art-smithsonian%3Aposts_5e5c0cbb8415b99874119efd0588155a"
+    ]
+  },
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/mexican-tinwork/reference-01.jpg",
+    "notes": "Excellent replacement lead with genuinely distinct process support. The lead independently teaches the complete hojalata object, reflective worked-tin construction, intimate shrine scale, and painted narrative center at card scale. The support adds visible hand-punching, repoussé work, cutting, joining, tools, offcuts, and assembly. Together they are materially specific, culturally framed, non-redundant, and clearly separated from adjacent folk-vernacular styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

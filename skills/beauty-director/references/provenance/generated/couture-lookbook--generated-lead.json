@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "couture-lookbook",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation\nUse case: ads-marketing\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original couture lookbook contact spread that presents one coherent four-look collection as an ordered fashion sequence, with garment construction and collection progression plainly visible.\nScene/backdrop: a consistent pale stone studio with one curved plaster wall and fixed horizon\nSubject: the same original model appears in four distinct full-figure frames wearing related sculptural garments that evolve from ivory folded silk to charcoal pleated silk with restrained copper handwork; add one small close detail of a closure and one small fabric-motion crop\nStyle/medium: refined editorial fashion photography assembled as a finished lookbook spread\nComposition/framing: portrait 4:5; four clean numbered full-figure frames in a deliberate vertical rhythm, repeated camera position and light, plus two small construction details; every silhouette fully visible and meaningfully different\nLighting/mood: crisp directional studio light, poised, authored, quiet\nColor palette: ivory, bone, smoke gray, charcoal, restrained copper\nText (verbatim): \"LOOK 01\", \"LOOK 02\", \"LOOK 03\", \"LOOK 04\"\nConstraints: original garments and model; clear sequence and collection logic; accurate fabric drape and construction; no masthead; no brand; no logo; no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "ec8ff569fcc4390a17efdb7c5b5ada8b3c43d2361a36ab2f7f7e9e1ff6b04314",
+  "finalAsset": "assets/refs/couture-lookbook/generated-lead.jpg",
+  "finalSha256": "69e8576f7be768a0ca0c3a8a66cbacee29e6a873e43dbe7b0adc768602b69166",
+  "postProcessing": "Source output proportionally resized to fit within 800x1000 pixels, padded at the sides to preserve the complete generated composition, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "scandinavian-modern",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Danish Modern furniture and domestic interiors of the 1940s through 1960s",
+    "creatorOrTradition": "Nordic modern furniture designers and cabinetmaking tradition",
+    "sourceUrl": "https://designmuseum.dk/en/pressroom_danish-modern/",
+    "whyCanonical": "Designmuseum Danmark connects Danish Modern's defining furniture to beauty, comfort, minimalism, innovative methods, and a continuing tradition of good craftsmanship."
+  },
+  "sources": [
+    {
+      "title": "Danish Modern",
+      "publisher": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/en/pressroom_danish-modern/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Danish Modern developed through furniture design and cabinetmaking that joined comfort, minimalism, beauty, and craft innovation.",
+        "The tradition includes organic and elegant furniture as well as more experimental later forms, so Nordic modernism is not a single pale retail look."
+      ]
+    },
+    {
+      "title": "New Material, New Form",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/2013/02/13/new-material-new-form/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Soft organic form and an emphasis on natural materials, especially wood, are characteristic signals of Scandinavian modernism.",
+        "Research into production techniques and bent wood helped modern furniture achieve its distinctive softened geometry."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches mid century, wood, sparse, domestic, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/scandinavian-modern/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/scandinavian-modern/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches mid century, wood, sparse, domestic, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "culture-review",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of an independent culture review.\nUse case: editorial-design\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original culture-review magazine cover and open essay spread combining intellectually serious long-form hierarchy, one striking original still-life photograph, an incisive pull quote treatment, marginal notes, and deliberate editorial pacing.\nStyle/medium: photographed independent cultural criticism journal\nComposition/framing: portrait 4:5, cover overlaps an open spread, bold masthead scale and essay rhythm remain clear at thumbnail size\nLighting/mood: thoughtful, contemporary, slightly provocative\nColor palette: warm white, black, acid green, deep violet\nMaterials/textures: uncoated stock, dense ink, glass and folded-paper still life\nText: use only the exact title FIELD REVIEW and issue numeral 03; all other text as abstract bars\nConstraints: fictional publication and original still life, no real person, no brand, no logo, no copied cover, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "e81674632621d0603c5cde682da3ee0e45bf4adf6d4b711bb90bd1da7f711f4e",
+  "finalAsset": "assets/refs/culture-review/generated-lead.jpg",
+  "finalSha256": "89f133082682c9f524054a84fe0d6e4eb918cac969a03d07ee52ae0f9736c2fa",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

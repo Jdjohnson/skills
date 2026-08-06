@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "neo-grotesk-editorial",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "50 Years of Helvetica exhibition",
+    "creatorOrTradition": "Neo-grotesk typography in modern graphic design",
+    "sourceUrl": "https://www.moma.org/calendar/exhibitions/38",
+    "whyCanonical": "MoMA's exhibition connects neutral, well-proportioned sans letterforms to posters, signage, and other modern graphic applications."
+  },
+  "sources": [
+    {
+      "title": "50 Years of Helvetica",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/calendar/exhibitions/38",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Neutral, well-proportioned neo-grotesk letterforms communicate modern clarity across many applications.",
+        "The type family supports a broad hierarchy rather than a novelty display effect."
+      ]
+    },
+    {
+      "title": "HelveticaSpecimenCH.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:HelveticaSpecimenCH.svg",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The audited specimen documents neutral grotesk proportions and weight relationships.",
+        "It is contextual evidence for typography, not sufficient visual evidence of editorial pacing by itself."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches neo grotesk, measured hierarchy, flush left, editorial pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/neo-grotesk-editorial/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/neo-grotesk-editorial/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches neo grotesk, measured hierarchy, flush left, editorial pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

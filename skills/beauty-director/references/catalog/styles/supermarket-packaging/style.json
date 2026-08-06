@@ -1,0 +1,162 @@
+{
+  "id": "supermarket-packaging",
+  "displayName": "Supermarket Packaging",
+  "family": "pop-commercial",
+  "definition": "Mass-market package fronts compete at shelf distance through bold brand blocks, product appetite cues, flavor and size hierarchy, nutrition structure, and repeated shelf presence.",
+  "axes": {
+    "minimalOrnate": 0.4,
+    "geometricOrganic": -0.3,
+    "polishedRaw": -0.6,
+    "calmEnergetic": 0.9,
+    "historicalFuturistic": 0.2,
+    "realisticAbstract": -0.3,
+    "warmCool": 0.1,
+    "lightDark": -0.6,
+    "playfulSerious": -0.5,
+    "handmadeMachined": 0.7,
+    "flatDeep": -0.4,
+    "everydayLuxurious": -0.6
+  },
+  "cues": [
+    "packaging-signal",
+    "hierarchical",
+    "vivid-chroma",
+    "product-signal",
+    "mass-market-signal"
+  ],
+  "antiCues": [
+    "meditative-pace",
+    "shadow-heavy",
+    "hand-drawn"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "energized",
+    "playful"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.75,
+      "symmetry": 0.6,
+      "margins": 0.08
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#E31837",
+        "#FFD100",
+        "#2E8B57",
+        "#FFFFFF",
+        "#1C1C1C"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/supermarket-pack.svg",
+      "descriptor": "grotesk with claim hierarchy",
+      "weight": 700,
+      "tracking": -0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.15,
+      "lineWeight": 0.5,
+      "curveTension": 0.1
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/pop-commercial-primary"
+      ],
+      "finish": "gloss",
+      "grain": 0.05,
+      "tags": [
+        "plastic",
+        "chrome",
+        "cardboard"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.5,
+      "keyDirection": "front",
+      "gradient": 0.15
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.2,
+      "parallax": 0.05
+    },
+    "motion": {
+      "energy": 0.7,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/pop-commercial"
+      ],
+      "density": 0.35,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "original mass-market product family",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.3
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 2,
+    "packaging": 3,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 3,
+    "interiors-architecture": 0,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "an original product family repeated across a densely stocked supermarket shelf",
+    "framing": "show the pack front at buying distance with a dominant product name, appetizing cue, variant color system, price context, and strong shelf-block repetition",
+    "mustShow": [
+      "packaging-signal",
+      "hierarchical",
+      "vivid-chroma"
+    ],
+    "mustAvoid": [
+      "meditative-pace",
+      "shadow-heavy",
+      "hand-drawn",
+      "copied package trade dress",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "billboard-bold",
+    "psychedelic-poster",
+    "mid-century-advertising"
+  ],
+  "contrasting": [
+    "scent-campaign",
+    "quiet-luxury",
+    "private-club"
+  ]
+}

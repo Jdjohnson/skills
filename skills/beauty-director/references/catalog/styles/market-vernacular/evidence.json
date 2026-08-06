@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "market-vernacular",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "East Los Angeles vernacular commercial landscape",
+    "creatorOrTradition": "Community-made market and street landscapes",
+    "sourceUrl": "https://folklife.si.edu/talkstory/2015/on-fences-plazas-and-latino-urbanism-a-conversation-with-james-rojas",
+    "whyCanonical": "The Smithsonian conversation identifies street vendors, temporary tables, vivid activity, hand-painted business signs, and commercial strips as a lived vernacular landscape rather than designed retail theater."
+  },
+  "sources": [
+    {
+      "title": "On Fences, Plazas, and Latino Urbanism",
+      "publisher": "Smithsonian Center for Folklife and Cultural Heritage",
+      "url": "https://folklife.si.edu/talkstory/2015/on-fences-plazas-and-latino-urbanism-a-conversation-with-james-rojas",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Street vendors, temporary tables and tarps, hand-painted signs, and social streetscapes form a community-authored vernacular commercial landscape."
+      ]
+    },
+    {
+      "title": "Festival of American Folklife 1990 Program Book",
+      "publisher": "Smithsonian Folklife Festival",
+      "url": "https://folklife-media.si.edu/docs/festival/program-books/FESTBK1990.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The documented festival marketplace connects market vendors with making, selling, foodways, and public cultural exchange rather than treating a market as a decorative scene."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches stacked goods, handwritten price cards, repeated containers, awning stripes, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/market-vernacular/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/market-vernacular/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches stacked goods, handwritten price cards, repeated containers, awning stripes, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "ulm-systems-design",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI built-in imagegen",
+  "promptRecordStatus": "exact",
+  "prompt": "Create an original HfG Ulm system-design presentation board: a coherent modular family of a radio, clock, and small household appliance shown as rational orthographic and isometric components on a strict grid. Matte gray, warm white, black, and safety orange; numbered dots but no words. Functional, analytical, postwar industrial-design teaching aesthetic. Do not reproduce recognizable Braun products or an existing Ulm board. No logos, brands, or watermark.",
+  "sourceOutputStatus": "original_tool_response_not_retained",
+  "finalAsset": "assets/refs/ulm-systems-design/generated-01.jpg",
+  "finalSha256": "ef965151fdf087b55752cd3e43fa470aaff8f742b68461b743183d60da0f73fd",
+  "postProcessing": "AI-generated source image center-cropped to a 4:5 portrait and resized to 800x1000 pixels; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

@@ -1,0 +1,163 @@
+{
+  "id": "lab-notebook",
+  "displayName": "Lab Notebook",
+  "family": "scientific-diagram",
+  "definition": "Dated experimental pages with apparatus sketches, measured trials, calculations, crossings-out, observation notes, and evolving procedural thought.",
+  "axes": {
+    "minimalOrnate": -0.4,
+    "geometricOrganic": 0.1,
+    "polishedRaw": 0.3,
+    "calmEnergetic": -0.1,
+    "historicalFuturistic": 0.2,
+    "realisticAbstract": -0.4,
+    "warmCool": -0.1,
+    "lightDark": -0.3,
+    "playfulSerious": 0.2,
+    "handmadeMachined": -0.2,
+    "flatDeep": -0.3,
+    "everydayLuxurious": -0.5
+  },
+  "cues": [
+    "dated-entry",
+    "apparatus-sketch",
+    "measured-trial",
+    "calculation",
+    "crossing-out",
+    "observation-note",
+    "procedural-sequence",
+    "evolving-thought"
+  ],
+  "antiCues": [
+    "clean-final-report",
+    "decorative-journal",
+    "grocery-ledger",
+    "scrapbook-collage",
+    "fake-equations"
+  ],
+  "emotionalEffects": [
+    "intimate",
+    "scholarly",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.55,
+      "symmetry": 0.3,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#1E88E5",
+        "#F5F5F5",
+        "#FFEB3B",
+        "#757575",
+        "#E53935"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/lab-notebook.svg",
+      "descriptor": "system sans/display",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/scientific-diagram-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.45,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "show-experiment-specific-observation",
+        "retain-dates-revisions-and-failed-trials",
+        "connect-sketches-to-measurements",
+        "avoid-random-scientific-marks"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 1,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 0,
+    "interiors-architecture": 0,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "a dated experimental spread combining an apparatus sketch, measured trials, calculations, corrections, and a tentative conclusion",
+    "framing": "show the full working page so sequence, margins, insertions, and relationships among notes remain legible",
+    "mustShow": [
+      "date or trial sequence",
+      "experiment-specific sketch",
+      "measurements calculations or revisions"
+    ],
+    "mustAvoid": [
+      "grocery list",
+      "clean typeset report",
+      "random equations",
+      "art-journal collage",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "anatomical-plate",
+    "field-guide",
+    "circuit-schematic"
+  ],
+  "contrasting": [
+    "festival-banner",
+    "quiet-luxury",
+    "art-deco"
+  ]
+}

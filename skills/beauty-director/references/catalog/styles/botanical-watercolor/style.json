@@ -1,0 +1,160 @@
+{
+  "id": "botanical-watercolor",
+  "displayName": "Botanical Watercolor",
+  "family": "organic-craft",
+  "definition": "Transparent watercolor washes, soft pigment blooms, pencil contours, and observed plant structure balance fidelity with painterly atmosphere.",
+  "axes": {
+    "minimalOrnate": 0.3,
+    "geometricOrganic": 0.8,
+    "polishedRaw": 0.3,
+    "calmEnergetic": -0.6,
+    "historicalFuturistic": -0.6,
+    "realisticAbstract": -0.6,
+    "warmCool": -0.2,
+    "lightDark": 0.3,
+    "playfulSerious": 0.4,
+    "handmadeMachined": -0.8,
+    "flatDeep": -0.5,
+    "everydayLuxurious": 0.1
+  },
+  "cues": [
+    "watercolor-wash",
+    "hand-drawn",
+    "painterly",
+    "illustrated",
+    "natural-signal"
+  ],
+  "antiCues": [
+    "neon",
+    "machine-precise",
+    "screen-pixel",
+    "chrome"
+  ],
+  "emotionalEffects": [
+    "serene",
+    "nostalgic",
+    "intimate"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "freeform",
+      "density": 0.38,
+      "symmetry": 0.15,
+      "margins": 0.4
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#7BA05B",
+        "#7478D4",
+        "#77995B",
+        "#FFF0FC",
+        "#3E2331"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/botanical-watercolor.svg",
+      "descriptor": "small caps serif for specimen labels",
+      "weight": 400,
+      "tracking": 0.04
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.25,
+      "curveTension": 0.7
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/organic-craft-primary"
+      ],
+      "finish": "wash",
+      "grain": 0.3,
+      "tags": [
+        "paper",
+        "watercolor-wash",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.32,
+      "keyDirection": "diffuse",
+      "gradient": 0.15
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.2,
+      "parallax": 0.05
+    },
+    "motion": {
+      "energy": 0.1,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.25,
+      "tags": [
+        "organic"
+      ]
+    },
+    "imagery": {
+      "treatment": "illustrated",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.15
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "a resolved observed plant study in transparent watercolor and selective pencil contour",
+    "framing": "Single branching specimen or flowering stem placed diagonally on open warm paper, with one enlarged anatomical detail; diffuse light preserves transparent wash layers, pigment blooms, and accurate plant structure.",
+    "mustShow": [
+      "watercolor-wash",
+      "hand-drawn",
+      "painterly"
+    ],
+    "mustAvoid": [
+      "neon",
+      "machine-precise",
+      "clip-art floral wreath",
+      "opaque digital airbrush",
+      "dense notebook marginalia",
+      "watermark",
+      "brand-logos"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "garden-sketchbook",
+    "field-guide",
+    "arts-and-crafts"
+  ],
+  "contrasting": [
+    "operational-dashboard",
+    "brutalism",
+    "crt-terminal"
+  ]
+}

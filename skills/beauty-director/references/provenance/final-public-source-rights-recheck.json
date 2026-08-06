@@ -1,0 +1,3604 @@
+{
+  "summary": {
+    "verifier": "BeautyDirectorV2FinalRightsAudit/1.0",
+    "checkedAt": "2026-08-02T20:04:47.497Z",
+    "checkedDate": "2026-08-02",
+    "ledgerPath": "references/image-sources.json",
+    "ledgerSha256": "754193bb1601945bba72fbc7b12f2455b462f3903d1338dce674014880abffc1",
+    "scope": "Frozen Beauty Director v2 ledger entries with originType public-source",
+    "source": "Wikimedia Commons MediaWiki API imageinfo.extmetadata",
+    "api": "https://commons.wikimedia.org/w/api.php",
+    "total": 73,
+    "passed": 73,
+    "exceptions": 0,
+    "pageExists": 73,
+    "canonicalTitleMatches": 73,
+    "licenseLabelMatches": 73,
+    "licenseUrlMatches": 73,
+    "sourceSha1Matches": 73,
+    "sourceSha1NotInLedger": 0,
+    "creatorCreditMatches": 73,
+    "exceptionCounts": {},
+    "allPass": true
+  },
+  "limitation": "This is file-level verification only. It does not provide blanket clearance of underlying works, trademarks or trade dress, privacy/publicity rights, architecture/property rights, culturally sensitive use, or the intended use in a specific jurisdiction or context.",
+  "records": [
+    {
+      "styleId": "anatomical-plate",
+      "localPath": "assets/refs/anatomical-plate/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Female_Pelvis_Grays_Anatomy_1893.jpg",
+      "requestedFileTitle": "File:Female Pelvis Grays Anatomy 1893.jpg",
+      "canonicalFileTitle": "File:Female Pelvis Grays Anatomy 1893.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Female_Pelvis_Grays_Anatomy_1893.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Female Pelvis Grays Anatomy 1893.jpg",
+        "creator": "Henry Gray",
+        "requiredCredit": "Henry Gray",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "0e456361125fa95c47efda09c3378b7ead24bfa0"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "0e456361125fa95c47efda09c3378b7ead24bfa0",
+        "sourceTimestamp": "2025-05-01T06:19:05Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Female_Pelvis_Grays_Anatomy_1893.jpg",
+        "creatorCredit": {
+          "artist": "Henry Gray",
+          "credit": "https://www.anatomyartgallery.com",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "art-nouveau",
+      "localPath": "assets/refs/art-nouveau/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Alfons_Mucha_-_1896_-_La_Dame_aux_Cam%C3%A9lias_-_Sarah_Bernhardt.jpg",
+      "requestedFileTitle": "File:Alfons Mucha - 1896 - La Dame aux Camélias - Sarah Bernhardt.jpg",
+      "canonicalFileTitle": "File:Alfons Mucha - 1896 - La Dame aux Camélias - Sarah Bernhardt.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Alfons_Mucha_-_1896_-_La_Dame_aux_Cam%C3%A9lias_-_Sarah_Bernhardt.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Alfons Mucha - 1896 - La Dame aux Camélias - Sarah Bernhardt.jpg",
+        "creator": "Alphonse Mucha",
+        "requiredCredit": "Alphonse Mucha",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "a9d0582a13718d22c891005e70698c74c41ba87e"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "a9d0582a13718d22c891005e70698c74c41ba87e",
+        "sourceTimestamp": "2013-01-29T12:38:09Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Alfons_Mucha_-_1896_-_La_Dame_aux_Cam%C3%A9lias_-_Sarah_Bernhardt.jpg",
+        "creatorCredit": {
+          "artist": "Alphonse Mucha",
+          "credit": "Original file from Library of Congress",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "art-nouveau",
+      "localPath": "assets/refs/art-nouveau/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Alphonse_Mucha_-_Cycles_Perfecta.jpg",
+      "requestedFileTitle": "File:Alphonse Mucha - Cycles Perfecta.jpg",
+      "canonicalFileTitle": "File:Alphonse Mucha - Cycles Perfecta.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Alphonse_Mucha_-_Cycles_Perfecta.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Alphonse Mucha - Cycles Perfecta.jpg",
+        "creator": "Alphonse Mucha",
+        "requiredCredit": "Alphonse Mucha",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "2496bd23786ce6e348738126877bf87017e1f2e2"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "2496bd23786ce6e348738126877bf87017e1f2e2",
+        "sourceTimestamp": "2017-07-30T15:56:40Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Alphonse_Mucha_-_Cycles_Perfecta.jpg",
+        "creatorCredit": {
+          "artist": "Alphonse Mucha",
+          "credit": "http://masterpieceart.net/alphonse-mucha/",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "arts-and-crafts",
+      "localPath": "assets/refs/arts-and-crafts/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Wallpaper_Sample_Book_1_-_William_Morris_and_Company_-_page127.jpg",
+      "requestedFileTitle": "File:Brooklyn Museum - Wallpaper Sample Book 1 - William Morris and Company - page127.jpg",
+      "canonicalFileTitle": "File:Brooklyn Museum - Wallpaper Sample Book 1 - William Morris and Company - page127.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Wallpaper_Sample_Book_1_-_William_Morris_and_Company_-_page127.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Wallpaper Sample Book 1, page 127: Compton, pattern #323",
+        "creator": "Morris & Co.",
+        "requiredCredit": "Morris & Co.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "4cebfe2bb9b0d32d25e1595f6c527e3ea0586c7c"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "4cebfe2bb9b0d32d25e1595f6c527e3ea0586c7c",
+        "sourceTimestamp": "2025-06-19T02:02:49Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Brooklyn_Museum_-_Wallpaper_Sample_Book_1_-_William_Morris_and_Company_-_page127.jpg",
+        "creatorCredit": {
+          "artist": "Morris & Co.",
+          "credit": "Online Collection of Brooklyn Museum ; Photo: Brooklyn Museum, 2009, 71.151.1_page127_PS1.jpg",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "astro-chart",
+      "localPath": "assets/refs/astro-chart/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:1675_double_hemisphere_celestial_chart_by_Louis_Vlasbloem.jpg",
+      "requestedFileTitle": "File:1675 double hemisphere celestial chart by Louis Vlasbloem.jpg",
+      "canonicalFileTitle": "File:1675 double hemisphere celestial chart by Louis Vlasbloem.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:1675_double_hemisphere_celestial_chart_by_Louis_Vlasbloem.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "1675 double hemisphere celestial chart by Louis Vlasbloem.jpg",
+        "creator": "Johannes Van Keulen / Louis Vlasbloem",
+        "requiredCredit": "Johannes Van Keulen / Louis Vlasbloem",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "b8273a6eac739669e67657b486087f2c35ad2781"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "b8273a6eac739669e67657b486087f2c35ad2781",
+        "sourceTimestamp": "2020-04-03T17:51:26Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/1675_double_hemisphere_celestial_chart_by_Louis_Vlasbloem.jpg",
+        "creatorCredit": {
+          "artist": "Johannes Van Keulen / Louis Vlasbloem",
+          "credit": "https://www.raremaps.com/gallery/detail/23230/stellatum-planisphaerium-van-keulen-vlasbloem",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "astro-chart",
+      "localPath": "assets/refs/astro-chart/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Celestial_chart_by_Andreas_Cellarius_-_Situs_Terrae_Circulis_Coelestibus_Circundatae.jpg",
+      "requestedFileTitle": "File:Celestial chart by Andreas Cellarius - Situs Terrae Circulis Coelestibus Circundatae.jpg",
+      "canonicalFileTitle": "File:Celestial chart by Andreas Cellarius - Situs Terrae Circulis Coelestibus Circundatae.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Celestial_chart_by_Andreas_Cellarius_-_Situs_Terrae_Circulis_Coelestibus_Circundatae.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Celestial chart by Andreas Cellarius - Situs Terrae Circulis Coelestibus Circundatae.jpg",
+        "creator": "Andreas Cellarius",
+        "requiredCredit": "Andreas Cellarius",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "b79edcc51de44a30b8af013db5ea379422b12615"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "b79edcc51de44a30b8af013db5ea379422b12615",
+        "sourceTimestamp": "2020-03-22T17:51:39Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Celestial_chart_by_Andreas_Cellarius_-_Situs_Terrae_Circulis_Coelestibus_Circundatae.jpg",
+        "creatorCredit": {
+          "artist": "Andreas Cellarius",
+          "credit": "https://www.raremaps.com/gallery/detail/61119/situs-terrae-circulis-coelestibus-circundatae-cellarius",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "baroque-chiaroscuro",
+      "localPath": "assets/refs/baroque-chiaroscuro/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Caravaggio_-_Boy_Bitten_by_a_Lizard.jpg",
+      "requestedFileTitle": "File:Caravaggio - Boy Bitten by a Lizard.jpg",
+      "canonicalFileTitle": "File:Caravaggio - Boy Bitten by a Lizard.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Caravaggio_-_Boy_Bitten_by_a_Lizard.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Caravaggio - Boy Bitten by a Lizard.jpg",
+        "creator": "Caravaggio",
+        "requiredCredit": "Caravaggio",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "503e0d16c71cf4e028cb4767b1aae59cf7b7d382"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "503e0d16c71cf4e028cb4767b1aae59cf7b7d382",
+        "sourceTimestamp": "2015-07-24T23:42:46Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Caravaggio_-_Boy_Bitten_by_a_Lizard.jpg",
+        "creatorCredit": {
+          "artist": "Caravaggio",
+          "credit": "National Gallery, London - online catalogue .",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "baroque-chiaroscuro",
+      "localPath": "assets/refs/baroque-chiaroscuro/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Caravaggio_-_David_with_the_Head_of_Goliath_-_Vienna.jpg",
+      "requestedFileTitle": "File:Caravaggio - David with the Head of Goliath - Vienna.jpg",
+      "canonicalFileTitle": "File:Caravaggio - David with the Head of Goliath - Vienna.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Caravaggio_-_David_with_the_Head_of_Goliath_-_Vienna.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Caravaggio - David with the Head of Goliath - Vienna.jpg",
+        "creator": "Caravaggio",
+        "requiredCredit": "Caravaggio",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "2fd8e154a91626deda918fb5a76e3270545fd3f8"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "2fd8e154a91626deda918fb5a76e3270545fd3f8",
+        "sourceTimestamp": "2021-04-30T20:14:16Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Caravaggio_-_David_with_the_Head_of_Goliath_-_Vienna.jpg",
+        "creatorCredit": {
+          "artist": "Caravaggio",
+          "credit": "Kunsthistorisches Museum Wien, Bilddatenbank .",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "botanical-plate",
+      "localPath": "assets/refs/botanical-plate/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Arbres-couleurs-1_-_trees_in_colour_-_Public_domain_book_illustration_(visual_explanation,_informative_drawing,_plate)_from_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+      "requestedFileTitle": "File:Arbres-couleurs-1 - trees in colour - Public domain book illustration (visual explanation, informative drawing, plate) from Larousse du XXème siècle 1932.jpg",
+      "canonicalFileTitle": "File:Arbres-couleurs-1 - trees in colour - Public domain book illustration (visual explanation, informative drawing, plate) from Larousse du XXème siècle 1932.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Arbres-couleurs-1_-_trees_in_colour_-_Public_domain_book_illustration_(visual_explanation,_informative_drawing,_plate)_from_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Arbres-couleurs-1 - trees in colour - Public domain book illustration (visual explanation, informative drawing, plate) from Larousse du XXème siècle 1932.jpg",
+        "creator": "EN NOIR & BLANC",
+        "requiredCredit": "EN NOIR & BLANC",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "4df3cfc54f4835891da7a81264d6728b4d522124"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "4df3cfc54f4835891da7a81264d6728b4d522124",
+        "sourceTimestamp": "2021-01-10T22:05:03Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Arbres-couleurs-1_-_trees_in_colour_-_Public_domain_book_illustration_%28visual_explanation%2C_informative_drawing%2C_plate%29_from_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+        "creatorCredit": {
+          "artist": "EN NOIR & BLANC",
+          "credit": "https://www.flickr.com/photos/149521109@N03/30375436644/",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "botanical-plate",
+      "localPath": "assets/refs/botanical-plate/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Arbres_d%27ornement-1_-_ornamental_trees_in_colour-_Public_domain_book_illustration_(visual_explanation,_informative_drawing,_plate)_from_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+      "requestedFileTitle": "File:Arbres d'ornement-1 - ornamental trees in colour- Public domain book illustration (visual explanation, informative drawing, plate) from Larousse du XXème siècle 1932.jpg",
+      "canonicalFileTitle": "File:Arbres d'ornement-1 - ornamental trees in colour- Public domain book illustration (visual explanation, informative drawing, plate) from Larousse du XXème siècle 1932.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Arbres_d%27ornement-1_-_ornamental_trees_in_colour-_Public_domain_book_illustration_(visual_explanation,_informative_drawing,_plate)_from_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Arbres d'ornement-1 - ornamental trees in colour- Public domain book illustration (visual explanation, informative drawing, plate) from Larousse du XXème siècle 1932.jpg",
+        "creator": "EN NOIR & BLANC",
+        "requiredCredit": "EN NOIR & BLANC",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "35dd01c0e52ac0b70f63cf9397f561f9626003be"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "35dd01c0e52ac0b70f63cf9397f561f9626003be",
+        "sourceTimestamp": "2021-01-10T22:05:06Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Arbres_d%27ornement-1_-_ornamental_trees_in_colour-_Public_domain_book_illustration_%28visual_explanation%2C_informative_drawing%2C_plate%29_from_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg",
+        "creatorCredit": {
+          "artist": "EN NOIR & BLANC",
+          "credit": "https://www.flickr.com/photos/149521109@N03/31196536225/",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "botanical-watercolor",
+      "localPath": "assets/refs/botanical-watercolor/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_naturalist%27s_sketch_book_(Plate_60)_BHL46158033.jpg",
+      "requestedFileTitle": "File:A naturalist's sketch book (Plate 60) BHL46158033.jpg",
+      "canonicalFileTitle": "File:A naturalist's sketch book (Plate 60) BHL46158033.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:A_naturalist%27s_sketch_book_(Plate_60)_BHL46158033.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "A naturalist's sketch book (Plate 60) BHL46158033.jpg",
+        "creator": "Thorburn, Archibald",
+        "requiredCredit": "Thorburn, Archibald",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "2dd44e9cc04493a680167a746cefea0bd112bb2e"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "2dd44e9cc04493a680167a746cefea0bd112bb2e",
+        "sourceTimestamp": "2015-10-25T19:48:41Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/A_naturalist%27s_sketch_book_%28Plate_60%29_BHL46158033.jpg",
+        "creatorCredit": {
+          "artist": "Thorburn, Archibald",
+          "credit": "https://www.biodiversitylibrary.org/pageimage/46158033",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "botanical-watercolor",
+      "localPath": "assets/refs/botanical-watercolor/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Arabis-J.Eudes-30.JPG",
+      "requestedFileTitle": "File:Arabis-J.Eudes-30.JPG",
+      "canonicalFileTitle": "File:Arabis-J.Eudes-30.JPG",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Arabis-J.Eudes-30.JPG",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Arabis-J.Eudes-30.JPG",
+        "creator": "J. Eudes",
+        "requiredCredit": "J. Eudes",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "bc7babb154faf9a15cad09c587ab75bb5aaf1a47"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "bc7babb154faf9a15cad09c587ab75bb5aaf1a47",
+        "sourceTimestamp": "2012-10-27T08:27:00Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Arabis-J.Eudes-30.JPG",
+        "creatorCredit": {
+          "artist": "J. Eudes",
+          "credit": "A. Guillaumin, Les Fleurs de Jardins , tome I : Les Fleurs de Printemps, Paul Lechevalier, 1929",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "boutique-hospitality",
+      "localPath": "assets/refs/boutique-hospitality/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Reception_lounge_at_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg",
+      "requestedFileTitle": "File:Reception lounge at Amantaka luxury Resort & Hotel at blue hour in Luang Prabang Laos.jpg",
+      "canonicalFileTitle": "File:Reception lounge at Amantaka luxury Resort & Hotel at blue hour in Luang Prabang Laos.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Reception_lounge_at_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Reception lounge at Amantaka luxury Resort & Hotel",
+        "creator": "Basile Morin",
+        "requiredCredit": "Wikimedia contributor",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceFileSha1": "a3527fbb48db510ee52730e45f1b88aa468b60b7"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "licenseCode": "cc-by-sa-4.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "a3527fbb48db510ee52730e45f1b88aa468b60b7",
+        "sourceTimestamp": "2023-10-01T02:43:31Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Reception_lounge_at_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg",
+        "creatorCredit": {
+          "artist": "Basile Morin",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 4",
+        "liveLicenseNormalized": "cc by-sa 4",
+        "ledgerLicenseUrlFamily": "cc:by-sa:4.0",
+        "liveLicenseUrlFamily": "cc:by-sa:4.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "brutalism",
+      "localPath": "assets/refs/brutalism/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Architecture_of_Tbilisi,_Part_II_-_TbilisiArchitecture8033.jpg",
+      "requestedFileTitle": "File:Architecture of Tbilisi, Part II - TbilisiArchitecture8033.jpg",
+      "canonicalFileTitle": "File:Architecture of Tbilisi, Part II - TbilisiArchitecture8033.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Architecture_of_Tbilisi,_Part_II_-_TbilisiArchitecture8033.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Architecture of Tbilisi, Part II - TbilisiArchitecture8033",
+        "creator": "lumoplank",
+        "requiredCredit": "lumoplank",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "5374bada923c187562c6557931007018102965e2"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "5374bada923c187562c6557931007018102965e2",
+        "sourceTimestamp": "2026-07-19T08:14:49Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Architecture_of_Tbilisi%2C_Part_II_-_TbilisiArchitecture8033.jpg",
+        "creatorCredit": {
+          "artist": "lumoplank",
+          "credit": "https://www.flickr.com/photos/199350666@N08/55230071632",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "brutalism",
+      "localPath": "assets/refs/brutalism/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Concrete_beauty_-_Flickr_-_liebeslakritze.jpg",
+      "requestedFileTitle": "File:Concrete beauty - Flickr - liebeslakritze.jpg",
+      "canonicalFileTitle": "File:Concrete beauty - Flickr - liebeslakritze.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Concrete_beauty_-_Flickr_-_liebeslakritze.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Concrete beauty - Flickr - liebeslakritze",
+        "creator": "liebeslakritze from Germany",
+        "requiredCredit": "liebeslakritze from Germany",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceFileSha1": "6a2f866e18cb0bc9d611965a6c135838104dabd1"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "licenseCode": "cc-by-sa-2.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "6a2f866e18cb0bc9d611965a6c135838104dabd1",
+        "sourceTimestamp": "2020-07-28T06:43:29Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Concrete_beauty_-_Flickr_-_liebeslakritze.jpg",
+        "creatorCredit": {
+          "artist": "liebeslakritze from Germany",
+          "credit": "concrete beauty",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 2",
+        "liveLicenseNormalized": "cc by-sa 2",
+        "ledgerLicenseUrlFamily": "cc:by-sa:2.0",
+        "liveLicenseUrlFamily": "cc:by-sa:2.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "byzantine-mosaic",
+      "localPath": "assets/refs/byzantine-mosaic/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Byzantine_mosaic_of_Christ_Pantocrator.jpg",
+      "requestedFileTitle": "File:Byzantine mosaic of Christ Pantocrator.jpg",
+      "canonicalFileTitle": "File:Byzantine mosaic of Christ Pantocrator.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Byzantine_mosaic_of_Christ_Pantocrator.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Byzantine mosaic of Christ Pantocrator.jpg",
+        "creator": "LongIslander",
+        "requiredCredit": "LongIslander",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "5241ac643db8b30591694d11f10f46954736e70e"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "5241ac643db8b30591694d11f10f46954736e70e",
+        "sourceTimestamp": "2011-03-15T03:20:12Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Byzantine_mosaic_of_Christ_Pantocrator.jpg",
+        "creatorCredit": {
+          "artist": "LongIslander",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "cartographic-sheet",
+      "localPath": "assets/refs/cartographic-sheet/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Manganese_Minnesota_Historic_Topographical_Map_1959.jpg",
+      "requestedFileTitle": "File:Manganese Minnesota Historic Topographical Map 1959.jpg",
+      "canonicalFileTitle": "File:Manganese Minnesota Historic Topographical Map 1959.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Manganese_Minnesota_Historic_Topographical_Map_1959.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Manganese Minnesota Historic Topographical Map 1959.jpg",
+        "creator": "United States Geological Survey",
+        "requiredCredit": "United States Geological Survey",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "ab3a97b9217181e78e15a099b2a1b15b48ebc1fb"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "ab3a97b9217181e78e15a099b2a1b15b48ebc1fb",
+        "sourceTimestamp": "2020-03-24T22:07:32Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Manganese_Minnesota_Historic_Topographical_Map_1959.jpg",
+        "creatorCredit": {
+          "artist": "United States Geological Survey",
+          "credit": "https://catalog.data.gov/dataset/usgs-1-24000-scale-quadrangle-for-trommald-mn-1959bee86",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "cartographic-sheet",
+      "localPath": "assets/refs/cartographic-sheet/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Part_of_topographic_map_of_Zion_National_Park,_reduced_to_one_half_scale_linear._;_ZION_Museum_and_Archives_Image_ZION_10154_(2ec1a55a4a7b4e50b06389aac9b6918c).jpg",
+      "requestedFileTitle": "File:Part of topographic map of Zion National Park, reduced to one half scale linear. ; ZION Museum and Archives Image ZION 10154 (2ec1a55a4a7b4e50b06389aac9b6918c).jpg",
+      "canonicalFileTitle": "File:Part of topographic map of Zion National Park, reduced to one half scale linear. ; ZION Museum and Archives Image ZION 10154 (2ec1a55a4a7b4e50b06389aac9b6918c).jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Part_of_topographic_map_of_Zion_National_Park,_reduced_to_one_half_scale_linear._;_ZION_Museum_and_Archives_Image_ZION_10154_(2ec1a55a4a7b4e50b06389aac9b6918c).jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Part of topographic map of Zion National Park, reduced to one half scale linear. ; ZION Museum and Archives Image ZION 10154 (2ec1a55a4a7b4e50b06389aac9b6918c).jpg",
+        "creator": "George A. Grant",
+        "requiredCredit": "George A. Grant",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "63ccf1caed337ad8535727edb0ef37b66f57cfae"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "63ccf1caed337ad8535727edb0ef37b66f57cfae",
+        "sourceTimestamp": "2019-09-22T13:31:30Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Part_of_topographic_map_of_Zion_National_Park%2C_reduced_to_one_half_scale_linear._%3B_ZION_Museum_and_Archives_Image_ZION_10154_%282ec1a55a4a7b4e50b06389aac9b6918c%29.jpg",
+        "creatorCredit": {
+          "artist": "George A. Grant",
+          "credit": "NPGallery",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "civic-wayfinding",
+      "localPath": "assets/refs/civic-wayfinding/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Emergency_Exit_ISO_Pictogram_(green).svg",
+      "requestedFileTitle": "File:Emergency Exit ISO Pictogram (green).svg",
+      "canonicalFileTitle": "File:Emergency Exit ISO Pictogram (green).svg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Emergency_Exit_ISO_Pictogram_(green).svg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Emergency Exit ISO Pictogram (green).svg",
+        "creator": "alerante , based on PDF linked above",
+        "requiredCredit": "alerante , based on PDF linked above",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "b32d8695b19937bd183e900c632bc66dd0893451"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "b32d8695b19937bd183e900c632bc66dd0893451",
+        "sourceTimestamp": "2024-02-17T16:34:03Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Emergency_Exit_ISO_Pictogram_%28green%29.svg",
+        "creatorCredit": {
+          "artist": "alerante , based on PDF linked above",
+          "credit": "Symbols-Safety , Foundation for Promoting Personal Mobility and Ecological Transportation , abbreviated as the Eco-Mo Foundation",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "classic-infographic",
+      "localPath": "assets/refs/classic-infographic/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Charles_Joseph_Minard_-_%C3%89migrants_du_Globe.jpg",
+      "requestedFileTitle": "File:Charles Joseph Minard - Émigrants du Globe.jpg",
+      "canonicalFileTitle": "File:Charles Joseph Minard - Émigrants du Globe.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Charles_Joseph_Minard_-_%C3%89migrants_du_Globe.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Charles Joseph Minard - Émigrants du Globe.jpg",
+        "creator": "Charles Joseph Minard",
+        "requiredCredit": "Charles Joseph Minard",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "a0a52db9fe07338a58c49721ad452fdcd57680a5"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "a0a52db9fe07338a58c49721ad452fdcd57680a5",
+        "sourceTimestamp": "2014-01-05T15:09:04Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Charles_Joseph_Minard_-_%C3%89migrants_du_Globe.jpg",
+        "creatorCredit": {
+          "artist": "Charles Joseph Minard",
+          "credit": "http://www.bigmapblog.com/2013/1862-map-of-world-migration-french/",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "concrete-poetry",
+      "localPath": "assets/refs/concrete-poetry/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Calligramme.jpg",
+      "requestedFileTitle": "File:Calligramme.jpg",
+      "canonicalFileTitle": "File:Calligramme.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Calligramme.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Calligramme",
+        "creator": "Guillaume Apollinaire",
+        "requiredCredit": "Guillaume Apollinaire",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Public_domain",
+        "sourceFileSha1": "6475702998135d16d98dd9945905a85d67233dfc"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "6475702998135d16d98dd9945905a85d67233dfc",
+        "sourceTimestamp": "2005-05-28T17:35:27Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Calligramme.jpg",
+        "creatorCredit": {
+          "artist": "Guillaume Apollinaire",
+          "credit": "Source",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "concrete-poetry",
+      "localPath": "assets/refs/concrete-poetry/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:01_concrete_poem.jpg",
+      "requestedFileTitle": "File:01 concrete poem.jpg",
+      "canonicalFileTitle": "File:01 concrete poem.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:01_concrete_poem.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "01 concrete poem",
+        "creator": "Szwedkowski",
+        "requiredCredit": "Wikimedia contributor",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceFileSha1": "e641bbf5f62c3e6c7dd52fd4e5e46991ba6bec54"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "licenseCode": "cc-by-sa-4.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "e641bbf5f62c3e6c7dd52fd4e5e46991ba6bec54",
+        "sourceTimestamp": "2019-11-05T21:41:59Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/01_concrete_poem.jpg",
+        "creatorCredit": {
+          "artist": "Szwedkowski",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 4",
+        "liveLicenseNormalized": "cc by-sa 4",
+        "ledgerLicenseUrlFamily": "cc:by-sa:4.0",
+        "liveLicenseUrlFamily": "cc:by-sa:4.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "documentary-grit",
+      "localPath": "assets/refs/documentary-grit/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Arba%27een_-_Mehran_City_-_Iran_-_Canon_Photography_-_Social_Documentary_-_Shia_Muslim-_Islam_-_Culture_Asiana_11.jpg",
+      "requestedFileTitle": "File:Arba'een - Mehran City - Iran - Canon Photography - Social Documentary - Shia Muslim- Islam - Culture Asiana 11.jpg",
+      "canonicalFileTitle": "File:Arba'een - Mehran City - Iran - Canon Photography - Social Documentary - Shia Muslim- Islam - Culture Asiana 11.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Arba%27een_-_Mehran_City_-_Iran_-_Canon_Photography_-_Social_Documentary_-_Shia_Muslim-_Islam_-_Culture_Asiana_11.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Arba'een - Mehran City - Iran - Canon Photography - Social Documentary - Shia Muslim- Islam - Culture Asiana 11.jpg",
+        "creator": "Mostafameraji",
+        "requiredCredit": "Mostafameraji",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "88bf9638051768d8bae725957992030bb16de093"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "88bf9638051768d8bae725957992030bb16de093",
+        "sourceTimestamp": "2022-01-24T10:24:04Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Arba%27een_-_Mehran_City_-_Iran_-_Canon_Photography_-_Social_Documentary_-_Shia_Muslim-_Islam_-_Culture_Asiana_11.jpg",
+        "creatorCredit": {
+          "artist": "Mostafameraji",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "documentary-grit",
+      "localPath": "assets/refs/documentary-grit/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Street_sweeper_vehicles_in_Iran_Qom_city-Canon_Photography_04.jpg",
+      "requestedFileTitle": "File:Street sweeper vehicles in Iran Qom city-Canon Photography 04.jpg",
+      "canonicalFileTitle": "File:Street sweeper vehicles in Iran Qom city-Canon Photography 04.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Street_sweeper_vehicles_in_Iran_Qom_city-Canon_Photography_04.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Street sweeper vehicles in Iran Qom city-Canon Photography 04.jpg",
+        "creator": "Mostafameraji",
+        "requiredCredit": "Mostafameraji",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "3585f2dad9a55ab8bff31d4cd7b81b88ae6b05d9"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "3585f2dad9a55ab8bff31d4cd7b81b88ae6b05d9",
+        "sourceTimestamp": "2023-01-10T15:33:22Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Street_sweeper_vehicles_in_Iran_Qom_city-Canon_Photography_04.jpg",
+        "creatorCredit": {
+          "artist": "Mostafameraji",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "engineering-blueprint",
+      "localPath": "assets/refs/engineering-blueprint/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Photocopy_of_drawing_(original_blueprint_of_Special_Type_Service_Station_in_possession_of_MacDill_Air_Force_Base,_Civil_Engineering,_Tampa,_Florida;_1941_architectural_drawings_HABS_FLA,29-TAMP,52AT-7.tif",
+      "requestedFileTitle": "File:Photocopy of drawing (original blueprint of Special Type Service Station in possession of MacDill Air Force Base, Civil Engineering, Tampa, Florida; 1941 architectural drawings HABS FLA,29-TAMP,52AT-7.tif",
+      "canonicalFileTitle": "File:Photocopy of drawing (original blueprint of Special Type Service Station in possession of MacDill Air Force Base, Civil Engineering, Tampa, Florida; 1941 architectural drawings HABS FLA,29-TAMP,52AT-7.tif",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Photocopy_of_drawing_(original_blueprint_of_Special_Type_Service_Station_in_possession_of_MacDill_Air_Force_Base,_Civil_Engineering,_Tampa,_Florida;_1941_architectural_drawings_HABS_FLA,29-TAMP,52AT-7.tif",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Photocopy of drawing (original blueprint of Special Type Service Station in possession of MacDill Air Force Base, Civil Engineering, Tampa, Florida; 1941 architectural drawings HABS FLA,29-TAMP,52AT-7.tif",
+        "creator": "Unknown / see Commons file page",
+        "requiredCredit": "Unknown / see Commons file page",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "341972da6eb5a431b009f7a43c1ab8c9814064bc"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "341972da6eb5a431b009f7a43c1ab8c9814064bc",
+        "sourceTimestamp": "2014-07-12T08:26:50Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Photocopy_of_drawing_%28original_blueprint_of_Special_Type_Service_Station_in_possession_of_MacDill_Air_Force_Base%2C_Civil_Engineering%2C_Tampa%2C_Florida%3B_1941_architectural_drawings_HABS_FLA%2C29-TAMP%2C52AT-7.tif",
+        "creatorCredit": {
+          "artist": null,
+          "credit": "https://www.loc.gov/pictures/item/fl0409.photos.331871p",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "qualified_unknown_credit_aligned"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "engineering-blueprint",
+      "localPath": "assets/refs/engineering-blueprint/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Photocopy_of_drawing_(original_blueprint_of_Special_Type_Service_Station_in_possession_of_MacDill_Air_Force_Base,_Civil_Engineering,_Tampa,_Florida;_1941_architectural_drawings_HABS_FLA,29-TAMP,52AT-8.tif",
+      "requestedFileTitle": "File:Photocopy of drawing (original blueprint of Special Type Service Station in possession of MacDill Air Force Base, Civil Engineering, Tampa, Florida; 1941 architectural drawings HABS FLA,29-TAMP,52AT-8.tif",
+      "canonicalFileTitle": "File:Photocopy of drawing (original blueprint of Special Type Service Station in possession of MacDill Air Force Base, Civil Engineering, Tampa, Florida; 1941 architectural drawings HABS FLA,29-TAMP,52AT-8.tif",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Photocopy_of_drawing_(original_blueprint_of_Special_Type_Service_Station_in_possession_of_MacDill_Air_Force_Base,_Civil_Engineering,_Tampa,_Florida;_1941_architectural_drawings_HABS_FLA,29-TAMP,52AT-8.tif",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Photocopy of drawing (original blueprint of Special Type Service Station in possession of MacDill Air Force Base, Civil Engineering, Tampa, Florida; 1941 architectural drawings HABS FLA,29-TAMP,52AT-8.tif",
+        "creator": "Unknown / see Commons file page",
+        "requiredCredit": "Unknown / see Commons file page",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "ba9192e7a8e4a9fd10633d14473446abaa9199a4"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "ba9192e7a8e4a9fd10633d14473446abaa9199a4",
+        "sourceTimestamp": "2014-07-12T08:26:46Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Photocopy_of_drawing_%28original_blueprint_of_Special_Type_Service_Station_in_possession_of_MacDill_Air_Force_Base%2C_Civil_Engineering%2C_Tampa%2C_Florida%3B_1941_architectural_drawings_HABS_FLA%2C29-TAMP%2C52AT-8.tif",
+        "creatorCredit": {
+          "artist": null,
+          "credit": "https://www.loc.gov/pictures/item/fl0409.photos.331872p",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "qualified_unknown_credit_aligned"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "festival-banner",
+      "localPath": "assets/refs/festival-banner/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Papel_Picado.JPG",
+      "requestedFileTitle": "File:Papel Picado.JPG",
+      "canonicalFileTitle": "File:Papel Picado.JPG",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Papel_Picado.JPG",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Papel Picado, Cuernavaca",
+        "creator": "Sr JessMichelle",
+        "requiredCredit": "Sr JessMichelle",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceFileSha1": "e7b371ee64dc4a3d3819b1395905fdde413de98b"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "licenseCode": "cc-by-sa-4.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "e7b371ee64dc4a3d3819b1395905fdde413de98b",
+        "sourceTimestamp": "2014-11-13T20:00:21Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Papel_Picado.JPG",
+        "creatorCredit": {
+          "artist": "Sr JessMichelle",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 4",
+        "liveLicenseNormalized": "cc by-sa 4",
+        "ledgerLicenseUrlFamily": "cc:by-sa:4.0",
+        "liveLicenseUrlFamily": "cc:by-sa:4.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "festival-banner",
+      "localPath": "assets/refs/festival-banner/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:PapelPicado.jpg",
+      "requestedFileTitle": "File:PapelPicado.jpg",
+      "canonicalFileTitle": "File:PapelPicado.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:PapelPicado.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "PapelPicado, Día de Muertos",
+        "creator": "Adrianneluos",
+        "requiredCredit": "Adrianneluos",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceFileSha1": "a8cd7b9ffbb2da92f35f97cfa48f78a046d1bd48"
+      },
+      "live": {
+        "licenseLabel": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "licenseCode": "cc-by-4.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "a8cd7b9ffbb2da92f35f97cfa48f78a046d1bd48",
+        "sourceTimestamp": "2024-11-04T14:38:23Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/PapelPicado.jpg",
+        "creatorCredit": {
+          "artist": "Adrianneluos",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by 4",
+        "liveLicenseNormalized": "cc by 4",
+        "ledgerLicenseUrlFamily": "cc:by:4.0",
+        "liveLicenseUrlFamily": "cc:by:4.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "fog-atmosphere",
+      "localPath": "assets/refs/fog-atmosphere/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ethereal_sailboat_on_the_Huon_River_in_the_fog_(landscape).jpg",
+      "requestedFileTitle": "File:Ethereal sailboat on the Huon River in the fog (landscape).jpg",
+      "canonicalFileTitle": "File:Ethereal sailboat on the Huon River in the fog (landscape).jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Ethereal_sailboat_on_the_Huon_River_in_the_fog_(landscape).jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Ethereal sailboat on the Huon River in the fog (landscape).jpg",
+        "creator": "JustinH",
+        "requiredCredit": "JustinH",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "6f72003575ffdd5acfa9bc41af56cfd030ec3097"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "6f72003575ffdd5acfa9bc41af56cfd030ec3097",
+        "sourceTimestamp": "2024-10-19T11:41:06Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Ethereal_sailboat_on_the_Huon_River_in_the_fog_%28landscape%29.jpg",
+        "creatorCredit": {
+          "artist": "JustinH",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "fog-atmosphere",
+      "localPath": "assets/refs/fog-atmosphere/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kunanyi_(Mount_Wellington)_lone_eucalypt_and_fallen_tree_trunk_in_the_fog_(landscape).jpg",
+      "requestedFileTitle": "File:Kunanyi (Mount Wellington) lone eucalypt and fallen tree trunk in the fog (landscape).jpg",
+      "canonicalFileTitle": "File:Kunanyi (Mount Wellington) lone eucalypt and fallen tree trunk in the fog (landscape).jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Kunanyi_(Mount_Wellington)_lone_eucalypt_and_fallen_tree_trunk_in_the_fog_(landscape).jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Kunanyi (Mount Wellington) lone eucalypt and fallen tree trunk in the fog (landscape).jpg",
+        "creator": "JustinH",
+        "requiredCredit": "JustinH",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "07d31fba47a3c1a406f22bd21cf0a3722c52a72c"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "07d31fba47a3c1a406f22bd21cf0a3722c52a72c",
+        "sourceTimestamp": "2024-10-19T11:41:40Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Kunanyi_%28Mount_Wellington%29_lone_eucalypt_and_fallen_tree_trunk_in_the_fog_%28landscape%29.jpg",
+        "creatorCredit": {
+          "artist": "JustinH",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "folk-embroidery",
+      "localPath": "assets/refs/folk-embroidery/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Maty%C3%B3_embroidery_from_Hungury,_EU.jpg",
+      "requestedFileTitle": "File:Matyó embroidery from Hungury, EU.jpg",
+      "canonicalFileTitle": "File:Matyó embroidery from Hungury, EU.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Maty%C3%B3_embroidery_from_Hungury,_EU.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Matyó embroidery from Hungary",
+        "creator": "Naturpuur",
+        "requiredCredit": "Wikimedia contributor",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceFileSha1": "1b59f7990867ecb91882563f3f8e7290edfeab25"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "licenseCode": "cc-by-sa-4.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "1b59f7990867ecb91882563f3f8e7290edfeab25",
+        "sourceTimestamp": "2025-03-25T18:02:37Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Maty%C3%B3_embroidery_from_Hungury%2C_EU.jpg",
+        "creatorCredit": {
+          "artist": "Naturpuur",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 4",
+        "liveLicenseNormalized": "cc by-sa 4",
+        "ledgerLicenseUrlFamily": "cc:by-sa:4.0",
+        "liveLicenseUrlFamily": "cc:by-sa:4.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "folk-tilework",
+      "localPath": "assets/refs/folk-tilework/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Safavid_ceramic-tile_art,_probably_created_in_Isfahan_in_1640%E2%80%9350_(Garden_Gathering).jpg",
+      "requestedFileTitle": "File:Safavid ceramic-tile art, probably created in Isfahan in 1640–50 (Garden Gathering).jpg",
+      "canonicalFileTitle": "File:Safavid ceramic-tile art, probably created in Isfahan in 1640–50 (Garden Gathering).jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Safavid_ceramic-tile_art,_probably_created_in_Isfahan_in_1640%E2%80%9350_(Garden_Gathering).jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Safavid ceramic-tile art, Garden Gathering",
+        "creator": "Metmuseum.org",
+        "requiredCredit": "Unknown Safavid artist",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "248e87accb21467d5aefef1ed0a0730f19dc37e8"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "248e87accb21467d5aefef1ed0a0730f19dc37e8",
+        "sourceTimestamp": "2021-07-04T10:22:18Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Safavid_ceramic-tile_art%2C_probably_created_in_Isfahan_in_1640%E2%80%9350_%28Garden_Gathering%29.jpg",
+        "creatorCredit": {
+          "artist": "Metmuseum.org",
+          "credit": "https://www.metmuseum.org/art/collection/search/455082",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "folk-tilework",
+      "localPath": "assets/refs/folk-tilework/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tile_Panel_with_Wavy-vine_Design_MET_DP240309.jpg",
+      "requestedFileTitle": "File:Tile Panel with Wavy-vine Design MET DP240309.jpg",
+      "canonicalFileTitle": "File:Tile Panel with Wavy-vine Design MET DP240309.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Tile_Panel_with_Wavy-vine_Design_MET_DP240309.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Tile Panel with Wavy-vine Design, MET DP240309",
+        "creator": "Unknown",
+        "requiredCredit": "Unknown",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "5b172613c4c3a09229b027cd5aa5b43238cbf18e"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "5b172613c4c3a09229b027cd5aa5b43238cbf18e",
+        "sourceTimestamp": "2017-07-11T20:24:17Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tile_Panel_with_Wavy-vine_Design_MET_DP240309.jpg",
+        "creatorCredit": {
+          "artist": null,
+          "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "qualified_unknown_credit_aligned"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "geometric-toy",
+      "localPath": "assets/refs/geometric-toy/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tangram_set_00.jpg",
+      "requestedFileTitle": "File:Tangram set 00.jpg",
+      "canonicalFileTitle": "File:Tangram set 00.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Tangram_set_00.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Tangram set 00",
+        "creator": "Nevit Dilmen",
+        "requiredCredit": "Nevit Dilmen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceFileSha1": "c146564ead7e4040140f6125416e6821ba837747"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseCode": "cc-by-sa-3.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "c146564ead7e4040140f6125416e6821ba837747",
+        "sourceTimestamp": "2007-03-17T15:59:04Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Tangram_set_00.jpg",
+        "creatorCredit": {
+          "artist": "Nevit Dilmen",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 3",
+        "liveLicenseNormalized": "cc by-sa 3",
+        "ledgerLicenseUrlFamily": "cc:by-sa:3.0",
+        "liveLicenseUrlFamily": "cc:by-sa:3.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "glitch-art",
+      "localPath": "assets/refs/glitch-art/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Glitch_Art.jpg",
+      "requestedFileTitle": "File:Glitch Art.jpg",
+      "canonicalFileTitle": "File:Glitch Art.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Glitch_Art.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Glitch Art.jpg",
+        "creator": "Rosa Menkman",
+        "requiredCredit": "Rosa Menkman",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceFileSha1": "794870eb72564de1b2105246bb39cc7e83177a38"
+      },
+      "live": {
+        "licenseLabel": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "licenseCode": "cc-by-2.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "794870eb72564de1b2105246bb39cc7e83177a38",
+        "sourceTimestamp": "2013-08-09T18:51:37Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Glitch_Art.jpg",
+        "creatorCredit": {
+          "artist": "https://flickr.com/people/68716054@N00/ Rosa Menkman]",
+          "credit": "https://flickr.com/photos/68716054@N00/5447119352/",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by 2",
+        "liveLicenseNormalized": "cc by 2",
+        "ledgerLicenseUrlFamily": "cc:by:2.0",
+        "liveLicenseUrlFamily": "cc:by:2.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "glitch-art",
+      "localPath": "assets/refs/glitch-art/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Glitch_Art_by_James_Connolly_and_Eric_Pellegrino.jpg",
+      "requestedFileTitle": "File:Glitch Art by James Connolly and Eric Pellegrino.jpg",
+      "canonicalFileTitle": "File:Glitch Art by James Connolly and Eric Pellegrino.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Glitch_Art_by_James_Connolly_and_Eric_Pellegrino.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Glitch Art by James Connolly and Eric Pellegrino.jpg",
+        "creator": "jonCates",
+        "requiredCredit": "jonCates",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceFileSha1": "b638cc5d7e30eaf41c93ff1b5a4699502e6f2439"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "licenseCode": "cc-by-sa-4.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "b638cc5d7e30eaf41c93ff1b5a4699502e6f2439",
+        "sourceTimestamp": "2023-02-23T08:31:03Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Glitch_Art_by_James_Connolly_and_Eric_Pellegrino.jpg",
+        "creatorCredit": {
+          "artist": "jonCates",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 4",
+        "liveLicenseNormalized": "cc by-sa 4",
+        "ledgerLicenseUrlFamily": "cc:by-sa:4.0",
+        "liveLicenseUrlFamily": "cc:by-sa:4.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "gothic-revival",
+      "localPath": "assets/refs/gothic-revival/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Architectural_Rendering_of_a_Gothic_Revival_Church_MET_DP806240.jpg",
+      "requestedFileTitle": "File:Architectural Rendering of a Gothic Revival Church MET DP806240.jpg",
+      "canonicalFileTitle": "File:Architectural Rendering of a Gothic Revival Church MET DP806240.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Architectural_Rendering_of_a_Gothic_Revival_Church_MET_DP806240.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Architectural Rendering of a Gothic Revival Church MET DP806240.jpg",
+        "creator": "Anonymous Unknown author",
+        "requiredCredit": "Anonymous Unknown author",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "0e6be029f5be4437582ff1af8fc59081e557b608"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "0e6be029f5be4437582ff1af8fc59081e557b608",
+        "sourceTimestamp": "2017-07-11T20:44:50Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Architectural_Rendering_of_a_Gothic_Revival_Church_MET_DP806240.jpg",
+        "creatorCredit": {
+          "artist": "Anonymous Unknown author",
+          "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "graphic-black-and-white",
+      "localPath": "assets/refs/graphic-black-and-white/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_and_white_church_Iceland_(25413805110).jpg",
+      "requestedFileTitle": "File:Black and white church Iceland (25413805110).jpg",
+      "canonicalFileTitle": "File:Black and white church Iceland (25413805110).jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Black_and_white_church_Iceland_(25413805110).jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Black and white church Iceland (25413805110).jpg",
+        "creator": "Lenny K Photography from Sydney, Australia",
+        "requiredCredit": "Lenny K Photography from Sydney, Australia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceFileSha1": "48524f3cba146abda88e693d1f1996d450a3e160"
+      },
+      "live": {
+        "licenseLabel": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "licenseCode": "cc-by-2.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "48524f3cba146abda88e693d1f1996d450a3e160",
+        "sourceTimestamp": "2020-12-11T13:13:13Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Black_and_white_church_Iceland_%2825413805110%29.jpg",
+        "creatorCredit": {
+          "artist": "Lenny K Photography from Sydney, Australia",
+          "credit": "Black and white church Iceland",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by 2",
+        "liveLicenseNormalized": "cc by 2",
+        "ledgerLicenseUrlFamily": "cc:by:2.0",
+        "liveLicenseUrlFamily": "cc:by:2.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "illuminated-manuscript",
+      "localPath": "assets/refs/illuminated-manuscript/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Armenian_illuminated_manuscript_-_Adoration_of_the_Magi.jpg",
+      "requestedFileTitle": "File:Armenian illuminated manuscript - Adoration of the Magi.jpg",
+      "canonicalFileTitle": "File:Armenian illuminated manuscript - Adoration of the Magi.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Armenian_illuminated_manuscript_-_Adoration_of_the_Magi.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Armenian illuminated manuscript - Adoration of the Magi.jpg",
+        "creator": "Anonymous Unknown author",
+        "requiredCredit": "Anonymous Unknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "478e0729989930c9cfb7855bd81690bf53232bfc"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "478e0729989930c9cfb7855bd81690bf53232bfc",
+        "sourceTimestamp": "2016-10-24T00:49:19Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Armenian_illuminated_manuscript_-_Adoration_of_the_Magi.jpg",
+        "creatorCredit": {
+          "artist": "Anonymous Unknown author",
+          "credit": "https://www.bodleian.ox.ac.uk/weston/news/2015/oct-13",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "illuminated-manuscript",
+      "localPath": "assets/refs/illuminated-manuscript/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Illuminated_Manuscript_Miniature_of_Saint_Eusygnios_of_Antioch.jpg",
+      "requestedFileTitle": "File:Illuminated Manuscript Miniature of Saint Eusygnios of Antioch.jpg",
+      "canonicalFileTitle": "File:Illuminated Manuscript Miniature of Saint Eusygnios of Antioch.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Illuminated_Manuscript_Miniature_of_Saint_Eusygnios_of_Antioch.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Illuminated Manuscript Miniature of Saint Eusygnios of Antioch.jpg",
+        "creator": "Unknown author Unknown author",
+        "requiredCredit": "Unknown author Unknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "67f805b1bc4482e9406f01197976f9efa62b1e05"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "67f805b1bc4482e9406f01197976f9efa62b1e05",
+        "sourceTimestamp": "2025-08-05T21:44:14Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Illuminated_Manuscript_Miniature_of_Saint_Eusygnios_of_Antioch.jpg",
+        "creatorCredit": {
+          "artist": "Unknown author Unknown author",
+          "credit": "https://www.johnsanidopoulos.com/2015/08/holy-martyr-eusignios-soldier-of-antioch.html",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "industrial-warehouse",
+      "localPath": "assets/refs/industrial-warehouse/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NDSM_Shipyard_warehouse_1.jpg",
+      "requestedFileTitle": "File:NDSM Shipyard warehouse 1.jpg",
+      "canonicalFileTitle": "File:NDSM Shipyard warehouse 1.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:NDSM_Shipyard_warehouse_1.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "NDSM Shipyard warehouse 1",
+        "creator": "Jip Bosch",
+        "requiredCredit": "Wikimedia contributor",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceFileSha1": "d5fbd9bbc08ecc909f91e345e61b3438c0a69e41"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "licenseCode": "cc-by-sa-4.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "d5fbd9bbc08ecc909f91e345e61b3438c0a69e41",
+        "sourceTimestamp": "2015-09-30T12:56:08Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/NDSM_Shipyard_warehouse_1.jpg",
+        "creatorCredit": {
+          "artist": "Jip Bosch",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 4",
+        "liveLicenseNormalized": "cc by-sa 4",
+        "ledgerLicenseUrlFamily": "cc:by-sa:4.0",
+        "liveLicenseUrlFamily": "cc:by-sa:4.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "isotype-statistical-graphics",
+      "localPath": "assets/refs/isotype-statistical-graphics/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Isotype-neurath.jpg",
+      "requestedFileTitle": "File:Isotype-neurath.jpg",
+      "canonicalFileTitle": "File:Isotype-neurath.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Isotype-neurath.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Isotype-neurath.jpg",
+        "creator": "Gastev",
+        "requiredCredit": "Gastev",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceFileSha1": "61af9d341eba6f057ad68b5ae60fd471b10f9e30"
+      },
+      "live": {
+        "licenseLabel": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "licenseCode": "cc-by-2.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "61af9d341eba6f057ad68b5ae60fd471b10f9e30",
+        "sourceTimestamp": "2010-03-29T12:17:35Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Isotype-neurath.jpg",
+        "creatorCredit": {
+          "artist": "Gastev",
+          "credit": "https://www.flickr.com/photos/gastev/3460153558/",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by 2",
+        "liveLicenseNormalized": "cc by 2",
+        "ledgerLicenseUrlFamily": "cc:by:2.0",
+        "liveLicenseUrlFamily": "cc:by:2.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "kids-picture-book",
+      "localPath": "assets/refs/kids-picture-book/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Children_reading_beneath_a_tree_-_Story-Friends_(1927)_-_Mabel_Betsy_Hill.jpg",
+      "requestedFileTitle": "File:Children reading beneath a tree - Story-Friends (1927) - Mabel Betsy Hill.jpg",
+      "canonicalFileTitle": "File:Children reading beneath a tree - Story-Friends (1927) - Mabel Betsy Hill.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Children_reading_beneath_a_tree_-_Story-Friends_(1927)_-_Mabel_Betsy_Hill.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Children reading beneath a tree - Story-Friends (1927) - Mabel Betsy Hill.jpg",
+        "creator": "Mabel Betsy Hill",
+        "requiredCredit": "Mabel Betsy Hill",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sourceFileSha1": "3ddad7fdf800f700977d54a6b387f65884fc6113"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "3ddad7fdf800f700977d54a6b387f65884fc6113",
+        "sourceTimestamp": "2026-07-18T00:47:58Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Children_reading_beneath_a_tree_-_Story-Friends_%281927%29_-_Mabel_Betsy_Hill.jpg",
+        "creatorCredit": {
+          "artist": "Mabel Betsy Hill",
+          "credit": "Story-Friends, Third Book , by Ambrose L. Suhrie and Myrtle Garrison Gee; published by World Book Company, New York, 1927",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "letterpress-print",
+      "localPath": "assets/refs/letterpress-print/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Braque_Letterpress_Print.jpg",
+      "requestedFileTitle": "File:Braque Letterpress Print.jpg",
+      "canonicalFileTitle": "File:Braque Letterpress Print.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Braque_Letterpress_Print.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Braque Letterpress Print.jpg",
+        "creator": "AlanKitching",
+        "requiredCredit": "AlanKitching",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceFileSha1": "672c2eaff75b0ab6896f4179fcf2931d2617d291"
+      },
+      "live": {
+        "licenseLabel": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "licenseCode": "cc-by-4.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "672c2eaff75b0ab6896f4179fcf2931d2617d291",
+        "sourceTimestamp": "2023-11-06T12:18:06Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Braque_Letterpress_Print.jpg",
+        "creatorCredit": {
+          "artist": "AlanKitching",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by 4",
+        "liveLicenseNormalized": "cc by 4",
+        "ledgerLicenseUrlFamily": "cc:by:4.0",
+        "liveLicenseUrlFamily": "cc:by:4.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "mid-century-advertising",
+      "localPath": "assets/refs/mid-century-advertising/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:1950s_Chinese_vest_(tank_top)_advertisement_02.jpg",
+      "requestedFileTitle": "File:1950s Chinese vest (tank top) advertisement 02.jpg",
+      "canonicalFileTitle": "File:1950s Chinese vest (tank top) advertisement 02.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:1950s_Chinese_vest_(tank_top)_advertisement_02.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "1950s Chinese vest (tank top) advertisement 02.jpg",
+        "creator": "Unknown authorUnknown author",
+        "requiredCredit": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sourceFileSha1": "721386ff6c5eb530f56bbe0fc81f85d3764a90a7"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "721386ff6c5eb530f56bbe0fc81f85d3764a90a7",
+        "sourceTimestamp": "2024-03-27T15:20:14Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/1950s_Chinese_vest_%28tank_top%29_advertisement_02.jpg",
+        "creatorCredit": {
+          "artist": "Unknown author Unknown author",
+          "credit": "https://book.kongfz.com/201201/1541097178/",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "unknown_anonymous_or_unavailable_credit_aligned"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "modular-poster",
+      "localPath": "assets/refs/modular-poster/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_Design_for_a_poster.jpg",
+      "requestedFileTitle": "File:Theo van Doesburg Design for a poster.jpg",
+      "canonicalFileTitle": "File:Theo van Doesburg Design for a poster.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_Design_for_a_poster.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Theo van Doesburg Design for a poster.jpg",
+        "creator": "Theo van Doesburg",
+        "requiredCredit": "Theo van Doesburg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "9d29a14b6ce3fc7c44f01943f78e261952ecbca2"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "9d29a14b6ce3fc7c44f01943f78e261952ecbca2",
+        "sourceTimestamp": "2008-03-01T20:36:06Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Theo_van_Doesburg_Design_for_a_poster.jpg",
+        "creatorCredit": {
+          "artist": "Theo van Doesburg",
+          "credit": "Geheugen van Nederland : Home : Info : Pic",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "modular-poster",
+      "localPath": "assets/refs/modular-poster/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Draft_of_a_poster_%27Workshops_of_Fine_Arts_G.m.b.H.%27_(40562034993).jpg",
+      "requestedFileTitle": "File:Draft of a poster 'Workshops of Fine Arts G.m.b.H.' (40562034993).jpg",
+      "canonicalFileTitle": "File:Draft of a poster 'Workshops of Fine Arts G.m.b.H.' (40562034993).jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Draft_of_a_poster_%27Workshops_of_Fine_Arts_G.m.b.H.%27_(40562034993).jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Draft of a poster 'Workshops of Fine Arts G.m.b.H.' (40562034993).jpg",
+        "creator": "Susanlenox from España",
+        "requiredCredit": "Susanlenox from España",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "1cf1fc982458c2d09e3aa62ea0f00f303b7198d7"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "1cf1fc982458c2d09e3aa62ea0f00f303b7198d7",
+        "sourceTimestamp": "2023-01-01T10:59:52Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Draft_of_a_poster_%27Workshops_of_Fine_Arts_G.m.b.H.%27_%2840562034993%29.jpg",
+        "creatorCredit": {
+          "artist": "Susanlenox from España",
+          "credit": "Draft of a poster 'Workshops of Fine Arts G.m.b.H.'",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "narrative-textile",
+      "localPath": "assets/refs/narrative-textile/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene1_EDWARD_REX.jpg",
+      "requestedFileTitle": "File:Bayeux Tapestry scene1 EDWARD REX.jpg",
+      "canonicalFileTitle": "File:Bayeux Tapestry scene1 EDWARD REX.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene1_EDWARD_REX.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Bayeux Tapestry scene1 EDWARD REX.jpg",
+        "creator": "Unknown Anglo-Norman makers; photograph by Myrabella",
+        "requiredCredit": "Unknown Anglo-Norman makers; photograph by Myrabella",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sourceFileSha1": "1e1414f6e8c77d93e45e4d38d639545276804093"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "1e1414f6e8c77d93e45e4d38d639545276804093",
+        "sourceTimestamp": "2013-03-29T21:50:33Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Bayeux_Tapestry_scene1_EDWARD_REX.jpg",
+        "creatorCredit": {
+          "artist": "Myrabella",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "live_credit_found_in_ledger_credit"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "narrative-woodcut",
+      "localPath": "assets/refs/narrative-woodcut/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Christmas_Fireside_Stories_or_Round_the_Yule_Log_-_Illustration_-_Peter_Gynt.jpg",
+      "requestedFileTitle": "File:Christmas Fireside Stories or Round the Yule Log - Illustration - Peter Gynt.jpg",
+      "canonicalFileTitle": "File:Christmas Fireside Stories or Round the Yule Log - Illustration - Peter Gynt.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Christmas_Fireside_Stories_or_Round_the_Yule_Log_-_Illustration_-_Peter_Gynt.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Christmas Fireside Stories: Peter Gynt illustration",
+        "creator": "Peter Nicolai Arbo / Hans Peter Hansen",
+        "requiredCredit": "Unknown",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Public_domain",
+        "sourceFileSha1": "e98268fbbfb2870a53d770fae46b57627e3905a8"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "e98268fbbfb2870a53d770fae46b57627e3905a8",
+        "sourceTimestamp": "2017-02-02T14:56:50Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Christmas_Fireside_Stories_or_Round_the_Yule_Log_-_Illustration_-_Peter_Gynt.jpg",
+        "creatorCredit": {
+          "artist": "Peter Nicolai Arbo / Hans Peter Hansen",
+          "credit": "Internet Archive via Google Books",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "neo-noir-neon",
+      "localPath": "assets/refs/neo-noir-neon/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DFC_0506_Wet_neon_reflections_line_a_quiet_city_street_at_night_the_glow_of_bars_and_signs_mirrored_in_puddles.jpg",
+      "requestedFileTitle": "File:DFC 0506 Wet neon reflections line a quiet city street at night the glow of bars and signs mirrored in puddles.jpg",
+      "canonicalFileTitle": "File:DFC 0506 Wet neon reflections line a quiet city street at night the glow of bars and signs mirrored in puddles.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:DFC_0506_Wet_neon_reflections_line_a_quiet_city_street_at_night_the_glow_of_bars_and_signs_mirrored_in_puddles.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "DFC 0506 Wet neon reflections line a quiet city street at night the glow of bars and signs mirrored in puddles.jpg",
+        "creator": "PattayaPatrol",
+        "requiredCredit": "PattayaPatrol",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceFileSha1": "98692355b415ed5faa813b6cf3b94d6c6eac0f05"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "licenseCode": "cc-by-sa-4.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "98692355b415ed5faa813b6cf3b94d6c6eac0f05",
+        "sourceTimestamp": "2026-07-06T11:27:10Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/DFC_0506_Wet_neon_reflections_line_a_quiet_city_street_at_night_the_glow_of_bars_and_signs_mirrored_in_puddles.jpg",
+        "creatorCredit": {
+          "artist": "PattayaPatrol",
+          "credit": "Flickr",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 4",
+        "liveLicenseNormalized": "cc by-sa 4",
+        "ledgerLicenseUrlFamily": "cc:by-sa:4.0",
+        "liveLicenseUrlFamily": "cc:by-sa:4.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "news-broadsheet",
+      "localPath": "assets/refs/news-broadsheet/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Front_page_of_newspaper_Wilnaer_Zeitung_with_Lithuanian_Vytis_(Waykimas),_published_on_12_April_1918.jpg",
+      "requestedFileTitle": "File:Front page of newspaper Wilnaer Zeitung with Lithuanian Vytis (Waykimas), published on 12 April 1918.jpg",
+      "canonicalFileTitle": "File:Front page of newspaper Wilnaer Zeitung with Lithuanian Vytis (Waykimas), published on 12 April 1918.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Front_page_of_newspaper_Wilnaer_Zeitung_with_Lithuanian_Vytis_(Waykimas),_published_on_12_April_1918.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Wilnaer Zeitung front page, 12 April 1918",
+        "creator": "Editorial of the Wilnaer Zeitung",
+        "requiredCredit": "Unknown",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "98a90ef1f53e61f91d667620ec1655cea13e00f0"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "98a90ef1f53e61f91d667620ec1655cea13e00f0",
+        "sourceTimestamp": "2022-11-13T14:30:35Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Front_page_of_newspaper_Wilnaer_Zeitung_with_Lithuanian_Vytis_%28Waykimas%29%2C_published_on_12_April_1918.jpg",
+        "creatorCredit": {
+          "artist": "Editorial of the Wilnaer Zeitung",
+          "credit": "Martynas Mažvydas National Library of Lithuania via Europeana.eu",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "photo-essay",
+      "localPath": "assets/refs/photo-essay/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Migrant_Mother_(LOC_fsa.8b29516).jpg",
+      "requestedFileTitle": "File:Migrant Mother (LOC fsa.8b29516).jpg",
+      "canonicalFileTitle": "File:Migrant Mother (LOC fsa.8b29516).jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Migrant_Mother_(LOC_fsa.8b29516).jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Migrant Mother, Nipomo, California (1936)",
+        "creator": "Dorothea Lange",
+        "requiredCredit": "Dorothea Lange",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Public_domain",
+        "sourceFileSha1": "ea85cfdcf1a404f9786094a96e95ea5afa098882"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "ea85cfdcf1a404f9786094a96e95ea5afa098882",
+        "sourceTimestamp": "2009-08-12T14:24:36Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Migrant_Mother_%28LOC_fsa.8b29516%29.jpg",
+        "creatorCredit": {
+          "artist": "Lange, Dorothea (w) , photographer.",
+          "credit": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID fsa.8b29516 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing .",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_tokens_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "photo-essay",
+      "localPath": "assets/refs/photo-essay/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Migrant_Mother_1936_3.jpg",
+      "requestedFileTitle": "File:Migrant Mother 1936 3.jpg",
+      "canonicalFileTitle": "File:Migrant Mother 1936 3.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Migrant_Mother_1936_3.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Migrant Mother 1936 3.jpg",
+        "creator": "Dorothea Lange, Image edited",
+        "requiredCredit": "Dorothea Lange, Image edited",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "da8b9fc13390c5d51e2066cfa48ea7084f2409b2"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "da8b9fc13390c5d51e2066cfa48ea7084f2409b2",
+        "sourceTimestamp": "2008-02-03T05:45:04Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Migrant_Mother_1936_3.jpg",
+        "creatorCredit": {
+          "artist": "Dorothea Lange, Image edited",
+          "credit": "https://www.loc.gov/rr/print/list/128_migm.html",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "private-club",
+      "localPath": "assets/refs/private-club/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Am_Hof_8_-_Private_Members_Club_8.jpg",
+      "requestedFileTitle": "File:Am Hof 8 - Private Members Club 8.jpg",
+      "canonicalFileTitle": "File:Am Hof 8 - Private Members Club 8.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Am_Hof_8_-_Private_Members_Club_8.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Am Hof 8 - Private Members Club 8.jpg",
+        "creator": "Vigo Jansons",
+        "requiredCredit": "Vigo Jansons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceFileSha1": "0711fa25d108849108eebbd6eed7d943adf7e8f0"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "licenseCode": "cc-by-sa-4.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "0711fa25d108849108eebbd6eed7d943adf7e8f0",
+        "sourceTimestamp": "2024-02-20T18:30:34Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Am_Hof_8_-_Private_Members_Club_8.jpg",
+        "creatorCredit": {
+          "artist": "Vigo Jansons ( https://www.vigojansons.com/ )",
+          "credit": "Am Hof 8 ( https://amhof8.com/ )",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 4",
+        "liveLicenseNormalized": "cc by-sa 4",
+        "ledgerLicenseUrlFamily": "cc:by-sa:4.0",
+        "liveLicenseUrlFamily": "cc:by-sa:4.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "punk-zine",
+      "localPath": "assets/refs/punk-zine/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:UK_and_US_zines.jpg",
+      "requestedFileTitle": "File:UK and US zines.jpg",
+      "canonicalFileTitle": "File:UK and US zines.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:UK_and_US_zines.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "UK and US zines",
+        "creator": "Burn_the_asylum (uploader, on 25 March 2005)",
+        "requiredCredit": "Wikimedia contributor",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceFileSha1": "b9376628454ca2c4c82947c09daddc6e48774c4a"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseCode": "cc-by-sa-3.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "b9376628454ca2c4c82947c09daddc6e48774c4a",
+        "sourceTimestamp": "2006-10-26T09:23:25Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/UK_and_US_zines.jpg",
+        "creatorCredit": {
+          "artist": "Burn_the_asylum (uploader, on 25 March 2005)",
+          "credit": "en:Image:UK_and_US_zines.jpg",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 3",
+        "liveLicenseNormalized": "cc by-sa 3",
+        "ledgerLicenseUrlFamily": "cc:by-sa:3.0",
+        "liveLicenseUrlFamily": "cc:by-sa:3.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "quilting-pattern",
+      "localPath": "assets/refs/quilting-pattern/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Appalachian_Trail_quilt_on_display_in_Harpers_Ferry,_West_Virginia_LCCN2011634093.tif",
+      "requestedFileTitle": "File:Appalachian Trail quilt on display in Harpers Ferry, West Virginia LCCN2011634093.tif",
+      "canonicalFileTitle": "File:Appalachian Trail quilt on display in Harpers Ferry, West Virginia LCCN2011634093.tif",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Appalachian_Trail_quilt_on_display_in_Harpers_Ferry,_West_Virginia_LCCN2011634093.tif",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Appalachian Trail quilt on display, Harpers Ferry",
+        "creator": "Library of Congress",
+        "requiredCredit": "Library of Congress",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Public_domain",
+        "sourceFileSha1": "87ebe51a1028f4bcd1f7cbdac6a7bd8da7d8f053"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "87ebe51a1028f4bcd1f7cbdac6a7bd8da7d8f053",
+        "sourceTimestamp": "2016-10-08T07:04:14Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Appalachian_Trail_quilt_on_display_in_Harpers_Ferry%2C_West_Virginia_LCCN2011634093.tif",
+        "creatorCredit": {
+          "artist": "Carol M. Highsmith",
+          "credit": "Library of Congress Catalog: http://lccn.loc.gov/2011634093 Image download: https://cdn.loc.gov/master/pnp/highsm/15900/15900a.tif Original url: http://hdl.loc.gov/loc.pnp/highsm.15900",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "quilting-pattern",
+      "localPath": "assets/refs/quilting-pattern/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sewing_a_quilt._Gees_Bend,_Alabama_-_April_1937.jpg",
+      "requestedFileTitle": "File:Sewing a quilt. Gees Bend, Alabama - April 1937.jpg",
+      "canonicalFileTitle": "File:Sewing a quilt. Gees Bend, Alabama - April 1937.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Sewing_a_quilt._Gees_Bend,_Alabama_-_April_1937.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Sewing a quilt, Gee's Bend, Alabama",
+        "creator": "Arthur Rothstein",
+        "requiredCredit": "U.S. Farm Security Administration",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Public_domain",
+        "sourceFileSha1": "f707c960c6e2b6afb14b8c3fb3fae36dd3343f11"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "f707c960c6e2b6afb14b8c3fb3fae36dd3343f11",
+        "sourceTimestamp": "2012-07-04T03:04:30Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sewing_a_quilt._Gees_Bend%2C_Alabama_-_April_1937.jpg",
+        "creatorCredit": {
+          "artist": "Arthur Rothstein",
+          "credit": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID fsa.8b35946 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing .",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "roadside-vernacular",
+      "localPath": "assets/refs/roadside-vernacular/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:UCM_Front_B_-_Abita_Springs_Louisiana_2009.jpg",
+      "requestedFileTitle": "File:UCM Front B - Abita Springs Louisiana 2009.jpg",
+      "canonicalFileTitle": "File:UCM Front B - Abita Springs Louisiana 2009.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:UCM_Front_B_-_Abita_Springs_Louisiana_2009.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "UCM Front B - Abita Springs Louisiana 2009.jpg",
+        "creator": "Infrogmation of New Orleans",
+        "requiredCredit": "Infrogmation of New Orleans",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceFileSha1": "d2d54a0ed21ee90618a979d96623dbbb16231c50"
+      },
+      "live": {
+        "licenseLabel": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "licenseCode": "cc-by-2.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "d2d54a0ed21ee90618a979d96623dbbb16231c50",
+        "sourceTimestamp": "2022-07-09T18:19:57Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/UCM_Front_B_-_Abita_Springs_Louisiana_2009.jpg",
+        "creatorCredit": {
+          "artist": "Infrogmation of New Orleans",
+          "credit": "https://www.flickr.com/photos/infrogmation/3371996386/",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by 2",
+        "liveLicenseNormalized": "cc by 2",
+        "ledgerLicenseUrlFamily": "cc:by:2.0",
+        "liveLicenseUrlFamily": "cc:by:2.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "scaffold-structure",
+      "localPath": "assets/refs/scaffold-structure/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pierre_Petit_Eiffel_Tower_under_construction.jpg",
+      "requestedFileTitle": "File:Pierre Petit Eiffel Tower under construction.jpg",
+      "canonicalFileTitle": "File:Pierre Petit Eiffel Tower under construction.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Pierre_Petit_Eiffel_Tower_under_construction.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Pierre Petit, Eiffel Tower under construction (1888)",
+        "creator": "Pierre Petit",
+        "requiredCredit": "Pierre Petit",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Public_domain",
+        "sourceFileSha1": "85ee64f0588ff93e0028de8445e94a24e575f507"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "85ee64f0588ff93e0028de8445e94a24e575f507",
+        "sourceTimestamp": "2013-06-08T16:30:50Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Pierre_Petit_Eiffel_Tower_under_construction.jpg",
+        "creatorCredit": {
+          "artist": "Pierre Petit",
+          "credit": "Galerie Bassenge",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "shaker-utility",
+      "localPath": "assets/refs/shaker-utility/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shaker_furniture1.jpg",
+      "requestedFileTitle": "File:Shaker furniture1.jpg",
+      "canonicalFileTitle": "File:Shaker furniture1.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Shaker_furniture1.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Shaker furniture1.jpg",
+        "creator": "William F. Winter, Jr., photographer",
+        "requiredCredit": "William F. Winter, Jr., photographer",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "4123269a42e23b3be988fa2028db5bdd2dda6e66"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "4123269a42e23b3be988fa2028db5bdd2dda6e66",
+        "sourceTimestamp": "2009-05-02T19:10:41Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Shaker_furniture1.jpg",
+        "creatorCredit": {
+          "artist": "William F. Winter, Jr., photographer",
+          "credit": "Library of Congress , Prints and Photograph Division, Historic American Buildings Survey : HABS MASS,2-HANC,4-35",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "shaker-utility",
+      "localPath": "assets/refs/shaker-utility/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shaker_furniture10.jpg",
+      "requestedFileTitle": "File:Shaker furniture10.jpg",
+      "canonicalFileTitle": "File:Shaker furniture10.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Shaker_furniture10.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Shaker furniture10.jpg",
+        "creator": "N. E. Baldwin, photographer",
+        "requiredCredit": "N. E. Baldwin, photographer",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "2f692f2504835408667bef5f8b9e7553eddfb686"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "2f692f2504835408667bef5f8b9e7553eddfb686",
+        "sourceTimestamp": "2009-05-02T19:25:19Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Shaker_furniture10.jpg",
+        "creatorCredit": {
+          "artist": "N. E. Baldwin, photographer",
+          "credit": "Library of Congress , Prints and Photograph Division, Historic American Buildings Survey : HABS NY,11-NELEB.V,52A-3",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "specimen-label",
+      "localPath": "assets/refs/specimen-label/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.AVES.1670_-_Numenius_tenuirostris_Vieillot,_1817_-_Scolopacidae_-_skin_specimen,_label_close-up.jpg",
+      "requestedFileTitle": "File:Naturalis Biodiversity Center - ZMA.AVES.1670 - Numenius tenuirostris Vieillot, 1817 - Scolopacidae - skin specimen, label close-up.jpg",
+      "canonicalFileTitle": "File:Naturalis Biodiversity Center - ZMA.AVES.1670 - Numenius tenuirostris Vieillot, 1817 - Scolopacidae - skin specimen, label close-up.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.AVES.1670_-_Numenius_tenuirostris_Vieillot,_1817_-_Scolopacidae_-_skin_specimen,_label_close-up.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Naturalis Biodiversity Center - ZMA.AVES.1670 - Numenius tenuirostris Vieillot, 1817 - Scolopacidae - skin specimen, label close-up.jpg",
+        "creator": "Vieillot, 1817",
+        "requiredCredit": "Vieillot, 1817",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "b84db626ac88ee446a3d582f1cddd9cad0fe9da4"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "b84db626ac88ee446a3d582f1cddd9cad0fe9da4",
+        "sourceTimestamp": "2025-11-03T17:11:06Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Naturalis_Biodiversity_Center_-_ZMA.AVES.1670_-_Numenius_tenuirostris_Vieillot%2C_1817_-_Scolopacidae_-_skin_specimen%2C_label_close-up.jpg",
+        "creatorCredit": {
+          "artist": "Vieillot, 1817",
+          "credit": "Naturalis Biodiversity Center",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "specimen-label",
+      "localPath": "assets/refs/specimen-label/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Paralomis_makarovi_specimen_labels.jpg",
+      "requestedFileTitle": "File:Paralomis makarovi specimen labels.jpg",
+      "canonicalFileTitle": "File:Paralomis makarovi specimen labels.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Paralomis_makarovi_specimen_labels.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Paralomis makarovi specimen labels.jpg",
+        "creator": "National Museum of Natural History – Invertebrate Zoology Department; identified by Sally Hall and Sven Thatje",
+        "requiredCredit": "National Museum of Natural History – Invertebrate Zoology Department; identified by Sally Hall and Sven Thatje",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "aeb464ee4c0fd7ae6f20d454e6bd4799ad703dd3"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "aeb464ee4c0fd7ae6f20d454e6bd4799ad703dd3",
+        "sourceTimestamp": "2024-12-08T17:28:46Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Paralomis_makarovi_specimen_labels.jpg",
+        "creatorCredit": {
+          "artist": "National Museum of Natural History – Invertebrate Zoology Department; identified by Sally Hall and Sven Thatje",
+          "credit": "https://www.si.edu/object/paralomis-makarovi:nmnhinvertebratezoology_942562",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "ukiyo-e",
+      "localPath": "assets/refs/ukiyo-e/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Wave_off_Kanagawa.jpg",
+      "requestedFileTitle": "File:The Great Wave off Kanagawa.jpg",
+      "canonicalFileTitle": "File:The Great Wave off Kanagawa.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Wave_off_Kanagawa.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "The Great Wave off Kanagawa.jpg",
+        "creator": "After Katsushika Hokusai",
+        "requiredCredit": "After Katsushika Hokusai",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "47d3425548c5ff962cb225af1149cdedd2721f55"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "47d3425548c5ff962cb225af1149cdedd2721f55",
+        "sourceTimestamp": "2007-08-29T00:42:26Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Great_Wave_off_Kanagawa.jpg",
+        "creatorCredit": {
+          "artist": "After Katsushika Hokusai",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "ukiyo-e",
+      "localPath": "assets/refs/ukiyo-e/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snowy_Morning_at_Koishikawa_(5758988303).jpg",
+      "requestedFileTitle": "File:Snowy Morning at Koishikawa (5758988303).jpg",
+      "canonicalFileTitle": "File:Snowy Morning at Koishikawa (5758988303).jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Snowy_Morning_at_Koishikawa_(5758988303).jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Morning after a Snowfall at Koishikawa",
+        "creator": "Katsushika Hokusai",
+        "requiredCredit": "Katsushika Hokusai",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "2311223381fcc0c7b92013ba7b98bf0756c9e489"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "2311223381fcc0c7b92013ba7b98bf0756c9e489",
+        "sourceTimestamp": "2015-02-10T11:48:45Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Snowy_Morning_at_Koishikawa_%285758988303%29.jpg",
+        "creatorCredit": {
+          "artist": "Katsushika Hokusai",
+          "credit": "Flickr",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "vaporwave",
+      "localPath": "assets/refs/vaporwave/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vaporwave_sunset.jpg",
+      "requestedFileTitle": "File:Vaporwave sunset.jpg",
+      "canonicalFileTitle": "File:Vaporwave sunset.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Vaporwave_sunset.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Vaporwave sunset.jpg",
+        "creator": "\"Created using AI tools\" by SeleneBright, no software specified",
+        "requiredCredit": "\"Created using AI tools\" by SeleneBright, no software specified",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sourceFileSha1": "332ac74dc2cecbce2b8a3a9e299a4739aff5e00d"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "332ac74dc2cecbce2b8a3a9e299a4739aff5e00d",
+        "sourceTimestamp": "2024-10-24T15:32:29Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Vaporwave_sunset.jpg",
+        "creatorCredit": {
+          "artist": "\"Created using AI tools\" by SeleneBright, no software specified",
+          "credit": "https://www.deviantart.com/selenebright/art/Vaporwave-wallpaper-1020927388",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": "ai"
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "victorian-ephemera",
+      "localPath": "assets/refs/victorian-ephemera/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Die-cut_Victorian_hand_fan_advertising_card.jpg",
+      "requestedFileTitle": "File:Die-cut Victorian hand fan advertising card.jpg",
+      "canonicalFileTitle": "File:Die-cut Victorian hand fan advertising card.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Die-cut_Victorian_hand_fan_advertising_card.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Die-cut Victorian hand fan advertising card.jpg",
+        "creator": "Unknown author Unknown author",
+        "requiredCredit": "Unknown author Unknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "sourceFileSha1": "dd32f60c5c4b4cb65e97cecb3dedbe5b8dc3e5e5"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "dd32f60c5c4b4cb65e97cecb3dedbe5b8dc3e5e5",
+        "sourceTimestamp": "2026-03-30T00:40:20Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Die-cut_Victorian_hand_fan_advertising_card.jpg",
+        "creatorCredit": {
+          "artist": "Unknown author Unknown author",
+          "credit": "Lucy R. Bowditch scrapbook, circa 1881, https://ark.digitalcommonwealth.org/ark:/50959/qr46s724g",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "wabi-sabi",
+      "localPath": "assets/refs/wabi-sabi/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tea_bowl,_known_as_Suehiro,_studio_of_Chojiro,_Raku_ware,_Kuroraku_type,_Azuchi-Momoyama_to_Edo_period,_1500s-1600s_AD,_ceramic_-_Tokyo_National_Museum_-_Ueno_Park,_Tokyo,_Japan_-_DSC08889.jpg",
+      "requestedFileTitle": "File:Tea bowl, known as Suehiro, studio of Chojiro, Raku ware, Kuroraku type, Azuchi-Momoyama to Edo period, 1500s-1600s AD, ceramic - Tokyo National Museum - Ueno Park, Tokyo, Japan - DSC08889.jpg",
+      "canonicalFileTitle": "File:Tea bowl, known as Suehiro, studio of Chojiro, Raku ware, Kuroraku type, Azuchi-Momoyama to Edo period, 1500s-1600s AD, ceramic - Tokyo National Museum - Ueno Park, Tokyo, Japan - DSC08889.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Tea_bowl,_known_as_Suehiro,_studio_of_Chojiro,_Raku_ware,_Kuroraku_type,_Azuchi-Momoyama_to_Edo_period,_1500s-1600s_AD,_ceramic_-_Tokyo_National_Museum_-_Ueno_Park,_Tokyo,_Japan_-_DSC08889.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Tea bowl, known as Suehiro, studio of Chojiro, Raku ware, Kuroraku type, Azuchi-Momoyama to Edo period, 1500s-1600s AD, ceramic - Tokyo National Museum - Ueno Park, Tokyo, Japan - DSC08889.jpg",
+        "creator": "Daderot",
+        "requiredCredit": "Daderot",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "864890d0a1d305fb8b2d0cc0b6993dae262e13a5"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "864890d0a1d305fb8b2d0cc0b6993dae262e13a5",
+        "sourceTimestamp": "2024-07-24T15:41:27Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Tea_bowl%2C_known_as_Suehiro%2C_studio_of_Chojiro%2C_Raku_ware%2C_Kuroraku_type%2C_Azuchi-Momoyama_to_Edo_period%2C_1500s-1600s_AD%2C_ceramic_-_Tokyo_National_Museum_-_Ueno_Park%2C_Tokyo%2C_Japan_-_DSC08889.jpg",
+        "creatorCredit": {
+          "artist": "Daderot",
+          "credit": "Own work",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "watch-precision",
+      "localPath": "assets/refs/watch-precision/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Omega_Cal._1861_Chronograph_Movement.jpg",
+      "requestedFileTitle": "File:Omega Cal. 1861 Chronograph Movement.jpg",
+      "canonicalFileTitle": "File:Omega Cal. 1861 Chronograph Movement.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Omega_Cal._1861_Chronograph_Movement.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Omega Cal. 1861 Chronograph Movement.jpg",
+        "creator": "Shane Lin",
+        "requiredCredit": "Shane Lin",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceFileSha1": "52a757eb53752c6f1391a4d69a39f05fcaca8f64"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "licenseCode": "cc-by-sa-2.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "52a757eb53752c6f1391a4d69a39f05fcaca8f64",
+        "sourceTimestamp": "2011-02-10T13:32:49Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Omega_Cal._1861_Chronograph_Movement.jpg",
+        "creatorCredit": {
+          "artist": "Shane Lin",
+          "credit": "Flickr : Omega Cal. 1861 Chronograph Movement",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 2",
+        "liveLicenseNormalized": "cc by-sa 2",
+        "ledgerLicenseUrlFamily": "cc:by-sa:2.0",
+        "liveLicenseUrlFamily": "cc:by-sa:2.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "watch-precision",
+      "localPath": "assets/refs/watch-precision/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Omega_Cal._321_Chronograph_movement.jpg",
+      "requestedFileTitle": "File:Omega Cal. 321 Chronograph movement.jpg",
+      "canonicalFileTitle": "File:Omega Cal. 321 Chronograph movement.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Omega_Cal._321_Chronograph_movement.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Omega Cal. 321 Chronograph movement.jpg",
+        "creator": "Shane Lin",
+        "requiredCredit": "Shane Lin",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceFileSha1": "f3f9f5f1a2f0d32e492fd2bb78be22eb4d383da2"
+      },
+      "live": {
+        "licenseLabel": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "licenseCode": "cc-by-sa-2.0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "f3f9f5f1a2f0d32e492fd2bb78be22eb4d383da2",
+        "sourceTimestamp": "2011-02-10T13:31:57Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Omega_Cal._321_Chronograph_movement.jpg",
+        "creatorCredit": {
+          "artist": "Shane Lin",
+          "credit": "Flickr : Omega Cal. 321 Chronograph movement",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc by-sa 2",
+        "liveLicenseNormalized": "cc by-sa 2",
+        "ledgerLicenseUrlFamily": "cc:by-sa:2.0",
+        "liveLicenseUrlFamily": "cc:by-sa:2.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "web-brutalism",
+      "localPath": "assets/refs/web-brutalism/reference-01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:W3_First_Website.png",
+      "requestedFileTitle": "File:W3 First Website.png",
+      "canonicalFileTitle": "File:W3 First Website.png",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:W3_First_Website.png",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "W3 First Website",
+        "creator": "CERN",
+        "requiredCredit": "CERN",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Public_domain",
+        "sourceFileSha1": "97db4ceea42a2aae8b768aa4c33a11711577af65"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "97db4ceea42a2aae8b768aa4c33a11711577af65",
+        "sourceTimestamp": "2021-11-08T12:16:59Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/W3_First_Website.png",
+        "creatorCredit": {
+          "artist": "Cern/Tim Berners-Lee",
+          "credit": "worldwideweb.cern.ch/browser",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "web-brutalism",
+      "localPath": "assets/refs/web-brutalism/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:WorldWideWeb.png",
+      "requestedFileTitle": "File:WorldWideWeb.png",
+      "canonicalFileTitle": "File:WorldWideWeb.png",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:WorldWideWeb.png",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "WorldWideWeb browser",
+        "creator": "FedericoMP",
+        "requiredCredit": "CERN",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Public_domain",
+        "sourceFileSha1": "358f5736209dde4fd458c6e134652a2f3af9a7ec"
+      },
+      "live": {
+        "licenseLabel": "Public domain",
+        "licenseUrl": null,
+        "licenseCode": "pd",
+        "licenseUrlComparisonSource": "live_public_domain_license_code",
+        "sourceFileSha1": "358f5736209dde4fd458c6e134652a2f3af9a7ec",
+        "sourceTimestamp": "2008-04-09T02:31:32Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/WorldWideWeb.png",
+        "creatorCredit": {
+          "artist": "FedericoMP ( talk · contribs )",
+          "credit": "Based on Image:WorldWideWeb.gif by Ck_mpk ( talk · contribs )",
+          "attribution": null
+        },
+        "copyrighted": "False",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "public domain",
+        "liveLicenseNormalized": "public domain",
+        "ledgerLicenseUrlFamily": "public-domain",
+        "liveLicenseUrlFamily": "public-domain",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    },
+    {
+      "styleId": "y2k-cyber",
+      "localPath": "assets/refs/y2k-cyber/reference-02.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nokia_7600.jpg",
+      "requestedFileTitle": "File:Nokia 7600.jpg",
+      "canonicalFileTitle": "File:Nokia 7600.jpg",
+      "canonicalDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_7600.jpg",
+      "checkedAt": "2026-08-02T20:04:47.497Z",
+      "ledger": {
+        "title": "Nokia 7600",
+        "creator": "Shritwod at English Wikipedia",
+        "requiredCredit": "Shritwod at English Wikipedia",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceFileSha1": "1def9edabde351fd69e52fd48e070ea19b8080e0"
+      },
+      "live": {
+        "licenseLabel": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "licenseCode": "cc0",
+        "licenseUrlComparisonSource": "live_extmetadata_license_url",
+        "sourceFileSha1": "1def9edabde351fd69e52fd48e070ea19b8080e0",
+        "sourceTimestamp": "2012-06-07T18:47:04Z",
+        "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Nokia_7600.jpg",
+        "creatorCredit": {
+          "artist": "Shritwod at English Wikipedia",
+          "credit": "Images on the screen are my own work.",
+          "attribution": null
+        },
+        "copyrighted": "True",
+        "restrictions": null
+      },
+      "comparison": {
+        "pageExists": true,
+        "canonicalTitleMatches": true,
+        "licenseLabelMatches": true,
+        "licenseUrlMatches": true,
+        "sourceSha1Matches": true,
+        "creatorCreditMatches": true,
+        "ledgerLicenseNormalized": "cc0",
+        "liveLicenseNormalized": "cc0",
+        "ledgerLicenseUrlFamily": "cc0:1.0",
+        "liveLicenseUrlFamily": "cc0:1.0",
+        "creatorCreditMethod": "ledger_credit_found_in_live_metadata"
+      },
+      "status": "pass",
+      "exceptions": [],
+      "correction": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "engineering-blueprint",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Blueprint Reading working-drawing manual",
+    "creatorOrTradition": "Historic engineering drafting and cyanotype reproduction",
+    "sourceUrl": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/blueprintreading00amer/blueprintreading00amer.pdf",
+    "whyCanonical": "The Library of Congress manual defines a blueprint as a reproduction of a working drawing, with white lines, dimensions, and build information appearing on a blue ground."
+  },
+  "sources": [
+    {
+      "title": "Blueprint Reading",
+      "publisher": "Library of Congress",
+      "url": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/blueprintreading00amer/blueprintreading00amer.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Blueprints reproduce working drawings as white lines, numerals, and letters on blue and carry dimensions and information needed to build or machine the subject."
+      ]
+    },
+    {
+      "title": "HABS Guidelines: Measured Drawings",
+      "publisher": "U.S. National Park Service",
+      "url": "https://www.nps.gov/subjects/heritagedocumentation/upload/HABS-Guidelines-Measured-Drawings_508.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Measured drawing sets use standardized sheet sizes, title blocks, orientation, useful scales, dimensions, plans, elevations, sections, and organized full-sheet layouts."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach white line on blue, measured plan, dimension string, title block while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/engineering-blueprint/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/engineering-blueprint/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach white line on blue, measured plan, dimension string, title block while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

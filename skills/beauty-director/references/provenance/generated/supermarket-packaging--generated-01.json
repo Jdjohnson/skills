@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "supermarket-packaging",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI built-in imagegen",
+  "promptRecordStatus": "exact",
+  "prompt": "Create an original commercial photograph of an unbranded supermarket shelf filled with a coordinated family of cereal boxes, soap cartons, cans, and snack packages. Make the package architecture, color blocking, hierarchy, and shelf rhythm the visual subject. Bold red, yellow, blue, green, and cream; bright grocery-store lighting; familiar mass-market packaging design. All packages must be fictional. No readable brand names, logos, barcodes, copyrighted characters, or watermark.",
+  "sourceOutputStatus": "original_tool_response_not_retained",
+  "finalAsset": "assets/refs/supermarket-packaging/generated-01.jpg",
+  "finalSha256": "2331310580ed786c8b19f5fee063cc2653818b2fb0fcb5d757290698741f98b3",
+  "postProcessing": "AI-generated source image center-cropped to a 4:5 portrait and resized to 800x1000 pixels; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

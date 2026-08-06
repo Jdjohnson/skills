@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "modular-poster",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Design for a poster",
+    "creatorOrTradition": "Theo van Doesburg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_Design_for_a_poster.jpg",
+    "whyCanonical": "The public-domain design demonstrates a complete poster surface built from asymmetric blocks, hard contrast, and short-read geometric hierarchy."
+  },
+  "sources": [
+    {
+      "title": "Theo van Doesburg Design for a poster.jpg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_Design_for_a_poster.jpg",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The audited lead uses modular blocks and high contrast across one complete surface.",
+        "Its hierarchy remains immediately legible at reduced scale."
+      ]
+    },
+    {
+      "title": "Word and Image: Posters and Typography",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://assets.moma.org/documents/moma_master-checklist_326548.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "MoMA's poster and typography collection documents modernist use of type and image as public graphic form.",
+        "The collection context supports judging this node at poster scale rather than as a page system."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach poster scale, modular blocks, display type, high contrast while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/modular-poster/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/modular-poster/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach poster scale, modular blocks, display type, high contrast while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

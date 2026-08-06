@@ -1,0 +1,56 @@
+{
+  "id": "packaging",
+  "displayName": "Packaging",
+  "concernWeights": {
+    "shapeLine": 0.14,
+    "palette": 0.14,
+    "materialTexture": 0.14,
+    "typography": 0.12,
+    "composition": 0.12,
+    "ornament": 0.1,
+    "imagery": 0.1,
+    "lighting": 0.06,
+    "depth": 0.04,
+    "motion": 0.04
+  },
+  "functionalFloors": {
+    "minContrast": {
+      "mode": "clamp",
+      "path": "lighting.contrast",
+      "min": 0.15
+    },
+    "legibleType": {
+      "mode": "clamp",
+      "path": "typography.weight",
+      "min": 300
+    }
+  },
+  "reduceTraits": [],
+  "payloadFields": [
+    "composition",
+    "palette",
+    "typography",
+    "shapeLine",
+    "materialTexture",
+    "lighting",
+    "depth",
+    "motion",
+    "ornament",
+    "imagery"
+  ],
+  "incompatibleTags": [],
+  "constraints": [
+    {
+      "id": "contrast-floor",
+      "mode": "clamp",
+      "path": "lighting.contrast",
+      "min": 0.2
+    },
+    {
+      "id": "max-fragility",
+      "mode": "fail",
+      "path": "materialTexture.finish",
+      "notEquals": "impossible-fragile-glass-only"
+    }
+  ]
+}

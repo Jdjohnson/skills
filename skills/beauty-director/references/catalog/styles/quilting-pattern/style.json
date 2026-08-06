@@ -1,0 +1,166 @@
+{
+  "id": "quilting-pattern",
+  "displayName": "Quilting Pattern",
+  "family": "folk-vernacular",
+  "definition": "Patchwork modules, visible seam rhythm, repeated blocks, border systems, textile variation, and domestic-scale geometric construction.",
+  "axes": {
+    "minimalOrnate": 0.5,
+    "geometricOrganic": -0.2,
+    "polishedRaw": 0.5,
+    "calmEnergetic": -0.1,
+    "historicalFuturistic": -0.6,
+    "realisticAbstract": 0.1,
+    "warmCool": -0.4,
+    "lightDark": -0.2,
+    "playfulSerious": -0.3,
+    "handmadeMachined": -0.8,
+    "flatDeep": -0.4,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "pieced-blocks",
+    "seam-rhythm",
+    "fabric-variation",
+    "repeated-module",
+    "quilted-stitch-line",
+    "border-system",
+    "soft-relief",
+    "domestic-scale"
+  ],
+  "antiCues": [
+    "seamless-vector-pattern",
+    "tile-grid-without-fabric",
+    "perfect-digital-symmetry",
+    "printed-patchwork",
+    "flat-color-only"
+  ],
+  "emotionalEffects": [
+    "warm-hearted",
+    "serene",
+    "humble"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.75,
+      "symmetry": 0.6,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#B71C1C",
+        "#1A237E",
+        "#FAF3E0",
+        "#689F38",
+        "#5D4037"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/quilting-pattern.svg",
+      "descriptor": "hand-informed display",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/folk-vernacular-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.5,
+      "tags": [
+        "fabric",
+        "cotton"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/folk-vernacular"
+      ],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "show-piecing-and-quilting",
+        "retain-fabric-differences",
+        "make-block-and-border-logic-legible",
+        "avoid-seamless-wallpaper-simulation"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 3,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a pieced quilt whose repeated block system is visibly constructed from varied cloth",
+    "framing": "show the full block-and-border order while keeping enough detail to read seams, quilting, and textile relief",
+    "mustShow": [
+      "modular patchwork",
+      "visible seam rhythm",
+      "material variation across repeated units"
+    ],
+    "mustAvoid": [
+      "seamless vector tiling",
+      "printed imitation patchwork",
+      "hard ceramic surface",
+      "text",
+      "watermark",
+      "brand logos"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "folk-embroidery",
+    "folk-tilework",
+    "narrative-textile"
+  ],
+  "contrasting": [
+    "modular-poster",
+    "international-typographic-style",
+    "circuit-schematic"
+  ]
+}

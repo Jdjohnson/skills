@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "international-typographic-style",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Musica Viva, 1958",
+    "creatorOrTradition": "Josef Müller-Brockmann",
+    "sourceUrl": "https://www.moma.org/collection/works/7233",
+    "whyCanonical": "Its asymmetric grid, mathematical rhythm, reduced sans typography, and disciplined contrast establish the style as a complete information system."
+  },
+  "sources": [
+    {
+      "title": "Musica Viva",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/7233",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Müller-Brockmann used geometric rhythm and reduced means in a canonical Swiss poster.",
+        "The poster supports the node's asymmetric grid and high-control hierarchy."
+      ]
+    },
+    {
+      "title": "Josef Müller-Brockmann",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/artists/4154-josef-muller-brockmann",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "MoMA's holdings show the grammar applied across concert, exhibition, safety, and cultural posters.",
+        "The breadth supports treating this as a repeatable system rather than one poster effect."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches grid, flush left, asymmetric, objective photography, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/international-typographic-style/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/international-typographic-style/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches grid, flush left, asymmetric, objective photography, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

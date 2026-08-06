@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "industrial-warehouse",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Large-bay warehouse structure with visible work systems",
+    "creatorOrTradition": "Industrial architects, engineers, and documentary survey photographers",
+    "sourceUrl": "https://www.loc.gov/pictures/item/id0444.photos.224097p/",
+    "whyCanonical": "The Library of Congress construction record makes the warehouse legible as a repeated structural system rather than treating industrial equipment as atmospheric decoration."
+  },
+  "sources": [
+    {
+      "title": "ADM Warehouse construction view of structural steel being placed for roof",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/pictures/item/id0444.photos.224097p/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The documented warehouse exposes repeated columns, roof structure, long spans, and construction sequence.",
+        "The survey view supports framing industrial space as an operating enclosure with visible structural logic."
+      ]
+    },
+    {
+      "title": "NDSM Shipyard warehouse 1",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:NDSM_Shipyard_warehouse_1.jpg",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The exact bundled source depicts a full warehouse span, repetitive steel framing, clerestory light, and work-scale equipment.",
+        "The file-level record anchors the present lead's provenance while the structural claim remains independently sourced."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches industrial signal, utility signal, metal, concrete, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/industrial-warehouse/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/industrial-warehouse/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches industrial signal, utility signal, metal, concrete, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

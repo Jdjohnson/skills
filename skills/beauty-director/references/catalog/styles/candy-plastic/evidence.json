@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "candy-plastic",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Mutant Materials in Contemporary Design: Plastics",
+    "creatorOrTradition": "Museum of Modern Art",
+    "sourceUrl": "https://www.moma.org/interactives/exhibitions/1995/mutantmaterials/plastics.html",
+    "whyCanonical": "MoMA documents plastics as moldable, translucent, transparent, organic, detailed, and structurally varied materials rather than a single surface effect."
+  },
+  "sources": [
+    {
+      "title": "Mutant Materials in Contemporary Design: Plastics",
+      "publisher": "Museum of Modern Art",
+      "url": "https://www.moma.org/interactives/exhibitions/1995/mutantmaterials/plastics.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Injection, blow, rotational, and cast processes give plastics distinct forms, transparency, detail, and structural behavior."
+      ]
+    },
+    {
+      "title": "Plastic",
+      "publisher": "Museum of Modern Art",
+      "url": "https://www.moma.org/collection/terms/design/plastic",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Different polymer structures create varied visual and functional properties, while molding enables durable affordable consumer forms."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches rounded molded form, translucent color, glossy surface, frosted depth, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/candy-plastic/generated-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/candy-plastic/generated-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches rounded molded form, translucent color, glossy surface, frosted depth, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

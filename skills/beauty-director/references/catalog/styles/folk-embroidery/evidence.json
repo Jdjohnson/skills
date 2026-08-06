@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "styleId": "folk-embroidery",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Hungarian regional folk embroidery",
+    "creatorOrTradition": "Hungarian embroidery traditions",
+    "sourceUrl": "https://festival.si.edu/2013/hungarian-heritage/embroidery/smithsonian",
+    "whyCanonical": "The Smithsonian account ties visible technique, base material, yarn, motif change, and named regional variation together, making it a useful anchor for tradition-specific rather than generic embroidery."
+  },
+  "sources": [
+    {
+      "title": "Folk Embroidery",
+      "publisher": "Smithsonian Folklife Festival",
+      "url": "https://festival.si.edu/2013/hungarian-heritage/embroidery/smithsonian",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Embroidery styles vary with base material, yarn, stitch, motif, and named regional practice."
+      ]
+    },
+    {
+      "title": "Embroidered Pictures",
+      "publisher": "National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/object-groups/embroidered-pictures",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Embroidery uses needle and thread on cloth and can form pictorial, historical, devotional, and domestic subjects through distinct materials and techniques."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches visible thread, named regional motifs, stitch density, cloth ground, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/folk-embroidery/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": {
+    "note": "Treat folk embroidery as many living and historical practices, not a universal decorative vocabulary. Name the community and region, distinguish ceremonial or identity-bearing motifs from general stitch structure, retain maker attribution where known, and avoid combining symbols from unrelated traditions into a placeless ethnic pattern.",
+    "citations": [
+      "https://festival.si.edu/2013/hungarian-heritage/embroidery/smithsonian",
+      "https://americanhistory.si.edu/collections/object-groups/embroidered-pictures"
+    ]
+  },
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/folk-embroidery/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches visible thread, named regional motifs, stitch density, cloth ground, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

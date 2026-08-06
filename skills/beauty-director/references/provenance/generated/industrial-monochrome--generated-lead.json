@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "industrial-monochrome",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of industrial monochrome graphic design.\nUse case: brand-system\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original industrial equipment identity board built from black-and-white machine photography, severe condensed typography, serial markings, utilitarian labels, exposed fasteners, and one safety-orange interruption.\nStyle/medium: photographed identity specimen and technical poster\nComposition/framing: portrait 4:5, cropped turbine component dominates lower half, type and numbered calibration marks form a rigid upper grid, clear at thumbnail scale\nLighting/mood: hard, unsentimental, engineered\nColor palette: black, cold white, steel gray, safety orange\nMaterials/textures: brushed steel, stamped paper, grease pencil, halftone ink\nText: use only the exact label UNIT 47 and numerals 03, 12; all other type as abstract bars\nConstraints: original fictional equipment and identity, no real manufacturer, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "9daba9c6b45e83651f289279fe341ba3ede986d6c716d0153e80448d77f721e6",
+  "finalAsset": "assets/refs/industrial-monochrome/generated-lead.jpg",
+  "finalSha256": "a661930e21086a9ce1a4612f9e21b6ffa049d06daca952e7546d1601f9ab8c6a",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

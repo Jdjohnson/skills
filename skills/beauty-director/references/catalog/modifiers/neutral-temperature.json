@@ -1,0 +1,50 @@
+{
+  "id": "neutral-temperature",
+  "group": "temperature",
+  "definition": "Collapse temperature extremes toward neutral gray-balance.",
+  "targetConcerns": [
+    "palette"
+  ],
+  "compatibleStyles": [
+    "golden-hour-film",
+    "international-typographic-style"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "warmer"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "saturationScale",
+          "factor": 0.925
+        },
+        {
+          "op": "hueRotate",
+          "degrees": 0
+        }
+      ]
+    }
+  }
+}

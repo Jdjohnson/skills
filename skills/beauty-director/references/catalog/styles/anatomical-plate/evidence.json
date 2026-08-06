@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "anatomical-plate",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "John Lizars' A System of Anatomical Plates",
+    "creatorOrTradition": "Nineteenth-century British anatomical atlas tradition",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11765899/",
+    "whyCanonical": "The scholarly study examines anatomical plates as both accurate records and analytical visual tools that make body structure intelligible."
+  },
+  "sources": [
+    {
+      "title": "John Lizars' A System of Anatomical Plates of the Human Body",
+      "publisher": "U.S. National Library of Medicine / PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11765899/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Anatomical illustration can use composition, color, and artistic analysis to improve the intelligibility and perceived accuracy of bodily structure."
+      ]
+    },
+    {
+      "title": "The Evolution of Anatomical Illustration and Wax Modelling in Italy",
+      "publisher": "U.S. National Library of Medicine / PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2815943/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Historical anatomical plates used engraving, full-page figures, graduated reference borders, captions, realistic pose, and fine detail to explain anatomy."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches sectioned body, precise contour, leader lines, numbered structures, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/anatomical-plate/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/anatomical-plate/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches sectioned body, precise contour, leader lines, numbered structures, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

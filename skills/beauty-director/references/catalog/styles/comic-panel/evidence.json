@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "comic-panel",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Sequential comic page grammar",
+    "creatorOrTradition": "Comics and graphic narrative traditions",
+    "sourceUrl": "https://www.loc.gov/acq/devpol/comics.pdf",
+    "whyCanonical": "A complete comic page establishes panels, gutters, balloons, captions, sound effects, recurring characters, and changes in shot scale as a system for controlling sequence."
+  },
+  "sources": [
+    {
+      "title": "Collections Policy Statement: Comic Books and Related Materials",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/acq/devpol/comics.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Comics are sequential narrative artifacts whose meaning depends on the relationship among images, text, recurring figures, publication formats, and reading order."
+      ]
+    },
+    {
+      "title": "Comics and Comic Characters classification guidance",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/aba/publications/FreeCYAC/C-1430-Comics-and-Comic-Characters.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The institutional guidance distinguishes comics, strips, books, characters, and related formats, reinforcing that one isolated pop illustration is not a comic sequence."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The four-panel rainy-city sequence is an excellent lead. Gutters, repeated character/location, action continuity, speech balloons, and the recovered-map payoff establish true sequential storytelling at both scales. The independently approved lead is assets/refs/comic-panel/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/comic-panel/generated-lead.jpg",
+    "notes": "The four-panel rainy-city sequence is an excellent lead. Gutters, repeated character/location, action continuity, speech balloons, and the recovered-map payoff establish true sequential storytelling at both scales.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

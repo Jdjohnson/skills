@@ -1,0 +1,64 @@
+{
+  "id": "older-era",
+  "group": "era-tint",
+  "definition": "Push historical cues earlier in time.",
+  "targetConcerns": [
+    "palette",
+    "typography",
+    "ornament"
+  ],
+  "compatibleStyles": [
+    "art-deco",
+    "y2k-cyber"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "futurer"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "hueRotate",
+          "degrees": 18
+        },
+        {
+          "op": "saturationScale",
+          "factor": 0.955
+        },
+        {
+          "op": "addParam",
+          "concern": "typography",
+          "path": "tracking",
+          "amount": -0.15
+        },
+        {
+          "op": "multiplyParam",
+          "concern": "ornament",
+          "path": "density",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

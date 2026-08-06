@@ -1,0 +1,162 @@
+{
+  "id": "baroque-chiaroscuro",
+  "displayName": "Baroque Chiaroscuro",
+  "family": "ornate-historical",
+  "definition": "A hard directional light carves figures and objects from deep shadow, using diagonal movement, dense mass, and theatrical spatial drama.",
+  "axes": {
+    "minimalOrnate": 0.9,
+    "geometricOrganic": 0.3,
+    "polishedRaw": -0.3,
+    "calmEnergetic": 0.5,
+    "historicalFuturistic": -0.9,
+    "realisticAbstract": -0.2,
+    "warmCool": -0.3,
+    "lightDark": 0.8,
+    "playfulSerious": 0.6,
+    "handmadeMachined": -0.4,
+    "flatDeep": 0.9,
+    "everydayLuxurious": 0.6
+  },
+  "cues": [
+    "ornate",
+    "shadow-heavy",
+    "painterly",
+    "baroque-era",
+    "edge-defined"
+  ],
+  "antiCues": [
+    "flat",
+    "minimal",
+    "pastel-chroma"
+  ],
+  "emotionalEffects": [
+    "dramatic",
+    "solemn",
+    "monumental"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.85,
+      "symmetry": 0.5,
+      "margins": 0.15
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#3D2314",
+        "#198B00",
+        "#28BBC5",
+        "#5F351E",
+        "#E1E1F5"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/baroque-chiaroscuro.svg",
+      "descriptor": "inscriptional serif with flare",
+      "weight": 700,
+      "tracking": -0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.7,
+      "curveTension": 0.55
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/ornate-historical-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.35,
+      "tags": [
+        "marble",
+        "gold-leaf",
+        "velvet"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.95,
+      "keyDirection": "side",
+      "gradient": 0.85
+    },
+    "depth": {
+      "layers": 5,
+      "shadowSoftness": 0.75,
+      "parallax": 0.65
+    },
+    "motion": {
+      "energy": 0.45,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/ornate-historical"
+      ],
+      "density": 0.9,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "single dramatic incident",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.2
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 1,
+    "web-app": 0,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 3,
+    "motion-video": 2,
+    "product-3d": 2,
+    "interiors-architecture": 2,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "a charged figure group cut from darkness by one hard beam",
+    "framing": "compress the action near the picture plane, use diagonals to concentrate the crisis, and let surrounding space fall into deep shadow",
+    "mustShow": [
+      "ornate",
+      "shadow-heavy",
+      "painterly"
+    ],
+    "mustAvoid": [
+      "flat",
+      "minimal",
+      "pastel-chroma",
+      "even studio illumination",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "gothic-revival",
+    "rococo-salon",
+    "empire-style"
+  ],
+  "contrasting": [
+    "memphis-design",
+    "glassmorphism",
+    "international-typographic-style"
+  ]
+}

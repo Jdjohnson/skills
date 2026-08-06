@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "quilting-pattern",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "National Quilt Collection pieced block and border systems",
+    "creatorOrTradition": "American quiltmaking traditions",
+    "sourceUrl": "https://www.americanhistory.si.edu/collections/object-groups/national-quilt-collection",
+    "whyCanonical": "The Smithsonian collection demonstrates how piecing, appliqué, blocks, borders, fabric history, and quilting techniques create varied systems within the broad quilt form."
+  },
+  "sources": [
+    {
+      "title": "National Quilt Collection",
+      "publisher": "National Museum of American History",
+      "url": "https://www.americanhistory.si.edu/collections/object-groups/national-quilt-collection",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Quilts combine layered construction with piecing, appliqué, embroidery, weaving, block patterns, borders, and maker-specific material choices."
+      ]
+    },
+    {
+      "title": "Nine-patch Postage Stamp quilt",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/zh/art/collection/search/835331",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A regimented nine-patch center and precise star and calico borders show how modular repetition and containment organize visual movement."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach pieced blocks, seam rhythm, fabric variation, repeated module while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/quilting-pattern/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/quilting-pattern/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach pieced blocks, seam rhythm, fabric variation, repeated module while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

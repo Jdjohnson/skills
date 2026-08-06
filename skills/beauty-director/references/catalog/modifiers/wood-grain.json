@@ -1,0 +1,50 @@
+{
+  "id": "wood-grain",
+  "group": "material-shift",
+  "definition": "Introduce visible wood grain.",
+  "targetConcerns": [
+    "materialTexture"
+  ],
+  "compatibleStyles": [
+    "arts-and-crafts",
+    "shaker-utility",
+    "narrative-woodcut",
+    "studio-pottery"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "digital-native"
+  ],
+  "incompatibleModifiers": [],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "materialTexture",
+          "path": "grain",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

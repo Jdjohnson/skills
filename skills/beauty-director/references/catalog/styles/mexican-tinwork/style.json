@@ -1,0 +1,170 @@
+{
+  "id": "mexican-tinwork",
+  "displayName": "Mexican Tinwork",
+  "family": "folk-vernacular",
+  "definition": "Mexican painted and repoussé tin objects with hand-shaped frames, devotional or narrative imagery, saturated color, reflective metal, patina, and intimate shrine scale.",
+  "axes": {
+    "minimalOrnate": 0.6,
+    "geometricOrganic": 0.4,
+    "polishedRaw": 0.5,
+    "calmEnergetic": 0.4,
+    "historicalFuturistic": -0.4,
+    "realisticAbstract": -0.1,
+    "warmCool": -0.2,
+    "lightDark": 0.1,
+    "playfulSerious": 0,
+    "handmadeMachined": -0.7,
+    "flatDeep": -0.2,
+    "everydayLuxurious": -0.3
+  },
+  "cues": [
+    "repousse-tin",
+    "painted-devotional-image",
+    "hand-shaped-frame",
+    "reflective-metal",
+    "saturated-color",
+    "punched-detail",
+    "patina",
+    "intimate-shrine-scale"
+  ],
+  "antiCues": [
+    "generic-rustic-metal",
+    "industrial-sheet-metal",
+    "unframed-vector-icon",
+    "random-latin-motifs",
+    "luxury-polish"
+  ],
+  "emotionalEffects": [
+    "joyful",
+    "warm-hearted",
+    "whimsical"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.7,
+      "symmetry": 0.4,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#1565C0",
+        "#C62828",
+        "#F5F5F5",
+        "#F9A825",
+        "#212121"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/tin-folk-art.svg",
+      "descriptor": "hand-informed display",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/folk-vernacular-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.45,
+      "tags": [
+        "metal",
+        "enamel"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/folk-vernacular"
+      ],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "abstracted",
+      "subjectRules": [
+        "name-retablo-or-nicho-context",
+        "show-handworked-metal",
+        "preserve-devotional-or-narrative-purpose",
+        "avoid-sacred-imagery-as-empty-decoration"
+      ],
+      "abstraction": 0.45
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 2,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "a small hand-worked tin nicho or retablo with saturated painted imagery held by a shaped reflective frame",
+    "framing": "photograph or render at intimate object scale with the metal edge, punched marks, patina, and interior image all visible",
+    "mustShow": [
+      "hand-shaped tin surround",
+      "painted narrative or devotional center",
+      "reflective metal with use and age"
+    ],
+    "mustAvoid": [
+      "generic southwestern décor",
+      "factory-perfect chrome",
+      "decontextualized sacred icon",
+      "text gibberish",
+      "watermark",
+      "brand logos"
+    ]
+  },
+  "culturalOrigin": "Mexico / US Southwest",
+  "traditionalOrLivingPractice": true,
+  "requiresCulturalReview": true,
+  "culturalContext": {
+    "summary": "Painted tin folk traditions in the Americas",
+    "antiCaricature": "Treat motifs as living or historically specific visual languages, not costume kitsch. Prefer structural grammar (line, rhythm, material) over stereotyped subjects. Avoid sacred symbol misuse.",
+    "guidance": "When applying this node, preserve source grammar and cite traditions. Prefer consultation with authoritative museum/catalog sources over pop caricature."
+  },
+  "related": [
+    "festival-banner",
+    "folk-tilework",
+    "roadside-vernacular"
+  ],
+  "contrasting": [
+    "watch-precision",
+    "engineering-blueprint",
+    "swiss-phototypography"
+  ]
+}

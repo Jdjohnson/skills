@@ -1,0 +1,56 @@
+{
+  "id": "pastelize",
+  "group": "contrast",
+  "definition": "Lift and desaturate toward pastel range.",
+  "targetConcerns": [
+    "palette"
+  ],
+  "compatibleStyles": [
+    "rococo-salon",
+    "kids-picture-book",
+    "candy-plastic",
+    "vaporwave"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "higher-contrast"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "saturationScale",
+          "factor": 0.85
+        },
+        {
+          "op": "lightnessShift",
+          "amount": 0.15
+        }
+      ]
+    },
+    "heroOverlay": {
+      "type": "colorMatrix",
+      "strength": 0.35
+    }
+  }
+}

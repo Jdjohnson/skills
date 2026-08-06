@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "graphic-brutalism",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of graphic brutalism in contemporary poster and identity design.\nUse case: stylized-concept\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original fictional cultural poster system with oversized condensed sans typography, blunt black rules, exposed modular construction, abrupt cropping, high-impact symbols, and raw utility labels.\nStyle/medium: photographed screenprinted poster wall plus flat graphic design, intentionally severe and materially direct\nComposition/framing: portrait 4:5, one dominant poster with two partial companions, hard asymmetry, extreme scale contrast, unmistakable at thumbnail size\nLighting/mood: flat frontal light, confrontational and unsentimental\nColor palette: black, dirty white, signal red, industrial yellow\nMaterials/textures: coarse uncoated stock, overprinted ink, registration marks, light paste wrinkles\nText: abstract bars, numerals, and invented glyphs only\nConstraints: original fictional system, disciplined graphic brutality rather than punk collage or default web UI, no existing logos, no brand names, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "f51fe87d9fb39da4fbc32c079bd16bc7dc3775c891c6a041aae11fdba2d710e9",
+  "finalAsset": "assets/refs/graphic-brutalism/generated-lead.jpg",
+  "finalSha256": "544c4b042f9ca6530d9ffa60fc53c4107717f31072e4e9d26af78b391b4a34be",
+  "postProcessing": "Resized to 800x1000 pixels and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

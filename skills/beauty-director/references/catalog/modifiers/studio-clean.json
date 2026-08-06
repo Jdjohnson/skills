@@ -1,0 +1,48 @@
+{
+  "id": "studio-clean",
+  "group": "atmosphere",
+  "definition": "Clean studio light with controlled falloff.",
+  "targetConcerns": [
+    "lighting"
+  ],
+  "compatibleStyles": [
+    "fog-atmosphere",
+    "gallery-white"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "dusty"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "lighting",
+          "path": "contrast",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

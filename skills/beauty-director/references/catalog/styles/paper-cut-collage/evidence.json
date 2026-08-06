@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "paper-cut-collage",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Cut-paper collage practice",
+    "creatorOrTradition": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2020/ps-art-2020/works-of-art",
+    "whyCanonical": "The Met documents collage made through cutting, ripping, crumpling, layering, and overlapping colored papers into geometric and organic subjects."
+  },
+  "sources": [
+    {
+      "title": "P.S. Art 2020: Student Artworks",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2020/ps-art-2020/works-of-art",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Cut and torn paper, layered shapes, varied size, overlap, and color are concrete construction signals for paper collage."
+      ]
+    },
+    {
+      "title": "Romare Bearden: A Centennial Celebration",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2011/romare-bearden-centennial",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Colorful cut-paper collage can combine flattened shapes, shifts in scale, found material, and human narrative within a coherent scene."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches cut paper edge, torn edge, layered overlap, cast paper shadow, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/paper-cut-collage/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/paper-cut-collage/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches cut paper edge, torn edge, layered overlap, cast paper shadow, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

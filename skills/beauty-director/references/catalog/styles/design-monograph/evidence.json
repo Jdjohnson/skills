@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "design-monograph",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Museum design monograph and collection publication systems",
+    "creatorOrTradition": "Museum curators, editors, designers, and collection photographers",
+    "sourceUrl": "https://www.metmuseum.org/met-publications/the-painterly-print-monotypes-from-the-seventeenth-to-the-twentieth-century",
+    "whyCanonical": "The Met publication model establishes a sustained visual argument through object plates, scholarly sequencing, catalog information, and close reproductions rather than treating a designed object as a single advertising hero."
+  },
+  "sources": [
+    {
+      "title": "The Painterly Print: Monotypes from the Seventeenth to the Twentieth Century",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/met-publications/the-painterly-print-monotypes-from-the-seventeenth-to-the-twentieth-century",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The museum publication demonstrates how a monograph combines visual plates, sustained scholarship, and catalog structure.",
+        "The publication record supports object-centered sequencing rather than isolated lifestyle imagery."
+      ]
+    },
+    {
+      "title": "Design Journal, Spring/Summer 2017",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/wp-content/uploads/2018/01/6_DesignJournal_SS2017_FINAL.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The institutional journal shows disciplined layouts for designed objects, captions, essays, and supporting detail images.",
+        "Its spreads support repeated-view logic, controlled scale changes, and a coherent publication grid."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches object plates, repeated views, caption discipline, dimensions, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/design-monograph/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/design-monograph/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches object plates, repeated views, caption discipline, dimensions, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

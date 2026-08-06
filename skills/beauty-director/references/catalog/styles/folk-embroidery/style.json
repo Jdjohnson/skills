@@ -1,0 +1,170 @@
+{
+  "id": "folk-embroidery",
+  "displayName": "Folk Embroidery",
+  "family": "folk-vernacular",
+  "definition": "Named regional embroidery expressed through visible thread, cloth ground, stitch density, border placement, garment context, and tradition-specific motifs.",
+  "axes": {
+    "minimalOrnate": 0.4,
+    "geometricOrganic": 0.5,
+    "polishedRaw": 0.3,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": -0.8,
+    "realisticAbstract": -0.4,
+    "warmCool": -0.7,
+    "lightDark": -0.3,
+    "playfulSerious": -0.4,
+    "handmadeMachined": -1,
+    "flatDeep": -0.6,
+    "everydayLuxurious": -0.5
+  },
+  "cues": [
+    "visible-thread",
+    "named-regional-motifs",
+    "stitch-density",
+    "cloth-ground",
+    "border-placement",
+    "garment-context",
+    "tactile-relief",
+    "handmade-irregularity"
+  ],
+  "antiCues": [
+    "generic-vector-folk",
+    "printed-fabric",
+    "culture-mixing",
+    "perfectly-uniform-line",
+    "placeless-symbols"
+  ],
+  "emotionalEffects": [
+    "warm-hearted",
+    "nostalgic",
+    "humble"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.65,
+      "symmetry": 0.4,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#C41E3A",
+        "#431E5F",
+        "#E1F5E2",
+        "#164250",
+        "#1A1A1A"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/folk-embroidery.svg",
+      "descriptor": "hand-informed display",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/folk-vernacular-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.55,
+      "tags": [
+        "fabric",
+        "linen"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/folk-vernacular"
+      ],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "show-real-stitch-structure",
+        "name-the-regional-tradition",
+        "preserve-cloth-and-thread-materiality",
+        "avoid-mixed-cultural-motif-samplers"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a close textile field where floral and geometric motifs are built stitch by stitch",
+    "framing": "show the embroidered area in relation to its cloth ground, border, seam, or garment placement",
+    "mustShow": [
+      "visible thread direction",
+      "variation in stitch density",
+      "regionally coherent motif language"
+    ],
+    "mustAvoid": [
+      "flat vector imitation",
+      "unidentified pan-folk symbols",
+      "machine-perfect repetition",
+      "text",
+      "watermark",
+      "brand logos"
+    ]
+  },
+  "culturalOrigin": "multiple regions",
+  "traditionalOrLivingPractice": true,
+  "requiresCulturalReview": true,
+  "culturalContext": {
+    "summary": "Regional embroidery traditions (multiple)",
+    "antiCaricature": "Treat motifs as living or historically specific visual languages, not costume kitsch. Prefer structural grammar (line, rhythm, material) over stereotyped subjects. Avoid sacred symbol misuse.",
+    "guidance": "When applying this node, preserve source grammar and cite traditions. Prefer consultation with authoritative museum/catalog sources over pop caricature."
+  },
+  "related": [
+    "quilting-pattern",
+    "narrative-textile",
+    "market-vernacular"
+  ],
+  "contrasting": [
+    "engineering-blueprint",
+    "circuit-schematic",
+    "live-stream-overlay"
+  ]
+}

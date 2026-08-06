@@ -1,0 +1,157 @@
+{
+  "id": "modular-poster",
+  "displayName": "Modular Poster",
+  "family": "modernist-grid",
+  "definition": "A single poster surface organized by bold modules, high-contrast blocks, oversized display type, and a short public-message hierarchy.",
+  "axes": {
+    "minimalOrnate": -0.4,
+    "geometricOrganic": -0.5,
+    "polishedRaw": -0.3,
+    "calmEnergetic": 0.4,
+    "historicalFuturistic": -0.2,
+    "realisticAbstract": 0.2,
+    "warmCool": 0.2,
+    "lightDark": 0.2,
+    "playfulSerious": 0.2,
+    "handmadeMachined": 0.3,
+    "flatDeep": -0.7,
+    "everydayLuxurious": -0.3
+  },
+  "cues": [
+    "poster-scale",
+    "modular-blocks",
+    "display-type",
+    "high-contrast",
+    "single-surface"
+  ],
+  "antiCues": [
+    "long-form",
+    "low-contrast",
+    "decorative-border",
+    "atmospheric-texture"
+  ],
+  "emotionalEffects": [
+    "energized",
+    "monumental"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.65,
+      "symmetry": 0.3,
+      "margins": 0.15
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FF0033",
+        "#111111",
+        "#FFFF00",
+        "#FFFFFF",
+        "#0055FF"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/modular-poster.svg",
+      "descriptor": "bold grotesk display at poster scale",
+      "weight": 700,
+      "tracking": -0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0,
+      "lineWeight": 0.55,
+      "curveTension": 0
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/modernist-grid-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.05,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.75,
+      "keyDirection": "front",
+      "gradient": 0.05
+    },
+    "depth": {
+      "layers": 1,
+      "shadowSoftness": 0.05,
+      "parallax": 0
+    },
+    "motion": {
+      "energy": 0.5,
+      "descriptor": "punchy"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.08,
+      "tags": [
+        "hard-edge"
+      ]
+    },
+    "imagery": {
+      "treatment": "abstracted",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.5
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 3,
+    "packaging": 2,
+    "photography": 2,
+    "motion-video": 2,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a public event poster organized by three interlocking message modules",
+    "framing": "One vertical surface with oversized type, hard-edged color blocks, a decisive focal module, and edge-to-edge cropping visible from a distance.",
+    "mustShow": [
+      "poster-scale",
+      "modular-blocks",
+      "high-contrast"
+    ],
+    "mustAvoid": [
+      "long-form",
+      "low-contrast",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "international-typographic-style",
+    "festival-banner",
+    "academic-journal"
+  ],
+  "contrasting": [
+    "wabi-sabi",
+    "lab-notebook",
+    "academic-journal"
+  ]
+}

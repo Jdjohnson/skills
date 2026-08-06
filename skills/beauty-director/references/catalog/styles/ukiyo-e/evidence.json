@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "styleId": "ukiyo-e",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Under the Wave off Kanagawa and Edo-period polychrome prints",
+    "creatorOrTradition": "Ukiyo-e woodblock print tradition",
+    "sourceUrl": "https://www.metmuseum.org/ko/essays/woodblock-prints-in-the-ukiyo-e-style",
+    "whyCanonical": "The Met's overview connects subject matter, collaborative production, carved blocks, separate colors, registration, and paper, which together define ukiyo-e as a print system rather than a surface filter."
+  },
+  "sources": [
+    {
+      "title": "Woodblock Prints in the Ukiyo-e Style",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/ko/essays/woodblock-prints-in-the-ukiyo-e-style",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Edo-period ukiyo-e combined popular subjects with collaborative design, carving, printing, publishing, and registered polychrome blocks."
+      ]
+    },
+    {
+      "title": "The Suijin Temple Grove, Uchikawa, and the Village of Sekiya",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/36543",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Hiroshige's radical cropping and geometric framing demonstrate the style's graphic force and compressed spatial construction."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach flat color planes, forceful contour, cropped scale, compressed perspective while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/ukiyo-e/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": {
+    "note": "Present ukiyo-e as a historically situated Japanese publishing and printmaking tradition with named makers, publishers, subjects, and periods. Keep Japanese writing accurate, avoid collapsing the form into a generic exotic aesthetic, and distinguish direct study of historical works from modern anime, manga, or anonymous Japonisme.",
+    "citations": [
+      "https://www.metmuseum.org/ko/essays/woodblock-prints-in-the-ukiyo-e-style",
+      "https://www.metmuseum.org/art/collection/search/36543"
+    ]
+  },
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/ukiyo-e/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach flat color planes, forceful contour, cropped scale, compressed perspective while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

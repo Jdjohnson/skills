@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "empire-style",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of Empire style.\nUse case: historical-scene\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original formal interior vignette with strict axial symmetry, monumental mahogany console, gilded bronze mounts, laurel and eagle motifs, red silk, dark stone, and controlled Napoleonic-era grandeur.\nStyle/medium: museum-quality period interior photography\nComposition/framing: portrait 4:5, centered console and mirror, disciplined paired objects, readable at thumbnail scale\nLighting/mood: warm directional gallery light, ceremonial and authoritative\nColor palette: mahogany, imperial red, black stone, antique gold\nMaterials/textures: polished wood, gilt bronze, silk, marble\nConstraints: historically grounded original arrangement, no portraits of real people, no copied room, no logo, no text, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "b1c70ef363d14a541fad4ba1520174d6dfbe39fcf3473e0603a39b64213a5df1",
+  "finalAsset": "assets/refs/empire-style/generated-lead.jpg",
+  "finalSha256": "24dd4031660cd2ce5723288761654e05fda4e909b71c2ad97b135df60d8ddf6c",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

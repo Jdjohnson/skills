@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "live-stream-overlay",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI built-in imagegen",
+  "promptRecordStatus": "exact",
+  "prompt": "Create an original live-stream broadcast overlay shown as a complete interface composition: prominent webcam frame, lower third, chat panel, alert badge, viewer-status module, and balanced neon graphic borders around a fictional creative gaming stream. Electric violet, cyan, black, and hot pink; crisp esports-era broadcast graphics; the overlay system must be clearly visible. No platform logos, readable usernames, copied game imagery, brand marks, or watermark.",
+  "sourceOutputStatus": "original_tool_response_not_retained",
+  "finalAsset": "assets/refs/live-stream-overlay/generated-01.jpg",
+  "finalSha256": "91b0fd25cd38204b56cbaac7268085e4c97b928ee1aa0f797326502dd5f455dc",
+  "postProcessing": "AI-generated source image center-cropped to a 4:5 portrait and resized to 800x1000 pixels; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

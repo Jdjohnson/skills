@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "classic-infographic",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Charles Joseph Minard's flow maps",
+    "creatorOrTradition": "Nineteenth-century statistical cartography",
+    "sourceUrl": "https://blogs.loc.gov/maps/2021/06/19th-century-colonization-and-slavery-in-charles-minards-flow-maps/",
+    "whyCanonical": "The Library of Congress shows how direction, width, geography, color, labels, and numerical units make magnitude and movement legible in a unified composition."
+  },
+  "sources": [
+    {
+      "title": "19th Century Colonization and Slavery in Charles Minard's Flow Maps",
+      "publisher": "Library of Congress",
+      "url": "https://blogs.loc.gov/maps/2021/06/19th-century-colonization-and-slavery-in-charles-minards-flow-maps/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Minard's proportional flow bands encode direction and amount between origins and destinations while labels and geography support rapid interpretation."
+      ]
+    },
+    {
+      "title": "The Minard System",
+      "publisher": "Smithsonian Libraries and Archives",
+      "url": "https://www.si.edu/object/minard-system-complete-statistical-graphics-charles-joseph-minard-collection-ecole-nationale-des%3Asiris_sil_1094659",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Minard's body of work represents a coherent historical system of statistical graphics for social, economic, geographic, and multivariate data."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches encoded quantity, comparative flow, visual argument, annotated sequence, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/classic-infographic/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/classic-infographic/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches encoded quantity, comparative flow, visual argument, annotated sequence, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "design-monograph",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of a rigorous industrial-design monograph.\nUse case: product-mockup\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original museum-quality monograph cover and open comparative plate spread devoted to one fictional desk lamp, showing the same lamp in front, side, exploded, detail, and in-context views with dimensions, captions, material samples, and a sustained numbered sequence.\nStyle/medium: photographed hardbound art-and-design book\nComposition/framing: portrait 4:5, cover above an open spread; repeated views of the same lamp form a disciplined grid across both pages, dimensions and plate numbers visible at thumbnail scale\nLighting/mood: even gallery studio light, authoritative, analytical, quiet\nColor palette: white, charcoal, cobalt, small vermilion accent\nMaterials/textures: matte coated paper, cloth binding, brushed aluminum lamp, translucent diffuser\nText: use only the exact title OBJECT / STUDY and numerals 01 through 05; all other captions as abstract bars\nConstraints: original fictional publication and lamp, no copied product, no designer name, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "183a7d97ea74f9e3ab64c472080f716464687204c2ed93ad790063b424cc7d2d",
+  "finalAsset": "assets/refs/design-monograph/generated-lead.jpg",
+  "finalSha256": "3502e1d226454d7a2c74cf20e3c358a75aaaf69e898a63ab9ddfb4e1faecd22b",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

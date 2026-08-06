@@ -1,0 +1,55 @@
+{
+  "id": "cooler",
+  "group": "temperature",
+  "definition": "Shift palette and light toward cool bias.",
+  "targetConcerns": [
+    "palette",
+    "lighting"
+  ],
+  "compatibleStyles": [
+    "engineering-blueprint",
+    "neo-noir-neon",
+    "glassmorphism",
+    "international-typographic-style"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "warmer"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "hueRotate",
+          "degrees": -18
+        },
+        {
+          "op": "addParam",
+          "concern": "lighting",
+          "path": "gradient",
+          "amount": -0.15
+        }
+      ]
+    }
+  }
+}

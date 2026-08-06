@@ -1,0 +1,163 @@
+{
+  "id": "kids-picture-book",
+  "displayName": "Kids Picture Book",
+  "family": "playful-system",
+  "definition": "Child-centered illustrated spreads with large friendly type, warm characters, clear story beats, page-turn anticipation, and image-text pacing.",
+  "axes": {
+    "minimalOrnate": 0.2,
+    "geometricOrganic": 0.5,
+    "polishedRaw": -0.4,
+    "calmEnergetic": 0.3,
+    "historicalFuturistic": -0.3,
+    "realisticAbstract": -0.2,
+    "warmCool": 0.5,
+    "lightDark": -0.4,
+    "playfulSerious": -0.7,
+    "handmadeMachined": -0.6,
+    "flatDeep": -0.5,
+    "everydayLuxurious": -0.3
+  },
+  "cues": [
+    "illustrated-spread",
+    "page-turn-pacing",
+    "warm-character",
+    "large-friendly-type",
+    "clear-story-beat",
+    "image-text-balance",
+    "child-eye-level",
+    "recurring-motif"
+  ],
+  "antiCues": [
+    "standalone-character-sheet",
+    "adult-editorial-density",
+    "toy-packaging",
+    "single-poster-composition"
+  ],
+  "emotionalEffects": [
+    "warm-hearted",
+    "joyful",
+    "whimsical"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.45,
+      "symmetry": 0.55,
+      "margins": 0.14
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#F4C542",
+        "#5BA4D9",
+        "#6BBF59",
+        "#F08C7A",
+        "#FFF6E8"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/kids-picture-book.svg",
+      "descriptor": "friendly rounded serif display",
+      "weight": 600,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/playful-system-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.25,
+      "tags": [
+        "paper",
+        "watercolor-wash"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.3,
+      "keyDirection": "front",
+      "gradient": 0.2
+    },
+    "depth": {
+      "layers": 3,
+      "shadowSoftness": 0.5,
+      "parallax": 0.15
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.25,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "illustrated",
+      "subjectRules": [
+        "style-specific-subject",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 3,
+    "packaging": 3,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 2,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "two-page story beat",
+    "framing": "Design a full illustrated spread with one warm character action crossing the gutter, a clear text zone, a recurring visual clue, and a right-edge setup that invites the next page.",
+    "mustShow": [
+      "illustrated-spread",
+      "page-turn-pacing",
+      "image-text-balance"
+    ],
+    "mustAvoid": [
+      "standalone-character-sheet",
+      "adult-editorial-density",
+      "toy-packaging",
+      "single-poster-composition",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "paper-cut-collage",
+    "narrative-woodcut",
+    "narrative-textile"
+  ],
+  "contrasting": [
+    "film-noir",
+    "industrial-monochrome",
+    "crt-terminal"
+  ]
+}

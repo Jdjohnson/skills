@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "artisan-bookbinding",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of artisan bookbinding.\nUse case: product-mockup\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original hand-bound book shown closed and partially open, with exposed sewn signatures, linen thread, deckled paper, cloth spine, handmade endpaper, and small bone-folder tools.\nStyle/medium: high-end craft-process photography\nComposition/framing: portrait 4:5, binding structure is the clear focal point, page block and stitching legible at thumbnail scale\nLighting/mood: warm raking studio light, intimate and precise\nColor palette: natural paper, indigo cloth, rust thread, warm gray\nMaterials/textures: deckled cotton paper, book cloth, waxed thread, wood workbench\nText: no readable words\nConstraints: original generic book object, no existing cover design, no brand, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "1fa0a8d651703acbe323a8b2f5ea5ed638ef77c9b62891e86681578dc84033cf",
+  "finalAsset": "assets/refs/artisan-bookbinding/generated-lead.jpg",
+  "finalSha256": "23fa65b6f3702928027cc0fcf5ee4564729688eb73be15f519f9132ea1a1a455",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}
