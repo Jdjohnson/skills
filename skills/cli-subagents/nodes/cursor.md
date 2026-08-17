@@ -1,29 +1,24 @@
 # Cursor
 
-**Status:** Inactive and explicit-only
-**Command:** `cursor-agent`, not `agent`
+Use Cursor for a separate multi-model coding, implementation, or review lane.
 
-## Route here
+## Model selection
 
-Use Cursor only when the user explicitly names it while access remains, or when its single multi-model harness is the point of the task. Do not route here by default.
-
-Cursor's model inventory is account-dependent and changes often. Run `cursor-agent models` before choosing. Current model families may include Sol, Fable, Grok, Gemini, Composer, and others, but do not hard-code an old inventory.
-
-Use `plan` or `ask` for read-only work. Headless `--print` can use write and shell tools, so edit mode needs explicit authorization. The wrapper requires `--allow-inactive` for probes and runs.
+Cursor's inventory is account-dependent and changes often. Use `agent models`, `agent --list-models`, or the authenticated CLI's equivalent to inspect live models. Prefer `Auto` unless the user requests a specific available model.
 
 ## Run
 
 ```bash
 python3 <skill-root>/scripts/cursor_delegate.py doctor --cwd /path/to/project
-cursor-agent models
-python3 <skill-root>/scripts/cursor_delegate.py probe --cwd /path/to/project --allow-inactive --model MODEL_ID
-python3 <skill-root>/scripts/cursor_delegate.py run --cwd /path/to/project --allow-inactive --mode plan --model MODEL_ID --prompt-file /path/to/prompt.md
+agent models
+python3 <skill-root>/scripts/cursor_delegate.py probe --cwd /path/to/project --model MODEL_ID
+python3 <skill-root>/scripts/cursor_delegate.py run --cwd /path/to/project --mode plan --model MODEL_ID --prompt-file /path/to/prompt.md
 ```
 
-Call `cursor-agent` explicitly because `agent` may resolve to another installed CLI.
+`agent` is Cursor's current primary entry point; `cursor-agent` remains a compatibility alias. The bundled wrapper accepts whichever compatible command is installed. Headless print mode can write and run shell commands, so use edit only with authorization.
 
 ## Sources
 
-- [Cursor CLI overview](https://docs.cursor.com/en/cli/overview)
-- [Cursor headless mode](https://docs.cursor.com/en/cli/headless)
+- [Cursor CLI](https://cursor.com/en-US/cli)
+- [Cursor CLI model discovery](https://cursor.com/changelog/cli-jan-08-2026)
 - [Cursor CLI parameters](https://docs.cursor.com/en/cli/reference/parameters)

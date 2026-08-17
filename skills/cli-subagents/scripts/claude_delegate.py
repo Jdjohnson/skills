@@ -12,6 +12,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from _node_registry import add_node_state
+
 
 SECRET_ENV_NAMES = (
     "ANTHROPIC_API_KEY",
@@ -41,8 +43,9 @@ DEFAULT_CLAUDE_CANDIDATES = (
     "/usr/local/bin/claude",
 )
 
-DEFAULT_CLAUDE_MODEL = "fable"
-DEFAULT_CLAUDE_EFFORT = "medium"
+DEFAULT_CLAUDE_MODEL = "sonnet"
+DEFAULT_CLAUDE_EFFORT = "high"
+NODE_ID = "claude-code"
 
 DEFAULT_MODE_TOOLS = {
     "read": ["Read", "Glob", "Grep"],
@@ -67,11 +70,9 @@ DEFAULT_ALLOWED_TOOLS = {
 }
 
 MODE_PERMISSION = {
-    "read": "dontAsk",
-    # Claude Code's built-in plan mode may try to persist plan files under
-    # ~/.claude/plans. Keep delegated planning inside stdout and the project cwd.
-    "plan": "dontAsk",
-    "edit": "acceptEdits",
+    "read": "auto",
+    "plan": "auto",
+    "edit": "auto",
 }
 
 DATA_CLASSIFICATIONS = ("public", "internal", "sanitized", "client-private")
@@ -348,7 +349,7 @@ def build_claude_run_argv(
     if tools:
         argv.extend(["--tools", merge_csv(tools)])
 
-    if probe or getattr(args, "safe_mode", False):
+    if getattr(args, "safe_mode", False):
         argv.append("--safe-mode")
 
     allowed_tools: list[str] = [] if probe else list(DEFAULT_ALLOWED_TOOLS[mode])
@@ -394,6 +395,7 @@ def parse_json_output(output: str) -> Any:
 
 def do_doctor(args: argparse.Namespace) -> int:
     payload = collect_preflight(args, require_auth=not args.no_auth_required)
+    add_node_state(payload, NODE_ID)
     json_print(payload)
     return 0 if payload["ok"] else 2
 
@@ -535,7 +537,7 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--continue-session", action="store_true")
     run.add_argument("--name")
     run.add_argument("--no-session-persistence", action="store_true")
-    run.add_argument("--safe-mode", dest="safe_mode", action="store_true", default=True)
+    run.add_argument("--safe-mode", dest="safe_mode", action="store_true", default=False)
     run.add_argument("--no-safe-mode", dest="safe_mode", action="store_false")
     run.add_argument("--allowed-tool", action="append", default=[])
     run.add_argument("--tool", action="append", default=[])

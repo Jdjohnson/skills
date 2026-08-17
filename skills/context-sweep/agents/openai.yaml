@@ -1,4 +1,0 @@
-interface:
-  display_name: "Context Sweep"
-  short_description: "Gather configured sources into a deduped daily log"
-  default_prompt: "Use $context-sweep to gather high-signal activity from my configured sources into today's log."

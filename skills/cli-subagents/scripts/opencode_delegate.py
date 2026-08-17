@@ -13,6 +13,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from _node_registry import add_node_state
+
 
 SECRET_ENV_NAMES = (
     "OLLAMA_API_KEY",
@@ -67,7 +69,8 @@ DEFAULT_OPENCODE_CANDIDATES = (
     "/usr/local/bin/opencode",
 )
 
-DEFAULT_OPENCODE_MODEL = "ollama-cloud/glm-5.2"
+DEFAULT_OPENCODE_MODEL = None
+NODE_ID = "opencode"
 DATA_CLASSIFICATIONS = ("public", "internal", "sanitized", "client-private")
 MODES = ("read", "plan", "edit")
 
@@ -431,7 +434,9 @@ def build_delegation_prompt(mode: str, prompt: str) -> str:
 
 def build_opencode_argv(args: argparse.Namespace, prompt: str, *, probe: bool = False) -> list[str]:
     opencode = find_opencode(args.opencode_bin)["path"] or args.opencode_bin or "opencode"
-    model = args.model or DEFAULT_OPENCODE_MODEL
+    model = args.model
+    if not model:
+        raise ValueError("Select a live provider/model from `opencode models --refresh` and pass --model.")
     title = args.title or ("opencode-probe" if probe else f"opencode-{args.mode}")
     argv = [
         opencode,
@@ -484,8 +489,8 @@ def collect_preflight(args: argparse.Namespace, require_auth: bool = True, requi
         "provider": None,
         "provider_present": False,
     }
-    requested_model = getattr(args, "model", DEFAULT_OPENCODE_MODEL) or DEFAULT_OPENCODE_MODEL
-    provider = requested_model.split("/", 1)[0] if "/" in requested_model else ""
+    requested_model = getattr(args, "model", None)
+    provider = requested_model.split("/", 1)[0] if requested_model and "/" in requested_model else ""
     model: dict[str, Any] = {
         "ok": False,
         "provider": provider,
@@ -510,27 +515,38 @@ def collect_preflight(args: argparse.Namespace, require_auth: bool = True, requi
             issues.append("opencode_version_failed")
 
         auth_result = run_subprocess([binary["path"], "auth", "list"], timeout=30)
-        auth = summarize_auth_list(auth_result, provider)
+        auth = summarize_auth_list(auth_result, provider) if provider else {
+            "ok": auth_result.returncode == 0,
+            "method": "opencode-auth-list" if auth_result.returncode == 0 else "missing",
+            "env_credentials": [],
+            "provider": None,
+            "provider_present": False,
+            "status_text": (auth_result.stdout or auth_result.stderr).strip() or None,
+            "returncode": auth_result.returncode,
+        }
         auth_failure = classify_failure(auth_result.returncode, auth_result.stdout, auth_result.stderr)
         if not auth["ok"] and require_auth:
             issues.append("opencode_auth_missing" if auth_failure in {None, "unknown"} else auth_failure)
 
-        models_result = run_subprocess([binary["path"], "models", provider], timeout=60)
-        model_text = (models_result.stdout or models_result.stderr).strip()
-        available = sorted(set(re.findall(rf"{re.escape(provider)}/[A-Za-z0-9_.:-]+", model_text)))
-        model = {
-            "ok": models_result.returncode == 0 and model["model"] in available,
-            "provider": provider,
-            "model": model["model"],
-            "available": available,
-            "returncode": models_result.returncode,
-            "status_text": model_text or None,
-        }
-        if require_model and not model["ok"]:
-            if models_result.returncode != 0:
-                issues.append(classify_failure(models_result.returncode, models_result.stdout, models_result.stderr) or "model_lookup_failed")
-            else:
-                issues.append("model_missing")
+        if requested_model:
+            models_result = run_subprocess([binary["path"], "models", provider, "--refresh"], timeout=60)
+            model_text = (models_result.stdout or models_result.stderr).strip()
+            available = sorted(set(re.findall(rf"{re.escape(provider)}/[A-Za-z0-9_.:-]+", model_text)))
+            model = {
+                "ok": models_result.returncode == 0 and requested_model in available,
+                "provider": provider,
+                "model": requested_model,
+                "available": available,
+                "returncode": models_result.returncode,
+                "status_text": model_text or None,
+            }
+            if require_model and not model["ok"]:
+                if models_result.returncode != 0:
+                    issues.append(classify_failure(models_result.returncode, models_result.stdout, models_result.stderr) or "model_lookup_failed")
+                else:
+                    issues.append("model_missing")
+        elif require_model:
+            issues.append("opencode_model_required")
 
     issues = list(dict.fromkeys(issues))
     return {
@@ -554,19 +570,12 @@ def write_result_artifacts(artifacts: dict[str, str], result: CommandResult, pay
 
 def do_doctor(args: argparse.Namespace) -> int:
     payload = collect_preflight(args, require_auth=not args.no_auth_required, require_model=not args.no_model_required)
+    add_node_state(payload, NODE_ID)
     json_print(payload)
     return 0 if payload["ok"] else 2
 
 
 def do_probe(args: argparse.Namespace) -> int:
-    if not args.allow_inactive:
-        json_print({
-            "ok": False,
-            "active": False,
-            "status": "inactive",
-            "issues": ["opencode_inactive_requires_explicit_opt_in"],
-        })
-        return 2
     args.mode = "read"
     args.title = getattr(args, "title", None)
 
@@ -644,15 +653,6 @@ def do_run(args: argparse.Namespace) -> int:
         prompt = read_prompt(args)
     except (OSError, ValueError) as exc:
         json_print({"ok": False, "status": "blocked", "issues": [str(exc)]})
-        return 2
-
-    if not args.allow_inactive:
-        json_print({
-            "ok": False,
-            "active": False,
-            "status": "inactive",
-            "issues": ["opencode_inactive_requires_explicit_opt_in"],
-        })
         return 2
 
     payload = collect_preflight(args, require_auth=True, require_model=True)
@@ -745,7 +745,6 @@ def build_parser() -> argparse.ArgumentParser:
     probe.add_argument("--title")
     probe.add_argument("--variant")
     probe.add_argument("--dry-run", action="store_true")
-    probe.add_argument("--allow-inactive", action="store_true")
     probe.set_defaults(func=do_probe)
 
     audit = subparsers.add_parser("audit-prompt", help="Compatibility check; task context follows the active workspace policy.")
@@ -760,7 +759,6 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--title")
     run.add_argument("--variant")
     run.add_argument("--dry-run", action="store_true")
-    run.add_argument("--allow-inactive", action="store_true")
     run.set_defaults(func=do_run)
 
     return parser

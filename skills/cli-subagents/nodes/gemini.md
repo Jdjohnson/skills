@@ -1,34 +1,22 @@
 # Gemini
 
-**Status:** Inactive
-**Default:** `gemini-3.6-flash`
-**Oversight:** Have Claude or Codex review consequential output
+Use Gemini for multimodal work or a separate Google coding and research lane.
 
-## Route here
+## Model selection
 
-Do not route here automatically. Keep Gemini installed for possible future reactivation. Use it only when the user explicitly selects Gemini and approves its current authentication and cost path.
-
-When reactivated, use Gemini for fast, inexpensive, multimodal work, especially image, PDF, audio, video, document extraction, structured parsing, and high-volume subtasks.
-
-- `gemini-3.6-flash`: default for fast agentic work, code, multimodal reasoning, and vision.
-- `gemini-3.5-flash-lite`: use for simple, high-throughput extraction, classification, transformation, and JSON work.
-
-Use concrete IDs. Gemini CLI aliases can lag current models. Ordinary `@path` is reliable for text; use Gemini's `read_file` tool or a custom-command `@{path}` when multimodal encoding must be explicit.
+Gemini CLI's default model is `auto`, which routes between available models. Prefer `auto` unless the user requests a concrete model, then probe that exact model before work.
 
 ## Run
 
 ```bash
 python3 <skill-root>/scripts/gemini_delegate.py doctor --cwd /path/to/project
-python3 <skill-root>/scripts/gemini_delegate.py probe --allow-inactive --cwd /path/to/project --model gemini-3.6-flash
-python3 <skill-root>/scripts/gemini_delegate.py run --allow-inactive --cwd /path/to/project --mode plan --model gemini-3.6-flash --prompt-file /path/to/prompt.md
+python3 <skill-root>/scripts/gemini_delegate.py probe --cwd /path/to/project --model auto
+python3 <skill-root>/scripts/gemini_delegate.py run --cwd /path/to/project --mode plan --model auto --prompt-file /path/to/prompt.md
 ```
 
-`probe` and `run` require `--allow-inactive`. Give Gemini a narrow branch with clear acceptance criteria. Send its result to the Claude or Codex coordinator for synthesis and verification.
-A cached Google login is not service-level proof; use `probe` to verify that the current account tier and requested model are actually eligible.
+Read and plan use Gemini's read-only plan mode. Edit uses its reviewed edit mode. Authentication method affects model and quota access, so a cached login is not proof that a requested model is available.
 
 ## Sources
 
-- [Gemini 3.6 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash)
-- [Latest Gemini models](https://ai.google.dev/gemini-api/docs/latest-model)
-- [Gemini CLI headless mode](https://geminicli.com/docs/cli/headless/)
-- [Gemini CLI file tools](https://geminicli.com/docs/tools/file-system/)
+- [Gemini CLI model routing](https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/model-routing.md)
+- [Gemini CLI configuration](https://github.com/google-gemini/gemini-cli/blob/main/docs/reference/configuration.md)

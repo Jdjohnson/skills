@@ -8,10 +8,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = (
-    "brainstorm", "brief", "decision-walkthrough", "plan", "visualize", "steelman", "stuck",
-    "writer", "meeting", "work-log",
-    "chatgpt", "cli-subagents", "context-sweep", "gws-cli", "run",
-    "economist-council",
+    "brainstorm", "brief", "decision-walkthrough", "plan", "steelman",
+    "writer", "reflect", "meeting", "work-log",
+    "chatgpt", "cli-subagents", "gws-cli", "papercut", "autoresearch",
 )
 SKILL_SET = set(SKILLS)
 TEXT_SUFFIXES = {".md", ".py", ".js", ".mjs", ".json", ".yaml", ".yml", ".sh", ".txt"}
@@ -77,8 +76,8 @@ def validate_inventory() -> None:
 
     for manifest_name in (".codex-plugin/plugin.json", ".claude-plugin/plugin.json"):
         data = load_json(ROOT / manifest_name)
-        if data.get("version") != "3.1.0":
-            fail(f"{manifest_name} must declare version 3.1.0")
+        if data.get("version") != "4.0.0":
+            fail(f"{manifest_name} must declare version 4.0.0")
         if data.get("interface", {}).get("skills") != list(SKILLS):
             fail(f"{manifest_name} skill inventory or order is stale")
 
@@ -180,7 +179,7 @@ def main() -> None:
         validate_skill(skill)
     validate_links()
     validate_scrub()
-    print("Maintainer checks passed: 16 generic skills, metadata, parity, links, scrub, and distribution.")
+    print("Maintainer checks passed: 14 generic skills, metadata, parity, links, scrub, and distribution.")
 
 
 if __name__ == "__main__":

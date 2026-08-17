@@ -1,0 +1,24 @@
+{
+  "skill": "reflect",
+  "parity_goal": "Preserve source-grounded journal reflection while requiring the user to supply or identify the personal-writing source.",
+  "cases": [
+    {
+      "id": "missing-source",
+      "prompt": "$reflect what patterns do you see?",
+      "expected": [
+        "asks the user to supply entries or point to a journal location",
+        "does not search unrelated personal files",
+        "does not invent a pattern"
+      ]
+    },
+    {
+      "id": "supplied-range",
+      "prompt": "$reflect on the journal entries in ./journal/july",
+      "expected": [
+        "restricts reads to the supplied source boundary",
+        "separates evidence from interpretation",
+        "returns a concise reflection and one useful question"
+      ]
+    }
+  ]
+}

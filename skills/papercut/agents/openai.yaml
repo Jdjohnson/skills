@@ -1,0 +1,4 @@
+interface:
+  display_name: "Papercut"
+  short_description: "Find small friction in the visible session"
+  default_prompt: "Use $papercut to review this visible session for small workflow friction and return only useful, deduplicated findings."

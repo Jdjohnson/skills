@@ -20,6 +20,7 @@ from _delegate_common import (
     validate_cwd,
     write_artifacts,
 )
+from _node_registry import add_node_state
 
 
 DEFAULT_CANDIDATES = (
@@ -27,6 +28,7 @@ DEFAULT_CANDIDATES = (
     "/opt/homebrew/bin/cursor-agent",
     "/usr/local/bin/cursor-agent",
 )
+NODE_ID = "cursor"
 SECRET_ENV_NAMES = ("CURSOR_API_KEY",)
 MODES = ("read", "plan", "edit")
 MODE_PREFACE = {
@@ -75,14 +77,12 @@ def preflight(args: argparse.Namespace, require_auth: bool = True) -> dict[str, 
 
     return {
         "ok": not issues,
-        "status": "inactive-ready" if not issues else "blocked",
-        "active": False,
+        "status": "ready" if not issues else "blocked",
         "issues": issues,
         "cursor": {"found": bool(binary), "path": binary, "version": version},
         "auth": auth,
         "cwd": cwd,
         "model": args.model,
-        "note": "Cursor is inactive and must be selected explicitly.",
     }
 
 
@@ -105,7 +105,7 @@ def build_argv(args: argparse.Namespace, prompt: str, *, probe: bool = False) ->
         argv.extend(["--mode", "ask"])
     elif mode == "plan":
         argv.extend(["--mode", "plan"])
-    else:
+    if not probe:
         argv.append("--auto-review")
     if args.model:
         argv.extend(["--model", args.model])
@@ -115,14 +115,12 @@ def build_argv(args: argparse.Namespace, prompt: str, *, probe: bool = False) ->
 
 def do_doctor(args: argparse.Namespace) -> int:
     payload = preflight(args, require_auth=not args.no_auth_required)
+    add_node_state(payload, NODE_ID)
     json_print(payload)
     return 0 if payload["ok"] else 2
 
 
 def do_probe(args: argparse.Namespace) -> int:
-    if not args.allow_inactive:
-        json_print({"ok": False, "status": "inactive", "issues": ["cursor_inactive_requires_explicit_opt_in"]})
-        return 2
     payload = preflight(args, require_auth=not args.no_auth_required)
     if not payload["ok"]:
         json_print(payload)
@@ -153,9 +151,6 @@ def do_probe(args: argparse.Namespace) -> int:
 
 
 def do_run(args: argparse.Namespace) -> int:
-    if not args.allow_inactive:
-        json_print({"ok": False, "status": "inactive", "issues": ["cursor_inactive_requires_explicit_opt_in"]})
-        return 2
     try:
         prompt = read_prompt(args)
     except (OSError, ValueError) as exc:
@@ -222,14 +217,13 @@ def add_prompt(parser: argparse.ArgumentParser) -> None:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Guarded wrapper for inactive Cursor CLI delegation.")
+    parser = argparse.ArgumentParser(description="Guarded wrapper for Cursor CLI delegation.")
     sub = parser.add_subparsers(dest="command", required=True)
     doctor = sub.add_parser("doctor")
     add_common(doctor)
     doctor.set_defaults(func=do_doctor)
     probe = sub.add_parser("probe")
     add_common(probe)
-    probe.add_argument("--allow-inactive", action="store_true")
     probe.set_defaults(func=do_probe)
     run = sub.add_parser("run")
     add_common(run)
@@ -237,7 +231,6 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--mode", choices=MODES, default="plan")
     run.add_argument("--run-id")
     run.add_argument("--dry-run", action="store_true")
-    run.add_argument("--allow-inactive", action="store_true")
     run.set_defaults(func=do_run)
     return parser
 

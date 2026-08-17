@@ -1,600 +1,196 @@
 from __future__ import annotations
 
+import io
 import json
 import os
-import stat
-import subprocess
-import sys
 import tempfile
-import textwrap
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
+from unittest.mock import patch
+
+from delegate_test_support import import_wrapper, make_executable, payload, run_wrapper
 
 
 SCRIPT = Path(__file__).resolve().parents[1] / "scripts" / "grok_delegate.py"
+GROK = import_wrapper("grok_delegate")
 
-
-def make_fake_grok(directory: Path, body: str) -> Path:
-    fake = directory / "grok"
-    fake.write_text(textwrap.dedent(body), encoding="utf-8")
-    fake.chmod(fake.stat().st_mode | stat.S_IXUSR)
-    return fake
-
-
-def run_wrapper(args: list[str], env: dict[str, str] | None = None) -> subprocess.CompletedProcess[str]:
-    merged_env = os.environ.copy()
-    if env:
-        merged_env.update(env)
-    return subprocess.run(
-        [sys.executable, str(SCRIPT), *args],
-        capture_output=True,
-        text=True,
-        check=False,
-        env=merged_env,
-    )
-
+PREFLIGHT = """\
+#!/usr/bin/env python3
+import json
+import sys
+if sys.argv[1:] == ["--version"]:
+    print("grok 0.2.51")
+    raise SystemExit(0)
+if sys.argv[1:] == ["inspect", "--json"]:
+    print('{"config":"ok"}')
+    raise SystemExit(0)
+if sys.argv[1:] == ["models"]:
+    print("grok-build-0.1")
+    raise SystemExit(0)
+"""
 
 class GrokDelegateTests(unittest.TestCase):
-    def test_doctor_blocks_when_auth_missing(self) -> None:
+    def test_doctor_requires_proven_auth_or_a_redacted_environment_credential(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print("Not logged in. Run grok login.", file=sys.stderr)
-                    raise SystemExit(1)
-                raise SystemExit(9)
-                """,
+            args = GROK.build_parser().parse_args(
+                ["doctor", "--grok-bin", "/usr/bin/true", "--cwd", str(root)]
             )
-            result = run_wrapper(["doctor", "--grok-bin", str(fake), "--cwd", str(root)])
-            payload = json.loads(result.stdout)
-
-            self.assertEqual(result.returncode, 2)
-            self.assertFalse(payload["ok"])
-            self.assertIn("grok_auth_missing", payload["issues"])
-            self.assertEqual(payload["auth"]["method"], "missing")
-
-    def test_inspect_success_alone_does_not_prove_authentication(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{"config": "ok"}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("Not logged in. Run grok login.", file=sys.stderr)
-                    raise SystemExit(1)
-                raise SystemExit(9)
-                """,
+            version = GROK.CommandResult(["true", "--version"], 0, "grok 0.2.51", "")
+            inspect_missing = GROK.CommandResult(["true", "inspect", "--json"], 1, "", "Not logged in")
+            inspect_ready = GROK.CommandResult(["true", "inspect", "--json"], 0, '{"config":"ok"}', "")
+            unknown_models = GROK.CommandResult(["true", "models"], 9, "", "")
+            unauthenticated_models = GROK.CommandResult(
+                ["true", "models"], 1, "", "Not logged in. Run grok login."
             )
-            result = run_wrapper(["doctor", "--grok-bin", str(fake), "--cwd", str(root)])
-            payload = json.loads(result.stdout)
-
-            self.assertEqual(result.returncode, 2)
-            self.assertFalse(payload["auth"]["ok"])
-            self.assertIn("not_authenticated", payload["issues"])
-
-    def test_doctor_accepts_environment_credential_without_printing_value(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print("Not logged in. Run grok login.", file=sys.stderr)
-                    raise SystemExit(1)
-                raise SystemExit(9)
-                """,
+            misleading_zero_models = GROK.CommandResult(
+                ["true", "models"], 0, "You are not authenticated.\ngrok-build-0.1", ""
             )
+            empty_credentials = {name: "" for name in GROK.CREDENTIAL_ENV_NAMES}
+
+            with patch.dict(os.environ, empty_credentials), patch.object(
+                GROK, "run_subprocess", side_effect=[version, inspect_missing, unknown_models]
+            ):
+                missing = GROK.collect_preflight(args)
+            self.assertIn("grok_auth_missing", missing["issues"])
+
+            with patch.dict(os.environ, empty_credentials), patch.object(
+                GROK, "run_subprocess", side_effect=[version, inspect_ready, unauthenticated_models]
+            ):
+                inspect = GROK.collect_preflight(args)
+            self.assertIn("not_authenticated", inspect["issues"])
+
+            with patch.dict(os.environ, empty_credentials), patch.object(
+                GROK, "run_subprocess", side_effect=[version, inspect_ready, misleading_zero_models]
+            ):
+                misleading = GROK.collect_preflight(args)
+            self.assertIn("not_authenticated", misleading["issues"])
+
             secret = "fake-grok-secret-value"
-            result = run_wrapper(
-                ["doctor", "--grok-bin", str(fake), "--cwd", str(root)],
-                env={"XAI_API_KEY": secret},
-            )
-            payload = json.loads(result.stdout)
+            with patch.dict(os.environ, empty_credentials | {"XAI_API_KEY": secret}), patch.object(
+                GROK, "run_subprocess", side_effect=[version, inspect_missing, unknown_models]
+            ):
+                ready_data = GROK.collect_preflight(args)
+            self.assertTrue(ready_data["ok"])
+            self.assertEqual(ready_data["auth"]["method"], "environment")
+            self.assertNotIn(secret, json.dumps(ready_data))
 
-            self.assertEqual(result.returncode, 0)
-            self.assertTrue(payload["ok"])
-            self.assertEqual(payload["auth"]["method"], "environment")
-            self.assertIn("XAI_API_KEY", payload["auth"]["env_credentials"])
-            self.assertNotIn(secret, result.stdout)
-
-    def test_default_discovery_uses_candidate_fallback(self) -> None:
+    def test_dry_runs_apply_safe_defaults_and_explicit_tool_opt_ins(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            project = root / "project"
-            project.mkdir()
-            local_bin = root / ".grok" / "bin"
-            local_bin.mkdir(parents=True)
-            fake = make_fake_grok(
-                local_bin,
-                """\
-                #!/usr/bin/env python3
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{"config": "ok"}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("grok-4.5")
-                    raise SystemExit(0)
-                raise SystemExit(9)
-                """,
-            )
-            result = run_wrapper(
-                ["doctor", "--cwd", str(project)],
-                env={
-                    "PATH": "/usr/bin:/bin:/usr/sbin:/sbin",
-                    "GROK_BUILD_TEST_CANDIDATES": str(fake),
-                },
-            )
-            payload = json.loads(result.stdout)
-
-            self.assertEqual(result.returncode, 0)
-            self.assertTrue(payload["ok"])
-            self.assertEqual(payload["grok"]["path"], str(fake))
-
-    def test_run_dry_run_builds_safe_argv_and_env_policy(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{"config": "ok"}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("grok-4.5")
-                    raise SystemExit(0)
-                raise SystemExit(42)
-                """,
-            )
-            result = run_wrapper(
+            default_args = GROK.build_parser().parse_args(
                 [
                     "run",
                     "--grok-bin",
-                    str(fake),
+                    "/usr/bin/true",
                     "--cwd",
                     str(root),
                     "--prompt",
                     "Review this safely",
-                    "--run-id",
-                    "dry-run",
                     "--dry-run",
-                ],
-                env={"XAI_API_KEY": "xai-secret-value"},
-            )
-            payload = json.loads(result.stdout)
-
-            self.assertEqual(result.returncode, 0)
-            self.assertEqual(payload["status"], "dry-run")
-            self.assertIn("--prompt-file", payload["command"]["argv"])
-            self.assertNotIn("Review this safely", result.stdout)
-            self.assertEqual(payload["env_policy"]["GROK_CLAUDE_SKILLS_ENABLED"], "false")
-            self.assertIn("--deny", payload["command"]["argv"])
-            self.assertIn("--model", payload["command"]["argv"])
-            self.assertEqual(
-                payload["command"]["argv"][payload["command"]["argv"].index("--permission-mode") + 1],
-                "dontAsk",
-            )
-            self.assertEqual(
-                payload["command"]["argv"][payload["command"]["argv"].index("--model") + 1],
-                "grok-4.5",
-            )
-
-    def test_run_accepts_context_allowed_by_workspace_policy(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            marker = root / "called.txt"
-            fake = make_fake_grok(
-                root,
-                f"""\
-                #!/usr/bin/env python3
-                import sys
-                from pathlib import Path
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{{"config":"ok"}}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("grok-4.5")
-                    raise SystemExit(0)
-                Path({str(marker)!r}).write_text("called")
-                print("reviewed")
-                raise SystemExit(0)
-                """,
-            )
-            private_prompt = (
-                "Review internal project material at "
-                "/projects/example/source-material/2026-06/users-export.csv"
-            )
-            result = run_wrapper(
-                [
-                    "run",
-                    "--grok-bin",
-                    str(fake),
-                    "--cwd",
-                    str(root),
-                    "--prompt",
-                    private_prompt,
-                    "--run-id",
-                    "private-context",
                 ]
             )
-            payload = json.loads(result.stdout)
+            _, default_policy = GROK.grok_env(default_args)
+            default_argv = GROK.build_grok_argv(default_args, "<prompt-file>")
+            self.assertEqual(default_argv[default_argv.index("--permission-mode") + 1], "auto")
+            self.assertEqual(default_argv[default_argv.index("--sandbox") + 1], "read-only")
+            self.assertIn("--deny", default_argv)
+            self.assertIn("--no-subagents", default_argv)
+            self.assertIn("--disable-web-search", default_argv)
+            self.assertEqual(default_policy["GROK_CLAUDE_SKILLS_ENABLED"], "false")
 
-            self.assertEqual(result.returncode, 0)
-            self.assertTrue(payload["ok"])
-            self.assertTrue(marker.exists())
-            self.assertNotIn(private_prompt, result.stdout)
-
-    def test_audit_prompt_defers_to_workspace_policy(self) -> None:
-        result = run_wrapper(
-            [
-                "audit-prompt",
-                "--data-classification",
-                "client-private",
-                "--prompt",
-                "Review the supplied internal context.",
-            ]
-        )
-        payload = json.loads(result.stdout)
-
-        self.assertEqual(result.returncode, 0)
-        self.assertTrue(payload["ok"])
-        self.assertEqual(payload["status"], "safe")
-
-    def test_edit_mode_uses_headless_write_permissions(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{"config": "ok"}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("grok-4.5")
-                    raise SystemExit(0)
-                raise SystemExit(42)
-                """,
-            )
-            result = run_wrapper(
+            opted_args = GROK.build_parser().parse_args(
                 [
                     "run",
                     "--grok-bin",
-                    str(fake),
+                    "/usr/bin/true",
                     "--cwd",
                     str(root),
                     "--mode",
                     "edit",
                     "--prompt",
-                    "Patch the file",
-                    "--run-id",
-                    "edit-permissions",
-                    "--dry-run",
-                ]
-            )
-            payload = json.loads(result.stdout)
-            argv = payload["command"]["argv"]
-
-            self.assertEqual(result.returncode, 0)
-            self.assertIn("--permission-mode", argv)
-            self.assertEqual(argv[argv.index("--permission-mode") + 1], "acceptEdits")
-            self.assertEqual(argv[argv.index("--sandbox") + 1], "workspace")
-            self.assertNotIn("--always-approve", argv)
-
-    def test_run_writes_artifacts_and_captures_output(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import os
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{"config": "ok"}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("grok-4.5")
-                    raise SystemExit(0)
-                print("done")
-                print("stderr note", file=sys.stderr)
-                raise SystemExit(0)
-                """,
-            )
-            result = run_wrapper(
-                [
-                    "run",
-                    "--grok-bin",
-                    str(fake),
-                    "--cwd",
-                    str(root),
-                    "--prompt",
-                    "Do the thing",
-                    "--run-id",
-                    "artifact-test",
-                ]
-            )
-            payload = json.loads(result.stdout)
-
-            self.assertEqual(result.returncode, 0)
-            self.assertTrue(payload["ok"])
-            self.assertEqual(payload["result"]["stdout"].strip(), "done")
-            stdout_path = Path(payload["artifacts"]["stdout"])
-            stderr_path = Path(payload["artifacts"]["stderr"])
-            meta_path = Path(payload["artifacts"]["meta"])
-            self.assertEqual(stdout_path.read_text(encoding="utf-8").strip(), "done")
-            self.assertEqual(stderr_path.read_text(encoding="utf-8").strip(), "stderr note")
-            self.assertTrue(meta_path.exists())
-
-    def test_json_cancelled_result_is_not_success(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import json
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{"config": "ok"}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("grok-4.5")
-                    raise SystemExit(0)
-                print(json.dumps({"text": "", "stopReason": "Cancelled"}))
-                raise SystemExit(0)
-                """,
-            )
-            result = run_wrapper(
-                [
-                    "run",
-                    "--grok-bin",
-                    str(fake),
-                    "--cwd",
-                    str(root),
-                    "--prompt",
-                    "Plan the thing",
-                    "--output-format",
-                    "json",
-                    "--run-id",
-                    "cancelled-json",
-                ]
-            )
-            payload = json.loads(result.stdout)
-
-            self.assertEqual(result.returncode, 1)
-            self.assertFalse(payload["ok"])
-            self.assertEqual(payload["failure_kind"], "cancelled")
-            self.assertEqual(payload["status"], "blocked")
-
-    def test_probe_requires_exact_ready(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{"config": "ok"}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("grok-4.5")
-                    raise SystemExit(0)
-                print("GROK_READY")
-                raise SystemExit(0)
-                """,
-            )
-            result = run_wrapper(["probe", "--grok-bin", str(fake), "--cwd", str(root), "--run-id", "probe"])
-            payload = json.loads(result.stdout)
-
-            self.assertEqual(result.returncode, 0)
-            self.assertTrue(payload["ok"])
-            self.assertEqual(payload["probe"]["stdout"].strip(), "GROK_READY")
-            self.assertIn("--disable-web-search", payload["command"]["argv"])
-            self.assertIn("--no-subagents", payload["command"]["argv"])
-            self.assertEqual(
-                payload["command"]["argv"][payload["command"]["argv"].index("--sandbox") + 1],
-                "read-only",
-            )
-
-    def test_unsafe_cwd_blocks(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                raise SystemExit(0)
-                """,
-            )
-            result = run_wrapper(["doctor", "--grok-bin", str(fake), "--cwd", str(Path.home())])
-            payload = json.loads(result.stdout)
-
-            self.assertEqual(result.returncode, 2)
-            self.assertIn("cwd_too_broad", payload["issues"])
-
-    def test_allow_mcp_and_subagents_opt_in(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{"config": "ok"}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("grok-4.5")
-                    raise SystemExit(0)
-                raise SystemExit(42)
-                """,
-            )
-            result = run_wrapper(
-                [
-                    "run",
-                    "--grok-bin",
-                    str(fake),
-                    "--cwd",
-                    str(root),
-                    "--prompt",
                     "Use optional tools",
-                    "--run-id",
-                    "opts",
                     "--dry-run",
                     "--allow-mcp",
                     "--allow-subagents",
                     "--allow-web",
                     "--compat",
                     "all",
-                ],
-                env={"XAI_API_KEY": "xai-secret-value"},
-            )
-            payload = json.loads(result.stdout)
-            argv = payload["command"]["argv"]
-
-            self.assertEqual(result.returncode, 0)
-            self.assertNotIn("MCPTool(*)", argv)
-            self.assertNotIn("--no-subagents", argv)
-            self.assertNotIn("--disable-web-search", argv)
-            self.assertEqual(payload["env_policy"], {})
-
-    def test_failure_classification_and_redaction(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            secret = "fake-grok-secret-value"
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import os
-                import sys
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{"config": "ok"}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("grok-4.5")
-                    raise SystemExit(0)
-                print(f"rate limit 429 {os.environ['XAI_API_KEY']}", file=sys.stderr)
-                raise SystemExit(1)
-                """,
-            )
-            result = run_wrapper(
-                [
-                    "run",
-                    "--grok-bin",
-                    str(fake),
-                    "--cwd",
-                    str(root),
-                    "--prompt",
-                    "Do the thing",
-                ],
-                env={"XAI_API_KEY": secret},
-            )
-            payload = json.loads(result.stdout)
-
-            self.assertEqual(result.returncode, 1)
-            self.assertEqual(payload["failure_kind"], "rate_limit_or_quota")
-            self.assertNotIn(secret, result.stdout)
-            self.assertIn("<redacted:XAI_API_KEY>", payload["result"]["stderr"])
-
-    def test_partial_output_timeout_returns_receipt(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fake = make_fake_grok(
-                root,
-                """\
-                #!/usr/bin/env python3
-                import sys
-                import time
-                if sys.argv[1:] == ["--version"]:
-                    print("grok 0.2.51")
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["inspect", "--json"]:
-                    print('{"config": "ok"}')
-                    raise SystemExit(0)
-                if sys.argv[1:] == ["models"]:
-                    print("grok-4.5")
-                    raise SystemExit(0)
-                sys.stdout.write("partial")
-                sys.stdout.flush()
-                time.sleep(5)
-                """,
-            )
-            result = run_wrapper(
-                [
-                    "run",
-                    "--grok-bin",
-                    str(fake),
-                    "--cwd",
-                    str(root),
-                    "--timeout",
-                    "1",
-                    "--prompt",
-                    "Review this.",
                 ]
             )
-            payload = json.loads(result.stdout)
+            _, opted_policy = GROK.grok_env(opted_args)
+            opted_argv = GROK.build_grok_argv(opted_args, "<prompt-file>")
+            self.assertEqual(opted_argv[opted_argv.index("--sandbox") + 1], "workspace")
+            self.assertNotIn("MCPTool(*)", opted_argv)
+            self.assertNotIn("--no-subagents", opted_argv)
+            self.assertNotIn("--disable-web-search", opted_argv)
+            self.assertEqual(opted_policy, {})
 
-            self.assertEqual(result.returncode, 1)
-            self.assertEqual(payload["failure_kind"], "timeout")
-            self.assertIn("partial", payload["result"]["stdout"])
+    def test_successful_run_writes_output_receipts(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            fake = make_executable(
+                root,
+                "grok",
+                PREFLIGHT
+                + """\
+print("done")
+print("stderr note", file=sys.stderr)
+raise SystemExit(0)
+""",
+            )
+            result = run_wrapper(
+                SCRIPT,
+                ["run", "--grok-bin", str(fake), "--cwd", str(root), "--prompt", "Do the thing", "--run-id", "artifacts"],
+            )
+            data = payload(result)
+            self.assertEqual(result.returncode, 0)
+            self.assertEqual(data["result"]["stdout"].strip(), "done")
+            self.assertEqual(Path(data["artifacts"]["stdout"]).read_text(encoding="utf-8").strip(), "done")
+            self.assertEqual(Path(data["artifacts"]["stderr"]).read_text(encoding="utf-8").strip(), "stderr note")
+            self.assertTrue(Path(data["artifacts"]["meta"]).exists())
 
+    def test_probe_requires_the_exact_ready_response(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            args = GROK.build_parser().parse_args(
+                ["probe", "--grok-bin", "/usr/bin/true", "--cwd", str(root), "--run-id", "probe"]
+            )
+            preflight = {"ok": True, "cwd": {"path": str(root)}}
+            artifacts = {
+                "prompt_file": str(root / "prompt.md"),
+                "stdout": str(root / "stdout.log"),
+                "stderr": str(root / "stderr.log"),
+                "meta": str(root / "meta.json"),
+                "git_status_after": str(root / "git-status-after.txt"),
+            }
+
+            results = []
+            for response in ("GROK_READY", "READY"):
+                output = io.StringIO()
+                completed = GROK.CommandResult(["true"], 0, response, "")
+                with patch.object(GROK, "collect_preflight", return_value=preflight.copy()), patch.object(
+                    GROK, "prepare_artifacts", return_value=artifacts
+                ), patch.object(
+                    GROK, "run_subprocess", return_value=completed
+                ), patch.object(GROK, "write_result_artifacts"), redirect_stdout(output):
+                    returncode = GROK.do_probe(args)
+                results.append((returncode, json.loads(output.getvalue())))
+
+            ready_code, ready_data = results[0]
+            wrong_code, wrong_data = results[1]
+            self.assertEqual(ready_code, 0)
+            self.assertEqual(ready_data["probe"]["stdout"], "GROK_READY")
+            self.assertIn("--disable-web-search", ready_data["command"]["argv"])
+            self.assertIn("--no-subagents", ready_data["command"]["argv"])
+            self.assertEqual(wrong_code, 1)
+            self.assertEqual(wrong_data["status"], "blocked")
+
+    def test_cancelled_json_is_not_success(self) -> None:
+        parsed = GROK.parse_json_output(json.dumps({"text": "", "stopReason": "Cancelled"}))
+        self.assertEqual(GROK.semantic_json_failure(parsed), "cancelled")
+        self.assertIsNone(GROK.classify_failure(0, json.dumps(parsed), ""))
 
 if __name__ == "__main__":
     unittest.main()

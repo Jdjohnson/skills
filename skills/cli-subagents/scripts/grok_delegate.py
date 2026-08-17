@@ -13,6 +13,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from _node_registry import add_node_state
+
 
 SECRET_ENV_NAMES = (
     "XAI_API_KEY",
@@ -35,8 +37,9 @@ DEFAULT_GROK_CANDIDATES = (
     "/usr/local/bin/grok",
 )
 
-DEFAULT_GROK_MODEL = "grok-4.5"
+DEFAULT_GROK_MODEL = "grok-build-0.1"
 DEFAULT_GROK_EFFORT = "medium"
+NODE_ID = "grok-build"
 
 COMPAT_ENV_NAMES = (
     "GROK_CLAUDE_SKILLS_ENABLED",
@@ -52,13 +55,11 @@ COMPAT_ENV_NAMES = (
 )
 
 MODE_PERMISSION = {
-    "read": "dontAsk",
-    # Grok's built-in plan permission mode can return an internal cancelled
-    # state without user-facing text. Delegated planning should stay in stdout.
-    "plan": "dontAsk",
-    "edit": "acceptEdits",
+    "read": "auto",
+    "plan": "auto",
+    "edit": "auto",
     "trusted": "bypassPermissions",
-    "mcp": "plan",
+    "mcp": "auto",
 }
 
 MODE_SANDBOX = {
@@ -268,22 +269,22 @@ def collect_preflight(args: argparse.Namespace, require_auth: bool = True) -> di
                 timeout=30,
                 env=env,
             )
-            if models_result.returncode == 0:
+            models_failure = classify_failure(
+                models_result.returncode,
+                models_result.stdout,
+                models_result.stderr,
+            )
+            if models_result.returncode == 0 and models_failure is None:
                 auth["ok"] = True
                 auth["method"] = "grok-models"
             elif auth["env_credentials"]:
                 auth["ok"] = True
                 auth["method"] = "environment"
             elif require_auth:
-                auth_failure = classify_failure(
-                    models_result.returncode,
-                    models_result.stdout,
-                    models_result.stderr,
-                )
                 issues.append(
                     "grok_auth_missing"
-                    if auth_failure in {None, "unknown"}
-                    else auth_failure
+                    if models_failure in {None, "unknown"}
+                    else models_failure
                 )
         elif auth["env_credentials"]:
             auth["ok"] = True
@@ -302,6 +303,14 @@ def collect_preflight(args: argparse.Namespace, require_auth: bool = True) -> di
 
 def classify_failure(returncode: int, stdout: str, stderr: str) -> str | None:
     text = f"{stdout}\n{stderr}".lower()
+    if (
+        "not authenticated" in text
+        or "not logged in" in text
+        or "sign in" in text
+        or "grok login" in text
+        or "authentication required" in text
+    ):
+        return "not_authenticated"
     if returncode == 0:
         if "bundle too large" in text or "bundle_create_failed" in text:
             return "bundle_too_large_warning"
@@ -311,8 +320,6 @@ def classify_failure(returncode: int, stdout: str, stderr: str) -> str | None:
         return "missing_cli"
     if returncode == 124:
         return "timeout"
-    if "not logged in" in text or "sign in" in text or "grok login" in text or "authentication required" in text:
-        return "not_authenticated"
     if "invalid api key" in text or "unauthorized" in text or "oauth" in text:
         return "authentication_error"
     if "sandbox initialization failed" in text or ("operation not permitted" in text and "sandbox" in text):
@@ -508,6 +515,7 @@ def write_result_artifacts(artifacts: dict[str, str], result: CommandResult, pay
 
 def do_doctor(args: argparse.Namespace) -> int:
     payload = collect_preflight(args, require_auth=not args.no_auth_required)
+    add_node_state(payload, NODE_ID)
     json_print(payload)
     return 0 if payload["ok"] else 2
 

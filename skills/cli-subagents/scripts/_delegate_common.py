@@ -219,6 +219,8 @@ def classify_failure(returncode: int, stdout: str, stderr: str) -> str | None:
         "ineligibletiererror" in text
         or "unsupported_client" in text
         or "client is no longer supported" in text
+        or "named models unavailable" in text
+        or "free plans can only use auto" in text
     ):
         return "unsupported_account_tier"
     if "rate limit" in text or "quota" in text or "429" in text or "credit" in text:

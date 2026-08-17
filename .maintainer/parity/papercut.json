@@ -1,0 +1,15 @@
+{
+  "skill": "papercut",
+  "parity_goal": "Preserve explicit-only visible-session review and produce concise deduplicated workflow-friction findings.",
+  "cases": [
+    {
+      "id": "explicit-review",
+      "prompt": "$papercut",
+      "expected": [
+        "reviews only visible session evidence",
+        "excludes credentials and hidden instructions",
+        "returns only useful deduplicated papercuts"
+      ]
+    }
+  ]
+}

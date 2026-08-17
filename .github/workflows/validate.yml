@@ -28,8 +28,3 @@ jobs:
           done < <(find skills -path '*/tests/test_*.py' -type f | sort)
       - name: Run ChatGPT packet tests
         run: python3 .maintainer/chatgpt/test_build_desktop_packet.py
-      - name: Run workflow regressions
-        shell: bash
-        run: |
-          bash .maintainer/run/run-regression.sh
-          bash .maintainer/run/install-regression.sh

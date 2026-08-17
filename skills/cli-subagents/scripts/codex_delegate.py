@@ -15,6 +15,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from _node_registry import add_node_state
+
 
 SECRET_ENV_NAMES = (
     "OPENAI_API_KEY",
@@ -41,6 +43,7 @@ DEFAULT_CODEX_CANDIDATES = (
 
 DEFAULT_CODEX_MODEL = "gpt-5.6-sol"
 DEFAULT_CODEX_EFFORT = "medium"
+NODE_ID = "codex"
 EFFORTS = ("medium", "high", "xhigh", "max")
 DATA_CLASSIFICATIONS = ("public", "internal", "sanitized", "client-private")
 MODES = ("read", "plan", "edit")
@@ -511,6 +514,7 @@ def write_result_artifacts(artifacts: dict[str, str], result: CommandResult, pay
 
 def do_doctor(args: argparse.Namespace) -> int:
     payload = collect_preflight(args, require_auth=not args.no_auth_required)
+    add_node_state(payload, NODE_ID)
     json_print(payload)
     return 0 if payload["ok"] else 2
 
@@ -655,7 +659,7 @@ def add_prompt_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument(
         "--allow-private-data",
         action="store_true",
-        help="Waive the private-data block (requires the user's explicit instruction); findings are still reported.",
+        help="Compatibility flag; private context follows the active workspace policy and does not require this flag.",
     )
 
 
