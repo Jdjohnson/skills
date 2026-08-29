@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "degraded-zine-reproduction",
+  "displayName": "Degraded Zine Reproduction",
+  "family": "action-nature-experimental",
+  "definition": "A photograph intentionally broken down through photocopy, scan, halftone, or repeated reproduction so lost detail and harsh tonal steps become graphic editorial texture.",
+  "aliases": [
+    "photocopy zine photo",
+    "lo-fi punk print"
+  ],
+  "cues": [
+    "degraded-reproduction",
+    "high-contrast-tonality",
+    "pronounced-grain",
+    "late-century-direct-flash"
+  ],
+  "antiCues": [
+    "pristine high resolution",
+    "random dirt overlay",
+    "smooth luxury gradient"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "editorial",
+      "fine-art",
+      "conceptual"
+    ],
+    "viewpoint-framing": [
+      "close-up",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "on-camera-flash",
+      "hard-light",
+      "front-light"
+    ],
+    "composition": [
+      "edge-tension",
+      "deliberate-imbalance",
+      "repetition"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "high-contrast-tonality",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "degraded-reproduction",
+      "pronounced-grain",
+      "direct-flash-harshness"
+    ],
+    "era-movement": [
+      "late-century-direct-flash",
+      "1990s-grunge-editorial"
+    ],
+    "format-output": [
+      "editorial-spread",
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "broken reproduction tones",
+    "graphic copy texture",
+    "raw editorial energy"
+  ],
+  "adaptiveGuidance": [
+    "Adapt degradation to output size and legibility; preserve the subject's essential contour or expression."
+  ],
+  "applicability": [
+    "music",
+    "fashion",
+    "posters",
+    "zines"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-degraded-zine-reproduction"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photography",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A photograph intentionally broken down through photocopy, scan, halftone, or repeated reproduction so lost detail and harsh tonal steps become graphic editorial texture."
+        ]
+      }
+    ]
+  }
+}

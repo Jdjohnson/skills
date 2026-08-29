@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "academic-journal",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of a rigorous academic journal.\nUse case: product-mockup\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original scholarly journal cover and article spread with restrained serif typography, numbered sections, footnotes, figure caption, one precise scientific diagram, narrow color band, and dense but orderly hierarchy.\nStyle/medium: photographed peer-reviewed print journal\nComposition/framing: portrait 4:5, cover beside open article, diagram and citation structure visible, legible at thumbnail scale\nLighting/mood: even neutral light, sober and exact\nColor palette: white, charcoal, muted teal, small rust accent\nMaterials/textures: matte archival paper, crisp black ink\nText: use only the exact title STUDIES 12 and abstract body bars/numerals\nConstraints: fictional journal, original diagram, no institution name, no copied cover, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "6d93b7686e69c334ffa0da93d8ccc7e302235c35705656608bc6208d69b2e586",
+  "finalAsset": "assets/refs/academic-journal/generated-lead.jpg",
+  "finalSha256": "ac1dc317262bf7e688cf1a9c65bcc11ebfb7d47a7af6ffefbfb8bce1cbae3b13",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

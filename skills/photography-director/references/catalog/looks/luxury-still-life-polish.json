@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "id": "luxury-still-life-polish",
+  "displayName": "Luxury Reflective Still Life",
+  "family": "commercial-still-life",
+  "definition": "A premium product still life using controlled reflections, warm low-key illumination, selective focus, deep shadow, and generous spatial restraint.",
+  "aliases": [
+    "luxury product mood",
+    "premium perfume still life",
+    "perfume bottle"
+  ],
+  "cues": [
+    "selective-focus",
+    "luminous-highlights",
+    "low-key-lighting",
+    "negative-space"
+  ],
+  "antiCues": [
+    "flat ecommerce light",
+    "careless clipped reflections",
+    "cheap random sparkle"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "product",
+      "tabletop",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "detail-framing",
+      "oblique-view",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression",
+      "macro-magnification"
+    ],
+    "focus-depth": [
+      "selective-focus",
+      "moderate-separation"
+    ],
+    "lighting": [
+      "side-light",
+      "rim-light",
+      "low-key-lighting",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "centrality",
+      "negative-space",
+      "geometric-order"
+    ],
+    "color-tonality": [
+      "warm-color",
+      "luminous-highlights",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "polished-retouching",
+      "crisp-clarity"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "portrait-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "controlled reflective surfaces",
+    "warm concentrated highlights",
+    "premium negative space"
+  ],
+  "adaptiveGuidance": [
+    "Adapt flags, source size, and focus to glass, metal, liquid, or fabric; retain plausible material response."
+  ],
+  "applicability": [
+    "cosmetics",
+    "jewelry",
+    "beverages",
+    "luxury goods"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-luxury-still-life-polish"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A premium product still life using controlled reflections, warm low-key illumination, selective focus, deep shadow, and generous spatial restraint."
+        ]
+      }
+    ]
+  }
+}

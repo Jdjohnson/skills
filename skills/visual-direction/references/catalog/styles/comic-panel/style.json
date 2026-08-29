@@ -1,0 +1,161 @@
+{
+  "id": "comic-panel",
+  "displayName": "Comic Panel",
+  "family": "pop-commercial",
+  "definition": "Sequential frames use ink contour, panel size, gutters, captions, balloons, action, and controlled reveal to make narrative movement legible.",
+  "axes": {
+    "minimalOrnate": 0.3,
+    "geometricOrganic": -0.2,
+    "polishedRaw": -0.3,
+    "calmEnergetic": 0.8,
+    "historicalFuturistic": 0,
+    "realisticAbstract": 0.3,
+    "warmCool": -0.1,
+    "lightDark": 0.5,
+    "playfulSerious": -0.8,
+    "handmadeMachined": 0.1,
+    "flatDeep": -0.6,
+    "everydayLuxurious": -0.3
+  },
+  "cues": [
+    "panelized",
+    "outline",
+    "hard-edge",
+    "narrative",
+    "polychrome"
+  ],
+  "antiCues": [
+    "meditative-pace",
+    "photographic",
+    "minimal"
+  ],
+  "emotionalEffects": [
+    "playful",
+    "energized",
+    "urgent"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.7,
+      "symmetry": 0.4,
+      "margins": 0.1
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#DC143C",
+        "#0047AB",
+        "#F5F0DC",
+        "#0D0D0D",
+        "#FFFFFF"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/comic-panel.svg",
+      "descriptor": "comic lettering with balloon rhythm",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.1,
+      "lineWeight": 0.8,
+      "curveTension": 0.25
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/pop-commercial-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.25,
+      "tags": [
+        "ink",
+        "paper"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.8,
+      "keyDirection": "front",
+      "gradient": 0.2
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.15,
+      "parallax": 0.05
+    },
+    "motion": {
+      "energy": 0.8,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/pop-commercial"
+      ],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "illustrated",
+      "subjectRules": [
+        "short original sequential scene",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.45
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 3,
+    "packaging": 2,
+    "photography": 0,
+    "motion-video": 3,
+    "product-3d": 1,
+    "interiors-architecture": 0,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "a short original scene that changes across multiple bordered panels",
+    "framing": "vary shot scale and panel proportion to control time, connect action through clear eyelines, and integrate balloons and effects into the reading path",
+    "mustShow": [
+      "panelized",
+      "outline",
+      "hard-edge"
+    ],
+    "mustAvoid": [
+      "meditative-pace",
+      "photographic",
+      "minimal",
+      "single isolated illustration",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "pop-art",
+    "carnival-poster",
+    "sticker-bomb"
+  ],
+  "contrasting": [
+    "botanical-plate",
+    "specimen-label",
+    "scandinavian-modern"
+  ]
+}

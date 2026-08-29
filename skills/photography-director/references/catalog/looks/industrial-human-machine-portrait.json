@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "industrial-human-machine-portrait",
+  "displayName": "Industrial Human-Machine Work Portrait",
+  "family": "documentary-street-event",
+  "definition": "A close monochrome work portrait that makes a person and heavy machinery equally structural, using physical gesture, hard-edged form, and real industrial texture instead of cinematic staging.",
+  "aliases": [
+    "moody gritty people and machinery",
+    "worker embedded in machinery",
+    "industrial work portrait"
+  ],
+  "cues": [
+    "environmental-portrait",
+    "black-and-white",
+    "human-machine-scale",
+    "geometric-order"
+  ],
+  "antiCues": [
+    "worker detached from the machinery",
+    "fake cinematic fog",
+    "clean corporate factory pose"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "environmental-portrait",
+      "documentary"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "environmental-framing"
+    ],
+    "composition": [
+      "centrality",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "high-contrast-tonality"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "worker and machine share the frame",
+    "physical labor remains legible",
+    "industrial texture is descriptive rather than decorative"
+  ],
+  "adaptiveGuidance": [
+    "Adapt distance and crop to the machine while keeping the worker's action readable; preserve real surfaces and avoid theatrical smoke or invented danger."
+  ],
+  "applicability": [
+    "workers",
+    "factories",
+    "maintenance",
+    "heavy machinery"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-industrial-human-machine-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lewis Hine Power house mechanic working on steam pump",
+        "publisher": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg",
+        "accessedAt": "2026-08-11",
+        "supports": [
+          "The documented 1920 work portrait visibly embeds a mechanic inside steam-pump machinery and organizes labor through bold monochrome industrial geometry."
+        ]
+      }
+    ]
+  }
+}

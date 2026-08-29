@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "candy-plastic",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI built-in imagegen",
+  "promptRecordStatus": "exact",
+  "prompt": "Create an original playful studio material study of translucent silicone and soft-plastic objects: rounded containers, inflated loops, gummy abstract forms, soft-touch surfaces, and frosted edges. Pastel coral, lilac, mint, butter yellow, and milky clear plastic; tactile contemporary product-catalog photography, cheerful and sculptural. No recognizable commercial products, toys, logos, text, or watermark.",
+  "sourceOutputStatus": "original_tool_response_not_retained",
+  "finalAsset": "assets/refs/candy-plastic/generated-01.jpg",
+  "finalSha256": "56ebd037d2ab22dba450b658c84babc72704adfd66d8f249f8926ad133a86587",
+  "postProcessing": "AI-generated source image center-cropped to a 4:5 portrait and resized to 800x1000 pixels; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

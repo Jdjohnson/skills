@@ -1,0 +1,6 @@
+interface:
+  display_name: "Session Friction Review"
+  short_description: "Extract small workflow friction from a session"
+  default_prompt: "Use $session-friction-review to review this visible session for small workflow friction."
+policy:
+  allow_implicit_invocation: false

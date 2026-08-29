@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "id": "quiet-environmental-product",
+  "displayName": "Quiet Environmental Product",
+  "family": "commercial-still-life",
+  "definition": "A small reflective object remains legible within a softly present lived-in setting, using broad gentle side illumination, restrained color, selective focus, and human-scale environmental evidence rather than luxury-ad polish.",
+  "aliases": [],
+  "cues": [
+    "readable-reflective-object",
+    "lived-in-context",
+    "broad-gentle-side-light",
+    "soft-environmental-depth"
+  ],
+  "antiCues": [
+    "glossy luxury pedestal",
+    "seamless ecommerce field",
+    "featureless black void"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "product",
+      "tabletop",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "detail-framing",
+      "eye-level",
+      "off-center-framing",
+      "environmental-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective",
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "selective-focus",
+      "moderate-separation"
+    ],
+    "lighting": [
+      "soft-light",
+      "diffused-light",
+      "side-light",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "environmental-context",
+      "negative-space",
+      "layered-depth"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "muted-color",
+      "low-contrast-tonality",
+      "luminous-highlights"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "portrait-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "readable reflective object",
+    "quiet lived-in environment",
+    "broad gentle side illumination",
+    "soft but recognizable background"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera angle, reflection cards, working distance, and focus to the object's glass or metal while retaining human-scale environmental context."
+  ],
+  "applicability": [
+    "fragrance",
+    "cosmetics",
+    "personal objects",
+    "small reflective products"
+  ],
+  "incompatibilities": [
+    "seamless ecommerce isolation",
+    "high-gloss luxury hero treatment"
+  ],
+  "referenceIds": [
+    "ref-quiet-lived-in-perfume"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Perfume Bottles on Bedside Table",
+        "publisher": "Pexels",
+        "url": "https://www.pexels.com/photo/perfume-bottles-on-bedside-table-8624573/",
+        "accessedAt": "2026-08-12",
+        "supports": [
+          "A real fragrance scene can keep readable glass, lived-in context, restrained color, gentle side illumination, and environmental depth visible without luxury-ad polish."
+        ]
+      }
+    ]
+  }
+}

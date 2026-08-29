@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "direct-flash-nightlife-portrait",
+  "displayName": "Direct-Flash Nightlife Portrait",
+  "family": "portrait-editorial",
+  "definition": "A close social portrait with blunt on-camera flash, rapid dark falloff, mixed ambient color, casual cropping, and energetic presence.",
+  "aliases": [
+    "paparazzi portrait",
+    "nightclub direct flash"
+  ],
+  "cues": [
+    "on-camera-flash",
+    "direct-flash-harshness",
+    "mixed-light",
+    "late-century-direct-flash"
+  ],
+  "antiCues": [
+    "soft studio wrap",
+    "clean seamless backdrop",
+    "quiet daylight mood"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "event",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "close-up",
+      "eye-level",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "on-camera-flash",
+      "front-light",
+      "hard-light",
+      "mixed-light",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "edge-tension",
+      "deliberate-imbalance"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "direct-flash-harshness",
+      "pronounced-grain"
+    ],
+    "era-movement": [
+      "late-century-direct-flash"
+    ],
+    "format-output": [
+      "portrait-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "frontal flash fact",
+    "dark ambient falloff",
+    "social immediacy"
+  ],
+  "adaptiveGuidance": [
+    "Adapt flash power and distance to skin and room size; preserve ambient evidence instead of erasing the venue."
+  ],
+  "applicability": [
+    "nightlife",
+    "events",
+    "music",
+    "fashion"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-direct-flash-nightlife-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "The Basics of Flash Photography",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/the-basics-of-flash-photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A close social portrait with blunt on-camera flash, rapid dark falloff, mixed ambient color, casual cropping, and energetic presence."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "botanical-watercolor",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Finished botanical watercolor plates balancing structural accuracy and painterly color",
+    "creatorOrTradition": "Royal Botanic Gardens botanical artists",
+    "sourceUrl": "https://www.kew.org/read-and-watch/what-is-botanic-art",
+    "whyCanonical": "Kew describes botanical art as an art-and-science practice in which accurate structure, scale, color, and selective detail make a plant legible beyond what a photograph alone can show."
+  },
+  "sources": [
+    {
+      "title": "What is botanical art?",
+      "publisher": "Royal Botanic Gardens, Kew",
+      "url": "https://www.kew.org/read-and-watch/what-is-botanic-art",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Botanical artists study anatomy, scale, attachment, and hidden structures to produce truthful plant representations.",
+        "Watercolor, pencil, and pen can be selected and combined to describe the specimen's important features."
+      ]
+    },
+    {
+      "title": "Artists in the Florilegium",
+      "publisher": "Royal Botanic Garden Edinburgh",
+      "url": "https://www.rbge.org.uk/science-and-conservation/library-and-archives/plant-humanities/rbge-florilegium/artists-in-the-florilegium/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Botanical watercolor can build depth and fine detail through layered washes while preserving close observation and scale.",
+        "Professional botanical painters balance clarity, truth to the plant, character, and an economy of brushwork."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach watercolor wash, hand drawn, painterly, illustrated while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/botanical-watercolor/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/botanical-watercolor/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach watercolor wash, hand drawn, painterly, illustrated while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "cluster_id": "conjecture-criticism-fallibilism",
+  "title": "Conjecture, criticism, and fallibilism",
+  "status": "active",
+  "domains": ["epistemology", "general-problem-solving"],
+  "explanation_levels": ["epistemic-method"],
+  "aliases": ["fallibilism", "conjecture and criticism", "error correction", "problem solving process", "anti-induction"],
+  "source_routes": ["source.for.1997.penguin", "source.boi.2011.allen-lane"],
+  "problem": {
+    "id": "problem.knowledge.without-authority.v1",
+    "summary": "How can knowledge improve when observations do not generate theories and no source of ideas is infallible?",
+    "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"}, "source_refs": [],
+    "routing": {"reasoning_jobs": ["understand-worldview", "criticize", "generate-conjectures", "design-error-correction"], "keywords": ["fallibilism", "uncertain", "authority", "feedback", "experiment", "induction", "error correction"], "structural_predicates": ["A team seeks certainty or authority before acting.", "A failed attempt is treated as proof that progress is impossible.", "Observation is expected to generate a theory without prior problems or conjectures."], "reject_if": ["request to ignore expert evidence"], "diagnostic_questions": ["What problem made the current theory inadequate?", "What rival conjectures are live?", "Which criticism or test would discriminate among them?"]}
+  },
+  "definitions": [{"id": "definition.fallibilism.v1", "term": "fallibilism", "summary": "The recognition that error is always possible, joined to active attempts to find and correct it.", "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"}, "source_refs": [{"source_id": "source.boi.2011.allen-lane", "locator": "chapter 1 summary, lines 386-392", "verification": "checked"}], "lineage": "definition.fallibilism", "version": 1, "lifecycle": "active"}],
+  "claims": [{"id": "claim.knowledge.conjecture-criticism.v1", "summary": "Theories originate as conjectures; knowledge grows when criticism and tests eliminate errors and better explanations replace inadequate ones.", "kind": "methodological-principle", "scope": "universal", "transfer_policy": "same-context", "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"}, "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "chapter 3, Problem-solving, lines 1692-2205 and summary lines 2206-2234", "verification": "checked"}], "lineage": "claim.knowledge.conjecture-criticism", "version": 1, "lifecycle": "active"}],
+  "arguments": [{"id": "argument.induction.invalid.v1", "stance": "for", "summary": "Observations cannot be extrapolated without an explanatory framework, so observation can criticize rival theories but cannot mechanically supply them.", "conclusions": ["claim.knowledge.conjecture-criticism.v1"], "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"}, "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "chapter 3 summary, lines 2206-2234", "verification": "checked"}]}],
+  "examples": [],
+  "criticisms": [{"id": "criticism.fallibilism.not-skepticism.v1", "stance": "qualifies", "summary": "Fallibility does not make all claims equally doubtful and does not justify ignoring expertise; it requires better criticism and correction mechanisms.", "conclusions": ["claim.knowledge.conjecture-criticism.v1"], "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"}, "source_refs": []}],
+  "relationships": [
+    {"id": "rel.knowledge.claim-addresses-authority.v1", "type": "addresses", "from": "claim.knowledge.conjecture-criticism.v1", "to": "problem.knowledge.without-authority.v1", "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"}, "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "chapter 3, lines 1692-2234", "verification": "checked"}]},
+    {"id": "rel.knowledge.induction-argues-for.v1", "type": "argues_for", "from": "argument.induction.invalid.v1", "to": "claim.knowledge.conjecture-criticism.v1", "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"}, "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "chapter 3 summary, lines 2206-2234", "verification": "checked"}]},
+    {"id": "rel.knowledge.skepticism-qualifies.v1", "type": "qualifies", "from": "criticism.fallibilism.not-skepticism.v1", "to": "claim.knowledge.conjecture-criticism.v1", "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"}, "source_refs": []}
+  ],
+  "boundaries": {"misreadings": ["Fallibilism is generic humility.", "No theory needs evidence.", "Expertise can be ignored because experts err."], "not_for": ["delaying emergency action", "compulsory both-sidesing"], "decline_if": ["The issue is a straightforward current factual lookup."]}
+}

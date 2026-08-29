@@ -1,0 +1,59 @@
+{
+  "id": "glossier",
+  "group": "finish",
+  "definition": "Increase specular polish and smooth finish.",
+  "targetConcerns": [
+    "materialTexture",
+    "lighting"
+  ],
+  "compatibleStyles": [
+    "quiet-luxury",
+    "documentary-grit"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "matte-down"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "materialTexture",
+          "path": "grain",
+          "factor": 0.85
+        },
+        {
+          "op": "addParam",
+          "concern": "lighting",
+          "path": "contrast",
+          "amount": 0.15
+        }
+      ]
+    },
+    "heroOverlay": {
+      "type": "colorMatrix",
+      "strength": 0.35
+    }
+  }
+}

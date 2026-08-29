@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "carnival-poster",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "American carnival and circus show poster",
+    "creatorOrTradition": "Commercial midway and circus lithographic poster tradition",
+    "sourceUrl": "https://www.loc.gov/pictures/item/2005675800/",
+    "whyCanonical": "The complete poster shows how superlative display type, spectacular illustrated attraction, event information, and saturated print color compete in a vertical public advertisement."
+  },
+  "sources": [
+    {
+      "title": "Circus poster collection item",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/pictures/item/2005675800/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A documented complete show poster demonstrates stacked headline hierarchy, exaggerated central attraction, lithographic color, and compact logistical copy."
+      ]
+    },
+    {
+      "title": "Advertising and Propaganda Posters",
+      "publisher": "Library of Congress",
+      "url": "https://guides.loc.gov/american-women-prints-photographs/advertising-and-propaganda/posters",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Historic poster collections establish the medium's public scale, persuasive purpose, illustrated spectacle, and relationship between image and display lettering."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The complete poster is an excellent lead: bold circus/wood-type hierarchy, saturated ink color, performer imagery, ornamental framing, and venue/date blocks remain coherent and uncropped at both scales. The independently approved lead is assets/refs/carnival-poster/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/carnival-poster/generated-lead.jpg",
+    "notes": "The complete poster is an excellent lead: bold circus/wood-type hierarchy, saturated ink color, performer imagery, ornamental framing, and venue/date blocks remain coherent and uncropped at both scales.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

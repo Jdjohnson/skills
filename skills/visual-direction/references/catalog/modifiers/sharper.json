@@ -1,0 +1,62 @@
+{
+  "id": "sharper",
+  "group": "clarity",
+  "definition": "Increase edge definition and legibility.",
+  "targetConcerns": [
+    "shapeLine",
+    "typography",
+    "lighting"
+  ],
+  "compatibleStyles": [
+    "field-guide",
+    "film-noir"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "softer"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "shapeLine",
+          "path": "lineWeight",
+          "factor": 1.15
+        },
+        {
+          "op": "addParam",
+          "concern": "typography",
+          "path": "tracking",
+          "amount": 0.15
+        },
+        {
+          "op": "multiplyParam",
+          "concern": "lighting",
+          "path": "contrast",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

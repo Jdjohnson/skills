@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "id": "instant-film-everyday-snapshot",
+  "displayName": "Instant-Film Everyday Snapshot",
+  "family": "action-nature-experimental",
+  "definition": "An ordinary intimate moment with the documented physical border, soft color, limited dynamic range, direct flash or available light, and small-scale imperfection of instant film.",
+  "aliases": [
+    "Polaroid snapshot",
+    "instant camera memory"
+  ],
+  "cues": [
+    "instant-film",
+    "vernacular",
+    "low-dynamic-range",
+    "vintage-lens-character"
+  ],
+  "antiCues": [
+    "digital white border used as proof",
+    "commercial polish",
+    "extreme fake damage"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "event",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "eye-level",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "vintage-lens-character",
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation",
+      "deliberate-softness"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "on-camera-flash",
+      "available-light",
+      "front-light",
+      "soft-light"
+    ],
+    "composition": [
+      "centrality",
+      "edge-tension"
+    ],
+    "color-tonality": [
+      "pastel-color",
+      "lifted-blacks",
+      "low-dynamic-range"
+    ],
+    "medium-process": [
+      "instant-film"
+    ],
+    "processing-texture": [
+      "fine-grain",
+      "vignette",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "late-century-direct-flash"
+    ],
+    "format-output": [
+      "square-format"
+    ]
+  },
+  "lockedQualities": [
+    "small physical print feeling",
+    "soft limited color",
+    "intimate vernacular directness"
+  ],
+  "adaptiveGuidance": [
+    "Adapt framing to the moment; name instant film only when documented, otherwise describe its visible appearance."
+  ],
+  "applicability": [
+    "friends",
+    "family",
+    "travel moments",
+    "everyday objects"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-instant-film-everyday-snapshot"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Vernacular photography",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/vernacular-photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "An ordinary intimate moment with the documented physical border, soft color, limited dynamic range, direct flash or available light, and small-scale imperfection of instant film."
+        ]
+      }
+    ]
+  }
+}

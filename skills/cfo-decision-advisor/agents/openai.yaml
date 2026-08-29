@@ -1,0 +1,4 @@
+interface:
+  display_name: "CFO Decision Advisor"
+  short_description: "Make practical, evidence-backed CFO decisions"
+  default_prompt: "Use $cfo-decision-advisor to make a practical CFO call on this business decision."

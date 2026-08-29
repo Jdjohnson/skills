@@ -1,0 +1,158 @@
+{
+  "id": "ulm-systems-design",
+  "displayName": "Ulm Systems Design",
+  "family": "modernist-grid",
+  "definition": "Rational families of product, identity, and information components use strict grids, serial logic, neutral materials, and systems thinking instead of decorative styling.",
+  "axes": {
+    "minimalOrnate": -0.9,
+    "geometricOrganic": -0.6,
+    "polishedRaw": -0.6,
+    "calmEnergetic": -0.5,
+    "historicalFuturistic": -0.1,
+    "realisticAbstract": 0.2,
+    "warmCool": -0.4,
+    "lightDark": -0.4,
+    "playfulSerious": 0.8,
+    "handmadeMachined": 0.7,
+    "flatDeep": -0.7,
+    "everydayLuxurious": -0.5
+  },
+  "cues": [
+    "system-family",
+    "grid-defined",
+    "serial",
+    "technical-diagram",
+    "neutral-material"
+  ],
+  "antiCues": [
+    "ornate",
+    "one-off",
+    "expressionist",
+    "whimsical"
+  ],
+  "emotionalEffects": [
+    "clinical",
+    "clear-headed",
+    "austere"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.38,
+      "symmetry": 0.45,
+      "margins": 0.48
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#2B2D42",
+        "#8D99AE",
+        "#EDF2F4",
+        "#EF233C",
+        "#D90429"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/ulm-system.svg",
+      "descriptor": "rational sans for system documentation",
+      "weight": 400,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.1,
+      "lineWeight": 0.35,
+      "curveTension": 0.05
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/modernist-grid-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.05,
+      "tags": [
+        "metal",
+        "plastic"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.5,
+      "keyDirection": "top",
+      "gradient": 0.1
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.15,
+      "parallax": 0.05
+    },
+    "motion": {
+      "energy": 0.2,
+      "descriptor": "precise"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.02,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "schematic",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.55
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 3,
+    "presentation": 3,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 3,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 3,
+    "interiors-architecture": 3,
+    "data-visualization": 3
+  },
+  "heroRecipe": {
+    "motif": "a family of related tabletop devices shown as an exploded system specification",
+    "framing": "Orthographic grid sheet with repeated modules, numbered relationships, neutral gray materials, one orange signal, and consistent component logic.",
+    "mustShow": [
+      "system-family",
+      "grid-defined",
+      "technical-diagram"
+    ],
+    "mustAvoid": [
+      "ornate",
+      "one-off",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "international-typographic-style",
+    "bauhaus-workshop",
+    "isotype-statistical-graphics"
+  ],
+  "contrasting": [
+    "rococo-salon",
+    "narrative-textile",
+    "vaporwave"
+  ]
+}

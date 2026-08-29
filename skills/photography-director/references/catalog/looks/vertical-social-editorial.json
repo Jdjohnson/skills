@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "id": "vertical-social-editorial",
+  "displayName": "Vertical Fashion Editorial",
+  "family": "action-nature-experimental",
+  "definition": "A deliberately tall fashion frame with full-body movement, purposeful breathing room, contemporary clean color, and enough structural flexibility for mobile crops.",
+  "aliases": [
+    "vertical fashion photo",
+    "mobile fashion editorial"
+  ],
+  "cues": [
+    "nine-sixteen-format",
+    "full-length",
+    "diagonal-composition",
+    "contemporary-clean-commercial"
+  ],
+  "antiCues": [
+    "horizontal composition awkwardly cropped",
+    "empty filler above and below",
+    "generic influencer stock"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "editorial",
+      "fashion",
+      "portrait"
+    ],
+    "viewpoint-framing": [
+      "full-length",
+      "low-angle",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "continuous-studio-light",
+      "side-light",
+      "rim-light"
+    ],
+    "composition": [
+      "diagonal-composition",
+      "negative-space",
+      "deliberate-imbalance"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "saturated-color",
+      "restrained-skin-tones"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "restrained-retouching",
+      "crisp-clarity"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial",
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "nine-sixteen-format",
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "purposeful tall composition",
+    "full-body directional movement",
+    "clear mobile-scale subject"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera distance and subject arrangement to the tall frame; do not merely crop a horizontal composition."
+  ],
+  "applicability": [
+    "fashion",
+    "people",
+    "products",
+    "mobile campaigns"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-vertical-social-editorial"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photography",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A deliberately tall fashion frame with full-body movement, purposeful breathing room, contemporary clean color, and enough structural flexibility for mobile crops."
+        ]
+      }
+    ]
+  }
+}

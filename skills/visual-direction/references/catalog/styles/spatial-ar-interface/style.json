@@ -1,0 +1,164 @@
+{
+  "id": "spatial-ar-interface",
+  "displayName": "Spatial AR Interface",
+  "family": "digital-native",
+  "definition": "Camera-world interfaces lock anchors, labels, guides, occlusion cues, depth marks, and controls to physical space rather than floating as a generic futuristic HUD.",
+  "axes": {
+    "minimalOrnate": -0.3,
+    "geometricOrganic": 0.2,
+    "polishedRaw": -0.3,
+    "calmEnergetic": 0.2,
+    "historicalFuturistic": 0.8,
+    "realisticAbstract": 0.3,
+    "warmCool": 0.4,
+    "lightDark": 0.2,
+    "playfulSerious": 0.3,
+    "handmadeMachined": 0.7,
+    "flatDeep": 0.6,
+    "everydayLuxurious": -0.1
+  },
+  "cues": [
+    "spatial-signal",
+    "neon",
+    "interface-signal",
+    "near-future",
+    "outline",
+    "transparent",
+    "planar",
+    "wayfinding-signal",
+    "technical-form",
+    "isometric"
+  ],
+  "antiCues": [
+    "letterpress-ink",
+    "halftone",
+    "ornate"
+  ],
+  "emotionalEffects": [
+    "futuristic-feel",
+    "clear-headed",
+    "mysterious"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.4,
+      "symmetry": 0.4,
+      "margins": 0.06
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#00E5FF",
+        "#FFFFFF",
+        "#1A2332",
+        "#FFB300",
+        "#4CAF50"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/ar-overlay.svg",
+      "descriptor": "thin sans HUD labels with anchor brackets",
+      "weight": 400,
+      "tracking": 0.04
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/digital-native-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.1,
+      "tags": [
+        "glass",
+        "metal"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.5,
+      "keyDirection": "front",
+      "gradient": 0.3
+    },
+    "depth": {
+      "layers": 5,
+      "shadowSoftness": 0.3,
+      "parallax": 0.6
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "world-locked-camera-annotation",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 3,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 3,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a camera-world task with stable spatial annotation",
+    "framing": "physical scene remains visible while anchors, outlines, labels, guides, occlusion, and controls register believably to surfaces and objects",
+    "mustShow": [
+      "spatial-signal",
+      "interface-signal",
+      "wayfinding-signal"
+    ],
+    "mustAvoid": [
+      "letterpress-ink",
+      "halftone",
+      "ornate",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "glassmorphism",
+    "operational-dashboard",
+    "neon-night-ui"
+  ],
+  "contrasting": [
+    "literary-journal",
+    "poetry-chapbook",
+    "type-specimen-book"
+  ]
+}

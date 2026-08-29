@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "id": "cinematic-practical-light-portrait",
+  "displayName": "Cinematic Practical-Light Portrait",
+  "family": "portrait-editorial",
+  "definition": "A narrative portrait shaped by visible lamps or signs, motivated warm-cool separation, selective focus, and off-center widescreen tension.",
+  "aliases": [
+    "movie still portrait",
+    "cinematic lamp portrait"
+  ],
+  "cues": [
+    "cinematic-practicals",
+    "motivated-light",
+    "mixed-light",
+    "split-tone"
+  ],
+  "antiCues": [
+    "unmotivated glamour key",
+    "generic teal-orange wash",
+    "flat frontal light"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "editorial",
+      "conceptual"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "eye-level",
+      "off-center-framing",
+      "environmental-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "shallow-focus",
+      "foreground-obstruction"
+    ],
+    "lighting": [
+      "tungsten-practicals",
+      "mixed-light",
+      "motivated-light",
+      "cinematic-practicals",
+      "rim-light",
+      "low-key-lighting"
+    ],
+    "composition": [
+      "frame-within-frame",
+      "edge-tension",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "split-tone",
+      "cool-color",
+      "warm-color"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "restrained-retouching",
+      "bloom"
+    ],
+    "era-movement": [
+      "contemporary-cinematic-still"
+    ],
+    "format-output": [
+      "sixteen-nine-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "visible source motivation",
+    "warm-cool spatial separation",
+    "narrative off-center frame"
+  ],
+  "adaptiveGuidance": [
+    "Adapt lamp placement, lens class, and depth to the location; every shaped light should feel sourced."
+  ],
+  "applicability": [
+    "people",
+    "interiors",
+    "narrative editorial"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-cinematic-practical-light-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A narrative portrait shaped by visible lamps or signs, motivated warm-cool separation, selective focus, and off-center widescreen tension."
+        ]
+      }
+    ]
+  }
+}

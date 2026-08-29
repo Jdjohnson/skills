@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "geometric-toy",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of mid-century educational geometric toys.\nUse case: product-mockup\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original modular wooden construction toy scene with arches, cylinders, triangles, ramps, tracks, and interlocking blocks forming a coherent miniature city.\nStyle/medium: 1960s–1970s educational toy catalog photography\nComposition/framing: portrait 4:5, low three-quarter view, one clear build with spare loose pieces, crisp silhouettes at thumbnail scale\nLighting/mood: soft warm studio light, playful and intelligent\nColor palette: beech wood, vermilion, cobalt, mustard, off-white\nMaterials/textures: matte painted wood, visible natural grain\nConstraints: original generic construction system, no recognizable commercial toy, no characters, no brand, no text, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "cb381a8fa5e9c5ec74a2c5d7d17ed0e10de1136b05acebef92a5a09dc39ff2aa",
+  "finalAsset": "assets/refs/geometric-toy/generated-lead.jpg",
+  "finalSha256": "fe16ff9a35683b70b76f074c09f8e99a78e6903269bf5464e7d0380b52e2d794",
+  "postProcessing": "Resized to 800x1000 pixels and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

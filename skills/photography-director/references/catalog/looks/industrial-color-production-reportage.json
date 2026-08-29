@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "id": "industrial-color-production-reportage",
+  "displayName": "Industrial Color Production Reportage",
+  "family": "documentary-street-event",
+  "definition": "A direct color workplace photograph that keeps a worker's precise action legible among complex machinery, using clear descriptive color and layered mechanical detail rather than a stylized cinematic grade.",
+  "aliases": [
+    "color factory workers and machinery",
+    "people building machines",
+    "industrial color reportage"
+  ],
+  "cues": [
+    "environmental-portrait",
+    "documentary",
+    "saturated-color",
+    "layered-depth"
+  ],
+  "antiCues": [
+    "empty factory beauty shot",
+    "teal orange industrial grade",
+    "worker detached from the task"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "environmental-portrait",
+      "documentary"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "environmental-framing"
+    ],
+    "composition": [
+      "environmental-context",
+      "layered-depth"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "neutral-color"
+    ],
+    "medium-process": [
+      "color-slide-film"
+    ],
+    "era-movement": [
+      "fsa-documentary"
+    ],
+    "format-output": [
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "worker action remains specific",
+    "machinery stays visually dominant",
+    "color describes materials and workplace context"
+  ],
+  "adaptiveGuidance": [
+    "Adapt viewpoint to the production task; keep hands, tools, and machine relationships readable without turning the workplace into a glossy advertisement."
+  ],
+  "applicability": [
+    "factory work",
+    "manufacturing",
+    "technical labor",
+    "production stories"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-industrial-color-production-reportage"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Woman working on an airplane motor at North American Aviation, Inc., plant in Calif.",
+        "publisher": "Library of Congress",
+        "url": "https://www.loc.gov/pictures/item/2017878493/",
+        "accessedAt": "2026-08-11",
+        "supports": [
+          "The Library of Congress record documents a June 1942 color transparency showing a worker performing a specific task inside complex aircraft-engine machinery."
+        ]
+      }
+    ]
+  }
+}

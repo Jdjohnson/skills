@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "id": "lens-perspective",
+  "displayName": "Lens and perspective",
+  "definition": "Visible angle-of-view, magnification, perspective, and optical-character families; exact focal lengths require metadata or documentation.",
+  "values": [
+    {
+      "id": "fisheye-character",
+      "displayName": "Fisheye character",
+      "definition": "An extremely wide field bends straight lines away from the optical center.",
+      "aliases": [
+        "fisheye",
+        "curved wide lens"
+      ],
+      "visibleCues": [
+        "barrel-bent lines",
+        "hemispheric field"
+      ],
+      "antiCues": [
+        "rectilinear straight edges"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "action",
+        "conceptual",
+        "architecture"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fisheye-skate-snapshot"
+      ]
+    },
+    {
+      "id": "ultra-wide-character",
+      "displayName": "Ultra-wide character",
+      "definition": "A very broad rectilinear view exaggerates near-far scale and edge stretch.",
+      "aliases": [
+        "ultra wide lens",
+        "very wide lens"
+      ],
+      "visibleCues": [
+        "expanded foreground",
+        "strong near-far separation"
+      ],
+      "antiCues": [
+        "flattened distant planes"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-golden-hour-grand-landscape",
+        "ref-fisheye-skate-snapshot"
+      ]
+    },
+    {
+      "id": "wide-angle-expansion",
+      "displayName": "Wide-angle expansion",
+      "definition": "A broad view and close camera relationship make space feel deeper and more open.",
+      "aliases": [
+        "wide angle",
+        "expansive perspective"
+      ],
+      "visibleCues": [
+        "foreground emphasis",
+        "visible environment"
+      ],
+      "antiCues": [
+        "compressed background"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-albumen-travel-survey",
+        "ref-new-vision-geometry",
+        "ref-large-format-monochrome-landscape",
+        "ref-hard-sun-fashion-editorial",
+        "ref-y2k-party-flash-portrait",
+        "ref-layered-street-observation",
+        "ref-night-street-color",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-long-exposure-seascape",
+        "ref-symmetrical-interior-study",
+        "ref-panoramic-desert-survey",
+        "ref-night-light-trail-cityscape",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "normal-perspective",
+      "displayName": "Normal perspective",
+      "definition": "Angle of view and spatial scale feel neither conspicuously expanded nor compressed.",
+      "aliases": [
+        "natural lens look",
+        "normal lens"
+      ],
+      "visibleCues": [
+        "moderate field of view",
+        "ordinary spatial relationship"
+      ],
+      "antiCues": [
+        "extreme edge stretch or compression"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-wet-plate-collodion-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-straight-photography-precision",
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-mid-century-commercial-color",
+        "ref-approachable-environmental-portrait",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-night-street-color",
+        "ref-industrial-workplace-documentary",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-aerial-graphic-landscape",
+        "ref-intentional-camera-movement-landscape",
+        "ref-window-light-food-story",
+        "ref-bright-editorial-food",
+        "ref-direct-flash-still-life",
+        "ref-rolling-automotive-pan",
+        "ref-rear-curtain-flash-motion",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-degraded-zine-reproduction",
+        "ref-instant-film-everyday-snapshot",
+        "ref-editorial-contact-sheet-sequence",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "short-telephoto-compression",
+      "displayName": "Short-telephoto compression",
+      "definition": "A narrower portrait-friendly view reduces perspective exaggeration while keeping subject distance workable.",
+      "aliases": [
+        "portrait lens look",
+        "slight compression"
+      ],
+      "visibleCues": [
+        "calm facial proportions",
+        "narrower background field"
+      ],
+      "antiCues": [
+        "close wide-angle distortion"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "portrait",
+        "product"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-editorial-portrait",
+        "ref-window-light-editorial-portrait",
+        "ref-low-key-character-portrait",
+        "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-soft-focus-romantic-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-luxury-still-life-polish",
+        "ref-studio-automotive-hero",
+        "ref-high-speed-splash"
+      ]
+    },
+    {
+      "id": "telephoto-compression",
+      "displayName": "Telephoto compression",
+      "definition": "A narrow angle of view and increased camera distance make depth planes appear closer together.",
+      "aliases": [
+        "compressed background",
+        "long lens look"
+      ],
+      "visibleCues": [
+        "large distant background",
+        "flattened spatial intervals"
+      ],
+      "antiCues": [
+        "expanded near-far perspective"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-peak-action-photojournalism",
+        "ref-concert-available-light",
+        "ref-overcast-minimal-landscape",
+        "ref-tilt-shift-architectural-study",
+        "ref-rolling-automotive-pan",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife"
+      ]
+    },
+    {
+      "id": "super-telephoto-reach",
+      "displayName": "Super-telephoto reach",
+      "definition": "A very narrow field isolates a distant subject and magnifies atmospheric or background compression.",
+      "aliases": [
+        "very long lens",
+        "wildlife lens look"
+      ],
+      "visibleCues": [
+        "distant subject fills frame",
+        "very narrow field"
+      ],
+      "antiCues": [
+        "broad environmental view"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "wildlife",
+        "sports",
+        "scientific"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-super-telephoto-wildlife"
+      ]
+    },
+    {
+      "id": "macro-magnification",
+      "displayName": "Macro magnification",
+      "definition": "Close-focus optics render minute structures at unusually large image scale.",
+      "aliases": [
+        "macro lens look",
+        "life size close-up"
+      ],
+      "visibleCues": [
+        "fine surface structure",
+        "very small depth zone"
+      ],
+      "antiCues": [
+        "ordinary close-up scale"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "macro",
+        "scientific",
+        "product"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-luxury-still-life-polish",
+        "ref-scientific-specimen-record",
+        "ref-high-speed-splash",
+        "ref-selective-focus-macro"
+      ]
+    },
+    {
+      "id": "tilt-shift-control",
+      "displayName": "Tilt-shift control",
+      "definition": "Shift or tilt effects control converging lines or rotate the focus plane; a narrow tilted plane can also create a miniature-scale impression.",
+      "aliases": [
+        "tilt shift",
+        "perspective control lens",
+        "miniature tilt shift"
+      ],
+      "visibleCues": [
+        "controlled verticals or rotated focus plane",
+        "selective band of architectural focus"
+      ],
+      "antiCues": [
+        "ordinary depth falloff with no plane effect"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "architecture",
+        "interiors",
+        "product"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-tilt-shift-architectural-study"
+      ]
+    },
+    {
+      "id": "soft-focus-lens-character",
+      "displayName": "Soft-focus lens character",
+      "definition": "Optical softness lowers fine-edge acuity while retaining recognizable form.",
+      "aliases": [
+        "soft focus lens",
+        "dreamy old lens"
+      ],
+      "visibleCues": [
+        "gentle edge spread",
+        "detail softened optically"
+      ],
+      "antiCues": [
+        "crisply resolved microcontrast"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-pictorialist-soft-focus-landscape"
+      ]
+    },
+    {
+      "id": "vintage-lens-character",
+      "displayName": "Vintage lens character",
+      "definition": "Visible flare, lower contrast, irregular bokeh, or edge behavior suggests older optical rendering without proving a lens model.",
+      "aliases": [
+        "vintage lens look",
+        "old glass"
+      ],
+      "visibleCues": [
+        "imperfect flare or edge rendering",
+        "lower microcontrast"
+      ],
+      "antiCues": [
+        "uniform clinical rendering"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-grunge-editorial-portrait",
+        "ref-cross-processed-slide-look",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "diffusion-heavy-lens-character",
+      "displayName": "Diffusion-heavy lens character",
+      "definition": "Strong in-camera or optical diffusion spreads highlights and softens detail conspicuously.",
+      "aliases": [
+        "heavy diffusion",
+        "glowy lens look"
+      ],
+      "visibleCues": [
+        "highlight spread",
+        "softened fine detail"
+      ],
+      "antiCues": [
+        "hard unspread highlights"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-soft-focus-romantic-portrait"
+      ]
+    }
+  ]
+}

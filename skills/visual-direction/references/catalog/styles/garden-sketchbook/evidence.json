@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "garden-sketchbook",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Botanical field sketchbook pages combining multiple observations, annotations, and watercolor studies",
+    "creatorOrTradition": "Royal Botanic Gardens field and botanical sketchbook practice",
+    "sourceUrl": "https://www.kew.org/read-and-watch/botanical-illustrations-history",
+    "whyCanonical": "Kew's historical account contrasts polished published botanical art with personal field sketches whose watercolor studies and annotations preserve working scientific observation."
+  },
+  "sources": [
+    {
+      "title": "Worth a thousand words: The hidden histories of botanical illustrations",
+      "publisher": "Royal Botanic Gardens, Kew",
+      "url": "https://www.kew.org/read-and-watch/botanical-illustrations-history",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Field sketches can preserve extensive annotations around watercolor studies and function as foundational notes for later detailed work.",
+        "Unlike polished publication art, working sketches reveal a more personal process and retain evidence of observation in progress."
+      ]
+    },
+    {
+      "title": "Pencil and watercolour botanical sketchbook",
+      "publisher": "Royal Botanic Gardens, Kew",
+      "url": "https://www.kew.org/kew-gardens/whats-on/pencil-watercolor-sketchbook",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Botanical sketchbooks combine accurate observational pencil drawing with watercolor color-matching and detailed plant studies.",
+        "Working sketchbook studies can directly inform later professional botanical artwork while retaining their exploratory character."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches hand drawn, illustrated, ragged, meditative pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/garden-sketchbook/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/garden-sketchbook/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches hand drawn, illustrated, ragged, meditative pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

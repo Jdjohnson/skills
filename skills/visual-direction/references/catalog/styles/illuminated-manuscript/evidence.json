@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "styleId": "illuminated-manuscript",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Decorated parchment manuscript folio",
+    "creatorOrTradition": "Medieval manuscript-making traditions",
+    "sourceUrl": "https://www.getty.edu/art/collection/object/107SZG",
+    "whyCanonical": "The folio preserves the relationship among ruled text, decorated initial, miniature, margin, parchment, and reflective metal that defines the page as a crafted system."
+  },
+  "sources": [
+    {
+      "title": "Manuscript leaf in the Getty collection",
+      "publisher": "J. Paul Getty Museum",
+      "url": "https://www.getty.edu/art/collection/object/107SZG",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A complete folio demonstrates how image, script, decorated initial, borders, and material surface share a single page hierarchy."
+      ]
+    },
+    {
+      "title": "Illuminated Manuscripts: Lesson One",
+      "publisher": "J. Paul Getty Museum",
+      "url": "https://www.getty.edu/education/for_teachers/curricula/manuscripts/manuscripts_lesson01.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Illumination must be understood through manuscript materials, production, use, and page structure, not as interchangeable medieval fantasy decoration."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach gold leaf, decorative border, dense, medieval while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/illuminated-manuscript/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": {
+    "note": "Name the manuscript tradition, place, date, language, text function, and institution whenever known. Keep sacred and liturgical material in its documented context; do not mix Armenian, Islamic, Jewish, Byzantine, Insular, or Western European conventions into an invented universal medieval style.",
+    "citations": [
+      "https://www.getty.edu/art/collection/object/107SZG",
+      "https://www.getty.edu/education/for_teachers/curricula/manuscripts/manuscripts_lesson01.html"
+    ]
+  },
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/illuminated-manuscript/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach gold leaf, decorative border, dense, medieval while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

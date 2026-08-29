@@ -1,0 +1,157 @@
+{
+  "id": "flat-design-ui",
+  "displayName": "Flat Design UI",
+  "family": "modernist-grid",
+  "definition": "Post-skeuomorphic interfaces built from flat color planes, simple icons, clear component hierarchy, restrained rounding, and little or no simulated depth.",
+  "axes": {
+    "minimalOrnate": -0.6,
+    "geometricOrganic": -0.4,
+    "polishedRaw": -0.7,
+    "calmEnergetic": 0.3,
+    "historicalFuturistic": 0.4,
+    "realisticAbstract": 0.2,
+    "warmCool": 0.4,
+    "lightDark": 0.1,
+    "playfulSerious": 0.3,
+    "handmadeMachined": 0.7,
+    "flatDeep": -0.8,
+    "everydayLuxurious": -0.1
+  },
+  "cues": [
+    "flat-color",
+    "icon-system",
+    "component-hierarchy",
+    "minimal-depth",
+    "screen-native"
+  ],
+  "antiCues": [
+    "ornate",
+    "glass-blur",
+    "photorealism",
+    "surface-texture"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "calm"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.5,
+      "symmetry": 0.4,
+      "margins": 0.35
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#2563EB",
+        "#10B981",
+        "#F59E0B",
+        "#F8FAFC",
+        "#1E293B"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/corporate-flat-ui.svg",
+      "descriptor": "humanist sans for UI labels",
+      "weight": 500,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.45,
+      "lineWeight": 0.25,
+      "curveTension": 0.3
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/modernist-grid-primary"
+      ],
+      "finish": "matte",
+      "grain": 0,
+      "tags": [
+        "screen-pixel",
+        "plastic"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.35,
+      "keyDirection": "front",
+      "gradient": 0.05
+    },
+    "depth": {
+      "layers": 1,
+      "shadowSoftness": 0.15,
+      "parallax": 0
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "ease-in-out"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.05,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "illustrated",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 3,
+    "presentation": 3,
+    "editorial-document": 2,
+    "social-advertising": 2,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 3
+  },
+  "heroRecipe": {
+    "motif": "a compact task interface with navigation, status cards, and one primary action",
+    "framing": "Orthographic screen view using flat color regions, simple icons, an obvious component hierarchy, and no simulated material surface.",
+    "mustShow": [
+      "flat-color",
+      "icon-system",
+      "component-hierarchy"
+    ],
+    "mustAvoid": [
+      "ornate",
+      "glass-blur",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "corporate-modernism",
+    "civic-wayfinding",
+    "operational-dashboard"
+  ],
+  "contrasting": [
+    "film-noir",
+    "punk-zine",
+    "academic-journal"
+  ]
+}

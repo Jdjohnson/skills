@@ -1,0 +1,162 @@
+{
+  "id": "belle-epoque-lithograph",
+  "displayName": "Belle Époque Lithograph",
+  "family": "ornate-historical",
+  "definition": "Color lithography integrates hand-lettered headlines, lively figures, flat keyed color, and theatrical or urban publicity in a complete fin-de-siècle poster composition.",
+  "axes": {
+    "minimalOrnate": 0.7,
+    "geometricOrganic": 0.6,
+    "polishedRaw": -0.3,
+    "calmEnergetic": 0.4,
+    "historicalFuturistic": -0.6,
+    "realisticAbstract": 0.1,
+    "warmCool": -0.3,
+    "lightDark": -0.2,
+    "playfulSerious": -0.4,
+    "handmadeMachined": 0.1,
+    "flatDeep": -0.1,
+    "everydayLuxurious": 0.4
+  },
+  "cues": [
+    "poster-scale",
+    "belle-epoque-era",
+    "organic",
+    "display-type",
+    "print-signal"
+  ],
+  "antiCues": [
+    "screen-pixel",
+    "minimal",
+    "meditative-pace"
+  ],
+  "emotionalEffects": [
+    "whimsical",
+    "joyful",
+    "nostalgic"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.7,
+      "symmetry": 0.4,
+      "margins": 0.15
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#C41E3A",
+        "#FFFDD0",
+        "#008080",
+        "#D4AF37",
+        "#36454F"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/belle-epoque-poster.svg",
+      "descriptor": "Art Nouveau poster display",
+      "weight": 700,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.5,
+      "lineWeight": 0.55,
+      "curveTension": 0.75
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/ornate-historical-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.3,
+      "tags": [
+        "paper",
+        "ink",
+        "letterpress-ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.5,
+      "keyDirection": "front",
+      "gradient": 0.3
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.25,
+      "parallax": 0.15
+    },
+    "motion": {
+      "energy": 0.5,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/ornate-historical"
+      ],
+      "density": 0.65,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "stylized",
+      "subjectRules": [
+        "complete color-lithographic poster",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 3,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 0,
+    "interiors-architecture": 1,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "a complete color-lithographic entertainment poster with one charismatic performer and hand-shaped headline",
+    "framing": "crop the figure boldly, lock image and lettering into a vertical street-poster silhouette, and let flat printed color carry the hierarchy",
+    "mustShow": [
+      "poster-scale",
+      "belle-epoque-era",
+      "organic"
+    ],
+    "mustAvoid": [
+      "screen-pixel",
+      "minimal",
+      "meditative-pace",
+      "detached modern captioning",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "art-nouveau",
+    "carnival-poster",
+    "mid-century-advertising"
+  ],
+  "contrasting": [
+    "industrial-monochrome",
+    "operational-dashboard",
+    "scaffold-structure"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "id": "intentional-blur-conceptual-fashion",
+  "displayName": "Intentional-Blur Conceptual Portrait",
+  "family": "action-nature-experimental",
+  "definition": "A portrait using deliberate subject or camera movement, long-exposure softness, and directional smear to express gesture while retaining a recognizable face or body anchor.",
+  "aliases": [
+    "blurred conceptual portrait",
+    "motion smear portrait",
+    "blurry fashion editorial"
+  ],
+  "cues": [
+    "subject-motion-blur",
+    "deliberate-softness",
+    "conceptual",
+    "deliberate-imbalance"
+  ],
+  "antiCues": [
+    "accidental missed focus",
+    "identity completely unreadable",
+    "digital liquify smear"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "conceptual",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "close-up",
+      "oblique-view",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deliberate-softness"
+    ],
+    "exposure-motion": [
+      "subject-motion-blur",
+      "intentional-camera-movement"
+    ],
+    "lighting": [
+      "available-light",
+      "side-light",
+      "low-key-lighting"
+    ],
+    "composition": [
+      "deliberate-imbalance",
+      "edge-tension",
+      "diagonal-composition"
+    ],
+    "color-tonality": [
+      "warm-color",
+      "low-contrast-tonality",
+      "lifted-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "optical-diffusion",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "portrait-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "gesture-driven smear",
+    "recognizable human anchor",
+    "intentional layered softness"
+  ],
+  "adaptiveGuidance": [
+    "Adapt exposure duration and movement direction to the subject; preserve one recognizable facial, hand, or body anchor."
+  ],
+  "applicability": [
+    "conceptual portrait",
+    "fashion",
+    "dance",
+    "performance"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-intentional-blur-conceptual-fashion"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Capture the Motion in Photographs",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/lenses-conversion-lenses/sel20tc/articles/00223372",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A portrait using deliberate subject or camera movement, long-exposure softness, and directional smear to express gesture while retaining a recognizable face or body anchor."
+        ]
+      }
+    ]
+  }
+}

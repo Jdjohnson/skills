@@ -1,0 +1,532 @@
+{
+  "version": 1,
+  "id": "processing-texture",
+  "displayName": "Processing and texture",
+  "definition": "Visible grain, diffusion, contrast, retouching, and reproduction character applied in capture, processing, or output.",
+  "values": [
+    {
+      "id": "fine-grain",
+      "displayName": "Fine grain",
+      "definition": "Texture is present but small and unobtrusive at normal viewing size.",
+      "aliases": [
+        "subtle film grain",
+        "clean fine grain"
+      ],
+      "visibleCues": [
+        "fine even texture",
+        "detail remains clear"
+      ],
+      "antiCues": [
+        "large coarse grain clumps"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-albumen-travel-survey",
+        "ref-large-format-monochrome-landscape",
+        "ref-mid-century-commercial-color",
+        "ref-soft-focus-romantic-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-long-exposure-seascape",
+        "ref-panoramic-desert-survey",
+        "ref-selective-focus-macro",
+        "ref-instant-film-everyday-snapshot",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "pronounced-grain",
+      "displayName": "Pronounced grain",
+      "definition": "Visible grain becomes an active surface quality rather than a nearly invisible material trace.",
+      "aliases": [
+        "grainy photo",
+        "heavy film grain"
+      ],
+      "visibleCues": [
+        "obvious irregular texture",
+        "grain visible at conversation scale"
+      ],
+      "antiCues": [
+        "perfectly smooth surface"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-humanist-available-light-photo-essay",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-night-street-color",
+        "ref-concert-available-light",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion",
+        "ref-cross-processed-slide-look",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-degraded-zine-reproduction"
+      ]
+    },
+    {
+      "id": "halation",
+      "displayName": "Halation",
+      "definition": "Bright sources or edges carry a colored or warm halo caused by light spreading around highlights.",
+      "aliases": [
+        "red glow around lights",
+        "film halation"
+      ],
+      "visibleCues": [
+        "colored fringe around bright sources",
+        "localized edge glow"
+      ],
+      "antiCues": [
+        "neutral blur everywhere"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-night-street-color",
+        "ref-concert-available-light"
+      ]
+    },
+    {
+      "id": "bloom",
+      "displayName": "Bloom",
+      "definition": "Bright areas spread softly beyond their boundaries, creating luminous veiling glow.",
+      "aliases": [
+        "glowy highlights",
+        "bloom effect"
+      ],
+      "visibleCues": [
+        "white-light spread",
+        "soft luminous edge"
+      ],
+      "antiCues": [
+        "hard clipped highlight edge"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-soft-focus-romantic-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-night-light-trail-cityscape"
+      ]
+    },
+    {
+      "id": "optical-diffusion",
+      "displayName": "Optical diffusion",
+      "definition": "A filter, lens, atmosphere, or equivalent treatment lowers microcontrast and spreads highlights while retaining form.",
+      "aliases": [
+        "diffusion filter look",
+        "soft glow filter"
+      ],
+      "visibleCues": [
+        "soft fine detail",
+        "highlight spread with recognizable edges"
+      ],
+      "antiCues": [
+        "pure defocus with no glow"
+      ],
+      "claimPolicy": "inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-soft-focus-romantic-portrait",
+        "ref-intentional-camera-movement-landscape",
+        "ref-intentional-blur-conceptual-fashion"
+      ]
+    },
+    {
+      "id": "vignette",
+      "displayName": "Vignette",
+      "definition": "Frame edges are visibly darker or lighter than the center.",
+      "aliases": [
+        "dark corners",
+        "edge falloff"
+      ],
+      "visibleCues": [
+        "radial edge brightness change",
+        "center emphasis"
+      ],
+      "antiCues": [
+        "uniform corner brightness"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-wet-plate-collodion-portrait",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-dark-moody-tabletop",
+        "ref-cross-processed-slide-look",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "cross-processing",
+      "displayName": "Cross-processing",
+      "definition": "A documented or explicitly emulated mismatched chemical-development treatment creates shifted color and contrast.",
+      "aliases": [
+        "cross processed film",
+        "xpro colors"
+      ],
+      "visibleCues": [
+        "unusual color crossover",
+        "steep or altered contrast"
+      ],
+      "antiCues": [
+        "ordinary white-balance cast"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cross-processed-slide-look"
+      ]
+    },
+    {
+      "id": "bleach-bypass-feel",
+      "displayName": "Bleach-bypass feel",
+      "definition": "A documented or explicitly emulated silver-retention look combines reduced color with hard contrast and metallic density.",
+      "aliases": [
+        "bleach bypass",
+        "desaturated gritty cinema"
+      ],
+      "visibleCues": [
+        "reduced saturation",
+        "dense contrast and metallic texture"
+      ],
+      "antiCues": [
+        "pastel low-contrast color"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-bleach-bypass-cinematic-still"
+      ]
+    },
+    {
+      "id": "darkroom-contrast",
+      "displayName": "Darkroom contrast",
+      "definition": "Print-like local burning, dodging, and contrast shaping create a purposeful black-and-white tonal structure.",
+      "aliases": [
+        "darkroom print contrast",
+        "burned and dodged B&W"
+      ],
+      "visibleCues": [
+        "selective tonal emphasis",
+        "print-like black and highlight control"
+      ],
+      "antiCues": [
+        "uniform automated HDR"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-large-format-monochrome-landscape",
+        "ref-fsa-social-documentary",
+        "ref-mid-century-editorial-portrait",
+        "ref-multiple-exposure-conceptual-portrait"
+      ]
+    },
+    {
+      "id": "matte-blacks",
+      "displayName": "Matte blacks",
+      "definition": "Dark values are softened and slightly raised rather than glossy and absolute.",
+      "aliases": [
+        "faded matte blacks",
+        "soft black point"
+      ],
+      "visibleCues": [
+        "gray-black floor",
+        "print-like darks"
+      ],
+      "antiCues": [
+        "inky crushed black"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-tintype-vernacular-portrait",
+        "ref-albumen-travel-survey",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-grunge-editorial-portrait",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-dark-moody-tabletop"
+      ]
+    },
+    {
+      "id": "crisp-clarity",
+      "displayName": "Crisp clarity",
+      "definition": "Local edge contrast and fine detail are emphasized without obvious glow or grain dominance.",
+      "aliases": [
+        "crisp detailed",
+        "high clarity"
+      ],
+      "visibleCues": [
+        "defined fine edges",
+        "clean microcontrast"
+      ],
+      "antiCues": [
+        "soft veiled detail"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-large-format-monochrome-landscape",
+        "ref-hard-sun-fashion-editorial",
+        "ref-new-color-street-observation",
+        "ref-industrial-workplace-documentary",
+        "ref-peak-action-photojournalism",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-aerial-graphic-landscape",
+        "ref-tilt-shift-architectural-study",
+        "ref-symmetrical-interior-study",
+        "ref-night-light-trail-cityscape",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-bright-editorial-food",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-rolling-automotive-pan",
+        "ref-studio-automotive-hero",
+        "ref-scientific-specimen-record",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife",
+        "ref-high-speed-splash",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "restrained-retouching",
+      "displayName": "Restrained retouching",
+      "definition": "Distracting transient details are controlled while believable skin, material, and surface variation remain.",
+      "aliases": [
+        "natural retouching",
+        "not overedited"
+      ],
+      "visibleCues": [
+        "pores or material texture remain",
+        "small distractions reduced"
+      ],
+      "antiCues": [
+        "plastic uniform surfaces"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-editorial-portrait",
+        "ref-window-light-editorial-portrait",
+        "ref-approachable-environmental-portrait",
+        "ref-low-key-character-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-cinematic-practical-light-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-industrial-workplace-documentary",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-blue-hour-urban-architecture",
+        "ref-tilt-shift-architectural-study",
+        "ref-window-light-food-story",
+        "ref-rolling-automotive-pan",
+        "ref-studio-automotive-hero",
+        "ref-scientific-specimen-record",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "polished-retouching",
+      "displayName": "Polished retouching",
+      "definition": "Commercially controlled surfaces, color, and contours are refined while the subject remains coherent.",
+      "aliases": [
+        "high end retouching",
+        "polished ad photo"
+      ],
+      "visibleCues": [
+        "precise surface cleanup",
+        "controlled color and contour"
+      ],
+      "antiCues": [
+        "uncontrolled blemishes or dust"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-commercial-color",
+        "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-bright-editorial-food",
+        "ref-luxury-still-life-polish",
+        "ref-high-speed-splash",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "direct-flash-harshness",
+      "displayName": "Direct-flash harshness",
+      "definition": "Near-axis flash creates hard frontal highlights, compact shadows, rapid falloff, and an intentionally blunt finish.",
+      "aliases": [
+        "harsh flash look",
+        "paparazzi flash"
+      ],
+      "visibleCues": [
+        "bright frontal subject",
+        "hard shadow and dark falloff"
+      ],
+      "antiCues": [
+        "soft wrapped studio light"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-direct-flash-nightlife-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion",
+        "ref-degraded-zine-reproduction"
+      ]
+    },
+    {
+      "id": "degraded-reproduction",
+      "displayName": "Degraded reproduction",
+      "definition": "Scanning, photocopying, printing, compression, or repeated copying visibly breaks down detail and tone.",
+      "aliases": [
+        "photocopy look",
+        "zine texture",
+        "lo-fi reproduction"
+      ],
+      "visibleCues": [
+        "broken tones",
+        "registration, scan, or copy artifacts"
+      ],
+      "antiCues": [
+        "pristine high-resolution finish"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-degraded-zine-reproduction"
+      ]
+    },
+    {
+      "id": "natural-texture",
+      "displayName": "Natural texture",
+      "definition": "Skin, fabric, surfaces, and environmental detail remain credible without conspicuous smoothing or sharpening.",
+      "aliases": [
+        "real texture",
+        "authentic detail"
+      ],
+      "visibleCues": [
+        "varied believable surface detail",
+        "moderate edge rendering"
+      ],
+      "antiCues": [
+        "plastic smoothing or brittle oversharpening"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-wet-plate-collodion-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-cyanotype-botanical-photogram",
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-window-light-editorial-portrait",
+        "ref-approachable-environmental-portrait",
+        "ref-low-key-character-portrait",
+        "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-cinematic-practical-light-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-layered-street-observation",
+        "ref-night-street-color",
+        "ref-industrial-workplace-documentary",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-concert-available-light",
+        "ref-golden-hour-grand-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-aerial-graphic-landscape",
+        "ref-panoramic-desert-survey",
+        "ref-intentional-camera-movement-landscape",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-direct-flash-still-life",
+        "ref-scientific-specimen-record",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife",
+        "ref-selective-focus-macro",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-constructed-conceptual-tableau",
+        "ref-instant-film-everyday-snapshot",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    }
+  ]
+}

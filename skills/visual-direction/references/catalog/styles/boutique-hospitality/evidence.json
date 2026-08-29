@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "boutique-hospitality",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "The Serai Wing's context-sensitive boutique hotel interiors",
+    "creatorOrTradition": "ANARCHITECT and contemporary boutique hospitality design",
+    "sourceUrl": "https://www.riba.org/explore/awards/international-awards/middle-east-awards/the-serai-wing-bait-khalid-bin-ibrahim/",
+    "whyCanonical": "RIBA documents a small hospitality project where differentiated rooms, tranquil courtyards, refined local materials, heritage layers, and contemporary service needs form one guest experience."
+  },
+  "sources": [
+    {
+      "title": "The Serai Wing, Bait Khalid Bin Ibrahim",
+      "publisher": "Royal Institute of British Architects",
+      "url": "https://www.riba.org/explore/awards/international-awards/middle-east-awards/the-serai-wing-bait-khalid-bin-ibrahim/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Boutique hospitality can derive room character from context, existing architecture, local material, and a coherent guest program.",
+        "Tranquil courtyards, refined material layers, and identifiable new interventions support warm but specific spatial luxury."
+      ]
+    },
+    {
+      "title": "The Porter House Hotel",
+      "publisher": "Royal Institute of British Architects",
+      "url": "https://www.riba.org/explore/awards/international-awards/international-awards-for-excellence/2026/the-porter-house-hotel/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Craftsmanship, site history, material application, commissioned art, and privacy can align across a hospitality interior.",
+        "Clear circulation and accessible guest rooms establish that atmosphere must remain tied to service and use."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches hospitality signal, atelier signal, brass, marble, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/boutique-hospitality/reference-02.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/boutique-hospitality/reference-02.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches hospitality signal, atelier signal, brass, marble, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

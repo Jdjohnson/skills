@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "id": "pictorialist-soft-focus-landscape",
+  "displayName": "Pictorialist Soft-Focus Landscape",
+  "family": "historical-process",
+  "definition": "A romantic, atmospheric landscape built from softened optics, low tonal range, crafted print texture, and painterly spatial organization.",
+  "aliases": [
+    "dreamy antique landscape",
+    "Photo-Secession landscape"
+  ],
+  "cues": [
+    "pictorialism",
+    "soft-focus-lens-character",
+    "diffused-light",
+    "low-dynamic-range"
+  ],
+  "antiCues": [
+    "clinical sharpness",
+    "saturated postcard color",
+    "HDR microcontrast"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "landscape",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "soft-focus-lens-character"
+    ],
+    "focus-depth": [
+      "deliberate-softness"
+    ],
+    "lighting": [
+      "daylight",
+      "diffused-light",
+      "soft-light"
+    ],
+    "composition": [
+      "layered-depth",
+      "negative-space"
+    ],
+    "color-tonality": [
+      "monochrome-color",
+      "low-contrast-tonality",
+      "low-dynamic-range"
+    ],
+    "medium-process": [
+      "platinum-print"
+    ],
+    "processing-texture": [
+      "optical-diffusion",
+      "matte-blacks",
+      "vignette"
+    ],
+    "era-movement": [
+      "pictorialism"
+    ],
+    "format-output": [
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "atmospheric softness",
+    "crafted matte print",
+    "romantic layered landscape"
+  ],
+  "adaptiveGuidance": [
+    "Preserve recognizable land forms; adapt softness to scale without erasing the subject."
+  ],
+  "applicability": [
+    "landscape",
+    "fine-art",
+    "historic interpretation"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-pictorialist-soft-focus-landscape"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Pictorialism",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/pictorialism",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A romantic, atmospheric landscape built from softened optics, low tonal range, crafted print texture, and painterly spatial organization."
+        ]
+      }
+    ]
+  }
+}

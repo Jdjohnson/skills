@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "natural-textile",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of natural textile craft.\nUse case: product-mockup\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original material study of unbleached linen, handwoven wool, visible selvage, loose folded cloth, natural-dye swatches, and one simple stitched seam.\nStyle/medium: refined editorial textile photography\nComposition/framing: portrait 4:5, layered folds and hanging sample occupy the frame, weave and edge construction clearly visible, readable at thumbnail scale\nLighting/mood: soft window side light, quiet and tactile\nColor palette: flax, oat, warm white, muted indigo, madder rust\nMaterials/textures: coarse and fine weave, slub, fringe, natural dye variation\nConstraints: no garment branding, no synthetic gloss, no text, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "f9aec5b61b268824f6a399f2fc5eeb78faa18a4c3dc07e0435a8f6dede886193",
+  "finalAsset": "assets/refs/natural-textile/generated-lead.jpg",
+  "finalSha256": "4532b964c6a6d9765867232342d53440187be1ace47ea95cf3e07559221055a7",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "humanist-available-light-photo-essay",
+  "displayName": "Humanist Observational Photo Essay",
+  "family": "historical-process",
+  "definition": "An observational sequence centered on ordinary human gesture, layered public space, natural tonal transitions, and narrative continuity.",
+  "aliases": [
+    "classic humanist street essay",
+    "midcentury candid photo story"
+  ],
+  "cues": [
+    "humanist-photojournalism",
+    "ordinary-human-gesture",
+    "zone-focus",
+    "contact-sheet-sequence"
+  ],
+  "antiCues": [
+    "single staged hero shot",
+    "visible studio lighting"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "documentary",
+      "photojournalism",
+      "street"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "eye-level",
+      "layered-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "zone-focus",
+      "deep-focus"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "available-light",
+      "soft-light"
+    ],
+    "composition": [
+      "layered-depth",
+      "environmental-context",
+      "edge-tension"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "low-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "pronounced-grain",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "humanist-photojournalism"
+    ],
+    "format-output": [
+      "contact-sheet-sequence",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "ordinary human gesture",
+    "layered spatial evidence",
+    "narrative across frames"
+  ],
+  "adaptiveGuidance": [
+    "Adapt working distance and sequence length to the event; do not manufacture a decisive moment."
+  ],
+  "applicability": [
+    "streets",
+    "events",
+    "daily life",
+    "photo essays"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-humanist-available-light-photo-essay"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photography in Postwar America, 1945-60",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/photography-and-everyday-life-in-america-1945-60",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "An observational sequence centered on ordinary human gesture, layered public space, natural tonal transitions, and narrative continuity."
+        ]
+      }
+    ]
+  }
+}

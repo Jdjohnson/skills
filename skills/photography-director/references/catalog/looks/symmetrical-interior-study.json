@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "id": "symmetrical-interior-study",
+  "displayName": "Symmetrical Interior Study",
+  "family": "landscape-built-world",
+  "definition": "A centered room photograph organized by bilateral symmetry, straight-on geometry, soft even illumination, and full spatial legibility.",
+  "aliases": [
+    "perfectly centered room",
+    "symmetrical interior photo"
+  ],
+  "cues": [
+    "symmetrical-framing",
+    "symmetry",
+    "straight-on-view",
+    "deep-focus"
+  ],
+  "antiCues": [
+    "casual corner snapshot",
+    "tilted verticals",
+    "dark blocked furnishings"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "interiors",
+      "architecture"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "straight-on-view",
+      "centered-framing",
+      "symmetrical-framing"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "window-light",
+      "soft-light",
+      "front-light",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "symmetry",
+      "centrality",
+      "leading-lines",
+      "geometric-order"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "high-dynamic-range"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "polished-retouching"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "central room axis",
+    "even spatial illumination",
+    "complete material legibility"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera height to the room's true axis; preserve usable proportions rather than stretching the space."
+  ],
+  "applicability": [
+    "residential interiors",
+    "hospitality",
+    "institutional rooms"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-symmetrical-interior-study"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lens basics",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/articles/00268239",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A centered room photograph organized by bilateral symmetry, straight-on geometry, soft even illumination, and full spatial legibility."
+        ]
+      }
+    ]
+  }
+}

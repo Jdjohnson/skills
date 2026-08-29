@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "new-topographics-deadpan-landscape",
+  "displayName": "New Topographics Deadpan Landscape",
+  "family": "landscape-built-world",
+  "definition": "A detached, frontally descriptive view of ordinary human-altered land, using muted color, deep focus, geometric order, and anti-spectacular light.",
+  "aliases": [
+    "deadpan built landscape",
+    "ordinary infrastructure photo"
+  ],
+  "cues": [
+    "new-topographics",
+    "straight-on-view",
+    "muted-color",
+    "deep-focus"
+  ],
+  "antiCues": [
+    "epic sunset",
+    "dramatic wide-angle foreground",
+    "romantic ruin"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "landscape",
+      "architecture",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "eye-level",
+      "straight-on-view"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "overcast-light",
+      "flat-lighting"
+    ],
+    "composition": [
+      "geometric-order",
+      "environmental-context",
+      "centrality"
+    ],
+    "color-tonality": [
+      "muted-color",
+      "matte-tonality",
+      "low-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "matte-blacks",
+      "fine-grain"
+    ],
+    "era-movement": [
+      "new-topographics"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "detached frontal description",
+    "ordinary altered terrain",
+    "muted precise geometry"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera height and distance to describe the site plainly; do not add spectacle the place does not contain."
+  ],
+  "applicability": [
+    "suburbs",
+    "infrastructure",
+    "industrial edges",
+    "built landscape"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-new-topographics-deadpan-landscape"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "New Topographics",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/new-topographics",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A detached, frontally descriptive view of ordinary human-altered land, using muted color, deep focus, geometric order, and anti-spectacular light."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "corporate-modernism",
+  "displayName": "Corporate Modernism",
+  "family": "modernist-grid",
+  "definition": "Coherent modernist identity systems align marks, grids, typography, photography, color, and documents across an organization's touchpoints.",
+  "axes": {
+    "minimalOrnate": -0.5,
+    "geometricOrganic": -0.5,
+    "polishedRaw": -0.6,
+    "calmEnergetic": -0.1,
+    "historicalFuturistic": 0.4,
+    "realisticAbstract": -0.2,
+    "warmCool": 0.5,
+    "lightDark": 0.5,
+    "playfulSerious": 0.4,
+    "handmadeMachined": 0.6,
+    "flatDeep": -0.4,
+    "everydayLuxurious": 0.3
+  },
+  "cues": [
+    "identity-system",
+    "cross-touchpoint",
+    "structured-type",
+    "consistent-mark",
+    "grid-photography"
+  ],
+  "antiCues": [
+    "ornate",
+    "collage",
+    "one-off-campaign",
+    "inconsistent-branding"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "luxurious-feel"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.45,
+      "symmetry": 0.35,
+      "margins": 0.42
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#0A9396",
+        "#94D2BD",
+        "#E9D8A6",
+        "#EE9B00",
+        "#005F73"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/modern-brochure.svg",
+      "descriptor": "corporate sans with brochure hierarchy",
+      "weight": 400,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.15,
+      "lineWeight": 0.3,
+      "curveTension": 0.1
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/modernist-grid-primary"
+      ],
+      "finish": "satin",
+      "grain": 0.06,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.18
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.25,
+      "parallax": 0.08
+    },
+    "motion": {
+      "energy": 0.25,
+      "descriptor": "page-turn"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.06,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "photographic",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.2
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 2,
+    "presentation": 3,
+    "editorial-document": 3,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 3,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 2,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "an invented civic-technology identity shown across sign, report, package, and staff badge",
+    "framing": "System board with one geometric mark, shared grid, disciplined sans typography, controlled color, and consistent photography across four touchpoints.",
+    "mustShow": [
+      "identity-system",
+      "cross-touchpoint",
+      "consistent-mark"
+    ],
+    "mustAvoid": [
+      "ornate",
+      "one-off-campaign",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "neo-grotesk-editorial",
+    "flat-design-ui",
+    "design-monograph"
+  ],
+  "contrasting": [
+    "punk-zine",
+    "narrative-woodcut",
+    "glitch-art"
+  ]
+}

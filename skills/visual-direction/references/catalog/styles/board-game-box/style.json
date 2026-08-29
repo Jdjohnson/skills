@@ -1,0 +1,163 @@
+{
+  "id": "board-game-box",
+  "displayName": "Board Game Box",
+  "family": "playful-system",
+  "definition": "Shelf-facing game packaging that combines a strong title world, illustrated premise, player and age cues, component previews, and rule-system iconography.",
+  "axes": {
+    "minimalOrnate": 0.3,
+    "geometricOrganic": -0.4,
+    "polishedRaw": -0.3,
+    "calmEnergetic": 0.4,
+    "historicalFuturistic": -0.1,
+    "realisticAbstract": 0.2,
+    "warmCool": 0.3,
+    "lightDark": 0,
+    "playfulSerious": -0.6,
+    "handmadeMachined": 0.2,
+    "flatDeep": -0.4,
+    "everydayLuxurious": -0.2
+  },
+  "cues": [
+    "shelf-facing-title",
+    "illustrated-premise",
+    "component-preview",
+    "player-age-cues",
+    "rule-iconography",
+    "box-panel-hierarchy",
+    "retail-thumbnail",
+    "tabletop-world"
+  ],
+  "antiCues": [
+    "generic-vintage-ephemera",
+    "toy-catalog-grid",
+    "minimal-luxury-box",
+    "unlicensed-game-imitation"
+  ],
+  "emotionalEffects": [
+    "playful",
+    "nostalgic",
+    "warm-hearted"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "bordered",
+      "density": 0.65,
+      "symmetry": 0.75,
+      "margins": 0.08
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#C41E3A",
+        "#37D493",
+        "#C8E2F5",
+        "#5A273B",
+        "#1A1A1A"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/board-game-box.svg",
+      "descriptor": "bold shelf display with badge hierarchy",
+      "weight": 800,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/playful-system-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.3,
+      "tags": [
+        "cardboard",
+        "paper"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 3,
+      "shadowSoftness": 0.35,
+      "parallax": 0.15
+    },
+    "motion": {
+      "energy": 0.35,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.35,
+      "tags": [
+        "decorative-border"
+      ]
+    },
+    "imagery": {
+      "treatment": "illustrated",
+      "subjectRules": [
+        "style-specific-subject",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 1,
+    "social-advertising": 2,
+    "packaging": 3,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 3,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "complete tabletop game package",
+    "framing": "Show an original box front with a dominant title world, illustrated premise, small player and age cues, and a nearby component preview that proves the rule system.",
+    "mustShow": [
+      "shelf-facing-title",
+      "illustrated-premise",
+      "component-preview"
+    ],
+    "mustAvoid": [
+      "generic-vintage-ephemera",
+      "toy-catalog-grid",
+      "minimal-luxury-box",
+      "unlicensed-game-imitation",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "supermarket-packaging",
+    "carnival-poster",
+    "psychedelic-poster"
+  ],
+  "contrasting": [
+    "gallery-white",
+    "documentary-grit",
+    "academic-journal"
+  ]
+}

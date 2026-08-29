@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "multiple-exposure-conceptual-portrait",
+  "displayName": "Multiple-Exposure Conceptual Portrait",
+  "family": "action-nature-experimental",
+  "definition": "A portrait in which repeated or overlaid exposures create an intentional relationship between identity, gesture, environment, or time.",
+  "aliases": [
+    "double exposure portrait",
+    "layered face concept"
+  ],
+  "cues": [
+    "multiple-exposure-treatment",
+    "conceptual",
+    "layered-depth",
+    "deliberate-imbalance"
+  ],
+  "antiCues": [
+    "random transparent overlay",
+    "ordinary reflection presented as double exposure",
+    "unreadable visual pileup"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "conceptual",
+      "portrait",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "medium-close-up",
+      "centered-framing",
+      "layered-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "selective-focus",
+      "deliberate-softness"
+    ],
+    "exposure-motion": [
+      "multiple-exposure-treatment"
+    ],
+    "lighting": [
+      "side-light",
+      "underlight",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "layered-depth",
+      "deliberate-imbalance",
+      "centrality"
+    ],
+    "color-tonality": [
+      "monochrome-color",
+      "black-and-white",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "darkroom-contrast",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "new-vision"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "meaningful exposure overlap",
+    "recognizable identity anchor",
+    "layered temporal idea"
+  ],
+  "adaptiveGuidance": [
+    "Adapt number, opacity, and alignment of exposures to the concept; keep at least one subject reading clear."
+  ],
+  "applicability": [
+    "people",
+    "identity",
+    "memory",
+    "conceptual editorial"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-multiple-exposure-conceptual-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Modern Photographs from the Thomas Walther Collection",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/documents/moma_press-release_389290.pdf",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A portrait in which repeated or overlaid exposures create an intentional relationship between identity, gesture, environment, or time."
+        ]
+      }
+    ]
+  }
+}

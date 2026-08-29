@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "description": "Small, reviewed visible-fit coverage for the workplace, portrait, and documentary retrieval slice. Missing fields are unknown and must not be inferred.",
+  "references": [
+    {
+      "id": "ref-team-project-meeting",
+      "subjectCount": "group",
+      "settings": ["office", "workplace"],
+      "actions": ["group-work"],
+      "traits": ["group-work", "workplace", "documentary"],
+      "traitStudyFor": ["warm-real-founder"]
+    },
+    {
+      "id": "ref-team-laptop-collaboration",
+      "subjectCount": "group",
+      "settings": ["office", "workplace"],
+      "actions": ["group-work"],
+      "traits": ["group-work", "workplace", "documentary"]
+    },
+    {
+      "id": "ref-colleagues-document-review",
+      "subjectCount": "group",
+      "settings": ["office", "workplace"],
+      "actions": ["group-work"],
+      "traits": ["group-work", "workplace", "documentary"]
+    },
+    {
+      "id": "ref-professional-calm-office",
+      "subjectCount": "single",
+      "settings": ["office", "workplace"],
+      "actions": ["portrait"],
+      "traits": ["portrait", "workplace"]
+    },
+    {
+      "id": "ref-professional-candid-smile",
+      "subjectCount": "single",
+      "settings": ["office", "workplace"],
+      "actions": ["portrait"],
+      "traits": ["portrait", "workplace"]
+    },
+    {
+      "id": "ref-professional-lowkey-desk",
+      "subjectCount": "single",
+      "settings": ["office", "workplace"],
+      "actions": ["portrait"],
+      "traits": ["portrait", "workplace"]
+    },
+    {
+      "id": "ref-founder-screenprint-work",
+      "subjectCount": "single",
+      "settings": ["workshop", "workplace"],
+      "actions": ["solo-work"],
+      "traits": ["solo-work", "workplace", "documentary"]
+    },
+    {
+      "id": "ref-founder-home-office-work",
+      "subjectCount": "single",
+      "settings": ["home-office", "workplace"],
+      "actions": ["solo-work"],
+      "traits": ["solo-work", "home-office", "workplace", "documentary"]
+    },
+    {
+      "id": "ref-industrial-workplace-documentary",
+      "subjectCount": "group",
+      "settings": ["industrial-workplace", "workplace"],
+      "actions": ["industrial-task"],
+      "traits": ["group-work", "industrial", "workplace", "documentary"]
+    },
+    {
+      "id": "ref-industrial-human-machine-portrait",
+      "subjectCount": "single",
+      "settings": ["industrial-workplace", "workplace"],
+      "actions": ["industrial-task"],
+      "traits": ["solo-work", "industrial", "workplace", "documentary"]
+    },
+    {
+      "id": "ref-industrial-color-production-reportage",
+      "subjectCount": "single",
+      "settings": ["industrial-workplace", "workplace"],
+      "actions": ["industrial-task"],
+      "traits": ["solo-work", "industrial", "workplace", "documentary"]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "bauhaus-workshop",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Bauhaus preliminary course and workshop teaching",
+    "creatorOrTradition": "Bauhaus school tradition",
+    "sourceUrl": "https://www.bauhaus.de/en/discover/article/teaching-at-the-bauhaus/",
+    "whyCanonical": "The preliminary course and workshops joined experiments in color, form, material, perception, craft, and production rather than prescribing one decorative look."
+  },
+  "sources": [
+    {
+      "title": "Preliminary Course, Workshops and Bauhaus Diploma: What Made Training at the Bauhaus So Special?",
+      "publisher": "Bauhaus-Archiv / Museum für Gestaltung",
+      "url": "https://www.bauhaus.de/en/discover/article/teaching-at-the-bauhaus/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Bauhaus teaching centered experiments with color, form, material, and visual perception.",
+        "Students advanced from the preliminary course into workshops joining artistic and craft instruction."
+      ]
+    },
+    {
+      "title": "14 Years of Bauhaus: A Chronology From Its Founding in 1919 to Its Closure in 1933",
+      "publisher": "Bauhaus-Archiv / Museum für Gestaltung",
+      "url": "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The preliminary course addressed material, shaping, presentation, construction, rhythm, and formal and light contrasts.",
+        "Workshop practice connected artistic form with craft and later industrial production."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches elemental geometry, asymmetric, functional type, workshop material, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/bauhaus-workshop/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/bauhaus-workshop/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches elemental geometry, asymmetric, functional type, workshop material, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

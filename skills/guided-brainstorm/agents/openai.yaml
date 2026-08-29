@@ -1,0 +1,4 @@
+interface:
+  display_name: "Guided Brainstorm"
+  short_description: "Shape early ideas through focused questions"
+  default_prompt: "Use $guided-brainstorm to help me explore and shape this idea."

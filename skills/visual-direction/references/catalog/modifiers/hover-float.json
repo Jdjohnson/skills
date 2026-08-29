@@ -1,0 +1,55 @@
+{
+  "id": "hover-float",
+  "group": "motion-energy",
+  "definition": "Lighten gravity; floating placement.",
+  "targetConcerns": [
+    "composition",
+    "depth"
+  ],
+  "compatibleStyles": [
+    "motion-sticker",
+    "film-noir"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "impact-freeze"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "composition",
+          "path": "density",
+          "factor": 0.85
+        },
+        {
+          "op": "addParam",
+          "concern": "depth",
+          "path": "parallax",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

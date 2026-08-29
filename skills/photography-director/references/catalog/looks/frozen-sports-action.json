@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "frozen-sports-action",
+  "displayName": "Frozen Sports Action",
+  "family": "action-nature-experimental",
+  "definition": "An athletic peak rendered sharply with fast exposure, telephoto isolation, compressed spectators or venue context, and clear physical effort.",
+  "aliases": [
+    "sharp sports action",
+    "freeze athlete in motion"
+  ],
+  "cues": [
+    "sports",
+    "frozen-motion",
+    "telephoto-compression",
+    "edge-tension"
+  ],
+  "antiCues": [
+    "posed athlete",
+    "directionless blur",
+    "empty contextless cutout"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "sports",
+      "photojournalism"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "low-angle",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "telephoto-compression"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "frozen-motion"
+    ],
+    "lighting": [
+      "daylight",
+      "hard-light",
+      "side-light"
+    ],
+    "composition": [
+      "edge-tension",
+      "diagonal-composition",
+      "spatial-compression"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "peak athletic gesture",
+    "crisp subject edge",
+    "compressed venue context"
+  ],
+  "adaptiveGuidance": [
+    "Adapt shutter, tracking, lens reach, and framing to sport speed and safe access; keep the competitive context."
+  ],
+  "applicability": [
+    "field sports",
+    "court sports",
+    "athletics",
+    "adventure sports"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-frozen-sports-action"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Capture the Motion in Photographs",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/lenses-conversion-lenses/sel20tc/articles/00223372",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "An athletic peak rendered sharply with fast exposure, telephoto isolation, compressed spectators or venue context, and clear physical effort."
+        ]
+      }
+    ]
+  }
+}

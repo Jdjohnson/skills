@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "id": "high-speed-splash",
+  "displayName": "High-Speed Splash",
+  "family": "action-nature-experimental",
+  "definition": "A liquid, powder, or fragment event arrested at peak form with crisp droplets, dark controlled space, and sculptural highlights; the exact freezing method remains unclaimed unless documented.",
+  "aliases": [
+    "frozen water splash",
+    "high speed flash photography"
+  ],
+  "cues": [
+    "individually-resolved-droplets",
+    "peak-transient-form",
+    "frozen-motion",
+    "crisp-clarity"
+  ],
+  "antiCues": [
+    "motion-smeared liquid",
+    "continuous-light claim without evidence",
+    "random particle overlay"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "product",
+      "scientific",
+      "conceptual"
+    ],
+    "viewpoint-framing": [
+      "extreme-close-up",
+      "detail-framing",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "macro-magnification",
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "high-speed-flash",
+      "frozen-motion"
+    ],
+    "lighting": [
+      "hard-light",
+      "backlight",
+      "rim-light",
+      "low-key-lighting"
+    ],
+    "composition": [
+      "centrality",
+      "diagonal-composition",
+      "negative-space"
+    ],
+    "color-tonality": [
+      "high-contrast-tonality",
+      "luminous-highlights",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "polished-retouching"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "individually resolved droplets",
+    "controlled rim highlight",
+    "peak transient form"
+  ],
+  "adaptiveGuidance": [
+    "Adapt trigger or capture timing, focus, containment, and cleanup to the material; short-duration flash is one possible method, and must be documented before it is named as fact."
+  ],
+  "applicability": [
+    "liquids",
+    "food",
+    "product",
+    "scientific phenomena"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-high-speed-splash"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Capture the Motion in Photographs",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/lenses-conversion-lenses/sel20tc/articles/00223372",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A liquid, powder, or fragment event arrested at peak form with crisp droplets, dark controlled space, and sculptural highlights; the exact freezing method remains unclaimed unless documented."
+        ]
+      }
+    ]
+  }
+}

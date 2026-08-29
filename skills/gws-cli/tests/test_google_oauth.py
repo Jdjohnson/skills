@@ -105,7 +105,7 @@ class GoogleOAuthTests(unittest.TestCase):
         self, refresh: MagicMock
     ) -> None:
         refresh.return_value = {
-            "source": "gws-full",
+            "source": google_oauth.CANONICAL_SOURCE_NAME,
             "token_path": "/tmp/token.json",
             "access_token": "fresh-token",
             "token_type": "Bearer",

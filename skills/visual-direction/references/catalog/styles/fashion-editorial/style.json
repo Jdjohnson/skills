@@ -1,0 +1,160 @@
+{
+  "id": "fashion-editorial",
+  "displayName": "Fashion Editorial",
+  "family": "editorial-literary",
+  "definition": "Art-directed fashion photography, controlled asymmetry, full-bleed or sharply framed figure, deliberate styling, and sparse display type create image-led spread drama.",
+  "axes": {
+    "minimalOrnate": 0.2,
+    "geometricOrganic": 0.5,
+    "polishedRaw": -0.6,
+    "calmEnergetic": 0.3,
+    "historicalFuturistic": -0.1,
+    "realisticAbstract": -0.1,
+    "warmCool": 0.1,
+    "lightDark": 0.2,
+    "playfulSerious": 0.3,
+    "handmadeMachined": 0.1,
+    "flatDeep": 0.1,
+    "everydayLuxurious": 0.7
+  },
+  "cues": [
+    "art-directed-fashion",
+    "photographic",
+    "controlled-asymmetry",
+    "full-bleed",
+    "sparse-display-type"
+  ],
+  "antiCues": [
+    "catalog-grid",
+    "costume-plate",
+    "scholarly-apparatus",
+    "generic-lifestyle"
+  ],
+  "emotionalEffects": [
+    "sensual",
+    "dramatic",
+    "luxurious-feel"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.35,
+      "symmetry": 0.3,
+      "margins": 0.08
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FAF7F2",
+        "#549B1B",
+        "#0A0A0A",
+        "#6F1F4C",
+        "#A0A7C4"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/fashion-editorial.svg",
+      "descriptor": "high-contrast fashion display",
+      "weight": 300,
+      "tracking": 0.08
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/editorial-literary-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.2,
+      "tags": [
+        "silk",
+        "marble"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.7,
+      "keyDirection": "side",
+      "gradient": 0.5
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "art-directed-fashion-story",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.2
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 2,
+    "packaging": 1,
+    "photography": 3,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a two-look fashion story built around one model, deliberate styling, and a strong shift in scale",
+    "framing": "Double-page spread with a full-bleed figure, sharply framed detail, controlled negative space, and sparse display typography subordinate to the photographs.",
+    "mustShow": [
+      "art-directed-fashion",
+      "photographic"
+      ,"controlled-asymmetry"
+    ],
+    "mustAvoid": [
+      "catalog-grid",
+      "costume-plate",
+      "generic-lifestyle",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "magazine-feature",
+    "photo-essay",
+    "culture-review"
+  ],
+  "contrasting": [
+    "academic-journal",
+    "crt-terminal",
+    "operational-dashboard"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "empire-style",
+  "displayName": "Empire Style",
+  "family": "ornate-historical",
+  "definition": "Axial symmetry, monumental proportion, dark polished wood, marble, gilded mounts, laurel, eagle, and classical motifs express Napoleonic-era state luxury.",
+  "axes": {
+    "minimalOrnate": 0.5,
+    "geometricOrganic": -0.5,
+    "polishedRaw": -0.7,
+    "calmEnergetic": -0.3,
+    "historicalFuturistic": -0.8,
+    "realisticAbstract": -0.6,
+    "warmCool": 0.4,
+    "lightDark": -0.5,
+    "playfulSerious": 0.5,
+    "handmadeMachined": 0.3,
+    "flatDeep": 0.2,
+    "everydayLuxurious": 0.6
+  },
+  "cues": [
+    "symmetry",
+    "classical-era",
+    "monument-scale",
+    "smooth",
+    "institutional"
+  ],
+  "antiCues": [
+    "collage",
+    "rough",
+    "neon-chroma"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "monumental",
+    "timeless"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.55,
+      "symmetry": 0.85,
+      "margins": 0.25
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#1B365D",
+        "#F1F5F0",
+        "#6CC961",
+        "#415C67",
+        "#3EC25A"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/empire-neoclassical.svg",
+      "descriptor": "Roman capitals with measured spacing",
+      "weight": 600,
+      "tracking": 0.06
+    },
+    "shapeLine": {
+      "cornerRadius": 0.05,
+      "lineWeight": 0.5,
+      "curveTension": 0.1
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/ornate-historical-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.15,
+      "tags": [
+        "marble",
+        "brass",
+        "stone"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "top",
+      "gradient": 0.35
+    },
+    "depth": {
+      "layers": 3,
+      "shadowSoftness": 0.4,
+      "parallax": 0.25
+    },
+    "motion": {
+      "energy": 0.25,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/ornate-historical"
+      ],
+      "density": 0.5,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "axial furniture and interior ensemble",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.2
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 1,
+    "presentation": 3,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 3,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "an axial mahogany and gilt-bronze furniture ensemble with disciplined imperial emblems",
+    "framing": "center the principal object in a measured classical room, repeat mirrored supports and emblematic mounts, and reserve ornament for structural points",
+    "mustShow": [
+      "symmetry",
+      "classical-era",
+      "monument-scale"
+    ],
+    "mustAvoid": [
+      "collage",
+      "rough",
+      "neon-chroma",
+      "rococo asymmetry",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "art-deco",
+    "byzantine-mosaic",
+    "gallery-white"
+  ],
+  "contrasting": [
+    "punk-zine",
+    "sticker-bomb",
+    "glitch-art"
+  ]
+}

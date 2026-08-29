@@ -1,0 +1,163 @@
+{
+  "id": "engineering-blueprint",
+  "displayName": "Engineering Blueprint",
+  "family": "scientific-diagram",
+  "definition": "Cyanotype or negative-print engineering sheets with measured plans, dimensions, white-line structure, title blocks, material notes, and disciplined full-sheet order.",
+  "axes": {
+    "minimalOrnate": -0.5,
+    "geometricOrganic": -0.6,
+    "polishedRaw": -0.3,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": -0.2,
+    "realisticAbstract": -0.5,
+    "warmCool": 0.4,
+    "lightDark": 0.4,
+    "playfulSerious": 0.7,
+    "handmadeMachined": 0.6,
+    "flatDeep": -0.6,
+    "everydayLuxurious": -0.2
+  },
+  "cues": [
+    "white-line-on-blue",
+    "measured-plan",
+    "dimension-string",
+    "title-block",
+    "section-elevation",
+    "material-note",
+    "revision-mark",
+    "full-sheet-order"
+  ],
+  "antiCues": [
+    "blue-neon-wireframe",
+    "concept-sketch",
+    "sci-fi-hud",
+    "unmeasured-outline",
+    "cropped-detail-only"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "austere",
+    "clinical"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.55,
+      "symmetry": 0.7,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#003366",
+        "#FFFFFF",
+        "#E8A54B",
+        "#4A90D9",
+        "#8B0000"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/blueprint-tech.svg",
+      "descriptor": "system sans/display",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/scientific-diagram-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.15,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.7,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "show-buildable-measured-information",
+        "include-title-block-and-scale",
+        "coordinate-plan-section-and-detail",
+        "avoid-fake-technical-gibberish"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 3,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 0,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 3,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "a complete cyanotype engineering sheet with measured plan, elevation, section, dimensions, notes, and title block",
+    "framing": "show the full disciplined sheet first so drawing relationships and marginal data remain visible, then permit one readable detail",
+    "mustShow": [
+      "negative white-line reproduction",
+      "dimensions and scale",
+      "title block or sheet identity"
+    ],
+    "mustAvoid": [
+      "neon tech aesthetic",
+      "meaningless pseudo-dimensions",
+      "perspective rendering only",
+      "cropped fragment as lead",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "circuit-schematic",
+    "cartographic-sheet",
+    "specimen-label"
+  ],
+  "contrasting": [
+    "folk-embroidery",
+    "roadside-vernacular",
+    "wabi-sabi"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "victorian-tint",
+  "group": "era-tint",
+  "definition": "Apply Victorian decorative tint.",
+  "targetConcerns": [
+    "ornament",
+    "typography"
+  ],
+  "compatibleStyles": [
+    "art-deco",
+    "y2k-cyber"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "digital-native",
+    "playful-system"
+  ],
+  "incompatibleModifiers": [
+    "midcentury-tint"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "ornament",
+          "path": "density",
+          "factor": 1.15
+        },
+        {
+          "op": "addParam",
+          "concern": "typography",
+          "path": "tracking",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

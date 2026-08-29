@@ -1,0 +1,52 @@
+{
+  "id": "break-grid",
+  "group": "structure",
+  "definition": "Allow controlled grid-breaking placement.",
+  "targetConcerns": [
+    "composition"
+  ],
+  "compatibleStyles": [
+    "punk-zine",
+    "web-brutalism",
+    "memphis-design",
+    "sticker-bomb"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "modernist-grid"
+  ],
+  "incompatibleModifiers": [
+    "more-grid"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "composition",
+          "path": "density",
+          "factor": 0.85
+        }
+      ]
+    }
+  }
+}

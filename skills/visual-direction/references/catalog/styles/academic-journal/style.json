@@ -1,0 +1,160 @@
+{
+  "id": "academic-journal",
+  "displayName": "Academic Journal",
+  "family": "editorial-literary",
+  "definition": "Article title, abstract, author block, section hierarchy, citations, footnotes, figures, tables, and restrained typography signal scholarly publishing and close reading.",
+  "axes": {
+    "minimalOrnate": -0.6,
+    "geometricOrganic": -0.9,
+    "polishedRaw": -0.3,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": -0.4,
+    "realisticAbstract": -0.5,
+    "warmCool": 0.1,
+    "lightDark": -0.4,
+    "playfulSerious": 0.7,
+    "handmadeMachined": 0.5,
+    "flatDeep": -0.5,
+    "everydayLuxurious": -0.6
+  },
+  "cues": [
+    "article-structure",
+    "abstract-block",
+    "citations-footnotes",
+    "figures-tables",
+    "scholarly-hierarchy"
+  ],
+  "antiCues": [
+    "magazine-drama",
+    "decorative-display",
+    "uncited-claims",
+    "promotional-cover"
+  ],
+  "emotionalEffects": [
+    "scholarly",
+    "austere",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.55,
+      "symmetry": 0.75,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#F7F4EE",
+        "#792F1F",
+        "#832BA3",
+        "#9A9CA6",
+        "#16191A"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/academic-journal.svg",
+      "descriptor": "conservative serif with footnote rhythm",
+      "weight": 400,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/editorial-literary-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.2,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.5,
+      "keyDirection": "front",
+      "gradient": 0.3
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "research-figure-or-documentation",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "a research article first page paired with a dense interior containing one table and one figure",
+    "framing": "Visible article title, author and affiliation block, abstract, section hierarchy, citations, captioned figure, table, and restrained journal typography.",
+    "mustShow": [
+      "article-structure",
+      "abstract-block",
+      "figures-tables"
+    ],
+    "mustAvoid": [
+      "magazine-drama",
+      "decorative-display",
+      "promotional-cover",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "literary-journal",
+    "design-monograph",
+    "news-broadsheet"
+  ],
+  "contrasting": [
+    "fashion-editorial",
+    "vaporwave",
+    "neon-night-ui"
+  ]
+}

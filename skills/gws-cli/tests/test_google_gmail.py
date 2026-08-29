@@ -63,7 +63,7 @@ class GoogleGmailTests(unittest.TestCase):
                         "payload": {
                             "headers": [
                                 {"name": "Subject", "value": "Earlier"},
-                                {"name": "From", "value": "one@localhost"},
+                                {"name": "From", "value": "one@example.com"},
                             ]
                         },
                     },
@@ -75,8 +75,8 @@ class GoogleGmailTests(unittest.TestCase):
                         "payload": {
                             "headers": [
                                 {"name": "Subject", "value": "Latest"},
-                                {"name": "From", "value": "two@localhost"},
-                                {"name": "Delivered-To", "value": "work@localhost"},
+                                {"name": "From", "value": "two@example.com"},
+                                {"name": "Delivered-To", "value": "work@example.com"},
                             ],
                             "body": {"data": encoded("must not be decoded")},
                         },
@@ -188,7 +188,7 @@ class GoogleGmailTests(unittest.TestCase):
                 "google_gmail.py",
                 "draft",
                 "--to",
-                "person@localhost",
+                "person@example.com",
                 "--subject",
                 "Hello",
                 "--body",
@@ -216,7 +216,7 @@ class GoogleGmailTests(unittest.TestCase):
                 "google_gmail.py",
                 "draft",
                 "--to",
-                "person@localhost",
+                "person@example.com",
                 "--subject",
                 "Re: Hello",
                 "--body",
@@ -224,9 +224,9 @@ class GoogleGmailTests(unittest.TestCase):
                 "--thread-id",
                 "thread-1",
                 "--in-reply-to",
-                "<message-1@localhost>",
+                "<message-1@example.com>",
                 "--references",
-                "<message-0@localhost> <message-1@localhost>",
+                "<message-0@example.com> <message-1@example.com>",
             ],
         ):
             google_gmail.main()
@@ -235,10 +235,10 @@ class GoogleGmailTests(unittest.TestCase):
         raw = base64.urlsafe_b64decode(message_resource["raw"])
         parsed = BytesParser(policy=policy.default).parsebytes(raw)
         self.assertEqual(message_resource["threadId"], "thread-1")
-        self.assertEqual(parsed["In-Reply-To"], "<message-1@localhost>")
+        self.assertEqual(parsed["In-Reply-To"], "<message-1@example.com>")
         self.assertEqual(
             parsed["References"],
-            "<message-0@localhost> <message-1@localhost>",
+            "<message-0@example.com> <message-1@example.com>",
         )
 
     @patch.object(google_gmail, "print_output")

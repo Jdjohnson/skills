@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "id": "constructed-conceptual-tableau",
+  "displayName": "Constructed Conceptual Tableau",
+  "family": "action-nature-experimental",
+  "definition": "A visibly staged scene in which set, pose, symbolic objects, directional light, and deep composition work together to express one legible idea.",
+  "aliases": [
+    "staged conceptual photo",
+    "surreal constructed scene"
+  ],
+  "cues": [
+    "conceptual",
+    "environmental-wide",
+    "motivated-light",
+    "geometric-order"
+  ],
+  "antiCues": [
+    "random surreal props",
+    "documentary claim",
+    "style without a readable idea"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "conceptual",
+      "fine-art",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "straight-on-view",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "continuous-studio-light",
+      "motivated-light",
+      "underlight",
+      "side-light",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "geometric-order",
+      "symmetry",
+      "environmental-context",
+      "centrality"
+    ],
+    "color-tonality": [
+      "monochrome-color",
+      "saturated-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "polished-retouching",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-cinematic-still"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "one legible visual proposition",
+    "designed set relationships",
+    "purposeful theatrical light"
+  ],
+  "adaptiveGuidance": [
+    "Adapt set scale, lens, and light to the idea; remove any prop or effect that does not support it."
+  ],
+  "applicability": [
+    "editorial concepts",
+    "fine-art narrative",
+    "campaign tableaux"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-constructed-conceptual-tableau"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "The Photographic Record",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/photography/the-photographic-record",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A visibly staged scene in which set, pose, symbolic objects, directional light, and deep composition work together to express one legible idea."
+        ]
+      }
+    ]
+  }
+}

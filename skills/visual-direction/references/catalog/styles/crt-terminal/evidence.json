@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "crt-terminal",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "DEC VT100 terminal",
+    "creatorOrTradition": "Digital Equipment Corporation",
+    "sourceUrl": "https://www.computerhistory.org/revolution/input-output/14/349/1697",
+    "whyCanonical": "The VT100 is a widely emulated 1978 video terminal whose text display, fixed character system, bold and alternate character capabilities, and dedicated hardware define the historical command-screen substrate."
+  },
+  "sources": [
+    {
+      "title": "VT100 terminal",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/revolution/input-output/14/349/1697",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "DEC introduced the VT100 in 1978 as a dedicated text terminal.",
+        "Its display supported bold characters and multiple text and graphic character sets, reinforcing a strict character-cell interface rather than a modern code editor."
+      ]
+    },
+    {
+      "title": "TeleVideo 803 Microcomputer",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://www.si.edu/object/televideo-803-microcomputer%3Anmah_1187036",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The TeleVideo 803 used a large tilting green display in an integrated early-1980s computer system.",
+        "The museum identifies the VT100 as the reference terminal model copied by competing manufacturers, supporting its canonical role."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches digital signal, screen scale, monochrome, text type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/crt-terminal/generated-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/crt-terminal/generated-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches digital signal, screen scale, monochrome, text type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

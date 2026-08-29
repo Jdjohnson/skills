@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "silk-editorial",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Madame Gres and Yves Saint Laurent silk drapery",
+    "creatorOrTradition": "Fashion editorial traditions centered on fabric, silhouette, and movement",
+    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2006/nan-kempner/photo-gallery",
+    "whyCanonical": "The Met describes pleated silk jersey, liquid silk crepe, chiffon, satin, and drapery as active determinants of silhouette, contrast, sensuality, and movement."
+  },
+  "sources": [
+    {
+      "title": "Nan Kempner: American Chic - Evening Gowns",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2006/nan-kempner/photo-gallery",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Pleated jersey, liquid crepe, chiffon, satin, and velvet each create distinct drape, reflection, and silhouette behavior.",
+        "Fabric movement and technically refined construction support a tactile editorial sequence rather than generic soft-focus luxury."
+      ]
+    },
+    {
+      "title": "Fashion Photography: A Visual History",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/event/3yxPBNKObE/o24039-fashion-photography-a-visual-history",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Fashion pictures operate as editorial and advertising images that shape how couture and identity are understood.",
+        "The V&A's collection-based framing supports sequencing garment, model, and photographic treatment as one editorial system."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches silk, editorial pace, photographic, soft edge, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/silk-editorial/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/silk-editorial/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches silk, editorial pace, photographic, soft edge, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

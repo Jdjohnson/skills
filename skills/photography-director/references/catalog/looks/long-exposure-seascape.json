@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "long-exposure-seascape",
+  "displayName": "Long-Exposure Seascape",
+  "family": "landscape-built-world",
+  "definition": "A stable coastal composition in which an extended exposure turns water and clouds into continuous tonal fields around crisp rocks or architecture.",
+  "aliases": [
+    "milky water seascape",
+    "slow shutter ocean"
+  ],
+  "cues": [
+    "long-exposure",
+    "negative-space",
+    "low-contrast-tonality",
+    "deep-focus"
+  ],
+  "antiCues": [
+    "frozen crashing wave",
+    "handheld accidental blur",
+    "fake fog overlay"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "landscape",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "eye-level"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "exposure-motion": [
+      "long-exposure"
+    ],
+    "lighting": [
+      "daylight",
+      "blue-hour",
+      "soft-light"
+    ],
+    "composition": [
+      "negative-space",
+      "leading-lines",
+      "centrality"
+    ],
+    "color-tonality": [
+      "cool-color",
+      "low-contrast-tonality",
+      "luminous-highlights"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "fine-grain",
+      "matte-blacks"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "sixteen-nine-format"
+    ]
+  },
+  "lockedQualities": [
+    "continuous water texture",
+    "stable anchor forms",
+    "quiet extended duration"
+  ],
+  "adaptiveGuidance": [
+    "Adapt exposure duration to wave speed and safety; preserve physical coastline structure."
+  ],
+  "applicability": [
+    "coast",
+    "waterfalls",
+    "rivers",
+    "fine-art landscape"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-long-exposure-seascape"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Capture the Motion in Photographs",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/lenses-conversion-lenses/sel20tc/articles/00223372",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A stable coastal composition in which an extended exposure turns water and clouds into continuous tonal fields around crisp rocks or architecture."
+        ]
+      }
+    ]
+  }
+}

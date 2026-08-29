@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "grunge-editorial-portrait",
+  "displayName": "1990s Grunge Editorial Portrait",
+  "family": "portrait-editorial",
+  "definition": "A raw fashion portrait with muted color, lifted blacks, visible grain, imperfect vintage-lens behavior, and an intentionally unpolished pose.",
+  "aliases": [
+    "raw 90s portrait",
+    "grunge fashion shoot"
+  ],
+  "cues": [
+    "1990s-grunge-editorial",
+    "vintage-lens-character",
+    "pronounced-grain",
+    "lifted-blacks"
+  ],
+  "antiCues": [
+    "luxury beauty polish",
+    "perfect symmetry",
+    "bright clean commercial color"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "fashion",
+      "editorial",
+      "portrait"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "oblique-view",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "vintage-lens-character",
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation",
+      "deliberate-softness"
+    ],
+    "lighting": [
+      "available-light",
+      "overcast-light",
+      "open-shade",
+      "flat-lighting"
+    ],
+    "composition": [
+      "deliberate-imbalance",
+      "edge-tension"
+    ],
+    "color-tonality": [
+      "muted-color",
+      "lifted-blacks",
+      "matte-tonality"
+    ],
+    "medium-process": [
+      "35mm-color-negative"
+    ],
+    "processing-texture": [
+      "pronounced-grain",
+      "matte-blacks",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "1990s-grunge-editorial",
+      "late-century-fashion"
+    ],
+    "format-output": [
+      "three-two-format",
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "anti-polish pose",
+    "muted dirty color",
+    "grainy imperfect surface"
+  ],
+  "adaptiveGuidance": [
+    "Adapt wardrobe and setting to the actual subject; preserve rawness without adding random damage."
+  ],
+  "applicability": [
+    "fashion",
+    "music",
+    "youth editorial"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-grunge-editorial-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lillian Bassman: Bazaar and Beyond",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/lillian-bassman-bazaar-and-beyond",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A raw fashion portrait with muted color, lifted blacks, visible grain, imperfect vintage-lens behavior, and an intentionally unpolished pose."
+        ]
+      }
+    ]
+  }
+}

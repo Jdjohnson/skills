@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "vaporwave",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Internet-born vaporwave audiovisual collage",
+    "creatorOrTradition": "Early-2010s vaporwave music and visual culture",
+    "sourceUrl": "https://www.repository.cam.ac.uk/items/a33d041f-0e86-47a2-9763-3b37a147d0aa",
+    "whyCanonical": "Peer-reviewed research identifies vaporwave as an internet nexus of music, video, and memes that reworks 1980s consumer electronics, commercial spaces, and mediated nostalgia."
+  },
+  "sources": [
+    {
+      "title": "Vaporwave Aesthetics: Internet Nostalgia and the Utopian Impulse",
+      "publisher": "University of Cambridge Research Outputs",
+      "url": "https://www.repository.cam.ac.uk/items/a33d041f-0e86-47a2-9763-3b37a147d0aa",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Vaporwave emerged through internet videos, memes, and experimental music and is tied to 1980s consumer electronics and commercial mediascapes.",
+        "Its nostalgia is ambivalent and often focuses on disorienting commercial non-places rather than simple retro celebration."
+      ]
+    },
+    {
+      "title": "Anemoia and the Vaporwave Phenomenon: the New Aesthetic of an Imagined Nostalgia",
+      "publisher": "Imaginaires, Universite de Reims Champagne-Ardenne",
+      "url": "https://imaginaires.univ-reims.fr/index.php/imaginaires/article/view/57",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Vaporwave emerged through the internet and operates as a visual as well as musical language.",
+        "It draws on imagined nostalgia, sampling, and the digital landscape of the 1990s."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches pastel chroma, digital signal, screen scale, 1990s, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/vaporwave/reference-02.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/vaporwave/reference-02.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches pastel chroma, digital signal, screen scale, 1990s, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

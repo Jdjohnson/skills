@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "pop-art",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Pop Art's transformation of mass-media imagery",
+    "creatorOrTradition": "International Pop Art movement",
+    "sourceUrl": "https://www.moma.org/collection/terms/pop-art",
+    "whyCanonical": "The movement anchor establishes ordinary products, advertising, comics, celebrity, serial repetition, and mechanical-looking print processes as critical subjects and methods."
+  },
+  "sources": [
+    {
+      "title": "Pop Art",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/terms/pop-art",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Pop artists appropriated the visual language and subjects of mass culture, including consumer goods, advertising, celebrity, and comics."
+      ]
+    },
+    {
+      "title": "Ben-Day dots",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/terms/ben-day-dots",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Visible mechanical dots, flat separation color, and enlargement can make commercial reproduction itself part of the image."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches halftone, vivid chroma, commercial, hard edge, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/pop-art/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/pop-art/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches halftone, vivid chroma, commercial, hard edge, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "David Deutsch Lens"
+  short_description: "Use Deutsch's worldview without flattening it"
+  default_prompt: "Use $david-deutsch-lens to examine this problem through the smallest source-grounded argument packet."
+policy:
+  allow_implicit_invocation: true

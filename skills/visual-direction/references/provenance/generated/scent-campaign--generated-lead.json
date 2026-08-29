@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "scent-campaign",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of a fine-fragrance scent campaign.\nUse case: ads-marketing\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original fragrance campaign with a severe unbranded glass bottle, drifting botanical vapor, one wet stone, sensorial material contrast, restrained editorial type, and an atmosphere that suggests scent without showing people.\nStyle/medium: high-end still-life photography and minimal campaign layout\nComposition/framing: portrait 4:5, bottle low and central, vapor and branch create a rising diagonal, generous shadow field, clear at thumbnail scale\nLighting/mood: mysterious, intimate, mineral, cool\nColor palette: smoke gray, transparent glass, moss green, pale silver\nMaterials/textures: thick glass, condensation, wet stone, fine botanical leaf, vapor\nText: use only the exact word VESPER\nConstraints: original bottle and fictional campaign, no real perfume brand, no logo symbol, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "ded8ddd56f77a72746f8924a12897bd733450269d8aada6695b540f5d282169c",
+  "finalAsset": "assets/refs/scent-campaign/generated-lead.jpg",
+  "finalSha256": "9413118563a24024d78c02196553a696a1d7b881af08cbdc95ba6b009a8505d9",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "billboard-bold",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Large-format transit and outdoor advertising",
+    "creatorOrTradition": "Twentieth-century outdoor graphic-design tradition",
+    "sourceUrl": "https://www.cooperhewitt.org/2020/01/14/rails-to-sales-on-the-new-york-city-subway/",
+    "whyCanonical": "Transit-scale advertising shows how extreme type size, image reduction, short messages, silhouette, contrast, and repeated exposure serve viewers who are moving past the work."
+  },
+  "sources": [
+    {
+      "title": "Rails to Sales on the New York City Subway",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/2020/01/14/rails-to-sales-on-the-new-york-city-subway/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Large public advertising depended on concise persuasive messages, strong image-type relationships, standardized display formats, and repeated exposure in transit space."
+      ]
+    },
+    {
+      "title": "The Modern Poster",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/documents/moma_catalogue_150_300297014.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Modern large-format graphics use simplification, contrast, scale, flat shape, and condensed text to make an immediate public impression."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches silhouette, monument scale, polychrome, advertising pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/billboard-bold/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/billboard-bold/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches silhouette, monument scale, polychrome, advertising pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

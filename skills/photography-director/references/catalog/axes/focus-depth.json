@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "id": "focus-depth",
+  "displayName": "Focus and depth",
+  "definition": "How sharpness is distributed through the scene and how strongly subject and environment separate.",
+  "values": [
+    {
+      "id": "deep-focus",
+      "displayName": "Deep focus",
+      "definition": "Foreground through background remain substantially readable.",
+      "aliases": [
+        "everything in focus",
+        "front to back sharp"
+      ],
+      "visibleCues": [
+        "multiple depth planes are sharp",
+        "environment remains descriptive"
+      ],
+      "antiCues": [
+        "single razor-thin focus plane"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-wet-plate-collodion-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-cyanotype-botanical-photogram",
+        "ref-albumen-travel-survey",
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-large-format-monochrome-landscape",
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-mid-century-commercial-color",
+        "ref-hard-sun-fashion-editorial",
+        "ref-y2k-party-flash-portrait",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-industrial-workplace-documentary",
+        "ref-travel-photo-essay",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-aerial-graphic-landscape",
+        "ref-symmetrical-interior-study",
+        "ref-panoramic-desert-survey",
+        "ref-night-light-trail-cityscape",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-bright-editorial-food",
+        "ref-studio-automotive-hero",
+        "ref-scientific-specimen-record",
+        "ref-fisheye-skate-snapshot",
+        "ref-degraded-zine-reproduction",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "zone-focus",
+      "displayName": "Zone focus",
+      "definition": "A practical band of distance is kept acceptably sharp for fast, anticipatory shooting.",
+      "aliases": [
+        "street focus",
+        "preset focus zone"
+      ],
+      "visibleCues": [
+        "subjects across a working distance appear sharp",
+        "spontaneous timing"
+      ],
+      "antiCues": [
+        "only eyelashes sharp"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "street",
+        "documentary",
+        "event"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-humanist-available-light-photo-essay",
+        "ref-layered-street-observation"
+      ]
+    },
+    {
+      "id": "moderate-separation",
+      "displayName": "Moderate separation",
+      "definition": "The subject is distinctly sharper than the background while context remains legible.",
+      "aliases": [
+        "some background blur",
+        "soft background but readable"
+      ],
+      "visibleCues": [
+        "subject-background distinction",
+        "setting still identifiable"
+      ],
+      "antiCues": [
+        "background erased into abstraction"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-mid-century-editorial-portrait",
+        "ref-approachable-environmental-portrait",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-black-and-white-close-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-night-street-color",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-window-light-food-story",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-rolling-automotive-pan",
+        "ref-frozen-sports-action",
+        "ref-high-speed-splash",
+        "ref-rear-curtain-flash-motion",
+        "ref-cross-processed-slide-look",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-instant-film-everyday-snapshot",
+        "ref-editorial-contact-sheet-sequence",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "shallow-focus",
+      "displayName": "Shallow focus",
+      "definition": "A narrow depth range isolates the main subject against clearly defocused surroundings.",
+      "aliases": [
+        "blurred background",
+        "shallow depth of field"
+      ],
+      "visibleCues": [
+        "narrow sharp zone",
+        "soft foreground or background"
+      ],
+      "antiCues": [
+        "front-to-back sharpness"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-window-light-editorial-portrait",
+        "ref-low-key-character-portrait",
+        "ref-high-key-beauty-portrait",
+        "ref-soft-focus-romantic-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-concert-available-light",
+        "ref-dark-moody-tabletop",
+        "ref-super-telephoto-wildlife"
+      ]
+    },
+    {
+      "id": "extremely-shallow-focus",
+      "displayName": "Extremely shallow focus",
+      "definition": "Only a very thin slice of the subject is sharp and most depth dissolves.",
+      "aliases": [
+        "super blurry background",
+        "razor thin focus"
+      ],
+      "visibleCues": [
+        "tiny sharp region",
+        "rapid blur falloff"
+      ],
+      "antiCues": [
+        "whole subject sharp"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-selective-focus-macro"
+      ]
+    },
+    {
+      "id": "selective-focus",
+      "displayName": "Selective focus",
+      "definition": "Sharpness is deliberately placed on one meaningful element among competing forms.",
+      "aliases": [
+        "focus on one detail",
+        "selective sharpness"
+      ],
+      "visibleCues": [
+        "one chosen element is crisp",
+        "other elements remain visibly present but soft"
+      ],
+      "antiCues": [
+        "uniform sharpness"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-tilt-shift-architectural-study",
+        "ref-dark-moody-tabletop",
+        "ref-luxury-still-life-polish",
+        "ref-super-telephoto-wildlife",
+        "ref-selective-focus-macro",
+        "ref-multiple-exposure-conceptual-portrait"
+      ]
+    },
+    {
+      "id": "foreground-obstruction",
+      "displayName": "Foreground obstruction",
+      "definition": "An intentionally soft or partial foreground element veils or frames the subject.",
+      "aliases": [
+        "shooting through something",
+        "blurred foreground"
+      ],
+      "visibleCues": [
+        "near soft shape overlaps scene",
+        "depth feels witnessed or intimate"
+      ],
+      "antiCues": [
+        "unobstructed clinical view"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cinematic-practical-light-portrait",
+        "ref-layered-street-observation"
+      ]
+    },
+    {
+      "id": "tilt-plane-focus",
+      "displayName": "Tilt-plane focus",
+      "definition": "The sharp plane appears rotated or unusually selective across the image.",
+      "aliases": [
+        "tilted focus plane",
+        "miniature focus effect"
+      ],
+      "visibleCues": [
+        "nonparallel band of sharpness",
+        "selective plane crosses depth"
+      ],
+      "antiCues": [
+        "ordinary parallel focus plane"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-tilt-shift-architectural-study"
+      ]
+    },
+    {
+      "id": "deliberate-softness",
+      "displayName": "Deliberate softness",
+      "definition": "The image intentionally withholds crisp focus to express atmosphere, motion, memory, or abstraction.",
+      "aliases": [
+        "soft on purpose",
+        "dreamy blur"
+      ],
+      "visibleCues": [
+        "global or subject-level softness serves intent",
+        "form remains meaningfully readable"
+      ],
+      "antiCues": [
+        "accidental missed focus with no visual purpose"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-soft-focus-romantic-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-intentional-camera-movement-landscape",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    }
+  ]
+}

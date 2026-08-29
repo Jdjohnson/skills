@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "id": "clean-seamless-product",
+  "displayName": "Clean Seamless Product",
+  "family": "commercial-still-life",
+  "definition": "A precise product image on a simple seamless field with neutral color, deep material clarity, open controlled shadows, and useful copy space.",
+  "aliases": [
+    "white background product photo",
+    "clean ecommerce product"
+  ],
+  "cues": [
+    "product",
+    "clean-commercial-digital",
+    "neutral-color",
+    "polished-retouching"
+  ],
+  "antiCues": [
+    "dramatic unexplained shadow",
+    "dirty background",
+    "fake shallow blur"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "product"
+    ],
+    "viewpoint-framing": [
+      "detail-framing",
+      "straight-on-view",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "continuous-studio-light",
+      "soft-light",
+      "front-light",
+      "low-ratio-lighting",
+      "high-key-lighting"
+    ],
+    "composition": [
+      "centrality",
+      "negative-space",
+      "geometric-order"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "luminous-highlights",
+      "high-dynamic-range"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "polished-retouching"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "four-three-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "clear object silhouette",
+    "neutral controlled color",
+    "clean scalable field"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera height, lens class, focus stacking, and light size to the object's dimensions and material."
+  ],
+  "applicability": [
+    "consumer products",
+    "packaging",
+    "catalogs"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-clean-seamless-product"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A precise product image on a simple seamless field with neutral color, deep material clarity, open controlled shadows, and useful copy space."
+        ]
+      }
+    ]
+  }
+}

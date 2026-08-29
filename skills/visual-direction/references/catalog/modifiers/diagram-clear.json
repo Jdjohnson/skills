@@ -1,0 +1,64 @@
+{
+  "id": "diagram-clear",
+  "group": "clarity",
+  "definition": "Push toward labeled diagram clarity.",
+  "targetConcerns": [
+    "composition",
+    "typography",
+    "imagery"
+  ],
+  "compatibleStyles": [
+    "isotype-statistical-graphics",
+    "classic-infographic",
+    "field-guide",
+    "engineering-blueprint"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "mysterious"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "composition",
+          "path": "density",
+          "factor": 0.85
+        },
+        {
+          "op": "addParam",
+          "concern": "typography",
+          "path": "tracking",
+          "amount": 0.15
+        },
+        {
+          "op": "multiplyParam",
+          "concern": "imagery",
+          "path": "abstraction",
+          "factor": 0.85
+        }
+      ]
+    }
+  }
+}

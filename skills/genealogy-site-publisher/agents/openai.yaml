@@ -1,0 +1,4 @@
+interface:
+  display_name: "Genealogy Site Publisher"
+  short_description: "Publish sourced genealogy without privacy leaks"
+  default_prompt: "Use $genealogy-site-publisher to update this configured family-history site from its canonical research and verify the public result."

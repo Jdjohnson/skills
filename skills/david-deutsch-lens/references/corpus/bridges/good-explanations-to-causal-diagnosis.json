@@ -1,0 +1,16 @@
+{
+  "id": "bridge.good-explanations.to-causal-diagnosis.v1",
+  "status": "active",
+  "source_claims": ["claim.explanation.not-prediction.v1"],
+  "source_context": {"domains": ["epistemology", "general-problem-solving"], "explanation_level": "epistemic-method"},
+  "target_problem": "A target-domain decision depends on choosing among rival causal accounts that fit the same observed outcome.",
+  "routing_signals": ["causal", "same outcome", "diagnostic test", "mechanism", "rebrand", "confounder"],
+  "target_context": {"domains": ["organizations"], "explanation_level": "case-application"},
+  "structural_correspondence": ["Both source and target contain rival explanations constrained by one problem situation.", "The target can expose details that must differ if one causal account is true and another is false."],
+  "warrant": "Activate case by case only when target-domain evidence supplies rival mechanisms and a discriminating observation or intervention; explanatory vocabulary alone is insufficient.",
+  "target_evidence": ["User-provided or independently verified chronology, mechanism, comparison, intervention, or process evidence relevant to the target case."],
+  "disanalogies": ["Organizational outcomes are open systems with strategic actors and confounders.", "Hard to vary does not itself establish causation or forecast an intervention's effect."],
+  "failure_conditions": ["Only temporal sequence supports the causal story.", "No rival explanation is stated.", "The analogy supplies the conclusion.", "Target evidence favors another mechanism."],
+  "resulting_claims": ["A Skill-owned provisional diagnosis and a discriminating test, never a Deutsch-attributed business conclusion."],
+  "origin": {"representation": "editorial-application", "represents": "skill-editor"}
+}

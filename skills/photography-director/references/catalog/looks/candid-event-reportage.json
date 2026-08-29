@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "candid-event-reportage",
+  "displayName": "Candid Event Reportage",
+  "family": "documentary-street-event",
+  "definition": "A warm, responsive event photograph centered on visible interaction, soft light, natural motion, and enough surroundings to place the moment.",
+  "aliases": [
+    "natural event photos",
+    "candid wedding reportage"
+  ],
+  "cues": [
+    "event",
+    "natural-motion",
+    "soft-light",
+    "environmental-context"
+  ],
+  "antiCues": [
+    "lineup pose",
+    "black-background flash isolation",
+    "over-staged laughter"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "event",
+      "documentary"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "eye-level",
+      "layered-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "available-light",
+      "bounced-light",
+      "soft-light",
+      "mixed-light"
+    ],
+    "composition": [
+      "layered-depth",
+      "environmental-context",
+      "rule-of-thirds"
+    ],
+    "color-tonality": [
+      "warm-color",
+      "restrained-skin-tones",
+      "high-dynamic-range"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "visible interaction",
+    "soft responsive light",
+    "event-place continuity"
+  ],
+  "adaptiveGuidance": [
+    "Adapt light character to the room and access; favor visible interaction over camera-facing poses."
+  ],
+  "applicability": [
+    "celebrations",
+    "conferences",
+    "weddings",
+    "community events"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-candid-event-reportage"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "The Basics of Flash Photography",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/the-basics-of-flash-photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A warm, responsive event photograph that catches real interaction with bounced or available light, natural motion, and enough surroundings to place the moment."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "narrative-woodcut",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Early printed-book woodcuts",
+    "creatorOrTradition": "European relief-print and book illustration traditions",
+    "sourceUrl": "https://www.loc.gov/exhibits/heavenlycraft/heavenly-exhibit.html",
+    "whyCanonical": "The Library of Congress demonstrates how raised carved lines print black, cut areas remain white, the image reverses, and woodblocks integrate naturally with relief-set type."
+  },
+  "sources": [
+    {
+      "title": "Woodcut",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/fr/perspectives/materials-and-techniques-printmaking-woodcut",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Woodcut is a relief process in which raised carved surfaces receive ink while recessed cuts remain unprinted."
+      ]
+    },
+    {
+      "title": "Heavenly Craft: The Woodcut in Early Printed Books",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/exhibits/heavenlycraft/heavenly-exhibit.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Woodcut line, negative cutting, reversal, press transfer, and integration with movable type shaped early narrative book imagery."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches carved relief line, heavy black shape, white cut mark, compressed figure ground, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/narrative-woodcut/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/narrative-woodcut/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches carved relief line, heavy black shape, white cut mark, compressed figure ground, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

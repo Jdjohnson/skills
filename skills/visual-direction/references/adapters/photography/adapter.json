@@ -1,0 +1,50 @@
+{
+  "id": "photography",
+  "displayName": "Photography",
+  "concernWeights": {
+    "lighting": 0.2,
+    "imagery": 0.18,
+    "depth": 0.12,
+    "palette": 0.12,
+    "composition": 0.12,
+    "materialTexture": 0.08,
+    "motion": 0.06,
+    "shapeLine": 0.05,
+    "typography": 0.04,
+    "ornament": 0.03
+  },
+  "functionalFloors": {
+    "minContrast": {
+      "mode": "clamp",
+      "path": "lighting.contrast",
+      "min": 0.15
+    },
+    "legibleType": {
+      "mode": "clamp",
+      "path": "typography.weight",
+      "min": 300
+    }
+  },
+  "reduceTraits": [],
+  "payloadFields": [
+    "composition",
+    "palette",
+    "typography",
+    "shapeLine",
+    "materialTexture",
+    "lighting",
+    "depth",
+    "motion",
+    "ornament",
+    "imagery"
+  ],
+  "incompatibleTags": [],
+  "constraints": [
+    {
+      "id": "contrast-floor",
+      "mode": "clamp",
+      "path": "lighting.contrast",
+      "min": 0.2
+    }
+  ]
+}

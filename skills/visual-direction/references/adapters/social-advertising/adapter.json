@@ -1,0 +1,50 @@
+{
+  "id": "social-advertising",
+  "displayName": "Social Advertising",
+  "concernWeights": {
+    "imagery": 0.18,
+    "palette": 0.16,
+    "typography": 0.14,
+    "composition": 0.12,
+    "motion": 0.1,
+    "shapeLine": 0.08,
+    "lighting": 0.08,
+    "ornament": 0.06,
+    "depth": 0.04,
+    "materialTexture": 0.04
+  },
+  "functionalFloors": {
+    "minContrast": {
+      "mode": "clamp",
+      "path": "lighting.contrast",
+      "min": 0.15
+    },
+    "legibleType": {
+      "mode": "clamp",
+      "path": "typography.weight",
+      "min": 300
+    }
+  },
+  "reduceTraits": [],
+  "payloadFields": [
+    "composition",
+    "palette",
+    "typography",
+    "shapeLine",
+    "materialTexture",
+    "lighting",
+    "depth",
+    "motion",
+    "ornament",
+    "imagery"
+  ],
+  "incompatibleTags": [],
+  "constraints": [
+    {
+      "id": "contrast-floor",
+      "mode": "clamp",
+      "path": "lighting.contrast",
+      "min": 0.2
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "id": "travel-photo-essay",
+  "displayName": "Travel Sense-of-Place Frame",
+  "family": "documentary-street-event",
+  "definition": "A place-specific observational frame that combines human activity, environmental evidence, natural color, and enough visual detail to belong in a broader travel essay.",
+  "aliases": [
+    "travel story image",
+    "destination documentary frame"
+  ],
+  "cues": [
+    "travel",
+    "environmental-framing",
+    "layered-depth",
+    "credible-location-falloff"
+  ],
+  "antiCues": [
+    "postcard cliché with no lived detail",
+    "placeless influencer pose",
+    "generic stock staging"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "travel",
+      "documentary",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "eye-level",
+      "environmental-framing",
+      "layered-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "daylight",
+      "available-light",
+      "golden-hour"
+    ],
+    "composition": [
+      "environmental-context",
+      "layered-depth",
+      "rule-of-thirds"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "warm-color",
+      "high-dynamic-range"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "portrait-orientation",
+      "editorial-spread"
+    ]
+  },
+  "lockedQualities": [
+    "specific sense of place",
+    "human and environmental evidence together",
+    "observational color"
+  ],
+  "adaptiveGuidance": [
+    "Adapt distance and frame ratio to the scene; if building a sequence, add establishing and detail frames without losing continuity."
+  ],
+  "applicability": [
+    "places",
+    "culture",
+    "journeys",
+    "publication stories"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-travel-photo-essay"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "The Photographic Record",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/photography/the-photographic-record",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A place-specific observational frame that combines human activity, environmental evidence, natural color, and enough visual detail to belong in a broader travel essay."
+        ]
+      }
+    ]
+  }
+}

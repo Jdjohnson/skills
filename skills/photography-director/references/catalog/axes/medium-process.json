@@ -1,0 +1,447 @@
+{
+  "version": 1,
+  "id": "medium-process",
+  "displayName": "Medium and capture process",
+  "definition": "Documented capture and print processes; most cannot be identified exactly from appearance alone.",
+  "values": [
+    {
+      "id": "contemporary-digital",
+      "displayName": "Contemporary digital treatment",
+      "definition": "A contemporary digital finish, or a born-digital capture when metadata confirms it; capture medium must not be guessed from appearance.",
+      "aliases": [
+        "modern digital photo",
+        "digital camera look"
+      ],
+      "visibleCues": [
+        "contemporary color and texture treatment",
+        "capture process requires documentation"
+      ],
+      "antiCues": [
+        "born-digital capture claimed from appearance alone"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-vision-geometry",
+        "ref-humanist-available-light-photo-essay",
+        "ref-window-light-editorial-portrait",
+        "ref-approachable-environmental-portrait",
+        "ref-low-key-character-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-soft-focus-romantic-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-night-street-color",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-concert-available-light",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-aerial-graphic-landscape",
+        "ref-panoramic-desert-survey",
+        "ref-intentional-camera-movement-landscape",
+        "ref-night-light-trail-cityscape",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-direct-flash-still-life",
+        "ref-rolling-automotive-pan",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife",
+        "ref-selective-focus-macro",
+        "ref-rear-curtain-flash-motion",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-degraded-zine-reproduction",
+        "ref-constructed-conceptual-tableau",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "clean-commercial-digital",
+      "displayName": "Clean commercial digital finish",
+      "definition": "A controlled high-detail commercial finish with repeatable-looking color, surface rendering, and restrained or polished retouching; it does not prove the capture medium.",
+      "aliases": [
+        "commercial digital",
+        "clean studio finish"
+      ],
+      "visibleCues": [
+        "controlled high detail",
+        "repeatable color and surface rendering"
+      ],
+      "antiCues": [
+        "uncontrolled degraded reproduction"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-tilt-shift-architectural-study",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-bright-editorial-food",
+        "ref-luxury-still-life-polish",
+        "ref-studio-automotive-hero",
+        "ref-scientific-specimen-record",
+        "ref-high-speed-splash"
+      ]
+    },
+    {
+      "id": "35mm-color-negative",
+      "displayName": "35mm color-negative character",
+      "definition": "A documented 35mm color-negative capture, or a visible direction borrowing its grain, latitude, and scan character; authenticity and stock require documentation.",
+      "aliases": [
+        "35mm film look",
+        "color negative film character"
+      ],
+      "visibleCues": [
+        "fine-to-visible grain",
+        "film-like highlight and color response"
+      ],
+      "antiCues": [
+        "exact stock or capture claimed from color alone"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-grunge-editorial-portrait",
+        "ref-fisheye-skate-snapshot"
+      ]
+    },
+    {
+      "id": "medium-format-film",
+      "displayName": "Medium-format film",
+      "definition": "A documented roll-film format larger than 35mm; depth and detail remain dependent on lens, distance, and aperture.",
+      "aliases": [
+        "120 film",
+        "medium format photo"
+      ],
+      "visibleCues": [
+        "process must be documented",
+        "often square or 6x-format frame"
+      ],
+      "antiCues": [
+        "format inferred only from shallow depth"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-medium-format-formal-portrait"
+      ]
+    },
+    {
+      "id": "large-format-film",
+      "displayName": "Large-format capture",
+      "definition": "A documented large sheet-film or photographic-plate capture commonly associated with deliberate camera placement and high detail.",
+      "aliases": [
+        "4x5 film",
+        "8x10 photo",
+        "large glass plate negative"
+      ],
+      "visibleCues": [
+        "process must be documented",
+        "high detail or perspective control may be present"
+      ],
+      "antiCues": [
+        "format guessed from sharpness"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-large-format-monochrome-landscape"
+      ]
+    },
+    {
+      "id": "instant-film",
+      "displayName": "Instant film",
+      "definition": "A documented self-developing integral or peel-apart photographic material.",
+      "aliases": [
+        "Polaroid look",
+        "instant camera"
+      ],
+      "visibleCues": [
+        "physical border or chemistry artifacts may appear",
+        "process must be documented"
+      ],
+      "antiCues": [
+        "digital border alone treated as proof"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "color-slide-film",
+      "displayName": "Color-slide character",
+      "definition": "A documented color-transparency process, or a visual direction borrowing its dense color and contrast; authentic film and stock require documentation.",
+      "aliases": [
+        "slide film look",
+        "transparency film character"
+      ],
+      "visibleCues": [
+        "dense positive-film color",
+        "contrast depends on stock and scan"
+      ],
+      "antiCues": [
+        "stock or capture guessed from saturation"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-industrial-color-production-reportage",
+        "ref-cross-processed-slide-look"
+      ]
+    },
+    {
+      "id": "black-and-white-negative",
+      "displayName": "Black-and-white negative",
+      "definition": "A documented monochrome negative process printed or scanned to positive.",
+      "aliases": [
+        "B&W film",
+        "black and white negative"
+      ],
+      "visibleCues": [
+        "gray-scale image",
+        "process must be documented"
+      ],
+      "antiCues": [
+        "digital monochrome assumed to be film"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "wet-plate-collodion",
+      "displayName": "Wet-plate collodion",
+      "definition": "A documented nineteenth-century collodion process made on glass or metal while the plate remained wet.",
+      "aliases": [
+        "wet plate",
+        "collodion photo"
+      ],
+      "visibleCues": [
+        "plate-edge artifacts may appear",
+        "process must be documented"
+      ],
+      "antiCues": [
+        "digital scratches treated as authentic process"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-wet-plate-collodion-portrait"
+      ]
+    },
+    {
+      "id": "tintype-process",
+      "displayName": "Tintype",
+      "definition": "A documented direct-positive collodion image on a dark-coated metal plate.",
+      "aliases": [
+        "ferrotype",
+        "old metal portrait"
+      ],
+      "visibleCues": [
+        "one-of-a-kind metal support",
+        "process must be documented"
+      ],
+      "antiCues": [
+        "generic sepia filter"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-tintype-vernacular-portrait"
+      ]
+    },
+    {
+      "id": "daguerreotype-process",
+      "displayName": "Daguerreotype",
+      "definition": "A documented direct-positive image on a polished silver-coated plate with mirror-like surface behavior.",
+      "aliases": [
+        "daguerreotype",
+        "1840s portrait plate"
+      ],
+      "visibleCues": [
+        "highly detailed plate image",
+        "process must be documented"
+      ],
+      "antiCues": [
+        "any old portrait called daguerreotype"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait"
+      ]
+    },
+    {
+      "id": "cyanotype-process",
+      "displayName": "Cyanotype",
+      "definition": "A documented iron-based process that yields a Prussian-blue image, often by contact exposure.",
+      "aliases": [
+        "blueprint photo",
+        "cyanotype"
+      ],
+      "visibleCues": [
+        "blue monochrome image",
+        "process must be documented"
+      ],
+      "antiCues": [
+        "digital blue tint treated as authentic cyanotype"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram"
+      ]
+    },
+    {
+      "id": "albumen-print",
+      "displayName": "Albumen silver print",
+      "definition": "A documented nineteenth-century salted albumen-coated paper print, often glossy and finely detailed.",
+      "aliases": [
+        "albumen photo",
+        "19th century travel print"
+      ],
+      "visibleCues": [
+        "warm-toned fine detail may appear",
+        "process must be documented"
+      ],
+      "antiCues": [
+        "warm paper color treated as proof"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-albumen-travel-survey"
+      ]
+    },
+    {
+      "id": "gelatin-silver-print",
+      "displayName": "Gelatin-silver print character",
+      "definition": "A documented silver-gelatin print, or a monochrome direction borrowing its darkroom contrast and print surface; authenticity requires documentation.",
+      "aliases": [
+        "silver gelatin look",
+        "darkroom black and white print"
+      ],
+      "visibleCues": [
+        "black-and-white print character",
+        "process must be documented for an authentic claim"
+      ],
+      "antiCues": [
+        "all grayscale images assumed gelatin silver"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-straight-photography-precision",
+        "ref-fsa-social-documentary"
+      ]
+    },
+    {
+      "id": "platinum-print",
+      "displayName": "Platinum-print tonal character",
+      "definition": "A documented platinum or palladium print, or a direction borrowing its matte surface and long tonal scale; authenticity requires documentation.",
+      "aliases": [
+        "platinum palladium look",
+        "platinum print character"
+      ],
+      "visibleCues": [
+        "matte broad tonal scale",
+        "process must be documented for an authentic claim"
+      ],
+      "antiCues": [
+        "matte digital print treated as process proof"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-pictorialist-soft-focus-landscape"
+      ]
+    },
+    {
+      "id": "photogram-process",
+      "displayName": "Photogram",
+      "definition": "A documented cameraless image made by exposing light-sensitive material around objects placed on or near it.",
+      "aliases": [
+        "cameraless photo",
+        "object shadow print"
+      ],
+      "visibleCues": [
+        "object silhouette or contact detail",
+        "no lens viewpoint"
+      ],
+      "antiCues": [
+        "ordinary photographed silhouette"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram"
+      ]
+    }
+  ]
+}

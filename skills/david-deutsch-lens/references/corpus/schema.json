@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/skills/david-deutsch-lens/corpus/schema.json",
+  "title": "David Deutsch argument cluster",
+  "type": "object",
+  "required": ["schema_version", "cluster_id", "title", "status", "domains", "explanation_levels", "aliases", "source_routes", "problem", "definitions", "claims", "arguments", "examples", "criticisms", "relationships", "boundaries"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "cluster_id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "title": {"type": "string", "minLength": 1},
+    "status": {"enum": ["active", "candidate", "quarantined"]},
+    "application_policy": {"enum": ["lens", "source-only"]},
+    "domains": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "explanation_levels": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "source_routes": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "problem": {"$ref": "#/$defs/problem"},
+    "definitions": {"type": "array", "items": {"$ref": "#/$defs/record"}},
+    "claims": {"type": "array", "items": {"$ref": "#/$defs/claim"}, "minItems": 1},
+    "arguments": {"type": "array", "items": {"$ref": "#/$defs/argument"}, "minItems": 1},
+    "examples": {"type": "array", "items": {"$ref": "#/$defs/record"}},
+    "criticisms": {"type": "array", "items": {"$ref": "#/$defs/argument"}, "minItems": 1},
+    "relationships": {"type": "array", "items": {"$ref": "#/$defs/relationship"}, "minItems": 1},
+    "boundaries": {"$ref": "#/$defs/boundaries"}
+  },
+  "$defs": {
+    "origin": {
+      "type": "object",
+      "required": ["representation", "represents"],
+      "properties": {"representation": {"type": "string"}, "represents": {"type": "string", "minLength": 1}}
+    },
+    "source_ref": {
+      "type": "object",
+      "required": ["source_id", "locator", "verification"],
+      "properties": {"source_id": {"type": "string"}, "locator": {"type": "string", "minLength": 1}, "verification": {"const": "checked"}, "excerpt": {"type": "string"}}
+    },
+    "record": {
+      "type": "object",
+      "required": ["id", "summary", "origin", "source_refs"],
+      "properties": {"id": {"type": "string", "minLength": 1}, "summary": {"type": "string", "minLength": 1}, "origin": {"$ref": "#/$defs/origin"}, "source_refs": {"type": "array", "items": {"$ref": "#/$defs/source_ref"}}}
+    },
+    "problem": {
+      "allOf": [{"$ref": "#/$defs/record"}],
+      "type": "object",
+      "required": ["routing"],
+      "properties": {"routing": {"type": "object", "required": ["reasoning_jobs", "keywords", "structural_predicates", "diagnostic_questions"]}}
+    },
+    "claim": {
+      "allOf": [{"$ref": "#/$defs/record"}],
+      "type": "object",
+      "required": ["kind", "scope", "transfer_policy", "lineage", "version", "lifecycle"]
+    },
+    "argument": {
+      "allOf": [{"$ref": "#/$defs/record"}],
+      "type": "object",
+      "required": ["stance", "conclusions"],
+      "properties": {"conclusions": {"type": "array", "items": {"type": "string"}, "minItems": 1}}
+    },
+    "relationship": {
+      "type": "object",
+      "required": ["id", "type", "from", "to", "origin", "source_refs"],
+      "properties": {"id": {"type": "string"}, "type": {"type": "string"}, "from": {"type": "string"}, "to": {"type": "string"}, "origin": {"$ref": "#/$defs/origin"}, "source_refs": {"type": "array", "items": {"$ref": "#/$defs/source_ref"}}}
+    },
+    "boundaries": {
+      "type": "object",
+      "required": ["misreadings", "not_for", "decline_if"],
+      "properties": {"misreadings": {"type": "array", "items": {"type": "string"}, "minItems": 1}, "not_for": {"type": "array", "items": {"type": "string"}}, "decline_if": {"type": "array", "items": {"type": "string"}}}
+    }
+  }
+}

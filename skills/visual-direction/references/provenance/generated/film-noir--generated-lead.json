@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "film-noir",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of classic film noir cinematography.\nUse case: campaign-key-art\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original black-and-white noir key image of an anonymous coat-and-hat silhouette crossing a rain-dark corridor, cut by venetian-blind light, with wet reflections, a looming diagonal stair rail, hard negative space, and restrained title placement.\nStyle/medium: cinematic monochrome photography from a fictional film\nComposition/framing: portrait 4:5, figure small in lower third, bladed light and stair geometry dominate, immediately legible at thumbnail scale\nLighting/mood: suspicious, lonely, high contrast\nColor palette: deep black, silver white, smoke gray\nMaterials/textures: rain-streaked glass, wet pavement, cigarette-like haze without a cigarette\nText: use only the exact title LAST EXIT\nConstraints: anonymous fictional adult silhouette, no real actor likeness, no copied film still, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "ba8ec3f33a6afbe3748780d217a6feadf6677f30b878e1b2cbc148898ad0cfed",
+  "finalAsset": "assets/refs/film-noir/generated-lead.jpg",
+  "finalSha256": "16d114ad28c521b9b2297560c0c2bcfe4ce52f1543d8acbebf2730a3060f388f",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

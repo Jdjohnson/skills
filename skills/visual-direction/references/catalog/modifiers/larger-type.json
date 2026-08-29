@@ -1,0 +1,55 @@
+{
+  "id": "larger-type",
+  "group": "scale",
+  "definition": "Scale type and labels up for impact.",
+  "targetConcerns": [
+    "typography",
+    "composition"
+  ],
+  "compatibleStyles": [
+    "billboard-bold",
+    "jewelry-vitrine"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "smaller-type"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "addParam",
+          "concern": "typography",
+          "path": "weight",
+          "amount": 30
+        },
+        {
+          "op": "addParam",
+          "concern": "composition",
+          "path": "density",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

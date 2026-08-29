@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "8-bit-pixel-art",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Super Mario Bros. game world",
+    "creatorOrTradition": "Nintendo and 1980s 8-bit console game design",
+    "sourceUrl": "https://www.museumofplay.org/games/super-mario-bros/",
+    "whyCanonical": "The 1985 game establishes an immediately readable side-scrolling world built from a limited low-resolution graphic vocabulary, repeatable scenery, character sprites, objects, and compact status information."
+  },
+  "sources": [
+    {
+      "title": "Super Mario Bros.",
+      "publisher": "The Strong National Museum of Play",
+      "url": "https://www.museumofplay.org/games/super-mario-bros/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Super Mario Bros. was released for the Nintendo Family Computer and NES in 1985 and became a defining side-scrolling console game.",
+        "Its colorful, easy-to-read graphic world supports a complete game-system anchor rather than an isolated pixel icon."
+      ]
+    },
+    {
+      "title": "Toru Iwatani. Pac-Man. 1980",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/164917",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Pac-Man is an early interactive flat landscape organized as a maze.",
+        "The work supports the style's emphasis on compact sprites, a bounded play field, limited high-contrast color, and screen-native information."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches screen pixel, screen scale, digital signal, play signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/8-bit-pixel-art/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/8-bit-pixel-art/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches screen pixel, screen scale, digital signal, play signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

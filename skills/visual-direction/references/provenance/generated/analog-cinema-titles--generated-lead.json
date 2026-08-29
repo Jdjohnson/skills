@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "analog-cinema-titles",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of analog cinema title design.\nUse case: motion-styleframe\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original sequence of three stacked film-title frames with optical light leaks, imperfect registration, hand-cut letterforms, frame numbers, dust, gate weave, and graphic transitions that feel physically exposed and edited.\nStyle/medium: photographed 16mm title cards and contact-strip fragments\nComposition/framing: portrait 4:5, three horizontal frames run vertically, each changes scale and crop while retaining one title rhythm, distinctive at thumbnail scale\nLighting/mood: experimental, tactile, anticipatory\nColor palette: black, warm white, saturated red, amber light leak\nMaterials/textures: film emulsion, scratched acetate, paper type, dust\nText: use only the exact title AFTER IMAGE and numerals 1, 2, 3\nConstraints: original fictional film sequence, no studio mark, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "918f584889cb3a30f72ea07c989fd86af949aa6f04ddbdcd72457fe094cfbbc4",
+  "finalAsset": "assets/refs/analog-cinema-titles/generated-lead.jpg",
+  "finalSha256": "79b97143b5a0664dbf25567192f5eb9ba00f7e52509aa72783a4b4bfc1c97229",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

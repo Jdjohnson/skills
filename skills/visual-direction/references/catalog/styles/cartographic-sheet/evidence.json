@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "cartographic-sheet",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "USGS topographic map symbol system",
+    "creatorOrTradition": "United States Geological Survey cartographic practice",
+    "sourceUrl": "https://www.usgs.gov/educational-resources/topographic-map-symbols",
+    "whyCanonical": "USGS explains how points, lines, areas, colors, and a legend encode buildings, terrain, water, vegetation, roads, and other mapped features."
+  },
+  "sources": [
+    {
+      "title": "Topographic Map Symbols",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://www.usgs.gov/educational-resources/topographic-map-symbols",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Topographic maps use coordinated point, line, area, color, and legend systems to represent terrain and geographic features."
+      ]
+    },
+    {
+      "title": "Help Guide: How to Read These Maps",
+      "publisher": "U.S. Geological Survey topoView",
+      "url": "https://ngmdb.usgs.gov/topoview/help/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Contour lines join equal elevations and reveal height, depth, and slope while other symbols encode roads, water, boundaries, vegetation, and structures."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach contour lines, scale bar, map legend, route network while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/cartographic-sheet/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/cartographic-sheet/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach contour lines, scale bar, map legend, route network while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

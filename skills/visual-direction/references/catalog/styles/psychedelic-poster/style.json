@@ -1,0 +1,162 @@
+{
+  "id": "psychedelic-poster",
+  "displayName": "Psychedelic Poster",
+  "family": "pop-commercial",
+  "definition": "Warped display lettering, saturated complementary color, optical vibration, dense illustration, and figure-ground ambiguity create immersive countercultural concert-poster energy.",
+  "axes": {
+    "minimalOrnate": 0.3,
+    "geometricOrganic": -0.1,
+    "polishedRaw": -0.4,
+    "calmEnergetic": 0.6,
+    "historicalFuturistic": -0.2,
+    "realisticAbstract": -0.5,
+    "warmCool": -0.4,
+    "lightDark": -0.5,
+    "playfulSerious": -0.7,
+    "handmadeMachined": 0.3,
+    "flatDeep": -0.2,
+    "everydayLuxurious": -0.2
+  },
+  "cues": [
+    "display-type",
+    "vivid-chroma",
+    "dense",
+    "print-signal",
+    "organic"
+  ],
+  "antiCues": [
+    "minimal",
+    "clinical",
+    "meditative-pace"
+  ],
+  "emotionalEffects": [
+    "joyful",
+    "nostalgic",
+    "playful"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.65,
+      "symmetry": 0.65,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FF4444",
+        "#4FC3F7",
+        "#FFEB3B",
+        "#FAFAFA",
+        "#9E9E9E"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/toy-catalog.svg",
+      "descriptor": "friendly rounded sans catalog",
+      "weight": 600,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.35,
+      "lineWeight": 0.45,
+      "curveTension": 0.3
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/pop-commercial-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.2,
+      "tags": [
+        "paper",
+        "plastic",
+        "cardboard"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.4,
+      "keyDirection": "front",
+      "gradient": 0.2
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.3,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.5,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/pop-commercial"
+      ],
+      "density": 0.35,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "fictional concert and original lettering",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.25
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 0,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "an original fictional concert poster with warped integrated lettering and vibrating chromatic forms",
+    "framing": "fuse headline and image into one dense vertical organism, compress positive and negative space, and use near-colliding colors to sustain optical energy",
+    "mustShow": [
+      "display-type",
+      "vivid-chroma",
+      "organic"
+    ],
+    "mustAvoid": [
+      "minimal",
+      "clinical",
+      "meditative-pace",
+      "clean corporate grid",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "supermarket-packaging",
+    "mid-century-advertising",
+    "geometric-toy"
+  ],
+  "contrasting": [
+    "film-noir",
+    "neo-noir-neon",
+    "quiet-luxury"
+  ]
+}

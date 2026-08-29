@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "mid-century-advertising",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Good Medicine For Everyone Within Your Four Walls (1951 print advertisement)",
+    "creatorOrTradition": "Mid-twentieth-century American commercial art and copywriting",
+    "sourceUrl": "https://americanhistory.si.edu/collections/archival-item/sova-nmah-ac-0791-ref2425",
+    "whyCanonical": "This dated 1951 hospital-trade advertisement establishes a postwar relationship among a direct headline promise, illustrated product demonstration, period commercial framing, and publication-specific persuasion."
+  },
+  "sources": [
+    {
+      "title": "Good Medicine For Everyone Within Your Four Walls. [Print advertising.] Hospital management publications",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/archival-item/sova-nmah-ac-0791-ref2425",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The Smithsonian record dates the advertisement to 1951 and identifies a nurse presenting the product in a hospital-management publication, preserving a period product-demonstration concept and trade-audience context."
+      ]
+    },
+    {
+      "title": "Advertising history archival collection",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://sova.si.edu/record/nmah.ac.0611",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The collection documents commercial categories, endorsements, campaign artifacts, and changing persuasive conventions across twentieth-century advertising."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches commercial, mid century, smooth, advertising pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/mid-century-advertising/reference-02.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/mid-century-advertising/reference-02.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches commercial, mid century, smooth, advertising pace, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

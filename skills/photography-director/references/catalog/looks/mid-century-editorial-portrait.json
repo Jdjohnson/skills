@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "id": "mid-century-editorial-portrait",
+  "displayName": "Mid-Century Editorial Portrait",
+  "family": "historical-process",
+  "definition": "A publication-minded portrait using graphic pose, sculpted studio light, controlled monochrome tone, and deliberate page-aware negative space.",
+  "aliases": [
+    "1950s magazine portrait",
+    "classic editorial studio"
+  ],
+  "cues": [
+    "mid-century-editorial",
+    "short-telephoto-compression",
+    "side-light",
+    "negative-space"
+  ],
+  "antiCues": [
+    "casual phone snapshot",
+    "contemporary corporate headshot"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "editorial",
+      "fashion"
+    ],
+    "viewpoint-framing": [
+      "three-quarter-framing",
+      "eye-level",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "lighting": [
+      "continuous-studio-light",
+      "side-light",
+      "soft-light",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "negative-space",
+      "diagonal-composition"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "high-contrast-tonality"
+    ],
+    "processing-texture": [
+      "darkroom-contrast",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "mid-century-editorial",
+      "late-century-fashion"
+    ],
+    "format-output": [
+      "editorial-spread",
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "graphic pose",
+    "sculpted print-ready light",
+    "designed negative space"
+  ],
+  "adaptiveGuidance": [
+    "Adapt pose, crop, and copy space to the subject and publication; do not imitate a named photographer."
+  ],
+  "applicability": [
+    "people",
+    "fashion",
+    "editorial publication"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-mid-century-editorial-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lillian Bassman: Bazaar and Beyond",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/lillian-bassman-bazaar-and-beyond",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A publication-minded portrait using graphic pose, sculpted studio light, controlled monochrome tone, and deliberate page-aware negative space."
+        ]
+      }
+    ]
+  }
+}

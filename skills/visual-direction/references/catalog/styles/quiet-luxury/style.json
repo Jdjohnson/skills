@@ -1,0 +1,165 @@
+{
+  "id": "quiet-luxury",
+  "displayName": "Quiet Luxury",
+  "family": "luxe-atelier",
+  "definition": "Expansive neutral fields, exceptional material detail, restrained typography, soft controlled light, and one impeccably staged object or gesture.",
+  "axes": {
+    "minimalOrnate": -0.7,
+    "geometricOrganic": -0.1,
+    "polishedRaw": -0.9,
+    "calmEnergetic": -0.9,
+    "historicalFuturistic": -0.3,
+    "realisticAbstract": -0.4,
+    "warmCool": 0.2,
+    "lightDark": -0.2,
+    "playfulSerious": 0.5,
+    "handmadeMachined": -0.2,
+    "flatDeep": 0.2,
+    "everydayLuxurious": 0.9
+  },
+  "cues": [
+    "luxury-signal",
+    "atelier-signal",
+    "sparse",
+    "silk",
+    "marble",
+    "sensual",
+    "object-scale",
+    "smooth",
+    "fashion-signal",
+    "serene"
+  ],
+  "antiCues": [
+    "cardboard",
+    "rough",
+    "industrial-signal"
+  ],
+  "emotionalEffects": [
+    "luxurious-feel",
+    "serene",
+    "sensual"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.15,
+      "symmetry": 0.75,
+      "margins": 0.2
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#F7F1E8",
+        "#62C972",
+        "#1A1A1A",
+        "#8A6A84",
+        "#E8BCB4"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/haute-luxury.svg",
+      "descriptor": "refined serif with whispered tracking",
+      "weight": 300,
+      "tracking": 0.12
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/luxe-atelier-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.1,
+      "tags": [
+        "silk",
+        "marble",
+        "gold-leaf"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "side",
+      "gradient": 0.45
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "material-craft-first",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.25
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 3,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "one sculptural unbranded object whose value is revealed through finish and proportion",
+    "framing": "spacious close study; broad side light, exact alignment, and a restrained tactile palette reward attention",
+    "mustShow": [
+      "luxury-signal",
+      "atelier-signal",
+      "sparse"
+    ],
+    "mustAvoid": [
+      "cardboard",
+      "rough",
+      "industrial-signal",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "gallery-white",
+    "silk-editorial",
+    "jewelry-vitrine"
+  ],
+  "contrasting": [
+    "punk-zine",
+    "operational-utility",
+    "web-brutalism"
+  ]
+}

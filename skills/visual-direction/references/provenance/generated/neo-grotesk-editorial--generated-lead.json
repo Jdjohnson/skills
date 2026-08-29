@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "neo-grotesk-editorial",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of neo-grotesk editorial design.\nUse case: stylized-concept\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original editorial cover and open spread led by neutral neo-grotesk typography, measured hierarchy, generous leading, disciplined image-text pacing, and a sober black-white-red system.\nStyle/medium: photographed high-end print publication\nComposition/framing: portrait 4:5, oversized flush-left display type, narrow text columns, one cropped documentary photograph, precise rules and page rhythm, legible at thumbnail scale\nLighting/mood: even studio light, cool and analytical\nMaterials/textures: uncoated white paper, dense black ink, one red block\nText: use only the exact readable characters A, 57, and abstract text bars\nConstraints: original fictional publication, no existing masthead, no copied cover, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "1e937ebc233fc5ebd4a1ac3c8f57ff7a47d7c76e14d4812af999c48c65a9ba51",
+  "finalAsset": "assets/refs/neo-grotesk-editorial/generated-lead.jpg",
+  "finalSha256": "f1bcf986c53cf236d3f33e98c72f2c05ece08a6baca3e3773c38c84174631073",
+  "postProcessing": "Resized to 800x1000 pixels and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

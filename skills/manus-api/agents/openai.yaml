@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manus API"
+  short_description: "Delegate research, artifacts, and web legwork"
+  default_prompt: "Use $manus-api to delegate this bounded task through the Manus API."

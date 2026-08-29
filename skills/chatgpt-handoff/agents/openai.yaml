@@ -1,0 +1,7 @@
+interface:
+  display_name: "ChatGPT Handoff"
+  short_description: "Prepare and reconcile ChatGPT handoffs"
+  default_prompt: "Use $chatgpt-handoff to prepare this ChatGPT order or reconcile a returned result."
+
+policy:
+  allow_implicit_invocation: false

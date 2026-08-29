@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "memphis-design",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Memphis Group furniture and interiors",
+    "creatorOrTradition": "Memphis Group, founded by Ettore Sottsass",
+    "sourceUrl": "https://designmuseum.org/memphis",
+    "whyCanonical": "The group's objects establish Memphis as an irreverent postmodern collision of furniture, laminate, unstable geometry, pattern, and deliberately discordant color—not a generic squiggle pattern."
+  },
+  "sources": [
+    {
+      "title": "Memphis",
+      "publisher": "Design Museum",
+      "url": "https://designmuseum.org/memphis",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Memphis rejected restrained good taste through asymmetrical forms, plastic laminates, bold patterns, clashing colors, and references to popular culture."
+      ]
+    },
+    {
+      "title": "Ettore Sottsass",
+      "publisher": "Design Museum",
+      "url": "https://designmuseum.org/designers/ettore-sottsass",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Sottsass's furniture and objects demonstrate the movement's object-scale composition, symbolic form, material artificiality, and challenge to functionalist neutrality."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches geometric, vivid chroma, patterned, playful, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/memphis-design/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/memphis-design/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches geometric, vivid chroma, patterned, playful, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

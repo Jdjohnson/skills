@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "pop-art",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of 1960s Pop Art.\nUse case: stylized-concept\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original four-panel silkscreen composition repeating a fictional unbranded everyday countertop package and utensil with shifted process colors, Ben-Day dots, hard black contour, and mechanical registration variation.\nStyle/medium: flat screenprint on paper\nComposition/framing: portrait 4:5, four equal quadrants, bold repeated consumer-object silhouette, immediate at thumbnail scale\nColor palette: cyan, magenta, yellow, process red, black, white\nText: no readable words\nConstraints: recognizable movement-level Pop Art grammar, original fictional object and package, no celebrity, no soup can, no existing brand, no copied artwork, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "1067b3f23bf71019c0a388c27f87beee668648ea4498660cdfc23da0ea0a9e3d",
+  "finalAsset": "assets/refs/pop-art/generated-lead.jpg",
+  "finalSha256": "e4bdc9482f4f7d12c9b437bc287f3bc88f0ee9914ae22221e2bb142d3d0dad9b",
+  "postProcessing": "Resized to 800x1000 pixels and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

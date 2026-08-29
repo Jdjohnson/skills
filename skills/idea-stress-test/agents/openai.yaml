@@ -1,0 +1,4 @@
+interface:
+  display_name: "Idea Stress Test"
+  short_description: "Pressure-test and strengthen an established idea"
+  default_prompt: "Use $idea-stress-test to pressure-test and strengthen this idea."

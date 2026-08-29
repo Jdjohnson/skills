@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "8-bit-pixel-art",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of 8-bit pixel art.\nUse case: social-campaign\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original 8-bit adventure-game key art screen with a tiny explorer crossing a tiled moonlit ruin, block-defined architecture, a limited sprite palette, hard pixel clusters, stepped diagonals, and a simple status strip.\nStyle/medium: authentic low-resolution pixel art enlarged with nearest-neighbor edges\nComposition/framing: portrait 4:5, strong foreground arch, central explorer sprite, distant tower and crescent moon, readable at thumbnail scale\nLighting/mood: mysterious, playful, heroic\nColor palette: near-black, indigo, electric blue, coral, pale gold\nMaterials/textures: square pixel clusters only, no smooth vector curves\nText: use only the numeral 8 and three abstract status blocks\nConstraints: original fictional game world and character, no franchise references, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "0537b331a3d8e650af7b2b10894ee94e7b6e6e523fbe733b721358a6058d9608",
+  "finalAsset": "assets/refs/8-bit-pixel-art/generated-lead.jpg",
+  "finalSha256": "70237d66352e0f43b61144b3a1ba4fa999a9b0bef0a0fd079b2e4b44b5304f19",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

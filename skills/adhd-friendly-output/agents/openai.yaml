@@ -1,0 +1,7 @@
+interface:
+  display_name: "ADHD-Friendly Output"
+  short_description: "Action-first responses for ADHD readers"
+  default_prompt: "Use $adhd-friendly-output to make this response easier to scan and act on."
+
+policy:
+  allow_implicit_invocation: false

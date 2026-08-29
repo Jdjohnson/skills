@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "soft-focus-romantic-portrait",
+  "displayName": "Soft-Focus Romantic Portrait",
+  "family": "portrait-editorial",
+  "definition": "A gently intimate portrait with diffusion-heavy optical glow, shallow focus, pastel or warm tonality, and softened highlights that do not erase expression.",
+  "aliases": [
+    "dreamy romantic portrait",
+    "glowy soft-focus person"
+  ],
+  "cues": [
+    "diffusion-heavy-lens-character",
+    "shallow-focus",
+    "bloom",
+    "pastel-color"
+  ],
+  "antiCues": [
+    "clinical microcontrast",
+    "crushed black drama",
+    "unreadable face"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "fashion",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "close-up",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "diffusion-heavy-lens-character",
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "shallow-focus",
+      "deliberate-softness"
+    ],
+    "lighting": [
+      "window-light",
+      "backlight",
+      "soft-light",
+      "diffused-light"
+    ],
+    "composition": [
+      "negative-space",
+      "rule-of-thirds"
+    ],
+    "color-tonality": [
+      "warm-color",
+      "pastel-color",
+      "luminous-highlights",
+      "low-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "bloom",
+      "optical-diffusion",
+      "fine-grain"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "luminous optical glow",
+    "narrow intimate focus",
+    "soft warm palette"
+  ],
+  "adaptiveGuidance": [
+    "Adapt diffusion and focus depth to subject scale; keep eyes or another intentional anchor legible."
+  ],
+  "applicability": [
+    "people",
+    "fashion",
+    "romantic editorial"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-soft-focus-romantic-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "What is depth of field (DOF)?",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/compact-cameras-dsc-p-series/dsc-p8/articles/00031291",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A gently intimate portrait with diffusion-heavy optical glow, shallow focus, pastel or warm tonality, and softened highlights that do not erase expression."
+        ]
+      }
+    ]
+  }
+}

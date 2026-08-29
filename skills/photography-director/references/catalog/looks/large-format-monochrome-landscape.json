@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "id": "large-format-monochrome-landscape",
+  "displayName": "Large-Format Monochrome Landscape",
+  "family": "historical-process",
+  "definition": "A deliberate black-and-white landscape with deep focus, broad tonal scale, precise foreground-to-distance structure, and documented large-format capture.",
+  "aliases": [
+    "4x5 black and white landscape",
+    "classic large format landscape"
+  ],
+  "cues": [
+    "large-format-film",
+    "deep-focus",
+    "high-dynamic-range",
+    "layered-depth"
+  ],
+  "antiCues": [
+    "casual shallow-focus snapshot",
+    "color spectacle"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "landscape",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "extreme-wide",
+      "eye-level"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "side-light",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "layered-depth",
+      "leading-lines",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "high-dynamic-range"
+    ],
+    "medium-process": [
+      "large-format-film"
+    ],
+    "processing-texture": [
+      "fine-grain",
+      "darkroom-contrast",
+      "crisp-clarity"
+    ],
+    "era-movement": [
+      "straight-photography"
+    ],
+    "format-output": [
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "front-to-back description",
+    "broad monochrome tonal scale",
+    "patient camera placement"
+  ],
+  "adaptiveGuidance": [
+    "Adapt focal length and camera height to the terrain; only name large format when documented."
+  ],
+  "applicability": [
+    "landscape",
+    "architecture",
+    "fine-art"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-large-format-monochrome-landscape"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Our Future Is In The Air: Photographs from the 1910s",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/listings/2010/our-future-is-in-the-air",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A deliberate black-and-white landscape with deep focus, broad tonal scale, precise foreground-to-distance structure, and documented large-format capture."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "dada-collage",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Berlin Dada photomontage and chance collage",
+    "creatorOrTradition": "Hannah Hoch, Kurt Schwitters, Jean Arp, and the Dada movement",
+    "sourceUrl": "https://www.moma.org/collection/terms/dada/chance-creations-collage-photomontage-and-assemblage",
+    "whyCanonical": "MoMA connects Dada collage to chance, accident, improvisation, mass-media fragments, anti-rational critique, and deliberately disruptive juxtaposition."
+  },
+  "sources": [
+    {
+      "title": "Chance Creations: Collage, Photomontage, and Assemblage",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/terms/dada/chance-creations-collage-photomontage-and-assemblage",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Dada artists used chance, accident, and improvisation to challenge rational order.",
+        "Magazine and newspaper imagery became raw material for distorted, critical photomontage."
+      ]
+    },
+    {
+      "title": "DADA at MoMA",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/interactives/exhibitions/2008/dadaatmoma/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The movement joined abstraction, collage, photomontage, performance, and media pranks rather than maintaining one polished style.",
+        "Dada's response to machine culture supports the guide's mechanical fragments and ruptured scale."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches collage, rough, layered, improvised, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/dada-collage/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/dada-collage/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches collage, rough, layered, improvised, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

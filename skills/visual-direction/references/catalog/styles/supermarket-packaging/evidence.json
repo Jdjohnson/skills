@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "supermarket-packaging",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Self-service supermarket packaging and shelf display",
+    "creatorOrTradition": "Twentieth-century mass-market package design",
+    "sourceUrl": "https://americanhistory.si.edu/explore/stories/food-culture-supermarkets-and-packaging-researchers-perspective",
+    "whyCanonical": "The supermarket context establishes packages as silent salespeople that must identify product, variant, promise, and appetite at shelf distance while forming a repeated block."
+  },
+  "sources": [
+    {
+      "title": "Food, Culture, Supermarkets, and Packaging: A Researcher's Perspective",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/explore/stories/food-culture-supermarkets-and-packaging-researchers-perspective",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Self-service retail changed packages into visible branded selling surfaces shaped by consumer choice, shelf competition, and changing food culture."
+      ]
+    },
+    {
+      "title": "Supermarkets as Symbols",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/explore/exhibitions/food/online/new-and-improved/superhighways-supermarkets/supermarkets-symbols",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Supermarket abundance, repetition, aisle organization, price messaging, and mass distribution are essential context for the style's visual density."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches packaging signal, hierarchical, vivid chroma, product signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/supermarket-packaging/generated-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/supermarket-packaging/generated-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches packaging signal, hierarchical, vivid chroma, product signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

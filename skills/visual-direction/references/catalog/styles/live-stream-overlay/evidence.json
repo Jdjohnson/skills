@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "live-stream-overlay",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "OBS scene composed from gameplay, webcam, text, and browser sources",
+    "creatorOrTradition": "Open Broadcaster Software live-production workflow",
+    "sourceUrl": "https://obsproject.com/kb/obs-studio-overview",
+    "whyCanonical": "OBS scenes combine games, webcams, text, images, and browser-based alerts into a single broadcast layout, establishing the layered production basis of an audience-facing stream surface."
+  },
+  "sources": [
+    {
+      "title": "OBS Studio Overview Guide",
+      "publisher": "OBS Project",
+      "url": "https://obsproject.com/kb/obs-studio-overview",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Scenes and sources combine game capture, webcams, images, text, and other media into the broadcast output.",
+        "Distinct scenes support audience states such as welcome, game, break, and ending."
+      ]
+    },
+    {
+      "title": "Twitch's Alerts",
+      "publisher": "Twitch Help",
+      "url": "https://help.twitch.tv/s/article/alerts-by-twitch",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Twitch describes alerts as personalized in-stream signals for community actions such as subscriptions and new followers.",
+        "Twitch's guidance connects alert customization to a channel's unique brand and to clearer audience awareness of what happened and who did it."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches performance signal, interface signal, digital signal, screen scale, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/live-stream-overlay/generated-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/live-stream-overlay/generated-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches performance signal, interface signal, digital signal, screen scale, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

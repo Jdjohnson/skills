@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "dark-moody-tabletop",
+  "displayName": "Dark Moody Tabletop",
+  "family": "commercial-still-life",
+  "definition": "A small-object still life using low-key side light, deep textured surfaces, selective focus, restrained warm color, and substantial negative shadow.",
+  "aliases": [
+    "moody still life",
+    "dark product tabletop"
+  ],
+  "cues": [
+    "tabletop",
+    "low-key-lighting",
+    "side-light",
+    "shallow-focus"
+  ],
+  "antiCues": [
+    "white seamless",
+    "flat overhead fill",
+    "bright pastel palette"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "tabletop",
+      "product",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "detail-framing",
+      "oblique-view",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "selective-focus",
+      "shallow-focus"
+    ],
+    "lighting": [
+      "continuous-studio-light",
+      "side-light",
+      "soft-light",
+      "low-key-lighting",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "rule-of-thirds",
+      "negative-space",
+      "layered-depth"
+    ],
+    "color-tonality": [
+      "warm-color",
+      "muted-color",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "matte-blacks",
+      "vignette"
+    ],
+    "era-movement": [
+      "contemporary-cinematic-still"
+    ],
+    "format-output": [
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "selective pool of side light",
+    "deep material texture",
+    "dark quiet field"
+  ],
+  "adaptiveGuidance": [
+    "Adapt focus plane and light placement to the object's form; retain enough shadow detail to read material."
+  ],
+  "applicability": [
+    "food ingredients",
+    "craft objects",
+    "beverages",
+    "fine-art still life"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-dark-moody-tabletop"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A small-object still life using low-key side light, deep textured surfaces, selective focus, restrained warm color, and substantial negative shadow."
+        ]
+      }
+    ]
+  }
+}

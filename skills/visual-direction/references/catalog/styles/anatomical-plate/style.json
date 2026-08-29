@@ -1,0 +1,163 @@
+{
+  "id": "anatomical-plate",
+  "displayName": "Anatomical Plate",
+  "family": "scientific-diagram",
+  "definition": "Human or animal body systems rendered through precise contour, section, symmetry, leader lines, numbered structures, and didactic hierarchy.",
+  "axes": {
+    "minimalOrnate": -0.5,
+    "geometricOrganic": 0.5,
+    "polishedRaw": -0.8,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": -0.2,
+    "realisticAbstract": -0.4,
+    "warmCool": 0.1,
+    "lightDark": -0.2,
+    "playfulSerious": 0.6,
+    "handmadeMachined": 0.5,
+    "flatDeep": -0.8,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "sectioned-body",
+    "precise-contour",
+    "leader-lines",
+    "numbered-structures",
+    "didactic-hierarchy",
+    "symmetrical-view",
+    "layered-system",
+    "clinical-color"
+  ],
+  "antiCues": [
+    "medical-stock-photo",
+    "horror-gore",
+    "fantasy-anatomy",
+    "unlabeled-figure",
+    "decorative-skeleton"
+  ],
+  "emotionalEffects": [
+    "clinical",
+    "scholarly",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.45,
+      "symmetry": 0.55,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#BDBDBD",
+        "#E8EAF6",
+        "#37474F",
+        "#C62828",
+        "#5D4037"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/anatomical-plate.svg",
+      "descriptor": "system sans/display",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/scientific-diagram-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.25,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "show-anatomically-coherent-system",
+        "label-structures-clearly",
+        "separate-layers-or-sections",
+        "avoid-sensational-gore"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 1,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 0,
+    "packaging": 1,
+    "photography": 0,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "a carefully sectioned human or animal figure whose body system is explained through numbered structures and clean leader lines",
+    "framing": "center the complete figure or organ with balanced surrounding labels and inset details that preserve orientation",
+    "mustShow": [
+      "accurate anatomical structure",
+      "numbered or named hierarchy",
+      "section layer or comparative view"
+    ],
+    "mustAvoid": [
+      "sensational gore",
+      "fantasy organs",
+      "beauty-advertising retouch",
+      "unreadable micro-labels",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "botanical-plate",
+    "lab-notebook",
+    "field-guide"
+  ],
+  "contrasting": [
+    "folk-embroidery",
+    "festival-banner",
+    "carnival-poster"
+  ]
+}

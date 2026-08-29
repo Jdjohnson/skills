@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "magazine-feature",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of a long-form magazine feature.\nUse case: product-mockup\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original magazine opener and following spread with a bold feature headline, cinematic documentary photograph, deck and byline hierarchy, pull quote, multi-column body copy, and deliberate pacing across pages.\nStyle/medium: premium editorial print photography\nComposition/framing: portrait 4:5, open spread fills frame with strong left-right rhythm, image and headline remain clear at thumbnail scale\nLighting/mood: neutral studio light on pages, energetic but readable\nColor palette: warm white, black, deep blue, one orange accent\nText: use only the exact headline THE LONG WAY and abstract body bars\nConstraints: fictional feature and adult subjects, no real publication, no copied layout, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "e2b2ef01efbf4cc697c7234ed88482dce82d2a176e6c1c7e99e6058ad8107af3",
+  "finalAsset": "assets/refs/magazine-feature/generated-lead.jpg",
+  "finalSha256": "15cba36493a07f60abc68e58786e305f2fa819f0382279189ed6f4124d2403c9",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

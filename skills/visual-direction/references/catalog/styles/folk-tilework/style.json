@@ -1,0 +1,169 @@
+{
+  "id": "folk-tilework",
+  "displayName": "Folk Tilework",
+  "family": "folk-vernacular",
+  "definition": "Glazed ceramic units assembled into repeated ornament or multi-tile narrative, with visible grout rhythm, architectural scale, saturated mineral color, and tradition-specific motifs.",
+  "axes": {
+    "minimalOrnate": 0.6,
+    "geometricOrganic": -0.3,
+    "polishedRaw": -0.2,
+    "calmEnergetic": -0.1,
+    "historicalFuturistic": -0.5,
+    "realisticAbstract": 0.2,
+    "warmCool": 0.1,
+    "lightDark": -0.1,
+    "playfulSerious": -0.2,
+    "handmadeMachined": -0.6,
+    "flatDeep": -0.3,
+    "everydayLuxurious": -0.2
+  },
+  "cues": [
+    "glazed-ceramic-units",
+    "visible-grout-rhythm",
+    "architectural-assembly",
+    "mineral-color",
+    "repeated-ornament",
+    "multi-tile-image",
+    "surface-variation",
+    "tradition-specific-motif"
+  ],
+  "antiCues": [
+    "seamless-digital-pattern",
+    "generic-moroccan-mix",
+    "printed-ceramic-skin",
+    "culture-collage",
+    "bathroom-showroom"
+  ],
+  "emotionalEffects": [
+    "serene",
+    "timeless",
+    "monumental"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.8,
+      "symmetry": 0.7,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#0D47A1",
+        "#00838F",
+        "#FFF8E1",
+        "#BF360C",
+        "#212121"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/ceramic-tile-folk.svg",
+      "descriptor": "hand-informed display",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/folk-vernacular-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.25,
+      "tags": [
+        "ceramic",
+        "glaze"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/folk-vernacular"
+      ],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "name-the-tile-tradition",
+        "show-unit-and-grout-construction",
+        "retain-architectural-context",
+        "avoid-mixing-sacred-and-regional-motifs"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 3,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "an architectural tile field assembled from individually glazed units whose grout and surface variation remain visible",
+    "framing": "show both the repeated or narrative whole and enough close material detail to read cut edges, glaze, joints, and placement",
+    "mustShow": [
+      "ceramic unit rhythm",
+      "visible grout or mortar",
+      "coherent regional motif and color"
+    ],
+    "mustAvoid": [
+      "seamless wallpaper",
+      "mixed cultural pattern sampler",
+      "flat printed imitation",
+      "random arabesque",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": "Mediterranean / Islamic world / Mexico",
+  "traditionalOrLivingPractice": true,
+  "requiresCulturalReview": true,
+  "culturalContext": {
+    "summary": "Glazed architectural tile traditions",
+    "antiCaricature": "Treat motifs as living or historically specific visual languages, not costume kitsch. Prefer structural grammar (line, rhythm, material) over stereotyped subjects. Avoid sacred symbol misuse.",
+    "guidance": "When applying this node, preserve source grammar and cite traditions. Prefer consultation with authoritative museum/catalog sources over pop caricature."
+  },
+  "related": [
+    "quilting-pattern",
+    "ukiyo-e",
+    "mexican-tinwork"
+  ],
+  "contrasting": [
+    "documentary-grit",
+    "crt-terminal",
+    "academic-journal"
+  ]
+}

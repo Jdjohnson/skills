@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "kids-picture-book",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Picture-book character and accordion sequence",
+    "creatorOrTradition": "Il Sung Na; The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/de/perspectives/accordion-book-il-sung-na",
+    "whyCanonical": "The Met activity links picture-book creation to characters, connected pages, shapes, colors, and composition."
+  },
+  "sources": [
+    {
+      "title": "Make a Mix-and-Match Accordion Book with Il Sung Na",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/de/perspectives/accordion-book-il-sung-na",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Picture-book making relies on characters, connected pages, and deliberate shape, color, and composition choices."
+      ]
+    },
+    {
+      "title": "Explore Interactive Children’s Books of the Past",
+      "publisher": "Library of Congress",
+      "url": "https://blogs.loc.gov/families/2025/11/explore-interactive-childrens-books-of-the-past/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Historical picture books demonstrate page-based narrative, recurring visual action, and interactive anticipation across a short sequence."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches illustrated spread, page turn pacing, warm character, large friendly type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/kids-picture-book/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/kids-picture-book/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches illustrated spread, page turn pacing, warm character, large friendly type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

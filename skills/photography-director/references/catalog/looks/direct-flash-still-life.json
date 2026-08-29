@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "id": "direct-flash-still-life",
+  "displayName": "Graphic Side-Lit Still Life",
+  "family": "commercial-still-life",
+  "definition": "A sparse object arrangement made graphic by a hard lateral source, long cast shadows, a limited palette, reflective lines, and deliberate negative space.",
+  "aliases": [
+    "graphic tabletop still life",
+    "hard side light objects"
+  ],
+  "cues": [
+    "side-light",
+    "hard-light",
+    "negative-space",
+    "geometric-order"
+  ],
+  "antiCues": [
+    "flat frontal illumination",
+    "busy lifestyle clutter",
+    "shadowless ecommerce treatment"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "tabletop",
+      "product",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "detail-framing",
+      "straight-on-view",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "lighting": [
+      "side-light",
+      "hard-light",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "negative-space",
+      "geometric-order",
+      "deliberate-imbalance"
+    ],
+    "color-tonality": [
+      "muted-color",
+      "crushed-blacks",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "four-three-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "hard lateral shadow",
+    "reflective graphic line",
+    "purposeful empty space"
+  ],
+  "adaptiveGuidance": [
+    "Adapt source angle, object spacing, and camera height so shadows and reflections form a readable design."
+  ],
+  "applicability": [
+    "editorial objects",
+    "food",
+    "small products"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-direct-flash-still-life"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A sparse object arrangement made graphic by a hard lateral source, long cast shadows, a limited palette, reflective lines, and deliberate negative space."
+        ]
+      }
+    ]
+  }
+}

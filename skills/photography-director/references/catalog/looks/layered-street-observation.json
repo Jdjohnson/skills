@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "layered-street-observation",
+  "displayName": "Layered Street Observation",
+  "family": "documentary-street-event",
+  "definition": "An unscripted public-space photograph with overlapping foreground, middle-ground, and background events held together by readable depth; zone focus is only one possible technique.",
+  "aliases": [
+    "busy layered street photo",
+    "multiple things happening street"
+  ],
+  "cues": [
+    "street",
+    "layered-framing",
+    "readable-depth-planes",
+    "layered-depth"
+  ],
+  "antiCues": [
+    "isolated telephoto portrait",
+    "staged crowd",
+    "single empty plane"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "street",
+      "documentary"
+    ],
+    "viewpoint-framing": [
+      "eye-level",
+      "layered-framing",
+      "environmental-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective",
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "zone-focus",
+      "deep-focus",
+      "foreground-obstruction"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "available-light",
+      "daylight"
+    ],
+    "composition": [
+      "layered-depth",
+      "frame-within-frame",
+      "edge-tension",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "high-dynamic-range"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "fine-grain"
+    ],
+    "era-movement": [
+      "humanist-photojournalism"
+    ],
+    "format-output": [
+      "three-two-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "simultaneous public events",
+    "readable depth layers",
+    "unforced timing"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera distance and working focus band to the street; preserve ethical distance and real context."
+  ],
+  "applicability": [
+    "streets",
+    "markets",
+    "public gatherings"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-layered-street-observation"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Street photography",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/street-photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "An unscripted public-space photograph with overlapping foreground, middle-ground, and background events held together by readable depth; zone focus is only one possible technique."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "civic-wayfinding",
+  "displayName": "Civic Wayfinding",
+  "family": "modernist-grid",
+  "definition": "Viewing-distance typography, standardized pictograms, arrows, color coding, and environmental hierarchy route people through public space.",
+  "axes": {
+    "minimalOrnate": -0.5,
+    "geometricOrganic": -0.4,
+    "polishedRaw": -0.5,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": 0.2,
+    "realisticAbstract": 0.1,
+    "warmCool": -0.4,
+    "lightDark": 0.3,
+    "playfulSerious": 0.6,
+    "handmadeMachined": 0.6,
+    "flatDeep": -0.6,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "viewing-distance",
+    "directional",
+    "standardized-pictograms",
+    "color-coded",
+    "environmental"
+  ],
+  "antiCues": [
+    "quantitative-repetition",
+    "decoration",
+    "ambiguous-arrows",
+    "low-contrast"
+  ],
+  "emotionalEffects": [
+    "calm",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.42,
+      "symmetry": 0.55,
+      "margins": 0.38
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#003049",
+        "#669BBC",
+        "#FDF0D5",
+        "#C1121F",
+        "#780000"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/neutral-wayfinding.svg",
+      "descriptor": "humanist sans for directional copy",
+      "weight": 500,
+      "tracking": 0.04
+    },
+    "shapeLine": {
+      "cornerRadius": 0.2,
+      "lineWeight": 0.38,
+      "curveTension": 0.15
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/modernist-grid-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.02,
+      "tags": [
+        "enamel",
+        "metal"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.55,
+      "keyDirection": "front",
+      "gradient": 0.05
+    },
+    "depth": {
+      "layers": 1,
+      "shadowSoftness": 0.1,
+      "parallax": 0
+    },
+    "motion": {
+      "energy": 0.15,
+      "descriptor": "static"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.04,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "diagrammatic",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.45
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 3,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "a transit concourse with a coordinated family of overhead, wall, and platform signs",
+    "framing": "Eye-level environmental view showing arrows, route color, destinations, and standardized pictograms in a consistent viewing-distance hierarchy.",
+    "mustShow": [
+      "viewing-distance",
+      "directional",
+      "standardized-pictograms"
+    ],
+    "mustAvoid": [
+      "quantitative-repetition",
+      "ambiguous-arrows",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "isotype-statistical-graphics",
+    "ulm-systems-design",
+    "specimen-label"
+  ],
+  "contrasting": [
+    "neo-noir-neon",
+    "punk-zine",
+    "quiet-luxury"
+  ]
+}

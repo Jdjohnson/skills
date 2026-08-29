@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "letterpress-print",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Relief printing from movable type and image matrices on a hand or proof press",
+    "creatorOrTradition": "Letterpress printers and relief-print tradition",
+    "sourceUrl": "https://guides.loc.gov/russell-maret/glossary",
+    "whyCanonical": "The Library of Congress definition identifies the central mechanism: a letterpress print is made with a relief matrix such as metal or wood type, photoengraving, linocut, photopolymer, or wood engraving."
+  },
+  "sources": [
+    {
+      "title": "Glossary — The Russell Maret Artist Book Collection and Archive",
+      "publisher": "Library of Congress",
+      "url": "https://guides.loc.gov/russell-maret/glossary",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Letterpress uses raised relief matrices including movable type, linocut, photopolymer plates, and wood engraving.",
+        "The medium's visual grammar can include both typographic and image matrices rather than only historical metal type."
+      ]
+    },
+    {
+      "title": "Wooden Hand Presses",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://www.si.edu/spotlight/printing-presses/wooden-presses",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Traditional type-printing presses use a bed, platen, and pressure mechanism to bring an inked forme and paper together.",
+        "Press construction and available pressure constrain sheet size, setup, and the physical production sequence."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches letterpress ink, paper, typographic, craft signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/letterpress-print/reference-01.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/letterpress-print/reference-01.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches letterpress ink, paper, typographic, craft signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

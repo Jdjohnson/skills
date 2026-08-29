@@ -1,0 +1,165 @@
+{
+  "id": "atelier-process",
+  "displayName": "Atelier Process",
+  "family": "luxe-atelier",
+  "definition": "Muslin draping, pinned fittings, pattern paper, swatches, pencil corrections, hand notes, and visible iteration at the making table.",
+  "axes": {
+    "minimalOrnate": -0.1,
+    "geometricOrganic": 0.5,
+    "polishedRaw": 0.2,
+    "calmEnergetic": -0.3,
+    "historicalFuturistic": -0.3,
+    "realisticAbstract": 0.4,
+    "warmCool": 0.3,
+    "lightDark": -0.1,
+    "playfulSerious": 0.2,
+    "handmadeMachined": 0.8,
+    "flatDeep": -0.1,
+    "everydayLuxurious": 0.5
+  },
+  "cues": [
+    "illustrated",
+    "atelier-signal",
+    "craft-signal",
+    "fabric",
+    "annotated",
+    "intimate-scale",
+    "warm-hearted",
+    "improvised",
+    "paper",
+    "captioned"
+  ],
+  "antiCues": [
+    "machine-precise",
+    "digital-signal",
+    "neon-chroma"
+  ],
+  "emotionalEffects": [
+    "intimate",
+    "nostalgic",
+    "warm-hearted"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.45,
+      "symmetry": 0.3,
+      "margins": 0.11
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FFF8EF",
+        "#D35400",
+        "#1F3A5F",
+        "#5DADE2",
+        "#1C1C1C"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/atelier-sketch.svg",
+      "descriptor": "pencil-thin sans with handwritten annotations",
+      "weight": 400,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/luxe-atelier-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.35,
+      "tags": [
+        "paper",
+        "fabric",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "side",
+      "gradient": 0.4
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "illustrated",
+      "subjectRules": [
+        "revision-evidence-first",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.45
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "muslin garment under active revision with pattern pieces, pins, chalk, and specific fit notes",
+    "framing": "broad studio-daylight view; hands and materials connect an annotated decision to a plausible construction stage",
+    "mustShow": [
+      "illustrated",
+      "atelier-signal",
+      "craft-signal"
+    ],
+    "mustAvoid": [
+      "machine-precise",
+      "digital-signal",
+      "neon-chroma",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "couture-lookbook",
+    "silk-editorial",
+    "artisan-bookbinding"
+  ],
+  "contrasting": [
+    "industrial-monochrome",
+    "web-brutalism",
+    "watch-precision"
+  ]
+}

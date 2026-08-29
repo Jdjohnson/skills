@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "private-club",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Royal Automobile Club rooms designed for sustained social ritual",
+    "creatorOrTradition": "Edwardian club architecture and private social interiors",
+    "sourceUrl": "https://historicengland.org.uk/images-books/photos/item/BL21191/005",
+    "whyCanonical": "Historic England's documented clubhouse interior anchors the style in purpose-built rooms for conversation, reading, dining, and recurring member use rather than generic dark luxury."
+  },
+  "sources": [
+    {
+      "title": "The interior of the club room at the Pall Mall clubhouse of the Royal Automobile Club",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/images-books/photos/item/BL21191/005",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A purpose-built club room combines formal enclosure, furniture groupings, and a setting for recurring member activity.",
+        "The historic interior supports the guide's emphasis on collected material, quiet order, and social use."
+      ]
+    },
+    {
+      "title": "Lansdowne House, Westminster",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/research/results/reports/7192/LANSDOWNEHOUSEWestminster",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The Lansdowne Club combined dining, restaurant, bar, athletic, and residential spaces within one layered house identity.",
+        "Its architectural history supports treating private-club design as an organized social environment, not a single lounge image."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches luxury signal, heritage signal, wood, velvet, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/private-club/reference-02.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/private-club/reference-02.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches luxury signal, heritage signal, wood, velvet, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

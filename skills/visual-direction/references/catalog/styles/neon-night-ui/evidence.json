@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "neon-night-ui",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Dark-mode media interface with selective emissive accents",
+    "creatorOrTradition": "Contemporary dark-mode interface design",
+    "sourceUrl": "https://developer.apple.com/design/human-interface-guidelines/dark-mode",
+    "whyCanonical": "Platform guidance establishes dark appearance as a complete interface state in which controls, content, hierarchy, and contrast are designed for a low-light field rather than decorated with arbitrary neon."
+  },
+  "sources": [
+    {
+      "title": "Dark Mode",
+      "publisher": "Apple Developer Human Interface Guidelines",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/dark-mode",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A dark interface applies a dark palette across screens, views, menus, and controls while preserving perceptual contrast.",
+        "Foreground content, icons, images, and active controls need deliberate adaptation rather than simple color inversion."
+      ]
+    },
+    {
+      "title": "Understanding Success Criterion 1.4.3: Contrast (Minimum)",
+      "publisher": "W3C Web Accessibility Initiative",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Text and images of text require sufficient luminance contrast against their actual background.",
+        "Hue and saturation alone do not provide reliable legibility, making light-dark structure essential when neon colors are used."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches neon, neon chroma, interface signal, digital signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/neon-night-ui/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/neon-night-ui/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches neon, neon chroma, interface signal, digital signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

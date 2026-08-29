@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "id": "task-focused-workplace-portrait",
+  "displayName": "Task-Focused Workplace Portrait",
+  "family": "portrait-editorial",
+  "definition": "An environmental work portrait built around a legible task, visible work materials, and a person whose attention stays with the work rather than the camera.",
+  "aliases": [
+    "person working with documents",
+    "task focused workplace portrait"
+  ],
+  "cues": [
+    "environmental-portrait",
+    "visible-work-context",
+    "deep-focus",
+    "environmental-context"
+  ],
+  "antiCues": [
+    "camera-facing pose",
+    "empty staged desk",
+    "shallow beauty portrait"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "environmental-portrait",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "eye-level",
+      "environmental-framing",
+      "full-length"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "soft-light",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "centrality",
+      "environmental-context",
+      "layered-depth"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "restrained-skin-tones"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "legible task",
+    "visible work materials",
+    "attention directed toward the work"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera distance to the workplace while keeping the person's hands, task, and enough surrounding evidence readable."
+  ],
+  "applicability": [
+    "founders",
+    "leaders",
+    "knowledge workers",
+    "offices"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-founder-home-office-work"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Busy Woman Working Remotely",
+        "publisher": "Pexels",
+        "url": "https://www.pexels.com/photo/busy-woman-working-remotely-12912228/",
+        "accessedAt": "2026-08-12",
+        "supports": [
+          "An environmental work portrait built around a legible task, visible work materials, and a person whose attention stays with the work rather than the camera."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "CN-01",
+    "brief": {"problem":"Three-tier AI adoption packages are routinely discounted, buyers cluster in the middle, and custom scope may be erasing margin.","decision":"Set next-year package prices, scope fences, and discount approval rules before the next sales cycle.","context":"B2B professional services with proposals, invoices, delivery hours, and win/loss access but limited transaction history.","constraints":["No large quantitative survey before the next cycle","Protect delivery margin"],"desired_output":"A pricing decision plus a short evidence and test plan.","practice_areas":["marketing-sales-pricing","finance-value"],"reasoning_jobs":["diagnose","gather-evidence","design-solution"]},
+    "primary":["pricing-waterfall-analysis","value-based-pricing"],
+    "acceptable":["customer-profitability-analysis","competitive-pricing-analysis","price-sensitivity-meter"],
+    "forbidden":["working-capital-management"]
+  },
+  {
+    "id": "CN-02",
+    "brief": {"problem":"Monthly churn rose from 2.1% to 4.8% after onboarding and pricing changed at the same time.","decision":"Choose the first reversible intervention and the evidence sequence that distinguishes the causes.","context":"Vertical SaaS with event data, support tickets, cohorts, and 3,000 customers.","constraints":["Two weeks to recommend action","No full randomized rollback"],"desired_output":"Causal hypotheses, analysis sequence, thresholds, and a reversible next move.","practice_areas":["customer-product-innovation","research-analytics"],"reasoning_jobs":["diagnose","gather-evidence","evaluate-learn"]},
+    "primary":["cohort-analysis","root-cause-analysis","churn-analysis"],
+    "acceptable":["customer-evidence-triangulation","a-b-testing","funnel-analysis","natural-language-processing"],
+    "forbidden":[]
+  },
+  {
+    "id": "CN-03",
+    "brief": {"problem":"A high-mix fabrication plant misses ship dates despite 72% average labor utilization, rising overtime, and queues at welding, paint, and final assembly.","decision":"Choose the first 30-day operational intervention that improves reliable finished throughput.","context":"High-mix low-volume flow through welding, paint, and final assembly.","constraints":["No new building this year","Capital requires quantified evidence"],"desired_output":"Constraint diagnosis, evidence plan, and focused 30-day intervention.","practice_areas":["operations-quality","supply-chain-manufacturing"],"reasoning_jobs":["decompose","diagnose","design-solution"]},
+    "primary":["bottleneck-analysis","theory-of-constraints","value-stream-mapping"],
+    "acceptable":["capacity-analysis","gemba-walks","root-cause-analysis"],
+    "forbidden":["price-volume-mix-analysis","last-mile-delivery-optimization","service-blueprinting"]
+  },
+  {
+    "id": "CN-04",
+    "brief": {"problem":"A founder remains the default approval layer for client decisions while capable account leaders wait and delivery slows.","decision":"Redesign client decision rights next month so account leaders own routine calls while the founder retains strategic customer contact and true exceptions.","context":"A professional-services firm with capable account leaders and an over-centralized approval path.","constraints":["Founder keeps strategic client contact","No broad reorganization","Usable next month"],"desired_output":"Decision-rights operating model, escalation thresholds, pilot, and measures.","practice_areas":["organization-talent","change-transformation"],"reasoning_jobs":["diagnose","design-solution","plan-implementation"]},
+    "primary":["organizational-design","raci-matrix","star-model"],
+    "acceptable":["change-readiness-assessment","stakeholder-mapping","bridges-transition-model","organizational-change-management"],
+    "forbidden":["digital-transformation-framework","dei-framework","transition-management-office"]
+  },
+  {
+    "id": "CN-05",
+    "brief": {"problem":"A smaller competitor has attractive revenue but possible customer concentration, founder dependence, and uncertain integration burden.","decision":"Decide whether to proceed to a conditional LOI and what diligence, value, and protection gates must clear.","context":"Regional services acquisition with limited management data, seller time pressure, and thin integration capacity.","constraints":["No binding commitment before diligence","Preserve downside protection"],"desired_output":"Proceed-or-pause logic, diligence priorities, valuation sensitivities, and deal conditions.","practice_areas":["ma-diligence-turnaround","finance-value","corporate-growth"],"reasoning_jobs":["gather-evidence","measure-forecast","govern-risk","prioritize"]},
+    "primary":["commercial-due-diligence","financial-due-diligence","operational-due-diligence"],
+    "acceptable":["sensitivity-analysis","valuation-multiples","cultural-due-diligence","hr-due-diligence"],
+    "forbidden":["price-sensitivity-meter","clean-room-process"]
+  },
+  {
+    "id": "CN-06",
+    "brief": {"problem":"Employees use public AI tools with client data; a blanket ban would drive use underground while an approved Copilot product already exists.","decision":"Adopt a practical risk-tiered AI policy, control model, and rollout this quarter.","context":"A 250-person accounting firm with Microsoft 365 Copilot and unapproved public tools.","constraints":["Protect client confidentiality","Make approved behavior easy","Board expects controls this quarter"],"desired_output":"Policy tiers, governance roles, controls, exceptions, monitoring, and adoption sequence.","practice_areas":["technology-digital-ai","risk-resilience-sustainability","change-transformation"],"reasoning_jobs":["govern-risk","design-solution","plan-implementation"]},
+    "primary":["ai-ethics-and-governance","cybersecurity-framework"],
+    "acceptable":["pilot-and-scale-methodology","change-readiness-assessment","stakeholder-communication-plan","enterprise-risk-management","cobit"],
+    "forbidden":["mes-strategy","blockchain-strategy"]
+  },
+  {
+    "id": "CN-07",
+    "brief": {"problem":"A U.S. workflow-software firm has anecdotal demand in Germany and the Netherlands, one possible partner, limited localization, and no local entity.","decision":"Choose whether, where, and how to enter Europe through a reversible 12-month stage gate.","context":"Mid-market software with a $1.5M investment cap.","constraints":["Investment cap of $1.5M","No full commitment before evidence"],"desired_output":"Country comparison, entry mode, evidence gaps, stage gates, and recommendation.","practice_areas":["competitive-strategy","corporate-growth","research-analytics"],"reasoning_jobs":["gather-evidence","generate-options","prioritize","plan-implementation"]},
+    "primary":["market-sizing","market-entry-strategy"],
+    "acceptable":["secondary-research","competitive-benchmarking","stage-gate-process","pestle-analysis","adjacency-expansion"],
+    "forbidden":["sdlc-methodology"]
+  },
+  {
+    "id": "CN-08",
+    "brief": {"problem":"An ERP program is six months late, nine workstreams measure percent complete differently, and steering meetings make no decisions.","decision":"Rebaseline and govern a recovery plan against an immovable regulatory deadline.","context":"Internal teams plus a systems integrator across nine workstreams.","constraints":["Regulatory deadline cannot move","Do not preserve a fictional old plan"],"desired_output":"Critical path, credible progress measure, recovery actions, risks, and decision governance.","practice_areas":["program-project-management","technology-digital-ai"],"reasoning_jobs":["diagnose","measure-forecast","plan-implementation","govern-risk"]},
+    "primary":["critical-path-method","earned-value-management","risk-management-plan"],
+    "acceptable":["pmo-setup-and-governance","stakeholder-communication-plan","resource-leveling-and-smoothing","change-control-process"],
+    "forbidden":["erp-selection-framework","business-continuity-planning"]
+  },
+  {
+    "id": "CN-09",
+    "brief": {"problem":"A services company has 11 weeks of cash, slow receivables, possible project slips, and is considering layoffs or a credit line.","decision":"Choose this week's liquidity actions and trigger-based sequence while preserving viable delivery capacity.","context":"Uncertain receipts and project timing with immediate survival risk.","constraints":["Act this week","Do not make irreversible cuts before sizing timing and alternatives"],"desired_output":"Thirteen-week cash view, scenarios, action triggers, and immediate owners.","practice_areas":["finance-value","ma-diligence-turnaround"],"reasoning_jobs":["measure-forecast","prioritize","govern-risk","plan-implementation"]},
+    "primary":["cash-flow-forecasting","liquidity-management","turnaround-strategy"],
+    "acceptable":["working-capital-management","scenario-planning","sensitivity-analysis"],
+    "forbidden":["discounted-cash-flow-valuation"]
+  },
+  {
+    "id": "CN-10",
+    "brief": {"problem":"A manufacturer must allocate $4M among process-heat electrification, renewable power, and efficiency while energy prices and customer requirements remain uncertain.","decision":"Choose and stage a decarbonization capital portfolio under uncertainty.","context":"Multiple abatement options with different economics, reversibility, and strategic exposure.","constraints":["$4M cap","Preserve option value under uncertainty"],"desired_output":"Abatement boundary, scenario economics, portfolio priority, and stage gates.","practice_areas":["risk-resilience-sustainability","finance-value","operations-quality"],"reasoning_jobs":["measure-forecast","generate-options","prioritize","govern-risk"]},
+    "primary":["carbon-footprint-assessment","npv-and-irr-analysis","scenario-planning"],
+    "acceptable":["cost-benefit-analysis","real-options-analysis","sensitivity-analysis","esg-strategy"],
+    "forbidden":["tcfd-reporting"]
+  },
+  {
+    "id": "CN-13",
+    "brief": {"problem":"Gross margin fell six points and leaders blame discounting, mix, utilization, rework, or contractor cost using inconsistent stories and messy data.","decision":"Structure and test the drivers, reconcile the margin decline, and choose interventions.","context":"Board-level diagnostic across commercial and delivery causes.","constraints":["One integrated answer","No premature cost cutting"],"desired_output":"Falsifiable driver tree, analysis sequence, margin bridge, and decision logic.","practice_areas":["consulting-craft","research-analytics","finance-value"],"reasoning_jobs":["frame","decompose","diagnose","prioritize"]},
+    "primary":["hypothesis-driven-problem-solving","issue-tree","price-volume-mix-analysis"],
+    "acceptable":["activity-based-costing","root-cause-analysis","pyramid-principle","mece"],
+    "forbidden":["swot-analysis"]
+  },
+  {
+    "id": "CN-14",
+    "brief": {"problem":"Three customers asked to productize an internal workflow, describe the problem differently, and sales wants a price before shared demand is validated.","decision":"Decide whether to productize and define the first evidence and commitment gate.","context":"Engineering can build in eight weeks but buyer, job, willingness, and repeatability are unclear.","constraints":["Do not treat three requests as a market","Do not build a full roadmap before validation"],"desired_output":"Shared job and buyer hypothesis, validation test, MVP boundary, and kill/continue gate.","practice_areas":["customer-product-innovation","corporate-growth","marketing-sales-pricing"],"reasoning_jobs":["gather-evidence","generate-options","design-solution","evaluate-learn"]},
+    "primary":["jobs-to-be-done","value-proposition-canvas","minimum-viable-product"],
+    "acceptable":["customer-evidence-triangulation","rapid-prototyping","product-market-fit-analysis","lean-startup"],
+    "forbidden":["product-roadmap-development"]
+  }
+]

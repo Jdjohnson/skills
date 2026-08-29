@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "styleId": "type-specimen-book",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "American Type Founders Garamond specimen pages, 1923",
+    "creatorOrTradition": "American Type Founders and commercial type-foundry specimen publishing",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ATF_1923_Garamond_specimen_title_page.jpg",
+    "whyCanonical": "The ATF specimen is a primary artifact showing how a foundry names, displays, compares, and sells a type family through coordinated title pages, alphabets, sizes, weights, and text settings."
+  },
+  "sources": [
+    {
+      "title": "Warshaw Collection of Business Americana: Printing",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://sirismm.si.edu/EADpdfs/NMAH.AC.0060.S01.01.Printing.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The collection guide documents typefounders, printers, printing specimens, trade catalogs, and related business ephemera as a coherent historical field.",
+        "It grounds specimen books in commercial and technical print practice rather than generic typographic posters."
+      ]
+    },
+    {
+      "title": "ATF 1923 Garamond specimen page 22b",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:ATF_1923_Garamond_specimen_page_22b.jpg",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The file presents a primary specimen page with labeled display and setting evidence for a real type family.",
+        "Its scan supports the use of systematic comparison, not just a single oversized glyph."
+      ]
+    },
+    {
+      "title": "ATF 1923 Garamond specimen title page",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:ATF_1923_Garamond_specimen_title_page.jpg",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The title page demonstrates specimen identity and display hierarchy as part of a larger coordinated publication.",
+        "Together with an interior page, it supports cover-to-system continuity."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The lead and support are excellent, complementary specimen spreads. Together they show alphabet and numeral coverage, weights, sizes, glyph anatomy, punctuation, metrics, spacing, and text settings in a systematic comparison. The independently approved lead is assets/refs/type-specimen-book/generated-lead.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/type-specimen-book/generated-lead.jpg",
+    "notes": "The lead and support are excellent, complementary specimen spreads. Together they show alphabet and numeral coverage, weights, sizes, glyph anatomy, punctuation, metrics, spacing, and text settings in a systematic comparison.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "scaffold-structure",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Temporary modular frames made legible through construction photography",
+    "creatorOrTradition": "Construction engineers, builders, and documentary photographers",
+    "sourceUrl": "https://www.loc.gov/pictures/item/97502750/",
+    "whyCanonical": "Pierre Petit's workshop photograph shows temporary support, repeated bays, active making, and human scale as an explicit construction system rather than a finished monument."
+  },
+  "sources": [
+    {
+      "title": "Workmen constructing the Statue of Liberty",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/pictures/item/97502750/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The construction photograph reveals temporary support frames, work sequence, repeated members, and human scale.",
+        "Visible assembly and access distinguish scaffold structure from finished industrial architecture."
+      ]
+    },
+    {
+      "title": "Pierre Petit Eiffel Tower under construction",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Pierre_Petit_Eiffel_Tower_under_construction.jpg",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The exact bundled image provides a strong historical anchor for skeletal repetition, stacked work levels, and exposed assembly.",
+        "Its file page records the item-level provenance for a current excellent reference."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches industrial signal, geometric, metal, environmental scale, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/scaffold-structure/reference-02.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/scaffold-structure/reference-02.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches industrial signal, geometric, metal, environmental scale, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

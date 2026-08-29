@@ -1,0 +1,170 @@
+{
+  "id": "ukiyo-e",
+  "displayName": "Ukiyo-e",
+  "family": "folk-vernacular",
+  "definition": "Japanese woodblock composition with flat color planes, forceful contour, cropped scale, compressed perspective, patterned surfaces, and controlled print gradients.",
+  "axes": {
+    "minimalOrnate": 0.3,
+    "geometricOrganic": 0.2,
+    "polishedRaw": 0.2,
+    "calmEnergetic": 0.3,
+    "historicalFuturistic": -0.7,
+    "realisticAbstract": -0.3,
+    "warmCool": -0.4,
+    "lightDark": -0.2,
+    "playfulSerious": -0.3,
+    "handmadeMachined": -0.9,
+    "flatDeep": -1,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "flat-color-planes",
+    "forceful-contour",
+    "cropped-scale",
+    "compressed-perspective",
+    "patterned-surfaces",
+    "print-gradation",
+    "asymmetrical-balance",
+    "woodblock-registration"
+  ],
+  "antiCues": [
+    "anime-pastiche",
+    "oil-painted-volume",
+    "western-point-perspective",
+    "random-japanese-symbols",
+    "airbrushed-gloss"
+  ],
+  "emotionalEffects": [
+    "serene",
+    "nostalgic",
+    "timeless"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.7,
+      "symmetry": 0.3,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#1B365D",
+        "#E03C31",
+        "#D4A017",
+        "#1A1A1A",
+        "#F2E8D5"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/ukiyo-e.svg",
+      "descriptor": "hand-informed display",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/folk-vernacular-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.35,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 1,
+      "shadowSoftness": 0.35,
+      "parallax": 0
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/folk-vernacular"
+      ],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "use-edo-print-composition",
+        "show-block-printed-color-separation",
+        "keep-period-subject-context-coherent",
+        "avoid-generic-japonisme"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a boldly cropped Edo-period scene organized by contour and flat printed color",
+    "framing": "use an oblique or elevated viewpoint with foreground forms cutting the edge and distant space compressed into layers",
+    "mustShow": [
+      "carved key-line",
+      "registered color planes",
+      "patterned surface against open paper"
+    ],
+    "mustAvoid": [
+      "anime styling",
+      "photorealistic modeling",
+      "random kanji",
+      "oil-paint texture",
+      "watermark",
+      "brand logos"
+    ]
+  },
+  "culturalOrigin": "Japan",
+  "traditionalOrLivingPractice": true,
+  "requiresCulturalReview": true,
+  "culturalContext": {
+    "summary": "Japanese woodblock print tradition",
+    "antiCaricature": "Treat motifs as living or historically specific visual languages, not costume kitsch. Prefer structural grammar (line, rhythm, material) over stereotyped subjects. Avoid sacred symbol misuse.",
+    "guidance": "When applying this node, preserve source grammar and cite traditions. Prefer consultation with authoritative museum/catalog sources over pop caricature."
+  },
+  "related": [
+    "narrative-woodcut",
+    "narrative-textile",
+    "folk-tilework"
+  ],
+  "contrasting": [
+    "spatial-ar-interface",
+    "neon-night-ui",
+    "academic-journal"
+  ]
+}

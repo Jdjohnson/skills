@@ -1,0 +1,163 @@
+{
+  "id": "emoji-grammar",
+  "displayName": "Emoji Grammar",
+  "family": "playful-system",
+  "definition": "Interoperable emoji-like pictograms arranged in sequences, reactions, modifiers, or mini-stories so icons function as a compositional language.",
+  "axes": {
+    "minimalOrnate": -0.4,
+    "geometricOrganic": -0.3,
+    "polishedRaw": 0.1,
+    "calmEnergetic": 0.6,
+    "historicalFuturistic": 0.5,
+    "realisticAbstract": 0.7,
+    "warmCool": 0.2,
+    "lightDark": -0.2,
+    "playfulSerious": -0.3,
+    "handmadeMachined": 0.5,
+    "flatDeep": -0.2,
+    "everydayLuxurious": -0.1
+  },
+  "cues": [
+    "pictogram-sequence",
+    "semantic-combination",
+    "modifier-logic",
+    "reaction-chain",
+    "interoperable-token",
+    "consistent-glyph-style",
+    "inline-rhythm",
+    "mini-story"
+  ],
+  "antiCues": [
+    "single-isolated-icon",
+    "brand-specific-glyph-copy",
+    "random-symbol-row",
+    "decorative-icon-grid"
+  ],
+  "emotionalEffects": [
+    "playful",
+    "energized",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.5,
+      "symmetry": 0.4,
+      "margins": 0.1
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FFCC00",
+        "#4DA6FF",
+        "#34C759",
+        "#FF3B30",
+        "#FFFFFF"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/emoji-grammar.svg",
+      "descriptor": "system UI sans with emoji scale",
+      "weight": 500,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/playful-system-primary"
+      ],
+      "finish": "glossy",
+      "grain": 0.05,
+      "tags": [
+        "screen-pixel",
+        "glass"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.25,
+      "keyDirection": "front",
+      "gradient": 0.05
+    },
+    "depth": {
+      "layers": 1,
+      "shadowSoftness": 0.1,
+      "parallax": 0.05
+    },
+    "motion": {
+      "energy": 0.6,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.05,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "abstracted",
+      "subjectRules": [
+        "style-specific-subject",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.8
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 3,
+    "presentation": 2,
+    "editorial-document": 1,
+    "social-advertising": 3,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 3,
+    "product-3d": 2,
+    "interiors-architecture": 1,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "pictogram phrase with modifier",
+    "framing": "Arrange five original emoji-like tokens into a readable mini-story with one modifier, one reaction, and consistent baseline, scale, outline, and color behavior.",
+    "mustShow": [
+      "pictogram-sequence",
+      "semantic-combination",
+      "modifier-logic"
+    ],
+    "mustAvoid": [
+      "single-isolated-icon",
+      "brand-specific-glyph-copy",
+      "random-symbol-row",
+      "decorative-icon-grid",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "sticker-sheet-system",
+    "glassmorphism",
+    "live-stream-overlay"
+  ],
+  "contrasting": [
+    "atelier-process",
+    "illuminated-manuscript",
+    "documentary-grit"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "baroque-chiaroscuro",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Caravaggio's dramatic tenebrism",
+    "creatorOrTradition": "Michelangelo Merisi da Caravaggio and seventeenth-century followers",
+    "sourceUrl": "https://www.metmuseum.org/essays/caravaggio-michelangelo-merisi-1571-1610-and-his-followers",
+    "whyCanonical": "Caravaggio's compressed incidents, ordinary bodies, hard directional light, and engulfing dark establish the style's dramatic mechanism rather than merely a dark palette."
+  },
+  "sources": [
+    {
+      "title": "Caravaggio and His Followers",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/caravaggio-michelangelo-merisi-1571-1610-and-his-followers",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Caravaggio's influence depended on forceful naturalism, figures brought close to the viewer, and dramatic contrasts of illumination and shadow."
+      ]
+    },
+    {
+      "title": "Caravaggio: Darkness at Noon",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/perspectives/caravaggio-darkness-at-noon",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Chiaroscuro functions compositionally by selecting decisive faces, hands, and objects from darkness rather than evenly modeling an entire scene."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach ornate, shadow heavy, painterly, baroque era while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/baroque-chiaroscuro/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/baroque-chiaroscuro/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach ornate, shadow heavy, painterly, baroque era while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

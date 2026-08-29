@@ -1,0 +1,162 @@
+{
+  "id": "gothic-revival",
+  "displayName": "Gothic Revival",
+  "family": "ornate-historical",
+  "definition": "Nineteenth-century revival design uses pointed arches, tracery, vertical rhythm, clustered detail, stained glass, and medievalizing type across buildings, interiors, and objects.",
+  "axes": {
+    "minimalOrnate": 0.8,
+    "geometricOrganic": -0.4,
+    "polishedRaw": -0.2,
+    "calmEnergetic": 0.1,
+    "historicalFuturistic": -0.7,
+    "realisticAbstract": -0.3,
+    "warmCool": 0.3,
+    "lightDark": 0.7,
+    "playfulSerious": 0.7,
+    "handmadeMachined": -0.3,
+    "flatDeep": 0.4,
+    "everydayLuxurious": 0.4
+  },
+  "cues": [
+    "ornate",
+    "axial",
+    "medieval",
+    "shadow-heavy",
+    "monument-scale"
+  ],
+  "antiCues": [
+    "playful",
+    "pastel-chroma",
+    "flat"
+  ],
+  "emotionalEffects": [
+    "solemn",
+    "dramatic",
+    "mysterious"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "axial",
+      "density": 0.7,
+      "symmetry": 0.65,
+      "margins": 0.2
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#4A5568",
+        "#7B1E3A",
+        "#8B8680",
+        "#DAA520",
+        "#1C1C2E"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/gothic-revival.svg",
+      "descriptor": "blackletter display with spire tension",
+      "weight": 700,
+      "tracking": -0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.05,
+      "lineWeight": 0.6,
+      "curveTension": 0.2
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/ornate-historical-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.45,
+      "tags": [
+        "stone",
+        "glass",
+        "metal"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.75,
+      "keyDirection": "top",
+      "gradient": 0.6
+    },
+    "depth": {
+      "layers": 4,
+      "shadowSoftness": 0.6,
+      "parallax": 0.4
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/ornate-historical"
+      ],
+      "density": 0.75,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "nineteenth-century pointed tracery",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.25
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 1,
+    "web-app": 0,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 0,
+    "packaging": 1,
+    "photography": 2,
+    "motion-video": 2,
+    "product-3d": 1,
+    "interiors-architecture": 3,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "a nineteenth-century revival interior or designed object built from pointed tracery and vertical rhythm",
+    "framing": "organize the view axially, carry repeated lancets and carved structure through every scale, and use colored light to articulate depth",
+    "mustShow": [
+      "ornate",
+      "axial",
+      "medieval"
+    ],
+    "mustAvoid": [
+      "playful",
+      "pastel-chroma",
+      "flat",
+      "generic medieval fantasy",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "baroque-chiaroscuro",
+    "illuminated-manuscript",
+    "byzantine-mosaic"
+  ],
+  "contrasting": [
+    "memphis-design",
+    "pop-art",
+    "glassmorphism"
+  ]
+}

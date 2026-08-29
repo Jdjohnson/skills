@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "id": "aerial-graphic-landscape",
+  "displayName": "Aerial Graphic Landscape",
+  "family": "landscape-built-world",
+  "definition": "A high aerial view that turns terrain, roads, water, or agriculture into large-scale pattern, color blocks, and abstract geographic order.",
+  "aliases": [
+    "drone abstract landscape",
+    "top down earth patterns"
+  ],
+  "cues": [
+    "aerial",
+    "overhead",
+    "repetition",
+    "geometric-order"
+  ],
+  "antiCues": [
+    "ground-level horizon",
+    "fake miniature blur",
+    "unreadable random texture"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "landscape",
+      "travel",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "aerial",
+      "overhead",
+      "extreme-wide"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "hard-light",
+      "front-light"
+    ],
+    "composition": [
+      "repetition",
+      "geometric-order",
+      "diagonal-composition"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "new-vision"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "map-like viewpoint",
+    "large-scale pattern",
+    "graphic terrain color"
+  ],
+  "adaptiveGuidance": [
+    "Adapt altitude and focal length to lawful safe access; keep geographic texture recognizable."
+  ],
+  "applicability": [
+    "terrain",
+    "agriculture",
+    "coasts",
+    "cities"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-aerial-graphic-landscape"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lens basics",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/articles/00268239",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A high aerial view that turns terrain, roads, water, or agriculture into large-scale pattern, color blocks, and abstract geographic order."
+        ]
+      }
+    ]
+  }
+}

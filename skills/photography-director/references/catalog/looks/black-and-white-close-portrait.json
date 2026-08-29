@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "black-and-white-close-portrait",
+  "displayName": "Black-and-White Close Portrait",
+  "family": "portrait-editorial",
+  "definition": "A close monochrome portrait with soft modeling, restrained contrast, visible skin texture, and a quiet background.",
+  "aliases": [
+    "B&W close portrait",
+    "quiet monochrome close portrait"
+  ],
+  "cues": [
+    "close-up",
+    "soft-light",
+    "black-and-white",
+    "natural-texture"
+  ],
+  "antiCues": [
+    "frontal beauty pose",
+    "full-body context",
+    "plastic retouching"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "close-up",
+      "eye-level",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "lighting": [
+      "front-light",
+      "soft-light",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "rule-of-thirds"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "low-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "close facial presence",
+    "soft tonal modeling",
+    "visible monochrome skin texture"
+  ],
+  "adaptiveGuidance": [
+    "Adapt crop and gaze direction to the face and intended use; keep one intentional focus anchor."
+  ],
+  "applicability": [
+    "individual portraits",
+    "fine-art studies"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-black-and-white-close-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Our Future Is In The Air: Photographs from the 1910s",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/listings/2010/our-future-is-in-the-air",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A close monochrome portrait with soft modeling, restrained contrast, visible skin texture, and a quiet background."
+        ]
+      }
+    ]
+  }
+}

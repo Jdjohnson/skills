@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "id": "night-light-trail-cityscape",
+  "displayName": "Night Light-Trail Cityscape",
+  "family": "landscape-built-world",
+  "definition": "A stable urban night view where moving vehicle lights form continuous paths through crisp architecture and deep blue or black ambient space.",
+  "aliases": [
+    "city car light trails",
+    "long exposure traffic"
+  ],
+  "cues": [
+    "light-trails",
+    "long-exposure",
+    "leading-lines",
+    "blue-hour"
+  ],
+  "antiCues": [
+    "handheld whole-frame blur",
+    "daytime motion streak",
+    "floating trails with no road"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "architecture",
+      "travel",
+      "landscape"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "high-angle",
+      "oblique-view"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "exposure-motion": [
+      "long-exposure",
+      "light-trails"
+    ],
+    "lighting": [
+      "blue-hour",
+      "mixed-light",
+      "cinematic-practicals",
+      "low-key-lighting"
+    ],
+    "composition": [
+      "leading-lines",
+      "diagonal-composition",
+      "layered-depth"
+    ],
+    "color-tonality": [
+      "cool-color",
+      "saturated-color",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "bloom"
+    ],
+    "era-movement": [
+      "contemporary-cinematic-still"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "sixteen-nine-format"
+    ]
+  },
+  "lockedQualities": [
+    "continuous road-bound light paths",
+    "stable urban geometry",
+    "deep night color"
+  ],
+  "adaptiveGuidance": [
+    "Adapt exposure to traffic flow and camera stability; preserve plausible road paths and source colors."
+  ],
+  "applicability": [
+    "cities",
+    "roads",
+    "bridges",
+    "travel"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-night-light-trail-cityscape"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Capture the Motion in Photographs",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/lenses-conversion-lenses/sel20tc/articles/00223372",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A stable urban night view where moving vehicle lights form continuous paths through crisp architecture and deep blue or black ambient space."
+        ]
+      }
+    ]
+  }
+}

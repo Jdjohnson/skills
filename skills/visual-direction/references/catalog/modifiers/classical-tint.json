@@ -1,0 +1,55 @@
+{
+  "id": "classical-tint",
+  "group": "era-tint",
+  "definition": "Apply classical order and stone calm.",
+  "targetConcerns": [
+    "composition",
+    "ornament"
+  ],
+  "compatibleStyles": [
+    "art-deco",
+    "y2k-cyber"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "y2k-tint"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "composition",
+          "path": "density",
+          "factor": 1.15
+        },
+        {
+          "op": "addParam",
+          "concern": "ornament",
+          "path": "density",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

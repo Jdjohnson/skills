@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "id": "y2k-party-flash-portrait",
+  "displayName": "Y2K Party-Flash Portrait",
+  "family": "portrait-editorial",
+  "definition": "An early-digital or compact-camera social portrait with bright direct flash, saturated casual color, crowded night context, and intentionally imperfect cropping.",
+  "aliases": [
+    "2000s party photo",
+    "digital camera flash nostalgia"
+  ],
+  "cues": [
+    "y2k-party-flash",
+    "on-camera-flash",
+    "direct-flash-harshness",
+    "edge-tension"
+  ],
+  "antiCues": [
+    "soft editorial window light",
+    "formal studio pose",
+    "empty seamless background"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "event",
+      "portrait",
+      "fashion"
+    ],
+    "viewpoint-framing": [
+      "close-up",
+      "eye-level",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "on-camera-flash",
+      "front-light",
+      "hard-light",
+      "mixed-light"
+    ],
+    "composition": [
+      "edge-tension",
+      "deliberate-imbalance",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "direct-flash-harshness",
+      "fine-grain"
+    ],
+    "era-movement": [
+      "y2k-party-flash",
+      "late-century-direct-flash"
+    ],
+    "format-output": [
+      "four-three-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "bright frontal flash",
+    "casual crowded frame",
+    "early-digital social color"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera distance and crop to the group; keep venue evidence and avoid falsely degrading resolution."
+  ],
+  "applicability": [
+    "parties",
+    "events",
+    "nightlife",
+    "social fashion"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-y2k-party-flash-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Vernacular photography",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/vernacular-photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "An early-digital or compact-camera social portrait with bright direct flash, saturated casual color, crowded night context, and intentionally imperfect cropping."
+        ]
+      }
+    ]
+  }
+}

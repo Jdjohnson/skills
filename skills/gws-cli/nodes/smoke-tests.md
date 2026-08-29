@@ -1,29 +1,26 @@
-# Google Workspace CLI Smoke Tests
+# Smoke Tests
 
-Default smoke tests are read-only. Never print tokens or credential-file contents.
+Keep live checks read-only and never print credentials.
 
-## Local checks
+## Unit tests
 
 ```bash
-gws auth status
-python3 <skill-root>/scripts/google_gmail.py --help
-python3 <skill-root>/scripts/google_calendar.py --help
-python3 <skill-root>/scripts/google_drive.py --help
-python3 <skill-root>/scripts/google_sheets_read.py --help
-python3 <skill-root>/scripts/google_token_export.py --help
-python3 <skill-root>/scripts/google_token_from_adc.py --help
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s <skill-root>/tests -p 'test_*.py' -v
 ```
 
-All help commands must exit successfully without contacting Google.
+## Offline help
+
+Run every script with `--help`; each must import and exit successfully without contacting Google.
 
 ## Optional live reads
 
-Run only when live verification is requested and authentication is configured:
+When live access is authorized, run only the smallest useful checks:
 
 ```bash
+python3 <skill-root>/scripts/google_gmail.py profile
+python3 <skill-root>/scripts/google_gmail.py search "in:inbox" --max-results 3
 python3 <skill-root>/scripts/google_drive.py search --page-size 3
 python3 <skill-root>/scripts/google_calendar.py events --max-results 3 --single-events
-python3 <skill-root>/scripts/google_gmail.py search --max-results 3
 ```
 
-Do not run write, send, archive, label, create, update, move, permission, or token-export operations in the default smoke path.
+Confirm the intended account from the profile response. Do not put account-specific expectations in the package. Mutation and credential-bootstrap commands are outside the default smoke path.

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "id": "concert-available-light",
+  "displayName": "Concert Available-Light",
+  "family": "documentary-street-event",
+  "definition": "A live-performance photograph using stage practicals, saturated mixed color, rim light, natural movement, and audience or venue evidence.",
+  "aliases": [
+    "live music photo",
+    "stage lighting concert"
+  ],
+  "cues": [
+    "available-light",
+    "cinematic-practicals",
+    "rim-light",
+    "saturated-color"
+  ],
+  "antiCues": [
+    "studio portrait on empty black",
+    "neutralized stage color",
+    "flash flattening"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "event",
+      "photojournalism",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "low-angle",
+      "environmental-framing"
+    ],
+    "lens-perspective": [
+      "telephoto-compression"
+    ],
+    "focus-depth": [
+      "shallow-focus"
+    ],
+    "exposure-motion": [
+      "natural-motion",
+      "subject-motion-blur"
+    ],
+    "lighting": [
+      "available-light",
+      "mixed-light",
+      "cinematic-practicals",
+      "backlight",
+      "rim-light",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "diagonal-composition",
+      "edge-tension",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "split-tone",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "pronounced-grain",
+      "halation",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-cinematic-still"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "real stage-source color",
+    "performance gesture",
+    "rim-lit atmosphere"
+  ],
+  "adaptiveGuidance": [
+    "Adapt shutter, focus, and lens reach to access; retain enough venue detail to prove a live event."
+  ],
+  "applicability": [
+    "concerts",
+    "theater",
+    "performance",
+    "night events"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-concert-available-light"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A live-performance photograph using stage practicals, saturated mixed color, rim light, natural movement, and audience or venue evidence."
+        ]
+      }
+    ]
+  }
+}

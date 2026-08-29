@@ -1,0 +1,55 @@
+{
+  "id": "border-frame",
+  "group": "ornament-level",
+  "definition": "Add framed border treatment.",
+  "targetConcerns": [
+    "ornament",
+    "composition"
+  ],
+  "compatibleStyles": [
+    "art-nouveau",
+    "international-typographic-style"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "brutalist-raw"
+  ],
+  "incompatibleModifiers": [],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "ornament",
+          "path": "density",
+          "factor": 1.15
+        },
+        {
+          "op": "addParam",
+          "concern": "composition",
+          "path": "density",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

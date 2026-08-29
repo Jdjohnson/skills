@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "flat-design-ui",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of mature flat-design user interfaces.\nUse case: ui-mockup\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original fictional service dashboard using flat color planes, simple geometric icons, clear component hierarchy, restrained corner rounding, and no simulated physical depth.\nStyle/medium: polished vector UI presentation\nComposition/framing: portrait 4:5, dominant dashboard screen plus a small mobile companion, strong navigation and data hierarchy, readable at thumbnail scale\nLighting/mood: bright, calm, approachable\nColor palette: cobalt, teal, coral, warm white, charcoal\nText: abstract placeholder bars and simple numerals only\nConstraints: original interface, flat fills, crisp icons, no glossy bevels, no glass panels, no copied product, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "37f89a9dcd2fba36facd762ed5cf1afe1ac34ffe8f3af09da826450286e25b02",
+  "finalAsset": "assets/refs/flat-design-ui/generated-lead.jpg",
+  "finalSha256": "8a00a1461e0740d89e2bf5057a6dc3bfacf36b2f9c35b8fc3b26ecece676ab71",
+  "postProcessing": "Top-weighted crop to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

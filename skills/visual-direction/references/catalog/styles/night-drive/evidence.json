@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "night-drive",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Collateral and the electronic urban night",
+    "creatorOrTradition": "Michael Mann; BFI Sight and Sound analysis",
+    "sourceUrl": "https://www.bfi.org.uk/sight-and-sound/deep-focus/twenty-first-century-noir",
+    "whyCanonical": "BFI's discussion of Collateral identifies the taxi as a viewing environment for nocturnal downtown and electronic night, a useful cinematic anchor for in-vehicle urban depth."
+  },
+  "sources": [
+    {
+      "title": "Twenty-first century noir",
+      "publisher": "British Film Institute",
+      "url": "https://www.bfi.org.uk/sight-and-sound/deep-focus/twenty-first-century-noir",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Collateral uses a taxi viewpoint and electronic urban night to make nocturnal city travel a cinematic environment."
+      ]
+    },
+    {
+      "title": "The Essential Reference Guide for Filmmakers",
+      "publisher": "Kodak",
+      "url": "https://www.kodak.com/content/products-brochures/Film/kodak-essential-reference-guide-for-filmmakers.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Shutter angle and exposure time govern motion blur and the clarity of moving subjects and lights."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches windshield point of view, road vanishing point, dashboard glow, passing light, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/night-drive/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/night-drive/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches windshield point of view, road vanishing point, dashboard glow, passing light, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

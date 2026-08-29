@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "natural-textile",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Unbleached linen and other plant-fiber textiles showing weave, drape, and domestic use",
+    "creatorOrTradition": "Natural-fiber spinning, weaving, dyeing, and household textile traditions",
+    "sourceUrl": "https://www.vam.ac.uk/articles/linen-the-original-sustainable-material/",
+    "whyCanonical": "The V&A traces linen from flax through domestic textile production and use, establishing fiber origin, absorbency, drape, labor, and everyday function as the material's defining context."
+  },
+  "sources": [
+    {
+      "title": "Linen — the original sustainable material",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/linen-the-original-sustainable-material/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Linen is made from flax and has long served clothing, bedlinen, underlayers, and other domestic textile uses.",
+        "The fiber's absorbency and heat conduction contribute to its characteristic functional and tactile behavior."
+      ]
+    },
+    {
+      "title": "The Secret Life of Textiles: Plant Fibers — Exhibition Themes",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2016/plant-fibers/exhibition-themes",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Plant source and processing conditions materially affect a textile's aesthetic and functional qualities.",
+        "Linen, hemp, ramie, and cotton have different fiber structures and routes into yarn, supporting a broader natural-textile node rather than linen alone."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches fabric, linen, raw form, muted chroma, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/natural-textile/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/natural-textile/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches fabric, linen, raw form, muted chroma, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

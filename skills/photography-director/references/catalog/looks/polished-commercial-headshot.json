@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "id": "polished-commercial-headshot",
+  "displayName": "Polished Commercial Headshot",
+  "family": "portrait-editorial",
+  "definition": "A clean, controlled headshot with open soft shadows, neutral color, restrained expression, credible retouching, and flexible brand-safe space.",
+  "aliases": [
+    "modern professional headshot",
+    "clean corporate portrait"
+  ],
+  "cues": [
+    "soft-light",
+    "bounced-light",
+    "neutral-color",
+    "polished-retouching"
+  ],
+  "antiCues": [
+    "hard flash shadow",
+    "fake shallow blur",
+    "orange plastic skin"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "product"
+    ],
+    "viewpoint-framing": [
+      "medium-close-up",
+      "eye-level",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "lighting": [
+      "off-camera-flash",
+      "bounced-light",
+      "soft-light",
+      "front-light",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "centrality",
+      "negative-space"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "restrained-skin-tones"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "polished-retouching",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "portrait-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "open controlled shadows",
+    "neutral trustworthy color",
+    "clean but human finish"
+  ],
+  "adaptiveGuidance": [
+    "Adapt backdrop, crop, and expression to the brand; preserve natural facial variation."
+  ],
+  "applicability": [
+    "professional profiles",
+    "teams",
+    "commercial portraiture"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-polished-commercial-headshot"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "The Basics of Flash Photography",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/the-basics-of-flash-photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A clean, controlled headshot with open soft shadows, neutral color, restrained expression, credible retouching, and flexible brand-safe space."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "id": "overcast-minimal-landscape",
+  "displayName": "Overcast Minimal Landscape",
+  "family": "landscape-built-world",
+  "definition": "A quiet landscape reduced to a few forms through overcast light, low contrast, muted color, negative space, and deliberate stillness.",
+  "aliases": [
+    "minimal misty landscape",
+    "quiet cloudy scenery"
+  ],
+  "cues": [
+    "overcast-light",
+    "negative-space",
+    "muted-color",
+    "low-dynamic-range"
+  ],
+  "antiCues": [
+    "busy foreground",
+    "golden-hour drama",
+    "crunchy clarity"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "landscape",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective",
+      "telephoto-compression"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "overcast-light",
+      "soft-light",
+      "flat-lighting"
+    ],
+    "composition": [
+      "negative-space",
+      "rule-of-thirds",
+      "deliberate-imbalance"
+    ],
+    "color-tonality": [
+      "muted-color",
+      "low-contrast-tonality",
+      "low-dynamic-range",
+      "matte-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "matte-blacks",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "few essential forms",
+    "soft gray atmosphere",
+    "large quiet field"
+  ],
+  "adaptiveGuidance": [
+    "Adapt horizon and focal length to simplify the actual site; do not erase meaningful landmarks."
+  ],
+  "applicability": [
+    "coast",
+    "fields",
+    "fog",
+    "minimal fine-art"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-overcast-minimal-landscape"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photography",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A quiet landscape reduced to a few forms through overcast light, low contrast, muted color, negative space, and deliberate stillness."
+        ]
+      }
+    ]
+  }
+}

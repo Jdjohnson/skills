@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "pattern-playground",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Color Decoded: The Textiles of Richard Landis",
+    "creatorOrTradition": "Cooper Hewitt, Smithsonian Design Museum",
+    "sourceUrl": "https://www.cooperhewitt.org/exhibition/color-decoded-the-textiles-of-richard-landis/",
+    "whyCanonical": "Cooper Hewitt describes balanced systems where rectangles, scales, tonal relationships, and color combinations repeat in ever-changing order."
+  },
+  "sources": [
+    {
+      "title": "Color Decoded: The Textiles of Richard Landis",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/exhibition/color-decoded-the-textiles-of-richard-landis/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Controlled variation can make repeating geometry appear lively while remaining balanced and systematic."
+      ]
+    },
+    {
+      "title": "Pattern Papers",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/2016/09/14/pattern-papers/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A repeat motif must be designed as part of a seamless larger surface with rhythmic positive and negative space."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches seamless repeat, motif family, controlled variation, scale shift, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/pattern-playground/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/pattern-playground/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches seamless repeat, motif family, controlled variation, scale shift, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

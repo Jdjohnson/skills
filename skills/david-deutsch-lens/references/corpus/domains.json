@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "domains": [
+    "epistemology",
+    "general-problem-solving",
+    "worldview",
+    "quantum-physics",
+    "computation",
+    "mathematics",
+    "evolution",
+    "constructor-theory",
+    "people-and-creativity",
+    "artificial-intelligence",
+    "culture-and-institutions",
+    "politics",
+    "morality",
+    "aesthetics",
+    "education",
+    "organizations",
+    "finance",
+    "medicine",
+    "law",
+    "relationships"
+  ],
+  "explanation_levels": [
+    "fundamental-physical",
+    "domain-theory",
+    "emergent",
+    "epistemic-method",
+    "institutional",
+    "case-application",
+    "worldview-meta"
+  ],
+  "reasoning_jobs": [
+    "define-concept",
+    "understand-worldview",
+    "evaluate-explanation",
+    "diagnose",
+    "criticize",
+    "generate-conjectures",
+    "compare-alternatives",
+    "design-error-correction",
+    "evaluate-progress",
+    "assess-transfer",
+    "source-check",
+    "decide"
+  ]
+}

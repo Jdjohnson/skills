@@ -1,0 +1,50 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Think and decide",
+      "skills": [
+        "consulting-navigator",
+        "cfo-decision-advisor",
+        "guided-brainstorm",
+        "idea-stress-test",
+        "decision-walkthrough",
+        "execution-trust",
+        "david-deutsch-lens"
+      ]
+    },
+    {
+      "title": "Research and knowledge",
+      "skills": [
+        "checkpointed-research",
+        "executive-brief",
+        "source-backed-wiki",
+        "journal-reflection",
+        "genealogy-site-publisher"
+      ]
+    },
+    {
+      "title": "Write and direct",
+      "skills": [
+        "visual-direction",
+        "photography-director",
+        "plain-language-writer",
+        "adhd-friendly-output"
+      ]
+    },
+    {
+      "title": "Agents and operations",
+      "skills": [
+        "chatgpt-handoff",
+        "cli-agent-delegation",
+        "manus-api",
+        "gws-cli",
+        "comms-intake",
+        "time-partner",
+        "work-closeout",
+        "session-friction-review"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "industrial-workplace-documentary",
+  "displayName": "Industrial Workplace Documentary",
+  "family": "documentary-street-event",
+  "definition": "A truthful black-and-white workplace photograph with machinery and labor context, deep focus, broad source-undetermined illumination, and layered industrial detail.",
+  "aliases": [
+    "moody factory documentary",
+    "industrial workers photo"
+  ],
+  "cues": [
+    "environmental-portrait",
+    "industrial-ambient-light",
+    "environmental-context",
+    "black-and-white"
+  ],
+  "antiCues": [
+    "smoke-machine cinema fantasy",
+    "worker isolated from task",
+    "unsafe staged action",
+    "calling an undocumented source natural daylight or practical light"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "documentary",
+      "environmental-portrait",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "eye-level",
+      "environmental-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "industrial-ambient-light",
+      "top-light",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "environmental-context",
+      "leading-lines",
+      "layered-depth"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "high-contrast-tonality",
+      "high-dynamic-range"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "restrained-retouching",
+      "crisp-clarity"
+    ],
+    "era-movement": [
+      "social-documentary"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "specific work context",
+    "broad industrial illumination with its source left unknown",
+    "human-scale industrial depth"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera position around safety and workflow; preserve task and environment rather than manufacturing drama.",
+    "Describe the visible illumination only; do not call it natural, daylight, or practical light without documentation."
+  ],
+  "applicability": [
+    "factories",
+    "shops",
+    "construction",
+    "technical workplaces"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-industrial-workplace-documentary"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "The Photographic Record",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/photography/the-photographic-record",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A documentary workplace photograph keeps machinery, labor, and layered industrial context legible rather than manufacturing cinematic drama."
+        ]
+      }
+    ]
+  }
+}

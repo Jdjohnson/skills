@@ -1,0 +1,2087 @@
+{
+  "version": 1,
+  "description": "Reviewed real-photo support for keeping hard subjects, settings, and actions visible while comparing photographic treatments.",
+  "sets": [
+    {
+      "id": "machined-component",
+      "triggers": [
+        "machined component",
+        "machined part",
+        "precision component",
+        "metal part",
+        "machined metal",
+        "machined",
+        "machining"
+      ],
+      "role": "Keep manufactured form, machining texture, and real metal behavior visible across product directions.",
+      "requiredLocks": [
+        "edge definition",
+        "machining texture",
+        "material honesty",
+        "sculptural form"
+      ],
+      "alsoDiffers": {
+        "ref-machined-bolt": [
+          "single cool steel bolt on a plain field rather than clustered warm components",
+          "deeper directional shadow and wider focus"
+        ],
+        "ref-machined-gears-board": [
+          "loose gears on a marked work surface rather than block components",
+          "selective focus and greener mixed color"
+        ]
+      },
+      "treatmentLookIds": [
+        "sculptural-hard-light-product",
+        "clean-seamless-product",
+        "scientific-specimen-record"
+      ],
+      "referenceIds": [
+        "ref-machined-metal-component",
+        "ref-machined-bolt",
+        "ref-machined-gears-board"
+      ]
+    },
+    {
+      "id": "team-at-work",
+      "triggers": [
+        "team at work",
+        "people working",
+        "coworkers",
+        "collaboration",
+        "collaborative event",
+        "discussion",
+        "people discussing",
+        "conference",
+        "meeting",
+        "working session",
+        "work event",
+        "workshop",
+        "people talking",
+        "problem solving",
+        "actively working",
+        "lived in workplace",
+        "unarranged candid",
+        "observational candid",
+        "real working moment"
+      ],
+      "role": "Keep visible work activity, interaction, and lived-in workplace context central without claiming spontaneity that the source does not document.",
+      "treatmentLookIds": [
+        "candid-event-reportage",
+        "humanist-available-light-photo-essay",
+        "industrial-workplace-documentary"
+      ],
+      "referenceIds": [
+        "ref-team-project-meeting",
+        "ref-team-laptop-collaboration",
+        "ref-colleagues-document-review"
+      ]
+    },
+    {
+      "id": "prepared-food",
+      "triggers": [
+        "food photography",
+        "restaurant food",
+        "prepared food",
+        "appetizing food",
+        "menu photography",
+        "restaurant",
+        "edible",
+        "dish",
+        "meal",
+        "food"
+      ],
+      "role": "Keep real prepared food, visible ingredients, color, and edible texture central while comparing bright overhead, plated, and window-lit treatments.",
+      "requiredLocks": [
+        "bright exposure",
+        "vivid ingredient color",
+        "clear ingredient detail",
+        "natural edible texture"
+      ],
+      "alsoDiffers": {
+        "ref-restaurant-shrimp-pasta": [
+          "oblique close viewpoint rather than overhead",
+          "shallower depth and a cooler tabletop"
+        ],
+        "ref-window-light-food-story": [
+          "table-height viewpoint with a person present",
+          "darker directional light and deeper environmental context"
+        ]
+      },
+      "treatmentLookIds": [
+        "bright-editorial-food",
+        "window-light-food-story",
+        "dark-moody-tabletop"
+      ],
+      "referenceIds": [
+        "ref-bright-editorial-food",
+        "ref-restaurant-shrimp-pasta",
+        "ref-window-light-food-story"
+      ]
+    },
+    {
+      "id": "approachable-portrait",
+      "triggers": [
+        "approachable portrait",
+        "professional portrait",
+        "founder",
+        "founder portrait",
+        "leader portrait",
+        "professional approachable",
+        "working portrait",
+        "personal brand portrait"
+      ],
+      "antiCues": [
+        "perfume bottle",
+        "glass bottle",
+        "product still life"
+      ],
+      "role": "Keep a credible professional person, natural texture, and approachable human presence visible across portrait directions.",
+      "requiredLocks": [
+        "recognizable setting",
+        "soft light",
+        "natural texture",
+        "restrained color",
+        "approachable human presence"
+      ],
+      "alsoDiffers": {
+        "ref-professional-candid-smile": [
+          "closer framing and off-camera gaze",
+          "warmer color and stronger background blur"
+        ],
+        "ref-professional-lowkey-desk": [
+          "darker background-light character",
+          "broader smile and wider workstation view"
+        ]
+      },
+      "treatmentLookIds": [
+        "approachable-environmental-portrait",
+        "polished-commercial-headshot",
+        "low-key-character-portrait"
+      ],
+      "referenceIds": [
+        "ref-professional-calm-office",
+        "ref-professional-candid-smile",
+        "ref-professional-lowkey-desk"
+      ]
+    },
+    {
+      "id": "founder-polished-dramatic-formal",
+      "triggers": [
+        "founder portrait directions",
+        "polished dramatic formal",
+        "one polished one dramatic one formal",
+        "formal founder portrait"
+      ],
+      "role": "Keep one credible founder portrait visible while comparing polished, dramatic low-key, and square formal directions.",
+      "treatmentLookIds": [
+        "polished-commercial-headshot",
+        "low-key-character-portrait",
+        "medium-format-formal-portrait"
+      ],
+      "referenceIds": [
+        "ref-polished-commercial-headshot",
+        "ref-low-key-character-portrait",
+        "ref-medium-format-formal-portrait"
+      ]
+    },
+    {
+      "id": "warm-real-founder",
+      "triggers": [
+        "founder portrait messy warm real",
+        "founder portrait warm real",
+        "messy warm real founder",
+        "warm real founder",
+        "messy but warm and real",
+        "messy warm and real",
+        "founder caught in a real moment",
+        "alert and capable but caught in a real moment",
+        "alert and capable caught in a real moment",
+        "alert capable caught in a real moment",
+        "founder alert capable real moment",
+        "founder observational unposed",
+        "founder unarranged candid"
+      ],
+      "priorityTriggers": [
+        "founder real working moment"
+      ],
+      "role": "Use these as transfer references for a founder: a single maker doing a specific task, a singular knowledge worker amid real documents, and an animated team exchange. Preserve visible work, attention, interaction, and credible workplace context in the proposed founder direction. Do not identify any pictured person as a founder or leader, including in alt text. Caught, candid, unstaged, and unarranged may describe the desired direction only, never a fact about a displayed photograph. Describe only visible action, gaze, gesture, tools, setting, clutter, depth, color, and tonality; the group photograph teaches interaction and context, with the founder remaining primary in the proposed shot.",
+      "treatmentLookIds": [
+        "industrial-color-production-reportage",
+        "task-focused-workplace-portrait",
+        "candid-event-reportage"
+      ],
+      "referenceIds": [
+        "ref-founder-screenprint-work",
+        "ref-founder-home-office-work",
+        "ref-team-project-meeting"
+      ]
+    },
+    {
+      "id": "window-portrait-adjacencies",
+      "triggers": [
+        "window portrait",
+        "window light portrait",
+        "window-light portrait",
+        "backlit window portrait",
+        "portrait by window",
+        "woman by window",
+        "person by window",
+        "indoors by window",
+        "leaning by window",
+        "woman beside glass",
+        "person beside glazing",
+        "leaning beside glass",
+        "woman interior leaning editorial backlit haze shallow depth",
+        "interior leaning editorial backlit haze",
+        "indoor leaning direct gaze portrait",
+        "indoor backlit editorial portrait",
+        "window flare"
+      ],
+      "priorityTriggers": [
+        "window portrait"
+      ],
+      "role": "Keep a real person, window relationship, intimate portrait scale, and credible skin texture visible while comparing only softness, warmth, or glass reflection.",
+      "requiredLocks": [
+        "person remains primary",
+        "intimate portrait scale",
+        "glass or window relationship",
+        "credible skin texture"
+      ],
+      "alsoDiffers": {
+        "ref-window-soft-same-model": [
+          "raised-arm downward-gaze pose rather than direct gaze",
+          "softer higher-key bloom around the glass"
+        ],
+        "ref-window-reflection-same-model": [
+          "profile downward gaze rather than direct gaze",
+          "doubled glass reflection"
+        ]
+      },
+      "treatmentLookIds": [
+        "window-light-editorial-portrait",
+        "soft-focus-romantic-portrait",
+        "low-key-character-portrait"
+      ],
+      "referenceIds": [
+        "ref-window-light-editorial-portrait",
+        "ref-window-soft-same-model",
+        "ref-window-reflection-same-model"
+      ]
+    },
+    {
+      "id": "industrial-workplace",
+      "priorityTriggers": [
+        "industrial machinery"
+      ],
+      "triggers": [
+        "industrial documentary",
+        "industrial workplace",
+        "factory workers",
+        "workers and machinery",
+        "people and machinery"
+      ],
+      "role": "Keep real labor, task, machinery, and workplace depth visible across monochrome, human-machine, and descriptive-color treatments.",
+      "treatmentLookIds": [
+        "industrial-workplace-documentary",
+        "industrial-human-machine-portrait",
+        "industrial-color-production-reportage"
+      ],
+      "referenceIds": [
+        "ref-industrial-workplace-documentary",
+        "ref-industrial-human-machine-portrait",
+        "ref-industrial-color-production-reportage"
+      ]
+    },
+    {
+      "id": "1940s-color-factory",
+      "triggers": [
+        "1940s color factory",
+        "factory workers 1940s color",
+        "1940s factory",
+        "wartime color factory",
+        "color factory archive",
+        "factory recreation"
+      ],
+      "role": "Keep documented 1942 color-transparency factory work visible while comparing composition, task scale, and worker-versus-machine emphasis.",
+      "treatmentLookIds": [
+        "industrial-color-production-reportage",
+        "industrial-human-machine-portrait",
+        "fsa-social-documentary"
+      ],
+      "referenceIds": [
+        "ref-industrial-color-production-reportage",
+        "ref-1942-bomber-assembly",
+        "ref-1942-engine-installation"
+      ]
+    },
+    {
+      "id": "quiet-lake",
+      "triggers": [
+        "lake",
+        "misty water",
+        "foggy water"
+      ],
+      "role": "Keep a quiet lake and restrained scale visible while comparing softness and atmosphere.",
+      "requiredLocks": [
+        "lakeside subject",
+        "soft contours",
+        "restrained tonal range",
+        "atmospheric depth",
+        "layered composition"
+      ],
+      "alsoDiffers": {
+        "ref-misty-lake-rocky-shore": [
+          "denser near-shore rocks, log, and grass rather than one mid-water rock",
+          "muted autumn warmth and more local foreground contrast"
+        ],
+        "ref-misty-lake-island-same-series": [
+          "dominant small tree island and reflection rather than one low rock",
+          "darker water with stronger directional surface texture"
+        ]
+      },
+      "treatmentLookIds": [
+        "pictorialist-soft-focus-landscape",
+        "overcast-minimal-landscape",
+        "long-exposure-seascape"
+      ],
+      "referenceIds": [
+        "ref-minimal-misty-lake",
+        "ref-misty-lake-rocky-shore",
+        "ref-misty-lake-island-same-series"
+      ]
+    },
+    {
+      "id": "night-motorcycle-motion",
+      "triggers": [
+        "night motorcycle",
+        "nighttime motorcycle",
+        "motorcycle at night",
+        "night motorbike",
+        "motorbike at night",
+        "city motorcycle lights",
+        "night rider"
+      ],
+      "priorityTriggers": [
+        "motorcycle night"
+      ],
+      "role": "Keep a moving motorcycle, rider, and real night-city context legible while comparing pan and environmental treatments.",
+      "treatmentLookIds": [
+        "rolling-automotive-pan",
+        "rear-curtain-flash-motion",
+        "night-street-color"
+      ],
+      "referenceIds": [
+        "ref-night-motorbike-rain-pan",
+        "ref-night-motorcycle-panning",
+        "ref-night-motorcycle-city-ride"
+      ]
+    },
+    {
+      "id": "cyclist-motion",
+      "triggers": [
+        "cyclist",
+        "bicycle rider",
+        "bike rider"
+      ],
+      "role": "Keep the cyclist and bicycle visible while comparing motion treatments. The supporting photographs teach directional background motion only; their night or daylight color, fluorescent accents, tighter framing, and reduced downtown context are differences to disclose, not approved changes.",
+      "requiredLocks": [
+        "rider readability",
+        "cyclist and bicycle",
+        "downtown setting",
+        "dusk",
+        "subdued dusk color"
+      ],
+      "alsoDiffers": {
+        "ref-night-cyclist-streetlights": [
+          "black night field and fluorescent yellow-green pannier rather than subdued dusk color",
+          "tighter centered portrait framing with little downtown context"
+        ],
+        "ref-urban-cyclist-readable-pan": [
+          "daylight storefront color and a fluorescent yellow helmet rather than subdued dusk color",
+          "near-square tighter side view with less vertical city context"
+        ]
+      },
+      "treatmentLookIds": [
+        "rolling-automotive-pan",
+        "rear-curtain-flash-motion",
+        "peak-action-photojournalism"
+      ],
+      "referenceIds": [
+        "ref-urban-cyclist-dusk",
+        "ref-night-cyclist-streetlights",
+        "ref-urban-cyclist-readable-pan"
+      ]
+    },
+    {
+      "id": "wildlife-behavior",
+      "triggers": [
+        "bird",
+        "waterbird",
+        "waterfowl",
+        "bird on water",
+        "pond bird",
+        "wildlife bird",
+        "grebe",
+        "chick swimming",
+        "wildlife on water",
+        "swimming pond"
+      ],
+      "role": "Keep one real waterbird, swimming behavior, water, and reflection visible while comparing framing, tone, and environmental scale.",
+      "treatmentLookIds": [
+        "super-telephoto-wildlife",
+        "straight-photography-precision",
+        "overcast-minimal-landscape"
+      ],
+      "referenceIds": [
+        "ref-super-telephoto-wildlife",
+        "ref-grebe-chick-habitat",
+        "ref-grebe-juvenile-water"
+      ]
+    },
+    {
+      "id": "calm-interior",
+      "triggers": [
+        "calm interior",
+        "interior photo",
+        "quiet interior",
+        "expensive interior",
+        "warm interior",
+        "real interior",
+        "believable materials"
+      ],
+      "role": "Keep real interior geometry, material texture, and spatial function visible while comparing symmetry, reception scale, and warmer waiting-room color.",
+      "treatmentLookIds": [
+        "symmetrical-interior-study",
+        "straight-photography-precision",
+        "new-topographics-deadpan-landscape"
+      ],
+      "referenceIds": [
+        "ref-symmetrical-interior-study",
+        "ref-clinic-reception",
+        "ref-warm-waiting-room"
+      ]
+    },
+    {
+      "id": "clinic-built-world",
+      "triggers": [
+        "small modern clinic",
+        "modern clinic",
+        "clinic photos",
+        "clinic interior",
+        "medical reception",
+        "clinic entrance",
+        "healthcare building"
+      ],
+      "role": "Keep real small-clinic function, upright geometry, credible materials, and human welcome visible across axial reception, close reception, and entrance directions. For the exterior, use the readable door, path, and ordinary streetscape as welcome cues; the winter reference does not demonstrate people or late-afternoon warmth, so propose those changes without claiming they are shown.",
+      "requiredLocks": [
+        "calm centered geometry",
+        "material truth",
+        "upright perspective",
+        "deep spatial clarity",
+        "restrained warmth with credible whites and grays",
+        "human welcome"
+      ],
+      "transferCard": [
+        "Viewpoint: use a centered frontal or near-frontal exterior view with verticals upright",
+        "Relative distance: step back enough to show the full entrance, approach, and surrounding materials",
+        "Framing: keep the door and threshold legible within the facade, with breathing room but not a distant streetscape",
+        "Focus: hold the entrance, facade materials, and ordinary-use cues clearly readable",
+        "Light placement: use gentle late-afternoon side or front-side light while keeping whites and grays credible",
+        "Human welcome: make the door, path, threshold, and ordinary-use cues easy to read; do not substitute human scale alone"
+      ],
+      "treatmentLookIds": [
+        "symmetrical-interior-study",
+        "straight-photography-precision",
+        "new-topographics-deadpan-landscape"
+      ],
+      "referenceIds": [
+        "ref-clinic-axial-reception",
+        "ref-clinic-reception",
+        "ref-clinic-entrance"
+      ]
+    },
+    {
+      "id": "sprinkler-play",
+      "triggers": [
+        "kids running through sprinklers",
+        "child running through sprinkler",
+        "children playing in water",
+        "sprinkler play",
+        "summer water play",
+        "splash park",
+        "sprinkler"
+      ],
+      "role": "Keep children, water, warm play, and readable movement visible across close spray streaks, composed park play, and layered documentary treatments.",
+      "treatmentLookIds": [
+        "candid-event-reportage",
+        "humanist-available-light-photo-essay",
+        "layered-street-observation"
+      ],
+      "referenceIds": [
+        "ref-sprinkler-motion-drag",
+        "ref-sprinkler-park-play",
+        "ref-splash-park-documentary"
+      ]
+    },
+    {
+      "id": "tactile-skincare",
+      "triggers": [
+        "skincare campaign",
+        "skincare close face",
+        "natural skin pores",
+        "skin pores",
+        "close faces",
+        "actual skin",
+        "visible pores",
+        "natural skin texture",
+        "tactile skin",
+        "skin campaign"
+      ],
+      "role": "Keep close faces, pores, marks, and natural tonal variation visible while comparing daylight color, restrained monochrome, and sculpted low-key treatment.",
+      "treatmentLookIds": [
+        "window-light-editorial-portrait",
+        "black-and-white-close-portrait",
+        "low-key-character-portrait"
+      ],
+      "referenceIds": [
+        "ref-natural-skin-daylight",
+        "ref-black-and-white-close-portrait",
+        "ref-low-key-character-portrait"
+      ]
+    },
+    {
+      "id": "lively-night-street",
+      "triggers": [
+        "night street",
+        "city still feels alive",
+        "lively city night",
+        "lively urban context",
+        "night pedestrians",
+        "urban night street"
+      ],
+      "role": "Keep pedestrians, traffic, layered illumination, and a recognizably active city visible across close, wide, and color-forward night directions.",
+      "treatmentLookIds": [
+        "night-street-color",
+        "layered-street-observation",
+        "new-color-street-observation"
+      ],
+      "referenceIds": [
+        "ref-night-street-color",
+        "ref-night-crosswalk-pedestrian",
+        "ref-night-pedestrian-street"
+      ]
+    },
+    {
+      "id": "ambient-social-bridge",
+      "triggers": [
+        "ambient social portrait",
+        "close social portrait",
+        "closeness and energy",
+        "close energy portrait",
+        "party without flash",
+        "available light party",
+        "intimate party",
+        "social energy",
+        "quiet editorial closeness nightlife energy",
+        "intimate editorial nightlife portrait",
+        "close portrait social energy",
+        "lively intimate environmental portrait"
+      ],
+      "priorityTriggers": [
+        "quiet nightlife portrait"
+      ],
+      "sampleCoverage": [
+        [
+          "close",
+          "closeness",
+          "intimate",
+          "window",
+          "quiet"
+        ],
+        [
+          "energy",
+          "lively",
+          "party",
+          "nightlife",
+          "flash"
+        ]
+      ],
+      "role": "Bridge intimate portrait distance and social energy with real ambient-light examples rather than inventing a combined image or asserting a flash setup. Every option must keep a visible quality from each sample: close human presence from the quiet portrait and expression, interaction, or surrounding people from the lively sample.",
+      "requiredLocks": [
+        "intimate portrait distance",
+        "clear human presence",
+        "natural skin texture",
+        "credible ambient room color",
+        "visible environmental depth"
+      ],
+      "alsoDiffers": {
+        "ref-ambient-social-intimacy": [
+          "two people rather than one",
+          "green and amber room color"
+        ],
+        "ref-ambient-party-color": [
+          "crowded group scene",
+          "stronger saturation and foreground occlusion"
+        ],
+        "ref-professional-candid-smile": [
+          "office setting and brighter neutral room color rather than party or nightlife",
+          "off-camera gaze with lower crowd density and gesture energy"
+        ]
+      },
+      "treatmentLookIds": [
+        "humanist-available-light-photo-essay",
+        "new-color-street-observation",
+        "approachable-environmental-portrait"
+      ],
+      "referenceIds": [
+        "ref-ambient-social-intimacy",
+        "ref-ambient-party-color",
+        "ref-professional-candid-smile"
+      ]
+    },
+    {
+      "id": "formal-portrait",
+      "triggers": [
+        "formal portrait",
+        "quiet deliberate pose",
+        "formal medium format",
+        "composed portrait",
+        "deliberate portrait",
+        "real photographic texture"
+      ],
+      "role": "Keep formal human presence and real photographic texture visible across contemporary polish, square portrait structure, and documented historical formality.",
+      "treatmentLookIds": [
+        "polished-commercial-headshot",
+        "medium-format-formal-portrait",
+        "daguerreotype-studio-portrait"
+      ],
+      "referenceIds": [
+        "ref-polished-commercial-headshot",
+        "ref-medium-format-formal-portrait",
+        "ref-daguerreotype-studio-portrait"
+      ]
+    },
+    {
+      "id": "historical-1920s-components",
+      "triggers": [
+        "black and white genuinely 1920s formal portrait",
+        "genuinely 1920s formal portrait",
+        "genuinely 1920s",
+        "black and white and genuinely 1920s",
+        "real 1920s",
+        "1920s portrait",
+        "authentic 1920s",
+        "1920s photographic texture"
+      ],
+      "priorityTriggers": [
+        "1920s"
+      ],
+      "role": "Keep the documented 2014 square-film anchor distinct from a documented 1920 work photograph and a contemporary New Vision-appearance component; none alone proves an exact 1920s formal portrait match.",
+      "treatmentLookIds": [
+        "medium-format-formal-portrait",
+        "industrial-human-machine-portrait",
+        "new-vision-geometry"
+      ],
+      "referenceIds": [
+        "ref-medium-format-formal-portrait",
+        "ref-industrial-human-machine-portrait",
+        "ref-new-vision-geometry"
+      ]
+    },
+    {
+      "id": "cyanotype-botanical-processes",
+      "triggers": [
+        "cyanotype botanical",
+        "botanical cyanotype",
+        "botanical photogram",
+        "real cyanotype botanical",
+        "historical botanical process"
+      ],
+      "role": "Lead with the documented botanical cyanotype. The other two references isolate nearby documented historical processes and visibly different subjects; use them only as process-transfer components.",
+      "requiredLocks": [
+        "documented process remains separate from visible appearance",
+        "every historical component keeps its documented date",
+        "subject differences remain explicit"
+      ],
+      "alsoDiffers": {
+        "ref-daguerreotype-studio-portrait": [
+          "human portrait rather than botanical specimen",
+          "modeled silver-gray volume rather than flat contact silhouette"
+        ],
+        "ref-wet-plate-collodion-portrait": [
+          "human environmental portrait rather than botanical specimen",
+          "dimensional plate rendering and irregular edges"
+        ]
+      },
+      "treatmentLookIds": [
+        "cyanotype-botanical-photogram",
+        "daguerreotype-studio-portrait",
+        "wet-plate-collodion-portrait"
+      ],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-daguerreotype-studio-portrait",
+        "ref-wet-plate-collodion-portrait"
+      ]
+    },
+    {
+      "id": "cyanotype-motion-components",
+      "triggers": [
+        "cyanotype dancer motion trails",
+        "cyanotype dancer mid leap",
+        "botanical dancer motion trails",
+        "prussian blue dancer motion trails"
+      ],
+      "priorityTriggers": [
+        "cyanotype dancer"
+      ],
+      "role": "Use the cyanotype as the documented process-appearance anchor, the sports reference only for a readable airborne gesture, and the motion-trail reference only for a human motion path.",
+      "catalogGap": "No reviewed reference combines documented cyanotype appearance, an airborne dancer-like gesture, and luminous human-motion trails in one physical result.",
+      "requiredLocks": [
+        "Prussian-blue field",
+        "white contact-silhouette appearance",
+        "flat cameraless depth",
+        "cyanotype appearance rather than claimed chemistry"
+      ],
+      "alsoDiffers": {
+        "ref-frozen-sports-action": [
+          "skate action rather than dance",
+          "camera-made color scene rather than cyanotype appearance"
+        ],
+        "ref-rear-curtain-flash-motion": [
+          "night mixed-color setting",
+          "readable dimensional moving subject rather than contact silhouette"
+        ]
+      },
+      "treatmentLookIds": [
+        "cyanotype-botanical-photogram",
+        "frozen-sports-action",
+        "rear-curtain-flash-motion"
+      ],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-frozen-sports-action",
+        "ref-rear-curtain-flash-motion"
+      ]
+    },
+    {
+      "id": "perfume-bottle-transfer",
+      "triggers": [
+        "perfume bottle",
+        "fragrance bottle",
+        "environmental perfume still life",
+        "perfume product"
+      ],
+      "role": "Keep real fragrance glass legible while separating quiet lived-in context, polished bottle form, and tactile shallow environmental separation. Prefer the first pair when luxury or glossy treatment is rejected.",
+      "transferCard": [
+        "Lens class: natural or short-telephoto perspective",
+        "Relative distance: work farther back than a portrait close-up so the bottle keeps environmental context",
+        "Framing: environmental close still life with breathing room around the glass",
+        "Focus: front label and near bottle edge crisp, background softly recognizable",
+        "Light placement: broad soft source to one side or rear-side of the bottle",
+        "Reflection control: camera angled off the bright reflection, with dark or neutral cards just outside frame"
+      ],
+      "treatmentLookIds": [
+        "quiet-environmental-product",
+        "luxury-still-life-polish",
+        "dark-moody-tabletop"
+      ],
+      "referenceIds": [
+        "ref-quiet-lived-in-perfume",
+        "ref-luxury-still-life-polish",
+        "ref-amber-candle-wood"
+      ]
+    },
+    {
+      "id": "labeled-candle-jar",
+      "triggers": [
+        "candle jar",
+        "amber jar",
+        "amber candle",
+        "candle product",
+        "labeled jar"
+      ],
+      "role": "Keep amber candle glass, label area, wax, and tactile material response visible during lighting refinements.",
+      "treatmentLookIds": [
+        "dark-moody-tabletop",
+        "luxury-still-life-polish",
+        "window-light-food-story"
+      ],
+      "referenceIds": [
+        "ref-labeled-candle-jar",
+        "ref-amber-candle-wood",
+        "ref-amber-candles-overhead"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-machined-metal-component",
+      "title": "Close-up of Precision Machined Metal Parts",
+      "creator": "Connor Lucock",
+      "sourcePage": "https://www.pexels.com/photo/close-up-of-precision-machined-metal-parts-28752153/",
+      "assetUrl": "https://images.pexels.com/photos/28752153/pexels-photo-28752153.jpeg?cs=srgb&dl=pexels-connor-lucock-259838-28752153.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 5683,
+        "height": 3789
+      },
+      "teachingRole": "Warm close detail of finished machined components with visible tool marks and believable reflective metal.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-cnc-machining-process",
+      "title": "Close Up Photo of Metal Tool",
+      "creator": "Daniel Smyth",
+      "sourcePage": "https://www.pexels.com/photo/close-up-photo-of-metal-tool-10406128/",
+      "assetUrl": "https://images.pexels.com/photos/10406128/pexels-photo-10406128.jpeg?cs=srgb&dl=pexels-daniel-smyth-83914874-10406128.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 4000,
+        "height": 6000
+      },
+      "teachingRole": "Cool process-centered close view connecting the component to actual CNC machining and flying swarf.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-monochrome-machine-gears",
+      "title": "Closeup of a Metal Machinery",
+      "creator": "William Warby",
+      "sourcePage": "https://www.pexels.com/photo/closeup-of-a-metal-machinery-19658259/",
+      "assetUrl": "https://images.pexels.com/photos/19658259/pexels-photo-19658259.jpeg?cs=srgb&dl=pexels-wwarby-19658259.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 3648,
+        "height": 2736
+      },
+      "teachingRole": "Monochrome structural detail emphasizing gear geometry, wear, edge contrast, and material honesty.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-team-project-meeting",
+      "sourceKind": "wikimedia-commons",
+      "title": "WLM international team meeting Vienna 2023-05-27 12",
+      "creator": "Manfred Werner (Tsui)",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:WLM_international_team_meeting_Vienna_2023-05-27_12.jpg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/WLM_international_team_meeting_Vienna_2023-05-27_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "localPath": "assets/references/ref-team-project-meeting.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attributionText": "WLM international team meeting Vienna 2023-05-27 12 by Manfred Werner (Tsui), CC BY-SA 4.0.",
+      "accessedAt": "2026-08-12",
+      "originalDimensions": {
+        "width": 7500,
+        "height": 5000
+      },
+      "teachingRole": "A documented international team meeting with laughter, gesture, laptops, food, and a visibly lived-in working table.",
+      "bundledDimensions": {
+        "width": 1100,
+        "height": 733
+      },
+      "sha256": "50703b8d0cb800257740bda0cbcaf06525eb1d094225d5b7570ebd5addd36472",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "bundled",
+      "modification": "Proportionally resized to a maximum dimension of 1100 pixels and converted to JPEG at quality 70; no crop."
+    },
+    {
+      "id": "ref-team-laptop-collaboration",
+      "sourceKind": "wikimedia-commons",
+      "title": "Wikimedia UK office meeting",
+      "creator": "Jwslubbock",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wikimedia_UK_office_meeting.jpg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Wikimedia_UK_office_meeting.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "localPath": "assets/references/ref-team-laptop-collaboration.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attributionText": "Wikimedia UK office meeting by Jwslubbock, CC BY-SA 4.0.",
+      "accessedAt": "2026-08-12",
+      "originalDimensions": {
+        "width": 4240,
+        "height": 2832
+      },
+      "teachingRole": "A documented office meeting with three people in active discussion amid real desks, screens, cables, papers, and daily clutter.",
+      "bundledDimensions": {
+        "width": 1100,
+        "height": 734
+      },
+      "sha256": "cd8090a104de43d711e62be95b8ae9ebbd8e30ee08626199a76c35c1e7e1934e",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "bundled",
+      "modification": "Proportionally resized to a maximum dimension of 1100 pixels and converted to JPEG at quality 70; no crop."
+    },
+    {
+      "id": "ref-colleagues-document-review",
+      "sourceKind": "wikimedia-commons",
+      "title": "Education Session group discussion 06",
+      "creator": "Vahid Masrour (Wikimedia Foundation)",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Education_Session_group_discussion_06.jpg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Education_Session_group_discussion_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "localPath": "assets/references/ref-colleagues-document-review.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attributionText": "Education Session group discussion 06 by Vahid Masrour (Wikimedia Foundation), CC BY-SA 4.0.",
+      "accessedAt": "2026-08-12",
+      "originalDimensions": {
+        "width": 5488,
+        "height": 3088
+      },
+      "teachingRole": "A documented education-session discussion with one active speaker, attentive group members, laptops, notes, and ordinary table clutter.",
+      "bundledDimensions": {
+        "width": 1100,
+        "height": 619
+      },
+      "sha256": "876032b6e2059aed36e2202f86fa216c8133fa3ace5e3f350a3ccbac979d47b5",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "bundled",
+      "modification": "Proportionally resized to a maximum dimension of 1100 pixels and converted to JPEG at quality 70; no crop."
+    },
+    {
+      "id": "ref-founder-screenprint-work",
+      "title": "Man Screen Printing T-Shirt in Workshop",
+      "creator": "James Collington",
+      "sourcePage": "https://www.pexels.com/photo/man-screen-printing-t-shirt-in-workshop-33650424/",
+      "assetUrl": "https://images.pexels.com/photos/33650424/pexels-photo-33650424.jpeg?cs=srgb&dl=pexels-james-collington-2147687246-33650424.jpg&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 3265,
+        "height": 4898
+      },
+      "teachingRole": "One maker absorbed in checking a finished screen-printed shirt, with active hands, recognizable product, warm low-key appearance, and real production context; the hidden expression does not prove a particular emotion.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-founder-home-office-work",
+      "title": "Busy Woman Working Remotely",
+      "creator": "Mizuno K",
+      "sourcePage": "https://www.pexels.com/photo/busy-woman-working-remotely-12912228/",
+      "assetUrl": "https://images.pexels.com/photos/12912228/pexels-photo-12912228.jpeg?cs=srgb&dl=pexels-mizunokozuki-12912228.jpg&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 4000,
+        "height": 6000
+      },
+      "teachingRole": "One person visibly sorting documents amid a laptop, books, and loose papers in a lived-in home office; the activity demonstrates work without proving the scene was spontaneous.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-foggy-calm-lake",
+      "title": "Calm Lake at Dawn",
+      "creator": "Dylann Hendricks",
+      "sourcePage": "https://www.pexels.com/photo/calm-lake-at-dawn-16884411/",
+      "assetUrl": "https://images.pexels.com/photos/16884411/pexels-photo-16884411.jpeg?cs=srgb&dl=pexels-dylannhendricks-16884411.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 4160,
+        "height": 6240
+      },
+      "teachingRole": "Vertical quiet-water study with subdued haze, low horizon, and expansive negative sky.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-minimal-misty-lake",
+      "title": "Misty Autumn Lake with Minimalist Foggy Landscape",
+      "creator": "Surdu Horia",
+      "sourcePage": "https://www.pexels.com/photo/misty-autumn-lake-with-minimalist-foggy-landscape-29343046/",
+      "assetUrl": "https://images.pexels.com/photos/29343046/pexels-photo-29343046.jpeg?cs=srgb&dl=pexels-surdu-horia-743788511-29343046.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 3985,
+        "height": 5978
+      },
+      "teachingRole": "Minimal mist study with a single foreground rock, compressed gray layers, and quiet scale.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-misty-lake-rocky-shore",
+      "title": "Tranquil Foggy Autumn Lake with Rocks and Trees",
+      "creator": "Surdu Horia",
+      "sourcePage": "https://www.pexels.com/photo/tranquil-foggy-autumn-lake-with-rocks-and-trees-29343055/",
+      "assetUrl": "https://images.pexels.com/photos/29343055/pexels-photo-29343055.jpeg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 4000,
+        "height": 6000
+      },
+      "teachingRole": "A neighboring Surdu Horia foggy-lake photograph that holds vertical format, broad gray water, fog-softened shores, and layered depth while adding a denser rocky foreground and muted autumn warmth.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-misty-lake-island-same-series",
+      "title": "Foggy Lake with Mysterious Misty Island",
+      "creator": "Surdu Horia",
+      "sourcePage": "https://www.pexels.com/photo/foggy-lake-with-mysterious-misty-island-29356699/",
+      "assetUrl": "https://images.pexels.com/photos/29356699/pexels-photo-29356699.jpeg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 3973,
+        "height": 5960
+      },
+      "teachingRole": "A neighboring Surdu Horia foggy-lake photograph that holds vertical format, subdued gray-brown color, soft contours, negative space, and layered depth while adding a dominant tree island and darker textured water.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-foggy-island-lake",
+      "title": "Foggy Lake Photo",
+      "creator": "Gabriela Palai",
+      "sourcePage": "https://www.pexels.com/photo/foggy-lake-photo-395198/",
+      "assetUrl": "https://images.pexels.com/photos/395198/pexels-photo-395198.jpeg?cs=srgb&dl=pexels-gabriela-palai-129458-395198.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 5793,
+        "height": 3867
+      },
+      "teachingRole": "Wide low-contrast lake with a small island, reflection, and broad fog field rather than epic scenery.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-night-motorcycle-motion",
+      "title": "Man Riding Motorcycle on Road during Night Time",
+      "creator": "Vova Kras",
+      "sourcePage": "https://www.pexels.com/photo/man-riding-motorcycle-on-road-during-night-time-4065839/",
+      "assetUrl": "https://images.pexels.com/photos/4065839/pexels-photo-4065839.jpeg?cs=srgb&dl=pexels-vovaflame-4065839.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 3200,
+        "height": 4000
+      },
+      "teachingRole": "Night motorcycle pan with city-light streaks and a visibly readable rider-and-bike silhouette.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-twilight-motorcycle-pan",
+      "title": "Man Riding a Motorcycle in a City",
+      "creator": "Ja Kubislav",
+      "sourcePage": "https://www.pexels.com/photo/man-riding-a-motorcycle-in-a-city-14585242/",
+      "assetUrl": "https://images.pexels.com/photos/14585242/pexels-photo-14585242.jpeg?cs=srgb&dl=pexels-ja-kubislav-374578277-14585242.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 4000,
+        "height": 6000
+      },
+      "teachingRole": "Twilight city pan with strong rider and motorcycle readability against directional background blur.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-city-motorcycle-lights",
+      "title": "Time Lapse Photo of Person Riding Motorcycle during Nighttime",
+      "creator": "Th2city Santana",
+      "sourcePage": "https://www.pexels.com/photo/time-lapse-photo-of-person-riding-motorcycle-during-nighttime-2318054/",
+      "assetUrl": "https://images.pexels.com/photos/2318054/pexels-photo-2318054.jpeg?cs=srgb&dl=pexels-th2city-2318054.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 6000,
+        "height": 4000
+      },
+      "teachingRole": "Wider city-at-night pan with wet reflections, traffic context, and a smaller but legible rider.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-urban-cyclist-dusk",
+      "title": "Blurred Motion of Cyclist in Urban Setting at Dusk",
+      "creator": "Asif Ul Haque",
+      "sourcePage": "https://www.pexels.com/photo/blurred-motion-of-cyclist-in-urban-setting-at-dusk-36675277/",
+      "assetUrl": "https://images.pexels.com/photos/36675277/pexels-photo-36675277.jpeg?cs=srgb&dl=pexels-asif-ul-haque-1491023-36675277.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 3072,
+        "height": 4080
+      },
+      "teachingRole": "Restrained urban-dusk bicycle pan with the rider readable and the background carrying directional motion.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-night-cyclist-streetlights",
+      "title": "Cyclist Riding at Night with Motion Blur",
+      "creator": "Valentin Ilas",
+      "sourcePage": "https://www.pexels.com/photo/cyclist-riding-at-night-with-motion-blur-37056423/",
+      "assetUrl": "https://images.pexels.com/photos/37056423/pexels-photo-37056423.jpeg?cs=srgb&dl=pexels-valentin-ilas-2154050328-37056423.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 5959,
+        "height": 7291
+      },
+      "teachingRole": "Night pan with a comparatively sharp cyclist, a real streetlight pool, and subdued rather than neon color.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-rembrandt-lighting-portrait",
+      "title": "Benoit Arcand",
+      "creator": "JBouchez",
+      "sourceKind": "wikimedia-commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Benoit_Arcand.jpg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Benoit_Arcand.jpg",
+      "localPath": "assets/references/ref-rembrandt-lighting-portrait.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attributionText": "Benoit Arcand by JBouchez, CC BY-SA 4.0; resized.",
+      "accessedAt": "2026-08-12",
+      "modification": "Downloaded as the 500-pixel Wikimedia thumbnail; no additional crop.",
+      "technicalClaims": [
+        {
+          "field": "lighting",
+          "value": "Wikimedia Commons categorizes the photograph as Rembrandt lighting",
+          "basis": "documented",
+          "source": "https://commons.wikimedia.org/wiki/File:Benoit_Arcand.jpg"
+        }
+      ],
+      "originalDimensions": {
+        "width": 3468,
+        "height": 3468
+      },
+      "teachingRole": "Documented Rembrandt-lighting portrait with a directional key, shadow-side cheek modeling, and a restrained background.",
+      "bundledDimensions": {
+        "width": 500,
+        "height": 500
+      },
+      "sha256": "b59c3b980b999a4775668084bf9bff7a17c66455031753fb42fad2b181ee5a5e",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "bundled"
+    },
+    {
+      "id": "ref-labeled-candle-jar",
+      "title": "A Candle on a Glass Jar with Label",
+      "creator": "Oğuzhan Albuz",
+      "sourcePage": "https://www.pexels.com/photo/a-candle-on-a-glass-jar-with-label-8135283/",
+      "assetUrl": "https://images.pexels.com/photos/8135283/pexels-photo-8135283.jpeg?cs=srgb&dl=pexels-oguzalbuz-8135283.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 4912,
+        "height": 7360
+      },
+      "teachingRole": "Tactile amber candle jar with a readable label, warm daylight, and visible surrounding material texture.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-amber-candle-wood",
+      "title": "Amber candle in glass jar with cork lid on wooden table, surrounded by greenery, warm lighting",
+      "creator": "Alesia Kozik",
+      "sourcePage": "https://www.pexels.com/photo/candle-in-a-brown-glass-container-7796695/",
+      "assetUrl": "https://images.pexels.com/photos/7796695/pexels-photo-7796695.jpeg?cs=srgb&dl=pexels-alesiakozik-7796695.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 3000,
+        "height": 4500
+      },
+      "teachingRole": "Single labeled amber candle jar with warm side light, cork and wood texture, restrained greenery, and shallow background separation.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-amber-candles-overhead",
+      "title": "Three scented candles in amber glass jars arranged on a wooden slice",
+      "creator": "Vie Studio",
+      "sourcePage": "https://www.pexels.com/photo/candles-in-glass-containers-7004676/",
+      "assetUrl": "https://images.pexels.com/photos/7004676/pexels-photo-7004676.jpeg?cs=srgb&dl=pexels-vie-studio-7004676.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 4160,
+        "height": 6240
+      },
+      "teachingRole": "Overhead amber-candle grouping with open wax, readable label bands, neutral concrete texture, soft shadow, and generous copy space; the candles are unlit.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-bird-water-reflection",
+      "title": "Bird Flying over the Water",
+      "creator": "Diana ✨",
+      "sourcePage": "https://www.pexels.com/photo/bird-flying-over-the-water-16357396/",
+      "assetUrl": "https://images.pexels.com/photos/16357396/pexels-photo-16357396.jpeg?cs=srgb&dl=pexels-didsss-16357396.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 4474,
+        "height": 2983
+      },
+      "teachingRole": "Single bird in low flight with reflection and broad water context rather than isolated portrait framing.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-bird-flock-habitat",
+      "title": "Birds Flying over Water",
+      "creator": "Tom Fisk",
+      "sourcePage": "https://www.pexels.com/photo/birds-flying-over-water-17667018/",
+      "assetUrl": "https://images.pexels.com/photos/17667018/pexels-photo-17667018.jpeg?cs=srgb&dl=pexels-tomfisk-17667018.jpg&fm=jpg",
+      "originalDimensions": {
+        "width": 8640,
+        "height": 5760
+      },
+      "teachingRole": "Backlit flock behavior over water with habitat layers and group pattern still legible.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-machined-bolt",
+      "title": "Close-up of Screw",
+      "creator": "Pixabay",
+      "sourcePage": "https://www.pexels.com/photo/close-up-of-screw-257759/",
+      "assetUrl": "https://images.pexels.com/photos/257759/pexels-photo-257759.jpeg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "originalDimensions": {
+        "width": 3053,
+        "height": 2025
+      },
+      "teachingRole": "Single steel bolt isolated with visible threading, machined face, crisp form, and restrained dark product light.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-professional-calm-office",
+      "title": "Portrait of Woman in Office",
+      "creator": "Polina Zimmerman",
+      "sourcePage": "https://www.pexels.com/photo/portrait-of-woman-in-office-3747435/",
+      "assetUrl": "https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg",
+      "originalDimensions": {
+        "width": 3840,
+        "height": 5760
+      },
+      "teachingRole": "Calm seated professional at a desk with visible laptop and interior, direct gaze, natural texture, and generous environmental space.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-professional-candid-smile",
+      "title": "Smiling Woman in Office",
+      "creator": "TONI&GUY PONDICHERRY",
+      "sourcePage": "https://www.pexels.com/photo/smiling-woman-in-office-15908505/",
+      "assetUrl": "https://images.pexels.com/photos/15908505/pexels-photo-15908505.jpeg",
+      "originalDimensions": {
+        "width": 3456,
+        "height": 5184
+      },
+      "teachingRole": "Warm close office portrait with a relaxed smile, informal business clothing, shallow background separation, and active workplace context.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-professional-lowkey-desk",
+      "title": "Smiling Man at Desk in Office",
+      "creator": "Aathif Aarifeen",
+      "sourcePage": "https://www.pexels.com/photo/smiling-man-at-desk-in-office-19747889/",
+      "assetUrl": "https://images.pexels.com/photos/19747889/pexels-photo-19747889.jpeg",
+      "originalDimensions": {
+        "width": 7952,
+        "height": 5304
+      },
+      "teachingRole": "Low-key environmental professional portrait with a relaxed smile, visible workstation, warm clothing, and ample dark negative space without corporate formality.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-window-soft-same-model",
+      "sourceKind": "flickr",
+      "title": "Victoria Passos",
+      "creator": "Victor Carvalho",
+      "sourcePage": "https://www.flickr.com/photos/129931779@N05/16165470899",
+      "assetUrl": "https://live.staticflickr.com/7485/16165470899_2014d5cec9_h.jpg",
+      "localPath": "assets/references/ref-window-soft-same-model.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "attributionText": "Victoria Passos by Victor Carvalho, CC BY 2.0.",
+      "accessedAt": "2026-08-12",
+      "modification": "Cropped from the authored landscape frame to x=350, y=0, width=712, height=1068; losslessly flipped horizontally to align the window-side composition; metadata stripped and encoded as JPEG quality 9. No tone, color, blur, retouch, or generated content.",
+      "originalDimensions": {
+        "width": 6016,
+        "height": 4016
+      },
+      "teachingRole": "The same credited model, outfit, and same-looking window context as the anchor, with a raised-arm downward-gaze pose and softer higher-key bloom; Flickr does not document whether the photographs share a session.",
+      "bundledDimensions": {
+        "width": 712,
+        "height": 1068
+      },
+      "sha256": "13c73dc907851308775c8f34cdee0d43d5b786869007741d67198f71cde6e6d2",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "bundled"
+    },
+    {
+      "id": "ref-window-reflection-same-model",
+      "sourceKind": "flickr",
+      "title": "Victoria Passos",
+      "creator": "Victor Carvalho",
+      "sourcePage": "https://www.flickr.com/photos/129931779@N05/16933649416",
+      "assetUrl": "https://live.staticflickr.com/8730/16933649416_51111c62db_b.jpg",
+      "localPath": "assets/references/ref-window-reflection-same-model.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "attributionText": "Victoria Passos by Victor Carvalho, CC BY 2.0.",
+      "accessedAt": "2026-08-12",
+      "modification": "Losslessly flipped horizontally to align the window-side composition; metadata stripped and encoded as JPEG quality 9. No crop, tone, color, blur, retouch, or generated content.",
+      "originalDimensions": {
+        "width": 4016,
+        "height": 6016
+      },
+      "teachingRole": "The same credited model, outfit, and same-looking window context as the anchor, with a profile downward gaze and doubled glass reflection; Flickr does not document whether the photographs share a session.",
+      "bundledDimensions": {
+        "width": 684,
+        "height": 1024
+      },
+      "sha256": "3d11535059c35600c3c88f3909b914da447957f6067f31dcba980b16caad5a7a",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "bundled"
+    },
+    {
+      "id": "ref-machined-gears-board",
+      "title": "Metal Gears on Board",
+      "creator": "aditya bhatia",
+      "sourcePage": "https://www.pexels.com/photo/metal-gears-on-board-21854069/",
+      "assetUrl": "https://images.pexels.com/photos/21854069/pexels-photo-21854069.jpeg",
+      "originalDimensions": {
+        "width": 3072,
+        "height": 4608
+      },
+      "teachingRole": "Loose precision gear components on a marked work surface, with tooth detail, reflective faces, and selective industrial warmth.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-restaurant-grilled-appetizers",
+      "title": "Plate of Various Grilled Appetizers on Wooden Table",
+      "creator": "Sydney Sang",
+      "sourcePage": "https://www.pexels.com/photo/plate-of-various-grilled-appetizers-on-wooden-table-31459995/",
+      "assetUrl": "https://images.pexels.com/photos/31459995/pexels-photo-31459995.jpeg",
+      "originalDimensions": {
+        "width": 3544,
+        "height": 5314
+      },
+      "teachingRole": "Warm low-lit restaurant table with multiple plated appetizers, visible dining context, and cozy believable service atmosphere.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-restaurant-shrimp-pasta",
+      "title": "Shrimp Pasta Served on Gray Plate",
+      "creator": "Anthony Leong",
+      "sourcePage": "https://www.pexels.com/photo/shrimp-pasta-served-on-gray-plate-2092906/",
+      "assetUrl": "https://images.pexels.com/photos/2092906/pexels-photo-2092906.jpeg",
+      "originalDimensions": {
+        "width": 3000,
+        "height": 4000
+      },
+      "teachingRole": "Close plated shrimp pasta with clear edible texture, colorful garnish, restrained depth, and restaurant-ready appetite appeal.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-duck-green-reflection",
+      "title": "Duck Reflecting in River",
+      "creator": "Patrick",
+      "sourcePage": "https://www.pexels.com/photo/duck-reflecting-in-river-17949791/",
+      "assetUrl": "https://images.pexels.com/photos/17949791/pexels-photo-17949791.jpeg",
+      "originalDimensions": {
+        "width": 6000,
+        "height": 4000
+      },
+      "teachingRole": "Single swimming duck with clear reflection, warm green water, soft habitat color, and readable plumage.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-duck-clean-reflection",
+      "title": "Tranquil Duck on Calm Water with Reflection",
+      "creator": "Kunal Sharma",
+      "sourcePage": "https://www.pexels.com/photo/tranquil-duck-on-calm-water-with-reflection-35661809/",
+      "assetUrl": "https://images.pexels.com/photos/35661809/pexels-photo-35661809.jpeg",
+      "originalDimensions": {
+        "width": 3422,
+        "height": 2286
+      },
+      "teachingRole": "Single side-view duck and clean mirrored reflection against pale minimal water.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-urban-cyclist-readable-pan",
+      "title": "Cyclist Riding on Urban Street with Motion Blur",
+      "creator": "Robert So",
+      "sourcePage": "https://www.pexels.com/photo/cyclist-riding-on-urban-street-with-motion-blur-37106899/",
+      "assetUrl": "https://images.pexels.com/photos/37106899/pexels-photo-37106899.jpeg",
+      "originalDimensions": {
+        "width": 3731,
+        "height": 3672
+      },
+      "teachingRole": "Readable side-view cyclist with sharp body and bicycle against directional urban storefront blur; brighter than dusk anchors.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-night-motorbike-rain-pan",
+      "title": "Nighttime Motorbike Ride Through City Streets",
+      "creator": "Pragyan Bezbaruah",
+      "sourcePage": "https://www.pexels.com/photo/nighttime-motorbike-ride-through-city-streets-34543116/",
+      "assetUrl": "https://images.pexels.com/photos/34543116/pexels-photo-34543116.jpeg",
+      "originalDimensions": {
+        "width": 5820,
+        "height": 3947
+      },
+      "teachingRole": "Readable night rider and motorbike held against strong wet-street city blur and practical light streaks.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-night-motorcycle-panning",
+      "title": "A Person Riding a Black Motorcycle on the Road at Night",
+      "creator": "Vitaliy Mitrofanenko",
+      "sourcePage": "https://www.pexels.com/photo/a-person-riding-a-black-motorcycle-on-the-road-at-night-9325653/",
+      "assetUrl": "https://images.pexels.com/photos/9325653/pexels-photo-9325653.jpeg",
+      "originalDimensions": {
+        "width": 2000,
+        "height": 2500
+      },
+      "teachingRole": "Front-three-quarter night motorcycle pan with rider, headlight, surrounding traffic, and city light all legible.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-night-motorcycle-city-ride",
+      "title": "Person Riding a Motorcycle during Night Time",
+      "creator": "Shivam",
+      "sourcePage": "https://www.pexels.com/photo/person-riding-a-motorcycle-during-night-time-5977571/",
+      "assetUrl": "https://images.pexels.com/photos/5977571/pexels-photo-5977571.jpeg",
+      "originalDimensions": {
+        "width": 3265,
+        "height": 4898
+      },
+      "teachingRole": "Clear rear-view night rider in a real urban road, with streetlights and architecture carrying city context rather than blur.",
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-clinic-reception",
+      "title": "Modern Medical Reception Area Interior Design",
+      "creator": "Jinshu Pulpatta",
+      "sourcePage": "https://www.pexels.com/photo/modern-medical-reception-area-interior-design-33812025/",
+      "assetUrl": "https://images.pexels.com/photos/33812025/pexels-photo-33812025.jpeg?cs=srgb&dl=pexels-jinshu-pulpatta-2151876856-33812025.jpg&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 3072,
+        "height": 4096
+      },
+      "teachingRole": "Compact medical reception with explicit function, calm frontal geometry, warm wood, neutral surfaces, and ordinary equipment.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-warm-waiting-room",
+      "title": "Modern Waiting Room with Earthy Tones and Plant Decor",
+      "creator": "Ivanna Lebediuk",
+      "sourcePage": "https://www.pexels.com/photo/modern-waiting-room-with-earthy-tones-and-plant-decor-35056949/",
+      "assetUrl": "https://images.pexels.com/photos/35056949/pexels-photo-35056949.jpeg?cs=srgb&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 3024,
+        "height": 4032
+      },
+      "teachingRole": "Clinic-compatible generic waiting area with warm rust color, pale wood, plants, visible ceiling fixtures, and functional seating rather than CGI perfection; the source does not identify it as healthcare.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-clinic-entrance",
+      "title": "Modernist Chiropractic Clinic on a Winter's Day",
+      "creator": "Simon R. Minshall",
+      "sourcePage": "https://www.pexels.com/photo/modernist-chiropractic-clinic-on-a-winter-s-day-28409976/",
+      "assetUrl": "https://images.pexels.com/photos/28409976/pexels-photo-28409976.jpeg?cs=srgb&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 5573,
+        "height": 2998
+      },
+      "teachingRole": "Human-scale clinic entrance with readable function, simple modernist geometry, ordinary streetscape context, and restrained winter daylight.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-night-crosswalk-pedestrian",
+      "title": "Nighttime City Street with Pedestrian and Traffic",
+      "creator": "Max Zaharenkov",
+      "sourcePage": "https://www.pexels.com/photo/nighttime-city-street-with-pedestrian-and-traffic-35547687/",
+      "assetUrl": "https://images.pexels.com/photos/35547687/pexels-photo-35547687.jpeg?cs=srgb&dl=pexels-maxzaharenkov-35547687.jpg&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 5304,
+        "height": 7952
+      },
+      "teachingRole": "Close pedestrian framed by taxis, buses, storefront light, and deep traffic layers; movement remains mild and the city stays legible.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-night-pedestrian-street",
+      "title": "People Walking on Street during Nighttime",
+      "creator": "Yura Forrat",
+      "sourcePage": "https://www.pexels.com/photo/people-walking-on-street-during-nighttime-12185056/",
+      "assetUrl": "https://images.pexels.com/photos/12185056/pexels-photo-12185056.jpeg?cs=srgb&dl=pexels-yuraforrat-12185056.jpg&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 5701,
+        "height": 3801
+      },
+      "teachingRole": "Wide night street with pedestrians, cyclist, architecture, pools of light, and restrained natural movement across the frame.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-grebe-chick-habitat",
+      "sourceKind": "wikimedia-commons",
+      "title": "Pied-billed Grebe Chick",
+      "creator": "Joyce Cory",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pied-billed_Grebe_Chick.jpg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Pied-billed_Grebe_Chick.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "localPath": "assets/references/ref-grebe-chick-habitat.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "attributionText": "Pied-billed Grebe Chick by Joyce Cory, CC BY 2.0.",
+      "accessedAt": "2026-08-12",
+      "modification": "Proportionally resized to a maximum dimension of 800 pixels and converted to JPEG at quality 55; no crop.",
+      "originalDimensions": {
+        "width": 2814,
+        "height": 2178
+      },
+      "teachingRole": "Close Pied-billed Grebe chick with species and life stage matching the anchor, readable down, green water, and surrounding reeds.",
+      "bundledDimensions": {
+        "width": 800,
+        "height": 619
+      },
+      "sha256": "f0c349332f69a598258506b071ca5fb4c37cc431fede38f152dbe206abffe988",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "bundled"
+    },
+    {
+      "id": "ref-grebe-juvenile-water",
+      "sourceKind": "wikimedia-commons",
+      "title": "Pied-billed Grebe (49419354891)",
+      "creator": "Michael Schramm / U.S. Fish and Wildlife Service",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pied-billed_Grebe_(49419354891).jpg",
+      "assetUrl": "https://live.staticflickr.com/65535/49419354891_dbe15bc535_o.jpg",
+      "localPath": "assets/references/ref-grebe-juvenile-water.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attributionText": "",
+      "accessedAt": "2026-08-12",
+      "modification": "Proportionally resized to a maximum dimension of 800 pixels and converted to JPEG at quality 55; no crop.",
+      "originalDimensions": {
+        "width": 707,
+        "height": 960
+      },
+      "teachingRole": "Juvenile Pied-billed Grebe swimming across pale reflective water, with a looser environmental scale and visible wake.",
+      "bundledDimensions": {
+        "width": 589,
+        "height": 800
+      },
+      "sha256": "b7d02a8f78349274940815601824fd4241cb16bcb930502dbd8ed84c0c966e6f",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "bundled"
+    },
+    {
+      "id": "ref-sprinkler-motion-drag",
+      "title": "Child Enjoying Water Play Outdoors in Summer",
+      "creator": "Soc Nang Dong",
+      "sourcePage": "https://www.pexels.com/photo/child-enjoying-water-play-outdoors-in-summer-37720384/",
+      "assetUrl": "https://images.pexels.com/photos/37720384/pexels-photo-37720384.jpeg?cs=srgb&dl=pexels-soc-nang-d-ng-2150345854-37720384.jpg&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 2400,
+        "height": 3600
+      },
+      "teachingRole": "Close summer water-play view with one child legible inside soft motion rendering and diagonal spray streaks; the turned, partly obscured face does not prove a readable expression.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-sprinkler-park-play",
+      "title": "Multiethnic Kids Playing in Fountain",
+      "creator": "Caleb Oquendo",
+      "sourcePage": "https://www.pexels.com/photo/multiethnic-kids-playing-in-fountain-7134001/",
+      "assetUrl": "https://images.pexels.com/photos/7134001/pexels-photo-7134001.jpeg?cs=srgb&dl=pexels-caleboquendo-7134001.jpg&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 3567,
+        "height": 5351
+      },
+      "teachingRole": "Three children among crisp ground-level water jets, with repeating arches and shallow background separation preserving a warm public-park setting.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-splash-park-documentary",
+      "title": "Children Enjoying a Fun Day at the Splash Park",
+      "creator": "Thang Nguyen",
+      "sourcePage": "https://www.pexels.com/photo/children-enjoying-a-fun-day-at-the-splash-park-34976501/",
+      "assetUrl": "https://images.pexels.com/photos/34976501/pexels-photo-34976501.jpeg?cs=srgb&dl=pexels-chipi1189-34976501.jpg&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 4256,
+        "height": 2832
+      },
+      "teachingRole": "Layered splash-park scene with a readable foreground stride, surrounding play, lightly blurred streams, and believable public context.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-natural-skin-daylight",
+      "title": "Close Up of Woman Touching Face",
+      "creator": "Miriam Alonso",
+      "sourcePage": "https://www.pexels.com/photo/close-up-of-woman-touching-face-7623235/",
+      "assetUrl": "https://images.pexels.com/photos/7623235/pexels-photo-7623235.jpeg?cs=srgb&dl=pexels-miriam-alonso-7623235.jpg&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 6000,
+        "height": 4000
+      },
+      "teachingRole": "Bright outdoor close portrait where freckles, pores, small marks, and tonal variation remain visible without a clinical feel.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-ambient-social-intimacy",
+      "title": "Intimate Moment Between Friends Indoors",
+      "creator": "KAMZY NUEL",
+      "sourcePage": "https://www.pexels.com/photo/intimate-moment-between-friends-indoors-36747585/",
+      "assetUrl": "https://images.pexels.com/photos/36747585/pexels-photo-36747585.jpeg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 3256,
+        "height": 5235
+      },
+      "teachingRole": "Two friends leaning together at intimate distance under soft green and amber ambient color, with veiled foreground depth and no hard-flash look.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-ambient-party-color",
+      "title": "People at the House Party",
+      "creator": "Sergio Lopez",
+      "sourcePage": "https://www.pexels.com/photo/people-at-the-house-party-23363840/",
+      "assetUrl": "https://images.pexels.com/photos/23363840/pexels-photo-23363840.jpeg?cs=srgb&dl=pexels-sergiolalala-23363840.jpg&fm=jpg",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 4240,
+        "height": 2384
+      },
+      "teachingRole": "Close crowded party scene with central personality, foreground occlusion, grain, and saturated mixed ambient color rather than a direct-flash effect.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-quiet-lived-in-perfume",
+      "title": "Perfume Bottles on Bedside Table",
+      "creator": "Ron Lach",
+      "sourcePage": "https://www.pexels.com/photo/perfume-bottles-on-bedside-table-8624573/",
+      "assetUrl": "https://images.pexels.com/photos/8624573/pexels-photo-8624573.jpeg?auto=compress&cs=tinysrgb&w=1100",
+      "accessedAt": "2026-08-12",
+      "modification": "Not bundled in the public package; view through the recorded Pexels source.",
+      "originalDimensions": {
+        "width": 1100,
+        "height": 1650
+      },
+      "teachingRole": "Real perfume bottles in a quiet lived-in vanity scene with a softly present person, broad diffused side light, readable glass, restrained color, and environmental blur rather than luxury-ad polish.",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "authorized-remote",
+      "sourceKind": "pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "attributionText": "",
+      "distributionNote": "Remote-only in the public package because the Pexels License prohibits standalone redistribution."
+    },
+    {
+      "id": "ref-clinic-axial-reception",
+      "sourceKind": "wikimedia-commons",
+      "title": "Dentistry Clinics Reception",
+      "creator": "Yazan.shawahneh",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dentistry_Clinics_Reception.jpg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Dentistry_Clinics_Reception.jpg/1280px-Dentistry_Clinics_Reception.jpg",
+      "localPath": "assets/references/ref-clinic-axial-reception.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "accessedAt": "2026-08-12",
+      "modification": "Proportionally resized to 1100 by 618 pixels and converted to JPEG at quality 55; no crop.",
+      "originalDimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "teachingRole": "Small dental-clinic reception with unmistakable function, broad axial organization, upright perspective, deep spatial legibility, credible materials, and restrained warm-neutral illumination.",
+      "bundledDimensions": {
+        "width": 1100,
+        "height": 618
+      },
+      "sha256": "cd6dc394abc6244d9e651aa0295d60544ca96397edf7b3dce47ad87d1a7425a1",
+      "review": {
+        "reviewedAt": "2026-08-12"
+      },
+      "displayMode": "bundled",
+      "attributionText": ""
+    },
+    {
+      "id": "ref-1942-bomber-assembly",
+      "sourceKind": "library-of-congress",
+      "title": "Women at work on bomber, Douglas Aircraft Company, Long Beach, Calif.",
+      "creator": "Alfred T. Palmer",
+      "sourcePage": "https://www.loc.gov/pictures/item/2017878909/",
+      "assetUrl": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a35000/1a35300/1a35341v.jpg",
+      "localPath": "assets/references/ref-1942-bomber-assembly.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 823
+      },
+      "teachingRole": "October 1942 color factory record with two workers, riveted aircraft structure, close task detail, and dark industrial depth.",
+      "technicalClaims": [
+        {
+          "field": "date",
+          "value": "October 1942",
+          "basis": "documented",
+          "source": "https://www.loc.gov/pictures/item/2017878909/"
+        },
+        {
+          "field": "medium",
+          "value": "color transparency",
+          "basis": "documented",
+          "source": "https://www.loc.gov/pictures/item/2017878909/"
+        }
+      ],
+      "bundledDimensions": {
+        "width": 1024,
+        "height": 823
+      },
+      "sha256": "7a14022a4c85a2bac0a8740f7a8f0cacdce39012209c75fdf47a05215dec0c3e",
+      "displayMode": "bundled",
+      "attributionText": "",
+      "modification": "Proportionally resized to a maximum dimension of 1100 pixels and converted to JPEG at quality 70; no crop."
+    },
+    {
+      "id": "ref-1942-engine-installation",
+      "sourceKind": "library-of-congress",
+      "title": "Women are trained to do precise and vital engine installation detail in Douglas Aircraft Company plants, Long Beach, Calif.",
+      "creator": "Alfred T. Palmer",
+      "sourcePage": "https://www.loc.gov/pictures/item/2017878925/",
+      "assetUrl": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a35000/1a35300/1a35357v.jpg",
+      "localPath": "assets/references/ref-1942-engine-installation.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 822
+      },
+      "teachingRole": "October 1942 color factory record with a full radial engine, collaborative task action, saturated work clothes, and a dark production floor.",
+      "technicalClaims": [
+        {
+          "field": "date",
+          "value": "October 1942",
+          "basis": "documented",
+          "source": "https://www.loc.gov/pictures/item/2017878925/"
+        },
+        {
+          "field": "medium",
+          "value": "color transparency",
+          "basis": "documented",
+          "source": "https://www.loc.gov/pictures/item/2017878925/"
+        }
+      ],
+      "bundledDimensions": {
+        "width": 1024,
+        "height": 822
+      },
+      "sha256": "50a1c23745d6c36253c7378345f3bafe42e35c9bcffc2d59a0c389b82b19da87",
+      "displayMode": "bundled",
+      "attributionText": "",
+      "modification": "Proportionally resized to a maximum dimension of 1100 pixels and converted to JPEG at quality 70; no crop."
+    }
+  ],
+  "sourceDefaults": {
+    "originType": "real-photograph",
+    "accessedAt": "2026-08-11",
+    "realPhotographyStatus": "verified",
+    "technicalClaims": [],
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-08-11",
+      "fullSize": true,
+      "conversationScale": true,
+      "visualFit": "strong"
+    }
+  }
+}

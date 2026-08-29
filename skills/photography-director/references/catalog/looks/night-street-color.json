@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "id": "night-street-color",
+  "displayName": "Night Street Color",
+  "family": "documentary-street-event",
+  "definition": "A handheld urban night photograph using mixed practical light, deep ambient color, reflective surfaces, and selective pools of readable action.",
+  "aliases": [
+    "neon street photo",
+    "rainy city at night"
+  ],
+  "cues": [
+    "mixed-light",
+    "cinematic-practicals",
+    "cool-color",
+    "saturated-color"
+  ],
+  "antiCues": [
+    "day-for-night blue wash",
+    "studio-lit street",
+    "featureless black background"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "street",
+      "travel",
+      "documentary"
+    ],
+    "viewpoint-framing": [
+      "eye-level",
+      "environmental-wide",
+      "layered-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective",
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "natural-motion",
+      "subject-motion-blur"
+    ],
+    "lighting": [
+      "available-light",
+      "mixed-light",
+      "tungsten-practicals",
+      "cinematic-practicals",
+      "low-key-lighting"
+    ],
+    "composition": [
+      "leading-lines",
+      "layered-depth",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "cool-color",
+      "saturated-color",
+      "split-tone",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "pronounced-grain",
+      "halation",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-cinematic-still"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "real practical-light sources",
+    "deep night color",
+    "handheld urban presence"
+  ],
+  "adaptiveGuidance": [
+    "Adapt exposure and focus to available light; preserve recognizable source colors instead of imposing a stock grade."
+  ],
+  "applicability": [
+    "cities",
+    "night markets",
+    "travel",
+    "street life"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-night-street-color"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A handheld urban night photograph using mixed practical light, deep ambient color, reflective surfaces, and selective pools of readable action."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,701 @@
+{
+  "version": 1,
+  "id": "genre-use",
+  "displayName": "Genre and use",
+  "definition": "The communicative job and subject convention the photograph serves.",
+  "values": [
+    {
+      "id": "portrait",
+      "displayName": "Portrait",
+      "definition": "A person is the primary subject and their presence carries the frame.",
+      "aliases": [
+        "people photo",
+        "portrait photo"
+      ],
+      "visibleCues": [
+        "person as primary subject",
+        "attention to expression or bearing"
+      ],
+      "antiCues": [
+        "person incidental to another subject"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-wet-plate-collodion-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-mid-century-editorial-portrait",
+        "ref-window-light-editorial-portrait",
+        "ref-low-key-character-portrait",
+        "ref-high-key-beauty-portrait",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-soft-focus-romantic-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-instant-film-everyday-snapshot",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "environmental-portrait",
+      "displayName": "Environmental portrait",
+      "definition": "A person and a meaningful setting jointly describe identity, work, or circumstance.",
+      "aliases": [
+        "portrait at work",
+        "person in their space"
+      ],
+      "visibleCues": [
+        "recognizable person",
+        "context-rich surroundings"
+      ],
+      "antiCues": [
+        "contextless headshot"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-approachable-environmental-portrait",
+        "ref-industrial-color-production-reportage",
+        "ref-industrial-human-machine-portrait",
+        "ref-industrial-workplace-documentary"
+      ]
+    },
+    {
+      "id": "fashion",
+      "displayName": "Fashion",
+      "definition": "Clothing, styling, gesture, and image-making are organized to express a fashion idea.",
+      "aliases": [
+        "fashion shoot",
+        "clothing editorial"
+      ],
+      "visibleCues": [
+        "garment or styling is visually consequential",
+        "directed pose or movement"
+      ],
+      "antiCues": [
+        "clothing merely incidental"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-editorial-portrait",
+        "ref-high-key-beauty-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-soft-focus-romantic-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-cross-processed-slide-look",
+        "ref-editorial-contact-sheet-sequence",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "editorial",
+      "displayName": "Editorial",
+      "definition": "The photograph interprets a story, idea, publication brief, or point of view rather than only recording an object.",
+      "aliases": [
+        "magazine photo",
+        "editorial photo"
+      ],
+      "visibleCues": [
+        "clear narrative or conceptual intent",
+        "publication-ready visual point of view"
+      ],
+      "antiCues": [
+        "purely evidentiary record"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-editorial-portrait",
+        "ref-mid-century-commercial-color",
+        "ref-window-light-editorial-portrait",
+        "ref-approachable-environmental-portrait",
+        "ref-low-key-character-portrait",
+        "ref-high-key-beauty-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-industrial-workplace-documentary",
+        "ref-travel-photo-essay",
+        "ref-concert-available-light",
+        "ref-sculptural-hard-light-product",
+        "ref-window-light-food-story",
+        "ref-bright-editorial-food",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-rolling-automotive-pan",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-degraded-zine-reproduction",
+        "ref-constructed-conceptual-tableau",
+        "ref-editorial-contact-sheet-sequence",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "documentary",
+      "displayName": "Documentary",
+      "definition": "Observed people, places, or conditions are photographed to describe lived reality over time or context.",
+      "aliases": [
+        "real life photography",
+        "observational photo"
+      ],
+      "visibleCues": [
+        "specific real-world context",
+        "observed rather than visibly staged action"
+      ],
+      "antiCues": [
+        "fantasy set presented as factual"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-night-street-color",
+        "ref-industrial-color-production-reportage",
+        "ref-industrial-human-machine-portrait",
+        "ref-industrial-workplace-documentary",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-fisheye-skate-snapshot",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "photojournalism",
+      "displayName": "Photojournalism",
+      "definition": "A newsworthy event or condition is recorded with informational and temporal urgency.",
+      "aliases": [
+        "news photo",
+        "press photography"
+      ],
+      "visibleCues": [
+        "event-specific action",
+        "informational context"
+      ],
+      "antiCues": [
+        "generic reenactment presented as news"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-peak-action-photojournalism",
+        "ref-concert-available-light",
+        "ref-frozen-sports-action"
+      ]
+    },
+    {
+      "id": "street",
+      "displayName": "Street",
+      "definition": "Uncontrolled public space, fleeting relationships, and everyday urban or civic life drive the photograph.",
+      "aliases": [
+        "street photo",
+        "candid city photo"
+      ],
+      "visibleCues": [
+        "public-space observation",
+        "unscripted visual encounter"
+      ],
+      "antiCues": [
+        "studio-built street scene"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-humanist-available-light-photo-essay",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-night-street-color",
+        "ref-fisheye-skate-snapshot"
+      ]
+    },
+    {
+      "id": "event",
+      "displayName": "Event",
+      "definition": "A gathering, performance, celebration, or organized occasion is documented for experience and memory.",
+      "aliases": [
+        "party photos",
+        "event coverage"
+      ],
+      "visibleCues": [
+        "people interacting at a specific occasion",
+        "situational continuity"
+      ],
+      "antiCues": [
+        "isolated portrait with no event context"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-direct-flash-nightlife-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-concert-available-light",
+        "ref-rear-curtain-flash-motion",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "product",
+      "displayName": "Product",
+      "definition": "An object is made legible and desirable for commercial or informational use.",
+      "aliases": [
+        "product shot",
+        "catalog photo"
+      ],
+      "visibleCues": [
+        "object is unmistakable and controlled",
+        "form and material are readable"
+      ],
+      "antiCues": [
+        "object obscured beyond recognition"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-commercial-color",
+        "ref-polished-commercial-headshot",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-dark-moody-tabletop",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-studio-automotive-hero",
+        "ref-scientific-specimen-record",
+        "ref-high-speed-splash"
+      ]
+    },
+    {
+      "id": "tabletop",
+      "displayName": "Tabletop",
+      "definition": "Small objects are deliberately arranged and lit on a controllable surface.",
+      "aliases": [
+        "tabletop shot",
+        "small still life"
+      ],
+      "visibleCues": [
+        "deliberate small-scale arrangement",
+        "controlled surface and light"
+      ],
+      "antiCues": [
+        "uncontrolled wide environment"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-straight-photography-precision",
+        "ref-mid-century-commercial-color",
+        "ref-sculptural-hard-light-product",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-bright-editorial-food",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life"
+      ]
+    },
+    {
+      "id": "food",
+      "displayName": "Food",
+      "definition": "Food or drink is styled, observed, or documented as the primary sensory subject.",
+      "aliases": [
+        "food photo",
+        "restaurant photography"
+      ],
+      "visibleCues": [
+        "texture and appetite cues",
+        "legible ingredients or serving context"
+      ],
+      "antiCues": [
+        "food incidental in the distance"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-window-light-food-story",
+        "ref-bright-editorial-food"
+      ]
+    },
+    {
+      "id": "interiors",
+      "displayName": "Interiors",
+      "definition": "An inhabited or designed indoor space is described through volume, material, light, and use.",
+      "aliases": [
+        "interior photo",
+        "room photography"
+      ],
+      "visibleCues": [
+        "readable room geometry",
+        "relationship among surfaces and furnishings"
+      ],
+      "antiCues": [
+        "tight object detail with no spatial information"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-blue-hour-urban-architecture",
+        "ref-tilt-shift-architectural-study",
+        "ref-symmetrical-interior-study"
+      ]
+    },
+    {
+      "id": "architecture",
+      "displayName": "Architecture",
+      "definition": "A building or constructed environment is treated as the primary designed subject.",
+      "aliases": [
+        "building photo",
+        "architectural photography"
+      ],
+      "visibleCues": [
+        "legible structure and geometry",
+        "controlled verticals or intentional perspective"
+      ],
+      "antiCues": [
+        "building only a generic backdrop"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-albumen-travel-survey",
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-tilt-shift-architectural-study",
+        "ref-symmetrical-interior-study",
+        "ref-night-light-trail-cityscape"
+      ]
+    },
+    {
+      "id": "landscape",
+      "displayName": "Landscape",
+      "definition": "Land, water, weather, or a human-altered terrain is the primary spatial subject.",
+      "aliases": [
+        "scenery photo",
+        "nature landscape"
+      ],
+      "visibleCues": [
+        "environment dominates the frame",
+        "spatial depth or terrain structure"
+      ],
+      "antiCues": [
+        "location reduced to portrait backdrop"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-albumen-travel-survey",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-large-format-monochrome-landscape",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-golden-hour-grand-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-aerial-graphic-landscape",
+        "ref-panoramic-desert-survey",
+        "ref-intentional-camera-movement-landscape",
+        "ref-night-light-trail-cityscape"
+      ]
+    },
+    {
+      "id": "travel",
+      "displayName": "Travel",
+      "definition": "Place, culture, movement, or encounter is photographed to communicate the experience of somewhere.",
+      "aliases": [
+        "travel photo",
+        "destination photography"
+      ],
+      "visibleCues": [
+        "specific sense of place",
+        "people or details connected to location"
+      ],
+      "antiCues": [
+        "placeless generic scene"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-albumen-travel-survey",
+        "ref-night-street-color",
+        "ref-travel-photo-essay",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-aerial-graphic-landscape",
+        "ref-panoramic-desert-survey",
+        "ref-night-light-trail-cityscape",
+        "ref-cross-processed-slide-look"
+      ]
+    },
+    {
+      "id": "automotive",
+      "displayName": "Automotive",
+      "definition": "A vehicle, its design, motion, or relationship to environment is the primary subject.",
+      "aliases": [
+        "car photography",
+        "vehicle photo"
+      ],
+      "visibleCues": [
+        "vehicle form or movement is clear",
+        "surface reflections or road context are controlled"
+      ],
+      "antiCues": [
+        "vehicle incidental in traffic"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-rolling-automotive-pan",
+        "ref-studio-automotive-hero"
+      ]
+    },
+    {
+      "id": "sports",
+      "displayName": "Sports",
+      "definition": "Athletic action, competition, effort, or decisive sporting context is primary.",
+      "aliases": [
+        "sports photo",
+        "action sports"
+      ],
+      "visibleCues": [
+        "athletic movement or consequence",
+        "readable peak or sequence moment"
+      ],
+      "antiCues": [
+        "posed athlete with no sporting action"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-frozen-sports-action",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion"
+      ]
+    },
+    {
+      "id": "wildlife",
+      "displayName": "Wildlife",
+      "definition": "Undomesticated animals are photographed in behavior, habitat, or close observation.",
+      "aliases": [
+        "animal photography",
+        "bird photography"
+      ],
+      "visibleCues": [
+        "animal is primary",
+        "habitat or behavior remains credible"
+      ],
+      "antiCues": [
+        "staged domestic pet portrait"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-super-telephoto-wildlife",
+        "ref-selective-focus-macro"
+      ]
+    },
+    {
+      "id": "macro",
+      "displayName": "Macro",
+      "definition": "A very small subject or detail is rendered at life-size-like magnification so structure becomes newly visible.",
+      "aliases": [
+        "macro photo",
+        "extreme close-up"
+      ],
+      "visibleCues": [
+        "minute detail dominates",
+        "magnification changes ordinary scale"
+      ],
+      "antiCues": [
+        "ordinary close-up without fine structure"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-scientific-specimen-record",
+        "ref-selective-focus-macro"
+      ]
+    },
+    {
+      "id": "scientific",
+      "displayName": "Scientific",
+      "definition": "The photograph records a specimen, process, measurement, or phenomenon for reliable examination.",
+      "aliases": [
+        "specimen photo",
+        "research photography"
+      ],
+      "visibleCues": [
+        "clear evidentiary detail",
+        "controlled scale or viewpoint"
+      ],
+      "antiCues": [
+        "decorative ambiguity that hides the subject"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-scientific-specimen-record",
+        "ref-super-telephoto-wildlife",
+        "ref-high-speed-splash",
+        "ref-selective-focus-macro"
+      ]
+    },
+    {
+      "id": "fine-art",
+      "displayName": "Fine-art",
+      "definition": "The photograph is organized as an authored visual work whose meaning exceeds a practical record.",
+      "aliases": [
+        "art photography",
+        "gallery photo"
+      ],
+      "visibleCues": [
+        "deliberate formal or conceptual authorship",
+        "meaning carried by visual choices"
+      ],
+      "antiCues": [
+        "purely functional record with no authored intent"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-wet-plate-collodion-portrait",
+        "ref-cyanotype-botanical-photogram",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-large-format-monochrome-landscape",
+        "ref-soft-focus-romantic-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-new-color-street-observation",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-aerial-graphic-landscape",
+        "ref-panoramic-desert-survey",
+        "ref-intentional-camera-movement-landscape",
+        "ref-dark-moody-tabletop",
+        "ref-selective-focus-macro",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-cross-processed-slide-look",
+        "ref-degraded-zine-reproduction",
+        "ref-constructed-conceptual-tableau",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "conceptual",
+      "displayName": "Conceptual",
+      "definition": "An idea, construction, or proposition is the primary subject of the photographic work.",
+      "aliases": [
+        "concept photo",
+        "idea-driven photography"
+      ],
+      "visibleCues": [
+        "visible organizing concept",
+        "staging or treatment serves an idea"
+      ],
+      "antiCues": [
+        "style effect with no conceptual relationship"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-vision-geometry",
+        "ref-cinematic-practical-light-portrait",
+        "ref-intentional-camera-movement-landscape",
+        "ref-high-speed-splash",
+        "ref-rear-curtain-flash-motion",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-degraded-zine-reproduction",
+        "ref-constructed-conceptual-tableau"
+      ]
+    }
+  ]
+}

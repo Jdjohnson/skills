@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "roadside-vernacular",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "John Margolies Roadside America Photograph Archive",
+    "creatorOrTradition": "American roadside commercial vernacular",
+    "sourceUrl": "https://guides.loc.gov/roadside-america-photographs",
+    "whyCanonical": "The archive documents thousands of vernacular commercial structures along U.S. roads and shows the inseparable relationship between signs, buildings, color, travel, and local commerce."
+  },
+  "sources": [
+    {
+      "title": "Roadside America Photographs by John Margolies",
+      "publisher": "Library of Congress",
+      "url": "https://guides.loc.gov/roadside-america-photographs",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Roadside commercial vernacular is documented as site-specific architecture and signage along streets, byways, and highways."
+      ]
+    },
+    {
+      "title": "John Margolies Roadside America Photograph Archive",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/free-to-use/john-margolies-roadside-america-photograph-archive",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The collection demonstrates recurring roadside sign, storefront, motel, diner, and object-building forms across more than eleven thousand photographs."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach hand painted lettering, road scale message, improvised sign shape, weathered board while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/roadside-vernacular/generated-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/roadside-vernacular/generated-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach hand painted lettering, road scale message, improvised sign shape, weathered board while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

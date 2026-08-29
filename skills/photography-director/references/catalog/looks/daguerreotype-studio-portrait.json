@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "id": "daguerreotype-studio-portrait",
+  "displayName": "Daguerreotype Studio Portrait",
+  "family": "historical-process",
+  "definition": "A formal early-studio portrait with held pose, centered presence, dark tonal surround, and the documented plate clarity of a daguerreotype.",
+  "aliases": [
+    "1840s studio portrait",
+    "formal silver plate portrait"
+  ],
+  "cues": [
+    "centered-framing",
+    "early-studio-photography",
+    "daguerreotype-process",
+    "fine-grain"
+  ],
+  "antiCues": [
+    "casual snapshot",
+    "modern shallow-focus bokeh",
+    "fake scratches"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait"
+    ],
+    "viewpoint-framing": [
+      "medium-close-up",
+      "eye-level",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "lighting": [
+      "daylight",
+      "soft-light",
+      "front-light",
+      "top-light",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "centrality",
+      "symmetry"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "daguerreotype-process"
+    ],
+    "processing-texture": [
+      "fine-grain",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "early-studio-photography"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "formal stillness",
+    "plate-like tonal density",
+    "centered studio presence"
+  ],
+  "adaptiveGuidance": [
+    "Adapt pose duration and framing to the subject; only call the process authentic when documented."
+  ],
+  "applicability": [
+    "people",
+    "historic interpretation"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-daguerreotype-studio-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photographic Processes Video Series & Glossary",
+        "publisher": "George Eastman Museum",
+        "url": "https://www.eastman.org/photographic-processes-video-series-glossary",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A formal early-studio portrait with held pose, centered presence, dark tonal surround, and the documented plate clarity of a daguerreotype."
+        ]
+      }
+    ]
+  }
+}

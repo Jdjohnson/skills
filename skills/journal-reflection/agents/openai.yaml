@@ -1,0 +1,4 @@
+interface:
+  display_name: "Journal Reflection"
+  short_description: "Analyze journal sources across dates or themes"
+  default_prompt: "Use $journal-reflection for source-based analysis across these journal dates, this range, or this theme."

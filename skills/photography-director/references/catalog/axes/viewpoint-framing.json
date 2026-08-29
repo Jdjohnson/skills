@@ -1,0 +1,722 @@
+{
+  "version": 1,
+  "id": "viewpoint-framing",
+  "displayName": "Viewpoint and framing",
+  "definition": "How close the camera appears, where it looks from, and how much context the frame includes.",
+  "values": [
+    {
+      "id": "extreme-close-up",
+      "displayName": "Extreme close-up",
+      "definition": "A tiny portion of the subject fills the frame and suppresses ordinary scale.",
+      "aliases": [
+        "super close",
+        "fill the frame with detail"
+      ],
+      "visibleCues": [
+        "minute area fills the image",
+        "context is mostly excluded"
+      ],
+      "antiCues": [
+        "full subject visible"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-scientific-specimen-record",
+        "ref-high-speed-splash",
+        "ref-selective-focus-macro"
+      ]
+    },
+    {
+      "id": "detail-framing",
+      "displayName": "Detail framing",
+      "definition": "A meaningful part of a larger subject is isolated while retaining enough structure to identify it.",
+      "aliases": [
+        "detail shot",
+        "close detail"
+      ],
+      "visibleCues": [
+        "part rather than whole",
+        "local structure remains legible"
+      ],
+      "antiCues": [
+        "unreadable abstraction"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-straight-photography-precision",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-scientific-specimen-record",
+        "ref-high-speed-splash",
+        "ref-selective-focus-macro"
+      ]
+    },
+    {
+      "id": "close-up",
+      "displayName": "Close-up",
+      "definition": "The face or primary object occupies most of the frame.",
+      "aliases": [
+        "tight shot",
+        "close portrait"
+      ],
+      "visibleCues": [
+        "subject dominates frame",
+        "limited surrounding context"
+      ],
+      "antiCues": [
+        "environment dominates"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-high-key-beauty-portrait",
+        "ref-direct-flash-nightlife-portrait",
+      "ref-soft-focus-romantic-portrait",
+      "ref-black-and-white-close-portrait",
+      "ref-low-key-character-portrait",
+      "ref-y2k-party-flash-portrait",
+        "ref-super-telephoto-wildlife",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-degraded-zine-reproduction"
+      ]
+    },
+    {
+      "id": "medium-close-up",
+      "displayName": "Medium close-up",
+      "definition": "A person is commonly framed around chest or shoulders, balancing expression with some gesture.",
+      "aliases": [
+        "head and shoulders",
+        "chest-up portrait"
+      ],
+      "visibleCues": [
+        "face and upper body readable",
+        "moderate context"
+      ],
+      "antiCues": [
+        "full-length figure"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+      "ref-daguerreotype-studio-portrait",
+      "ref-medium-format-formal-portrait",
+      "ref-window-light-editorial-portrait",
+      "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-multiple-exposure-conceptual-portrait"
+      ]
+    },
+    {
+      "id": "medium-shot",
+      "displayName": "Medium shot",
+      "definition": "The subject and a useful portion of body or surroundings share the frame.",
+      "aliases": [
+        "waist-up",
+        "medium framing"
+      ],
+      "visibleCues": [
+        "gesture and context both visible",
+        "balanced subject scale"
+      ],
+      "antiCues": [
+        "face-only crop"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-mid-century-commercial-color",
+        "ref-approachable-environmental-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-industrial-color-production-reportage",
+        "ref-industrial-human-machine-portrait",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-concert-available-light",
+        "ref-frozen-sports-action",
+        "ref-rear-curtain-flash-motion",
+        "ref-cross-processed-slide-look",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-instant-film-everyday-snapshot",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "three-quarter-framing",
+      "displayName": "Three-quarter framing",
+      "definition": "Most of a person or object is shown without the full surrounding environment.",
+      "aliases": [
+        "three quarter portrait",
+        "knees-up"
+      ],
+      "visibleCues": [
+        "nearly full subject",
+        "some context retained"
+      ],
+      "antiCues": [
+        "extreme close crop"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-tintype-vernacular-portrait",
+        "ref-mid-century-editorial-portrait",
+        "ref-studio-automotive-hero"
+      ]
+    },
+    {
+      "id": "full-length",
+      "displayName": "Full-length",
+      "definition": "The complete person or object is included with deliberate space around it.",
+      "aliases": [
+        "full body",
+        "head to toe"
+      ],
+      "visibleCues": [
+        "complete subject silhouette",
+        "pose readable from end to end"
+      ],
+      "antiCues": [
+        "cropped limbs"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-wet-plate-collodion-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-rolling-automotive-pan",
+        "ref-studio-automotive-hero",
+        "ref-editorial-contact-sheet-sequence",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "environmental-wide",
+      "displayName": "Environmental wide",
+      "definition": "The subject remains identifiable inside a broad, information-rich setting.",
+      "aliases": [
+        "wide environmental shot",
+        "person small in scene"
+      ],
+      "visibleCues": [
+        "broad setting",
+        "subject-context relationship"
+      ],
+      "antiCues": [
+        "isolated backdrop"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-albumen-travel-survey",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-night-street-color",
+        "ref-industrial-workplace-documentary",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-tilt-shift-architectural-study",
+        "ref-symmetrical-interior-study",
+        "ref-intentional-camera-movement-landscape",
+        "ref-night-light-trail-cityscape",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "extreme-wide",
+      "displayName": "Extreme wide",
+      "definition": "A very broad field makes scale, terrain, or architecture dominate over individual subjects.",
+      "aliases": [
+        "ultra wide view",
+        "very wide establishing shot"
+      ],
+      "visibleCues": [
+        "expansive field of view",
+        "small subject scale"
+      ],
+      "antiCues": [
+        "tight perspective"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-large-format-monochrome-landscape",
+        "ref-golden-hour-grand-landscape",
+        "ref-aerial-graphic-landscape",
+        "ref-panoramic-desert-survey",
+        "ref-fisheye-skate-snapshot"
+      ]
+    },
+    {
+      "id": "eye-level",
+      "displayName": "Eye-level",
+      "definition": "The camera meets the subject from an ordinary standing or seated human height.",
+      "aliases": [
+        "straight eye level",
+        "natural height"
+      ],
+      "visibleCues": [
+        "neutral vertical relationship",
+        "little viewpoint drama"
+      ],
+      "antiCues": [
+        "obvious view from above or below"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-albumen-travel-survey",
+        "ref-large-format-monochrome-landscape",
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-mid-century-editorial-portrait",
+        "ref-window-light-editorial-portrait",
+        "ref-approachable-environmental-portrait",
+        "ref-low-key-character-portrait",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-cinematic-practical-light-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-night-street-color",
+        "ref-industrial-workplace-documentary",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-golden-hour-grand-landscape",
+        "ref-long-exposure-seascape",
+        "ref-panoramic-desert-survey",
+        "ref-studio-automotive-hero",
+        "ref-super-telephoto-wildlife",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "high-angle",
+      "displayName": "High angle",
+      "definition": "The camera looks down from above the subject without becoming fully overhead.",
+      "aliases": [
+        "looking down",
+        "shot from above"
+      ],
+      "visibleCues": [
+        "visible top planes",
+        "subject appears below camera"
+      ],
+      "antiCues": [
+        "upward converging view"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-vision-geometry",
+        "ref-tilt-shift-architectural-study",
+        "ref-night-light-trail-cityscape"
+      ]
+    },
+    {
+      "id": "low-angle",
+      "displayName": "Low angle",
+      "definition": "The camera looks upward from below the subject.",
+      "aliases": [
+        "looking up",
+        "hero angle"
+      ],
+      "visibleCues": [
+        "visible undersides",
+        "subject rises above camera"
+      ],
+      "antiCues": [
+        "top-down view"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-hard-sun-fashion-editorial",
+        "ref-concert-available-light",
+        "ref-blue-hour-urban-architecture",
+        "ref-rolling-automotive-pan",
+        "ref-frozen-sports-action",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "overhead",
+      "displayName": "Overhead",
+      "definition": "The camera looks nearly perpendicular down onto the scene.",
+      "aliases": [
+        "top down",
+        "flat lay angle"
+      ],
+      "visibleCues": [
+        "plan-like view",
+        "surface becomes picture plane"
+      ],
+      "antiCues": [
+        "eye-level depth"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-aerial-graphic-landscape",
+        "ref-window-light-food-story",
+        "ref-bright-editorial-food",
+        "ref-scientific-specimen-record"
+      ]
+    },
+    {
+      "id": "aerial",
+      "displayName": "Aerial",
+      "definition": "The camera views terrain or built form from substantial elevation.",
+      "aliases": [
+        "drone view",
+        "from the air"
+      ],
+      "visibleCues": [
+        "large-scale pattern",
+        "elevated geographic view"
+      ],
+      "antiCues": [
+        "ground-level horizon"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-aerial-graphic-landscape"
+      ]
+    },
+    {
+      "id": "worm-eye",
+      "displayName": "Worm's-eye",
+      "definition": "An extreme low viewpoint makes near forms loom and verticals surge upward.",
+      "aliases": [
+        "ground level looking up",
+        "extreme low angle"
+      ],
+      "visibleCues": [
+        "foreground enlargement",
+        "strong upward convergence"
+      ],
+      "antiCues": [
+        "neutral eye-level view"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-vision-geometry",
+        "ref-fisheye-skate-snapshot"
+      ]
+    },
+    {
+      "id": "oblique-view",
+      "displayName": "Oblique view",
+      "definition": "The camera meets planes at a diagonal rather than straight on.",
+      "aliases": [
+        "angled view",
+        "diagonal viewpoint"
+      ],
+      "visibleCues": [
+        "receding planes",
+        "diagonal spatial tension"
+      ],
+      "antiCues": [
+        "flat elevation-like view"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-vision-geometry",
+        "ref-grunge-editorial-portrait",
+        "ref-blue-hour-urban-architecture",
+        "ref-tilt-shift-architectural-study",
+        "ref-intentional-camera-movement-landscape",
+        "ref-night-light-trail-cityscape",
+        "ref-sculptural-hard-light-product",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-luxury-still-life-polish",
+        "ref-selective-focus-macro",
+        "ref-rear-curtain-flash-motion",
+        "ref-intentional-blur-conceptual-fashion"
+      ]
+    },
+    {
+      "id": "straight-on-view",
+      "displayName": "Straight-on view",
+      "definition": "The camera faces the dominant subject plane squarely.",
+      "aliases": [
+        "front on",
+        "elevation view"
+      ],
+      "visibleCues": [
+        "parallel subject plane",
+        "reduced diagonal recession"
+      ],
+      "antiCues": [
+        "strong oblique angle"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-albumen-travel-survey",
+        "ref-straight-photography-precision",
+        "ref-mid-century-commercial-color",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-bright-editorial-food",
+        "ref-direct-flash-still-life",
+        "ref-scientific-specimen-record",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "centered-framing",
+      "displayName": "Centered framing",
+      "definition": "The primary subject sits on or very near the frame's central axis.",
+      "aliases": [
+        "centered subject",
+        "dead center"
+      ],
+      "visibleCues": [
+        "central visual weight",
+        "balanced margins"
+      ],
+      "antiCues": [
+        "subject pressed to edge"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-mid-century-commercial-color",
+        "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-medium-format-formal-portrait",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-bright-editorial-food",
+        "ref-luxury-still-life-polish",
+        "ref-high-speed-splash",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-constructed-conceptual-tableau",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "symmetrical-framing",
+      "displayName": "Symmetrical framing",
+      "definition": "Mirrored or balanced spatial structure organizes both sides of the frame.",
+      "aliases": [
+        "perfect symmetry",
+        "balanced room"
+      ],
+      "visibleCues": [
+        "paired forms across an axis",
+        "formal balance"
+      ],
+      "antiCues": [
+        "deliberate lopsidedness"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-medium-format-formal-portrait",
+        "ref-symmetrical-interior-study"
+      ]
+    },
+    {
+      "id": "off-center-framing",
+      "displayName": "Off-center framing",
+      "definition": "The primary subject is displaced from center to create direction or tension.",
+      "aliases": [
+        "off center",
+        "asymmetrical framing"
+      ],
+      "visibleCues": [
+        "uneven visual weight",
+        "active surrounding space"
+      ],
+      "antiCues": [
+        "formal centered balance"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-wet-plate-collodion-portrait",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-new-vision-geometry",
+        "ref-mid-century-editorial-portrait",
+        "ref-window-light-editorial-portrait",
+        "ref-low-key-character-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-soft-focus-romantic-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-new-color-street-observation",
+        "ref-peak-action-photojournalism",
+        "ref-overcast-minimal-landscape",
+        "ref-sculptural-hard-light-product",
+        "ref-dark-moody-tabletop",
+        "ref-direct-flash-still-life",
+        "ref-rolling-automotive-pan",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-cross-processed-slide-look",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-degraded-zine-reproduction",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "layered-framing",
+      "displayName": "Layered framing",
+      "definition": "Foreground, middle ground, and background elements overlap to create simultaneous depth and events.",
+      "aliases": [
+        "layers in the frame",
+        "foreground and background action"
+      ],
+      "visibleCues": [
+        "multiple readable depth planes",
+        "overlapping visual events"
+      ],
+      "antiCues": [
+        "single isolated plane"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-humanist-available-light-photo-essay",
+        "ref-layered-street-observation",
+        "ref-night-street-color",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "environmental-framing",
+      "displayName": "Environmental framing",
+      "definition": "Doorways, machinery, landscape, furniture, or architecture visibly situate and frame the subject.",
+      "aliases": [
+        "subject framed by surroundings",
+        "contextual framing"
+      ],
+      "visibleCues": [
+        "surroundings actively shape the subject area",
+        "place remains specific"
+      ],
+      "antiCues": [
+        "seamless neutral backdrop"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-wet-plate-collodion-portrait",
+        "ref-approachable-environmental-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-layered-street-observation",
+        "ref-industrial-color-production-reportage",
+        "ref-industrial-human-machine-portrait",
+        "ref-industrial-workplace-documentary",
+        "ref-travel-photo-essay",
+        "ref-concert-available-light",
+        "ref-bleach-bypass-cinematic-still"
+      ]
+    }
+  ]
+}

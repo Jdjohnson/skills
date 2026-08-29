@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "id": "bleach-bypass-cinematic-still",
+  "displayName": "Bleach-Bypass Color Treatment",
+  "family": "action-nature-experimental",
+  "definition": "A photograph with reduced color, metallic high contrast, dense grain, and a documented or explicitly emulated bleach-bypass appearance.",
+  "aliases": [
+    "desaturated gritty movie still",
+    "bleach bypass photo"
+  ],
+  "cues": [
+    "bleach-bypass-feel",
+    "contemporary-cinematic-still",
+    "muted-color",
+    "high-contrast-tonality"
+  ],
+  "antiCues": [
+    "pastel softness",
+    "generic teal-orange grade",
+    "claim of chemical process without documentation"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "editorial",
+      "conceptual",
+      "documentary"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "environmental-framing",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "motivated-light",
+      "cinematic-practicals",
+      "side-light",
+      "high-ratio-lighting",
+      "low-key-lighting"
+    ],
+    "composition": [
+      "environmental-context",
+      "edge-tension",
+      "diagonal-composition"
+    ],
+    "color-tonality": [
+      "muted-color",
+      "high-contrast-tonality",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "bleach-bypass-feel",
+      "pronounced-grain",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-cinematic-still"
+    ],
+    "format-output": [
+      "sixteen-nine-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "reduced metallic color",
+    "dense contrast",
+    "motivated narrative light"
+  ],
+  "adaptiveGuidance": [
+    "Adapt lighting and grain to the subject; call it a bleach-bypass appearance unless the actual process is documented."
+  ],
+  "applicability": [
+    "industrial stories",
+    "action editorial",
+    "narrative portraits"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-bleach-bypass-cinematic-still"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photography",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A photograph with reduced color, metallic high contrast, dense grain, and a documented or explicitly emulated bleach-bypass appearance."
+        ]
+      }
+    ]
+  }
+}

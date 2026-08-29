@@ -1,0 +1,57 @@
+{
+  "id": "concrete-cast",
+  "group": "material-shift",
+  "definition": "Concrete mass and cast texture.",
+  "targetConcerns": [
+    "materialTexture",
+    "shapeLine"
+  ],
+  "compatibleStyles": [
+    "brutalism",
+    "industrial-warehouse",
+    "scaffold-structure",
+    "industrial-monochrome"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "luxe-atelier",
+    "organic-craft"
+  ],
+  "incompatibleModifiers": [],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "materialTexture",
+          "path": "grain",
+          "factor": 1.15
+        },
+        {
+          "op": "addParam",
+          "concern": "shapeLine",
+          "path": "lineWeight",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

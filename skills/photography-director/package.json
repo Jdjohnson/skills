@@ -1,0 +1,13 @@
+{
+  "name": "photography-director",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Real-photography-led direction and portable prompt skill",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "test": "node scripts/validate.mjs"
+  }
+}

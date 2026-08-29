@@ -3,8 +3,7 @@ name: Validate
 on:
   pull_request:
   push:
-    branches:
-      - main
+    branches: [main]
 
 permissions:
   contents: read
@@ -17,14 +16,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate inventory and metadata
-        run: python3 .maintainer/check_parity.py
-      - name: Run skill unit tests
-        shell: bash
-        run: |
-          set -euo pipefail
-          while IFS= read -r test_file; do
-            python3 "$test_file"
-          done < <(find skills -path '*/tests/test_*.py' -type f | sort)
-      - name: Run ChatGPT packet tests
-        run: python3 .maintainer/chatgpt/test_build_desktop_packet.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+      - name: Validate packages
+        run: python3 scripts/validate.py
+      - name: Run deterministic tests
+        run: bash scripts/test.sh

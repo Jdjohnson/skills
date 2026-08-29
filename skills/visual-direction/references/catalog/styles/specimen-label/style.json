@@ -1,0 +1,163 @@
+{
+  "id": "specimen-label",
+  "displayName": "Specimen Label",
+  "family": "scientific-diagram",
+  "definition": "Collection-linked cards and tags organized through accession number, taxonomic name, provenance, date, identifier hierarchy, and compact institutional type.",
+  "axes": {
+    "minimalOrnate": -0.5,
+    "geometricOrganic": -0.4,
+    "polishedRaw": -0.2,
+    "calmEnergetic": -0.4,
+    "historicalFuturistic": 0.4,
+    "realisticAbstract": -0.3,
+    "warmCool": 0.2,
+    "lightDark": -0.2,
+    "playfulSerious": 0.7,
+    "handmadeMachined": 0.5,
+    "flatDeep": -0.5,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "catalog-number",
+    "taxonomic-name",
+    "collection-locality",
+    "collector-date",
+    "compact-institutional-type",
+    "physical-tag",
+    "provenance-record",
+    "identifier-hierarchy"
+  ],
+  "antiCues": [
+    "visitor-wall-text",
+    "boutique-hangtag",
+    "decorative-latin",
+    "large-exhibition-panel",
+    "generic-library-card"
+  ],
+  "emotionalEffects": [
+    "austere",
+    "scholarly",
+    "solemn"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.25,
+      "symmetry": 0.75,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#F4F1EA",
+        "#634E46",
+        "#502B8B",
+        "#1E3022",
+        "#A8B9BC"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/museum-label.svg",
+      "descriptor": "system sans/display",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/scientific-diagram-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.2,
+      "tags": [
+        "paper",
+        "cardboard"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "link-label-to-specific-specimen",
+        "prioritize-catalog-and-collection-data",
+        "retain-physical-scale-and-attachment",
+        "distinguish-curatorial-record-from-exhibition-copy"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 1,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 0,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 0,
+    "product-3d": 1,
+    "interiors-architecture": 3,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a compact collection tag attached to or photographed beside a specific specimen, carrying catalog number, scientific name, locality, collector, and date",
+    "framing": "show the label at true object scale with its pin, string, tray, jar, or specimen relationship visible",
+    "mustShow": [
+      "unique catalog identifier",
+      "taxonomic or object name",
+      "place collector or date metadata"
+    ],
+    "mustAvoid": [
+      "museum wall paragraph",
+      "fashion hangtag",
+      "invented Latin",
+      "oversized display typography",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "botanical-plate",
+    "field-guide",
+    "anatomical-plate"
+  ],
+  "contrasting": [
+    "market-vernacular",
+    "festival-banner",
+    "carnival-poster"
+  ]
+}

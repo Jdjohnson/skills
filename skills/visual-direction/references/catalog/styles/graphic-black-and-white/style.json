@@ -1,0 +1,163 @@
+{
+  "id": "graphic-black-and-white",
+  "displayName": "Graphic Black & White",
+  "family": "cinematic-noir",
+  "definition": "Contemporary photography reduced to crushed blacks, blown whites, hard light cuts, silhouettes, and stark shape-first composition.",
+  "axes": {
+    "minimalOrnate": -0.7,
+    "geometricOrganic": -0.5,
+    "polishedRaw": -0.4,
+    "calmEnergetic": 0.2,
+    "historicalFuturistic": 0.2,
+    "realisticAbstract": 0.3,
+    "warmCool": 0,
+    "lightDark": 0.7,
+    "playfulSerious": 0.5,
+    "handmadeMachined": 0.5,
+    "flatDeep": 0.2,
+    "everydayLuxurious": -0.1
+  },
+  "cues": [
+    "crushed-black",
+    "blown-white",
+    "shape-first",
+    "hard-light-cut",
+    "silhouette",
+    "stark-crop",
+    "minimal-midtones",
+    "contemporary-photography"
+  ],
+  "antiCues": [
+    "soft-gray-range",
+    "period-noir-costume",
+    "scientific-plate",
+    "decorative-monochrome-pattern"
+  ],
+  "emotionalEffects": [
+    "dramatic",
+    "austere",
+    "timeless"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.4,
+      "symmetry": 0.35,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#000000",
+        "#FFFFFF",
+        "#777777",
+        "#222222",
+        "#DDDDDD"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/high-contrast-bw.svg",
+      "descriptor": "bold grotesk with stark weight contrast",
+      "weight": 800,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/cinematic-noir-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.45,
+      "tags": [
+        "film-grain",
+        "paper"
+      ]
+    },
+    "lighting": {
+      "contrast": 1,
+      "keyDirection": "side",
+      "gradient": 0.2
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.15,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.35,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.02,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "photographic",
+      "subjectRules": [
+        "style-specific-subject",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 2,
+    "packaging": 1,
+    "photography": 3,
+    "motion-video": 2,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "figure reduced to stark tonal geometry",
+    "framing": "Crop a contemporary subject so one hard light creates a white plane against a dominant black mass; retain only the contour and one critical internal detail.",
+    "mustShow": [
+      "crushed-black",
+      "shape-first",
+      "hard-light-cut"
+    ],
+    "mustAvoid": [
+      "soft-gray-range",
+      "period-noir-costume",
+      "scientific-plate",
+      "decorative-monochrome-pattern",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "film-noir",
+    "fashion-editorial",
+    "concrete-poetry"
+  ],
+  "contrasting": [
+    "neo-noir-neon",
+    "kids-picture-book",
+    "memphis-design"
+  ]
+}
