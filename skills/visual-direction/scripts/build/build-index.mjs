@@ -47,7 +47,7 @@ function buildAttribution(ledger) {
       lines.push("Generation record: " + record.generationRecord, "");
     }
   }
-  return lines.join("\n") + "\n";
+  return lines.join("\n").replace(/\n+$/, "") + "\n";
 }
 
 function approvedStrong(image) {

@@ -115,7 +115,7 @@ function expectedAttribution(ledger) {
     }
     if (record.originType === "generated" && record.generationRecord) lines.push(`Generation record: ${record.generationRecord}`, "");
   }
-  return `${lines.join("\n")}\n`;
+  return `${lines.join("\n").replace(/\n+$/, "")}\n`;
 }
 
 const styleIds = readdirSync(STYLES).filter((id) => existsSync(join(STYLES, id, "style.json"))).sort();
