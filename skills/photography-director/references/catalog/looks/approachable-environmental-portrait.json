@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "id": "approachable-environmental-portrait",
+  "displayName": "Approachable Environmental Portrait",
+  "family": "portrait-editorial",
+  "definition": "A confident but unforced portrait that keeps the person's real work environment legible, uses descriptive location light, and avoids corporate-stock polish.",
+  "aliases": [
+    "professional but approachable portrait",
+    "person at work but natural"
+  ],
+  "cues": [
+    "environmental-portrait",
+    "environmental-context",
+    "moderate-separation",
+    "visible-work-context"
+  ],
+  "antiCues": [
+    "seamless corporate headshot",
+    "arms-crossed stock pose",
+    "over-retouched skin"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "environmental-portrait",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "eye-level",
+      "environmental-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "lighting": [
+      "daylight",
+      "hard-light",
+      "side-light"
+    ],
+    "composition": [
+      "environmental-context",
+      "rule-of-thirds"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "restrained-skin-tones"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "restrained-retouching",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "three-two-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "credible setting",
+    "open human presence",
+    "descriptive location light"
+  ],
+  "adaptiveGuidance": [
+    "Adapt framing and camera distance to the workplace; keep enough background sharp to say where the person is."
+  ],
+  "applicability": [
+    "leaders",
+    "makers",
+    "workplaces",
+    "personal brands"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-approachable-environmental-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photography",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A confident but unforced portrait that keeps the person's real work environment legible, uses descriptive location light, and avoids corporate-stock polish."
+        ]
+      }
+    ]
+  }
+}

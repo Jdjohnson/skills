@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "fashion-editorial",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Twentieth-century fashion photography and magazine spreads",
+    "creatorOrTradition": "Fashion photographers, stylists, art directors, and publications",
+    "sourceUrl": "https://www.vam.ac.uk/articles/100-years-of-fashion-photography",
+    "whyCanonical": "The V&A survey establishes fashion editorial as a collaboration among garment, model, pose, setting, photography, and publication context rather than ordinary portraiture with fashionable clothing."
+  },
+  "sources": [
+    {
+      "title": "100 years of fashion photography",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/100-years-of-fashion-photography",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Fashion photography developed through deliberate staging, changing ideals, and strong relationships with editorial publication.",
+        "The examples support art-directed figure, garment clarity, and period-specific photographic decisions."
+      ]
+    },
+    {
+      "title": "Collection selection boxes: Fashion Photography 1910–Present",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/info/collection-selection-boxes-fashion-photography-1910-present",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The collection framework treats fashion photography as a century-long field with distinct editorial approaches, not a single luxury look.",
+        "The institutional selection supports comparing pose, styling, crop, and publication context across examples."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches art directed fashion, photographic, controlled asymmetry, full bleed, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/fashion-editorial/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/fashion-editorial/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches art directed fashion, photographic, controlled asymmetry, full bleed, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

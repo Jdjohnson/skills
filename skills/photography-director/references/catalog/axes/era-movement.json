@@ -1,0 +1,500 @@
+{
+  "version": 1,
+  "id": "era-movement",
+  "displayName": "Era and movement",
+  "definition": "Historically grounded photographic traditions and recognizable practical modes; names describe transferable treatments, not living-photographer imitation.",
+  "values": [
+    {
+      "id": "early-studio-photography",
+      "displayName": "Early studio photography",
+      "definition": "Nineteenth-century long-exposure portrait conventions use formal pose, controlled studio support, and process-specific tonal response.",
+      "aliases": [
+        "Victorian studio photo",
+        "1840s portrait"
+      ],
+      "visibleCues": [
+        "formal held pose",
+        "plain or painted studio setting"
+      ],
+      "antiCues": [
+        "casual high-speed snapshot"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-wet-plate-collodion-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-albumen-travel-survey"
+      ]
+    },
+    {
+      "id": "pictorialism",
+      "displayName": "Pictorialism",
+      "definition": "Late-nineteenth- and early-twentieth-century art photography uses soft focus, atmospheric printing, and painterly composition.",
+      "aliases": [
+        "pictorialist",
+        "romantic old art photo"
+      ],
+      "visibleCues": [
+        "soft focus",
+        "expressive atmosphere and crafted print"
+      ],
+      "antiCues": [
+        "clinical straight description"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-pictorialist-soft-focus-landscape"
+      ]
+    },
+    {
+      "id": "straight-photography",
+      "displayName": "Straight photography",
+      "definition": "Modernist camera description favors optical clarity, direct observation, and photographic rather than painterly effects.",
+      "aliases": [
+        "straight photography",
+        "modernist sharp photo"
+      ],
+      "visibleCues": [
+        "crisp descriptive form",
+        "minimal manipulative haze"
+      ],
+      "antiCues": [
+        "genteel painterly blur"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-straight-photography-precision",
+        "ref-large-format-monochrome-landscape",
+        "ref-scientific-specimen-record"
+      ]
+    },
+    {
+      "id": "new-vision",
+      "displayName": "New Vision",
+      "definition": "Interwar experimental photography uses radical high/low viewpoints, geometric cropping, repetition, and modern-machine seeing.",
+      "aliases": [
+        "Bauhaus photography",
+        "New Vision photo"
+      ],
+      "visibleCues": [
+        "unusual viewpoint",
+        "graphic geometry or photomontage logic"
+      ],
+      "antiCues": [
+        "conventional eye-level balance"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-vision-geometry",
+        "ref-aerial-graphic-landscape",
+        "ref-multiple-exposure-conceptual-portrait"
+      ]
+    },
+    {
+      "id": "social-documentary",
+      "displayName": "Social documentary",
+      "definition": "Photography describes social conditions, labor, inequality, or community through specific observed evidence.",
+      "aliases": [
+        "social documentary",
+        "social issue photography"
+      ],
+      "visibleCues": [
+        "people and conditions linked",
+        "context carries social meaning"
+      ],
+      "antiCues": [
+        "aesthetic poverty without context"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-industrial-workplace-documentary"
+      ]
+    },
+    {
+      "id": "fsa-documentary",
+      "displayName": "FSA documentary",
+      "definition": "The 1930s–40s U.S. government documentary tradition combines direct observation, social context, and often large-negative clarity.",
+      "aliases": [
+        "Depression era documentary",
+        "FSA photo"
+      ],
+      "visibleCues": [
+        "specific rural or labor context",
+        "direct black-and-white description"
+      ],
+      "antiCues": [
+        "nostalgia filter without documentary specificity"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-industrial-color-production-reportage",
+        "ref-fsa-social-documentary"
+      ]
+    },
+    {
+      "id": "humanist-photojournalism",
+      "displayName": "Humanist photojournalism",
+      "definition": "Mid-century small-camera observation emphasizes ordinary people, empathy, gesture, and the narrative instant.",
+      "aliases": [
+        "humanist street photo",
+        "classic photo essay"
+      ],
+      "visibleCues": [
+        "unscripted human gesture",
+        "location-based available light"
+      ],
+      "antiCues": [
+        "cold product-like staging"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-humanist-available-light-photo-essay",
+        "ref-layered-street-observation",
+        "ref-peak-action-photojournalism"
+      ]
+    },
+    {
+      "id": "mid-century-editorial",
+      "displayName": "Mid-century editorial",
+      "definition": "Magazine portrait and fashion work uses decisive graphic design, studio craft, gesture, and print-aware composition.",
+      "aliases": [
+        "1950s magazine photo",
+        "midcentury fashion editorial"
+      ],
+      "visibleCues": [
+        "graphic pose and silhouette",
+        "publication-conscious framing"
+      ],
+      "antiCues": [
+        "casual phone snapshot"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-editorial-portrait",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "mid-century-commercial",
+      "displayName": "Mid-century commercial",
+      "definition": "Postwar advertising photography uses controlled color, clear products, aspirational staging, and print-ready polish.",
+      "aliases": [
+        "1950s ad photo",
+        "vintage commercial color"
+      ],
+      "visibleCues": [
+        "controlled studio color",
+        "clear aspirational subject"
+      ],
+      "antiCues": [
+        "uncontrolled documentary mess"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-commercial-color"
+      ]
+    },
+    {
+      "id": "new-topographics",
+      "displayName": "New Topographics",
+      "definition": "The 1970s tradition depicts human-altered landscape with detached, frontal, precise, and anti-spectacular description.",
+      "aliases": [
+        "deadpan landscape",
+        "New Topographics"
+      ],
+      "visibleCues": [
+        "ordinary built landscape",
+        "cool detached geometry"
+      ],
+      "antiCues": [
+        "romantic sunset spectacle"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-topographics-deadpan-landscape",
+        "ref-panoramic-desert-survey"
+      ]
+    },
+    {
+      "id": "new-color",
+      "displayName": "New Color",
+      "definition": "Late-twentieth-century art photography treats everyday color as structural content rather than decoration.",
+      "aliases": [
+        "New Color photography",
+        "Eggleston-like color"
+      ],
+      "visibleCues": [
+        "ordinary subject with exact color relationships",
+        "color carries compositional weight"
+      ],
+      "antiCues": [
+        "color added as generic cinematic grade"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-color-street-observation"
+      ]
+    },
+    {
+      "id": "late-century-direct-flash",
+      "displayName": "Late-century direct flash",
+      "definition": "Late-twentieth-century snapshot, nightlife, and editorial modes use blunt near-axis flash as an intentional visual fact.",
+      "aliases": [
+        "80s flash photo",
+        "90s direct flash"
+      ],
+      "visibleCues": [
+        "hard frontal flash",
+        "dark rapid background falloff"
+      ],
+      "antiCues": [
+        "invisible soft studio light"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-direct-flash-nightlife-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion",
+        "ref-degraded-zine-reproduction",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "late-century-fashion",
+      "displayName": "Late-century fashion",
+      "definition": "Late-twentieth-century fashion imagery uses assertive styling, movement, graphic color, and increasingly casual or confrontational camera behavior.",
+      "aliases": [
+        "80s 90s fashion photo",
+        "late century editorial"
+      ],
+      "visibleCues": [
+        "styling-led image",
+        "graphic or kinetic direction"
+      ],
+      "antiCues": [
+        "neutral catalog-only record"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-editorial-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-grunge-editorial-portrait",
+        "ref-fisheye-skate-snapshot",
+        "ref-cross-processed-slide-look"
+      ]
+    },
+    {
+      "id": "1990s-grunge-editorial",
+      "displayName": "1990s grunge editorial",
+      "definition": "Muted color, rough texture, natural or awkward pose, and anti-polish create a deliberately raw editorial mood.",
+      "aliases": [
+        "90s grunge photo",
+        "raw fashion editorial"
+      ],
+      "visibleCues": [
+        "muted or dirty palette",
+        "grain and anti-glamour pose"
+      ],
+      "antiCues": [
+        "pristine luxury polish"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-grunge-editorial-portrait",
+        "ref-degraded-zine-reproduction"
+      ]
+    },
+    {
+      "id": "y2k-party-flash",
+      "displayName": "Y2K party flash",
+      "definition": "Early-2000s compact-camera nightlife uses bright direct flash, dark ambient backgrounds, casual cropping, and saturated social energy.",
+      "aliases": [
+        "2000s party camera",
+        "Y2K flash photo"
+      ],
+      "visibleCues": [
+        "near-axis flash",
+        "casual crowded night setting"
+      ],
+      "antiCues": [
+        "quiet soft daylight portrait"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-y2k-party-flash-portrait"
+      ]
+    },
+    {
+      "id": "contemporary-editorial-naturalism",
+      "displayName": "Contemporary editorial naturalism",
+      "definition": "Current editorial work combines believable location light, restrained color, natural texture, and directed-but-unforced presence.",
+      "aliases": [
+        "modern natural editorial",
+        "professional but not corporate"
+      ],
+      "visibleCues": [
+        "credible place and light",
+        "natural texture with deliberate framing"
+      ],
+      "antiCues": [
+        "plastic corporate stock finish"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-window-light-editorial-portrait",
+        "ref-approachable-environmental-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-low-key-character-portrait",
+        "ref-soft-focus-romantic-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-golden-hour-grand-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-intentional-camera-movement-landscape",
+        "ref-window-light-food-story",
+        "ref-super-telephoto-wildlife",
+        "ref-selective-focus-macro",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "contemporary-clean-commercial",
+      "displayName": "Contemporary clean commercial",
+      "definition": "Current commercial imagery uses precise digital detail, controlled color, scalable composition, and polished but credible surfaces.",
+      "aliases": [
+        "modern commercial photo",
+        "clean brand photography"
+      ],
+      "visibleCues": [
+        "controlled neutral finish",
+        "clear subject and deliberate negative space"
+      ],
+      "antiCues": [
+        "uncontrolled lo-fi artifacts"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-blue-hour-urban-architecture",
+        "ref-tilt-shift-architectural-study",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-bright-editorial-food",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-rolling-automotive-pan",
+        "ref-studio-automotive-hero",
+        "ref-frozen-sports-action",
+        "ref-high-speed-splash",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "contemporary-cinematic-still",
+      "displayName": "Contemporary cinematic still",
+      "definition": "A still photograph uses motivated practicals, controlled color separation, and narrative framing associated with contemporary screen imagery.",
+      "aliases": [
+        "cinematic photo",
+        "movie still look"
+      ],
+      "visibleCues": [
+        "motivated light",
+        "narrative spatial tension and color separation"
+      ],
+      "antiCues": [
+        "generic teal-orange filter without source logic"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cinematic-practical-light-portrait",
+        "ref-night-street-color",
+        "ref-concert-available-light",
+        "ref-night-light-trail-cityscape",
+        "ref-dark-moody-tabletop",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-constructed-conceptual-tableau"
+      ]
+    }
+  ]
+}

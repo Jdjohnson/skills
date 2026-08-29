@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "selective-focus-macro",
+  "displayName": "Selective-Focus Macro",
+  "family": "action-nature-experimental",
+  "definition": "A minute natural or material subject rendered at macro scale with one exact focus anchor, extremely shallow depth, soft surrounding color, and visible microtexture.",
+  "aliases": [
+    "macro with blurry background",
+    "tiny detail shallow focus"
+  ],
+  "cues": [
+    "macro",
+    "macro-magnification",
+    "extremely-shallow-focus",
+    "selective-focus"
+  ],
+  "antiCues": [
+    "whole specimen flat sharp",
+    "artificial radial blur",
+    "unreadable focus point"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "macro",
+      "wildlife",
+      "scientific",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "extreme-close-up",
+      "detail-framing",
+      "oblique-view"
+    ],
+    "lens-perspective": [
+      "macro-magnification"
+    ],
+    "focus-depth": [
+      "extremely-shallow-focus",
+      "selective-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "diffused-light",
+      "side-light",
+      "soft-light"
+    ],
+    "composition": [
+      "rule-of-thirds",
+      "negative-space",
+      "diagonal-composition"
+    ],
+    "color-tonality": [
+      "pastel-color",
+      "muted-color",
+      "luminous-highlights"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "fine-grain"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "portrait-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "one exact micro focus anchor",
+    "rapid depth falloff",
+    "credible minute texture"
+  ],
+  "adaptiveGuidance": [
+    "Adapt aperture, magnification, support, and light diffusion to subject depth; do not synthesize blur across the focus anchor."
+  ],
+  "applicability": [
+    "insects",
+    "plants",
+    "materials",
+    "small products"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-selective-focus-macro"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "What is depth of field (DOF)?",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/compact-cameras-dsc-p-series/dsc-p8/articles/00031291",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A minute natural or material subject rendered at macro scale with one exact focus anchor, extremely shallow depth, soft surrounding color, and visible microtexture."
+        ]
+      }
+    ]
+  }
+}

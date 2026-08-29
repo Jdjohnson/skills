@@ -1,0 +1,162 @@
+{
+  "id": "art-deco",
+  "displayName": "Art Deco",
+  "family": "ornate-historical",
+  "definition": "Stepped and streamlined geometry, symmetry, sunbursts, metallic or lacquer accents, and machine-age luxury organize graphics, objects, interiors, and architecture.",
+  "axes": {
+    "minimalOrnate": 0.6,
+    "geometricOrganic": -0.7,
+    "polishedRaw": -0.6,
+    "calmEnergetic": 0.3,
+    "historicalFuturistic": -0.5,
+    "realisticAbstract": 0.3,
+    "warmCool": 0.2,
+    "lightDark": 0.3,
+    "playfulSerious": 0.4,
+    "handmadeMachined": 0.6,
+    "flatDeep": -0.2,
+    "everydayLuxurious": 0.7
+  },
+  "cues": [
+    "geometric",
+    "art-deco-era",
+    "schematic",
+    "symmetry",
+    "luxury-signal"
+  ],
+  "antiCues": [
+    "organic",
+    "rough",
+    "hand-drawn"
+  ],
+  "emotionalEffects": [
+    "luxurious-feel",
+    "futuristic-feel",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.6,
+      "symmetry": 0.75,
+      "margins": 0.18
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#1A1A1A",
+        "#C0C0C0",
+        "#00A86B",
+        "#B5A642",
+        "#FFFFF0"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/art-deco.svg",
+      "descriptor": "geometric display with high contrast",
+      "weight": 700,
+      "tracking": 0.05
+    },
+    "shapeLine": {
+      "cornerRadius": 0.1,
+      "lineWeight": 0.55,
+      "curveTension": 0.15
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/ornate-historical-primary"
+      ],
+      "finish": "lacquer",
+      "grain": 0.1,
+      "tags": [
+        "chrome",
+        "brass",
+        "marble"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.65,
+      "keyDirection": "top",
+      "gradient": 0.5
+    },
+    "depth": {
+      "layers": 3,
+      "shadowSoftness": 0.35,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/ornate-historical"
+      ],
+      "density": 0.55,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "stylized",
+      "subjectRules": [
+        "stepped machine-age geometry",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.45
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 2,
+    "presentation": 3,
+    "editorial-document": 2,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 2,
+    "motion-video": 2,
+    "product-3d": 2,
+    "interiors-architecture": 3,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a stepped geometric composition focused on one polished machine-age object",
+    "framing": "build an axial hierarchy from repeated rays, terraces, and streamlined silhouettes, using dark ground and metallic accents for theatrical precision",
+    "mustShow": [
+      "geometric",
+      "art-deco-era",
+      "machine-precise"
+    ],
+    "mustAvoid": [
+      "organic",
+      "rough",
+      "hand-drawn",
+      "fussy revival ornament",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "empire-style",
+    "belle-epoque-lithograph",
+    "mid-century-advertising"
+  ],
+  "contrasting": [
+    "folk-embroidery",
+    "documentary-grit",
+    "wabi-sabi"
+  ]
+}

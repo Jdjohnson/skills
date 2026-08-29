@@ -1,0 +1,48 @@
+{
+  "id": "stamp-motif",
+  "group": "ornament-level",
+  "definition": "Repeat a stamp-like motif system.",
+  "targetConcerns": [
+    "ornament"
+  ],
+  "compatibleStyles": [
+    "art-nouveau",
+    "international-typographic-style"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "brutalist-raw"
+  ],
+  "incompatibleModifiers": [],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "ornament",
+          "path": "density",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

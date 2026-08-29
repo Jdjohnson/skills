@@ -1,0 +1,66 @@
+{
+  "id": "futurer",
+  "group": "era-tint",
+  "definition": "Push futuristic cues later in time.",
+  "targetConcerns": [
+    "palette",
+    "shapeLine",
+    "imagery"
+  ],
+  "compatibleStyles": [
+    "art-deco",
+    "y2k-cyber"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "ornate-historical",
+    "folk-vernacular"
+  ],
+  "incompatibleModifiers": [
+    "older-era"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "hueRotate",
+          "degrees": -18
+        },
+        {
+          "op": "saturationScale",
+          "factor": 1.075
+        },
+        {
+          "op": "addParam",
+          "concern": "shapeLine",
+          "path": "lineWeight",
+          "amount": -0.15
+        },
+        {
+          "op": "multiplyParam",
+          "concern": "imagery",
+          "path": "abstraction",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

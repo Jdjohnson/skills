@@ -1,0 +1,54 @@
+{
+  "id": "grainier",
+  "group": "finish",
+  "definition": "Add film/print grain and surface noise.",
+  "targetConcerns": [
+    "materialTexture"
+  ],
+  "compatibleStyles": [
+    "documentary-grit",
+    "punk-zine",
+    "letterpress-print",
+    "analog-cinema-titles"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "luxe-atelier"
+  ],
+  "incompatibleModifiers": [],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "materialTexture",
+          "path": "grain",
+          "factor": 1.15
+        }
+      ]
+    },
+    "heroOverlay": {
+      "type": "grain",
+      "strength": 0.35
+    }
+  }
+}

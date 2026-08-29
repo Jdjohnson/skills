@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "graphic-brutalism",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Brutalist-informed heavy type and architectural grid systems",
+    "creatorOrTradition": "Contemporary graphic designers adapting Brutalist mass and structure",
+    "sourceUrl": "https://eyeondesign.aiga.org/a-severely-gridded-heavy-as-cement-font-thats-a-little-rough-around-the-edges/",
+    "whyCanonical": "AIGA's design publication documents severely gridded, condensed, rough-edged typography that translates Brutalist weight and material directness into graphic form."
+  },
+  "sources": [
+    {
+      "title": "A Severely Gridded, Heavy-as-Cement Font That's A Little Rough Around the Edges",
+      "publisher": "AIGA Eye on Design",
+      "url": "https://eyeondesign.aiga.org/a-severely-gridded-heavy-as-cement-font-thats-a-little-rough-around-the-edges/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Brutalist influence can be translated through harsh geometry, condensed weight, severe grids, and rough character.",
+        "Large-scale display type can operate as a dense shape while a lighter text face preserves reading."
+      ]
+    },
+    {
+      "title": "If Graphic Design and Architecture Had a Baby It'd Look Like Main Studio's Latest Identity",
+      "publisher": "AIGA Eye on Design",
+      "url": "https://eyeondesign.aiga.org/if-graphic-design-architecture-had-a-baby-itd-look-like-main-studios-latest-identity/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A modular grid derived from Brutalist architecture can organize a repeatable identity across many outputs.",
+        "Monospaced type and rough Risograph texture show how structure and production surface can work together."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches typographic, high contrast, raw form, edge defined, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/graphic-brutalism/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/graphic-brutalism/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches typographic, high contrast, raw form, edge defined, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

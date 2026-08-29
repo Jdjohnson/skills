@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "poetry-chapbook",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Contemporary Poetry Society of America chapbooks",
+    "creatorOrTradition": "Poets, small presses, and chapbook designers",
+    "sourceUrl": "https://www.poetryfoundation.org/blog/uncategorized/61122/a-look-inside-the-poetry-society-of-americas-chapbook-series",
+    "whyCanonical": "The documented series shows the chapbook as a compact, intentionally designed container whose typography, material choices, covers, and page pacing remain subordinate to the poem."
+  },
+  "sources": [
+    {
+      "title": "A Look Inside the Poetry Society of America's Chapbook Series",
+      "publisher": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org/blog/uncategorized/61122/a-look-inside-the-poetry-society-of-americas-chapbook-series",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The pictured series demonstrates varied but intentional small-format production and cover systems.",
+        "The examples support treating material scale and page sequence as part of the poetic reading experience."
+      ]
+    },
+    {
+      "title": "And what do I love in loving thee?",
+      "publisher": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org/blog/uncategorized/53692/and-what-do-i-love-in-loving-thee",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The discussion connects chapbook design decisions to the character of the poems rather than a fixed decorative system.",
+        "It supports close attention to typography, binding, paper, and the physical intimacy of a short publication."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The open small-format verse spread is an excellent lead. Sparse lineation, generous white space, understated typography, page numbers, and intimate scale remain legible and unmistakably chapbook-like. The independently approved lead is assets/refs/poetry-chapbook/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/poetry-chapbook/generated-lead.jpg",
+    "notes": "The open small-format verse spread is an excellent lead. Sparse lineation, generous white space, understated typography, page numbers, and intimate scale remain legible and unmistakably chapbook-like.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

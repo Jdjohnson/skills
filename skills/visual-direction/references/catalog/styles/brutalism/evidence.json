@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "brutalism",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Unite d'Habitation and the New Brutalist material vocabulary",
+    "creatorOrTradition": "Le Corbusier, Alison and Peter Smithson, and postwar Brutalist architects",
+    "sourceUrl": "https://www.riba.org/explore/riba-collections/architectural-styles/brutalism-movement/",
+    "whyCanonical": "RIBA identifies expressive mass, exposed construction, raw materials, board-marked concrete, and visible services as central to the movement's architectural grammar."
+  },
+  "sources": [
+    {
+      "title": "Brutalism in architecture",
+      "publisher": "Royal Institute of British Architects",
+      "url": "https://www.riba.org/explore/riba-collections/architectural-styles/brutalism-movement/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Brutalism emphasizes materials, textures, construction, expressive mass, and large concrete forms.",
+        "Board marking, exposed services, and rough surfaces provide evidence for the guide's material direction."
+      ]
+    },
+    {
+      "title": "Architecture of Tbilisi, Part II - TbilisiArchitecture8033",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Architecture_of_Tbilisi,_Part_II_-_TbilisiArchitecture8033.jpg",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The exact bundled lead depicts monumental concrete towers, repetitive facade bays, deep voids, and visible weathering.",
+        "The file page provides the item-level provenance used to keep the visual anchor separate from the broader movement claim."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach concrete, architectural signal, monument scale, edge defined while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/brutalism/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/brutalism/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach concrete, architectural signal, monument scale, edge defined while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

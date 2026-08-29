@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "lab-notebook",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of a scientific lab notebook.\nUse case: information-design\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original open research notebook documenting a fictional crystal-growth experiment with dated observations, controlled handwriting, measured specimen sketches, a small data table, taped sample envelope, corrections, and color-coded annotation.\nStyle/medium: overhead documentary photography of authentic working notes\nComposition/framing: portrait 4:5, open notebook fills frame, specimen drawing dominates right page, table and chronological notes on left, sample envelope overlaps lower edge, legible at thumbnail scale\nLighting/mood: curious, careful, provisional\nColor palette: warm white, graphite, faded blue, rust red, pale mineral green\nMaterials/textures: graph paper, pencil, archival tape, translucent sample paper\nText: use only the exact label TRIAL 08 and date 14.06; all other writing as abstract marks\nConstraints: original fictional experiment and drawings, no institution, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "91ac2d7153b99c4e944d213d5b4e446e7ebff6b5fcb47edb7e78e4bf3ac593b4",
+  "finalAsset": "assets/refs/lab-notebook/generated-lead.jpg",
+  "finalSha256": "6c6248d95fed81c0bc2d1a687dd160ff8b7aea7967d929c8dd35df1a3eb1358d",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "punk-zine",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Riot Grrrl and punk self-published zine networks",
+    "creatorOrTradition": "Punk participants using low-budget self-publication for direct community speech",
+    "sourceUrl": "https://www.si.edu/object/archives/sova-nmah-ac-1473",
+    "whyCanonical": "The Smithsonian archive identifies low-budget zines, collaged art, personal statements, manifestos, and informal distribution as a voice for underground punk and activist communities."
+  },
+  "sources": [
+    {
+      "title": "Ocho y Media Collection",
+      "publisher": "Smithsonian Institution",
+      "url": "https://www.si.edu/object/archives/sova-nmah-ac-1473",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Punk-related zines are small, low-budget publications containing collaged art, personal writing, manifestos, and community knowledge.",
+        "Informal circulation and political or social messages support the guide's direct, participatory editorial stance."
+      ]
+    },
+    {
+      "title": "Girls Speak Out with Zines",
+      "publisher": "Smithsonian American Women's History Museum",
+      "url": "https://womenshistory.si.edu/blog/girls-speak-out-zines",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Folded paper and easy copying made zines accessible channels for sharing ideas and building connections.",
+        "The punk context and anti-consumerist voice distinguish the form from decorative scrapbook styling."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach collage, halftone, print signal, street signal while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/punk-zine/generated-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/punk-zine/generated-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach collage, halftone, print signal, street signal while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

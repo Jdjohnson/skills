@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Direction"
+  short_description: "Find and record a visual direction in images"
+  default_prompt: "Use $visual-direction to lead an image-first direction walk and record the approved result."

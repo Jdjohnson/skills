@@ -1,0 +1,50 @@
+{
+  "id": "more-grid",
+  "group": "structure",
+  "definition": "Strengthen modular grid structure.",
+  "targetConcerns": [
+    "composition"
+  ],
+  "compatibleStyles": [
+    "international-typographic-style",
+    "ulm-systems-design",
+    "modular-poster",
+    "operational-dashboard"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "break-grid"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "composition",
+          "path": "density",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

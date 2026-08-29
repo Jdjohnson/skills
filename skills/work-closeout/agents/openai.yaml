@@ -1,0 +1,6 @@
+interface:
+  display_name: "Work Closeout"
+  short_description: "Reconcile proven outcomes across current records"
+  default_prompt: "Use $work-closeout to reconcile this task's proven outcome across relevant current records and return a verified receipt."
+policy:
+  allow_implicit_invocation: false

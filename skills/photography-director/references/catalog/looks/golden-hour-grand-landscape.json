@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "id": "golden-hour-grand-landscape",
+  "displayName": "Golden-Hour Grand Landscape",
+  "family": "landscape-built-world",
+  "definition": "An expansive natural landscape using low warm sun, long shadows, layered depth, broad dynamic range, and a clear foreground-to-horizon path.",
+  "aliases": [
+    "epic sunset landscape",
+    "warm grand vista"
+  ],
+  "cues": [
+    "golden-hour",
+    "extreme-wide",
+    "layered-depth",
+    "high-dynamic-range"
+  ],
+  "antiCues": [
+    "flat noon light",
+    "muddy single-plane view",
+    "oversaturated HDR halos"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "landscape",
+      "travel"
+    ],
+    "viewpoint-framing": [
+      "extreme-wide",
+      "eye-level"
+    ],
+    "lens-perspective": [
+      "ultra-wide-character",
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "golden-hour",
+      "backlight",
+      "rim-light",
+      "silhouette-lighting",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "leading-lines",
+      "layered-depth",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "warm-color",
+      "luminous-highlights",
+      "high-dynamic-range"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "low warm directional sun",
+    "clear depth layers",
+    "open highlight-shadow range"
+  ],
+  "adaptiveGuidance": [
+    "Adapt field of view and foreground to the terrain; keep sun direction and atmosphere physically credible."
+  ],
+  "applicability": [
+    "mountains",
+    "coast",
+    "desert",
+    "travel landscapes"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-golden-hour-grand-landscape"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lens basics",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/articles/00268239",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "An expansive natural landscape using low warm sun, long shadows, layered depth, broad dynamic range, and a clear foreground-to-horizon path."
+        ]
+      }
+    ]
+  }
+}

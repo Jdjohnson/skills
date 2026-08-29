@@ -1,0 +1,48 @@
+{
+  "id": "multi-panel",
+  "group": "density",
+  "definition": "Split into modular multi-panel structure.",
+  "targetConcerns": [
+    "composition"
+  ],
+  "compatibleStyles": [
+    "magazine-feature",
+    "modular-poster"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "one-hero-focus"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "composition",
+          "path": "density",
+          "factor": 1.15
+        }
+      ]
+    }
+  }
+}

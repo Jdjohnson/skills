@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "id": "medium-format-formal-portrait",
+  "displayName": "Medium-Format Formal Portrait",
+  "family": "portrait-editorial",
+  "definition": "A composed square portrait with calm proportions, centered presence, soft tonal modeling, and documented medium-format capture.",
+  "aliases": [
+    "Hasselblad-style formal portrait",
+    "square medium format portrait"
+  ],
+  "cues": [
+    "medium-format-film",
+    "square-format",
+    "centered-framing",
+    "soft-light"
+  ],
+  "antiCues": [
+    "wide-angle face distortion",
+    "casual edge crop",
+    "fake format claim"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "medium-close-up",
+      "eye-level",
+      "centered-framing",
+      "symmetrical-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "lighting": [
+      "soft-light",
+      "side-light"
+    ],
+    "composition": [
+      "symmetry",
+      "centrality"
+    ],
+    "color-tonality": [
+      "black-and-white"
+    ],
+    "medium-process": [
+      "medium-format-film"
+    ],
+    "processing-texture": [
+      "fine-grain",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "square-format"
+    ]
+  },
+  "lockedQualities": [
+    "square formal balance",
+    "calm subject proportions",
+    "soft tonal description"
+  ],
+  "adaptiveGuidance": [
+    "Adapt body crop and camera height to the subject; only name the format when metadata or source documentation confirms it."
+  ],
+  "applicability": [
+    "people",
+    "formal editorial",
+    "institutional portrait"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-medium-format-formal-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lillian Bassman: Bazaar and Beyond",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/lillian-bassman-bazaar-and-beyond",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A composed square portrait with calm proportions, centered presence, soft tonal modeling, and documented medium-format capture."
+        ]
+      }
+    ]
+  }
+}

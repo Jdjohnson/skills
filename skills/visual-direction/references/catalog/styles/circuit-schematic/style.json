@@ -1,0 +1,163 @@
+{
+  "id": "circuit-schematic",
+  "displayName": "Circuit Schematic",
+  "family": "scientific-diagram",
+  "definition": "Complete electrical systems rendered through standardized symbols, component IDs, connected nets, functional blocks, legends, and readable signal flow.",
+  "axes": {
+    "minimalOrnate": -0.3,
+    "geometricOrganic": -0.8,
+    "polishedRaw": -0.2,
+    "calmEnergetic": -0.1,
+    "historicalFuturistic": 0.5,
+    "realisticAbstract": 0.2,
+    "warmCool": 0.2,
+    "lightDark": -0.2,
+    "playfulSerious": 0.6,
+    "handmadeMachined": 0.8,
+    "flatDeep": -1,
+    "everydayLuxurious": -0.1
+  },
+  "cues": [
+    "standardized-symbol",
+    "connected-net",
+    "component-id",
+    "functional-block",
+    "signal-flow",
+    "junction-dot",
+    "reference-designator",
+    "electrical-legend"
+  ],
+  "antiCues": [
+    "pcb-photograph",
+    "decorative-circuit-pattern",
+    "unconnected-symbols",
+    "cyberpunk-trace",
+    "wiring-photo"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "futuristic-feel",
+    "clinical"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "networked",
+      "density": 0.6,
+      "symmetry": 0.3,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#212121",
+        "#4CAF50",
+        "#F44336",
+        "#FAFAFA",
+        "#2196F3"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/schematic-circuit.svg",
+      "descriptor": "system sans/display",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/scientific-diagram-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.4,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "show-complete-functional-topology",
+        "use-consistent-component-symbols",
+        "label-nets-and-reference-designators",
+        "avoid-decorative-unconnected-circuitry"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 3,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 0,
+    "motion-video": 2,
+    "product-3d": 2,
+    "interiors-architecture": 1,
+    "data-visualization": 3
+  },
+  "heroRecipe": {
+    "motif": "a complete readable electrical system whose standardized symbols, labeled nets, junctions, and functional blocks reveal signal flow",
+    "framing": "show enough of the whole topology to trace inputs through components to outputs, with one detail only as supporting reference",
+    "mustShow": [
+      "standard component symbols",
+      "connected net topology",
+      "component IDs or signal labels"
+    ],
+    "mustAvoid": [
+      "PCB photograph as schematic",
+      "unconnected circuit wallpaper",
+      "neon traces",
+      "fake engineering labels",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "engineering-blueprint",
+    "lab-notebook",
+    "classic-infographic"
+  ],
+  "contrasting": [
+    "folk-embroidery",
+    "narrative-textile",
+    "folk-tilework"
+  ]
+}

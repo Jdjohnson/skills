@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "id": "panoramic-desert-survey",
+  "displayName": "Panoramic Field Survey",
+  "family": "landscape-built-world",
+  "definition": "An extended horizontal landscape using a low horizon, broad lateral rhythm, deep focus, and repeated field or terrain pattern to make scale legible.",
+  "aliases": [
+    "wide field panorama",
+    "landscape survey panorama"
+  ],
+  "cues": [
+    "panoramic-format",
+    "extreme-wide",
+    "negative-space",
+    "environmental-context"
+  ],
+  "antiCues": [
+    "tight telephoto crop",
+    "busy foreground clutter",
+    "oversaturated orange grade"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "landscape",
+      "travel",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "extreme-wide",
+      "eye-level"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "golden-hour",
+      "hard-light"
+    ],
+    "composition": [
+      "negative-space",
+      "environmental-context",
+      "rule-of-thirds"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "high-dynamic-range"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "fine-grain"
+    ],
+    "era-movement": [
+      "new-topographics"
+    ],
+    "format-output": [
+      "panoramic-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "extended lateral field",
+    "repeated terrain pattern",
+    "stable distant horizon"
+  ],
+  "adaptiveGuidance": [
+    "Adapt panorama width to meaningful terrain changes; keep horizon and scale physically coherent."
+  ],
+  "applicability": [
+    "fields",
+    "prairie",
+    "coast",
+    "industrial survey"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-panoramic-desert-survey"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "New Topographics",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/new-topographics",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "An extended horizontal landscape using a low horizon, broad lateral rhythm, deep focus, and repeated field or terrain pattern to make scale legible."
+        ]
+      }
+    ]
+  }
+}

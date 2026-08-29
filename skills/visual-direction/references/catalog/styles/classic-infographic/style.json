@@ -1,0 +1,163 @@
+{
+  "id": "classic-infographic",
+  "displayName": "Classic Infographic",
+  "family": "scientific-diagram",
+  "definition": "Editorial explanation through encoded quantity, comparative flow, numbered sequence, annotation, restrained color, and a clear visual argument on one page.",
+  "axes": {
+    "minimalOrnate": -0.5,
+    "geometricOrganic": -0.3,
+    "polishedRaw": -0.3,
+    "calmEnergetic": -0.1,
+    "historicalFuturistic": 0.2,
+    "realisticAbstract": -0.4,
+    "warmCool": -0.1,
+    "lightDark": -0.2,
+    "playfulSerious": -0.1,
+    "handmadeMachined": 0.5,
+    "flatDeep": -0.6,
+    "everydayLuxurious": -0.3
+  },
+  "cues": [
+    "encoded-quantity",
+    "comparative-flow",
+    "visual-argument",
+    "annotated-sequence",
+    "restrained-color",
+    "one-page-synthesis",
+    "proportional-mark",
+    "explanatory-legend"
+  ],
+  "antiCues": [
+    "icon-cloud",
+    "dashboard-ui",
+    "decorative-chart",
+    "data-free-diagram",
+    "map-only"
+  ],
+  "emotionalEffects": [
+    "clear-headed",
+    "scholarly",
+    "calm"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.4,
+      "symmetry": 0.5,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#1565C0",
+        "#F4A836",
+        "#6AFF07",
+        "#FAFAFA",
+        "#424242"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/infographic-classic.svg",
+      "descriptor": "system sans/display",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/scientific-diagram-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.4,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "encode-real-relationships",
+        "make-quantity-and-flow-legible",
+        "include-source-and-legend",
+        "avoid-decoration-without-data"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 3,
+    "presentation": 3,
+    "editorial-document": 3,
+    "social-advertising": 2,
+    "packaging": 1,
+    "photography": 0,
+    "motion-video": 2,
+    "product-3d": 0,
+    "interiors-architecture": 1,
+    "data-visualization": 3
+  },
+  "heroRecipe": {
+    "motif": "a single explanatory sheet where proportional bands, sequence, geography, annotation, and legend make a complex argument immediately legible",
+    "framing": "show the entire information composition so title, encoded marks, annotations, scale, and conclusion remain connected",
+    "mustShow": [
+      "quantitative encoding",
+      "comparative or sequential structure",
+      "annotation and legend"
+    ],
+    "mustAvoid": [
+      "decorative icons without data",
+      "dashboard chrome",
+      "fake numbers",
+      "chart collage",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "field-guide",
+    "cartographic-sheet",
+    "specimen-label"
+  ],
+  "contrasting": [
+    "narrative-textile",
+    "narrative-woodcut",
+    "belle-epoque-lithograph"
+  ]
+}

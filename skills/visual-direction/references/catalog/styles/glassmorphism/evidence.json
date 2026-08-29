@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "glassmorphism",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Fluent Acrylic interface material",
+    "creatorOrTradition": "Microsoft Fluent Design System",
+    "sourceUrl": "https://learn.microsoft.com/en-us/windows/apps/design/style/acrylic",
+    "whyCanonical": "Microsoft's Acrylic material explicitly combines translucency, background blur, tint, texture, and contrast to establish depth and hierarchy on functional interface surfaces."
+  },
+  "sources": [
+    {
+      "title": "Acrylic material",
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/windows/apps/design/style/acrylic",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Acrylic uses translucency, blur, noise, tint, and blending to add depth and establish interface hierarchy.",
+        "The guidance limits acrylic to appropriate surfaces, warns against stacked layers, and requires legible foreground content."
+      ]
+    },
+    {
+      "title": "Materials",
+      "publisher": "Apple Developer Human Interface Guidelines",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/materials",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Interface materials use blur, vibrancy, and blending to separate foreground controls from background content while preserving context.",
+        "Material thickness and contrast must be selected for semantic purpose and foreground legibility, not color effect alone."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches interface signal, digital signal, screen scale, translucent, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/glassmorphism/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/glassmorphism/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches interface signal, digital signal, screen scale, translucent, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

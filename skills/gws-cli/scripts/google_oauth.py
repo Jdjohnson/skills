@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Shared Google Workspace token refresh and CLI helpers."""
+"""Shared GWS token refresh and CLI helpers."""
 
 from __future__ import annotations
 
@@ -20,8 +20,10 @@ from typing import Any, Iterable, Sequence
 import fcntl
 
 
-CANONICAL_SOURCE_NAME = "gws-full"
-CANONICAL_TOKEN_PATH = Path.home() / ".config/gws/token_full.json"
+CANONICAL_SOURCE_NAME = os.environ.get("GWS_TOKEN_SOURCE_NAME", "gws-authorized-user")
+CANONICAL_TOKEN_PATH = Path(
+    os.environ.get("GWS_TOKEN_PATH", str(Path.home() / ".config/gws/token_full.json"))
+).expanduser()
 DEFAULT_TOKEN_VAR = "GOOGLE_WORKSPACE_CLI_TOKEN"
 DEFAULT_COMMAND_TIMEOUT_SECONDS = 30
 TOKEN_REFRESH_SKEW_SECONDS = 60
@@ -65,15 +67,12 @@ class TokenBundle:
 def reauth_instructions() -> str:
     scopes = ",".join(REQUIRED_GWS_SCOPES)
     return (
-        "Re-auth the canonical GWS token bundle with:\n"
+        "Re-auth the configured GWS token bundle with:\n"
         "1. gws auth logout\n"
-        f"2. gws auth login --scopes {scopes}\n"
-        f"3. Write the authorized-user credentials to {CANONICAL_TOKEN_PATH}\n"
-        f"   Preferred: gws auth export --unmasked > {CANONICAL_TOKEN_PATH}\n"
-        "   If `gws auth export` fails with `Failed to decrypt credentials`, run:\n"
-        f"   gcloud auth application-default login --client-id-file=$HOME/.config/gws/client_secret.json --scopes {scopes}\n"
-        "   python3 <skill-root>/scripts/google_token_from_adc.py\n"
-        "4. Verify token_full.json contains the full required scope set"
+        f"2. gcloud auth application-default login --client-id-file=$HOME/.config/gws/client_secret.json --scopes {scopes}\n"
+        f"3. python3 <skill-root>/scripts/google_token_from_adc.py --output {CANONICAL_TOKEN_PATH}\n"
+        "   The helper writes atomically with mode 0600; never redirect unmasked credentials through the shell.\n"
+        "4. Verify the configured token bundle contains the required scopes"
     )
 
 

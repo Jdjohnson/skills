@@ -1,0 +1,165 @@
+{
+  "id": "scent-campaign",
+  "displayName": "Scent Campaign",
+  "family": "luxe-atelier",
+  "definition": "Glass, liquid, vapor, ingredients, gradient light, reflective shadow, and intimate ritual composed as a sensory product narrative.",
+  "axes": {
+    "minimalOrnate": 0.2,
+    "geometricOrganic": 0.4,
+    "polishedRaw": -0.5,
+    "calmEnergetic": -0.5,
+    "historicalFuturistic": 0.1,
+    "realisticAbstract": 0.2,
+    "warmCool": 0.1,
+    "lightDark": -0.3,
+    "playfulSerious": 0.2,
+    "handmadeMachined": 0.1,
+    "flatDeep": 0.6,
+    "everydayLuxurious": 0.7
+  },
+  "cues": [
+    "sensual",
+    "glass",
+    "lacquer",
+    "object-scale",
+    "gradient-form",
+    "intimate-scale",
+    "luxury-signal",
+    "soft-edge",
+    "mysterious",
+    "product-signal"
+  ],
+  "antiCues": [
+    "industrial-signal",
+    "rough",
+    "high-contrast"
+  ],
+  "emotionalEffects": [
+    "sensual",
+    "mysterious",
+    "serene"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "radial",
+      "density": 0.3,
+      "symmetry": 0.6,
+      "margins": 0.16
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#F6E9F0",
+        "#7A4E6E",
+        "#D4AF87",
+        "#2A2428",
+        "#A8B5A0"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/perfume-story.svg",
+      "descriptor": "light serif with flowing display curves",
+      "weight": 300,
+      "tracking": 0.08
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/luxe-atelier-primary"
+      ],
+      "finish": "lacquer",
+      "grain": 0.08,
+      "tags": [
+        "glass",
+        "lacquer",
+        "silk"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.5,
+      "keyDirection": "back",
+      "gradient": 0.7
+    },
+    "depth": {
+      "layers": 4,
+      "shadowSoftness": 0.65,
+      "parallax": 0.45
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "sensory-object-first",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 3,
+    "photography": 3,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "original glass flacon staged with one material event that suggests a precise sensory character",
+    "framing": "macro still life; backlight reveals liquid and glass while atmosphere supports a fully legible silhouette",
+    "mustShow": [
+      "sensual",
+      "glass",
+      "lacquer"
+    ],
+    "mustAvoid": [
+      "industrial-signal",
+      "rough",
+      "high-contrast",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "silk-editorial",
+    "jewelry-vitrine",
+    "boutique-hospitality"
+  ],
+  "contrasting": [
+    "industrial-monochrome",
+    "operational-utility",
+    "web-brutalism"
+  ]
+}

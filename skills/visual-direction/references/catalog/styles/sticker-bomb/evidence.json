@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "sticker-bomb",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Accumulated street-sticker surface",
+    "creatorOrTradition": "Sticker art and street-graphics culture",
+    "sourceUrl": "https://rmc.library.cornell.edu/EAD/htmldocs/RMM08121.html",
+    "whyCanonical": "The archive establishes sticker art as many small authored graphics accumulated on public surfaces, with overlap, tearing, fading, weathering, and repeated circulation shaping the final field."
+  },
+  "sources": [
+    {
+      "title": "Sticker art collection finding aid",
+      "publisher": "Cornell University Library Rare and Manuscript Collections",
+      "url": "https://rmc.library.cornell.edu/EAD/htmldocs/RMM08121.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Sticker art operates through small-format graphics, anonymous and credited makers, street placement, repetition, layering, weathering, and collecting."
+      ]
+    },
+    {
+      "title": "Hatch Sticker Museum",
+      "publisher": "Urban Nation Museum",
+      "url": "https://urban-nation.com/artist/hatch-sticker-museum/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A dedicated sticker collection demonstrates the culture's diversity of voices, hand and print techniques, dense display, and relation to street art."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches collage, playful, vivid chroma, layered, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/sticker-bomb/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/sticker-bomb/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches collage, playful, vivid chroma, layered, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

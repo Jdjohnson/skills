@@ -1,0 +1,48 @@
+{
+  "id": "humid-glow",
+  "group": "atmosphere",
+  "definition": "Humid bloom and soft specular.",
+  "targetConcerns": [
+    "lighting"
+  ],
+  "compatibleStyles": [
+    "fog-atmosphere",
+    "gallery-white"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "sun-bleached"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "lighting",
+          "path": "contrast",
+          "factor": 0.85
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "couture-lookbook",
+  "displayName": "Couture Lookbook",
+  "family": "luxe-atelier",
+  "definition": "A sequenced fashion story built from garment silhouette, drape, model rhythm, repeated framing, and controlled editorial pacing across pages.",
+  "axes": {
+    "minimalOrnate": 0.1,
+    "geometricOrganic": -0.2,
+    "polishedRaw": -0.7,
+    "calmEnergetic": 0.5,
+    "historicalFuturistic": -0.1,
+    "realisticAbstract": -0.1,
+    "warmCool": 0.3,
+    "lightDark": 0.1,
+    "playfulSerious": 0.3,
+    "handmadeMachined": 0.4,
+    "flatDeep": 0.3,
+    "everydayLuxurious": 0.6
+  },
+  "cues": [
+    "fashion-signal",
+    "editorial-pace",
+    "pictorial",
+    "silk",
+    "asymmetry",
+    "luxurious-feel",
+    "atelier-signal",
+    "planar",
+    "sensual",
+    "editorial-signal"
+  ],
+  "antiCues": [
+    "industrial-signal",
+    "utility-signal",
+    "schematic"
+  ],
+  "emotionalEffects": [
+    "sensual",
+    "dramatic",
+    "luxurious-feel"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.35,
+      "symmetry": 0.35,
+      "margins": 0.1
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FFF5F7",
+        "#762A8E",
+        "#111111",
+        "#37D4AC",
+        "#7E7D5D"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/couture-lookbook.svg",
+      "descriptor": "high-contrast fashion display with season codes",
+      "weight": 300,
+      "tracking": 0.09
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/luxe-atelier-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.15,
+      "tags": [
+        "silk",
+        "linen",
+        "paper"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.65,
+      "keyDirection": "side",
+      "gradient": 0.5
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.4,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "collection-sequence-first",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 2,
+    "packaging": 1,
+    "photography": 3,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "coherent sequence of original finished garments shown at full, three-quarter, and detail scale",
+    "framing": "paired editorial spread; consistent set and light reveal silhouette progression, construction, and collection rhythm",
+    "mustShow": [
+      "fashion-signal",
+      "editorial-pace",
+      "pictorial"
+    ],
+    "mustAvoid": [
+      "industrial-signal",
+      "utility-signal",
+      "schematic",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "silk-editorial",
+    "quiet-luxury",
+    "fashion-editorial"
+  ],
+  "contrasting": [
+    "operational-utility",
+    "industrial-monochrome",
+    "web-brutalism"
+  ]
+}

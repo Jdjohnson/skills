@@ -1,0 +1,4 @@
+interface:
+  display_name: "Execution Trust"
+  short_description: "Keep decisions and commitments from decaying"
+  default_prompt: "Use $execution-trust to capture this decision, commitment, or follow-through check."

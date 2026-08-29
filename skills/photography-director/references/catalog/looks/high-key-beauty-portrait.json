@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "high-key-beauty-portrait",
+  "displayName": "High-Key Beauty Portrait",
+  "family": "portrait-editorial",
+  "definition": "A bright close beauty image with very soft centered light, butterfly-like modeling, pale color, open shadows, and polished but believable skin.",
+  "aliases": [
+    "bright airy beauty",
+    "soft white beauty portrait"
+  ],
+  "cues": [
+    "high-key-lighting",
+    "butterfly-lighting",
+    "very-soft-light",
+    "pastel-color"
+  ],
+  "antiCues": [
+    "deep eye sockets",
+    "hard direct flash",
+    "plastic blur"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "fashion",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "close-up",
+      "medium-close-up",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "shallow-focus"
+    ],
+    "lighting": [
+      "continuous-studio-light",
+      "very-soft-light",
+      "front-light",
+      "butterfly-lighting",
+      "high-key-lighting",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "centrality",
+      "negative-space"
+    ],
+    "color-tonality": [
+      "pastel-color",
+      "luminous-highlights",
+      "restrained-skin-tones"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "polished-retouching",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "portrait-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "bright open field",
+    "very soft centered modeling",
+    "credible polished skin"
+  ],
+  "adaptiveGuidance": [
+    "Adapt crop and light size to face, product, or body scale; retain pores and natural hue variation."
+  ],
+  "applicability": [
+    "beauty",
+    "cosmetics",
+    "portrait editorial"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-high-key-beauty-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A bright close beauty image with very soft centered light, butterfly-like modeling, pale color, open shadows, and polished but believable skin."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "david-deutsch-lens",
+  "display_name": "David Deutsch Lens",
+  "package_version": "0.3.0",
+  "corpus_version": "0.1.1",
+  "schema_version": "1.0.0",
+  "foundation_policy_version": "1.0",
+  "release_status": "released",
+  "release_channel": "testable-foundation",
+  "release_date": "2026-08-10",
+  "rights_boundary": "Metadata, normalized paraphrases, short verification excerpts, and locators only; no full copyrighted books, transcripts, PDFs, or EPUBs."
+}

@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "id": "rolling-automotive-pan",
+  "displayName": "Rolling Automotive Pan",
+  "family": "commercial-still-life",
+  "definition": "A moving vehicle held relatively sharp against a directional streaked environment, with low camera energy and clear road-bound motion.",
+  "aliases": [
+    "rolling car shot",
+    "panning vehicle photo"
+  ],
+  "cues": [
+    "automotive",
+    "panning",
+    "low-angle",
+    "subject-motion-blur"
+  ],
+  "antiCues": [
+    "parked car",
+    "whole-frame camera shake",
+    "floating vehicle"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "automotive",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "full-length",
+      "low-angle",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective",
+      "telephoto-compression"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "panning",
+      "subject-motion-blur"
+    ],
+    "lighting": [
+      "daylight",
+      "soft-light",
+      "side-light"
+    ],
+    "composition": [
+      "rule-of-thirds",
+      "diagonal-composition",
+      "edge-tension"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "sixteen-nine-format"
+    ]
+  },
+  "lockedQualities": [
+    "comparatively sharp moving vehicle",
+    "directional road streak",
+    "low dynamic viewpoint"
+  ],
+  "adaptiveGuidance": [
+    "Adapt shutter, pan rate, focal length, and vehicle spacing to safe controlled conditions."
+  ],
+  "applicability": [
+    "cars",
+    "motorcycles",
+    "commercial transport"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-rolling-automotive-pan"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Capture the Motion in Photographs",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/lenses-conversion-lenses/sel20tc/articles/00223372",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A moving vehicle held relatively sharp against a directional streaked environment, with low camera energy and clear road-bound motion."
+        ]
+      }
+    ]
+  }
+}

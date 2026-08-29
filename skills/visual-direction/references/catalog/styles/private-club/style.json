@@ -1,0 +1,165 @@
+{
+  "id": "private-club",
+  "displayName": "Private Club",
+  "family": "luxe-atelier",
+  "definition": "Dark wood rooms, low amber pools, deep upholstery, collected art, layered access cues, and quiet symmetrical arrangements for private social ritual.",
+  "axes": {
+    "minimalOrnate": 0.5,
+    "geometricOrganic": 0.3,
+    "polishedRaw": -0.7,
+    "calmEnergetic": -0.6,
+    "historicalFuturistic": -0.5,
+    "realisticAbstract": -0.4,
+    "warmCool": -0.2,
+    "lightDark": 0.6,
+    "playfulSerious": 0.8,
+    "handmadeMachined": 0.3,
+    "flatDeep": 0.6,
+    "everydayLuxurious": 0.9
+  },
+  "cues": [
+    "luxury-signal",
+    "heritage-signal",
+    "wood",
+    "velvet",
+    "intimate-scale",
+    "shadow-heavy",
+    "ceremonial",
+    "warm-hearted",
+    "ornate",
+    "layered"
+  ],
+  "antiCues": [
+    "digital-signal",
+    "street-signal",
+    "neon-chroma"
+  ],
+  "emotionalEffects": [
+    "intimate",
+    "solemn",
+    "luxurious-feel"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "axial",
+      "density": 0.35,
+      "symmetry": 0.65,
+      "margins": 0.13
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#120E0C",
+        "#475A10",
+        "#27C99A",
+        "#C8EAEA",
+        "#3A1E2B"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/private-club.svg",
+      "descriptor": "heritage serif with engraved letter proportions",
+      "weight": 450,
+      "tracking": 0.05
+    },
+    "shapeLine": {
+      "cornerRadius": 0.3,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/luxe-atelier-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.25,
+      "tags": [
+        "wood",
+        "velvet",
+        "brass"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.6,
+      "keyDirection": "side",
+      "gradient": 0.5
+    },
+    "depth": {
+      "layers": 4,
+      "shadowSoftness": 0.6,
+      "parallax": 0.35
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.3,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "social-ritual-first",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 3,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "heritage reading and conversation room prepared for an actual gathering",
+    "framing": "seated-eye view; dark wood, worn leather, layered objects, and pools of warm light preserve intimate use",
+    "mustShow": [
+      "luxury-signal",
+      "heritage-signal",
+      "wood"
+    ],
+    "mustAvoid": [
+      "digital-signal",
+      "street-signal",
+      "neon-chroma",
+      "text",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "boutique-hospitality",
+    "quiet-luxury",
+    "watch-precision"
+  ],
+  "contrasting": [
+    "graphic-brutalism",
+    "punk-zine",
+    "web-brutalism"
+  ]
+}

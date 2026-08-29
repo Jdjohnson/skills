@@ -1,0 +1,160 @@
+{
+  "id": "garden-sketchbook",
+  "displayName": "Garden Sketchbook",
+  "family": "organic-craft",
+  "definition": "Multiple plein-air plant and garden studies share a page with loose pencil or wash, marginal notes, dates, crop fragments, and unfinished observational marks.",
+  "axes": {
+    "minimalOrnate": 0.3,
+    "geometricOrganic": 0.6,
+    "polishedRaw": 0.4,
+    "calmEnergetic": -0.3,
+    "historicalFuturistic": -0.5,
+    "realisticAbstract": -0.5,
+    "warmCool": -0.1,
+    "lightDark": 0.4,
+    "playfulSerious": -0.4,
+    "handmadeMachined": -0.6,
+    "flatDeep": -0.3,
+    "everydayLuxurious": -0.1
+  },
+  "cues": [
+    "hand-drawn",
+    "illustrated",
+    "ragged",
+    "meditative-pace",
+    "watercolor-wash"
+  ],
+  "antiCues": [
+    "machine-precise",
+    "neon",
+    "commercial-form",
+    "screen-pixel"
+  ],
+  "emotionalEffects": [
+    "whimsical",
+    "nostalgic",
+    "intimate"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "freeform",
+      "density": 0.5,
+      "symmetry": 0.1,
+      "margins": 0.25
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#6B8E23",
+        "#CD853F",
+        "#9370DB",
+        "#FFFACD",
+        "#2F4F2F"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/garden-sketchbook.svg",
+      "descriptor": "casual script-adjacent pencil notes",
+      "weight": 400,
+      "tracking": 0.05
+    },
+    "shapeLine": {
+      "cornerRadius": 0.45,
+      "lineWeight": 0.3,
+      "curveTension": 0.65
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/organic-craft-primary"
+      ],
+      "finish": "sketch",
+      "grain": 0.35,
+      "tags": [
+        "paper",
+        "ink",
+        "watercolor-wash"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.34,
+      "keyDirection": "plein-air",
+      "gradient": 0.18
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.22,
+      "parallax": 0.05
+    },
+    "motion": {
+      "energy": 0.18,
+      "descriptor": "breeze"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.22,
+      "tags": [
+        "organic"
+      ]
+    },
+    "imagery": {
+      "treatment": "illustrated",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.25
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "an open field sketchbook spread accumulating multiple garden observations, notes, and color tests",
+    "framing": "Overhead or slight three-quarter view of a bound spread with one larger plant gesture, two smaller structural studies, a date or concise field note, and selective transparent wash; diffuse outdoor light keeps graphite, gutter, and paper wear legible.",
+    "mustShow": [
+      "hand-drawn",
+      "illustrated",
+      "meditative-pace"
+    ],
+    "mustAvoid": [
+      "machine-precise",
+      "neon",
+      "single polished painting",
+      "clip-art garden icons",
+      "faux scrapbook collage",
+      "watermark",
+      "brand-logos"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "botanical-watercolor",
+    "artisan-bookbinding",
+    "arts-and-crafts"
+  ],
+  "contrasting": [
+    "flat-design-ui",
+    "operational-dashboard",
+    "brutalism"
+  ]
+}

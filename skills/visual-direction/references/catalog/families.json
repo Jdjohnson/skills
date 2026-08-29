@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "families": [
+    {
+      "id": "modernist-grid",
+      "name": "Modernist Grid",
+      "definition": "Clarity-first systems rooted in Swiss International, Bauhaus, and modular type.",
+      "members": [
+        "international-typographic-style",
+        "bauhaus-workshop",
+        "flat-design-ui",
+        "isotype-statistical-graphics",
+        "neo-grotesk-editorial",
+        "modular-poster",
+        "swiss-phototypography",
+        "ulm-systems-design",
+        "civic-wayfinding",
+        "corporate-modernism"
+      ]
+    },
+    {
+      "id": "organic-craft",
+      "name": "Organic Craft",
+      "definition": "Handmade, material-forward grammars from Arts & Crafts through wabi-sabi.",
+      "members": [
+        "arts-and-crafts",
+        "wabi-sabi",
+        "scandinavian-modern",
+        "studio-pottery",
+        "letterpress-print",
+        "botanical-watercolor",
+        "natural-textile",
+        "artisan-bookbinding",
+        "shaker-utility",
+        "garden-sketchbook"
+      ]
+    },
+    {
+      "id": "ornate-historical",
+      "name": "Ornate Historical",
+      "definition": "Dense historical ornament, manuscripts, baroque, and revival decorative systems.",
+      "members": [
+        "rococo-salon",
+        "baroque-chiaroscuro",
+        "illuminated-manuscript",
+        "art-nouveau",
+        "art-deco",
+        "victorian-ephemera",
+        "byzantine-mosaic",
+        "gothic-revival",
+        "empire-style",
+        "belle-epoque-lithograph"
+      ]
+    },
+    {
+      "id": "pop-commercial",
+      "name": "Pop Commercial",
+      "definition": "Bold mass-culture signals, advertising poster energy, and retail magnetism.",
+      "members": [
+        "pop-art",
+        "memphis-design",
+        "roadside-americana",
+        "supermarket-packaging",
+        "comic-panel",
+        "carnival-poster",
+        "mid-century-advertising",
+        "sticker-bomb",
+        "billboard-bold",
+        "psychedelic-poster"
+      ]
+    },
+    {
+      "id": "editorial-literary",
+      "name": "Editorial Literary",
+      "definition": "Page-first typography, literary pacing, and magazine/book visual rhetoric.",
+      "members": [
+        "literary-journal",
+        "fashion-editorial",
+        "news-broadsheet",
+        "poetry-chapbook",
+        "design-monograph",
+        "magazine-feature",
+        "academic-journal",
+        "photo-essay",
+        "type-specimen-book",
+        "culture-review"
+      ]
+    },
+    {
+      "id": "digital-native",
+      "name": "Digital Native",
+      "definition": "Screen-born aesthetics, cyber, glitch, UI chrome, and net-native texture.",
+      "members": [
+        "y2k-cyber",
+        "glitch-art",
+        "crt-terminal",
+        "glassmorphism",
+        "8-bit-pixel-art",
+        "neon-night-ui",
+        "vaporwave",
+        "operational-dashboard",
+        "spatial-ar-interface",
+        "live-stream-overlay"
+      ]
+    },
+    {
+      "id": "brutalist-raw",
+      "name": "Brutalist Raw",
+      "definition": "Raw structure, concrete honesty, unvarnished type, and anti-polish stance.",
+      "members": [
+        "brutalism",
+        "punk-zine",
+        "industrial-warehouse",
+        "web-brutalism",
+        "concrete-poetry",
+        "scaffold-structure",
+        "industrial-monochrome",
+        "graphic-brutalism",
+        "dada-collage",
+        "operational-utility"
+      ]
+    },
+    {
+      "id": "luxe-atelier",
+      "name": "Luxe Atelier",
+      "definition": "Quiet luxury, couture restraint, rare materials, and high-end editorial calm.",
+      "members": [
+        "quiet-luxury",
+        "jewelry-vitrine",
+        "couture-lookbook",
+        "boutique-hospitality",
+        "scent-campaign",
+        "gallery-white",
+        "silk-editorial",
+        "private-club",
+        "watch-precision",
+        "atelier-process"
+      ]
+    },
+    {
+      "id": "folk-vernacular",
+      "name": "Folk Vernacular",
+      "definition": "Regional craft languages, folk motifs, roadside signs, and lived pattern.",
+      "members": [
+        "folk-embroidery",
+        "ukiyo-e",
+        "roadside-vernacular",
+        "quilting-pattern",
+        "mexican-tinwork",
+        "market-vernacular",
+        "narrative-textile",
+        "narrative-woodcut",
+        "folk-tilework",
+        "festival-banner"
+      ]
+    },
+    {
+      "id": "scientific-diagram",
+      "name": "Scientific Diagram",
+      "definition": "Field-guide clarity, technical plates, cartographic order, and didactic line.",
+      "members": [
+        "field-guide",
+        "anatomical-plate",
+        "cartographic-sheet",
+        "engineering-blueprint",
+        "botanical-plate",
+        "classic-infographic",
+        "lab-notebook",
+        "astro-chart",
+        "circuit-schematic",
+        "specimen-label"
+      ]
+    },
+    {
+      "id": "cinematic-noir",
+      "name": "Cinematic Noir",
+      "definition": "Light-as-drama, shadow narrative, film grain, and atmospheric depth.",
+      "members": [
+        "film-noir",
+        "neo-noir-neon",
+        "golden-hour-film",
+        "documentary-grit",
+        "stage-spotlight",
+        "fog-atmosphere",
+        "graphic-black-and-white",
+        "suspense-still",
+        "analog-cinema-titles",
+        "night-drive"
+      ]
+    },
+    {
+      "id": "playful-system",
+      "name": "Playful System",
+      "definition": "Rule-bound play: Memphis, geometric toy language, and cheerful systems.",
+      "members": [
+        "geometric-toy",
+        "kids-picture-book",
+        "board-game-box",
+        "sticker-sheet-system",
+        "isometric-play",
+        "pattern-playground",
+        "emoji-grammar",
+        "candy-plastic",
+        "paper-cut-collage",
+        "motion-sticker"
+      ]
+    }
+  ]
+}

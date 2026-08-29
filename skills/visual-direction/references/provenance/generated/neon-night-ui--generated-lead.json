@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "neon-night-ui",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of a neon nightlife product interface.\nUse case: product-ui\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original dark mobile nightlife app screen with a large live-music player, waveform and transport state, venue card, tonight schedule, ticket action, compact mixer controls, and selective semantic neon used only for active states and key actions.\nStyle/medium: high-fidelity fictional nightlife product UI shown front-on without a device mockup\nComposition/framing: portrait 4:5, player and live state dominate upper half, venue and schedule form the middle, ticket and mixer controls anchor bottom, readable at thumbnail scale\nLighting/mood: nocturnal, energetic, controlled\nColor palette: near-black, deep violet, electric cyan, hot magenta, signal amber\nMaterials/textures: matte dark surfaces, crisp vector lines, restrained translucent panels\nText: use only the exact labels LIVE, TONIGHT, ENTRY and numerals 22, 30; all other labels as abstract bars\nConstraints: original interface and fictional venue, no navigation map, no real event or artist, no logo, no watermark, no copied screen",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "9cb0d83b374495fa7a7810491ecf8a9e04a8628c6db8be8e44c5da1d62521cd3",
+  "finalAsset": "assets/refs/neon-night-ui/generated-lead.jpg",
+  "finalSha256": "73a3be04a7d2d54fdad8f5700f33c956ae9cb8af67996be08b420b667b8fab9c",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

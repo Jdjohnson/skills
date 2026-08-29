@@ -1,0 +1,57 @@
+{
+  "id": "layered-depth",
+  "group": "structure",
+  "definition": "Increase layer count and parallax stack.",
+  "targetConcerns": [
+    "depth",
+    "composition"
+  ],
+  "compatibleStyles": [
+    "baroque-chiaroscuro",
+    "paper-cut-collage",
+    "photo-essay",
+    "neo-noir-neon"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "flat-plane"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "addParam",
+          "concern": "depth",
+          "path": "layers",
+          "amount": 1
+        },
+        {
+          "op": "addParam",
+          "concern": "composition",
+          "path": "density",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

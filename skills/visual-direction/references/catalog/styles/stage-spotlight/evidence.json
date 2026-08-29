@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "stage-spotlight",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Controlled theatrical spotlight beam",
+    "creatorOrTradition": "Strand Electric and stage-lighting practice",
+    "sourceUrl": "https://theatrecrafts.com/archive/documents/HSLC-Collection-Note-03.pdf",
+    "whyCanonical": "The Theatrecrafts collection note documents the development of an even, adjustable, controlled spotlight beam as a core stage-lighting instrument."
+  },
+  "sources": [
+    {
+      "title": "Historical Stage Lighting Collection Note 03",
+      "publisher": "Theatrecrafts",
+      "url": "https://theatrecrafts.com/archive/documents/HSLC-Collection-Note-03.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Stage spotlight design centers on an even, adjustable, controlled beam and management of spill."
+      ]
+    },
+    {
+      "title": "The Essential Reference Guide for Filmmakers",
+      "publisher": "Kodak",
+      "url": "https://www.kodak.com/content/products-brochures/Film/kodak-essential-reference-guide-for-filmmakers.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Lighting creates dimensional separation through controlled contrast, source placement, highlights, and shadows."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches single light pool, hard edged beam, performer isolation, black void, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/stage-spotlight/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/stage-spotlight/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches single light pool, hard edged beam, performer isolation, black void, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

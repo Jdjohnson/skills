@@ -1,0 +1,164 @@
+{
+  "repository": "Jdjohnson/skills",
+  "skills": [
+    {
+      "slug": "consulting-navigator",
+      "title": "Consulting Navigator",
+      "category": "Think and decide",
+      "summary": "Choose the right analysis method for an ambiguous business decision, then synthesize one practical recommendation.",
+      "requirements": "Python 3"
+    },
+    {
+      "slug": "cfo-decision-advisor",
+      "title": "CFO Decision Advisor",
+      "category": "Think and decide",
+      "summary": "Make evidence-backed calls on cash, margin, pricing, capacity, hiring, and financial risk."
+    },
+    {
+      "slug": "guided-brainstorm",
+      "title": "Guided Brainstorm",
+      "category": "Think and decide",
+      "summary": "Turn an early, messy idea into clearer options through short, focused questions."
+    },
+    {
+      "slug": "idea-stress-test",
+      "title": "Idea Stress Test",
+      "category": "Think and decide",
+      "summary": "Pressure-test an established idea fairly, expose weak assumptions, and strengthen what survives."
+    },
+    {
+      "slug": "decision-walkthrough",
+      "title": "Decision Walkthrough",
+      "category": "Think and decide",
+      "summary": "Work through supplied feedback or research one decision at a time, with a running decision log."
+    },
+    {
+      "slug": "execution-trust",
+      "title": "Execution Trust",
+      "category": "Think and decide",
+      "summary": "Keep decisions, commitments, and avoided conversations from decaying after the moment passes."
+    },
+    {
+      "slug": "david-deutsch-lens",
+      "title": "David Deutsch Lens",
+      "category": "Think and decide",
+      "summary": "Apply source-grounded David Deutsch arguments without impersonation or physics-as-metaphor shortcuts.",
+      "requirements": "Python 3"
+    },
+    {
+      "slug": "checkpointed-research",
+      "title": "Checkpointed Research",
+      "category": "Research and knowledge",
+      "summary": "Run multi-pass, source-backed research that can pause, resume, and finish with an inspectable report.",
+      "requirements": "A writable project directory"
+    },
+    {
+      "slug": "executive-brief",
+      "title": "Executive Brief",
+      "category": "Research and knowledge",
+      "summary": "Turn a topic or source material into a concise brief built around the decision that matters."
+    },
+    {
+      "slug": "source-backed-wiki",
+      "title": "Source-Backed Wiki",
+      "category": "Research and knowledge",
+      "summary": "Build and query a local Markdown wiki whose claims trace back to allowed source files.",
+      "requirements": "Node.js, Git, and a configured local wiki"
+    },
+    {
+      "slug": "journal-reflection",
+      "title": "Journal Reflection",
+      "category": "Research and knowledge",
+      "summary": "Find grounded patterns across user-supplied journals without drifting into diagnosis."
+    },
+    {
+      "slug": "genealogy-site-publisher",
+      "title": "Genealogy Site Publisher",
+      "category": "Research and knowledge",
+      "summary": "Publish family-history research while protecting living people and preserving source conflicts.",
+      "requirements": "Configured genealogy research and site repositories"
+    },
+    {
+      "slug": "visual-direction",
+      "title": "Visual Direction",
+      "category": "Write and direct",
+      "summary": "Find a visual language through images, refine the chosen direction, and record the approved result.",
+      "requirements": "Node.js 22 or newer"
+    },
+    {
+      "slug": "photography-director",
+      "title": "Photography Director",
+      "category": "Write and direct",
+      "summary": "Clarify a real-photography direction and prepare a clean handoff for AI, a photographer, or a self-shoot.",
+      "requirements": "Node.js 22 or newer"
+    },
+    {
+      "slug": "plain-language-writer",
+      "title": "Plain-Language Writer",
+      "category": "Write and direct",
+      "summary": "Draft or revise natural prose so the point is immediate and every sentence earns its place."
+    },
+    {
+      "slug": "adhd-friendly-output",
+      "title": "ADHD-Friendly Output",
+      "category": "Write and direct",
+      "summary": "Turn dense material into an action-first response that is easier to scan and use."
+    },
+    {
+      "slug": "chatgpt-handoff",
+      "title": "ChatGPT Handoff",
+      "category": "Agents and operations",
+      "summary": "Prepare a bounded ChatGPT assignment and reconcile the returned work into the current project.",
+      "requirements": "Python 3 for Desktop packet fallback and a configured ChatGPT access path"
+    },
+    {
+      "slug": "cli-agent-delegation",
+      "title": "CLI Agent Delegation",
+      "category": "Agents and operations",
+      "summary": "Delegate bounded work to an installed local coding-agent CLI while keeping the calling agent in control.",
+      "requirements": "Python 3, at least one supported agent CLI, and its authentication"
+    },
+    {
+      "slug": "manus-api",
+      "title": "Manus API",
+      "category": "Agents and operations",
+      "summary": "Send sustained research, web, artifact, or batch work to Manus with explicit credit and receipt boundaries.",
+      "requirements": "Python 3, a Manus API key, and paid credits"
+    },
+    {
+      "slug": "gws-cli",
+      "title": "GWS CLI",
+      "category": "Agents and operations",
+      "summary": "Run deterministic Google Drive, Sheets, Gmail, and Calendar operations through guarded CLI wrappers.",
+      "requirements": "Python 3, Google Workspace CLI access, and OAuth"
+    },
+    {
+      "slug": "comms-intake",
+      "title": "Comms Intake",
+      "category": "Agents and operations",
+      "summary": "Triage a configured local queue of normalized messages without touching the original inboxes.",
+      "requirements": "A configured local message queue"
+    },
+    {
+      "slug": "time-partner",
+      "title": "Time Partner",
+      "category": "Agents and operations",
+      "summary": "Use conversational journaling to plan, track, close, review, and reflect across a working period.",
+      "requirements": "Configured journal or planning paths for durable use"
+    },
+    {
+      "slug": "work-closeout",
+      "title": "Work Closeout",
+      "category": "Agents and operations",
+      "summary": "Reconcile a proven outcome across the exact records and trackers that need to reflect it.",
+      "requirements": "Python 3 and configured records or trackers"
+    },
+    {
+      "slug": "session-friction-review",
+      "title": "Session Friction Review",
+      "category": "Agents and operations",
+      "summary": "Review the visible session for small workflow friction and append only validated, deduplicated findings.",
+      "requirements": "A configured local reviewer and destination"
+    }
+  ]
+}

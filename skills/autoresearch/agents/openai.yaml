@@ -1,6 +1,0 @@
-interface:
-  display_name: "Autoresearch"
-  short_description: "Checkpointed research with a live executive summary"
-  default_prompt: "Use $autoresearch to run one bounded research pass on this topic, save the findings, and tell me what a next pass would investigate."
-policy:
-  allow_implicit_invocation: true

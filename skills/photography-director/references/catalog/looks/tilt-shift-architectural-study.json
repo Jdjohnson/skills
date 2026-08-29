@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "id": "tilt-shift-architectural-study",
+  "displayName": "Tilt-Shift Miniature Effect",
+  "family": "landscape-built-world",
+  "definition": "A high or oblique architectural view with a narrow tilted focus band, compressed scale cues, and crisp local detail that makes real structures read like a miniature model; the lens or post-production method remains unclaimed unless documented.",
+  "aliases": [
+    "miniature tilt shift",
+    "toy city photography"
+  ],
+  "cues": [
+    "tilt-shift-control",
+    "high-angle",
+    "tilt-plane-focus",
+    "spatial-compression"
+  ],
+  "antiCues": [
+    "uniform front-to-back sharpness",
+    "ordinary eye-level building record",
+    "random whole-frame blur"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "architecture",
+      "interiors"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "high-angle",
+      "oblique-view"
+    ],
+    "lens-perspective": [
+      "tilt-shift-control",
+      "telephoto-compression"
+    ],
+    "focus-depth": [
+      "tilt-plane-focus",
+      "selective-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "side-light",
+      "hard-light"
+    ],
+    "composition": [
+      "geometric-order",
+      "leading-lines",
+      "spatial-compression"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "narrow tilted focus band",
+    "compressed model-like scale",
+    "recognizable architectural detail"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera height, tilt-plane placement, and saturation to the scene; call it a tilt-shift effect unless lens movement is documented."
+  ],
+  "applicability": [
+    "architecture",
+    "interiors",
+    "designed environments"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-tilt-shift-architectural-study"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lens basics",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/articles/00268239",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A high or oblique architectural view with a narrow tilted focus band, compressed scale cues, and crisp local detail that makes real structures read like a miniature model; the lens or post-production method remains unclaimed unless documented."
+        ]
+      }
+    ]
+  }
+}

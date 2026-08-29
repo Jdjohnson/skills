@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "belle-epoque-lithograph",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Toulouse-Lautrec's Paris entertainment posters",
+    "creatorOrTradition": "Belle Époque color-lithographic poster tradition",
+    "sourceUrl": "https://www.moma.org/collection/works/188979",
+    "whyCanonical": "The poster demonstrates bold crop, flat color, performer silhouette, compressed space, and integrated lettering working as a complete street-facing communication."
+  },
+  "sources": [
+    {
+      "title": "Henri de Toulouse-Lautrec and the spectacle of Paris",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/calendar/exhibitions/1450",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Belle Époque print culture connected entertainment, celebrity, modern urban life, and repeatable color lithography."
+      ]
+    },
+    {
+      "title": "Toulouse-Lautrec poster in the collection",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/188979",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A complete period poster proves the style's large silhouette, shallow spatial layers, flat limited color, hand-shaped type, and asymmetric crop."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches poster scale, belle epoque era, organic, display type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/belle-epoque-lithograph/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/belle-epoque-lithograph/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches poster scale, belle epoque era, organic, display type, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

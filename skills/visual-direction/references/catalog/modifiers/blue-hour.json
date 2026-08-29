@@ -1,0 +1,55 @@
+{
+  "id": "blue-hour",
+  "group": "temperature",
+  "definition": "Evening cool blue cast with soft dim light.",
+  "targetConcerns": [
+    "palette",
+    "lighting"
+  ],
+  "compatibleStyles": [
+    "night-drive",
+    "neo-noir-neon",
+    "fog-atmosphere",
+    "glassmorphism"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "neutral-temperature"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "hueRotate",
+          "degrees": -18
+        },
+        {
+          "op": "addParam",
+          "concern": "lighting",
+          "path": "gradient",
+          "amount": -0.15
+        }
+      ]
+    }
+  }
+}

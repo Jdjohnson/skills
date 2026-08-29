@@ -1,0 +1,65 @@
+{
+  "id": "y2k-tint",
+  "group": "era-tint",
+  "definition": "Apply millennial net-era tint.",
+  "targetConcerns": [
+    "palette",
+    "materialTexture"
+  ],
+  "compatibleStyles": [
+    "y2k-cyber",
+    "vaporwave",
+    "neon-night-ui",
+    "glassmorphism"
+  ],
+  "incompatibleStyles": [
+    "wabi-sabi",
+    "shaker-utility"
+  ],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [
+    "ornate-historical",
+    "organic-craft"
+  ],
+  "incompatibleModifiers": [
+    "classical-tint"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "hueRotate",
+          "degrees": -18
+        },
+        {
+          "op": "saturationScale",
+          "factor": 1.075
+        },
+        {
+          "op": "addParam",
+          "concern": "materialTexture",
+          "path": "grain",
+          "amount": 0.15
+        }
+      ]
+    }
+  }
+}

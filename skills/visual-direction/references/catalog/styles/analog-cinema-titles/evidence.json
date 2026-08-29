@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "analog-cinema-titles",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Saul Bass film graphics",
+    "creatorOrTradition": "Saul Bass",
+    "sourceUrl": "https://www.moma.org/artists/372-saul-bass",
+    "whyCanonical": "MoMA's collection connects Bass to major film posters, album graphics, and title-related screen design, establishing a recognized bridge between modern graphic form and cinema."
+  },
+  "sources": [
+    {
+      "title": "Saul Bass",
+      "publisher": "Museum of Modern Art",
+      "url": "https://www.moma.org/artists/372-saul-bass",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Bass's film-related works establish strong display form, reduction, and screen-era graphic identity as a canonical title-design anchor."
+      ]
+    },
+    {
+      "title": "They Came From Within: B-Movie Title Design of the 1940s & 1950s",
+      "publisher": "Art of the Title",
+      "url": "https://www.artofthetitle.com/feature/they-came-from-within-b-movie-title-design/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Printed cards, optical effects, stop-frame animation, timed camera moves, and genre-specific typography shaped early title-sequence language."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches screen centered type, optical effects, film grain, leader marks, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/analog-cinema-titles/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/analog-cinema-titles/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches screen centered type, optical effects, film grain, leader marks, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

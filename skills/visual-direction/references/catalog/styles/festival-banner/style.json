@@ -1,0 +1,169 @@
+{
+  "id": "festival-banner",
+  "displayName": "Festival Banner",
+  "family": "folk-vernacular",
+  "definition": "Repeated paper or cloth banners, cutwork, carried flags, or overhead strands that turn public space into rhythmic ceremonial color and movement.",
+  "axes": {
+    "minimalOrnate": 0.7,
+    "geometricOrganic": 0.5,
+    "polishedRaw": 0.4,
+    "calmEnergetic": 0.6,
+    "historicalFuturistic": -0.4,
+    "realisticAbstract": -0.1,
+    "warmCool": -0.3,
+    "lightDark": 0.4,
+    "playfulSerious": -0.9,
+    "handmadeMachined": -0.7,
+    "flatDeep": -0.1,
+    "everydayLuxurious": -0.3
+  },
+  "cues": [
+    "repeated-overhead-strands",
+    "cut-paper",
+    "cloth-flags",
+    "ceremonial-color",
+    "wind-movement",
+    "public-space-rhythm",
+    "hand-cut-variation",
+    "event-specific-symbols"
+  ],
+  "antiCues": [
+    "corporate-event-bunting",
+    "generic-party-flags",
+    "random-cultural-icons",
+    "static-wallpaper",
+    "plastic-pennant-chain"
+  ],
+  "emotionalEffects": [
+    "joyful",
+    "energized",
+    "monumental"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.6,
+      "symmetry": 0.5,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#D50000",
+        "#FFD600",
+        "#2962FF",
+        "#FFFFFF",
+        "#1B5E20"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/festival-banner.svg",
+      "descriptor": "hand-informed display",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/folk-vernacular-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.35,
+      "tags": [
+        "fabric",
+        "silk"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.7,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/folk-vernacular"
+      ],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "abstracted",
+      "subjectRules": [
+        "name-the-festival-tradition",
+        "show-public-space-and-airflow",
+        "preserve-cut-or-sewn-construction",
+        "avoid-sacred-symbols-as-party-decor"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 1,
+    "social-advertising": 3,
+    "packaging": 1,
+    "photography": 2,
+    "motion-video": 2,
+    "product-3d": 0,
+    "interiors-architecture": 2,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "multiple strands of hand-cut paper or sewn cloth transforming a public street or gathering place through color and wind",
+    "framing": "look along or upward through repeated spans so suspension, sky, architecture, and collective scale remain visible",
+    "mustShow": [
+      "repeated suspended units",
+      "cutwork or sewn construction",
+      "movement in shared public space"
+    ],
+    "mustAvoid": [
+      "generic birthday bunting",
+      "plastic pennants",
+      "mixed sacred symbols",
+      "flat digital repeat",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": "multiple regions",
+  "traditionalOrLivingPractice": true,
+  "requiresCulturalReview": true,
+  "culturalContext": {
+    "summary": "Public festival banner and processional cloth",
+    "antiCaricature": "Treat motifs as living or historically specific visual languages, not costume kitsch. Prefer structural grammar (line, rhythm, material) over stereotyped subjects. Avoid sacred symbol misuse.",
+    "guidance": "When applying this node, preserve source grammar and cite traditions. Prefer consultation with authoritative museum/catalog sources over pop caricature."
+  },
+  "related": [
+    "mexican-tinwork",
+    "market-vernacular",
+    "roadside-vernacular"
+  ],
+  "contrasting": [
+    "lab-notebook",
+    "specimen-label",
+    "academic-journal"
+  ]
+}

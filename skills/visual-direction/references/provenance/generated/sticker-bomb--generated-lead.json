@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "sticker-bomb",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of sticker-bomb surface culture.\nUse case: stylized-concept\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original close-up of a metal street panel completely layered with fictional die-cut stickers, hand tags, warning shapes, mascot fragments, holographic accents, torn edges, and overlapping scale.\nStyle/medium: crisp documentary macro photography\nComposition/framing: portrait 4:5, dense edge-to-edge collage, several large anchor stickers and many smaller overlaps, readable at thumbnail scale\nLighting/mood: frontal daylight, energetic and unruly\nColor palette: broad vivid mix grounded by black and white\nMaterials/textures: vinyl, paper, holographic film, scratched metal, adhesive tears\nText: invented glyphs only\nConstraints: all stickers original fictional designs, no existing characters, no brands, no logos, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "dc44aa4a29f75779765a094a72bf247ef5fb151d1478cf02c6e59ec40c19a2e2",
+  "finalAsset": "assets/refs/sticker-bomb/generated-lead.jpg",
+  "finalSha256": "e9de56c999bf47bfdd4d4c05c81e56c8318e95c8490034f8b5c5db72881452e9",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

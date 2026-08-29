@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "psychedelic-poster",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of a late-1960s psychedelic concert poster.\nUse case: stylized-concept\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original fictional concert poster built from dense hand-drawn lettering shapes, liquid contours, vibrating complementary colors, and a central surreal botanical-solar figure.\nStyle/medium: screenprinted and offset-lithographic poster, slightly imperfect ink registration\nComposition/framing: portrait 4:5, edge-to-edge poster, tightly interlocked lettering and illustration, one dominant central silhouette, readable as psychedelic at thumbnail scale\nLighting/mood: flat printed surface, ecstatic and hallucinatory\nColor palette: hot magenta, acid orange, turquoise, violet, black\nMaterials/textures: fibrous poster paper, saturated ink, subtle print grain\nText: invented ornamental letterforms only; no real names or readable event copy\nConstraints: original fictional composition, unmistakable late-1960s psychedelic poster grammar, no existing band, no copied poster, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "ce3a1445fdf292922a2a60870303c81b81bfcf85fb69b27baceafbaa8ed5ba1e",
+  "finalAsset": "assets/refs/psychedelic-poster/generated-lead.jpg",
+  "finalSha256": "8707f4185c5273347ff2f831e36f21be24e9081d981caca54ade3fd7c5ea0043",
+  "postProcessing": "Resized to 800x1000 pixels and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

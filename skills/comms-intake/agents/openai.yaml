@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comms Intake"
+  short_description: "Triage a local queue of message captures"
+  default_prompt: "Use $comms-intake to refresh and triage the configured local communications queue safely."

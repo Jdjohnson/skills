@@ -1,0 +1,63 @@
+{
+  "id": "higher-contrast",
+  "group": "contrast",
+  "definition": "Push value range and edge contrast.",
+  "targetConcerns": [
+    "lighting",
+    "palette"
+  ],
+  "compatibleStyles": [
+    "film-noir",
+    "graphic-black-and-white",
+    "billboard-bold",
+    "pop-art"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "lower-contrast"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "lighting",
+          "path": "contrast",
+          "factor": 1.15
+        },
+        {
+          "op": "saturationScale",
+          "factor": 1.075
+        },
+        {
+          "op": "lightnessShift",
+          "amount": 0
+        }
+      ]
+    },
+    "heroOverlay": {
+      "type": "colorMatrix",
+      "strength": 0.35
+    }
+  }
+}

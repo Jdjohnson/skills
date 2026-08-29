@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "editorial-contact-sheet-sequence",
+  "displayName": "Editorial Contact-Sheet Sequence",
+  "family": "action-nature-experimental",
+  "definition": "A group of related real frames presented with contact-sheet or edit-sequence logic so variation, timing, and selection become part of the photographic direction.",
+  "aliases": [
+    "photo contact sheet",
+    "magazine image sequence"
+  ],
+  "cues": [
+    "contact-sheet-sequence",
+    "editorial-spread",
+    "repetition",
+    "natural-motion"
+  ],
+  "antiCues": [
+    "one image duplicated mechanically",
+    "random unrelated grid",
+    "hidden sequence logic"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "editorial",
+      "documentary",
+      "fashion"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "full-length",
+      "layered-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "available-light",
+      "soft-light"
+    ],
+    "composition": [
+      "repetition",
+      "geometric-order",
+      "edge-tension"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "neutral-color"
+    ],
+    "medium-process": [
+      "black-and-white-negative"
+    ],
+    "processing-texture": [
+      "fine-grain",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "mid-century-editorial"
+    ],
+    "format-output": [
+      "contact-sheet-sequence",
+      "editorial-spread",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "meaningful frame-to-frame variation",
+    "visible edit rhythm",
+    "publication sequence logic"
+  ],
+  "adaptiveGuidance": [
+    "Adapt frame count and layout to the story; each image must add timing, gesture, or scale rather than repeat."
+  ],
+  "applicability": [
+    "fashion edits",
+    "documentary sequences",
+    "portraits in motion"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-editorial-contact-sheet-sequence"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photography in Postwar America, 1945-60",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/photography-and-everyday-life-in-america-1945-60",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A group of related real frames presented with contact-sheet or edit-sequence logic so variation, timing, and selection become part of the photographic direction."
+        ]
+      }
+    ]
+  }
+}

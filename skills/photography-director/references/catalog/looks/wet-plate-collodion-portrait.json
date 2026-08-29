@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "wet-plate-collodion-portrait",
+  "displayName": "Wet-Plate Collodion Portrait",
+  "family": "historical-process",
+  "definition": "A documented early-1860s wet-plate portrait with deliberate environmental pose, dark plate edges, and emulsion irregularity rather than a generic antique filter.",
+  "aliases": [
+    "collodion portrait",
+    "wet plate face"
+  ],
+  "cues": [
+    "wet-plate-collodion",
+    "environmental-framing",
+    "plate-edge-irregularity",
+    "natural-texture"
+  ],
+  "antiCues": [
+    "clean digital perfection",
+    "sepia-only vintage effect"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "full-length",
+      "eye-level",
+      "off-center-framing",
+      "environmental-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "flat-lighting"
+    ],
+    "composition": [
+      "layered-depth",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "wet-plate-collodion"
+    ],
+    "processing-texture": [
+      "vignette",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "early-studio-photography"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "dark plate edges",
+    "deliberate environmental pose",
+    "process-specific imperfection"
+  ],
+  "adaptiveGuidance": [
+    "Keep artifacts sparse and plate-related; adapt pose and crop to the subject."
+  ],
+  "applicability": [
+    "people",
+    "historic interpretation",
+    "fine-art portrait"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-wet-plate-collodion-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photographic Processes Video Series & Glossary",
+        "publisher": "George Eastman Museum",
+        "url": "https://www.eastman.org/photographic-processes-video-series-glossary",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A documented early-1860s wet-plate portrait with deliberate environmental pose, dark plate edges, and emulsion irregularity rather than a generic antique filter."
+        ]
+      }
+    ]
+  }
+}

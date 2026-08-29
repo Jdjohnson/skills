@@ -1,0 +1,166 @@
+{
+  "id": "narrative-woodcut",
+  "displayName": "Narrative Woodcut",
+  "family": "folk-vernacular",
+  "definition": "Carved relief line, heavy black shapes, limited ink, compressed figure-ground drama, and serial or tale-book narration.",
+  "axes": {
+    "minimalOrnate": 0.3,
+    "geometricOrganic": 0,
+    "polishedRaw": 0.4,
+    "calmEnergetic": 0.2,
+    "historicalFuturistic": -0.6,
+    "realisticAbstract": -0.3,
+    "warmCool": -0.3,
+    "lightDark": 0.2,
+    "playfulSerious": 0.5,
+    "handmadeMachined": -0.8,
+    "flatDeep": -0.5,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "carved-relief-line",
+    "heavy-black-shape",
+    "white-cut-mark",
+    "compressed-figure-ground",
+    "limited-ink",
+    "serial-scene",
+    "tale-book-rhythm",
+    "paper-impression"
+  ],
+  "antiCues": [
+    "multicolor-ukiyo-e",
+    "smooth-vector-line",
+    "photographic-halftone",
+    "painterly-wash",
+    "delicate-engraving"
+  ],
+  "emotionalEffects": [
+    "dramatic",
+    "solemn",
+    "timeless"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.65,
+      "symmetry": 0.4,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#8B0000",
+        "#000000",
+        "#FFFEF7",
+        "#6B8E23",
+        "#5C4033"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/woodcut-tale.svg",
+      "descriptor": "hand-informed display",
+      "weight": 700,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/folk-vernacular-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.6,
+      "tags": [
+        "paper",
+        "wood",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.65,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/folk-vernacular"
+      ],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "show-relief-print-construction",
+        "use-black-white-mass-for-story",
+        "preserve-carved-edge-character",
+        "avoid-ukiyo-e-color-language"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 0,
+    "interiors-architecture": 1,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "a dramatic tale scene cut into black and white relief with figures compressed against architecture or landscape",
+    "framing": "use a full printed page or serial image whose black masses and carved white lines direct the story",
+    "mustShow": [
+      "raised-line relief character",
+      "strong black-white figure ground",
+      "narrative action or sequence"
+    ],
+    "mustAvoid": [
+      "smooth vector contour",
+      "full-color atmospheric blocks",
+      "photographic texture",
+      "etching crosshatch imitation",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "ukiyo-e",
+    "roadside-vernacular",
+    "narrative-textile"
+  ],
+  "contrasting": [
+    "glassmorphism",
+    "vaporwave",
+    "academic-journal"
+  ]
+}

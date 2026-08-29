@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "documentary-grit",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "FSA/OWI documentary photography project",
+    "creatorOrTradition": "Library of Congress Prints and Photographs Division",
+    "sourceUrl": "https://www.loc.gov/pictures/collection/fsa/background.html",
+    "whyCanonical": "The collection documents rural and urban American conditions through assignments, field research, captions, and broad contextual coverage."
+  },
+  "sources": [
+    {
+      "title": "Farm Security Administration/Office of War Information Black-and-White Negatives — Background and Scope",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/pictures/collection/fsa/background.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Documentary assignments combined subject research, field observation, contextual coverage, and captions rather than isolated dramatic pictures."
+      ]
+    },
+    {
+      "title": "Exploring Contexts",
+      "publisher": "Library of Congress",
+      "url": "https://guides.loc.gov/american-women-prints-photographs/understanding-pictorial-collections/contexts",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A documentary photograph's meaning depends on creation circumstances, related frames, purpose, and the subject's perspective."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach observational framing, available light, contextual environment, unpolished surface while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/documentary-grit/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/documentary-grit/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach observational framing, available light, contextual environment, unpolished surface while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

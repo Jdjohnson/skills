@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.0.0",
+  "graph_version": "0.1.0",
+  "description": "An explicit, provenance-bearing map of how active argument packets form a worldview. Edges owned by skill-editor are navigation syntheses, not claims that Deutsch stated the relationship in this exact form.",
+  "nodes": [
+    "conjecture-criticism-fallibilism",
+    "constructor-theory",
+    "culture-static-dynamic-societies",
+    "decisions-and-error-correcting-institutions",
+    "evolution-and-knowledge",
+    "explanation-and-good-explanations",
+    "explanatory-reach",
+    "four-strand-worldview",
+    "objective-morality-and-aesthetics",
+    "optimism-problems-progress",
+    "people-creativity-and-agi",
+    "physical-computation-and-proof",
+    "quantum-multiverse",
+    "realism-emergence-abstraction",
+    "sustainability-and-unforeseen-problems",
+    "universality-and-infinity"
+  ],
+  "edges": [
+    {
+      "id": "worldview.four-strands.depends-on-quantum.v1",
+      "type": "depends_on",
+      "from_cluster": "four-strand-worldview",
+      "to_cluster": "quantum-multiverse",
+      "summary": "The Fabric of Reality presents quantum physics as one of four strands jointly needed for its unified worldview.",
+      "routing_signals": ["four strands", "fabric of reality", "quantum", "worldview"],
+      "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"},
+      "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "introduction and chapter 14 summary", "verification": "checked"}]
+    },
+    {
+      "id": "worldview.four-strands.depends-on-epistemology.v1",
+      "type": "depends_on",
+      "from_cluster": "four-strand-worldview",
+      "to_cluster": "conjecture-criticism-fallibilism",
+      "summary": "The Fabric of Reality presents Popperian epistemology as one of four jointly explanatory strands.",
+      "routing_signals": ["four strands", "fabric of reality", "epistemology", "knowledge", "criticism"],
+      "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"},
+      "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "introduction and chapter 14 summary", "verification": "checked"}]
+    },
+    {
+      "id": "worldview.four-strands.depends-on-evolution.v1",
+      "type": "depends_on",
+      "from_cluster": "four-strand-worldview",
+      "to_cluster": "evolution-and-knowledge",
+      "summary": "The Fabric of Reality presents Darwinian evolution as one of four jointly explanatory strands.",
+      "routing_signals": ["four strands", "fabric of reality", "evolution", "adaptation"],
+      "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"},
+      "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "introduction and chapter 14 summary", "verification": "checked"}]
+    },
+    {
+      "id": "worldview.four-strands.depends-on-computation.v1",
+      "type": "depends_on",
+      "from_cluster": "four-strand-worldview",
+      "to_cluster": "physical-computation-and-proof",
+      "summary": "The Fabric of Reality presents computation as one of four jointly explanatory strands.",
+      "routing_signals": ["four strands", "fabric of reality", "computation", "Turing principle"],
+      "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"},
+      "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "introduction and chapter 14 summary", "verification": "checked"}]
+    },
+    {
+      "id": "worldview.explanations.motivate-criticism.v1",
+      "type": "motivates",
+      "from_cluster": "explanation-and-good-explanations",
+      "to_cluster": "conjecture-criticism-fallibilism",
+      "summary": "The Skill connects explanatory knowledge with the conjecture-and-criticism process by which rival explanations can be improved or replaced.",
+      "routing_signals": ["rival explanation", "criticism", "error", "test explanation"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.reach.refines-explanation.v1",
+      "type": "refines",
+      "from_cluster": "explanatory-reach",
+      "to_cluster": "explanation-and-good-explanations",
+      "summary": "Reach is treated as a property of explanatory content, not a substitute for the requirement that an explanation solve its original problem.",
+      "routing_signals": ["reach", "generalize", "wider problem", "explanatory content"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.realism.depends-on-explanation.v1",
+      "type": "depends_on",
+      "from_cluster": "realism-emergence-abstraction",
+      "to_cluster": "explanation-and-good-explanations",
+      "summary": "The Skill connects realism about unobserved and emergent entities to the explanatory work those entities perform.",
+      "routing_signals": ["realism", "unobserved", "emergence", "abstraction", "explanation"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.evolution.exemplifies-knowledge.v1",
+      "type": "exemplifies",
+      "from_cluster": "evolution-and-knowledge",
+      "to_cluster": "conjecture-criticism-fallibilism",
+      "summary": "The Skill connects biological adaptation and explanatory knowledge as distinct forms of information that solve problems while preserving their different creation mechanisms.",
+      "routing_signals": ["adaptation", "knowledge", "variation", "selection", "error correction"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.creativity.depends-on-knowledge-creation.v1",
+      "type": "depends_on",
+      "from_cluster": "people-creativity-and-agi",
+      "to_cluster": "conjecture-criticism-fallibilism",
+      "summary": "The Skill connects people as universal explainers with the conjectural creation and criticism of explanatory knowledge.",
+      "routing_signals": ["creativity", "person", "people", "explanation", "knowledge creation", "AGI"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.culture.depends-on-creativity.v1",
+      "type": "depends_on",
+      "from_cluster": "culture-static-dynamic-societies",
+      "to_cluster": "people-creativity-and-agi",
+      "summary": "The Skill preserves Deutsch's point that cultural transmission involves creative reconstruction by people rather than literal copying alone.",
+      "routing_signals": ["culture", "meme", "copying", "creative reconstruction", "people"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.culture.refines-evolution.v1",
+      "type": "refines",
+      "from_cluster": "culture-static-dynamic-societies",
+      "to_cluster": "evolution-and-knowledge",
+      "summary": "Cultural replication uses evolutionary language but must not erase the explanatory and creative differences between genes, memes, and people.",
+      "routing_signals": ["meme", "gene", "cultural evolution", "replication", "selection"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.institutions.motivate-error-correction.v1",
+      "type": "motivates",
+      "from_cluster": "decisions-and-error-correcting-institutions",
+      "to_cluster": "conjecture-criticism-fallibilism",
+      "summary": "The Skill connects fallible knowledge with institutions and decisions designed to expose and correct error without pretending to guarantee it away.",
+      "routing_signals": ["decision", "institution", "error correction", "replace", "feedback", "handoff"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.institutions.depends-on-creativity.v1",
+      "type": "depends_on",
+      "from_cluster": "decisions-and-error-correcting-institutions",
+      "to_cluster": "people-creativity-and-agi",
+      "summary": "Creating better options and institutions depends on people generating explanations and alternatives that were not contained in the original menu.",
+      "routing_signals": ["create options", "fixed choice", "decision", "institution", "creativity"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.optimism.depends-on-fallibilism.v1",
+      "type": "depends_on",
+      "from_cluster": "optimism-problems-progress",
+      "to_cluster": "conjecture-criticism-fallibilism",
+      "summary": "Optimism concerns the possibility of creating knowledge to correct errors; it does not remove fallibility, difficulty, or the need for criticism.",
+      "routing_signals": ["optimism", "problem", "failure", "error", "criticism", "progress"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.optimism.depends-on-creativity.v1",
+      "type": "depends_on",
+      "from_cluster": "optimism-problems-progress",
+      "to_cluster": "people-creativity-and-agi",
+      "summary": "The Skill connects the possibility of progress with people being capable of creating new explanatory knowledge.",
+      "routing_signals": ["optimism", "progress", "creativity", "people", "new knowledge"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.sustainability.qualifies-optimism.v1",
+      "type": "qualifies",
+      "from_cluster": "sustainability-and-unforeseen-problems",
+      "to_cluster": "optimism-problems-progress",
+      "summary": "The Skill uses the sustainability argument to prevent optimism from becoming confidence in fixed plans, forecasts, or permanent stasis.",
+      "routing_signals": ["sustainability", "future", "forecast", "contingency", "stasis", "optimism"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.universality.motivates-open-ended-progress.v1",
+      "type": "motivates",
+      "from_cluster": "universality-and-infinity",
+      "to_cluster": "optimism-problems-progress",
+      "summary": "The Skill connects jumps to universality with the possibility of open-ended reach while preserving that neither guarantees any particular success.",
+      "routing_signals": ["universality", "infinity", "open ended", "reach", "progress"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.computation.exemplifies-universality.v1",
+      "type": "exemplifies",
+      "from_cluster": "physical-computation-and-proof",
+      "to_cluster": "universality-and-infinity",
+      "summary": "Universal computation is a central technical example of a finite system acquiring an open-ended repertoire within its physical limits.",
+      "routing_signals": ["universal computer", "Turing principle", "universality", "repertoire", "computation"],
+      "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"},
+      "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "chapters 6 and 10", "verification": "checked"}]
+    },
+    {
+      "id": "worldview.constructor.refines-computation.v1",
+      "type": "refines",
+      "from_cluster": "constructor-theory",
+      "to_cluster": "physical-computation-and-proof",
+      "summary": "The Skill places constructor theory after Deutsch's earlier work on physical computation while preserving it as a later proposed program, not terminology already present in 1997.",
+      "routing_signals": ["constructor theory", "computation", "possible task", "impossible task", "chronology"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.quantum.motivates-quantum-computation.v1",
+      "type": "motivates",
+      "from_cluster": "quantum-multiverse",
+      "to_cluster": "physical-computation-and-proof",
+      "summary": "The Skill connects Deutsch's quantum explanation with his physical account of quantum computation without treating either as consensus proof of the other.",
+      "routing_signals": ["quantum computation", "quantum computer", "multiverse", "interference"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.values.depends-on-fallible-objectivity.v1",
+      "type": "depends_on",
+      "from_cluster": "objective-morality-and-aesthetics",
+      "to_cluster": "conjecture-criticism-fallibilism",
+      "summary": "The Skill connects objective moral and aesthetic progress with criticism and corrigibility, not with an infallible taste or policy oracle.",
+      "routing_signals": ["objective morality", "objective beauty", "criticism", "progress", "disagreement"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    },
+    {
+      "id": "worldview.realism.connects-four-strands.v1",
+      "type": "our_synthesis_connects",
+      "from_cluster": "realism-emergence-abstraction",
+      "to_cluster": "four-strand-worldview",
+      "summary": "The Skill uses realism across levels as a navigation connection among the four strands rather than as a fifth independent strand attributed to Deutsch.",
+      "routing_signals": ["levels of explanation", "emergence", "four strands", "worldview"],
+      "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+      "source_refs": []
+    }
+  ]
+}

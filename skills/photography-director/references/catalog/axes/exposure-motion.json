@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "id": "exposure-motion",
+  "displayName": "Exposure and motion",
+  "definition": "How duration, subject movement, camera movement, and flash timing are made visible.",
+  "values": [
+    {
+      "id": "frozen-motion",
+      "displayName": "Frozen motion",
+      "definition": "Fast action is rendered with crisp edges and little visible displacement.",
+      "aliases": [
+        "freeze the action",
+        "no motion blur"
+      ],
+      "visibleCues": [
+        "moving subject appears sharp",
+        "peak gesture is legible"
+      ],
+      "antiCues": [
+        "directional smear"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-peak-action-photojournalism",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife",
+        "ref-high-speed-splash",
+        "ref-fisheye-skate-snapshot"
+      ]
+    },
+    {
+      "id": "natural-motion",
+      "displayName": "Natural motion",
+      "definition": "Small traces of movement remain while the event still reads clearly and credibly.",
+      "aliases": [
+        "a little motion",
+        "lively candid movement"
+      ],
+      "visibleCues": [
+        "gesture feels active",
+        "minor blur supports realism"
+      ],
+      "antiCues": [
+        "statue-like freeze or total smear"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-night-street-color",
+        "ref-industrial-workplace-documentary",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-concert-available-light",
+        "ref-fisheye-skate-snapshot",
+        "ref-cross-processed-slide-look",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-instant-film-everyday-snapshot",
+        "ref-editorial-contact-sheet-sequence",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "subject-motion-blur",
+      "displayName": "Subject motion blur",
+      "definition": "The moving subject smears against a relatively stable camera viewpoint.",
+      "aliases": [
+        "blur the moving person",
+        "motion streak on subject"
+      ],
+      "visibleCues": [
+        "subject edges trail",
+        "background stays comparatively stable"
+      ],
+      "antiCues": [
+        "whole frame moves together"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-night-street-color",
+        "ref-concert-available-light",
+        "ref-rolling-automotive-pan",
+        "ref-rear-curtain-flash-motion",
+        "ref-intentional-blur-conceptual-fashion"
+      ]
+    },
+    {
+      "id": "panning",
+      "displayName": "Panning",
+      "definition": "The camera follows a moving subject so it stays relatively defined while the background streaks directionally.",
+      "aliases": [
+        "panning shot",
+        "speed blur background"
+      ],
+      "visibleCues": [
+        "subject comparatively sharp",
+        "horizontal or directional background streaks"
+      ],
+      "antiCues": [
+        "stationary background and blurred subject"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-rolling-automotive-pan"
+      ]
+    },
+    {
+      "id": "long-exposure",
+      "displayName": "Long exposure",
+      "definition": "An extended exposure accumulates movement or low light into smooth paths and continuous tonal changes.",
+      "aliases": [
+        "slow shutter",
+        "long exposure photo"
+      ],
+      "visibleCues": [
+        "water, clouds, or light become continuous",
+        "stationary structures remain anchored"
+      ],
+      "antiCues": [
+        "instantaneous crisp movement"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-long-exposure-seascape",
+        "ref-night-light-trail-cityscape"
+      ]
+    },
+    {
+      "id": "light-trails",
+      "displayName": "Light trails",
+      "definition": "Moving light sources draw continuous lines through a stationary or slowly exposed scene.",
+      "aliases": [
+        "car light trails",
+        "streaking lights"
+      ],
+      "visibleCues": [
+        "continuous luminous paths",
+        "stable environmental reference"
+      ],
+      "antiCues": [
+        "isolated frozen lamps"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-night-light-trail-cityscape"
+      ]
+    },
+    {
+      "id": "high-speed-flash",
+      "displayName": "High-speed flash",
+      "definition": "A short flash duration arrests extremely rapid action more sharply than ambient light alone.",
+      "aliases": [
+        "flash frozen splash",
+        "high speed photo"
+      ],
+      "visibleCues": [
+        "crisp droplets or fragments",
+        "flash-shaped highlights"
+      ],
+      "antiCues": [
+        "continuous motion smear"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-high-speed-splash"
+      ]
+    },
+    {
+      "id": "rear-curtain-feel",
+      "displayName": "Rear-curtain flash feel",
+      "definition": "A sharp flash-resolved subject appears at the end of a motion trail, making the trail follow rather than lead.",
+      "aliases": [
+        "dragged shutter flash",
+        "rear curtain flash"
+      ],
+      "visibleCues": [
+        "sharp terminal subject",
+        "ambient trail extends behind motion"
+      ],
+      "antiCues": [
+        "trail appears implausibly ahead of subject"
+      ],
+      "claimPolicy": "confirmed-or-documented",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-rear-curtain-flash-motion"
+      ]
+    },
+    {
+      "id": "intentional-camera-movement",
+      "displayName": "Intentional camera movement",
+      "definition": "The camera moves during exposure so stationary forms become directional marks.",
+      "aliases": [
+        "ICM photography",
+        "move camera during exposure"
+      ],
+      "visibleCues": [
+        "whole scene shares directional smear",
+        "movement has deliberate rhythm"
+      ],
+      "antiCues": [
+        "only subject moves"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-intentional-camera-movement-landscape",
+        "ref-intentional-blur-conceptual-fashion"
+      ]
+    },
+    {
+      "id": "multiple-exposure-treatment",
+      "displayName": "Multiple-exposure treatment",
+      "definition": "Two or more exposures or exposure-like layers coexist in one frame.",
+      "aliases": [
+        "double exposure",
+        "multiple exposure"
+      ],
+      "visibleCues": [
+        "overlapping scenes or subject repetitions",
+        "layering remains intentional"
+      ],
+      "antiCues": [
+        "single continuous exposure with ordinary reflection"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-multiple-exposure-conceptual-portrait"
+      ]
+    }
+  ]
+}

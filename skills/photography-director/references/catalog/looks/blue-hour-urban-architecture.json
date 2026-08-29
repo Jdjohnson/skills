@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "blue-hour-urban-architecture",
+  "displayName": "Blue-Hour Urban Architecture",
+  "family": "landscape-built-world",
+  "definition": "A cool twilight architectural view balancing residual blue sky with warm interior or street practicals, controlled verticals, and luminous urban depth.",
+  "aliases": [
+    "twilight building photo",
+    "blue hour city architecture"
+  ],
+  "cues": [
+    "blue-hour",
+    "mixed-light",
+    "cool-color",
+    "geometric-order"
+  ],
+  "antiCues": [
+    "black empty sky",
+    "daylight white balance",
+    "leaning accidental verticals"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "architecture",
+      "interiors",
+      "travel"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "low-angle",
+      "oblique-view"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "blue-hour",
+      "mixed-light",
+      "tungsten-practicals",
+      "cinematic-practicals",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "geometric-order",
+      "leading-lines",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "cool-color",
+      "warm-color",
+      "split-tone",
+      "luminous-highlights"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "cool sky-warm practical balance",
+    "controlled structure",
+    "twilight luminosity"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera height, shift, and timing to the building; preserve real fixture color and sky detail."
+  ],
+  "applicability": [
+    "architecture",
+    "cityscapes",
+    "hospitality",
+    "travel"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-blue-hour-urban-architecture"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lens basics",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/articles/00268239",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A cool twilight architectural view balancing residual blue sky with warm interior or street practicals, controlled verticals, and luminous urban depth."
+        ]
+      }
+    ]
+  }
+}

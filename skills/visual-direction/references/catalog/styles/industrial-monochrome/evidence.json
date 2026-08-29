@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "industrial-monochrome",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Standardized identification plates, manuals, and machine markings",
+    "creatorOrTradition": "Industrial documentation and government technical graphic standards",
+    "sourceUrl": "https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=35521",
+    "whyCanonical": "The active United States military property-marking standard establishes the operational tradition of durable free-text and machine-readable identification applied directly to equipment."
+  },
+  "sources": [
+    {
+      "title": "MIL-STD-130: Identification Marking of U.S. Military Property",
+      "publisher": "Defense Logistics Agency",
+      "url": "https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=35521",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Industrial identification systems use standardized marking criteria for durable free-text and machine-readable information.",
+        "The standard supports the guide's use of machine plates, codes, serial logic, and direct equipment labeling."
+      ]
+    },
+    {
+      "title": "NASA Graphics Standards Manual",
+      "publisher": "National Aeronautics and Space Administration",
+      "url": "https://www.nasa.gov/wp-content/uploads/2015/01/nasa_graphics_manual_nhb_1430-2_jan_1976.pdf",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The manual documents restrained grids, bold headings, flush-left setting, and controlled black-and-white or two-color reproduction.",
+        "Its production guidance supports monochrome technical graphics that prioritize identification and image clarity."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches monochrome, industrial signal, machine precise, metal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/industrial-monochrome/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/industrial-monochrome/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches monochrome, industrial signal, machine precise, metal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

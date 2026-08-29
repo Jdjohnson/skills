@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "id": "format-output",
+  "displayName": "Format and output",
+  "definition": "Adaptable orientation, frame ratio, and multi-image presentation constraints rather than immutable style traits.",
+  "values": [
+    {
+      "id": "landscape-orientation",
+      "displayName": "Landscape orientation",
+      "definition": "The frame is wider than it is tall.",
+      "aliases": [
+        "horizontal photo",
+        "wide orientation"
+      ],
+      "visibleCues": [
+        "width exceeds height",
+        "horizontal reading path"
+      ],
+      "antiCues": [
+        "vertical frame"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-albumen-travel-survey",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-large-format-monochrome-landscape",
+        "ref-fsa-social-documentary",
+        "ref-mid-century-commercial-color",
+        "ref-approachable-environmental-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-night-street-color",
+        "ref-industrial-color-production-reportage",
+        "ref-industrial-workplace-documentary",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-concert-available-light",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-aerial-graphic-landscape",
+        "ref-tilt-shift-architectural-study",
+        "ref-symmetrical-interior-study",
+        "ref-panoramic-desert-survey",
+        "ref-night-light-trail-cityscape",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-direct-flash-still-life",
+        "ref-rolling-automotive-pan",
+        "ref-scientific-specimen-record",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife",
+        "ref-high-speed-splash",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion",
+        "ref-cross-processed-slide-look",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-constructed-conceptual-tableau",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "portrait-orientation",
+      "displayName": "Portrait orientation",
+      "definition": "The frame is taller than it is wide.",
+      "aliases": [
+        "vertical photo",
+        "upright orientation"
+      ],
+      "visibleCues": [
+        "height exceeds width",
+        "vertical reading path"
+      ],
+      "antiCues": [
+        "horizontal frame"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-wet-plate-collodion-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-cyanotype-botanical-photogram",
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-mid-century-editorial-portrait",
+        "ref-window-light-editorial-portrait",
+        "ref-low-key-character-portrait",
+        "ref-high-key-beauty-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-soft-focus-romantic-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-industrial-human-machine-portrait",
+        "ref-travel-photo-essay",
+        "ref-intentional-camera-movement-landscape",
+        "ref-luxury-still-life-polish",
+        "ref-studio-automotive-hero",
+        "ref-selective-focus-macro",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-degraded-zine-reproduction",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "square-format",
+      "displayName": "Square format",
+      "definition": "The frame has equal width and height, emphasizing central or edge-to-edge balance.",
+      "aliases": [
+        "1:1",
+        "square photo"
+      ],
+      "visibleCues": [
+        "equal dimensions",
+        "square spatial pressure"
+      ],
+      "antiCues": [
+        "strongly rectangular frame"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-medium-format-formal-portrait",
+        "ref-bright-editorial-food",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "panoramic-format",
+      "displayName": "Panoramic format",
+      "definition": "A very wide frame organizes an extended horizontal field or sequence of spatial events.",
+      "aliases": [
+        "panorama",
+        "ultrawide crop"
+      ],
+      "visibleCues": [
+        "extended horizontal field",
+        "broad lateral rhythm"
+      ],
+      "antiCues": [
+        "tight vertical crop"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-panoramic-desert-survey"
+      ]
+    },
+    {
+      "id": "editorial-spread",
+      "displayName": "Editorial spread",
+      "definition": "One or more photographs are composed with a two-page publication relationship, gutter, text space, or sequence in mind.",
+      "aliases": [
+        "magazine spread",
+        "two page layout"
+      ],
+      "visibleCues": [
+        "paired-page logic",
+        "intentional copy or gutter space"
+      ],
+      "antiCues": [
+        "single-image composition with no layout allowance"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-editorial-portrait",
+        "ref-travel-photo-essay",
+        "ref-bright-editorial-food",
+        "ref-degraded-zine-reproduction",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "contact-sheet-sequence",
+      "displayName": "Contact sheet or sequence",
+      "definition": "Multiple related frames are presented together so selection, rhythm, or temporal development becomes visible.",
+      "aliases": [
+        "contact sheet",
+        "photo sequence"
+      ],
+      "visibleCues": [
+        "repeated frames",
+        "meaning emerges across images"
+      ],
+      "antiCues": [
+        "single isolated frame"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-humanist-available-light-photo-essay",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "four-three-format",
+      "displayName": "4:3 format",
+      "definition": "A moderately compact rectangular frame common to several digital and medium-format systems.",
+      "aliases": [
+        "4 by 3",
+        "four thirds ratio"
+      ],
+      "visibleCues": [
+        "four-to-three rectangle",
+        "less elongated than 3:2"
+      ],
+      "antiCues": [
+        "extreme panorama"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-commercial-color",
+        "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-y2k-party-flash-portrait",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-aerial-graphic-landscape",
+        "ref-tilt-shift-architectural-study",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-window-light-food-story",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-scientific-specimen-record",
+        "ref-high-speed-splash",
+        "ref-selective-focus-macro",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "three-two-format",
+      "displayName": "3:2 format",
+      "definition": "A moderately elongated rectangle associated with 35mm and many full-frame digital cameras.",
+      "aliases": [
+        "3 by 2",
+        "35mm aspect ratio"
+      ],
+      "visibleCues": [
+        "three-to-two rectangle",
+        "familiar still-photo proportion"
+      ],
+      "antiCues": [
+        "square frame"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-approachable-environmental-portrait",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-night-street-color",
+        "ref-industrial-workplace-documentary",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-concert-available-light",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-cross-processed-slide-look"
+      ]
+    },
+    {
+      "id": "sixteen-nine-format",
+      "displayName": "16:9 format",
+      "definition": "A wide screen-like frame supports lateral narrative or cinematic placement.",
+      "aliases": [
+        "widescreen",
+        "16 by 9"
+      ],
+      "visibleCues": [
+        "wide screen proportion",
+        "strong lateral composition"
+      ],
+      "antiCues": [
+        "portrait social crop"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cinematic-practical-light-portrait",
+        "ref-long-exposure-seascape",
+        "ref-night-light-trail-cityscape",
+        "ref-rolling-automotive-pan",
+        "ref-bleach-bypass-cinematic-still"
+      ]
+    },
+    {
+      "id": "nine-sixteen-format",
+      "displayName": "Tall mobile format",
+      "definition": "A deliberately tall portrait frame, commonly from 2:3 through 9:16, supports vertical movement and mobile-scale reading.",
+      "aliases": [
+        "vertical story",
+        "9 by 16",
+        "mobile portrait format"
+      ],
+      "visibleCues": [
+        "tall narrow frame",
+        "mobile-first composition"
+      ],
+      "antiCues": [
+        "wide landscape crop"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-vertical-social-editorial"
+      ]
+    }
+  ]
+}

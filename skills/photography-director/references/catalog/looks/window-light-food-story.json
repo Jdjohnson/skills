@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "window-light-food-story",
+  "displayName": "Window-Light Food Story",
+  "family": "commercial-still-life",
+  "definition": "A natural food photograph using side or back window light, overhead or three-quarter framing, appetizing texture, and a believable table context.",
+  "aliases": [
+    "natural food photo",
+    "window light meal"
+  ],
+  "cues": [
+    "food",
+    "window-light",
+    "side-light",
+    "natural-texture"
+  ],
+  "antiCues": [
+    "front flash flattening",
+    "plastic food",
+    "random garnish clutter"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "food",
+      "editorial",
+      "tabletop"
+    ],
+    "viewpoint-framing": [
+      "overhead",
+      "detail-framing",
+      "oblique-view"
+    ],
+    "lens-perspective": [
+      "normal-perspective",
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "lighting": [
+      "window-light",
+      "side-light",
+      "backlight",
+      "soft-light",
+      "bounced-light"
+    ],
+    "composition": [
+      "rule-of-thirds",
+      "environmental-context",
+      "layered-depth"
+    ],
+    "color-tonality": [
+      "warm-color",
+      "neutral-color",
+      "restrained-skin-tones"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "directional natural light",
+    "edible surface texture",
+    "credible table story"
+  ],
+  "adaptiveGuidance": [
+    "Adapt viewpoint and focus to dish height and surface; keep color plausible for the ingredients."
+  ],
+  "applicability": [
+    "meals",
+    "ingredients",
+    "restaurants",
+    "cookbooks"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-window-light-food-story"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Create Your Light: Food Photography at Home",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/create-your-light-food-photography-at-home",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A natural food photograph using side or back window light, overhead or three-quarter framing, appetizing texture, and a believable table context."
+        ]
+      }
+    ]
+  }
+}

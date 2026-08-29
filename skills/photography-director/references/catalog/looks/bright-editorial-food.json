@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "bright-editorial-food",
+  "displayName": "Bright Overhead Food Editorial",
+  "family": "commercial-still-life",
+  "definition": "A bright, evenly lit overhead food image with bold ingredient color, crisp edible detail, and a graphic full-frame arrangement.",
+  "aliases": [
+    "bright magazine food",
+    "colorful overhead food"
+  ],
+  "cues": [
+    "overhead",
+    "high-key-lighting",
+    "saturated-color",
+    "geometric-order"
+  ],
+  "antiCues": [
+    "dark rustic mood",
+    "messy uncontrolled table",
+    "gray appetiteless food"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "food",
+      "editorial",
+      "tabletop"
+    ],
+    "viewpoint-framing": [
+      "overhead",
+      "straight-on-view",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "continuous-studio-light",
+      "very-soft-light",
+      "top-light",
+      "high-key-lighting",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "geometric-order",
+      "repetition",
+      "centrality"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "luminous-highlights"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "polished-retouching"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "editorial-spread",
+      "square-format"
+    ]
+  },
+  "lockedQualities": [
+    "bright graphic table plane",
+    "clear edible detail",
+    "full-frame color rhythm"
+  ],
+  "adaptiveGuidance": [
+    "Adapt arrangement, copy space, and light diffusion to the dish; preserve realistic food texture."
+  ],
+  "applicability": [
+    "recipes",
+    "magazines",
+    "packaging",
+    "social food"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-bright-editorial-food"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Create Your Light: Food Photography at Home",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/create-your-light-food-photography-at-home",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A bright, evenly lit overhead food image with bold ingredient color, crisp edible detail, and a graphic full-frame arrangement."
+        ]
+      }
+    ]
+  }
+}

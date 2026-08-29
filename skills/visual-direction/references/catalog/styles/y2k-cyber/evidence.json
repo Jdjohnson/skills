@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "y2k-cyber",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Bondi Blue iMac G3",
+    "creatorOrTradition": "Apple Industrial Design Group",
+    "sourceUrl": "https://www.moma.org/collection/works/82133",
+    "whyCanonical": "The 1998 iMac combines colored translucent polycarbonate, rounded consumer-electronics form, and optimistic digital tactility in a defining millennial technology object."
+  },
+  "sources": [
+    {
+      "title": "iMac Desktop Computer. 1998",
+      "publisher": "The Museum of Modern Art",
+      "url": "https://www.moma.org/collection/works/82133",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The iMac was designed by Apple Industrial Design Group in 1998 using polycarbonate and other materials.",
+        "Its rounded translucent enclosure provides a historically grounded millennial consumer-technology anchor."
+      ]
+    },
+    {
+      "title": "A history of digital design: Part 1 - Connectivity",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/a-history-of-digital-design-part-1-connectivity",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The Bondi Blue iMac G3 became a widely visible object of technological desire after its 1998 launch.",
+        "Its bubble-backed form, translucency, and color influenced many contemporary consumer products."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach y2k era, digital signal, screen scale, chrome while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/y2k-cyber/generated-lead.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/y2k-cyber/generated-lead.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach y2k era, digital signal, screen scale, chrome while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

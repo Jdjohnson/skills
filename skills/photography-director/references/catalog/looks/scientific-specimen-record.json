@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "scientific-specimen-record",
+  "displayName": "Scientific Specimen Record",
+  "family": "commercial-still-life",
+  "definition": "A precise specimen photograph with standardized viewpoint, even low-ratio illumination, neutral color or documented monochrome process, and complete diagnostic detail.",
+  "aliases": [
+    "museum specimen photo",
+    "scientific record image"
+  ],
+  "cues": [
+    "scientific",
+    "detail-framing",
+    "deep-focus",
+    "neutral-color"
+  ],
+  "antiCues": [
+    "dramatic mood shadow",
+    "decorative shallow blur",
+    "unmarked ambiguous scale"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "scientific",
+      "macro",
+      "product"
+    ],
+    "viewpoint-framing": [
+      "extreme-close-up",
+      "detail-framing",
+      "overhead",
+      "straight-on-view"
+    ],
+    "lens-perspective": [
+      "macro-magnification"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "continuous-studio-light",
+      "diffused-light",
+      "front-light",
+      "flat-lighting",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "centrality",
+      "geometric-order",
+      "negative-space"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "high-dynamic-range"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "restrained-retouching",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "straight-photography"
+    ],
+    "format-output": [
+      "four-three-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "complete evidentiary detail",
+    "standardized plane",
+    "neutral controlled rendering"
+  ],
+  "adaptiveGuidance": [
+    "Adapt magnification, focus stacking, scale marker, and light polarization to the specimen and research need."
+  ],
+  "applicability": [
+    "museum objects",
+    "biological specimens",
+    "materials",
+    "forensics"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-scientific-specimen-record"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "The Photographic Record",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/photography/the-photographic-record",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A precise specimen photograph with standardized viewpoint, even low-ratio illumination, neutral color or documented monochrome process, and complete diagnostic detail."
+        ]
+      }
+    ]
+  }
+}

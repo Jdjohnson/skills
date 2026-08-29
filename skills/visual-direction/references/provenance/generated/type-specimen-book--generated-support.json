@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "type-specimen-book",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation\nUse case: productivity-visual\nAsset type: Beauty Director type-specimen-book supporting reference, portrait 4:5\nPrimary request: Create a complementary second specimen-book spread for the same fictional RILL SERIF family, focused on controlled size, spacing, punctuation, and optical comparison rather than repeating the alphabet overview.\nScene/backdrop: open uncoated book photographed square-on against a quiet neutral surface\nSubject: a vertical scale sequence of the same word at 12, 24, 48, and 96 points; a numerals-and-punctuation matrix; enlarged R, S, g, and question-mark details; a labeled narrow-versus-wide text-setting comparison; small baseline and x-height guides\nStyle/medium: rigorous modern editorial typography printed in black with one cobalt-blue annotation color\nComposition/framing: portrait 4:5; modular analytical grid distinct from the lead spread, direct comparisons aligned on stable baselines, specimen evidence readable at thumbnail scale\nText (verbatim): \"RILL SERIF\", \"12 PT\", \"24 PT\", \"48 PT\", \"96 PT\", \"RHYTHM\", \"NUMERALS\", \"PUNCTUATION\", \"SPACING\", \"X-HEIGHT\"\nConstraints: same coherent original serif family as the lead; systematic labels and comparisons; technical teaching role distinct from the lead; high-contrast ink and paper; no photographs or decorative collage; no logo; no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "628758ff2cb2982e25dfeda4b771aef3e6d6389f126213312d5816f82ddee995",
+  "finalAsset": "assets/refs/type-specimen-book/generated-support.jpg",
+  "finalSha256": "2658fbf321efb21eb094b6d1971a25596696d42b41f9428abe8ca900f90a1e13",
+  "postProcessing": "Source output proportionally resized to fit within 800x1000 pixels, padded at the sides to preserve the complete generated composition, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

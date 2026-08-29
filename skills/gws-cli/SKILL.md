@@ -1,48 +1,32 @@
 ---
 name: gws-cli
-description: Run guarded Google Workspace command-line operations through local helper scripts. Use for bounded Drive, Sheets, Gmail, or Calendar reads; for approved mutations; or when exact JSON evidence and restore-safe handling matter.
+description: Use guarded local wrappers around the Google Workspace CLI for deterministic Drive, Sheets, Gmail, and Calendar reads or authorized mutations. Best for exact verification, export, recovery, or workflows that need machine-readable evidence.
 ---
 
-# Google Workspace CLI
+# GWS CLI
 
-Use the narrowest bundled helper that fits the request. Prefer read-only inspection. Mutations require an explicit target and clear user approval.
+Use the bundled wrappers when deterministic Google Workspace access is more useful than an interactive connector. Follow the active workspace's preferred app-routing policy; this skill does not override it.
 
-## Helpers
+## Use
 
-Resolve `<skill-root>` to this skill's installed directory.
+Read [commands](nodes/commands.md) when selecting a wrapper. Start with a read-only profile or status call when account, scopes, or authentication are uncertain. Search metadata first and fetch full bodies only for likely candidates.
 
-- Gmail: `python3 <skill-root>/scripts/google_gmail.py --help`
-- Calendar: `python3 <skill-root>/scripts/google_calendar.py --help`
-- Drive: `python3 <skill-root>/scripts/google_drive.py --help`
-- Sheets: `python3 <skill-root>/scripts/google_sheets_read.py --help`
-- Export an authenticated CLI token bundle: `python3 <skill-root>/scripts/google_token_export.py --help`
-- Create a token bundle from Application Default Credentials: `python3 <skill-root>/scripts/google_token_from_adc.py --help`
+The wrappers:
 
-Read [smoke tests](nodes/smoke-tests.md) when validating a new setup.
+- load an authorized-user token bundle from `GWS_TOKEN_PATH`, falling back to the user's standard GWS config path;
+- require the credential file to be owned by the current user and unreadable by group or others;
+- cache and refresh access tokens without printing them;
+- retry bounded transient failures for reads and explicitly idempotent writes only;
+- never retry a non-idempotent mutation after an ambiguous response.
 
-## Node Map
-
-| Node | Purpose |
-|------|---------|
-| [smoke tests](nodes/smoke-tests.md) | Check local helper wiring without contacting Google. |
-
-## Routing
-
-1. Identify the Workspace product, account, resource, and intended read or mutation.
-2. Run `--help` before using an unfamiliar subcommand.
-3. Use the smallest result window and fields that answer the request.
-4. For a mutation, preview or re-read the exact target and confirm approval.
-5. Capture resource IDs, URLs, counts, and returned state without exposing token contents.
-6. Verify the post-mutation state from the service.
-
-## Authentication
-
-The helpers use the installed Google CLI and a local token bundle, normally `~/.config/gws/token_full.json`. Treat credential files as secrets: never print, copy into a repository, or include their values in receipts. If authentication is absent or invalid, report the interactive setup step instead of asking for pasted credentials.
+Use raw `gws` only when no wrapper covers the operation and the current authentication environment supports it.
 
 ## Safety
 
-- Do not delete, move, overwrite, share, send, or change permissions without explicit approval.
-- Prefer reversible operations and preserve stable IDs for recovery.
-- Never infer an account or resource when more than one is available.
-- Keep live-service tests separate from local regression tests.
-- A local command receipt is not proof of a remote mutation unless the returned service state confirms it.
+- Never print token files, access tokens, client secrets, cookies, or auth bundles.
+- Diagnose authentication before attempting repair. Follow the wrapper's recovery instructions without weakening file permissions.
+- Drafting, sending, discarding, archiving, label changes, file creation, sharing, moving, overwriting, and deletion require authority for the exact action and target.
+- For a reply draft, preserve the provider's thread ID plus RFC `In-Reply-To` and `References` headers.
+- Treat a command receipt as operation evidence. Read back mutations when the API supports it, and report ambiguous responses as unresolved.
+
+For package validation and safe smoke checks, read [smoke tests](nodes/smoke-tests.md).

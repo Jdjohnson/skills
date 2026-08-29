@@ -1,0 +1,362 @@
+[
+  {
+    "id": "UV-01",
+    "brief": {
+      "problem": "A regional distributor alternates between stockouts and excess inventory because sales overrides the forecast and suppliers have long, variable lead times.",
+      "decision": "Set the inventory policy and monthly demand-supply decision process for the next two quarters.",
+      "context": "Twelve thousand SKUs, seasonal demand, item-level history, supplier lead-time data, and three warehouses.",
+      "constraints": ["No warehouse-system replacement this year", "Protect service on the highest-value items"],
+      "desired_output": "Segmented inventory targets, a demand forecast process, decision cadence, and exception triggers.",
+      "practice_areas": ["supply-chain-manufacturing", "operations-quality"],
+      "reasoning_jobs": ["diagnose", "measure-forecast", "design-solution", "plan-implementation"]
+    },
+    "primary": ["inventory-optimization", "demand-planning-and-forecasting", "sales-and-operations-planning"],
+    "acceptable": ["bullwhip-effect-analysis", "integrated-business-planning", "scor-model"],
+    "forbidden": ["last-mile-delivery-optimization", "wms-strategy"]
+  },
+  {
+    "id": "UV-02",
+    "brief": {
+      "problem": "A medical-device line has intermittent seal failures that escape final inspection, but leaders disagree about whether material, setup, or operator variation is responsible.",
+      "decision": "Choose the evidence sequence and controls that will reduce escapes without slowing every unit.",
+      "context": "Regulated assembly with timestamped process readings, lot genealogy, work instructions, and defect samples.",
+      "constraints": ["Maintain traceability", "Do not redesign the entire line before isolating causes"],
+      "desired_output": "Failure modes, causal tests, control limits, prevention actions, owners, and verification measures.",
+      "practice_areas": ["operations-quality", "research-analytics"],
+      "reasoning_jobs": ["decompose", "diagnose", "gather-evidence", "govern-risk"]
+    },
+    "primary": ["fmea", "root-cause-analysis", "statistical-process-control"],
+    "acceptable": ["gemba-walks", "poka-yoke", "six-sigma", "design-for-six-sigma"],
+    "forbidden": ["service-blueprinting"]
+  },
+  {
+    "id": "UV-03",
+    "brief": {
+      "problem": "Two business-unit presidents may retire within eighteen months, internal successors are unclear, and the growth plan changes the capabilities those roles require.",
+      "decision": "Choose successor slates and development actions while deciding where an external search is necessary.",
+      "context": "Privately held industrial company with performance history but no current role profiles or calibrated talent review.",
+      "constraints": ["Keep the process confidential", "Do not equate current performance with future-role readiness"],
+      "desired_output": "Future role requirements, successor coverage, readiness gaps, development moves, and trigger dates.",
+      "practice_areas": ["organization-talent"],
+      "reasoning_jobs": ["decompose", "diagnose", "prioritize", "plan-implementation"]
+    },
+    "primary": ["succession-planning", "competency-mapping", "workforce-planning"],
+    "acceptable": ["talent-management-strategy", "job-analysis-and-evaluation", "360-degree-feedback"],
+    "forbidden": ["onboarding-framework"]
+  },
+  {
+    "id": "UV-04",
+    "brief": {
+      "problem": "Product teams have built 180 undocumented APIs with duplicate customer data, inconsistent authentication, and no owner for deprecation decisions.",
+      "decision": "Define the API operating model and architecture transition for the next year.",
+      "context": "Cloud software portfolio assembled through acquisitions with autonomous product teams.",
+      "constraints": ["No big-bang rewrite", "Preserve critical partner integrations"],
+      "desired_output": "API principles, ownership, lifecycle controls, target architecture, migration waves, and measures.",
+      "practice_areas": ["technology-digital-ai", "organization-talent"],
+      "reasoning_jobs": ["diagnose", "design-solution", "govern-risk", "plan-implementation"]
+    },
+    "primary": ["api-strategy-and-management", "togaf", "cobit"],
+    "acceptable": ["it-strategy-alignment", "cybersecurity-framework", "organizational-design"],
+    "forbidden": ["blockchain-strategy", "crm-strategy"]
+  },
+  {
+    "id": "UV-05",
+    "brief": {
+      "problem": "A ransomware event has taken order entry offline; backups exist but restore time is untested, customer communications are ad hoc, and plants can operate manually for only two days.",
+      "decision": "Stabilize the next 72 hours and establish recovery priorities before restoring systems.",
+      "context": "Multi-site manufacturer with an incident-response team, business owners, and third-party infrastructure support.",
+      "constraints": ["Do not reconnect unverified systems", "Prioritize safety and order continuity"],
+      "desired_output": "Crisis roles, business priorities, recovery sequence, communication cadence, and testable recovery objectives.",
+      "practice_areas": ["risk-resilience-sustainability", "technology-digital-ai"],
+      "reasoning_jobs": ["govern-risk", "prioritize", "design-solution", "plan-implementation"]
+    },
+    "primary": ["crisis-management-framework", "business-continuity-planning", "disaster-recovery-planning"],
+    "acceptable": ["cybersecurity-framework", "risk-management-plan", "stakeholder-communication-plan"],
+    "forbidden": ["erp-selection-framework"]
+  },
+  {
+    "id": "UV-06",
+    "brief": {
+      "problem": "A new clinical scheduling workflow is technically live, but supervisors still permit spreadsheets and adoption varies sharply by clinic.",
+      "decision": "Choose the smallest set of behavior, leadership, and reinforcement interventions that will create reliable adoption in sixty days.",
+      "context": "Twenty clinics with usage logs, local champions, uneven training, and strong physician autonomy.",
+      "constraints": ["Do not relaunch the software", "Respect clinical exceptions while ending convenience workarounds"],
+      "desired_output": "Readiness barriers, stakeholder-specific interventions, reinforcement measures, and escalation triggers.",
+      "practice_areas": ["change-transformation", "organization-talent"],
+      "reasoning_jobs": ["diagnose", "understand-stakeholders", "design-solution", "evaluate-learn"]
+    },
+    "primary": ["change-readiness-assessment", "adkar-model", "resistance-management-plan"],
+    "acceptable": ["mckinsey-influence-model", "communication-strategy-for-change", "training-needs-analysis"],
+    "forbidden": ["digital-transformation-framework", "transition-management-office"]
+  },
+  {
+    "id": "UV-07",
+    "brief": {
+      "problem": "A food processor has $9 million for four mutually competing automation and energy projects whose benefits, timing, and risk profiles differ.",
+      "decision": "Select and stage the capital portfolio for next year's budget.",
+      "context": "Project cash flows are available but use inconsistent hurdle rates and optimism assumptions.",
+      "constraints": ["Stay within the capital ceiling", "Show downside and dependency effects"],
+      "desired_output": "Comparable project economics, sensitivity ranges, portfolio ranking, funding gates, and post-audit measures.",
+      "practice_areas": ["finance-value", "operations-quality"],
+      "reasoning_jobs": ["measure-forecast", "prioritize", "govern-risk", "plan-implementation"]
+    },
+    "primary": ["capital-budgeting-framework", "npv-and-irr-analysis", "sensitivity-analysis"],
+    "acceptable": ["weighted-average-cost-of-capital", "cost-benefit-analysis", "real-options-analysis"],
+    "forbidden": ["discounted-cash-flow-valuation"]
+  },
+  {
+    "id": "UV-08",
+    "brief": {
+      "problem": "A holding company owns nine businesses with uneven market attractiveness, cash generation, competitive position, and parenting fit.",
+      "decision": "Choose where to invest, hold, harvest, partner, or exit over the next three years.",
+      "context": "Board strategy review with segment economics and market data but competing executive narratives.",
+      "constraints": ["Use explicit portfolio criteria", "Separate business quality from corporate-owner advantage"],
+      "desired_output": "Portfolio map, investment logic by business, parenting rationale, and decision gates.",
+      "practice_areas": ["competitive-strategy", "corporate-growth", "finance-value"],
+      "reasoning_jobs": ["diagnose", "measure-forecast", "generate-options", "prioritize"]
+    },
+    "primary": ["ge-mckinsey-matrix", "portfolio-strategy-analysis", "corporate-parenting-advantage"],
+    "acceptable": ["bcg-matrix", "profit-pools", "three-horizons-of-growth"],
+    "forbidden": ["business-model-canvas"]
+  },
+  {
+    "id": "UV-09",
+    "brief": {
+      "problem": "A proven industrial sensor is ready for launch to a new buyer segment in the existing U.S. market, but positioning, channels, enablement, and launch ownership are unresolved.",
+      "decision": "Choose the target segment and launch plan for the next two quarters.",
+      "context": "Existing product, manufacturing capacity, pilot references, and a mixed direct-distributor sales model.",
+      "constraints": ["No new country entry", "Launch only after segment and readiness gates clear"],
+      "desired_output": "Target segment, positioning, channel plan, launch workstreams, readiness gates, and measures.",
+      "practice_areas": ["marketing-sales-pricing", "customer-product-innovation"],
+      "reasoning_jobs": ["frame", "prioritize", "design-solution", "plan-implementation"]
+    },
+    "primary": ["stp-framework", "go-to-market-strategy", "product-launch-framework"],
+    "acceptable": ["4ps-of-marketing", "value-proposition-canvas", "sales-force-effectiveness"],
+    "forbidden": ["market-entry-strategy"]
+  },
+  {
+    "id": "UV-10",
+    "brief": {
+      "problem": "Customers begin insurance claims online, repeat information by phone, and cannot see status; internal teams optimize each channel separately.",
+      "decision": "Redesign the cross-channel claims experience and operating handoffs without replacing the core platform.",
+      "context": "Journey analytics, call recordings, customer interviews, and process data are available.",
+      "constraints": ["No core-platform replacement", "Include customer and backstage operating changes"],
+      "desired_output": "Current journey and service blueprint, failure points, future cross-channel design, owners, and pilot measures.",
+      "practice_areas": ["marketing-sales-pricing", "customer-product-innovation", "operations-quality"],
+      "reasoning_jobs": ["decompose", "understand-stakeholders", "diagnose", "design-solution"]
+    },
+    "primary": ["customer-journey-mapping", "service-blueprinting", "omnichannel-strategy"],
+    "acceptable": ["service-design-thinking", "customer-experience-design", "voice-of-the-customer"],
+    "forbidden": ["logistics-network-design"]
+  },
+  {
+    "id": "UV-11",
+    "brief": {
+      "problem": "Enterprise sales representatives spend half their time on leads that never reach discovery, while marketing and sales disagree about what qualifies an account.",
+      "decision": "Redesign lead qualification, routing, and coaching for the next quarter.",
+      "context": "CRM history, campaign data, rep activity, stage conversion, and win-loss notes are available.",
+      "constraints": ["Start with interpretable rules before opaque automation", "Measure both conversion and wasted effort"],
+      "desired_output": "Lead score, funnel diagnosis, routing rules, sales behaviors, test design, and monitoring.",
+      "practice_areas": ["marketing-sales-pricing", "research-analytics"],
+      "reasoning_jobs": ["diagnose", "measure-forecast", "design-solution", "evaluate-learn"]
+    },
+    "primary": ["lead-scoring-methodology", "sales-funnel-optimization", "sales-force-effectiveness"],
+    "acceptable": ["funnel-analysis", "cohort-analysis", "crm-strategy"],
+    "forbidden": ["pricing-waterfall-analysis"]
+  },
+  {
+    "id": "UV-12",
+    "brief": {
+      "problem": "A subscription company must redesign three plan bundles, but leaders do not know which feature combinations customers value or how willingness to pay changes by segment.",
+      "decision": "Choose bundles and price ranges before a controlled market test.",
+      "context": "A customer panel can complete one survey; behavioral transaction data are limited.",
+      "constraints": ["Avoid asking customers to design the product directly", "Estimate tradeoffs, not just stated importance"],
+      "desired_output": "Attribute tradeoffs, segment-level preference estimates, price response, candidate bundles, and test plan.",
+      "practice_areas": ["research-analytics", "marketing-sales-pricing", "customer-product-innovation"],
+      "reasoning_jobs": ["gather-evidence", "measure-forecast", "generate-options", "prioritize"]
+    },
+    "primary": ["conjoint-analysis", "price-elasticity-analysis", "survey-design-methodology"],
+    "acceptable": ["price-sensitivity-meter", "cluster-analysis", "regression-analysis"],
+    "forbidden": ["market-basket-analysis"]
+  },
+  {
+    "id": "UV-13",
+    "brief": {
+      "problem": "A beverage company repeatedly misses seasonal demand because promotions, weather, distribution expansion, and stockouts distort the raw history.",
+      "decision": "Set the next twelve-month baseline forecast and an override process that can be audited.",
+      "context": "Weekly item-region history with promotion calendars, weather, availability, and planned distribution changes.",
+      "constraints": ["Quantify forecast uncertainty", "Do not treat constrained sales as unconstrained demand"],
+      "desired_output": "Forecast model, causal adjustments, accuracy backtest, uncertainty range, and override governance.",
+      "practice_areas": ["research-analytics", "supply-chain-manufacturing"],
+      "reasoning_jobs": ["diagnose", "gather-evidence", "measure-forecast", "evaluate-learn"]
+    },
+    "primary": ["time-series-forecasting", "demand-planning-and-forecasting", "regression-analysis"],
+    "acceptable": ["sensitivity-analysis", "sales-and-operations-planning", "crisp-dm"],
+    "forbidden": ["discounted-cash-flow-valuation"]
+  },
+  {
+    "id": "UV-14",
+    "brief": {
+      "problem": "A manufacturer buys a critical molded component from forty suppliers using unit price as the main criterion despite quality, freight, tooling, and disruption differences.",
+      "decision": "Choose the sourcing strategy and supplier shortlist for the next contract cycle.",
+      "context": "Spend, defect, delivery, tooling, freight, and supplier-risk data are available.",
+      "constraints": ["Avoid a lowest-bid-only decision", "Preserve dual-source resilience for critical parts"],
+      "desired_output": "Category strategy, total-cost comparison, supplier segmentation, negotiation priorities, and award gates.",
+      "practice_areas": ["supply-chain-manufacturing", "finance-value", "risk-resilience-sustainability"],
+      "reasoning_jobs": ["gather-evidence", "measure-forecast", "generate-options", "prioritize"]
+    },
+    "primary": ["strategic-sourcing", "total-cost-of-ownership", "kraljic-matrix"],
+    "acceptable": ["supply-chain-risk-management", "competitive-benchmarking", "3pl-4pl-selection-framework"],
+    "forbidden": ["last-mile-delivery-optimization"]
+  },
+  {
+    "id": "UV-15",
+    "brief": {
+      "problem": "A shared-services group allocates overhead by revenue, making simple high-volume customers look unprofitable and hiding expensive exception work.",
+      "decision": "Redesign cost attribution and choose which process costs to remove before changing customer terms.",
+      "context": "General ledger, time samples, transaction volumes, exception counts, and customer-level revenue are available.",
+      "constraints": ["Separate cost diagnosis from across-the-board cuts", "Make drivers maintainable"],
+      "desired_output": "Activity map, cost-driver model, customer economics, priority waste, and management actions.",
+      "practice_areas": ["finance-value", "operations-quality"],
+      "reasoning_jobs": ["decompose", "diagnose", "measure-forecast", "prioritize"]
+    },
+    "primary": ["activity-based-costing", "activity-based-management", "customer-profitability-analysis"],
+    "acceptable": ["cost-optimization-framework", "process-mapping", "value-chain-analysis"],
+    "forbidden": ["zero-based-budgeting"]
+  },
+  {
+    "id": "UV-16",
+    "brief": {
+      "problem": "A construction program has approved drawings but receives weekly scope requests without quantified schedule, cost, or safety effects.",
+      "decision": "Establish a decision process for pending and future changes while protecting the completion date.",
+      "context": "Multiple contractors, a fixed opening date, fragmented issue logs, and an executive steering group.",
+      "constraints": ["No informal scope approvals", "Urgent safety changes need a fast path"],
+      "desired_output": "Change intake, impact analysis, approval thresholds, decision rights, integrated risk log, and audit trail.",
+      "practice_areas": ["program-project-management", "risk-resilience-sustainability"],
+      "reasoning_jobs": ["decompose", "govern-risk", "prioritize", "plan-implementation"]
+    },
+    "primary": ["change-control-process", "risk-management-plan", "pmbok-framework"],
+    "acceptable": ["critical-path-method", "stakeholder-communication-plan", "pmo-setup-and-governance"],
+    "forbidden": ["product-roadmap-development"]
+  },
+  {
+    "id": "UV-17",
+    "brief": {
+      "problem": "Data scientists deploy credit-risk models by emailing notebooks to engineers; training data, tests, approvals, and production drift are not reproducible.",
+      "decision": "Define the governed model-delivery lifecycle for the next two releases.",
+      "context": "Regulated lender with cloud infrastructure, CI/CD, a model-risk committee, and an existing security team.",
+      "constraints": ["Retain independent model approval", "Automate evidence without bypassing controls"],
+      "desired_output": "Lifecycle stages, artifacts, deployment controls, ownership, monitoring, rollback, and audit evidence.",
+      "practice_areas": ["technology-digital-ai", "risk-resilience-sustainability"],
+      "reasoning_jobs": ["design-solution", "govern-risk", "plan-implementation", "evaluate-learn"]
+    },
+    "primary": ["mlops-lifecycle", "devsecops-framework", "ai-ethics-and-governance"],
+    "acceptable": ["sdlc-methodology", "cybersecurity-framework", "cobit"],
+    "forbidden": ["mes-strategy", "blockchain-strategy"]
+  },
+  {
+    "id": "UV-18",
+    "brief": {
+      "problem": "A signed acquisition combines a process-driven company with a founder-led creative firm; key talent may leave and leadership norms conflict.",
+      "decision": "Choose the Day 1 and first-100-day people-integration approach without erasing the acquired firm's differentiating culture.",
+      "context": "Leadership interviews, engagement data, retention agreements, org charts, and deal rationale are available.",
+      "constraints": ["Do not force uniformity where it destroys value", "Name decisions that must be settled before Day 1"],
+      "desired_output": "Culture risks, integration principles, decision rights, retention actions, communication, and early indicators.",
+      "practice_areas": ["ma-diligence-turnaround", "corporate-growth", "organization-talent", "change-transformation"],
+      "reasoning_jobs": ["gather-evidence", "understand-stakeholders", "design-solution", "plan-implementation"]
+    },
+    "primary": ["cultural-due-diligence", "m-and-a-integration-framework", "stakeholder-mapping"],
+    "acceptable": ["hr-due-diligence", "organizational-design", "bridges-transition-model", "communication-strategy-for-change"],
+    "forbidden": ["customer-persona-development"]
+  },
+  {
+    "id": "UV-19",
+    "brief": {
+      "problem": "A family-owned wholesaler will breach a debt covenant in six weeks and cannot cover both a balloon payment and seasonal inventory without new terms.",
+      "decision": "Choose the lender proposal and near-term cash actions before the covenant breach.",
+      "context": "Thirteen-week receipts and disbursements, collateral, debt documents, supplier terms, and base/downside sales cases are available.",
+      "constraints": ["Preserve going-concern value", "Do not promise repayment unsupported by cash timing"],
+      "desired_output": "Liquidity bridge, restructuring options, lender case, trigger points, concessions, and contingency actions.",
+      "practice_areas": ["ma-diligence-turnaround", "finance-value"],
+      "reasoning_jobs": ["diagnose", "measure-forecast", "generate-options", "plan-implementation"]
+    },
+    "primary": ["debt-restructuring-framework", "liquidity-management", "cash-flow-forecasting"],
+    "acceptable": ["turnaround-strategy", "working-capital-management", "sensitivity-analysis"],
+    "forbidden": ["discounted-cash-flow-valuation"]
+  },
+  {
+    "id": "UV-20",
+    "brief": {
+      "problem": "A board memo contains forty pages of analysis but does not make the recommendation, governing logic, or requested decision clear.",
+      "decision": "Restructure the communication for a fifteen-minute board discussion and explicit vote.",
+      "context": "The underlying analysis is complete and defensible; the failure is synthesis and decision communication.",
+      "constraints": ["Do not add another research workstream", "Lead with the answer and preserve the critical evidence trail"],
+      "desired_output": "Governing recommendation, supporting argument hierarchy, concise situation-complication logic, and decision ask.",
+      "practice_areas": ["consulting-craft"],
+      "reasoning_jobs": ["frame", "decompose", "prioritize", "understand-stakeholders"]
+    },
+    "primary": ["pyramid-principle", "scr", "scqa"],
+    "acceptable": ["issue-tree", "mece", "stakeholder-mapping"],
+    "forbidden": ["swot-analysis"]
+  },
+  {
+    "id": "UV-21",
+    "brief": {
+      "problem": "Engagement fell in two functions after a hybrid-work change, but leaders are treating the company-wide average as one problem.",
+      "decision": "Identify the employee segments and managerial conditions that require different interventions.",
+      "context": "Two years of survey items, comments, manager spans, turnover, absence, promotion, and location data are available.",
+      "constraints": ["Protect respondent confidentiality", "Do not infer causality from correlation alone"],
+      "desired_output": "Segmented evidence, drivers and alternative explanations, manager-level actions, and follow-up measures.",
+      "practice_areas": ["organization-talent", "research-analytics"],
+      "reasoning_jobs": ["gather-evidence", "diagnose", "measure-forecast", "evaluate-learn"]
+    },
+    "primary": ["employee-engagement-surveying", "people-analytics", "cluster-analysis"],
+    "acceptable": ["culture-assessment", "360-degree-feedback", "regression-analysis", "high-performance-teams"],
+    "forbidden": []
+  },
+  {
+    "id": "UV-22",
+    "brief": {
+      "problem": "A packaged-goods company wants to cut packaging waste and emissions, but teams propose recyclable labels, material reduction, refill, and supplier changes without a shared boundary.",
+      "decision": "Choose a two-year packaging circularity portfolio and supplier requirements.",
+      "context": "Material bills, supplier data, waste audits, logistics impacts, and customer research are available with some lifecycle gaps.",
+      "constraints": ["Avoid burden shifting between carbon and waste", "Pilot uncertain consumer behaviors before scale"],
+      "desired_output": "System boundary, material and emissions baseline, circular options, supplier actions, portfolio priorities, and tests.",
+      "practice_areas": ["risk-resilience-sustainability", "supply-chain-manufacturing", "customer-product-innovation"],
+      "reasoning_jobs": ["diagnose", "measure-forecast", "generate-options", "prioritize"]
+    },
+    "primary": ["circular-economy-framework", "carbon-footprint-assessment", "green-supply-chain-management"],
+    "acceptable": ["esg-strategy", "social-impact-assessment", "pilot-and-scale-methodology"],
+    "forbidden": ["tcfd-reporting"]
+  },
+  {
+    "id": "UV-23",
+    "brief": {
+      "problem": "A bank sees low adoption of a new small-business cash tool, while surveys say customers want it and product teams debate adding features.",
+      "decision": "Determine the real customer job and why behavior contradicts stated demand before choosing a product change.",
+      "context": "Usage data, support contacts, sales interviews, and access to customers in their workplaces are available.",
+      "constraints": ["Observe actual work, not only opinions", "Do not commit a roadmap before the job and friction are validated"],
+      "desired_output": "Customer job, contextual evidence, competing explanations, behavioral friction, and a falsifiable product test.",
+      "practice_areas": ["customer-product-innovation", "research-analytics", "marketing-sales-pricing"],
+      "reasoning_jobs": ["gather-evidence", "understand-stakeholders", "diagnose", "evaluate-learn"]
+    },
+    "primary": ["jobs-to-be-done", "ethnographic-research", "customer-evidence-triangulation"],
+    "acceptable": ["voice-of-the-customer", "customer-journey-mapping", "design-thinking", "cohort-analysis"],
+    "forbidden": ["product-roadmap-development"]
+  },
+  {
+    "id": "UV-24",
+    "brief": {
+      "problem": "A packaging line loses twelve percent of planned time to recurring micro-stops, reactive maintenance, and changeover failures with no shared loss taxonomy.",
+      "decision": "Choose the maintenance and operating system changes that will raise reliable equipment availability over ninety days.",
+      "context": "Machine alarms, maintenance work orders, shift logs, spare-parts history, and operator observations are available.",
+      "constraints": ["No new line purchase", "Separate chronic loss from one-time breakdowns"],
+      "desired_output": "Loss baseline, failure modes, maintenance priorities, operator routines, visual measures, and verification cadence.",
+      "practice_areas": ["operations-quality", "supply-chain-manufacturing"],
+      "reasoning_jobs": ["decompose", "diagnose", "govern-risk", "plan-implementation"]
+    },
+    "primary": ["total-productive-maintenance", "fmea", "root-cause-analysis"],
+    "acceptable": ["statistical-process-control", "gemba-walks", "standard-work", "visual-management"],
+    "forbidden": ["last-mile-delivery-optimization"]
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "literary-journal",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "The Little Review periodical run",
+    "creatorOrTradition": "The Little Review editors and contributors",
+    "sourceUrl": "https://digitalcollections.nypl.org/collections/the-little-review",
+    "whyCanonical": "The surviving issues show a literary periodical organized around sustained prose, restrained issue furniture, recurring masthead identity, and reading-scale pages rather than feature spectacle."
+  },
+  "sources": [
+    {
+      "title": "The Little Review",
+      "publisher": "New York Public Library Digital Collections",
+      "url": "https://digitalcollections.nypl.org/collections/the-little-review",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Complete issue scans provide primary visual evidence for modest section cues, long-form pacing, and recurring periodical identity.",
+        "The sequence distinguishes literary-journal grammar from a single book page or isolated historical cover."
+      ]
+    },
+    {
+      "title": "The Little Review",
+      "publisher": "University of Pennsylvania Online Books Page",
+      "url": "https://onlinebooks.library.upenn.edu/webbin/serial?id=littlereview",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The serial record documents the publication as a multi-issue literary magazine rather than a generic old-paper aesthetic.",
+        "Its issue links support studying cover-to-interior continuity and changes across the run."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches long form, generous margins, flush left, quiet hierarchy, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/literary-journal/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/literary-journal/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches long form, generous margins, flush left, quiet hierarchy, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

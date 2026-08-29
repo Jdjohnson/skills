@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "neo-noir-neon",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Blade Runner (1982)",
+    "creatorOrTradition": "Ridley Scott; cinematography by Jordan Cronenweth",
+    "sourceUrl": "https://www.bfi.org.uk/film/ec064a2a-f7a8-536a-afa2-ed076aad151f/blade-runner",
+    "whyCanonical": "BFI describes the film as iconic neo-noir and emphasizes its perpetual rain, advertising light, urban dystopia, and influential cinematography."
+  },
+  "sources": [
+    {
+      "title": "Blade Runner (1982)",
+      "publisher": "British Film Institute",
+      "url": "https://www.bfi.org.uk/film/ec064a2a-f7a8-536a-afa2-ed076aad151f/blade-runner",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Rain, luminous urban advertising, analogue materiality, and ambiguous city narrative form a recognized neo-noir anchor."
+      ]
+    },
+    {
+      "title": "Twenty-first century noir",
+      "publisher": "British Film Institute",
+      "url": "https://www.bfi.org.uk/sight-and-sound/deep-focus/twenty-first-century-noir",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Contemporary noir can use electronic urban night and digital capture while preserving location, tension, and nocturnal atmosphere."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches colored practical light, wet reflections, deep urban night, human scale tension, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/neo-noir-neon/reference-02.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/neo-noir-neon/reference-02.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches colored practical light, wet reflections, deep urban night, human scale tension, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

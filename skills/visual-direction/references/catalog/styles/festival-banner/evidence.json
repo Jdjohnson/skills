@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "styleId": "festival-banner",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Papel picado in Día de los Muertos observance",
+    "creatorOrTradition": "Mexican and Mexican American cut-paper traditions",
+    "sourceUrl": "https://latino.si.edu/es/events/dc-day-deaddia-de-los-muertos-0",
+    "whyCanonical": "The National Museum of the American Latino describes papel picado as chiseled stacks of tissue paper and places it within a specific community celebration rather than generic party decoration."
+  },
+  "sources": [
+    {
+      "title": "DC Day of the Dead / Día de los Muertos",
+      "publisher": "National Museum of the American Latino",
+      "url": "https://latino.si.edu/es/events/dc-day-deaddia-de-los-muertos-0",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Papel picado is made by chiseling stacked tissue paper to create cut or perforated designs within a living festival context."
+      ]
+    },
+    {
+      "title": "5 Facts About Día de los Muertos",
+      "publisher": "Smithsonian Institution",
+      "url": "https://www.si.edu/stories/5-facts-about-dia-de-los-muertos-day-dead",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Traditional papel picado banners are contextual symbols within Día de los Muertos and can represent wind on an ofrenda."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach repeated overhead strands, cut paper, cloth flags, ceremonial color while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/festival-banner/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": {
+    "note": "Identify the exact festival, community, material, and function. Papel picado, procession banners, prayer flags, and other suspended forms are distinct practices, some devotional or memorial. Do not mix their symbols, invent sacred text, or strip them into generic party decoration; collaborate with makers for direct contemporary use.",
+    "citations": [
+      "https://latino.si.edu/es/events/dc-day-deaddia-de-los-muertos-0",
+      "https://www.si.edu/stories/5-facts-about-dia-de-los-muertos-day-dead"
+    ]
+  },
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/festival-banner/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach repeated overhead strands, cut paper, cloth flags, ceremonial color while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

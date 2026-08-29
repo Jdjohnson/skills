@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "film-noir",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Detour (1945)",
+    "creatorOrTradition": "Edgar G. Ulmer; Producers Releasing Corporation",
+    "sourceUrl": "https://blogs.loc.gov/now-see-hear/2018/11/reading-the-film-registry-detour-1945/",
+    "whyCanonical": "The Library of Congress identifies Detour as an enduring gritty noir; its constrained production, fatalism, and shadowed crime-road world make it a useful genre anchor."
+  },
+  "sources": [
+    {
+      "title": "“Detour”: National Film Registry #4",
+      "publisher": "Library of Congress",
+      "url": "https://blogs.loc.gov/now-see-hear/2018/11/reading-the-film-registry-detour-1945/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Detour is a canonical low-budget noir shaped by fatalism, crime-road tension, and expressive production limits."
+      ]
+    },
+    {
+      "title": "How the French birthed film noir",
+      "publisher": "British Film Institute",
+      "url": "https://www.bfi.org.uk/sight-and-sound/features/how-french-birthed-film-noir",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Dark, foggy, rain-soaked night exteriors and weak practical lights are established noir atmosphere rather than generic monochrome styling."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches low key light, hard shadow cuts, oblique framing, urban night, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/film-noir/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/film-noir/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches low key light, hard shadow cuts, oblique framing, urban night, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

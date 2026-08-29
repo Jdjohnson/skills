@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "styleId": "byzantine-mosaic",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Gold-ground Byzantine sacred mosaic",
+    "creatorOrTradition": "Byzantine Christian mosaic tradition",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/469730",
+    "whyCanonical": "Historic tesserae and sacred image programs establish how reflective material, architectural placement, frontal figures, and hierarchy work together beyond a generic gold pixel texture."
+  },
+  "sources": [
+    {
+      "title": "Mosaic Tesserae",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/469730",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Glass and gold tesserae create a directional, irregular reflective field whose behavior depends on material and architectural light."
+      ]
+    },
+    {
+      "title": "Icons and Iconoclasm in Byzantium",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/icons-and-iconoclasm-in-byzantium",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Byzantine sacred images carry theological, historical, and devotional functions that cannot be reduced to a decorative facial formula."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches tessellated, gold leaf, iconic, flat, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/byzantine-mosaic/reference-02.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": {
+    "note": "Treat Byzantine sacred mosaics as historically situated Christian devotional works, not a generic luxury texture. Identify site, date, subject, and present custodial context; use non-sacred movement-level approximations for commercial outputs unless the task specifically requires and supports sacred content.",
+    "citations": [
+      "https://www.metmuseum.org/art/collection/search/469730",
+      "https://www.metmuseum.org/essays/icons-and-iconoclasm-in-byzantium"
+    ]
+  },
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/byzantine-mosaic/reference-02.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches tessellated, gold leaf, iconic, flat, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

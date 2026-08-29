@@ -1,69 +1,105 @@
-# Generic AI Skills
+# Jarad Johnson's Agent Skills
 
-A public bank of 14 reusable skills for thinking, planning, writing, meetings,
-research, and agent tooling. Published skills avoid private workspace
-assumptions, personal voice profiles, client context, and organization-specific
-routing.
+Twenty-four reusable skills for thinking, research, writing, visual direction,
+and agent workflows.
 
 ## Install
+
+Browse the collection and choose which skills and agents to install:
 
 ```bash
 npx skills@latest add Jdjohnson/skills
 ```
 
-Inspect the inventory or install selected skills:
+Install one skill:
+
+```bash
+npx skills@latest add Jdjohnson/skills --skill visual-direction
+```
+
+List without installing, or update installed skills:
 
 ```bash
 npx skills@latest add Jdjohnson/skills --list
-npx skills@latest add Jdjohnson/skills --skill brainstorm --skill autoresearch
+npx skills update
 ```
 
-Each skill starts at `skills/<name>/SKILL.md`. Supporting nodes, references,
-scripts, tests, and assets stay inside that skill's directory.
+The installer uses project scope by default. Review a skill's `SKILL.md` and
+bundled scripts before installing it.
+
+## Gift a skill to your agent
+
+Paste this into an agent that can access the current project's files and
+terminal:
+
+```text
+Install the `visual-direction` Agent Skill from https://github.com/Jdjohnson/skills for this project and the agent you are currently using. First review https://github.com/Jdjohnson/skills/blob/main/skills/visual-direction/SKILL.md and its neighboring bundled files. Then run `npx skills@latest add Jdjohnson/skills --skill visual-direction`. Install only that skill, preserve its complete folder, and tell me where it was installed. Do not install globally or add other skills without asking. If this environment cannot install skills, say so instead of claiming success.
+```
+
+Replace `visual-direction` with any skill below.
 
 ## Skills
 
-### Thinking and planning
+### Think and decide
 
 | Skill | Use it for |
-|---|---|
-| [brainstorm](./skills/brainstorm/SKILL.md) | Exploring messy topics before they become a plan or decision |
-| [brief](./skills/brief/SKILL.md) | Creating concise briefs from pasted text, files, URLs, or topics |
-| [decision-walkthrough](./skills/decision-walkthrough/SKILL.md) | Walking supplied material one decision at a time with a running log |
-| [plan](./skills/plan/SKILL.md) | Co-creating day, week, or month plans through lightweight approval phases |
-| [steelman](./skills/steelman/SKILL.md) | Pressure-testing and strengthening an idea, argument, or decision |
+| --- | --- |
+| [consulting-navigator](./skills/consulting-navigator/SKILL.md) | Choosing the right analysis method for an ambiguous business decision |
+| [cfo-decision-advisor](./skills/cfo-decision-advisor/SKILL.md) | Making practical calls on cash, margin, pricing, capacity, and financial risk |
+| [guided-brainstorm](./skills/guided-brainstorm/SKILL.md) | Turning an early idea into clearer options through focused questions |
+| [idea-stress-test](./skills/idea-stress-test/SKILL.md) | Pressure-testing and strengthening an established idea |
+| [decision-walkthrough](./skills/decision-walkthrough/SKILL.md) | Resolving supplied material one decision at a time |
+| [execution-trust](./skills/execution-trust/SKILL.md) | Keeping decisions and commitments from decaying |
+| [david-deutsch-lens](./skills/david-deutsch-lens/SKILL.md) | Applying source-grounded David Deutsch arguments carefully |
 
-### Writing, reflection, and meetings
-
-| Skill | Use it for |
-|---|---|
-| [writer](./skills/writer/SKILL.md) | Turning rough ideas, notes, or drafts into publishable prose |
-| [reflect](./skills/reflect/SKILL.md) | Reflecting on journal entries or similar personal writing supplied or located by the user |
-| [meeting](./skills/meeting/SKILL.md) | Preparing, closing, finding history, and reviewing meeting patterns |
-| [work-log](./skills/work-log/SKILL.md) | Explicitly closing out an active work thread into configured records |
-
-### Agent and tooling
+### Research and knowledge
 
 | Skill | Use it for |
-|---|---|
-| [chatgpt](./skills/chatgpt/SKILL.md) | Routing explicit ChatGPT orders, Deep Research, Agent, or Pro review |
-| [cli-subagents](./skills/cli-subagents/SKILL.md) | Routing bounded work across locally available CLI agents |
-| [gws-cli](./skills/gws-cli/SKILL.md) | Running guarded Google Workspace CLI reads and approved mutations |
-| [papercut](./skills/papercut/SKILL.md) | Reviewing the visible session for small workflow friction on explicit request |
+| --- | --- |
+| [checkpointed-research](./skills/checkpointed-research/SKILL.md) | Running durable, multi-pass, source-backed research |
+| [executive-brief](./skills/executive-brief/SKILL.md) | Turning a topic or source into a concise decision brief |
+| [source-backed-wiki](./skills/source-backed-wiki/SKILL.md) | Building a local wiki with traceable claims |
+| [journal-reflection](./skills/journal-reflection/SKILL.md) | Finding grounded patterns across supplied journals |
+| [genealogy-site-publisher](./skills/genealogy-site-publisher/SKILL.md) | Publishing family history with privacy and provenance controls |
 
-### Research
+### Write and direct
 
 | Skill | Use it for |
-|---|---|
-| [autoresearch](./skills/autoresearch/SKILL.md) | Running checkpointed, source-backed research with durable working notes |
+| --- | --- |
+| [visual-direction](./skills/visual-direction/SKILL.md) | Finding and refining an image-led visual language |
+| [photography-director](./skills/photography-director/SKILL.md) | Directing a photograph and preparing its execution handoff |
+| [plain-language-writer](./skills/plain-language-writer/SKILL.md) | Writing clear, natural, audience-aware prose |
+| [adhd-friendly-output](./skills/adhd-friendly-output/SKILL.md) | Making dense material easier to scan and act on |
 
-## Maintenance
+### Agents and operations
 
-The maintainer validator enforces the exact inventory, portable metadata,
-working internal links, parity fixtures, source scrubbing, and the absence of
-generated caches. Regression tests are local and must not perform live external
-mutations.
+| Skill | Use it for |
+| --- | --- |
+| [chatgpt-handoff](./skills/chatgpt-handoff/SKILL.md) | Preparing and reconciling bounded ChatGPT assignments |
+| [cli-agent-delegation](./skills/cli-agent-delegation/SKILL.md) | Delegating bounded work to installed agent CLIs |
+| [manus-api](./skills/manus-api/SKILL.md) | Sending sustained work to Manus with credit controls |
+| [gws-cli](./skills/gws-cli/SKILL.md) | Running guarded Google Workspace CLI operations |
+| [comms-intake](./skills/comms-intake/SKILL.md) | Triaging a configured local message queue |
+| [time-partner](./skills/time-partner/SKILL.md) | Planning, tracking, reviewing, and reflecting in period |
+| [work-closeout](./skills/work-closeout/SKILL.md) | Reconciling proven outcomes across configured records |
+| [session-friction-review](./skills/session-friction-review/SKILL.md) | Extracting validated workflow friction from a visible session |
 
-## Attribution
 
-Jarad Johnson is the repository author.
+## Maintain
+
+Each package lives at `skills/<name>/` and follows the open Agent Skills
+format. Validate metadata and run deterministic package tests with:
+
+```bash
+python3 scripts/validate.py
+bash scripts/test.sh
+```
+
+See [STANDARD.md](./STANDARD.md) for the short authoring contract.
+
+## License
+
+Original code, writing, and identified generated media are MIT licensed.
+Third-party reference media keeps its source license; see
+[THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) and the attribution files
+inside the two visual skills.

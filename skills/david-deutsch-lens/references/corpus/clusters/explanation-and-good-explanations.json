@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "cluster_id": "explanation-and-good-explanations",
+  "title": "Explanation and good explanations",
+  "status": "active",
+  "domains": ["epistemology", "general-problem-solving"],
+  "explanation_levels": ["epistemic-method"],
+  "aliases": ["good explanation", "good explanations", "hard to vary", "explanation over prediction"],
+  "source_routes": ["source.for.1997.penguin", "source.boi.2011.allen-lane", "source.boi.glossary.official"],
+  "problem": {
+    "id": "problem.explanation.rival-flexible-stories.v1",
+    "summary": "Predictions, descriptions, or multiple flexible stories fit what happened but do not provide a discriminating account of why.",
+    "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+    "source_refs": [],
+    "routing": {
+      "reasoning_jobs": ["define-concept", "evaluate-explanation", "diagnose", "criticize"],
+      "keywords": ["why", "prediction", "description", "causal story", "post hoc", "hard to vary", "explanation"],
+      "structural_predicates": ["Several incompatible stories fit the same observations.", "A proposed explanation can be patched after every outcome.", "A prediction is offered without an account of the underlying reality or mechanism."],
+      "reject_if": ["mere preference", "only requesting a factual lookup"],
+      "diagnostic_questions": ["Which details could change without changing the conclusion?", "What does this explanation rule out?", "What criticism would force replacement rather than another patch?"]
+    }
+  },
+  "definitions": [{
+    "id": "definition.good-explanation.hard-to-vary.v1",
+    "term": "good explanation",
+    "summary": "An explanation whose details are constrained by the problem so that arbitrary variation would spoil its explanatory work.",
+    "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"},
+    "source_refs": [{"source_id": "source.boi.glossary.official", "locator": "entry: good explanation", "verification": "checked"}],
+    "lineage": "definition.good-explanation.hard-to-vary", "version": 1, "lifecycle": "active"
+  }],
+  "claims": [{
+    "id": "claim.explanation.not-prediction.v1",
+    "summary": "Accurate prediction or description is not the same as understanding; explanations describe the underlying reality and why phenomena occur.",
+    "kind": "methodological-principle", "scope": "domain-bounded", "transfer_policy": "same-context",
+    "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"},
+    "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "chapter 1, The Theory of Everything, lines 113-260 and summary lines 1007-1033", "verification": "checked"}],
+    "lineage": "claim.explanation.not-prediction", "version": 1, "lifecycle": "active"
+  }],
+  "arguments": [{
+    "id": "argument.oracle.needs-explanation.v1",
+    "stance": "for",
+    "summary": "Even a perfect predictive oracle would not create designs, improvements, or new theories because those require explanatory knowledge.",
+    "conclusions": ["claim.explanation.not-prediction.v1"],
+    "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"},
+    "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "chapter 1, oracle argument, lines 194-302", "verification": "checked"}]
+  }],
+  "examples": [],
+  "criticisms": [{
+    "id": "criticism.hard-to-vary.not-rigidity.v1",
+    "stance": "qualifies",
+    "summary": "Hard to vary evaluates explanatory content; it does not recommend making plans, organizations, or beliefs resistant to revision.",
+    "conclusions": ["claim.explanation.not-prediction.v1"],
+    "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"},
+    "source_refs": []
+  }],
+  "relationships": [
+    {"id": "rel.explanation.claim-addresses-problem.v1", "type": "addresses", "from": "claim.explanation.not-prediction.v1", "to": "problem.explanation.rival-flexible-stories.v1", "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"}, "source_refs": []},
+    {"id": "rel.explanation.oracle-argues-for.v1", "type": "argues_for", "from": "argument.oracle.needs-explanation.v1", "to": "claim.explanation.not-prediction.v1", "origin": {"representation": "faithful-paraphrase", "represents": "david-deutsch"}, "source_refs": [{"source_id": "source.for.1997.penguin", "locator": "chapter 1, lines 194-302", "verification": "checked"}]},
+    {"id": "rel.explanation.rigidity-qualifies.v1", "type": "qualifies", "from": "criticism.hard-to-vary.not-rigidity.v1", "to": "claim.explanation.not-prediction.v1", "origin": {"representation": "editorial-synthesis", "represents": "skill-editor"}, "source_refs": []}
+  ],
+  "boundaries": {"misreadings": ["A good explanation is merely detailed.", "Hard to vary means resistant to criticism.", "Prediction and data are unimportant."], "not_for": ["locking plans", "proving causation from timing alone"], "decline_if": ["No explanation or rival account is at issue."]}
+}

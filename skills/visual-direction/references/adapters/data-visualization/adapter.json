@@ -1,0 +1,55 @@
+{
+  "id": "data-visualization",
+  "displayName": "Data Visualization",
+  "concernWeights": {
+    "composition": 0.18,
+    "palette": 0.16,
+    "typography": 0.14,
+    "shapeLine": 0.14,
+    "imagery": 0.1,
+    "depth": 0.08,
+    "motion": 0.06,
+    "lighting": 0.06,
+    "ornament": 0.04,
+    "materialTexture": 0.04
+  },
+  "functionalFloors": {
+    "minContrast": {
+      "mode": "clamp",
+      "path": "lighting.contrast",
+      "min": 0.35
+    },
+    "legibleType": {
+      "mode": "clamp",
+      "path": "typography.weight",
+      "min": 300
+    }
+  },
+  "reduceTraits": [
+    "heavyOrnament",
+    "lowContrastText"
+  ],
+  "payloadFields": [
+    "composition",
+    "palette",
+    "typography",
+    "shapeLine",
+    "materialTexture",
+    "lighting",
+    "depth",
+    "motion",
+    "ornament",
+    "imagery"
+  ],
+  "incompatibleTags": [
+    "neon-chroma"
+  ],
+  "constraints": [
+    {
+      "id": "contrast-floor",
+      "mode": "clamp",
+      "path": "lighting.contrast",
+      "min": 0.2
+    }
+  ]
+}

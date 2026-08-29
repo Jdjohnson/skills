@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "scent-campaign",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Hector Guimard's Kantirix perfume bottle",
+    "creatorOrTradition": "Perfume-vessel design and sensory product presentation",
+    "sourceUrl": "https://www.cooperhewitt.org/exhibition/hector-guimard-how-paris-got-its-curves/",
+    "whyCanonical": "Cooper Hewitt presents Guimard's perfume bottle as a small abstract glass sculpture within a complete designed style, establishing the vessel as the campaign's sensory and material anchor."
+  },
+  "sources": [
+    {
+      "title": "Hector Guimard: How Paris Got Its Curves",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/exhibition/hector-guimard-how-paris-got-its-curves/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Perfume bottles can function as small sculptural objects whose glass, silhouette, and finish carry a designed identity.",
+        "The vessel belongs within a broader material and marketing system rather than operating as an arbitrary luxury prop."
+      ]
+    },
+    {
+      "title": "Scent Bottle, 1800-1860",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/7334",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Pattern-molded blown glass provides concrete evidence for small scale, surface relief, transparency, and vessel construction.",
+        "The object record supports physically plausible glass detail while the campaign guidance adds atmosphere and narrative."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches sensual, glass, lacquer, object scale, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/scent-campaign/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/scent-campaign/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches sensual, glass, lacquer, object scale, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

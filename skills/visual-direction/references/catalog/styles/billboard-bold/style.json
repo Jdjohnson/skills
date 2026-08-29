@@ -1,0 +1,161 @@
+{
+  "id": "billboard-bold",
+  "displayName": "Billboard Bold",
+  "family": "pop-commercial",
+  "definition": "One dominant image or silhouette, a very short headline, extreme contrast, and monumental scale produce a three-second read at outdoor distance.",
+  "axes": {
+    "minimalOrnate": 0.6,
+    "geometricOrganic": -0.5,
+    "polishedRaw": -0.3,
+    "calmEnergetic": 1,
+    "historicalFuturistic": 0.4,
+    "realisticAbstract": 0.4,
+    "warmCool": -0.4,
+    "lightDark": -0.2,
+    "playfulSerious": -0.6,
+    "handmadeMachined": 0.6,
+    "flatDeep": -0.5,
+    "everydayLuxurious": -0.1
+  },
+  "cues": [
+    "silhouette",
+    "monument-scale",
+    "polychrome",
+    "advertising-pace",
+    "letterform-as-image"
+  ],
+  "antiCues": [
+    "dense",
+    "meditative-pace",
+    "pastel-chroma"
+  ],
+  "emotionalEffects": [
+    "urgent",
+    "energized",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.45,
+      "symmetry": 0.5,
+      "margins": 0.2
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FF0000",
+        "#0047AB",
+        "#FFD700",
+        "#FFFFFF",
+        "#000000"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/billboard-bold.svg",
+      "descriptor": "ultra-bold sans silhouette",
+      "weight": 900,
+      "tracking": -0.03
+    },
+    "shapeLine": {
+      "cornerRadius": 0.05,
+      "lineWeight": 0.85,
+      "curveTension": 0.05
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/pop-commercial-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.1,
+      "tags": [
+        "matte-paint",
+        "metal"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.9,
+      "keyDirection": "front",
+      "gradient": 0.1
+    },
+    "depth": {
+      "layers": 1,
+      "shadowSoftness": 0.05,
+      "parallax": 0
+    },
+    "motion": {
+      "energy": 0.95,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/pop-commercial"
+      ],
+      "density": 0.15,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "abstracted",
+      "subjectRules": [
+        "original outdoor campaign concept",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.7
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 0,
+    "social-advertising": 3,
+    "packaging": 1,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 0,
+    "interiors-architecture": 2,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "an original outdoor campaign reduced to one arresting image and a few enormous words",
+    "framing": "design for a passing viewer: extreme scale, immediate silhouette, ruthless contrast, short copy, and generous empty field around the message",
+    "mustShow": [
+      "silhouette",
+      "monument-scale",
+      "vivid-chroma"
+    ],
+    "mustAvoid": [
+      "dense",
+      "meditative-pace",
+      "pastel-chroma",
+      "paragraph-length copy",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "supermarket-packaging",
+    "carnival-poster",
+    "mid-century-advertising"
+  ],
+  "contrasting": [
+    "botanical-watercolor",
+    "artisan-bookbinding",
+    "wabi-sabi"
+  ]
+}

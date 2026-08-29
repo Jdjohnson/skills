@@ -1,0 +1,525 @@
+{
+  "version": 1,
+  "id": "composition",
+  "displayName": "Composition and spatial organization",
+  "definition": "How visual weight, lines, repetition, depth, and context are organized inside the frame.",
+  "values": [
+    {
+      "id": "symmetry",
+      "displayName": "Symmetry",
+      "definition": "Mirrored or balanced structure around an axis creates formal stability.",
+      "aliases": [
+        "symmetrical composition"
+      ],
+      "visibleCues": [
+        "paired forms",
+        "central axis"
+      ],
+      "antiCues": [
+        "deliberate unequal balance"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-symmetrical-interior-study",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "centrality",
+      "displayName": "Centrality",
+      "definition": "A dominant element anchors the center even when the rest of the image is not symmetrical.",
+      "aliases": [
+        "center composition",
+        "subject in the middle"
+      ],
+      "visibleCues": [
+        "central visual anchor",
+        "radiating or enclosing space"
+      ],
+      "antiCues": [
+        "edge-weighted subject"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-straight-photography-precision",
+        "ref-mid-century-commercial-color",
+        "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-medium-format-formal-portrait",
+        "ref-industrial-human-machine-portrait",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-long-exposure-seascape",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-bright-editorial-food",
+        "ref-luxury-still-life-polish",
+        "ref-studio-automotive-hero",
+        "ref-scientific-specimen-record",
+        "ref-high-speed-splash",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-constructed-conceptual-tableau",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "rule-of-thirds",
+      "displayName": "Rule of thirds",
+      "definition": "Key subjects or horizons sit near thirds divisions rather than the center.",
+      "aliases": [
+        "thirds composition",
+        "off center rule"
+      ],
+      "visibleCues": [
+        "subject near thirds intersection",
+        "balanced adjacent space"
+      ],
+      "antiCues": [
+        "strict centrality"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-window-light-editorial-portrait",
+        "ref-approachable-environmental-portrait",
+        "ref-soft-focus-romantic-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-overcast-minimal-landscape",
+        "ref-panoramic-desert-survey",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-rolling-automotive-pan",
+        "ref-super-telephoto-wildlife",
+        "ref-selective-focus-macro",
+        "ref-cross-processed-slide-look"
+      ]
+    },
+    {
+      "id": "negative-space",
+      "displayName": "Negative space",
+      "definition": "A substantial quiet area gives the primary subject scale, isolation, or directional room.",
+      "aliases": [
+        "lots of empty space",
+        "minimal composition"
+      ],
+      "visibleCues": [
+        "large low-information field",
+        "small deliberate subject"
+      ],
+      "antiCues": [
+        "edge-to-edge clutter"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-mid-century-editorial-portrait",
+        "ref-window-light-editorial-portrait",
+        "ref-low-key-character-portrait",
+        "ref-high-key-beauty-portrait",
+      "ref-polished-commercial-headshot",
+      "ref-soft-focus-romantic-portrait",
+      "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-panoramic-desert-survey",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-dark-moody-tabletop",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-studio-automotive-hero",
+        "ref-scientific-specimen-record",
+        "ref-high-speed-splash",
+        "ref-selective-focus-macro",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "leading-lines",
+      "displayName": "Leading lines",
+      "definition": "Edges, roads, shadows, or forms guide the eye toward or through the subject.",
+      "aliases": [
+        "lines lead to subject",
+        "perspective lines"
+      ],
+      "visibleCues": [
+        "directional lines converge or travel",
+        "clear visual path"
+      ],
+      "antiCues": [
+        "random line directions"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-albumen-travel-survey",
+        "ref-large-format-monochrome-landscape",
+        "ref-night-street-color",
+        "ref-industrial-workplace-documentary",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-long-exposure-seascape",
+        "ref-tilt-shift-architectural-study",
+        "ref-symmetrical-interior-study",
+        "ref-night-light-trail-cityscape"
+      ]
+    },
+    {
+      "id": "frame-within-frame",
+      "displayName": "Frame within frame",
+      "definition": "An opening or foreground structure encloses a secondary scene or subject.",
+      "aliases": [
+        "doorway framing",
+        "shoot through a frame"
+      ],
+      "visibleCues": [
+        "inner boundary around subject",
+        "nested spatial layers"
+      ],
+      "antiCues": [
+        "unbounded open field"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cinematic-practical-light-portrait",
+        "ref-layered-street-observation"
+      ]
+    },
+    {
+      "id": "repetition",
+      "displayName": "Repetition",
+      "definition": "Recurring shapes, figures, or intervals create rhythm and pattern.",
+      "aliases": [
+        "repeating pattern",
+        "visual rhythm"
+      ],
+      "visibleCues": [
+        "multiple related forms",
+        "regular or intentionally varied intervals"
+      ],
+      "antiCues": [
+        "single isolated element"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-vision-geometry",
+        "ref-aerial-graphic-landscape",
+        "ref-intentional-camera-movement-landscape",
+        "ref-bright-editorial-food",
+        "ref-degraded-zine-reproduction",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "spatial-compression",
+      "displayName": "Spatial compression",
+      "definition": "Overlapping planes and narrow angle of view make separate distances read close together.",
+      "aliases": [
+        "compressed composition",
+        "stacked background"
+      ],
+      "visibleCues": [
+        "crowded depth planes",
+        "large distant forms"
+      ],
+      "antiCues": [
+        "exaggerated near-far separation"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-tilt-shift-architectural-study",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife"
+      ]
+    },
+    {
+      "id": "layered-depth",
+      "displayName": "Layered depth",
+      "definition": "Distinct foreground, middle ground, and background information create a deep reading path.",
+      "aliases": [
+        "foreground middle background",
+        "deep layers"
+      ],
+      "visibleCues": [
+        "three or more readable depth planes",
+        "overlap without confusion"
+      ],
+      "antiCues": [
+        "single flat plane"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-wet-plate-collodion-portrait",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-large-format-monochrome-landscape",
+        "ref-humanist-available-light-photo-essay",
+        "ref-layered-street-observation",
+        "ref-night-street-color",
+        "ref-industrial-color-production-reportage",
+        "ref-industrial-workplace-documentary",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-golden-hour-grand-landscape",
+        "ref-night-light-trail-cityscape",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-multiple-exposure-conceptual-portrait"
+      ]
+    },
+    {
+      "id": "edge-tension",
+      "displayName": "Edge tension",
+      "definition": "Important forms approach, cross, or are cropped by frame edges to create energy.",
+      "aliases": [
+        "tight edge crop",
+        "subject near edge"
+      ],
+      "visibleCues": [
+        "active cropping",
+        "visual weight presses boundary"
+      ],
+      "antiCues": [
+        "generous centered margins"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-humanist-available-light-photo-essay",
+        "ref-low-key-character-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-peak-action-photojournalism",
+        "ref-concert-available-light",
+        "ref-rolling-automotive-pan",
+        "ref-frozen-sports-action",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-cross-processed-slide-look",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-degraded-zine-reproduction",
+        "ref-instant-film-everyday-snapshot",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "geometric-order",
+      "displayName": "Geometric order",
+      "definition": "Lines, planes, and shapes are organized into a clear structural system.",
+      "aliases": [
+        "graphic geometry",
+        "ordered shapes"
+      ],
+      "visibleCues": [
+        "precise alignment",
+        "legible shape relationships"
+      ],
+      "antiCues": [
+        "formless clutter"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-mid-century-commercial-color",
+        "ref-hard-sun-fashion-editorial",
+        "ref-new-color-street-observation",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-aerial-graphic-landscape",
+        "ref-tilt-shift-architectural-study",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-sculptural-hard-light-product",
+        "ref-bright-editorial-food",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-scientific-specimen-record",
+        "ref-constructed-conceptual-tableau",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "deliberate-imbalance",
+      "displayName": "Deliberate imbalance",
+      "definition": "Unequal visual weight creates purposeful instability, surprise, or movement.",
+      "aliases": [
+        "intentionally lopsided",
+        "unbalanced composition",
+        "less perfect arrangement",
+        "lived in arrangement",
+        "take away the perfect arrangement"
+      ],
+      "visibleCues": [
+        "unequal masses",
+        "tension feels intentional"
+      ],
+      "antiCues": [
+        "formal mirror balance"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-vision-geometry",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-new-color-street-observation",
+        "ref-overcast-minimal-landscape",
+        "ref-intentional-camera-movement-landscape",
+        "ref-direct-flash-still-life",
+        "ref-fisheye-skate-snapshot",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-degraded-zine-reproduction",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "environmental-context",
+      "displayName": "Environmental context",
+      "definition": "Surrounding place carries essential information about the subject or story.",
+      "aliases": [
+        "show the surroundings",
+        "contextual composition"
+      ],
+      "visibleCues": [
+        "setting elements explain subject",
+        "place is specific"
+      ],
+      "antiCues": [
+        "seamless isolation"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-wet-plate-collodion-portrait",
+        "ref-albumen-travel-survey",
+        "ref-large-format-monochrome-landscape",
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-approachable-environmental-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-layered-street-observation",
+        "ref-night-street-color",
+        "ref-industrial-color-production-reportage",
+        "ref-industrial-human-machine-portrait",
+        "ref-industrial-workplace-documentary",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-concert-available-light",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-panoramic-desert-survey",
+        "ref-window-light-food-story",
+        "ref-super-telephoto-wildlife",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "diagonal-composition",
+      "displayName": "Diagonal composition",
+      "definition": "Dominant lines or movement travel diagonally to create energy and depth.",
+      "aliases": [
+        "diagonal framing",
+        "slanted composition"
+      ],
+      "visibleCues": [
+        "strong diagonal path",
+        "dynamic corner-to-corner movement"
+      ],
+      "antiCues": [
+        "only horizontal and vertical stability"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-new-vision-geometry",
+        "ref-mid-century-editorial-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-concert-available-light",
+        "ref-aerial-graphic-landscape",
+        "ref-intentional-camera-movement-landscape",
+        "ref-night-light-trail-cityscape",
+        "ref-sculptural-hard-light-product",
+        "ref-rolling-automotive-pan",
+        "ref-studio-automotive-hero",
+        "ref-frozen-sports-action",
+        "ref-high-speed-splash",
+        "ref-selective-focus-macro",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-vertical-social-editorial"
+      ]
+    }
+  ]
+}

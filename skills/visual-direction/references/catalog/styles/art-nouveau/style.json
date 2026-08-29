@@ -1,0 +1,162 @@
+{
+  "id": "art-nouveau",
+  "displayName": "Art Nouveau",
+  "family": "ornate-historical",
+  "definition": "Whiplash curves, botanical structure, asymmetrical line, integrated lettering, and total-design ornament join image, object, and architecture.",
+  "axes": {
+    "minimalOrnate": 0.8,
+    "geometricOrganic": 0.7,
+    "polishedRaw": -0.4,
+    "calmEnergetic": -0.2,
+    "historicalFuturistic": -0.6,
+    "realisticAbstract": -0.4,
+    "warmCool": 0.1,
+    "lightDark": -0.3,
+    "playfulSerious": -0.1,
+    "handmadeMachined": -0.5,
+    "flatDeep": 0.1,
+    "everydayLuxurious": 0.5
+  },
+  "cues": [
+    "organic",
+    "ornate",
+    "art-nouveau-era",
+    "linear",
+    "muted-chroma"
+  ],
+  "antiCues": [
+    "geometric",
+    "hard-edge",
+    "screen-pixel"
+  ],
+  "emotionalEffects": [
+    "sensual",
+    "nostalgic",
+    "whimsical"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.65,
+      "symmetry": 0.35,
+      "margins": 0.2
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#9CAF88",
+        "#B39EB5",
+        "#B87333",
+        "#F5F0E6",
+        "#6B705C"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/art-nouveau.svg",
+      "descriptor": "elongated organic display",
+      "weight": 500,
+      "tracking": 0.03
+    },
+    "shapeLine": {
+      "cornerRadius": 0.75,
+      "lineWeight": 0.4,
+      "curveTension": 0.9
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/ornate-historical-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.2,
+      "tags": [
+        "brass",
+        "glass",
+        "paper"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.4,
+      "keyDirection": "side",
+      "gradient": 0.45
+    },
+    "depth": {
+      "layers": 3,
+      "shadowSoftness": 0.5,
+      "parallax": 0.25
+    },
+    "motion": {
+      "energy": 0.3,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/ornate-historical"
+      ],
+      "density": 0.7,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "stylized",
+      "subjectRules": [
+        "integrated figure and lettering",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.4
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 3,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 2,
+    "social-advertising": 2,
+    "packaging": 2,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 2,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "an integrated figure-and-lettering composition organized by one elastic whiplash curve",
+    "framing": "let hair, stems, borders, and letterforms continue one another around a flattened central subject with controlled negative space",
+    "mustShow": [
+      "organic",
+      "ornate",
+      "art-nouveau-era"
+    ],
+    "mustAvoid": [
+      "geometric",
+      "hard-edge",
+      "screen-pixel",
+      "unrelated floral decoration",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "belle-epoque-lithograph",
+    "rococo-salon",
+    "illuminated-manuscript"
+  ],
+  "contrasting": [
+    "brutalism",
+    "crt-terminal",
+    "industrial-monochrome"
+  ]
+}

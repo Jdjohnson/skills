@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "id": "new-vision-geometry",
+  "displayName": "New Vision-Inspired Geometry",
+  "family": "historical-process",
+  "definition": "A contemporary or historical photograph using the radical viewpoints, diagonal structure, repetition, and graphic modern form associated with interwar New Vision photography.",
+  "aliases": [
+    "Bauhaus angle photography",
+    "1920s geometric photo",
+    "New Vision inspired"
+  ],
+  "cues": [
+    "new-vision",
+    "high-angle",
+    "worm-eye",
+    "diagonal-composition"
+  ],
+  "antiCues": [
+    "conventional eye-level portrait",
+    "soft nostalgic vignette"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "architecture",
+      "fine-art",
+      "conceptual"
+    ],
+    "viewpoint-framing": [
+      "high-angle",
+      "worm-eye",
+      "oblique-view",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "hard-light",
+      "side-light"
+    ],
+    "composition": [
+      "diagonal-composition",
+      "repetition",
+      "geometric-order",
+      "deliberate-imbalance"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "darkroom-contrast"
+    ],
+    "era-movement": [
+      "new-vision"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "radical camera angle",
+    "graphic modern geometry",
+    "dynamic diagonal order"
+  ],
+  "adaptiveGuidance": [
+    "Adapt viewpoint to the subject's safe physical possibilities; keep the unusual seeing rather than copying one composition."
+  ],
+  "applicability": [
+    "architecture",
+    "objects",
+    "people",
+    "conceptual studies"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-new-vision-geometry"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Modern Photographs from the Thomas Walther Collection",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/documents/moma_press-release_389290.pdf",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A contemporary or historical photograph using the radical viewpoints, diagonal structure, repetition, and graphic modern form associated with interwar New Vision photography."
+        ]
+      }
+    ]
+  }
+}

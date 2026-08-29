@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "psychedelic-poster",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "San Francisco psychedelic concert posters",
+    "creatorOrTradition": "1960s psychedelic poster movement",
+    "sourceUrl": "https://www.sfmoma.org/artist/Victor_Moscoso/",
+    "whyCanonical": "The movement's concert posters establish near-illegible elastic lettering, dense figure-ground integration, optical vibration, saturated complementary color, and countercultural event context."
+  },
+  "sources": [
+    {
+      "title": "Victor Moscoso",
+      "publisher": "San Francisco Museum of Modern Art",
+      "url": "https://www.sfmoma.org/artist/Victor_Moscoso/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Moscoso's documented work anchors vibrating complementary color, warped integrated lettering, dense surface, and music-poster scale in the San Francisco scene."
+      ]
+    },
+    {
+      "title": "Art of Noise: Design Amplified",
+      "publisher": "San Francisco Museum of Modern Art",
+      "url": "https://www.sfmoma.org/read/art-of-noise-design-amplified/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Music graphics connect sound, venue, youth culture, print circulation, and experimental typography rather than functioning as free-floating decoration."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches display type, vivid chroma, dense, print signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/psychedelic-poster/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/psychedelic-poster/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches display type, vivid chroma, dense, print signal, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

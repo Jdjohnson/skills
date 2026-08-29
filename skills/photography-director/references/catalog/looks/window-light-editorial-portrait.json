@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "id": "window-light-editorial-portrait",
+  "displayName": "Broad One-Sided Editorial Portrait",
+  "family": "portrait-editorial",
+  "definition": "A natural editorial portrait with broad one-sided light, shallow but believable separation, restrained skin color, and quiet publication-ready framing.",
+  "aliases": [
+    "soft editorial portrait",
+    "natural window portrait"
+  ],
+  "cues": [
+    "broad-one-sided-light",
+    "soft-light",
+    "shallow-focus",
+    "restrained-skin-tones"
+  ],
+  "antiCues": [
+    "hard direct flash",
+    "plastic skin",
+    "generic corporate grin"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "medium-close-up",
+      "eye-level",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "shallow-focus"
+    ],
+    "lighting": [
+      "window-light",
+      "soft-light",
+      "side-light",
+      "low-ratio-lighting"
+    ],
+    "composition": [
+      "rule-of-thirds",
+      "negative-space"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "restrained-skin-tones",
+      "luminous-highlights"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "restrained-retouching",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "broad one-sided light",
+    "natural skin texture",
+    "quiet editorial space"
+  ],
+  "adaptiveGuidance": [
+    "Choose camera distance and lens class for the person or group; preserve broad one-sided modeling and credible texture."
+  ],
+  "applicability": [
+    "individuals",
+    "small groups",
+    "editorial stories"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-window-light-editorial-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A natural editorial portrait with broad one-sided light, shallow but believable separation, restrained skin color, and quiet publication-ready framing."
+        ]
+      }
+    ]
+  }
+}

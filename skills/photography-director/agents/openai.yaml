@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photography Director"
+  short_description: "Direct a photograph and prepare its execution handoff"
+  default_prompt: "Use $photography-director to develop this photographic direction and prepare the final profile for AI generation, a photographer, self-shooting, or both."

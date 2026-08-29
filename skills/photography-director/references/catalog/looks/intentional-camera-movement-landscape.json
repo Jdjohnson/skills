@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "intentional-camera-movement-landscape",
+  "displayName": "Intentional-Camera-Movement Landscape",
+  "family": "landscape-built-world",
+  "definition": "A landscape transformed into rhythmic directional marks by purposeful camera movement during exposure while retaining enough structure to read place and motion.",
+  "aliases": [
+    "ICM trees",
+    "painted blur landscape"
+  ],
+  "cues": [
+    "intentional-camera-movement",
+    "deliberate-softness",
+    "diagonal-composition",
+    "fine-art"
+  ],
+  "antiCues": [
+    "subject-only blur",
+    "accidental shake",
+    "random software smear"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "landscape",
+      "fine-art",
+      "conceptual"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "oblique-view"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deliberate-softness"
+    ],
+    "exposure-motion": [
+      "intentional-camera-movement"
+    ],
+    "lighting": [
+      "daylight",
+      "overcast-light",
+      "soft-light"
+    ],
+    "composition": [
+      "diagonal-composition",
+      "repetition",
+      "deliberate-imbalance"
+    ],
+    "color-tonality": [
+      "muted-color",
+      "monochrome-color",
+      "low-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "optical-diffusion",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "whole-frame directional motion",
+    "recognizable environmental rhythm",
+    "purposeful soft abstraction"
+  ],
+  "adaptiveGuidance": [
+    "Adapt movement direction and duration to the scene's line structure; retain a readable environmental cue."
+  ],
+  "applicability": [
+    "trees",
+    "water",
+    "urban lights",
+    "fine-art landscape"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-intentional-camera-movement-landscape"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Capture the Motion in Photographs",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/lenses-conversion-lenses/sel20tc/articles/00223372",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A landscape transformed into rhythmic directional marks by purposeful camera movement during exposure while retaining enough structure to read place and motion."
+        ]
+      }
+    ]
+  }
+}

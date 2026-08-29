@@ -1,0 +1,4 @@
+interface:
+  display_name: "CLI Agent Delegation"
+  short_description: "Delegate bounded work to a local agent CLI"
+  default_prompt: "Use $cli-agent-delegation to delegate this bounded task to a suitable local CLI agent."

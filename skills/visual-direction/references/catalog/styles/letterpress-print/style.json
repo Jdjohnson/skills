@@ -1,0 +1,159 @@
+{
+  "id": "letterpress-print",
+  "displayName": "Letterpress Print",
+  "family": "organic-craft",
+  "definition": "Relief-printed type and image use visible impression, ink bite, limited color, press constraints, and tactile cotton or handmade stock.",
+  "axes": {
+    "minimalOrnate": 0.1,
+    "geometricOrganic": 0.1,
+    "polishedRaw": 0.5,
+    "calmEnergetic": -0.5,
+    "historicalFuturistic": -0.2,
+    "realisticAbstract": -0.3,
+    "warmCool": -0.4,
+    "lightDark": -0.4,
+    "playfulSerious": 0.5,
+    "handmadeMachined": -0.6,
+    "flatDeep": 0.1,
+    "everydayLuxurious": 0.3
+  },
+  "cues": [
+    "letterpress-ink",
+    "paper",
+    "typographic",
+    "craft-signal",
+    "print-signal"
+  ],
+  "antiCues": [
+    "screen-pixel",
+    "neon",
+    "gradient-form",
+    "plastic"
+  ],
+  "emotionalEffects": [
+    "scholarly",
+    "intimate",
+    "timeless"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.44,
+      "symmetry": 0.3,
+      "margins": 0.4
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#141414",
+        "#7A3B12",
+        "#1F3F3F",
+        "#FAF0E6",
+        "#6B1E2A"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/letterpress-atelier.svg",
+      "descriptor": "metal type impression with bite",
+      "weight": 600,
+      "tracking": 0.05
+    },
+    "shapeLine": {
+      "cornerRadius": 0.05,
+      "lineWeight": 0.5,
+      "curveTension": 0.1
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/organic-craft-primary"
+      ],
+      "finish": "debossed",
+      "grain": 0.5,
+      "tags": [
+        "paper",
+        "letterpress-ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.52,
+      "keyDirection": "raking",
+      "gradient": 0.2
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.05
+    },
+    "motion": {
+      "energy": 0.15,
+      "descriptor": "press-strike"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.2,
+      "tags": [
+        "bordered"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.2
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 2,
+    "brand-identity": 3,
+    "web-app": 1,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 3,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 1,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "an inked relief forme and its freshly pulled tactile print",
+    "framing": "Oblique press-bed view with locked metal or wood type beside the finished sheet; raking light catches modest impression, paper fiber, ink edge, and a purposeful one- or two-color typographic composition.",
+    "mustShow": [
+      "letterpress-ink",
+      "paper",
+      "typographic"
+    ],
+    "mustAvoid": [
+      "screen-pixel",
+      "neon",
+      "smooth offset finish",
+      "synthetic grunge overlay",
+      "sentimental script invitation",
+      "watermark",
+      "brand-logos"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "artisan-bookbinding",
+    "arts-and-crafts",
+    "type-specimen-book"
+  ],
+  "contrasting": [
+    "crt-terminal",
+    "glassmorphism",
+    "live-stream-overlay"
+  ]
+}

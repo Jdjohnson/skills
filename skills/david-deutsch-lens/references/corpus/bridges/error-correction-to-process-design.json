@@ -1,0 +1,16 @@
+{
+  "id": "bridge.error-correction.to-process-design.v1",
+  "status": "active",
+  "source_claims": ["claim.knowledge.conjecture-criticism.v1"],
+  "source_context": {"domains": ["epistemology", "general-problem-solving"], "explanation_level": "epistemic-method"},
+  "target_problem": "A recurring work process repeats errors because criticism arrives too late, cannot change the governing conjecture, or has no corrective path.",
+  "routing_signals": ["process", "feedback", "rework", "handoff", "retrospective", "error correction", "failed assumption", "corrective path"],
+  "target_context": {"domains": ["organizations"], "explanation_level": "case-application"},
+  "structural_correspondence": ["Both cases require conjectures that can be criticized and replaced.", "The target process can expose and preserve error signals rather than suppress them."],
+  "warrant": "Activate only with target-process evidence showing a real feedback delay, blocked correction path, or inability to replace a failed operating assumption.",
+  "target_evidence": ["Observed rework, postmortems, decision logs, process timing, escalation paths, or controlled trials from the target process."],
+  "disanalogies": ["Organizations also require authority, coordination, safety constraints, and time-bounded decisions.", "Criticism is not equivalent to unrestricted debate or absence of leadership."],
+  "failure_conditions": ["The process already corrects the relevant error quickly.", "The claimed error signal is unverified.", "Safety or legal requirements control the process.", "The proposed mechanism removes accountability rather than improving correction."],
+  "resulting_claims": ["A Skill-owned process-design hypothesis and validation plan, never a claim that Deutsch prescribed the organization design."],
+  "origin": {"representation": "editorial-application", "represents": "skill-editor"}
+}

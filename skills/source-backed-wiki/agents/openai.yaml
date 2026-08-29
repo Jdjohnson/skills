@@ -1,0 +1,4 @@
+interface:
+  display_name: "Source-Backed Wiki"
+  short_description: "Compile and query source-backed reusable knowledge"
+  default_prompt: "Use $source-backed-wiki to ingest, query, connect, or lint the configured local knowledge wiki."

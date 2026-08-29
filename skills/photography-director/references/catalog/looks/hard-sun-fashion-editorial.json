@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "id": "hard-sun-fashion-editorial",
+  "displayName": "Hard-Sun Fashion Editorial",
+  "family": "portrait-editorial",
+  "definition": "A full-length fashion image that uses direct midday sun, crisp graphic shadows, assertive pose, and bright color as deliberate editorial structure.",
+  "aliases": [
+    "harsh sunlight fashion",
+    "summer hard shadow editorial"
+  ],
+  "cues": [
+    "midday-sun",
+    "hard-light",
+    "full-length",
+    "late-century-fashion"
+  ],
+  "antiCues": [
+    "soft cloudy fill",
+    "timid catalog pose",
+    "muddy low contrast"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "fashion",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "full-length",
+      "low-angle",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "midday-sun",
+      "hard-light",
+      "top-light",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "diagonal-composition",
+      "edge-tension",
+      "geometric-order"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "late-century-fashion"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "crisp sun shadows",
+    "graphic body line",
+    "bold location color"
+  ],
+  "adaptiveGuidance": [
+    "Adapt pose and camera height to garment and body; protect important facial detail when top light becomes too severe."
+  ],
+  "applicability": [
+    "fashion",
+    "editorial people",
+    "streetwear"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-hard-sun-fashion-editorial"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lillian Bassman: Bazaar and Beyond",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/lillian-bassman-bazaar-and-beyond",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A full-length fashion image that uses direct midday sun, crisp graphic shadows, assertive pose, and bright color as deliberate editorial structure."
+        ]
+      }
+    ]
+  }
+}

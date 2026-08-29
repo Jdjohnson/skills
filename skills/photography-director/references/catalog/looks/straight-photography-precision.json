@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "id": "straight-photography-precision",
+  "displayName": "Straight-Photography Precision",
+  "family": "historical-process",
+  "definition": "A direct modernist study with crisp detail, strong shape, deep focus, and minimal painterly manipulation.",
+  "aliases": [
+    "straight photography",
+    "sharp modernist still life"
+  ],
+  "cues": [
+    "straight-photography",
+    "crisp-clarity",
+    "geometric-order",
+    "deep-focus"
+  ],
+  "antiCues": [
+    "gauzy romantic blur",
+    "decorative fake grain"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "fine-art",
+      "architecture",
+      "tabletop"
+    ],
+    "viewpoint-framing": [
+      "detail-framing",
+      "straight-on-view"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "hard-light",
+      "side-light"
+    ],
+    "composition": [
+      "geometric-order",
+      "centrality"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "gelatin-silver-print"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "darkroom-contrast"
+    ],
+    "era-movement": [
+      "straight-photography"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "optical clarity",
+    "direct material description",
+    "modernist shape"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera position to preserve structural clarity; avoid adding antique haze."
+  ],
+  "applicability": [
+    "objects",
+    "architecture",
+    "fine-art studies"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-straight-photography-precision"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Our Future Is In The Air: Photographs from the 1910s",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/listings/2010/our-future-is-in-the-air",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A direct modernist study with crisp detail, strong shape, deep focus, and minimal painterly manipulation."
+        ]
+      }
+    ]
+  }
+}

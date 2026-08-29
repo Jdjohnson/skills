@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "y2k-cyber",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of millennial Y2K consumer technology design.\nUse case: product-campaign\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original fictional portable digital music player from circa 1999–2002 as a clearly manufactured consumer product, with translucent aqua polycarbonate shell revealing simplified internal layers, rounded silver seams, tactile oval buttons, tiny monochrome LCD, blue status light, chrome trim, and period-specific orbital graphic accents.\nStyle/medium: glossy turn-of-the-millennium product photography and packaging layout\nComposition/framing: portrait 4:5, device is large and three-quarter view at center, matching translucent earbuds and a small packaging insert sit below, orbital lines and compact numerals frame the product, unmistakable at thumbnail scale\nLighting/mood: optimistic, synthetic, futuristic for its era\nColor palette: translucent aqua, ice blue, silver, white, tiny acid-lime accent\nMaterials/textures: injection-molded translucent polycarbonate, brushed aluminum, clear cable, chrome\nText: use only the exact label MP 02 and numerals 64, 99; all other labels as abstract bars\nConstraints: original fictional product, no resemblance to a specific branded player, no real company, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "e57875d39a3f26dc07455714ec62c76fce63a285e303646330e13a89a2876808",
+  "finalAsset": "assets/refs/y2k-cyber/generated-lead.jpg",
+  "finalSha256": "a59ef2b60197b768c25ba4e2c4a07e24f352bedf406f7bdd24345045c1d9b3b6",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

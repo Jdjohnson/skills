@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "quiet-luxury",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Charles James's Clover Leaf gown",
+    "creatorOrTradition": "Charles James and couture traditions of material, engineering, and exact finish",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/159353",
+    "whyCanonical": "The Met describes the gown through costly silk, complex structure, disciplined geometry, line, texture, refinement, and sculptural restraint rather than visible branding or status symbols."
+  },
+  "sources": [
+    {
+      "title": "Charles James: Clover Leaf",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/159353",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Exceptional luxury can be communicated through engineering, material quality, line, texture, and prolonged refinement.",
+        "The gown's complex internal structure supports showing close craft evidence beneath an apparently controlled silhouette."
+      ]
+    },
+    {
+      "title": "What is Luxury?",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/blog/what-is-luxury/what-is-luxury",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The V&A frames luxury production as an investment in time and the application of skill, using terms including precision, passion, and exclusivity.",
+        "The exhibition treats luxury as context-dependent and examines material, value, time, and making beyond consumption alone."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches luxury signal, atelier signal, sparse, silk, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/quiet-luxury/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/quiet-luxury/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches luxury signal, atelier signal, sparse, silk, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "id": "cross-processed-slide-look",
+  "displayName": "Cross-Processed Slide Look",
+  "family": "action-nature-experimental",
+  "definition": "A documented or explicitly emulated cross-process treatment with color crossover, steep contrast, saturated off-neutral hues, and visible film texture.",
+  "aliases": [
+    "xpro film colors",
+    "cross processed photo"
+  ],
+  "cues": [
+    "cross-processing",
+    "color-slide-film",
+    "saturated-color",
+    "high-contrast-tonality"
+  ],
+  "antiCues": [
+    "ordinary white balance error",
+    "neutral commercial color",
+    "claim of authentic chemistry without documentation"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "fashion",
+      "travel",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "vintage-lens-character"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "daylight",
+      "hard-light",
+      "front-light"
+    ],
+    "composition": [
+      "rule-of-thirds",
+      "edge-tension"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "split-tone",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "color-slide-film"
+    ],
+    "processing-texture": [
+      "cross-processing",
+      "pronounced-grain",
+      "vignette"
+    ],
+    "era-movement": [
+      "late-century-fashion"
+    ],
+    "format-output": [
+      "three-two-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "color crossover",
+    "steep film-like contrast",
+    "visible analog texture"
+  ],
+  "adaptiveGuidance": [
+    "Adapt hue crossover to subject colors; say appearance of cross-processing unless chemistry is documented."
+  ],
+  "applicability": [
+    "fashion",
+    "travel",
+    "music",
+    "experimental color"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-cross-processed-slide-look"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photographic Processes Video Series & Glossary",
+        "publisher": "George Eastman Museum",
+        "url": "https://www.eastman.org/photographic-processes-video-series-glossary",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A documented or explicitly emulated cross-process treatment with color crossover, steep contrast, saturated off-neutral hues, and visible film texture."
+        ]
+      }
+    ]
+  }
+}

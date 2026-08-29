@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "studio-pottery",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Twentieth-century British studio pottery from Bernard Leach through Lucie Rie and Hans Coper",
+    "creatorOrTradition": "Independent studio pottery tradition",
+    "sourceUrl": "https://www.vam.ac.uk/articles/studio-pottery-an-introduction",
+    "whyCanonical": "The V&A frames studio pottery as individual workshop practice distinct from factory art pottery, spanning functional ware, expressive glaze, modernist refinement, and sculptural vessel form."
+  },
+  "sources": [
+    {
+      "title": "Studio Pottery: an introduction",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/studio-pottery-an-introduction",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Studio pottery is distinguished from pottery made by larger manufacturers and includes both useful objects and more sculptural investigations.",
+        "Modern studio potters developed organic and architectural forms through individual practice, material experiment, and new approaches to clay."
+      ]
+    },
+    {
+      "title": "Lucie Rie: a Modernist revolution in British studio ceramics",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/lucy-rie-british-studio-potter/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Lucie Rie's refined simple forms and experimental glazes demonstrate that a handmade studio aesthetic need not look rustic or show throwing rings.",
+        "In Rie's work, surface decoration, glaze, incised line, and vessel form were integrated rather than applied as unrelated effects."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The lead centers a visibly wheel-thrown vessel in its working context. Throwing rings, glaze variation, irregular silhouette, tools, clay surfaces, and the potter’s hands provide strong material and process evidence. The independently approved lead is assets/refs/studio-pottery/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/studio-pottery/generated-lead.jpg",
+    "notes": "The lead centers a visibly wheel-thrown vessel in its working context. Throwing rings, glaze variation, irregular silhouette, tools, clay surfaces, and the potter’s hands provide strong material and process evidence.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

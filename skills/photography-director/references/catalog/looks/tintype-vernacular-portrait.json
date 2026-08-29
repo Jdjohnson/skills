@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "id": "tintype-vernacular-portrait",
+  "displayName": "Tintype Vernacular Portrait",
+  "family": "historical-process",
+  "definition": "An informal but held nineteenth-century portrait with blunt frontal presence, metal-plate tonal character, and documented tintype process.",
+  "aliases": [
+    "old metal portrait",
+    "Civil War era tintype"
+  ],
+  "cues": [
+    "tintype-process",
+    "front-light",
+    "centered-framing",
+    "early-studio-photography"
+  ],
+  "antiCues": [
+    "luxury glamour polish",
+    "fake film border"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait"
+    ],
+    "viewpoint-framing": [
+      "three-quarter-framing",
+      "eye-level",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "front-light",
+      "flat-lighting"
+    ],
+    "composition": [
+      "centrality"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "matte-tonality"
+    ],
+    "medium-process": [
+      "tintype-process"
+    ],
+    "processing-texture": [
+      "matte-blacks",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "early-studio-photography"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "plain direct pose",
+    "matte metal-plate tonality",
+    "vernacular formality"
+  ],
+  "adaptiveGuidance": [
+    "Preserve directness; adapt clothing and setting without inventing period props."
+  ],
+  "applicability": [
+    "people",
+    "historic interpretation"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-tintype-vernacular-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photographic Processes Video Series & Glossary",
+        "publisher": "George Eastman Museum",
+        "url": "https://www.eastman.org/photographic-processes-video-series-glossary",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "An informal but held nineteenth-century portrait with blunt frontal presence, metal-plate tonal character, and documented tintype process."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "shaker-utility",
+  "displayName": "Shaker Utility",
+  "family": "organic-craft",
+  "definition": "Plain proportion, honest wood, visible joinery, repetition, and purpose-built storage express Shaker material culture without decorative excess.",
+  "axes": {
+    "minimalOrnate": -0.3,
+    "geometricOrganic": 0.5,
+    "polishedRaw": 0.5,
+    "calmEnergetic": -0.5,
+    "historicalFuturistic": -0.6,
+    "realisticAbstract": -0.4,
+    "warmCool": -0.4,
+    "lightDark": 0.2,
+    "playfulSerious": 0.5,
+    "handmadeMachined": -0.7,
+    "flatDeep": -0.2,
+    "everydayLuxurious": -0.5
+  },
+  "cues": [
+    "utility-signal",
+    "wood",
+    "plain",
+    "symmetry",
+    "domestic"
+  ],
+  "antiCues": [
+    "ornate",
+    "chrome",
+    "neon",
+    "decorative-border"
+  ],
+  "emotionalEffects": [
+    "humble",
+    "serene",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "axial",
+      "density": 0.4,
+      "symmetry": 0.6,
+      "margins": 0.32
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#E4D6BC",
+        "#3A445F",
+        "#1E7A4F",
+        "#E8F4F7",
+        "#5F441E"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/shaker-utility.svg",
+      "descriptor": "plain serif for communal clarity",
+      "weight": 400,
+      "tracking": 0.01
+    },
+    "shapeLine": {
+      "cornerRadius": 0.1,
+      "lineWeight": 0.45,
+      "curveTension": 0.15
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/organic-craft-primary"
+      ],
+      "finish": "raw",
+      "grain": 0.6,
+      "tags": [
+        "wood",
+        "metal",
+        "fabric"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.4,
+      "keyDirection": "window",
+      "gradient": 0.3
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.15,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.02,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.2
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 1,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 2,
+    "social-advertising": 1,
+    "packaging": 2,
+    "photography": 2,
+    "motion-video": 1,
+    "product-3d": 2,
+    "interiors-architecture": 3,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a Shaker workroom system where peg rail, storage, furniture, and joinery serve recurring communal tasks",
+    "framing": "Wide daylight interior detail with a continuous peg rail, built-in drawers or cupboard, and one ladder-back chair or oval box; include a close readable joint or threaded peg without turning the scene into farmhouse decor.",
+    "mustShow": [
+      "utility-signal",
+      "wood",
+      "plain"
+    ],
+    "mustAvoid": [
+      "ornate",
+      "chrome",
+      "farmhouse signage",
+      "decorative distressing",
+      "costume nostalgia",
+      "watermark",
+      "brand-logos"
+    ]
+  },
+  "culturalOrigin": "United States",
+  "traditionalOrLivingPractice": true,
+  "requiresCulturalReview": true,
+  "culturalContext": {
+    "summary": "Shaker communal craft and design practice",
+    "antiCaricature": "Treat motifs as living or historically specific visual languages, not costume kitsch. Prefer structural grammar (line, rhythm, material) over stereotyped subjects. Avoid sacred symbol misuse.",
+    "guidance": "When applying this node, preserve source grammar and cite traditions. Prefer consultation with authoritative museum/catalog sources over pop caricature."
+  },
+  "related": [
+    "scandinavian-modern",
+    "studio-pottery",
+    "artisan-bookbinding"
+  ],
+  "contrasting": [
+    "quiet-luxury",
+    "vaporwave",
+    "memphis-design"
+  ]
+}

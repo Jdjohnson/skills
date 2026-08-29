@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "golden-hour-film",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Golden-hour 35mm cinematography",
+    "creatorOrTradition": "Mauro Fiore, ASC; Kodak",
+    "sourceUrl": "https://www.kodak.com/en/motion/blog-post/magnificent-seven/",
+    "whyCanonical": "Kodak's production account connects film capture with warm golden-hour light, smooth color blending, and controlled highlight-to-shadow contrast."
+  },
+  "sources": [
+    {
+      "title": "Mauro Fiore ASC hits bullseye with 35mm on The Magnificent Seven",
+      "publisher": "Kodak",
+      "url": "https://www.kodak.com/en/motion/blog-post/magnificent-seven/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Film responds strongly to warm golden-hour light and offers smooth color and contrast transitions."
+      ]
+    },
+    {
+      "title": "Kodak 16mm helps to turn back time for François Ozon’s Summer of 85",
+      "publisher": "Kodak",
+      "url": "https://www.kodak.com/en/motion/blog-post/francois-ozon-summer-of-85/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Natural available light, reflectors, golden-hour timing, and filtration can shape narrative warmth while preserving believable skin and setting."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "The cyclist scene is an excellent lead: low directional amber light, long shadows, warm haze, layered depth, and a paused narrative moment survive at card scale without becoming a generic sunset. The independently approved lead is assets/refs/golden-hour-film/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/golden-hour-film/generated-lead.jpg",
+    "notes": "The cyclist scene is an excellent lead: low directional amber light, long shadows, warm haze, layered depth, and a paused narrative moment survive at card scale without becoming a generic sunset.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

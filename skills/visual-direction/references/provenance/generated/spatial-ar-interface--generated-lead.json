@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "spatial-ar-interface",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation\nUse case: ui-mockup\nAsset type: Beauty Director spatial AR interface reference, portrait 4:5\nPrimary request: Create a believable mobile camera-world augmented-reality interface guiding a technician through adjusting a real bicycle's front brake.\nScene/backdrop: camera view of a bicycle on a workshop stand, with wheel, caliper, cable, rotor, workbench, and floor clearly visible\nSubject: digital anchor locks to the brake caliper; a cyan contour follows the real component; a numbered leader line targets the adjustment bolt; a translucent surface plane registers to the wheel; a measured offset and depth marker sit in world space; one overlay passes correctly behind the fork to demonstrate occlusion\nStyle/medium: realistic product UI over a photorealistic camera feed, not concept art\nComposition/framing: portrait 4:5 mobile view; world-linked annotations near targets, small stable edge controls, open center, clear geometry and depth, usable at thumbnail scale\nText (verbatim): \"BRAKE ALIGNMENT\", \"STEP 2\", \"TURN 1/4\", \"3 mm\", \"ANCHOR LOCKED\"\nColor palette: one cyan registration color, one amber alert, white label ink, transparent dark scrims\nConstraints: every mark must visibly attach to physical bicycle geometry; coherent task guidance, believable scale, matched perspective, clear occlusion and tracking state; no floating telemetry tiles; no logo; no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "afa2b7c23c98f2d6f71f584dc7cf61de8ada1d1bd0ddb2213847b5353354b03d",
+  "finalAsset": "assets/refs/spatial-ar-interface/generated-lead.jpg",
+  "finalSha256": "889667cc75625ff3a90463d823726bba6cdf17c867d78b41f776bde570b0f981",
+  "postProcessing": "Source output proportionally resized to fit within 800x1000 pixels, padded at the sides to preserve the complete generated composition, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

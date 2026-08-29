@@ -1,0 +1,7 @@
+interface:
+  display_name: "Plain-Language Writer"
+  short_description: "Write clear, natural, audience-aware prose"
+  default_prompt: "Use $plain-language-writer to draft or revise this prose clearly and naturally."
+
+policy:
+  allow_implicit_invocation: true

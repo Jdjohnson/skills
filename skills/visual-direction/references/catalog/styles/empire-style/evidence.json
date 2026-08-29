@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "empire-style",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "French Empire furniture and interiors",
+    "creatorOrTradition": "Napoleonic Empire decorative-arts tradition",
+    "sourceUrl": "https://www.metmuseum.org/essays/empire-style-1800-1815",
+    "whyCanonical": "Documented furniture and interiors establish Empire's severe symmetry, dark figured woods, gilded mounts, classical supports, and state symbolism as a precise system."
+  },
+  "sources": [
+    {
+      "title": "Empire Style, 1800–1815",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/empire-style-1800-1815",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Empire design joined strict classical form, archaeological motifs, luxurious woods, and gilt-bronze mounts to project political authority."
+      ]
+    },
+    {
+      "title": "American Empire pier table",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:American_Empire_style_pier_table,_c._1810-20,_Dayton_Art_Institute.JPG",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The documented museum object shows how polished dark wood, pale stone, mirrored axial form, and gilded mounts create controlled monumental contrast."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches symmetry, classical era, monument scale, smooth, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/empire-style/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/empire-style/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches symmetry, classical era, monument scale, smooth, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "illuminated-manuscript",
+  "displayName": "Illuminated Manuscript",
+  "family": "ornate-historical",
+  "definition": "Parchment pages integrate script, decorated initials, border ornament, miniature imagery, and metallic illumination according to the manuscript's documented cultural and religious tradition.",
+  "axes": {
+    "minimalOrnate": 0.8,
+    "geometricOrganic": 0.2,
+    "polishedRaw": -0.4,
+    "calmEnergetic": 0.2,
+    "historicalFuturistic": -0.8,
+    "realisticAbstract": -0.3,
+    "warmCool": -0.4,
+    "lightDark": 0.3,
+    "playfulSerious": 0.3,
+    "handmadeMachined": -0.7,
+    "flatDeep": -0.3,
+    "everydayLuxurious": 0.7
+  },
+  "cues": [
+    "gold-leaf",
+    "decorative-border",
+    "dense",
+    "medieval",
+    "page-scale"
+  ],
+  "antiCues": [
+    "screen-pixel",
+    "minimal",
+    "advertising-pace"
+  ],
+  "emotionalEffects": [
+    "scholarly",
+    "solemn",
+    "timeless"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.9,
+      "symmetry": 0.4,
+      "margins": 0.35
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#1E3A8A",
+        "#CC3333",
+        "#C9A227",
+        "#F2E8C9",
+        "#2C2416"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/illuminated-manuscript.svg",
+      "descriptor": "blackletter-informed minuscule",
+      "weight": 500,
+      "tracking": 0
+    },
+    "shapeLine": {
+      "cornerRadius": 0.2,
+      "lineWeight": 0.45,
+      "curveTension": 0.5
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/ornate-historical-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.25,
+      "tags": [
+        "gold-leaf",
+        "ink",
+        "paper"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.55,
+      "keyDirection": "front",
+      "gradient": 0.3
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.2,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.2,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/ornate-historical"
+      ],
+      "density": 0.95,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "tradition-specific manuscript page",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 0,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 0,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 0,
+    "interiors-architecture": 1,
+    "data-visualization": 1
+  },
+  "heroRecipe": {
+    "motif": "a tradition-specific manuscript folio with a decorated initial, ordered text block, and luminous margin program",
+    "framing": "treat the page as a complete crafted object, balancing ruled text, miniature, border ornament, and reflective metal without collapsing distinct traditions",
+    "mustShow": [
+      "gold-leaf",
+      "decorative-border",
+      "dense"
+    ],
+    "mustAvoid": [
+      "screen-pixel",
+      "minimal",
+      "advertising-pace",
+      "generic fantasy ornament",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": "Western Europe",
+  "traditionalOrLivingPractice": true,
+  "requiresCulturalReview": true,
+  "culturalContext": {
+    "summary": "Medieval European manuscript illumination",
+    "antiCaricature": "Treat motifs as living or historically specific visual languages, not costume kitsch. Prefer structural grammar (line, rhythm, material) over stereotyped subjects. Avoid sacred symbol misuse.",
+    "guidance": "When applying this node, preserve source grammar and cite traditions. Prefer consultation with authoritative museum/catalog sources over pop caricature."
+  },
+  "related": [
+    "gothic-revival",
+    "byzantine-mosaic",
+    "art-nouveau"
+  ],
+  "contrasting": [
+    "billboard-bold",
+    "glitch-art",
+    "operational-dashboard"
+  ]
+}

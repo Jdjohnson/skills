@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "corporate-modernism",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "IBM corporate design program",
+    "creatorOrTradition": "Eliot Noyes, Paul Rand, Charles and Ray Eames, and IBM",
+    "sourceUrl": "https://www.ibm.com/history/design-program",
+    "whyCanonical": "IBM's program coordinated architecture, products, graphics, exhibitions, and methods of work around a durable modern corporate character."
+  },
+  "sources": [
+    {
+      "title": "IBM design",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/history/design-program",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "IBM established an organization-wide design program spanning architecture, products, graphics, exhibitions, and communications.",
+        "The program treated corporate character as a coherent design problem rather than a fixed template."
+      ]
+    },
+    {
+      "title": "IBM Design Philosophy",
+      "publisher": "IBM Design",
+      "url": "https://www.ibm.com/design/approach/design-philosophy/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "IBM explicitly connects its current design approach to modernist methods from Eliot Noyes, Paul Rand, and the Eameses.",
+        "The source distinguishes enduring design attitudes from superficial mid-century styling."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches identity system, cross touchpoint, structured type, consistent mark, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/corporate-modernism/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/corporate-modernism/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches identity system, cross touchpoint, structured type, consistent mark, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

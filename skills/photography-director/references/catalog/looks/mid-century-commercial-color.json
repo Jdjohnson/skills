@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "id": "mid-century-commercial-color",
+  "displayName": "Mid-Century Commercial Color",
+  "family": "historical-process",
+  "definition": "A bright postwar advertising tableau with controlled studio color, aspirational clarity, simple graphic staging, and luminous product-friendly highlights.",
+  "aliases": [
+    "1950s ad photo",
+    "vintage commercial color"
+  ],
+  "cues": [
+    "mid-century-commercial",
+    "saturated-color",
+    "clean-commercial-digital",
+    "geometric-order"
+  ],
+  "antiCues": [
+    "grungy ambient mess",
+    "modern teal-orange cinema grade"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "product",
+      "editorial",
+      "tabletop"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "straight-on-view",
+      "centered-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "continuous-studio-light",
+      "soft-light",
+      "front-light",
+      "high-key-lighting"
+    ],
+    "composition": [
+      "geometric-order",
+      "centrality"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "luminous-highlights"
+    ],
+    "processing-texture": [
+      "fine-grain",
+      "polished-retouching"
+    ],
+    "era-movement": [
+      "mid-century-commercial"
+    ],
+    "format-output": [
+      "four-three-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "optimistic controlled color",
+    "clear product hierarchy",
+    "bright print-era polish"
+  ],
+  "adaptiveGuidance": [
+    "Adapt palette and staging to the object; keep the period feeling in light and design, not costume clutter."
+  ],
+  "applicability": [
+    "products",
+    "food",
+    "advertising tableaux"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-mid-century-commercial-color"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photography in Postwar America, 1945-60",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/photography-and-everyday-life-in-america-1945-60",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A bright postwar advertising tableau with controlled studio color, aspirational clarity, simple graphic staging, and luminous product-friendly highlights."
+        ]
+      }
+    ]
+  }
+}

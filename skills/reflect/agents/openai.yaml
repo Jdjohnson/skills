@@ -1,4 +1,0 @@
-interface:
-  display_name: "Reflect"
-  short_description: "Reflect on user-supplied journal writing"
-  default_prompt: "Use $reflect to reflect on the journal entries or similar personal writing I supplied or pointed to, without searching unrelated personal files."

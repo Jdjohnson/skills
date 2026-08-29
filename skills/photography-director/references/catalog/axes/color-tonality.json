@@ -1,0 +1,606 @@
+{
+  "version": 1,
+  "id": "color-tonality",
+  "displayName": "Color and tonality",
+  "definition": "The visible palette, contrast, black point, highlight behavior, and skin-color restraint.",
+  "values": [
+    {
+      "id": "neutral-color",
+      "displayName": "Neutral color",
+      "definition": "Whites and grays read broadly neutral and object colors are not pushed toward a dominant cast.",
+      "aliases": [
+        "true to life color",
+        "neutral white balance"
+      ],
+      "visibleCues": [
+        "balanced neutrals",
+        "credible object color"
+      ],
+      "antiCues": [
+        "strong overall warm or cool cast"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+    "referenceIds": [
+      "ref-window-light-editorial-portrait",
+      "ref-polished-commercial-headshot",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-peak-action-photojournalism",
+        "ref-industrial-color-production-reportage",
+        "ref-travel-photo-essay",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-window-light-food-story",
+        "ref-rolling-automotive-pan",
+        "ref-studio-automotive-hero",
+        "ref-scientific-specimen-record",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife",
+        "ref-editorial-contact-sheet-sequence",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "warm-color",
+      "displayName": "Warm color",
+      "definition": "Amber, red, yellow, or warm-neutral relationships dominate the image.",
+      "aliases": [
+        "warm tones",
+        "golden color"
+      ],
+      "visibleCues": [
+        "warm dominant palette",
+        "amber-biased light or grade"
+      ],
+      "antiCues": [
+        "predominantly blue-cyan palette",
+        "orange color cast"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-albumen-travel-survey",
+        "ref-soft-focus-romantic-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-luxury-still-life-polish",
+        "ref-intentional-blur-conceptual-fashion"
+      ]
+    },
+    {
+      "id": "cool-color",
+      "displayName": "Cool color",
+      "definition": "Blue, cyan, green-blue, or cool-neutral relationships dominate the image.",
+      "aliases": [
+        "cool tones",
+        "blue color grade"
+      ],
+      "visibleCues": [
+        "cool dominant palette",
+        "blue-cyan ambience"
+      ],
+      "antiCues": [
+        "predominantly amber-red palette"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cinematic-practical-light-portrait",
+        "ref-night-street-color",
+        "ref-blue-hour-urban-architecture",
+        "ref-long-exposure-seascape",
+        "ref-night-light-trail-cityscape"
+      ]
+    },
+    {
+      "id": "saturated-color",
+      "displayName": "Saturated color",
+      "definition": "Colors are vivid and chromatically strong without necessarily being bright overall.",
+      "aliases": [
+        "vibrant color",
+        "rich colors"
+      ],
+      "visibleCues": [
+        "intense chroma",
+        "color carries composition"
+      ],
+      "antiCues": [
+        "near-gray muted palette"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-commercial-color",
+        "ref-hard-sun-fashion-editorial",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-new-color-street-observation",
+        "ref-night-street-color",
+        "ref-industrial-color-production-reportage",
+        "ref-concert-available-light",
+        "ref-aerial-graphic-landscape",
+        "ref-tilt-shift-architectural-study",
+        "ref-panoramic-desert-survey",
+        "ref-night-light-trail-cityscape",
+        "ref-sculptural-hard-light-product",
+        "ref-bright-editorial-food",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion",
+        "ref-cross-processed-slide-look",
+        "ref-constructed-conceptual-tableau",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "muted-color",
+      "displayName": "Muted color",
+      "definition": "Colors are reduced in chroma and read quietly or weathered.",
+      "aliases": [
+        "desaturated",
+        "subdued color"
+      ],
+      "visibleCues": [
+        "low chroma",
+        "restrained palette"
+      ],
+      "antiCues": [
+        "neon intensity"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-low-key-character-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-intentional-camera-movement-landscape",
+        "ref-dark-moody-tabletop",
+        "ref-direct-flash-still-life",
+        "ref-super-telephoto-wildlife",
+        "ref-selective-focus-macro",
+        "ref-bleach-bypass-cinematic-still"
+      ]
+    },
+    {
+      "id": "pastel-color",
+      "displayName": "Pastel color",
+      "definition": "Light-value, lower-saturation colors create a soft palette.",
+      "aliases": [
+        "pastel tones",
+        "soft candy colors"
+      ],
+      "visibleCues": [
+        "pale chromatic fields",
+        "low-to-moderate saturation"
+      ],
+      "antiCues": [
+        "deep jewel tones"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-high-key-beauty-portrait",
+        "ref-soft-focus-romantic-portrait",
+        "ref-selective-focus-macro",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "monochrome-color",
+      "displayName": "Monochrome color",
+      "definition": "A single hue family organizes most of the image while retaining tonal variation.",
+      "aliases": [
+        "one color palette",
+        "monochromatic"
+      ],
+      "visibleCues": [
+        "dominant single hue",
+        "tonal range within hue"
+      ],
+      "antiCues": [
+        "full-spectrum color variety"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cyanotype-botanical-photogram",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-intentional-camera-movement-landscape",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "black-and-white",
+      "displayName": "Black and white",
+      "definition": "Color is absent and meaning is carried by luminance, texture, and form.",
+      "aliases": [
+        "B&W",
+        "monochrome black and white"
+      ],
+      "visibleCues": [
+        "gray-scale tonal structure",
+        "no chromatic cues"
+      ],
+      "antiCues": [
+        "visible color information"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-wet-plate-collodion-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-large-format-monochrome-landscape",
+        "ref-fsa-social-documentary",
+          "ref-humanist-available-light-photo-essay",
+          "ref-mid-century-editorial-portrait",
+          "ref-industrial-human-machine-portrait",
+          "ref-industrial-workplace-documentary",
+          "ref-black-and-white-close-portrait",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-degraded-zine-reproduction",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "split-tone",
+      "displayName": "Split tone",
+      "definition": "Shadows and highlights carry deliberately different hue families.",
+      "aliases": [
+        "warm highlights cool shadows",
+        "split toned"
+      ],
+      "visibleCues": [
+        "opposed highlight and shadow color",
+        "tonal color separation"
+      ],
+      "antiCues": [
+        "single uniform cast"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cinematic-practical-light-portrait",
+        "ref-night-street-color",
+        "ref-concert-available-light",
+        "ref-blue-hour-urban-architecture",
+        "ref-rear-curtain-flash-motion",
+        "ref-cross-processed-slide-look"
+      ]
+    },
+    {
+      "id": "high-contrast-tonality",
+      "displayName": "High-contrast tonality",
+      "definition": "Bright and dark regions are strongly separated with limited middle-value dominance.",
+      "aliases": [
+        "punchy contrast",
+        "strong black and white"
+      ],
+      "visibleCues": [
+        "deep darks and bright lights",
+        "steep tonal separation"
+      ],
+      "antiCues": [
+        "compressed gentle tonal range"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-wet-plate-collodion-portrait",
+        "ref-cyanotype-botanical-photogram",
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+          "ref-fsa-social-documentary",
+          "ref-mid-century-editorial-portrait",
+          "ref-industrial-human-machine-portrait",
+          "ref-industrial-workplace-documentary",
+          "ref-low-key-character-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-new-color-street-observation",
+        "ref-peak-action-photojournalism",
+        "ref-aerial-graphic-landscape",
+        "ref-tilt-shift-architectural-study",
+        "ref-sculptural-hard-light-product",
+        "ref-direct-flash-still-life",
+        "ref-rolling-automotive-pan",
+        "ref-frozen-sports-action",
+        "ref-high-speed-splash",
+        "ref-fisheye-skate-snapshot",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-degraded-zine-reproduction",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "low-contrast-tonality",
+      "displayName": "Low-contrast tonality",
+      "definition": "Tones sit closer together with soft separation and broad middle values.",
+      "aliases": [
+        "soft contrast",
+        "flat tonal range"
+      ],
+      "visibleCues": [
+        "gentle highlight-shadow difference",
+        "many midtones"
+      ],
+      "antiCues": [
+        "crisp deep black-white separation"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-albumen-travel-survey",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-humanist-available-light-photo-essay",
+        "ref-soft-focus-romantic-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-intentional-camera-movement-landscape",
+        "ref-intentional-blur-conceptual-fashion"
+      ]
+    },
+    {
+      "id": "crushed-blacks",
+      "displayName": "Crushed blacks",
+      "definition": "Dark regions collapse toward solid black with little internal detail.",
+      "aliases": [
+        "inky blacks",
+        "lost shadow detail"
+      ],
+      "visibleCues": [
+        "featureless deepest shadows",
+        "hard black point"
+      ],
+      "antiCues": [
+        "open detailed shadows"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-low-key-character-portrait",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-night-street-color",
+        "ref-concert-available-light",
+        "ref-night-light-trail-cityscape",
+        "ref-dark-moody-tabletop",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-studio-automotive-hero",
+        "ref-high-speed-splash",
+        "ref-rear-curtain-flash-motion",
+        "ref-cross-processed-slide-look",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-degraded-zine-reproduction"
+      ]
+    },
+    {
+      "id": "lifted-blacks",
+      "displayName": "Lifted blacks",
+      "definition": "The darkest values sit above pure black, creating a faded or milky floor.",
+      "aliases": [
+        "faded blacks",
+        "raised black point"
+      ],
+      "visibleCues": [
+        "soft gray darkest values",
+        "reduced black density"
+      ],
+      "antiCues": [
+        "inky deep blacks"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-grunge-editorial-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "luminous-highlights",
+      "displayName": "Luminous highlights",
+      "definition": "Bright regions feel radiant and open while retaining useful shape or glow.",
+      "aliases": [
+        "glowing highlights",
+        "bright airy highlights"
+      ],
+      "visibleCues": [
+        "radiant light areas",
+        "highlight detail or controlled bloom"
+      ],
+      "antiCues": [
+        "dull clipped white patches"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-commercial-color",
+        "ref-window-light-editorial-portrait",
+        "ref-high-key-beauty-portrait",
+        "ref-soft-focus-romantic-portrait",
+        "ref-golden-hour-grand-landscape",
+        "ref-blue-hour-urban-architecture",
+        "ref-long-exposure-seascape",
+        "ref-clean-seamless-product",
+        "ref-bright-editorial-food",
+        "ref-luxury-still-life-polish",
+        "ref-studio-automotive-hero",
+        "ref-high-speed-splash",
+        "ref-selective-focus-macro"
+      ]
+    },
+    {
+      "id": "matte-tonality",
+      "displayName": "Matte tonality",
+      "definition": "Both black and highlight extremes are restrained, giving a dry, print-like tonal response.",
+      "aliases": [
+        "matte look",
+        "flat film tone"
+      ],
+      "visibleCues": [
+        "soft black floor",
+        "subdued highlights"
+      ],
+      "antiCues": [
+        "brilliant glossy contrast"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-tintype-vernacular-portrait",
+        "ref-grunge-editorial-portrait",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-overcast-minimal-landscape"
+      ]
+    },
+    {
+      "id": "restrained-skin-tones",
+      "displayName": "Restrained skin tones",
+      "definition": "Skin color remains believable and avoids extreme saturation, orange shift, or plastic uniformity.",
+      "aliases": [
+        "natural skin tones",
+        "not orange skin"
+      ],
+      "visibleCues": [
+        "credible hue variation",
+        "subtle local color"
+      ],
+      "antiCues": [
+        "uniform orange or magenta skin"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-window-light-editorial-portrait",
+        "ref-approachable-environmental-portrait",
+        "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-candid-event-reportage",
+        "ref-window-light-food-story",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "high-dynamic-range",
+      "displayName": "High dynamic range",
+      "definition": "Detail remains visible across bright highlights and deep shadows in a naturally wide-contrast scene.",
+      "aliases": [
+        "hold sky and shadows",
+        "wide tonal range"
+      ],
+      "visibleCues": [
+        "recoverable bright and dark detail",
+        "broad scene luminance"
+      ],
+      "antiCues": [
+        "large clipped regions"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-large-format-monochrome-landscape",
+        "ref-layered-street-observation",
+        "ref-industrial-workplace-documentary",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-golden-hour-grand-landscape",
+        "ref-symmetrical-interior-study",
+        "ref-panoramic-desert-survey",
+        "ref-clean-seamless-product",
+        "ref-scientific-specimen-record"
+      ]
+    },
+    {
+      "id": "low-dynamic-range",
+      "displayName": "Low dynamic range",
+      "definition": "The scene or treatment uses a narrow luminance range with limited bright-dark separation.",
+      "aliases": [
+        "narrow tonal range",
+        "misty tones"
+      ],
+      "visibleCues": [
+        "compressed luminance",
+        "subtle value steps"
+      ],
+      "antiCues": [
+        "extreme bright-dark span"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    }
+  ]
+}

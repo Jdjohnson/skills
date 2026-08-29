@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "photo-essay",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Farm Security Administration documentary photography",
+    "creatorOrTradition": "FSA photographers and documentary editors",
+    "sourceUrl": "https://www.loc.gov/pictures/collection/fsa/fsa.html",
+    "whyCanonical": "The Library of Congress collection preserves a large documentary body in which place, people, labor, environment, captions, and related frames can be studied as narrative evidence rather than isolated iconic pictures."
+  },
+  "sources": [
+    {
+      "title": "Farm Security Administration/Office of War Information Black-and-White Negatives",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/pictures/collection/fsa/fsa.html",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The collection supports building documentary sequences from context, human observation, detail, and captions.",
+        "Its archival organization distinguishes source-grounded narrative from an unrelated gallery of dramatic photographs."
+      ]
+    },
+    {
+      "title": "Dorothea Lange's Migrant Mother photographs in the Farm Security Administration collection",
+      "publisher": "Library of Congress Research Guides",
+      "url": "https://guides.loc.gov/migrant-mother",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "The guide presents multiple exposures and contextual history around an iconic documentary image.",
+        "It supports the need to preserve sequence, captions, circumstances, and ethical context rather than reducing a subject to one aestheticized frame."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach photo sequence, documentary narrative, edit rhythm, minimal captions while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/photo-essay/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/photo-essay/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach photo sequence, documentary narrative, edit rhythm, minimal captions while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": "sticker-bomb",
+  "displayName": "Sticker Bomb",
+  "family": "pop-commercial",
+  "definition": "Overlapping die-cut stickers, varied scale, torn or lifted edges, abrasion, and little exposed ground create a dense portable surface collage.",
+  "axes": {
+    "minimalOrnate": 0.2,
+    "geometricOrganic": 0.5,
+    "polishedRaw": 0.2,
+    "calmEnergetic": 0.7,
+    "historicalFuturistic": 0.1,
+    "realisticAbstract": 0.4,
+    "warmCool": 0.2,
+    "lightDark": -0.5,
+    "playfulSerious": -0.9,
+    "handmadeMachined": -0.3,
+    "flatDeep": -0.4,
+    "everydayLuxurious": -0.3
+  },
+  "cues": [
+    "collage",
+    "playful",
+    "vivid-chroma",
+    "layered",
+    "youth-signal"
+  ],
+  "antiCues": [
+    "minimal",
+    "institutional",
+    "shadow-heavy"
+  ],
+  "emotionalEffects": [
+    "playful",
+    "joyful",
+    "rebellious"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "free",
+      "density": 0.7,
+      "symmetry": 0.2,
+      "margins": 0.1
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FF69B4",
+        "#32CD32",
+        "#FF8C00",
+        "#FFFFFF",
+        "#111111"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/sticker-collage.svg",
+      "descriptor": "mixed sticker type styles",
+      "weight": 700,
+      "tracking": 0.03
+    },
+    "shapeLine": {
+      "cornerRadius": 0.5,
+      "lineWeight": 0.55,
+      "curveTension": 0.45
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/pop-commercial-primary"
+      ],
+      "finish": "gloss",
+      "grain": 0.2,
+      "tags": [
+        "plastic",
+        "paper",
+        "cardboard"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.55,
+      "keyDirection": "front",
+      "gradient": 0.2
+    },
+    "depth": {
+      "layers": 4,
+      "shadowSoftness": 0.35,
+      "parallax": 0.2
+    },
+    "motion": {
+      "energy": 0.7,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [
+        "motifs/pop-commercial"
+      ],
+      "density": 0.55,
+      "tags": [
+        "patterned"
+      ]
+    },
+    "imagery": {
+      "treatment": "collage",
+      "subjectRules": [
+        "legal portable surface with accumulated stickers",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.5
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 2,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 3,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 1,
+    "interiors-architecture": 0,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "a legal portable surface densely accumulated with original stickers from many fictional voices",
+    "framing": "layer changes of scale, contour, finish, wear, and orientation until the base is nearly covered while preserving a few readable focal stickers",
+    "mustShow": [
+      "collage",
+      "playful",
+      "vivid-chroma"
+    ],
+    "mustAvoid": [
+      "minimal",
+      "institutional",
+      "shadow-heavy",
+      "copied logos or tags",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "memphis-design",
+    "pop-art",
+    "emoji-grammar"
+  ],
+  "contrasting": [
+    "empire-style",
+    "watch-precision",
+    "academic-journal"
+  ]
+}

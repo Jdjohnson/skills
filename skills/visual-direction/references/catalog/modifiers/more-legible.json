@@ -1,0 +1,55 @@
+{
+  "id": "more-legible",
+  "group": "clarity",
+  "definition": "Prioritize reading clarity and contrast.",
+  "targetConcerns": [
+    "typography",
+    "composition"
+  ],
+  "compatibleStyles": [
+    "field-guide",
+    "film-noir"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "more-abstract"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "addParam",
+          "concern": "typography",
+          "path": "weight",
+          "amount": 30
+        },
+        {
+          "op": "addParam",
+          "concern": "composition",
+          "path": "density",
+          "amount": -0.15
+        }
+      ]
+    }
+  }
+}

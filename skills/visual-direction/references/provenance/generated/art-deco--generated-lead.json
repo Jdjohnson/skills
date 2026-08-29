@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "art-deco",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "Recognizable movement-level approximation of Art Deco across graphics, objects, interiors, and architecture.\nUse case: stylized-concept\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original 1930s theater-lobby composition with stepped geometry, symmetrical sunburst, streamlined metal grille, lacquered black surfaces, cream stone, and restrained gold accents.\nStyle/medium: polished architectural editorial photograph with integrated period graphic panel\nComposition/framing: portrait 4:5, strong central symmetry, stepped vertical silhouette, unmistakable at thumbnail scale\nLighting/mood: warm theatrical uplight, machine-age luxury\nColor palette: black lacquer, cream, brass gold, emerald\nMaterials/textures: polished metal, stone, lacquer, etched glass\nText: abstract geometric bars only\nConstraints: original fictional space, no copied building, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "cd93e6f0c419f911cc43b4ef3a50aeb811e244a1bd6928010eb6d28d30bc63bc",
+  "finalAsset": "assets/refs/art-deco/generated-lead.jpg",
+  "finalSha256": "aa14594a9b3ab8473fb690da98da295966c66eddeacaa8aa1a1f696fcd9f383a",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

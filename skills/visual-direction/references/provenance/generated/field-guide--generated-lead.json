@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "field-guide",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation\nUse case: scientific-educational\nAsset type: Beauty Director field-guide lead reference, portrait 4:5\nPrimary request: Create a functional portable identification page comparing three real North American woodpeckers: Downy Woodpecker, Hairy Woodpecker, and Red-bellied Woodpecker.\nScene/backdrop: warm matte field-guide paper with a compact repeatable page grid\nSubject: three normalized side-view bird illustrations at comparable scale, with arrows to decisive field marks, a measured scale bar, one small range-map inset, habitat symbols, and a concise comparison key\nStyle/medium: accurate natural-history illustration integrated into a modern pocket field guide\nComposition/framing: portrait 4:5; stable name-image-scale-notes modules, specimens aligned for direct comparison, diagnostic callouts large enough to survive thumbnail scale, clear tabs and page folio\nText (verbatim): \"WOODPECKERS\", \"DOWNY\", \"HAIRY\", \"RED-BELLIED\", \"BILL\", \"BACK\", \"RANGE\", \"15 cm\", \"23 cm\", \"24 cm\"\nConstraints: observed real species, plausible relative proportions and plumage, clear identification behavior, restrained accurate color, concise labels, no decorative poster treatment, no logo, no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "173ac93c60200a7f2e168a81a6af8686be977438f744ec2365c4f64d59148fc6",
+  "finalAsset": "assets/refs/field-guide/generated-lead.jpg",
+  "finalSha256": "a0c5ce7351bebb924ead4f8b86d8e490aa4cb1f4afc6335436e30176f868f91c",
+  "postProcessing": "Source output proportionally resized to fit within 800x1000 pixels, padded at the sides to preserve the complete generated composition, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

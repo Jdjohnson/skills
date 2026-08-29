@@ -1,0 +1,6133 @@
+{
+  "version": 1,
+  "aliases": [
+    {
+      "phrase": "1:1",
+      "normalized": "1 1",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "square-format"
+        }
+      ]
+    },
+    {
+      "phrase": "120 film",
+      "normalized": "120 film",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "medium-format-film"
+        }
+      ]
+    },
+    {
+      "phrase": "16 by 9",
+      "normalized": "16 by 9",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "sixteen-nine-format"
+        }
+      ]
+    },
+    {
+      "phrase": "1840s portrait",
+      "normalized": "1840s portrait",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "early-studio-photography"
+        }
+      ]
+    },
+    {
+      "phrase": "1840s portrait plate",
+      "normalized": "1840s portrait plate",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "daguerreotype-process"
+        }
+      ]
+    },
+    {
+      "phrase": "1840s studio portrait",
+      "normalized": "1840s studio portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "daguerreotype-studio-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "1920s geometric photo",
+      "normalized": "1920s geometric photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "new-vision-geometry"
+        }
+      ]
+    },
+    {
+      "phrase": "1920s vintage",
+      "normalized": "1920s vintage",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "pictorialist-soft-focus-landscape"
+        },
+        {
+          "kind": "look",
+          "id": "new-vision-geometry"
+        }
+      ]
+    },
+    {
+      "phrase": "1930s social photo",
+      "normalized": "1930s social photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "fsa-social-documentary"
+        }
+      ]
+    },
+    {
+      "phrase": "1950s ad photo",
+      "normalized": "1950s ad photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "mid-century-commercial-color"
+        },
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "mid-century-commercial"
+        }
+      ]
+    },
+    {
+      "phrase": "1950s magazine photo",
+      "normalized": "1950s magazine photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "mid-century-editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "1950s magazine portrait",
+      "normalized": "1950s magazine portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "mid-century-editorial-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "19th century travel print",
+      "normalized": "19th century travel print",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "albumen-print"
+        }
+      ]
+    },
+    {
+      "phrase": "2000s party camera",
+      "normalized": "2000s party camera",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "y2k-party-flash"
+        }
+      ]
+    },
+    {
+      "phrase": "2000s party photo",
+      "normalized": "2000s party photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "y2k-party-flash-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "3 by 2",
+      "normalized": "3 by 2",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "three-two-format"
+        }
+      ]
+    },
+    {
+      "phrase": "35mm aspect ratio",
+      "normalized": "35mm aspect ratio",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "three-two-format"
+        }
+      ]
+    },
+    {
+      "phrase": "35mm film look",
+      "normalized": "35mm film look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "35mm-color-negative"
+        }
+      ]
+    },
+    {
+      "phrase": "4 by 3",
+      "normalized": "4 by 3",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "four-three-format"
+        }
+      ]
+    },
+    {
+      "phrase": "4x5 black and white landscape",
+      "normalized": "4x5 black and white landscape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "large-format-monochrome-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "4x5 film",
+      "normalized": "4x5 film",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "large-format-film"
+        }
+      ]
+    },
+    {
+      "phrase": "80s 90s fashion photo",
+      "normalized": "80s 90s fashion photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "late-century-fashion"
+        }
+      ]
+    },
+    {
+      "phrase": "80s flash photo",
+      "normalized": "80s flash photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "late-century-direct-flash"
+        }
+      ]
+    },
+    {
+      "phrase": "8x10 photo",
+      "normalized": "8x10 photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "large-format-film"
+        }
+      ]
+    },
+    {
+      "phrase": "9 by 16",
+      "normalized": "9 by 16",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "nine-sixteen-format"
+        }
+      ]
+    },
+    {
+      "phrase": "90s action fisheye",
+      "normalized": "90s action fisheye",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "fisheye-skate-snapshot"
+        }
+      ]
+    },
+    {
+      "phrase": "90s direct flash",
+      "normalized": "90s direct flash",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "late-century-direct-flash"
+        }
+      ]
+    },
+    {
+      "phrase": "90s grunge photo",
+      "normalized": "90s grunge photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "1990s-grunge-editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "a little motion",
+      "normalized": "a little motion",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "natural-motion"
+        }
+      ]
+    },
+    {
+      "phrase": "action sports",
+      "normalized": "action sports",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "sports"
+        }
+      ]
+    },
+    {
+      "phrase": "after sunset city",
+      "normalized": "after sunset city",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "blue-hour"
+        }
+      ]
+    },
+    {
+      "phrase": "albumen photo",
+      "normalized": "albumen photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "albumen-print"
+        }
+      ]
+    },
+    {
+      "phrase": "angled view",
+      "normalized": "angled view",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "oblique-view"
+        }
+      ]
+    },
+    {
+      "phrase": "animal photography",
+      "normalized": "animal photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "wildlife"
+        }
+      ]
+    },
+    {
+      "phrase": "Anna Atkins style plant photogram",
+      "normalized": "anna atkins style plant photogram",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "cyanotype-botanical-photogram"
+        }
+      ]
+    },
+    {
+      "phrase": "architectural photography",
+      "normalized": "architectural photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "architecture"
+        }
+      ]
+    },
+    {
+      "phrase": "art photography",
+      "normalized": "art photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "fine-art"
+        }
+      ]
+    },
+    {
+      "phrase": "artful everyday color photo",
+      "normalized": "artful everyday color photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "new-color-street-observation"
+        }
+      ]
+    },
+    {
+      "phrase": "asymmetrical framing",
+      "normalized": "asymmetrical framing",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "off-center-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "authentic detail",
+      "normalized": "authentic detail",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "natural-texture"
+        }
+      ]
+    },
+    {
+      "phrase": "B&W",
+      "normalized": "b w",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "black-and-white"
+        }
+      ]
+    },
+    {
+      "phrase": "B&W film",
+      "normalized": "b w film",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "black-and-white-negative"
+        }
+      ]
+    },
+    {
+      "phrase": "B&W profile portrait",
+      "normalized": "b w profile portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "black-and-white-close-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "backlit",
+      "normalized": "backlit",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "backlight"
+        }
+      ]
+    },
+    {
+      "phrase": "balanced room",
+      "normalized": "balanced room",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "symmetrical-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "Bauhaus angle photography",
+      "normalized": "bauhaus angle photography",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "new-vision-geometry"
+        }
+      ]
+    },
+    {
+      "phrase": "Bauhaus photography",
+      "normalized": "bauhaus photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "new-vision"
+        }
+      ]
+    },
+    {
+      "phrase": "beauty butterfly light",
+      "normalized": "beauty butterfly light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "butterfly-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "bird photography",
+      "normalized": "bird photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "wildlife"
+        }
+      ]
+    },
+    {
+      "phrase": "black and white negative",
+      "normalized": "black and white negative",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "black-and-white-negative"
+        }
+      ]
+    },
+    {
+      "phrase": "bleach bypass",
+      "normalized": "bleach bypass",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "bleach-bypass-feel"
+        }
+      ]
+    },
+    {
+      "phrase": "bleach bypass photo",
+      "normalized": "bleach bypass photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "bleach-bypass-cinematic-still"
+        }
+      ]
+    },
+    {
+      "phrase": "bloom effect",
+      "normalized": "bloom effect",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "bloom"
+        }
+      ]
+    },
+    {
+      "phrase": "blue botanical print",
+      "normalized": "blue botanical print",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "cyanotype-botanical-photogram"
+        }
+      ]
+    },
+    {
+      "phrase": "blue color grade",
+      "normalized": "blue color grade",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "cool-color"
+        }
+      ]
+    },
+    {
+      "phrase": "blue hour city architecture",
+      "normalized": "blue hour city architecture",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "blue-hour-urban-architecture"
+        }
+      ]
+    },
+    {
+      "phrase": "blueprint photo",
+      "normalized": "blueprint photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "cyanotype-process"
+        }
+      ]
+    },
+    {
+      "phrase": "blur the moving person",
+      "normalized": "blur the moving person",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "subject-motion-blur"
+        }
+      ]
+    },
+    {
+      "phrase": "blurred background",
+      "normalized": "blurred background",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "shallow-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "blurred conceptual portrait",
+      "normalized": "blurred conceptual portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "intentional-blur-conceptual-fashion"
+        }
+      ]
+    },
+    {
+      "phrase": "blurred foreground",
+      "normalized": "blurred foreground",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "foreground-obstruction"
+        }
+      ]
+    },
+    {
+      "phrase": "blurry fashion editorial",
+      "normalized": "blurry fashion editorial",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "intentional-blur-conceptual-fashion"
+        }
+      ]
+    },
+    {
+      "phrase": "bounce flash",
+      "normalized": "bounce flash",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "bounced-light"
+        }
+      ]
+    },
+    {
+      "phrase": "bright airy beauty",
+      "normalized": "bright airy beauty",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "high-key-beauty-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "bright airy highlights",
+      "normalized": "bright airy highlights",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "luminous-highlights"
+        }
+      ]
+    },
+    {
+      "phrase": "bright airy lighting",
+      "normalized": "bright airy lighting",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "high-key-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "bright and airy",
+      "normalized": "bright and airy",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "high-key-beauty-portrait"
+        },
+        {
+          "kind": "look",
+          "id": "bright-editorial-food"
+        }
+      ]
+    },
+    {
+      "phrase": "bright magazine food",
+      "normalized": "bright magazine food",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "bright-editorial-food"
+        }
+      ]
+    },
+    {
+      "phrase": "bright midday",
+      "normalized": "bright midday",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "midday-sun"
+        }
+      ]
+    },
+    {
+      "phrase": "building photo",
+      "normalized": "building photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "architecture"
+        }
+      ]
+    },
+    {
+      "phrase": "burned and dodged B&W",
+      "normalized": "burned and dodged b w",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "darkroom-contrast"
+        }
+      ]
+    },
+    {
+      "phrase": "busy layered street photo",
+      "normalized": "busy layered street photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "layered-street-observation"
+        }
+      ]
+    },
+    {
+      "phrase": "camera flash",
+      "normalized": "camera flash",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "on-camera-flash"
+        }
+      ]
+    },
+    {
+      "phrase": "cameraless photo",
+      "normalized": "cameraless photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "photogram-process"
+        }
+      ]
+    },
+    {
+      "phrase": "candid city photo",
+      "normalized": "candid city photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "street"
+        }
+      ]
+    },
+    {
+      "phrase": "candid wedding reportage",
+      "normalized": "candid wedding reportage",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "candid-event-reportage"
+        }
+      ]
+    },
+    {
+      "phrase": "car light trails",
+      "normalized": "car light trails",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "light-trails"
+        }
+      ]
+    },
+    {
+      "phrase": "car photography",
+      "normalized": "car photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "automotive"
+        }
+      ]
+    },
+    {
+      "phrase": "catalog photo",
+      "normalized": "catalog photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "product"
+        }
+      ]
+    },
+    {
+      "phrase": "center composition",
+      "normalized": "center composition",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "centrality"
+        }
+      ]
+    },
+    {
+      "phrase": "centered subject",
+      "normalized": "centered subject",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "centered-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "chest-up portrait",
+      "normalized": "chest up portrait",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "medium-close-up"
+        }
+      ]
+    },
+    {
+      "phrase": "cinematic",
+      "normalized": "cinematic",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "cinematic-practical-light-portrait"
+        },
+        {
+          "kind": "look",
+          "id": "bleach-bypass-cinematic-still"
+        }
+      ]
+    },
+    {
+      "phrase": "cinematic lamp lighting",
+      "normalized": "cinematic lamp lighting",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "cinematic-practicals"
+        }
+      ]
+    },
+    {
+      "phrase": "cinematic lamp portrait",
+      "normalized": "cinematic lamp portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "cinematic-practical-light-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "cinematic photo",
+      "normalized": "cinematic photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "contemporary-cinematic-still"
+        }
+      ]
+    },
+    {
+      "phrase": "city car light trails",
+      "normalized": "city car light trails",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "night-light-trail-cityscape"
+        }
+      ]
+    },
+    {
+      "phrase": "Civil War era tintype",
+      "normalized": "civil war era tintype",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "tintype-vernacular-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "classic editorial studio",
+      "normalized": "classic editorial studio",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "mid-century-editorial-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "classic humanist street essay",
+      "normalized": "classic humanist street essay",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "humanist-available-light-photo-essay"
+        }
+      ]
+    },
+    {
+      "phrase": "classic large format landscape",
+      "normalized": "classic large format landscape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "large-format-monochrome-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "classic photo essay",
+      "normalized": "classic photo essay",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "humanist-photojournalism"
+        }
+      ]
+    },
+    {
+      "phrase": "clean and premium",
+      "normalized": "clean and premium",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "luxury-still-life-polish"
+        },
+        {
+          "kind": "look",
+          "id": "clean-seamless-product"
+        }
+      ]
+    },
+    {
+      "phrase": "clean brand photography",
+      "normalized": "clean brand photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "contemporary-clean-commercial"
+        }
+      ]
+    },
+    {
+      "phrase": "clean corporate portrait",
+      "normalized": "clean corporate portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "polished-commercial-headshot"
+        }
+      ]
+    },
+    {
+      "phrase": "clean ecommerce product",
+      "normalized": "clean ecommerce product",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "clean-seamless-product"
+        }
+      ]
+    },
+    {
+      "phrase": "clean fine grain",
+      "normalized": "clean fine grain",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "fine-grain"
+        }
+      ]
+    },
+    {
+      "phrase": "clean studio finish",
+      "normalized": "clean studio finish",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "clean-commercial-digital"
+        }
+      ]
+    },
+    {
+      "phrase": "close detail",
+      "normalized": "close detail",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "detail-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "close portrait",
+      "normalized": "close portrait",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "close-up"
+        }
+      ]
+    },
+    {
+      "phrase": "clothing editorial",
+      "normalized": "clothing editorial",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "fashion"
+        }
+      ]
+    },
+    {
+      "phrase": "cloud-like light",
+      "normalized": "cloud like light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "very-soft-light"
+        }
+      ]
+    },
+    {
+      "phrase": "cloudy day light",
+      "normalized": "cloudy day light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "overcast-light"
+        }
+      ]
+    },
+    {
+      "phrase": "collodion photo",
+      "normalized": "collodion photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "wet-plate-collodion"
+        }
+      ]
+    },
+    {
+      "phrase": "collodion portrait",
+      "normalized": "collodion portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "wet-plate-collodion-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "color negative film character",
+      "normalized": "color negative film character",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "35mm-color-negative"
+        }
+      ]
+    },
+    {
+      "phrase": "colorful overhead food",
+      "normalized": "colorful overhead food",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "bright-editorial-food"
+        }
+      ]
+    },
+    {
+      "phrase": "commercial digital",
+      "normalized": "commercial digital",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "clean-commercial-digital"
+        }
+      ]
+    },
+    {
+      "phrase": "compressed background",
+      "normalized": "compressed background",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "telephoto-compression"
+        }
+      ]
+    },
+    {
+      "phrase": "compressed composition",
+      "normalized": "compressed composition",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "spatial-compression"
+        }
+      ]
+    },
+    {
+      "phrase": "concept photo",
+      "normalized": "concept photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "conceptual"
+        }
+      ]
+    },
+    {
+      "phrase": "contact sheet",
+      "normalized": "contact sheet",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "contact-sheet-sequence"
+        }
+      ]
+    },
+    {
+      "phrase": "contextual composition",
+      "normalized": "contextual composition",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "environmental-context"
+        }
+      ]
+    },
+    {
+      "phrase": "contextual framing",
+      "normalized": "contextual framing",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "environmental-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "continuous light",
+      "normalized": "continuous light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "continuous-studio-light"
+        }
+      ]
+    },
+    {
+      "phrase": "cool tones",
+      "normalized": "cool tones",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "cool-color"
+        }
+      ]
+    },
+    {
+      "phrase": "crisp detailed",
+      "normalized": "crisp detailed",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "crisp-clarity"
+        }
+      ]
+    },
+    {
+      "phrase": "crisp light",
+      "normalized": "crisp light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "hard-light"
+        }
+      ]
+    },
+    {
+      "phrase": "cross processed film",
+      "normalized": "cross processed film",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "cross-processing"
+        }
+      ]
+    },
+    {
+      "phrase": "cross processed photo",
+      "normalized": "cross processed photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "cross-processed-slide-look"
+        }
+      ]
+    },
+    {
+      "phrase": "curved wide lens",
+      "normalized": "curved wide lens",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "fisheye-character"
+        }
+      ]
+    },
+    {
+      "phrase": "cyanotype",
+      "normalized": "cyanotype",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "cyanotype-process"
+        }
+      ]
+    },
+    {
+      "phrase": "daguerreotype",
+      "normalized": "daguerreotype",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "daguerreotype-process"
+        }
+      ]
+    },
+    {
+      "phrase": "dark and dramatic",
+      "normalized": "dark and dramatic",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "low-key-character-portrait"
+        },
+        {
+          "kind": "look",
+          "id": "dark-moody-tabletop"
+        }
+      ]
+    },
+    {
+      "phrase": "dark automotive hero",
+      "normalized": "dark automotive hero",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "studio-automotive-hero"
+        }
+      ]
+    },
+    {
+      "phrase": "dark corners",
+      "normalized": "dark corners",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "vignette"
+        }
+      ]
+    },
+    {
+      "phrase": "dark dramatic portrait",
+      "normalized": "dark dramatic portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "low-key-character-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "dark moody lighting",
+      "normalized": "dark moody lighting",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "low-key-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "dark product tabletop",
+      "normalized": "dark product tabletop",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "dark-moody-tabletop"
+        }
+      ]
+    },
+    {
+      "phrase": "dark subject against bright sky",
+      "normalized": "dark subject against bright sky",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "silhouette-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "darkroom black and white print",
+      "normalized": "darkroom black and white print",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "gelatin-silver-print"
+        }
+      ]
+    },
+    {
+      "phrase": "darkroom print contrast",
+      "normalized": "darkroom print contrast",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "darkroom-contrast"
+        }
+      ]
+    },
+    {
+      "phrase": "dead center",
+      "normalized": "dead center",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "centered-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "deadpan built landscape",
+      "normalized": "deadpan built landscape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "new-topographics-deadpan-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "deadpan landscape",
+      "normalized": "deadpan landscape",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "new-topographics"
+        }
+      ]
+    },
+    {
+      "phrase": "decisive documentary action",
+      "normalized": "decisive documentary action",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "peak-action-photojournalism"
+        }
+      ]
+    },
+    {
+      "phrase": "deep layers",
+      "normalized": "deep layers",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "layered-depth"
+        }
+      ]
+    },
+    {
+      "phrase": "Depression-era documentary",
+      "normalized": "depression era documentary",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "fsa-social-documentary"
+        },
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "fsa-documentary"
+        }
+      ]
+    },
+    {
+      "phrase": "desaturated",
+      "normalized": "desaturated",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "muted-color"
+        }
+      ]
+    },
+    {
+      "phrase": "desaturated gritty cinema",
+      "normalized": "desaturated gritty cinema",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "bleach-bypass-feel"
+        }
+      ]
+    },
+    {
+      "phrase": "desaturated gritty movie still",
+      "normalized": "desaturated gritty movie still",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "bleach-bypass-cinematic-still"
+        }
+      ]
+    },
+    {
+      "phrase": "destination documentary frame",
+      "normalized": "destination documentary frame",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "travel-photo-essay"
+        }
+      ]
+    },
+    {
+      "phrase": "destination photography",
+      "normalized": "destination photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "travel"
+        }
+      ]
+    },
+    {
+      "phrase": "detail shot",
+      "normalized": "detail shot",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "detail-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "diagonal framing",
+      "normalized": "diagonal framing",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "diagonal-composition"
+        }
+      ]
+    },
+    {
+      "phrase": "diagonal viewpoint",
+      "normalized": "diagonal viewpoint",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "oblique-view"
+        }
+      ]
+    },
+    {
+      "phrase": "diffusion filter look",
+      "normalized": "diffusion filter look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "optical-diffusion"
+        }
+      ]
+    },
+    {
+      "phrase": "digital camera flash nostalgia",
+      "normalized": "digital camera flash nostalgia",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "y2k-party-flash-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "digital camera look",
+      "normalized": "digital camera look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "contemporary-digital"
+        }
+      ]
+    },
+    {
+      "phrase": "direct flash",
+      "normalized": "direct flash",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "on-camera-flash"
+        }
+      ]
+    },
+    {
+      "phrase": "doorway framing",
+      "normalized": "doorway framing",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "frame-within-frame"
+        }
+      ]
+    },
+    {
+      "phrase": "double exposure",
+      "normalized": "double exposure",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "multiple-exposure-treatment"
+        }
+      ]
+    },
+    {
+      "phrase": "double exposure portrait",
+      "normalized": "double exposure portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "multiple-exposure-conceptual-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "dragged shutter flash",
+      "normalized": "dragged shutter flash",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "rear-curtain-flash-motion"
+        },
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "rear-curtain-feel"
+        }
+      ]
+    },
+    {
+      "phrase": "dramatic contrast lighting",
+      "normalized": "dramatic contrast lighting",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "high-ratio-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "dreamy antique landscape",
+      "normalized": "dreamy antique landscape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "pictorialist-soft-focus-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "dreamy blur",
+      "normalized": "dreamy blur",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "deliberate-softness"
+        }
+      ]
+    },
+    {
+      "phrase": "dreamy old lens",
+      "normalized": "dreamy old lens",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "soft-focus-lens-character"
+        }
+      ]
+    },
+    {
+      "phrase": "dreamy romantic portrait",
+      "normalized": "dreamy romantic portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "soft-focus-romantic-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "drone abstract landscape",
+      "normalized": "drone abstract landscape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "aerial-graphic-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "drone view",
+      "normalized": "drone view",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "aerial"
+        }
+      ]
+    },
+    {
+      "phrase": "edge falloff",
+      "normalized": "edge falloff",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "vignette"
+        }
+      ]
+    },
+    {
+      "phrase": "edge light",
+      "normalized": "edge light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "rim-light"
+        }
+      ]
+    },
+    {
+      "phrase": "editorial",
+      "normalized": "editorial",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "window-light-editorial-portrait"
+        },
+        {
+          "kind": "look",
+          "id": "hard-sun-fashion-editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "editorial photo",
+      "normalized": "editorial photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "Eggleston-like color",
+      "normalized": "eggleston like color",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "new-color"
+        }
+      ]
+    },
+    {
+      "phrase": "elevation view",
+      "normalized": "elevation view",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "straight-on-view"
+        }
+      ]
+    },
+    {
+      "phrase": "emergency response photo",
+      "normalized": "emergency response photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "peak-action-photojournalism"
+        }
+      ]
+    },
+    {
+      "phrase": "epic sunset landscape",
+      "normalized": "epic sunset landscape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "golden-hour-grand-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "even dull light",
+      "normalized": "even dull light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "flat-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "event coverage",
+      "normalized": "event coverage",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "event"
+        }
+      ]
+    },
+    {
+      "phrase": "everything in focus",
+      "normalized": "everything in focus",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "deep-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "expansive perspective",
+      "normalized": "expansive perspective",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "wide-angle-expansion"
+        }
+      ]
+    },
+    {
+      "phrase": "extreme close-up",
+      "normalized": "extreme close up",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "macro"
+        }
+      ]
+    },
+    {
+      "phrase": "extreme low angle",
+      "normalized": "extreme low angle",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "worm-eye"
+        }
+      ]
+    },
+    {
+      "phrase": "factory ambient light",
+      "normalized": "factory ambient light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "industrial-ambient-light"
+        }
+      ]
+    },
+    {
+      "phrase": "faded blacks",
+      "normalized": "faded blacks",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "lifted-blacks"
+        }
+      ]
+    },
+    {
+      "phrase": "faded matte blacks",
+      "normalized": "faded matte blacks",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "matte-blacks"
+        }
+      ]
+    },
+    {
+      "phrase": "fashion shoot",
+      "normalized": "fashion shoot",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "fashion"
+        }
+      ]
+    },
+    {
+      "phrase": "ferrotype",
+      "normalized": "ferrotype",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "tintype-process"
+        }
+      ]
+    },
+    {
+      "phrase": "fill the frame with detail",
+      "normalized": "fill the frame with detail",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "extreme-close-up"
+        }
+      ]
+    },
+    {
+      "phrase": "filled shadows",
+      "normalized": "filled shadows",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "low-ratio-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "film halation",
+      "normalized": "film halation",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "halation"
+        }
+      ]
+    },
+    {
+      "phrase": "film look",
+      "normalized": "film look",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "instant-film-everyday-snapshot"
+        },
+        {
+          "kind": "look",
+          "id": "cross-processed-slide-look"
+        },
+        {
+          "kind": "look",
+          "id": "grunge-editorial-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "fisheye",
+      "normalized": "fisheye",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "fisheye-character"
+        }
+      ]
+    },
+    {
+      "phrase": "fisheye skateboard photo",
+      "normalized": "fisheye skateboard photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "fisheye-skate-snapshot"
+        }
+      ]
+    },
+    {
+      "phrase": "flash frozen splash",
+      "normalized": "flash frozen splash",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "high-speed-flash"
+        }
+      ]
+    },
+    {
+      "phrase": "flashy",
+      "normalized": "flashy",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "direct-flash-nightlife-portrait"
+        },
+        {
+          "kind": "look",
+          "id": "y2k-party-flash-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "flat film tone",
+      "normalized": "flat film tone",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "matte-tonality"
+        }
+      ]
+    },
+    {
+      "phrase": "flat front light",
+      "normalized": "flat front light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "front-light"
+        }
+      ]
+    },
+    {
+      "phrase": "flat lay angle",
+      "normalized": "flat lay angle",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "overhead"
+        }
+      ]
+    },
+    {
+      "phrase": "flat light",
+      "normalized": "flat light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "flat-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "flat tonal range",
+      "normalized": "flat tonal range",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "low-contrast-tonality"
+        }
+      ]
+    },
+    {
+      "phrase": "fluorescent office light",
+      "normalized": "fluorescent office light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "industrial-ambient-light"
+        }
+      ]
+    },
+    {
+      "phrase": "focus on one detail",
+      "normalized": "focus on one detail",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "selective-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "food photo",
+      "normalized": "food photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "food"
+        }
+      ]
+    },
+    {
+      "phrase": "foreground and background action",
+      "normalized": "foreground and background action",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "layered-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "foreground middle background",
+      "normalized": "foreground middle background",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "layered-depth"
+        }
+      ]
+    },
+    {
+      "phrase": "formal silver plate portrait",
+      "normalized": "formal silver plate portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "daguerreotype-studio-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "found light",
+      "normalized": "found light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "available-light"
+        }
+      ]
+    },
+    {
+      "phrase": "four thirds ratio",
+      "normalized": "four thirds ratio",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "four-three-format"
+        }
+      ]
+    },
+    {
+      "phrase": "freeze athlete in motion",
+      "normalized": "freeze athlete in motion",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "frozen-sports-action"
+        }
+      ]
+    },
+    {
+      "phrase": "freeze the action",
+      "normalized": "freeze the action",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "frozen-motion"
+        }
+      ]
+    },
+    {
+      "phrase": "from the air",
+      "normalized": "from the air",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "aerial"
+        }
+      ]
+    },
+    {
+      "phrase": "front on",
+      "normalized": "front on",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "straight-on-view"
+        }
+      ]
+    },
+    {
+      "phrase": "front to back sharp",
+      "normalized": "front to back sharp",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "deep-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "frozen water splash",
+      "normalized": "frozen water splash",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "high-speed-splash"
+        }
+      ]
+    },
+    {
+      "phrase": "FSA photo",
+      "normalized": "fsa photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "fsa-documentary"
+        }
+      ]
+    },
+    {
+      "phrase": "full body",
+      "normalized": "full body",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "full-length"
+        }
+      ]
+    },
+    {
+      "phrase": "gallery photo",
+      "normalized": "gallery photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "fine-art"
+        }
+      ]
+    },
+    {
+      "phrase": "gentle contrast light",
+      "normalized": "gentle contrast light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "low-ratio-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "gentle light",
+      "normalized": "gentle light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "soft-light"
+        }
+      ]
+    },
+    {
+      "phrase": "glowing highlights",
+      "normalized": "glowing highlights",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "luminous-highlights"
+        }
+      ]
+    },
+    {
+      "phrase": "glowy highlights",
+      "normalized": "glowy highlights",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "bloom"
+        }
+      ]
+    },
+    {
+      "phrase": "glowy lens look",
+      "normalized": "glowy lens look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "diffusion-heavy-lens-character"
+        }
+      ]
+    },
+    {
+      "phrase": "glowy soft-focus person",
+      "normalized": "glowy soft focus person",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "soft-focus-romantic-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "golden color",
+      "normalized": "golden color",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "warm-color"
+        }
+      ]
+    },
+    {
+      "phrase": "grainy photo",
+      "normalized": "grainy photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "pronounced-grain"
+        }
+      ]
+    },
+    {
+      "phrase": "graphic geometry",
+      "normalized": "graphic geometry",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "geometric-order"
+        }
+      ]
+    },
+    {
+      "phrase": "graphic product lighting",
+      "normalized": "graphic product lighting",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "sculptural-hard-light-product"
+        }
+      ]
+    },
+    {
+      "phrase": "graphic tabletop still life",
+      "normalized": "graphic tabletop still life",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "direct-flash-still-life"
+        }
+      ]
+    },
+    {
+      "phrase": "ground level looking up",
+      "normalized": "ground level looking up",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "worm-eye"
+        }
+      ]
+    },
+    {
+      "phrase": "grunge fashion shoot",
+      "normalized": "grunge fashion shoot",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "grunge-editorial-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "hair light",
+      "normalized": "hair light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "rim-light"
+        }
+      ]
+    },
+    {
+      "phrase": "half face light",
+      "normalized": "half face light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "split-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "hard shadow product photo",
+      "normalized": "hard shadow product photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "sculptural-hard-light-product"
+        }
+      ]
+    },
+    {
+      "phrase": "hard shadows",
+      "normalized": "hard shadows",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "hard-light"
+        }
+      ]
+    },
+    {
+      "phrase": "hard side light objects",
+      "normalized": "hard side light objects",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "direct-flash-still-life"
+        }
+      ]
+    },
+    {
+      "phrase": "harsh flash look",
+      "normalized": "harsh flash look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "direct-flash-harshness"
+        }
+      ]
+    },
+    {
+      "phrase": "harsh noon sun",
+      "normalized": "harsh noon sun",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "midday-sun"
+        }
+      ]
+    },
+    {
+      "phrase": "harsh sunlight fashion",
+      "normalized": "harsh sunlight fashion",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "hard-sun-fashion-editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "Hasselblad-style formal portrait",
+      "normalized": "hasselblad style formal portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "medium-format-formal-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "hazy light",
+      "normalized": "hazy light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "diffused-light"
+        }
+      ]
+    },
+    {
+      "phrase": "head and shoulders",
+      "normalized": "head and shoulders",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "medium-close-up"
+        }
+      ]
+    },
+    {
+      "phrase": "head to toe",
+      "normalized": "head to toe",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "full-length"
+        }
+      ]
+    },
+    {
+      "phrase": "heavy diffusion",
+      "normalized": "heavy diffusion",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "diffusion-heavy-lens-character"
+        }
+      ]
+    },
+    {
+      "phrase": "heavy film grain",
+      "normalized": "heavy film grain",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "pronounced-grain"
+        }
+      ]
+    },
+    {
+      "phrase": "hero angle",
+      "normalized": "hero angle",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "low-angle"
+        }
+      ]
+    },
+    {
+      "phrase": "high clarity",
+      "normalized": "high clarity",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "crisp-clarity"
+        }
+      ]
+    },
+    {
+      "phrase": "high end retouching",
+      "normalized": "high end retouching",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "polished-retouching"
+        }
+      ]
+    },
+    {
+      "phrase": "high speed flash photography",
+      "normalized": "high speed flash photography",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "high-speed-splash"
+        }
+      ]
+    },
+    {
+      "phrase": "high speed photo",
+      "normalized": "high speed photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "high-speed-flash"
+        }
+      ]
+    },
+    {
+      "phrase": "hold sky and shadows",
+      "normalized": "hold sky and shadows",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "high-dynamic-range"
+        }
+      ]
+    },
+    {
+      "phrase": "horizontal photo",
+      "normalized": "horizontal photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "landscape-orientation"
+        }
+      ]
+    },
+    {
+      "phrase": "humanist street photo",
+      "normalized": "humanist street photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "humanist-photojournalism"
+        }
+      ]
+    },
+    {
+      "phrase": "ICM photography",
+      "normalized": "icm photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "intentional-camera-movement"
+        }
+      ]
+    },
+    {
+      "phrase": "ICM trees",
+      "normalized": "icm trees",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "intentional-camera-movement-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "idea-driven photography",
+      "normalized": "idea driven photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "conceptual"
+        }
+      ]
+    },
+    {
+      "phrase": "industrial workers photo",
+      "normalized": "industrial workers photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "industrial-workplace-documentary"
+        }
+      ]
+    },
+    {
+      "phrase": "inky blacks",
+      "normalized": "inky blacks",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "crushed-blacks"
+        }
+      ]
+    },
+    {
+      "phrase": "instant camera",
+      "normalized": "instant camera",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "instant-film"
+        }
+      ]
+    },
+    {
+      "phrase": "instant camera memory",
+      "normalized": "instant camera memory",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "instant-film-everyday-snapshot"
+        }
+      ]
+    },
+    {
+      "phrase": "intentionally lopsided",
+      "normalized": "intentionally lopsided",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "deliberate-imbalance"
+        }
+      ]
+    },
+    {
+      "phrase": "interior photo",
+      "normalized": "interior photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "interiors"
+        }
+      ]
+    },
+    {
+      "phrase": "isolated bird observation",
+      "normalized": "isolated bird observation",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "super-telephoto-wildlife"
+        }
+      ]
+    },
+    {
+      "phrase": "knees-up",
+      "normalized": "knees up",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "three-quarter-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "landscape survey panorama",
+      "normalized": "landscape survey panorama",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "panoramic-desert-survey"
+        }
+      ]
+    },
+    {
+      "phrase": "large glass plate negative",
+      "normalized": "large glass plate negative",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "large-format-film"
+        }
+      ]
+    },
+    {
+      "phrase": "late century editorial",
+      "normalized": "late century editorial",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "late-century-fashion"
+        }
+      ]
+    },
+    {
+      "phrase": "layered face concept",
+      "normalized": "layered face concept",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "multiple-exposure-conceptual-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "layers in the frame",
+      "normalized": "layers in the frame",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "layered-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "LED studio light",
+      "normalized": "led studio light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "continuous-studio-light"
+        }
+      ]
+    },
+    {
+      "phrase": "life size close-up",
+      "normalized": "life size close up",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "macro-magnification"
+        }
+      ]
+    },
+    {
+      "phrase": "light bounced off wall",
+      "normalized": "light bounced off wall",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "bounced-light"
+        }
+      ]
+    },
+    {
+      "phrase": "light from one side",
+      "normalized": "light from one side",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "side-light"
+        }
+      ]
+    },
+    {
+      "phrase": "light motivated by lamp",
+      "normalized": "light motivated by lamp",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "motivated-light"
+        }
+      ]
+    },
+    {
+      "phrase": "light through diffusion",
+      "normalized": "light through diffusion",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "diffused-light"
+        }
+      ]
+    },
+    {
+      "phrase": "lines lead to subject",
+      "normalized": "lines lead to subject",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "leading-lines"
+        }
+      ]
+    },
+    {
+      "phrase": "lit by a window",
+      "normalized": "lit by a window",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "window-light"
+        }
+      ]
+    },
+    {
+      "phrase": "lit from above",
+      "normalized": "lit from above",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "top-light"
+        }
+      ]
+    },
+    {
+      "phrase": "lit from below",
+      "normalized": "lit from below",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "underlight"
+        }
+      ]
+    },
+    {
+      "phrase": "lit from the front",
+      "normalized": "lit from the front",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "front-light"
+        }
+      ]
+    },
+    {
+      "phrase": "live music photo",
+      "normalized": "live music photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "concert-available-light"
+        }
+      ]
+    },
+    {
+      "phrase": "lively candid movement",
+      "normalized": "lively candid movement",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "natural-motion"
+        }
+      ]
+    },
+    {
+      "phrase": "lo-fi punk print",
+      "normalized": "lo fi punk print",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "degraded-zine-reproduction"
+        }
+      ]
+    },
+    {
+      "phrase": "lo-fi reproduction",
+      "normalized": "lo fi reproduction",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "degraded-reproduction"
+        }
+      ]
+    },
+    {
+      "phrase": "long exposure photo",
+      "normalized": "long exposure photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "long-exposure"
+        }
+      ]
+    },
+    {
+      "phrase": "long exposure traffic",
+      "normalized": "long exposure traffic",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "night-light-trail-cityscape"
+        }
+      ]
+    },
+    {
+      "phrase": "long lens look",
+      "normalized": "long lens look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "telephoto-compression"
+        }
+      ]
+    },
+    {
+      "phrase": "long lens wildlife",
+      "normalized": "long lens wildlife",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "super-telephoto-wildlife"
+        }
+      ]
+    },
+    {
+      "phrase": "looking down",
+      "normalized": "looking down",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "high-angle"
+        }
+      ]
+    },
+    {
+      "phrase": "looking up",
+      "normalized": "looking up",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "low-angle"
+        }
+      ]
+    },
+    {
+      "phrase": "looks like a movie still",
+      "normalized": "looks like a movie still",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "cinematic-practical-light-portrait"
+        },
+        {
+          "kind": "look",
+          "id": "bleach-bypass-cinematic-still"
+        }
+      ]
+    },
+    {
+      "phrase": "lost shadow detail",
+      "normalized": "lost shadow detail",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "crushed-blacks"
+        }
+      ]
+    },
+    {
+      "phrase": "lots of empty space",
+      "normalized": "lots of empty space",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "negative-space"
+        }
+      ]
+    },
+    {
+      "phrase": "low key",
+      "normalized": "low key",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "low-key-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "low key car portrait",
+      "normalized": "low key car portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "studio-automotive-hero"
+        }
+      ]
+    },
+    {
+      "phrase": "luxury product mood",
+      "normalized": "luxury product mood",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "luxury-still-life-polish"
+        }
+      ]
+    },
+    {
+      "phrase": "macro lens look",
+      "normalized": "macro lens look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "macro-magnification"
+        }
+      ]
+    },
+    {
+      "phrase": "macro photo",
+      "normalized": "macro photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "macro"
+        }
+      ]
+    },
+    {
+      "phrase": "macro with blurry background",
+      "normalized": "macro with blurry background",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "selective-focus-macro"
+        }
+      ]
+    },
+    {
+      "phrase": "magazine image sequence",
+      "normalized": "magazine image sequence",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "editorial-contact-sheet-sequence"
+        }
+      ]
+    },
+    {
+      "phrase": "magazine photo",
+      "normalized": "magazine photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "magazine spread",
+      "normalized": "magazine spread",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "editorial-spread"
+        }
+      ]
+    },
+    {
+      "phrase": "matte look",
+      "normalized": "matte look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "matte-tonality"
+        }
+      ]
+    },
+    {
+      "phrase": "medium format photo",
+      "normalized": "medium format photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "medium-format-film"
+        }
+      ]
+    },
+    {
+      "phrase": "medium framing",
+      "normalized": "medium framing",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "medium-shot"
+        }
+      ]
+    },
+    {
+      "phrase": "midcentury candid photo story",
+      "normalized": "midcentury candid photo story",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "humanist-available-light-photo-essay"
+        }
+      ]
+    },
+    {
+      "phrase": "midcentury fashion editorial",
+      "normalized": "midcentury fashion editorial",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "mid-century-editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "milky water seascape",
+      "normalized": "milky water seascape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "long-exposure-seascape"
+        }
+      ]
+    },
+    {
+      "phrase": "miniature focus effect",
+      "normalized": "miniature focus effect",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "tilt-plane-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "miniature tilt shift",
+      "normalized": "miniature tilt shift",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "tilt-shift-architectural-study"
+        },
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "tilt-shift-control"
+        }
+      ]
+    },
+    {
+      "phrase": "minimal",
+      "normalized": "minimal",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "overcast-minimal-landscape"
+        },
+        {
+          "kind": "look",
+          "id": "clean-seamless-product"
+        }
+      ]
+    },
+    {
+      "phrase": "minimal composition",
+      "normalized": "minimal composition",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "negative-space"
+        }
+      ]
+    },
+    {
+      "phrase": "minimal misty landscape",
+      "normalized": "minimal misty landscape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "overcast-minimal-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "misty tones",
+      "normalized": "misty tones",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "low-dynamic-range"
+        }
+      ]
+    },
+    {
+      "phrase": "mixed lighting",
+      "normalized": "mixed lighting",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "mixed-light"
+        }
+      ]
+    },
+    {
+      "phrase": "mobile fashion editorial",
+      "normalized": "mobile fashion editorial",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "vertical-social-editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "mobile portrait format",
+      "normalized": "mobile portrait format",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "nine-sixteen-format"
+        }
+      ]
+    },
+    {
+      "phrase": "modern commercial photo",
+      "normalized": "modern commercial photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "contemporary-clean-commercial"
+        }
+      ]
+    },
+    {
+      "phrase": "modern digital photo",
+      "normalized": "modern digital photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "contemporary-digital"
+        }
+      ]
+    },
+    {
+      "phrase": "modern natural editorial",
+      "normalized": "modern natural editorial",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "contemporary-editorial-naturalism"
+        }
+      ]
+    },
+    {
+      "phrase": "modern professional headshot",
+      "normalized": "modern professional headshot",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "polished-commercial-headshot"
+        }
+      ]
+    },
+    {
+      "phrase": "modernist sharp photo",
+      "normalized": "modernist sharp photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "straight-photography"
+        }
+      ]
+    },
+    {
+      "phrase": "monochromatic",
+      "normalized": "monochromatic",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "monochrome-color"
+        }
+      ]
+    },
+    {
+      "phrase": "monochrome black and white",
+      "normalized": "monochrome black and white",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "black-and-white"
+        }
+      ]
+    },
+    {
+      "phrase": "moody character headshot",
+      "normalized": "moody character headshot",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "low-key-character-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "moody documentary",
+      "normalized": "moody documentary",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "industrial-workplace-documentary"
+        },
+        {
+          "kind": "look",
+          "id": "fsa-social-documentary"
+        }
+      ]
+    },
+    {
+      "phrase": "moody factory documentary",
+      "normalized": "moody factory documentary",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "industrial-workplace-documentary"
+        }
+      ]
+    },
+    {
+      "phrase": "moody still life",
+      "normalized": "moody still life",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "dark-moody-tabletop"
+        }
+      ]
+    },
+    {
+      "phrase": "more background blur",
+      "normalized": "more background blur",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "extremely-shallow-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "motion smear portrait",
+      "normalized": "motion smear portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "intentional-blur-conceptual-fashion"
+        }
+      ]
+    },
+    {
+      "phrase": "motion streak on subject",
+      "normalized": "motion streak on subject",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "subject-motion-blur"
+        }
+      ]
+    },
+    {
+      "phrase": "motion trail party photo",
+      "normalized": "motion trail party photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "rear-curtain-flash-motion"
+        }
+      ]
+    },
+    {
+      "phrase": "move camera during exposure",
+      "normalized": "move camera during exposure",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "intentional-camera-movement"
+        }
+      ]
+    },
+    {
+      "phrase": "movie still look",
+      "normalized": "movie still look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "contemporary-cinematic-still"
+        }
+      ]
+    },
+    {
+      "phrase": "movie still portrait",
+      "normalized": "movie still portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "cinematic-practical-light-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "multiple exposure",
+      "normalized": "multiple exposure",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "multiple-exposure-treatment"
+        }
+      ]
+    },
+    {
+      "phrase": "multiple things happening street",
+      "normalized": "multiple things happening street",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "layered-street-observation"
+        }
+      ]
+    },
+    {
+      "phrase": "museum specimen photo",
+      "normalized": "museum specimen photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "scientific-specimen-record"
+        }
+      ]
+    },
+    {
+      "phrase": "narrow tonal range",
+      "normalized": "narrow tonal range",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "low-dynamic-range"
+        }
+      ]
+    },
+    {
+      "phrase": "natural daylight",
+      "normalized": "natural daylight",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "daylight"
+        }
+      ]
+    },
+    {
+      "phrase": "natural event photos",
+      "normalized": "natural event photos",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "candid-event-reportage"
+        }
+      ]
+    },
+    {
+      "phrase": "natural food photo",
+      "normalized": "natural food photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "window-light-food-story"
+        }
+      ]
+    },
+    {
+      "phrase": "natural height",
+      "normalized": "natural height",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "eye-level"
+        }
+      ]
+    },
+    {
+      "phrase": "natural lens look",
+      "normalized": "natural lens look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "normal-perspective"
+        }
+      ]
+    },
+    {
+      "phrase": "natural-looking cinematic light",
+      "normalized": "natural looking cinematic light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "motivated-light"
+        }
+      ]
+    },
+    {
+      "phrase": "natural retouching",
+      "normalized": "natural retouching",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "restrained-retouching"
+        }
+      ]
+    },
+    {
+      "phrase": "natural skin tones",
+      "normalized": "natural skin tones",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "restrained-skin-tones"
+        }
+      ]
+    },
+    {
+      "phrase": "natural window portrait",
+      "normalized": "natural window portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "window-light-editorial-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "nature landscape",
+      "normalized": "nature landscape",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "neon street photo",
+      "normalized": "neon street photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "night-street-color"
+        }
+      ]
+    },
+    {
+      "phrase": "neutral white balance",
+      "normalized": "neutral white balance",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "neutral-color"
+        }
+      ]
+    },
+    {
+      "phrase": "New Color photography",
+      "normalized": "new color photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "new-color"
+        }
+      ]
+    },
+    {
+      "phrase": "New Color street",
+      "normalized": "new color street",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "new-color-street-observation"
+        }
+      ]
+    },
+    {
+      "phrase": "New Topographics",
+      "normalized": "new topographics",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "new-topographics"
+        }
+      ]
+    },
+    {
+      "phrase": "New Vision inspired",
+      "normalized": "new vision inspired",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "new-vision-geometry"
+        }
+      ]
+    },
+    {
+      "phrase": "New Vision photo",
+      "normalized": "new vision photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "new-vision"
+        }
+      ]
+    },
+    {
+      "phrase": "news photo",
+      "normalized": "news photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "photojournalism"
+        }
+      ]
+    },
+    {
+      "phrase": "nightclub direct flash",
+      "normalized": "nightclub direct flash",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "direct-flash-nightlife-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "no added lights",
+      "normalized": "no added lights",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "available-light"
+        }
+      ]
+    },
+    {
+      "phrase": "no motion blur",
+      "normalized": "no motion blur",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "frozen-motion"
+        }
+      ]
+    },
+    {
+      "phrase": "normal lens",
+      "normalized": "normal lens",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "normal-perspective"
+        }
+      ]
+    },
+    {
+      "phrase": "not corporate",
+      "normalized": "not corporate",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "approachable-environmental-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "not orange skin",
+      "normalized": "not orange skin",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "restrained-skin-tones"
+        }
+      ]
+    },
+    {
+      "phrase": "not overedited",
+      "normalized": "not overedited",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "restrained-retouching"
+        }
+      ]
+    },
+    {
+      "phrase": "object shadow print",
+      "normalized": "object shadow print",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "photogram-process"
+        }
+      ]
+    },
+    {
+      "phrase": "observational photo",
+      "normalized": "observational photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "documentary"
+        }
+      ]
+    },
+    {
+      "phrase": "off camera strobe",
+      "normalized": "off camera strobe",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "off-camera-flash"
+        }
+      ]
+    },
+    {
+      "phrase": "off center",
+      "normalized": "off center",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "off-center-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "off center rule",
+      "normalized": "off center rule",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "rule-of-thirds"
+        }
+      ]
+    },
+    {
+      "phrase": "old albumen landscape",
+      "normalized": "old albumen landscape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "albumen-travel-survey"
+        }
+      ]
+    },
+    {
+      "phrase": "old glass",
+      "normalized": "old glass",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "vintage-lens-character"
+        }
+      ]
+    },
+    {
+      "phrase": "old metal portrait",
+      "normalized": "old metal portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "tintype-vernacular-portrait"
+        },
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "tintype-process"
+        }
+      ]
+    },
+    {
+      "phrase": "old timey",
+      "normalized": "old timey",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "tintype-vernacular-portrait"
+        },
+        {
+          "kind": "look",
+          "id": "daguerreotype-studio-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "one color palette",
+      "normalized": "one color palette",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "monochrome-color"
+        }
+      ]
+    },
+    {
+      "phrase": "ordered shapes",
+      "normalized": "ordered shapes",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "geometric-order"
+        }
+      ]
+    },
+    {
+      "phrase": "ordinary infrastructure photo",
+      "normalized": "ordinary infrastructure photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "new-topographics-deadpan-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "outdoor soft light",
+      "normalized": "outdoor soft light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "open-shade"
+        }
+      ]
+    },
+    {
+      "phrase": "overhead light",
+      "normalized": "overhead light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "top-light"
+        }
+      ]
+    },
+    {
+      "phrase": "painted blur landscape",
+      "normalized": "painted blur landscape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "intentional-camera-movement-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "panning shot",
+      "normalized": "panning shot",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "panning"
+        }
+      ]
+    },
+    {
+      "phrase": "panning vehicle photo",
+      "normalized": "panning vehicle photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "rolling-automotive-pan"
+        }
+      ]
+    },
+    {
+      "phrase": "panorama",
+      "normalized": "panorama",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "panoramic-format"
+        }
+      ]
+    },
+    {
+      "phrase": "paparazzi flash",
+      "normalized": "paparazzi flash",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "direct-flash-harshness"
+        }
+      ]
+    },
+    {
+      "phrase": "paparazzi portrait",
+      "normalized": "paparazzi portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "direct-flash-nightlife-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "Paramount lighting",
+      "normalized": "paramount lighting",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "butterfly-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "party camera",
+      "normalized": "party camera",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "y2k-party-flash-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "party photos",
+      "normalized": "party photos",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "event"
+        }
+      ]
+    },
+    {
+      "phrase": "pastel tones",
+      "normalized": "pastel tones",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "pastel-color"
+        }
+      ]
+    },
+    {
+      "phrase": "people photo",
+      "normalized": "people photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "perfect symmetry",
+      "normalized": "perfect symmetry",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "symmetrical-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "perfectly centered room",
+      "normalized": "perfectly centered room",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "symmetrical-interior-study"
+        }
+      ]
+    },
+    {
+      "phrase": "person at work but natural",
+      "normalized": "person at work but natural",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "approachable-environmental-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "person in their space",
+      "normalized": "person in their space",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "environmental-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "person small in scene",
+      "normalized": "person small in scene",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "environmental-wide"
+        }
+      ]
+    },
+    {
+      "phrase": "perspective control lens",
+      "normalized": "perspective control lens",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "tilt-shift-control"
+        }
+      ]
+    },
+    {
+      "phrase": "perspective lines",
+      "normalized": "perspective lines",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "leading-lines"
+        }
+      ]
+    },
+    {
+      "phrase": "photo contact sheet",
+      "normalized": "photo contact sheet",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "editorial-contact-sheet-sequence"
+        }
+      ]
+    },
+    {
+      "phrase": "Photo-Secession landscape",
+      "normalized": "photo secession landscape",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "pictorialist-soft-focus-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "photo sequence",
+      "normalized": "photo sequence",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "contact-sheet-sequence"
+        }
+      ]
+    },
+    {
+      "phrase": "photocopy look",
+      "normalized": "photocopy look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "degraded-reproduction"
+        }
+      ]
+    },
+    {
+      "phrase": "photocopy zine photo",
+      "normalized": "photocopy zine photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "degraded-zine-reproduction"
+        }
+      ]
+    },
+    {
+      "phrase": "pictorialist",
+      "normalized": "pictorialist",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "pictorialism"
+        }
+      ]
+    },
+    {
+      "phrase": "platinum palladium look",
+      "normalized": "platinum palladium look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "platinum-print"
+        }
+      ]
+    },
+    {
+      "phrase": "platinum print character",
+      "normalized": "platinum print character",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "platinum-print"
+        }
+      ]
+    },
+    {
+      "phrase": "Polaroid look",
+      "normalized": "polaroid look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "instant-film"
+        }
+      ]
+    },
+    {
+      "phrase": "Polaroid snapshot",
+      "normalized": "polaroid snapshot",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "instant-film-everyday-snapshot"
+        }
+      ]
+    },
+    {
+      "phrase": "polished ad photo",
+      "normalized": "polished ad photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "polished-retouching"
+        }
+      ]
+    },
+    {
+      "phrase": "portrait at work",
+      "normalized": "portrait at work",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "environmental-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "portrait lens look",
+      "normalized": "portrait lens look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "short-telephoto-compression"
+        }
+      ]
+    },
+    {
+      "phrase": "portrait photo",
+      "normalized": "portrait photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "practical lights",
+      "normalized": "practical lights",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "cinematic-practicals"
+        }
+      ]
+    },
+    {
+      "phrase": "premium perfume still life",
+      "normalized": "premium perfume still life",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "luxury-still-life-polish"
+        }
+      ]
+    },
+    {
+      "phrase": "preset focus zone",
+      "normalized": "preset focus zone",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "zone-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "press photography",
+      "normalized": "press photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "photojournalism"
+        }
+      ]
+    },
+    {
+      "phrase": "product shot",
+      "normalized": "product shot",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "product"
+        }
+      ]
+    },
+    {
+      "phrase": "professional but approachable",
+      "normalized": "professional but approachable",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "approachable-environmental-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "professional but approachable portrait",
+      "normalized": "professional but approachable portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "approachable-environmental-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "professional but not corporate",
+      "normalized": "professional but not corporate",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "contemporary-editorial-naturalism"
+        }
+      ]
+    },
+    {
+      "phrase": "punchy contrast",
+      "normalized": "punchy contrast",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "high-contrast-tonality"
+        }
+      ]
+    },
+    {
+      "phrase": "quiet cloudy scenery",
+      "normalized": "quiet cloudy scenery",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "overcast-minimal-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "quiet monochrome close portrait",
+      "normalized": "quiet monochrome close portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "black-and-white-close-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "rainy city at night",
+      "normalized": "rainy city at night",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "night-street-color"
+        }
+      ]
+    },
+    {
+      "phrase": "raised black point",
+      "normalized": "raised black point",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "lifted-blacks"
+        }
+      ]
+    },
+    {
+      "phrase": "raw 90s",
+      "normalized": "raw 90s",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "grunge-editorial-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "raw 90s portrait",
+      "normalized": "raw 90s portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "grunge-editorial-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "raw fashion editorial",
+      "normalized": "raw fashion editorial",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "1990s-grunge-editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "razor thin focus",
+      "normalized": "razor thin focus",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "extremely-shallow-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "real life photography",
+      "normalized": "real life photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "documentary"
+        }
+      ]
+    },
+    {
+      "phrase": "real texture",
+      "normalized": "real texture",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "natural-texture"
+        }
+      ]
+    },
+    {
+      "phrase": "rear curtain flash",
+      "normalized": "rear curtain flash",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "rear-curtain-feel"
+        }
+      ]
+    },
+    {
+      "phrase": "red glow around lights",
+      "normalized": "red glow around lights",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "halation"
+        }
+      ]
+    },
+    {
+      "phrase": "Rembrandt portrait light",
+      "normalized": "rembrandt portrait light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "rembrandt-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "repeating pattern",
+      "normalized": "repeating pattern",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "repetition"
+        }
+      ]
+    },
+    {
+      "phrase": "research photography",
+      "normalized": "research photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "scientific"
+        }
+      ]
+    },
+    {
+      "phrase": "restaurant photography",
+      "normalized": "restaurant photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "food"
+        }
+      ]
+    },
+    {
+      "phrase": "rich colors",
+      "normalized": "rich colors",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "saturated-color"
+        }
+      ]
+    },
+    {
+      "phrase": "rolling car shot",
+      "normalized": "rolling car shot",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "rolling-automotive-pan"
+        }
+      ]
+    },
+    {
+      "phrase": "romantic old art photo",
+      "normalized": "romantic old art photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "pictorialism"
+        }
+      ]
+    },
+    {
+      "phrase": "room photography",
+      "normalized": "room photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "interiors"
+        }
+      ]
+    },
+    {
+      "phrase": "scenery photo",
+      "normalized": "scenery photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "scientific record image",
+      "normalized": "scientific record image",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "scientific-specimen-record"
+        }
+      ]
+    },
+    {
+      "phrase": "selective sharpness",
+      "normalized": "selective sharpness",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "selective-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "shade portrait",
+      "normalized": "shade portrait",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "open-shade"
+        }
+      ]
+    },
+    {
+      "phrase": "shallow depth of field",
+      "normalized": "shallow depth of field",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "shallow-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "sharp modernist still life",
+      "normalized": "sharp modernist still life",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "straight-photography-precision"
+        }
+      ]
+    },
+    {
+      "phrase": "sharp sports action",
+      "normalized": "sharp sports action",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "frozen-sports-action"
+        }
+      ]
+    },
+    {
+      "phrase": "shoot through a frame",
+      "normalized": "shoot through a frame",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "frame-within-frame"
+        }
+      ]
+    },
+    {
+      "phrase": "shooting through something",
+      "normalized": "shooting through something",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "foreground-obstruction"
+        }
+      ]
+    },
+    {
+      "phrase": "shot from above",
+      "normalized": "shot from above",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "high-angle"
+        }
+      ]
+    },
+    {
+      "phrase": "show the surroundings",
+      "normalized": "show the surroundings",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "environmental-context"
+        }
+      ]
+    },
+    {
+      "phrase": "side lit",
+      "normalized": "side lit",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "side-light"
+        }
+      ]
+    },
+    {
+      "phrase": "silhouette",
+      "normalized": "silhouette",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "silhouette-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "silver gelatin look",
+      "normalized": "silver gelatin look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "gelatin-silver-print"
+        }
+      ]
+    },
+    {
+      "phrase": "slanted composition",
+      "normalized": "slanted composition",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "diagonal-composition"
+        }
+      ]
+    },
+    {
+      "phrase": "slide film look",
+      "normalized": "slide film look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "color-slide-film"
+        }
+      ]
+    },
+    {
+      "phrase": "slight compression",
+      "normalized": "slight compression",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "short-telephoto-compression"
+        }
+      ]
+    },
+    {
+      "phrase": "slow shutter",
+      "normalized": "slow shutter",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "long-exposure"
+        }
+      ]
+    },
+    {
+      "phrase": "slow shutter ocean",
+      "normalized": "slow shutter ocean",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "long-exposure-seascape"
+        }
+      ]
+    },
+    {
+      "phrase": "small still life",
+      "normalized": "small still life",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "tabletop"
+        }
+      ]
+    },
+    {
+      "phrase": "social documentary",
+      "normalized": "social documentary",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "social-documentary"
+        }
+      ]
+    },
+    {
+      "phrase": "social issue photography",
+      "normalized": "social issue photography",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "social-documentary"
+        }
+      ]
+    },
+    {
+      "phrase": "soft and dreamy",
+      "normalized": "soft and dreamy",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "soft-focus-romantic-portrait"
+        },
+        {
+          "kind": "look",
+          "id": "pictorialist-soft-focus-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "soft background but readable",
+      "normalized": "soft background but readable",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "moderate-separation"
+        }
+      ]
+    },
+    {
+      "phrase": "soft black point",
+      "normalized": "soft black point",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "matte-blacks"
+        }
+      ]
+    },
+    {
+      "phrase": "soft candy colors",
+      "normalized": "soft candy colors",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "pastel-color"
+        }
+      ]
+    },
+    {
+      "phrase": "soft contrast",
+      "normalized": "soft contrast",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "low-contrast-tonality"
+        }
+      ]
+    },
+    {
+      "phrase": "soft editorial portrait",
+      "normalized": "soft editorial portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "window-light-editorial-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "soft flattering light",
+      "normalized": "soft flattering light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "soft-light"
+        }
+      ]
+    },
+    {
+      "phrase": "soft focus lens",
+      "normalized": "soft focus lens",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "soft-focus-lens-character"
+        }
+      ]
+    },
+    {
+      "phrase": "soft glow filter",
+      "normalized": "soft glow filter",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "optical-diffusion"
+        }
+      ]
+    },
+    {
+      "phrase": "soft gray sky",
+      "normalized": "soft gray sky",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "overcast-light"
+        }
+      ]
+    },
+    {
+      "phrase": "soft on purpose",
+      "normalized": "soft on purpose",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "deliberate-softness"
+        }
+      ]
+    },
+    {
+      "phrase": "soft white beauty portrait",
+      "normalized": "soft white beauty portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "high-key-beauty-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "soft window portrait",
+      "normalized": "soft window portrait",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "window-light"
+        }
+      ]
+    },
+    {
+      "phrase": "some background blur",
+      "normalized": "some background blur",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "moderate-separation"
+        }
+      ]
+    },
+    {
+      "phrase": "specimen photo",
+      "normalized": "specimen photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "scientific"
+        }
+      ]
+    },
+    {
+      "phrase": "speed blur background",
+      "normalized": "speed blur background",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "panning"
+        }
+      ]
+    },
+    {
+      "phrase": "split portrait light",
+      "normalized": "split portrait light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "split-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "split toned",
+      "normalized": "split toned",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "split-tone"
+        }
+      ]
+    },
+    {
+      "phrase": "sports photo",
+      "normalized": "sports photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "sports"
+        }
+      ]
+    },
+    {
+      "phrase": "square medium format portrait",
+      "normalized": "square medium format portrait",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "medium-format-formal-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "square photo",
+      "normalized": "square photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "square-format"
+        }
+      ]
+    },
+    {
+      "phrase": "stacked background",
+      "normalized": "stacked background",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "spatial-compression"
+        }
+      ]
+    },
+    {
+      "phrase": "stage lighting concert",
+      "normalized": "stage lighting concert",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "concert-available-light"
+        }
+      ]
+    },
+    {
+      "phrase": "staged conceptual photo",
+      "normalized": "staged conceptual photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "constructed-conceptual-tableau"
+        }
+      ]
+    },
+    {
+      "phrase": "straight eye level",
+      "normalized": "straight eye level",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "eye-level"
+        }
+      ]
+    },
+    {
+      "phrase": "straight photography",
+      "normalized": "straight photography",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "straight-photography-precision"
+        },
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "straight-photography"
+        }
+      ]
+    },
+    {
+      "phrase": "streaking lights",
+      "normalized": "streaking lights",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "exposure-motion",
+          "id": "light-trails"
+        }
+      ]
+    },
+    {
+      "phrase": "street focus",
+      "normalized": "street focus",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "zone-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "street photo",
+      "normalized": "street photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "street"
+        }
+      ]
+    },
+    {
+      "phrase": "strobe from the side",
+      "normalized": "strobe from the side",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "off-camera-flash"
+        }
+      ]
+    },
+    {
+      "phrase": "strong black and white",
+      "normalized": "strong black and white",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "high-contrast-tonality"
+        }
+      ]
+    },
+    {
+      "phrase": "strong key low fill",
+      "normalized": "strong key low fill",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "high-ratio-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "subdued color",
+      "normalized": "subdued color",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "muted-color"
+        }
+      ]
+    },
+    {
+      "phrase": "subject framed by surroundings",
+      "normalized": "subject framed by surroundings",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "environmental-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "subject in the middle",
+      "normalized": "subject in the middle",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "centrality"
+        }
+      ]
+    },
+    {
+      "phrase": "subject near edge",
+      "normalized": "subject near edge",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "edge-tension"
+        }
+      ]
+    },
+    {
+      "phrase": "subtle film grain",
+      "normalized": "subtle film grain",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "fine-grain"
+        }
+      ]
+    },
+    {
+      "phrase": "summer hard shadow editorial",
+      "normalized": "summer hard shadow editorial",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "hard-sun-fashion-editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "sun behind subject",
+      "normalized": "sun behind subject",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "backlight"
+        }
+      ]
+    },
+    {
+      "phrase": "sunlight",
+      "normalized": "sunlight",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "daylight"
+        }
+      ]
+    },
+    {
+      "phrase": "sunset light",
+      "normalized": "sunset light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "golden-hour"
+        }
+      ]
+    },
+    {
+      "phrase": "super blurry background",
+      "normalized": "super blurry background",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "extremely-shallow-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "super close",
+      "normalized": "super close",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "extreme-close-up"
+        }
+      ]
+    },
+    {
+      "phrase": "surreal constructed scene",
+      "normalized": "surreal constructed scene",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "constructed-conceptual-tableau"
+        }
+      ]
+    },
+    {
+      "phrase": "symmetrical composition",
+      "normalized": "symmetrical composition",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "symmetry"
+        }
+      ]
+    },
+    {
+      "phrase": "symmetrical interior photo",
+      "normalized": "symmetrical interior photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "symmetrical-interior-study"
+        }
+      ]
+    },
+    {
+      "phrase": "tabletop shot",
+      "normalized": "tabletop shot",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "tabletop"
+        }
+      ]
+    },
+    {
+      "phrase": "thirds composition",
+      "normalized": "thirds composition",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "rule-of-thirds"
+        }
+      ]
+    },
+    {
+      "phrase": "three quarter portrait",
+      "normalized": "three quarter portrait",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "three-quarter-framing"
+        }
+      ]
+    },
+    {
+      "phrase": "tight edge crop",
+      "normalized": "tight edge crop",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "edge-tension"
+        }
+      ]
+    },
+    {
+      "phrase": "tight shot",
+      "normalized": "tight shot",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "close-up"
+        }
+      ]
+    },
+    {
+      "phrase": "tilt shift",
+      "normalized": "tilt shift",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "tilt-shift-control"
+        }
+      ]
+    },
+    {
+      "phrase": "tilted focus plane",
+      "normalized": "tilted focus plane",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "focus-depth",
+          "id": "tilt-plane-focus"
+        }
+      ]
+    },
+    {
+      "phrase": "tiny detail shallow focus",
+      "normalized": "tiny detail shallow focus",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "selective-focus-macro"
+        }
+      ]
+    },
+    {
+      "phrase": "top down",
+      "normalized": "top down",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "overhead"
+        }
+      ]
+    },
+    {
+      "phrase": "top down earth patterns",
+      "normalized": "top down earth patterns",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "aerial-graphic-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "toy city photography",
+      "normalized": "toy city photography",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "tilt-shift-architectural-study"
+        }
+      ]
+    },
+    {
+      "phrase": "transparency film character",
+      "normalized": "transparency film character",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "color-slide-film"
+        }
+      ]
+    },
+    {
+      "phrase": "travel photo",
+      "normalized": "travel photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "travel"
+        }
+      ]
+    },
+    {
+      "phrase": "travel story image",
+      "normalized": "travel story image",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "travel-photo-essay"
+        }
+      ]
+    },
+    {
+      "phrase": "triangle cheek light",
+      "normalized": "triangle cheek light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "rembrandt-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "true to life color",
+      "normalized": "true to life color",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "neutral-color"
+        }
+      ]
+    },
+    {
+      "phrase": "tungsten look",
+      "normalized": "tungsten look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "tungsten-practicals"
+        }
+      ]
+    },
+    {
+      "phrase": "twilight blue",
+      "normalized": "twilight blue",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "blue-hour"
+        }
+      ]
+    },
+    {
+      "phrase": "twilight building photo",
+      "normalized": "twilight building photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "blue-hour-urban-architecture"
+        }
+      ]
+    },
+    {
+      "phrase": "two page layout",
+      "normalized": "two page layout",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "editorial-spread"
+        }
+      ]
+    },
+    {
+      "phrase": "ultra wide lens",
+      "normalized": "ultra wide lens",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "ultra-wide-character"
+        }
+      ]
+    },
+    {
+      "phrase": "ultra wide view",
+      "normalized": "ultra wide view",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "extreme-wide"
+        }
+      ]
+    },
+    {
+      "phrase": "ultrawide crop",
+      "normalized": "ultrawide crop",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "panoramic-format"
+        }
+      ]
+    },
+    {
+      "phrase": "unbalanced composition",
+      "normalized": "unbalanced composition",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "deliberate-imbalance"
+        }
+      ]
+    },
+    {
+      "phrase": "uplight",
+      "normalized": "uplight",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "underlight"
+        }
+      ]
+    },
+    {
+      "phrase": "upright orientation",
+      "normalized": "upright orientation",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "portrait-orientation"
+        }
+      ]
+    },
+    {
+      "phrase": "vehicle photo",
+      "normalized": "vehicle photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "genre-use",
+          "id": "automotive"
+        }
+      ]
+    },
+    {
+      "phrase": "vertical fashion photo",
+      "normalized": "vertical fashion photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "vertical-social-editorial"
+        }
+      ]
+    },
+    {
+      "phrase": "vertical photo",
+      "normalized": "vertical photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "portrait-orientation"
+        }
+      ]
+    },
+    {
+      "phrase": "vertical story",
+      "normalized": "vertical story",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "nine-sixteen-format"
+        }
+      ]
+    },
+    {
+      "phrase": "very long lens",
+      "normalized": "very long lens",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "super-telephoto-reach"
+        }
+      ]
+    },
+    {
+      "phrase": "very soft beauty light",
+      "normalized": "very soft beauty light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "very-soft-light"
+        }
+      ]
+    },
+    {
+      "phrase": "very wide establishing shot",
+      "normalized": "very wide establishing shot",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "extreme-wide"
+        }
+      ]
+    },
+    {
+      "phrase": "very wide lens",
+      "normalized": "very wide lens",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "ultra-wide-character"
+        }
+      ]
+    },
+    {
+      "phrase": "vibrant color",
+      "normalized": "vibrant color",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "saturated-color"
+        }
+      ]
+    },
+    {
+      "phrase": "Victorian studio photo",
+      "normalized": "victorian studio photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "early-studio-photography"
+        }
+      ]
+    },
+    {
+      "phrase": "Victorian travel photograph",
+      "normalized": "victorian travel photograph",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "albumen-travel-survey"
+        }
+      ]
+    },
+    {
+      "phrase": "vintage black and white",
+      "normalized": "vintage black and white",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "fsa-social-documentary"
+        },
+        {
+          "kind": "look",
+          "id": "black-and-white-close-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "vintage commercial color",
+      "normalized": "vintage commercial color",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "mid-century-commercial-color"
+        },
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "mid-century-commercial"
+        }
+      ]
+    },
+    {
+      "phrase": "vintage lens look",
+      "normalized": "vintage lens look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "vintage-lens-character"
+        }
+      ]
+    },
+    {
+      "phrase": "visual rhythm",
+      "normalized": "visual rhythm",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "composition",
+          "id": "repetition"
+        }
+      ]
+    },
+    {
+      "phrase": "waist-up",
+      "normalized": "waist up",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "medium-shot"
+        }
+      ]
+    },
+    {
+      "phrase": "warm and cool light",
+      "normalized": "warm and cool light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "mixed-light"
+        }
+      ]
+    },
+    {
+      "phrase": "warm evening sun",
+      "normalized": "warm evening sun",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "golden-hour"
+        }
+      ]
+    },
+    {
+      "phrase": "warm grand vista",
+      "normalized": "warm grand vista",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "golden-hour-grand-landscape"
+        }
+      ]
+    },
+    {
+      "phrase": "warm highlights cool shadows",
+      "normalized": "warm highlights cool shadows",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "split-tone"
+        }
+      ]
+    },
+    {
+      "phrase": "warm lamp light",
+      "normalized": "warm lamp light",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "tungsten-practicals"
+        }
+      ]
+    },
+    {
+      "phrase": "warm tones",
+      "normalized": "warm tones",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "warm-color"
+        }
+      ]
+    },
+    {
+      "phrase": "wet plate",
+      "normalized": "wet plate",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "medium-process",
+          "id": "wet-plate-collodion"
+        }
+      ]
+    },
+    {
+      "phrase": "wet plate face",
+      "normalized": "wet plate face",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "wet-plate-collodion-portrait"
+        }
+      ]
+    },
+    {
+      "phrase": "white background product photo",
+      "normalized": "white background product photo",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "clean-seamless-product"
+        }
+      ]
+    },
+    {
+      "phrase": "white high key",
+      "normalized": "white high key",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lighting",
+          "id": "high-key-lighting"
+        }
+      ]
+    },
+    {
+      "phrase": "wide angle",
+      "normalized": "wide angle",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "wide-angle-expansion"
+        }
+      ]
+    },
+    {
+      "phrase": "wide environmental shot",
+      "normalized": "wide environmental shot",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "viewpoint-framing",
+          "id": "environmental-wide"
+        }
+      ]
+    },
+    {
+      "phrase": "wide field panorama",
+      "normalized": "wide field panorama",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "panoramic-desert-survey"
+        }
+      ]
+    },
+    {
+      "phrase": "wide orientation",
+      "normalized": "wide orientation",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "landscape-orientation"
+        }
+      ]
+    },
+    {
+      "phrase": "wide tonal range",
+      "normalized": "wide tonal range",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "color-tonality",
+          "id": "high-dynamic-range"
+        }
+      ]
+    },
+    {
+      "phrase": "widescreen",
+      "normalized": "widescreen",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "format-output",
+          "id": "sixteen-nine-format"
+        }
+      ]
+    },
+    {
+      "phrase": "wildlife lens look",
+      "normalized": "wildlife lens look",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "lens-perspective",
+          "id": "super-telephoto-reach"
+        }
+      ]
+    },
+    {
+      "phrase": "window light meal",
+      "normalized": "window light meal",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "window-light-food-story"
+        }
+      ]
+    },
+    {
+      "phrase": "xpro colors",
+      "normalized": "xpro colors",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "cross-processing"
+        }
+      ]
+    },
+    {
+      "phrase": "xpro film colors",
+      "normalized": "xpro film colors",
+      "targets": [
+        {
+          "kind": "look",
+          "id": "cross-processed-slide-look"
+        }
+      ]
+    },
+    {
+      "phrase": "Y2K flash photo",
+      "normalized": "y2k flash photo",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "era-movement",
+          "id": "y2k-party-flash"
+        }
+      ]
+    },
+    {
+      "phrase": "zine texture",
+      "normalized": "zine texture",
+      "targets": [
+        {
+          "kind": "axis-value",
+          "axisId": "processing-texture",
+          "id": "degraded-reproduction"
+        }
+      ]
+    }
+  ]
+}

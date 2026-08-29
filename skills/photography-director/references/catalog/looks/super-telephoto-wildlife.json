@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "id": "super-telephoto-wildlife",
+  "displayName": "Long-Lens Wildlife Observation",
+  "family": "action-nature-experimental",
+  "definition": "A wild animal observed with narrow-field isolation, compressed habitat layers, selective focus, and credible natural behavior without claiming an exact lens from appearance alone.",
+  "aliases": [
+    "long lens wildlife",
+    "isolated bird observation"
+  ],
+  "cues": [
+    "wildlife",
+    "super-telephoto-reach",
+    "spatial-compression",
+    "selective-focus"
+  ],
+  "antiCues": [
+    "zoo portrait presented as wild",
+    "wide-angle close approach",
+    "fake background blur"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "wildlife",
+      "scientific"
+    ],
+    "viewpoint-framing": [
+      "close-up",
+      "eye-level",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "super-telephoto-reach",
+      "telephoto-compression"
+    ],
+    "focus-depth": [
+      "selective-focus",
+      "shallow-focus"
+    ],
+    "exposure-motion": [
+      "frozen-motion"
+    ],
+    "lighting": [
+      "daylight",
+      "front-light",
+      "soft-light"
+    ],
+    "composition": [
+      "rule-of-thirds",
+      "spatial-compression",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "muted-color"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "animal-scale isolation",
+    "compressed habitat",
+    "behavioral credibility"
+  ],
+  "adaptiveGuidance": [
+    "Adapt reach, crop, and shutter to species and distance; prioritize non-disturbance and never fabricate wild status."
+  ],
+  "applicability": [
+    "birds",
+    "mammals",
+    "wildlife behavior"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-super-telephoto-wildlife"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lens basics",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/articles/00268239",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A wild animal observed with narrow-field isolation, compressed habitat layers, selective focus, and credible natural behavior without claiming an exact lens from appearance alone."
+        ]
+      }
+    ]
+  }
+}

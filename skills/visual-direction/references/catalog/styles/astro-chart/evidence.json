@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "styleId": "astro-chart",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Tycho Catalog Skymap",
+    "creatorOrTradition": "NASA star-catalog visualization",
+    "sourceUrl": "https://svs.gsfc.nasa.gov/3442",
+    "whyCanonical": "NASA's skymap plots cataloged stars in a defined projection and celestial coordinates while mark size and amplitude correspond to relative intensity."
+  },
+  "sources": [
+    {
+      "title": "The Tycho Catalog Skymap",
+      "publisher": "NASA Scientific Visualization Studio",
+      "url": "https://svs.gsfc.nasa.gov/3442",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A scientific skymap uses star-catalog data, a declared projection, celestial coordinates, and magnitude-related marks."
+      ]
+    },
+    {
+      "title": "Deep Star Maps",
+      "publisher": "NASA Scientific Visualization Studio",
+      "url": "https://svs.gsfc.nasa.gov/3895?mobile-app=true&theme=false",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Celestial grids, official constellation boundaries, constellation figures, and galactic-coordinate versions can be represented as distinct map layers."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent lead with distinct support. The images jointly teach celestial coordinate grid, star magnitude, constellation boundary, radial sky projection while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale. The independently approved lead is assets/refs/astro-chart/reference-01.jpg. Distinct supporting role: Complementary support; adds a distinct subject, framing, or application without duplicating the lead.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/astro-chart/reference-01.jpg",
+    "notes": "Excellent lead with distinct support. The images jointly teach celestial coordinate grid, star magnitude, constellation boundary, radial sky projection while differing enough in subject, framing, or application to add useful range rather than repetition; both remain clear at card scale.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

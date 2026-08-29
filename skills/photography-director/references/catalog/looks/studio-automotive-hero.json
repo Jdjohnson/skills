@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "id": "studio-automotive-hero",
+  "displayName": "Low-Key Automotive Hero",
+  "family": "commercial-still-life",
+  "definition": "A static vehicle portrait using deep negative space, selective body-edge reflections, restrained color, and luminous practical details to reveal form without flattening it.",
+  "aliases": [
+    "dark automotive hero",
+    "low key car portrait"
+  ],
+  "cues": [
+    "automotive",
+    "low-key-lighting",
+    "rim-light",
+    "negative-space"
+  ],
+  "antiCues": [
+    "flat showroom light",
+    "clipped black body detail",
+    "impossible body geometry"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "automotive",
+      "product"
+    ],
+    "viewpoint-framing": [
+      "full-length",
+      "eye-level",
+      "three-quarter-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "side-light",
+      "rim-light",
+      "low-key-lighting",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "centrality",
+      "diagonal-composition",
+      "negative-space"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "crushed-blacks",
+      "luminous-highlights"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "restrained-retouching",
+      "crisp-clarity"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "selective body reflections",
+    "dark sculpted volume",
+    "clear vehicle silhouette"
+  ],
+  "adaptiveGuidance": [
+    "Adapt light placement, camera height, and negative space to vehicle geometry; retain physically plausible reflections."
+  ],
+  "applicability": [
+    "cars",
+    "motorcycles",
+    "industrial products"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-studio-automotive-hero"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A static vehicle portrait using deep negative space, selective body-edge reflections, restrained color, and luminous practical details to reveal form without flattening it."
+        ]
+      }
+    ]
+  }
+}

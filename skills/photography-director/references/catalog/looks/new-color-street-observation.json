@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "id": "new-color-street-observation",
+  "displayName": "New Color Street Observation",
+  "family": "documentary-street-event",
+  "definition": "An ordinary street scene made visually consequential by exact saturated color relationships, off-center balance, and deadpan attention.",
+  "aliases": [
+    "artful everyday color photo",
+    "New Color street"
+  ],
+  "cues": [
+    "new-color",
+    "saturated-color",
+    "off-center-framing",
+    "deliberate-imbalance"
+  ],
+  "antiCues": [
+    "generic cinematic grade",
+    "monochrome nostalgia",
+    "obvious staged tableau"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "street",
+      "fine-art",
+      "documentary"
+    ],
+    "viewpoint-framing": [
+      "eye-level",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "daylight",
+      "hard-light",
+      "front-light"
+    ],
+    "composition": [
+      "deliberate-imbalance",
+      "edge-tension",
+      "geometric-order"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "neutral-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "fine-grain",
+      "crisp-clarity"
+    ],
+    "era-movement": [
+      "new-color"
+    ],
+    "format-output": [
+      "three-two-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "color as structure",
+    "ordinary subject matter",
+    "precise off-center balance"
+  ],
+  "adaptiveGuidance": [
+    "Adapt palette to the real place; do not force saturation where the scene has no color relationship to support it."
+  ],
+  "applicability": [
+    "streets",
+    "suburbs",
+    "everyday interiors",
+    "fine-art observation"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-new-color-street-observation"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "A New Documentary Style",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/momaorg/shared/pdfs/docs/learn/courses/quentin-bajac-a-new-documentary-style-in-photography-at-moma-1960-now.pdf",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "An ordinary street scene made visually consequential by exact saturated color relationships, off-center balance, and deadpan attention."
+        ]
+      }
+    ]
+  }
+}

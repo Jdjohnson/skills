@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "swiss-phototypography",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI built-in imagegen",
+  "promptRecordStatus": "exact",
+  "prompt": "Create an original 1960s Swiss photo-typography poster: one stark black-and-white documentary photograph occupying roughly two thirds of the composition, sans-serif type bars and numerals integrated into a strict modular grid, generous white space, and one vivid red accent. Use only the readable text 1964. Canonical International Typographic Style, precise and highly recognizable. Original composition; do not copy an existing poster, logo, or artwork. No watermark.",
+  "sourceOutputStatus": "original_tool_response_not_retained",
+  "finalAsset": "assets/refs/swiss-phototypography/generated-01.jpg",
+  "finalSha256": "739a10acdd57033ebf2ebd31159919e5b26ccf153f7e773ab2c3e4f71a518aa2",
+  "postProcessing": "AI-generated source image center-cropped to a 4:5 portrait and resized to 800x1000 pixels; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

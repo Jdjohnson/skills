@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "id": "sculptural-hard-light-product",
+  "displayName": "Sculptural Hard-Light Product",
+  "family": "commercial-still-life",
+  "definition": "A product study using a small hard side source, crisp cast shadow, bold geometric placement, and saturated or monochrome color to make form feel sculptural.",
+  "aliases": [
+    "hard shadow product photo",
+    "graphic product lighting"
+  ],
+  "cues": [
+    "hard-light",
+    "side-light",
+    "geometric-order",
+    "high-contrast-tonality"
+  ],
+  "antiCues": [
+    "soft wraparound fill",
+    "floating object with no shadow",
+    "cluttered props"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "product",
+      "tabletop",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "detail-framing",
+      "oblique-view",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "off-camera-flash",
+      "hard-light",
+      "side-light",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "geometric-order",
+      "diagonal-composition",
+      "negative-space"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "clean-commercial-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "polished-retouching"
+    ],
+    "era-movement": [
+      "contemporary-clean-commercial"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "four-three-format"
+    ]
+  },
+  "lockedQualities": [
+    "crisp designed shadow",
+    "graphic object planes",
+    "bold controlled color"
+  ],
+  "adaptiveGuidance": [
+    "Adapt source size and angle to material reflectivity; keep the shadow physically tied to the object."
+  ],
+  "applicability": [
+    "packaging",
+    "cosmetics",
+    "small goods",
+    "editorial products"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-sculptural-hard-light-product"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A product study using a small hard side source, crisp cast shadow, bold geometric placement, and saturated or monochrome color to make form feel sculptural."
+        ]
+      }
+    ]
+  }
+}

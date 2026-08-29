@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "id": "albumen-travel-survey",
+  "displayName": "Albumen Travel Survey",
+  "family": "historical-process",
+  "definition": "A nineteenth-century travel or architectural view with deliberate wide framing, finely described detail, warm paper tone, and documented albumen print process.",
+  "aliases": [
+    "Victorian travel photograph",
+    "old albumen landscape"
+  ],
+  "cues": [
+    "albumen-print",
+    "environmental-wide",
+    "deep-focus",
+    "travel"
+  ],
+  "antiCues": [
+    "modern HDR spectacle",
+    "shallow-focus travel portrait"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "travel",
+      "architecture",
+      "landscape"
+    ],
+    "viewpoint-framing": [
+      "environmental-wide",
+      "eye-level",
+      "straight-on-view"
+    ],
+    "lens-perspective": [
+      "wide-angle-expansion"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "soft-light",
+      "front-light"
+    ],
+    "composition": [
+      "environmental-context",
+      "leading-lines"
+    ],
+    "color-tonality": [
+      "warm-color",
+      "low-contrast-tonality"
+    ],
+    "medium-process": [
+      "albumen-print"
+    ],
+    "processing-texture": [
+      "fine-grain",
+      "matte-blacks"
+    ],
+    "era-movement": [
+      "early-studio-photography"
+    ],
+    "format-output": [
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "patient descriptive view",
+    "warm paper tonality",
+    "historic spatial survey"
+  ],
+  "adaptiveGuidance": [
+    "Adapt viewpoint to the place; treat albumen as documented process, not a sepia preset."
+  ],
+  "applicability": [
+    "places",
+    "architecture",
+    "historic interpretation"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-albumen-travel-survey"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photographic Processes Video Series & Glossary",
+        "publisher": "George Eastman Museum",
+        "url": "https://www.eastman.org/photographic-processes-video-series-glossary",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A nineteenth-century travel or architectural view with deliberate wide framing, finely described detail, warm paper tone, and documented albumen print process."
+        ]
+      }
+    ]
+  }
+}

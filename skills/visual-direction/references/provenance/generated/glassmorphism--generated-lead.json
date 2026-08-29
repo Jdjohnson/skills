@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "glassmorphism",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation of restrained glassmorphism interface design.\nUse case: product-ui\nAsset type: Beauty Director style reference, portrait 4:5\nPrimary request: Create an original mobile weather interface with one dominant frosted translucent pane floating over visibly blurred landscape content, a thin light-catching edge, crisp temperature controls, one compact forecast row, strong contrast, and almost no glow.\nStyle/medium: polished fictional product UI shown front-on without a device frame\nComposition/framing: portrait 4:5, blurred photographic background fills frame, one large restrained glass pane occupies the center, two small subordinate controls sit along its lower edge, clear at thumbnail scale\nLighting/mood: quiet morning light, calm, precise\nColor palette: mist blue, slate, frosted white, muted sage\nMaterials/textures: realistic frosted glass, subtle refraction, fine grain, thin luminous edge\nText: use only the exact label NORTH and numerals 18, 07; all other labels as abstract bars\nConstraints: original interface, no fintech cues, no neon, no real company, no logo, no watermark, no copied screen",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "a8a511d99607de23b73c2c6ccca2e130bd6e2e3793e9a1e9f635eda04b5cb05d",
+  "finalAsset": "assets/refs/glassmorphism/generated-lead.jpg",
+  "finalSha256": "daa49baf87294f51457981bf7d8f876bcabac9ff5ddbdf97b10041ffe9c04908",
+  "postProcessing": "Cropped when needed to a 4:5 portrait, resized to 800x1000 pixels, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

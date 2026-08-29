@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "id": "fsa-social-documentary",
+  "displayName": "FSA Social Documentary",
+  "family": "historical-process",
+  "definition": "A direct black-and-white account of people and material conditions, using specific environmental context, natural texture, and restrained authorial drama.",
+  "aliases": [
+    "Depression-era documentary",
+    "1930s social photo"
+  ],
+  "cues": [
+    "fsa-documentary",
+    "social-documentary",
+    "environmental-context",
+    "black-and-white"
+  ],
+  "antiCues": [
+    "costume nostalgia",
+    "poverty aesthetic without context",
+    "glamour retouching"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "documentary",
+      "photojournalism",
+      "environmental-portrait"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "eye-level",
+      "environmental-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "exposure-motion": [
+      "natural-motion"
+    ],
+    "lighting": [
+      "available-light",
+      "daylight",
+      "side-light"
+    ],
+    "composition": [
+      "environmental-context",
+      "rule-of-thirds"
+    ],
+    "color-tonality": [
+      "black-and-white",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "black-and-white-negative",
+      "gelatin-silver-print"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "darkroom-contrast"
+    ],
+    "era-movement": [
+      "social-documentary",
+      "fsa-documentary"
+    ],
+    "format-output": [
+      "three-two-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "specific lived context",
+    "direct monochrome description",
+    "dignified human presence"
+  ],
+  "adaptiveGuidance": [
+    "Adapt distance to consent and circumstance; preserve context and avoid theatrical destitution."
+  ],
+  "applicability": [
+    "people",
+    "workplaces",
+    "communities",
+    "social conditions"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-fsa-social-documentary"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Farm Security Administration/Office of War Information Black-and-White Negatives",
+        "publisher": "Library of Congress",
+        "url": "https://www.loc.gov/pictures/collection/fsa/fsa.html",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A direct black-and-white account of people and material conditions, using specific environmental context, natural texture, and restrained authorial drama."
+        ]
+      }
+    ]
+  }
+}

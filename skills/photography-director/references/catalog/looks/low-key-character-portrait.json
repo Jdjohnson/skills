@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "id": "low-key-character-portrait",
+  "displayName": "Low-Key Character Portrait",
+  "family": "portrait-editorial",
+  "definition": "A dark, tightly framed portrait with directional side light, substantial shadow, restrained color, and visible human texture.",
+  "aliases": [
+    "dark dramatic portrait",
+    "moody character headshot"
+  ],
+  "cues": [
+    "low-key-lighting",
+    "high-contrast-tonality",
+    "natural-texture"
+  ],
+  "antiCues": [
+    "bright flat fill",
+    "beauty smoothing",
+    "random black crush"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "portrait",
+      "editorial"
+    ],
+    "viewpoint-framing": [
+      "close-up",
+      "eye-level",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "short-telephoto-compression"
+    ],
+    "focus-depth": [
+      "shallow-focus"
+    ],
+    "lighting": [
+      "low-key-lighting",
+      "side-light",
+      "split-lighting",
+      "rembrandt-lighting",
+      "high-ratio-lighting"
+    ],
+    "composition": [
+      "negative-space",
+      "edge-tension"
+    ],
+    "color-tonality": [
+      "muted-color",
+      "high-contrast-tonality",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "natural-texture",
+      "restrained-retouching"
+    ],
+    "era-movement": [
+      "contemporary-editorial-naturalism"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "selective facial modeling",
+    "dark surrounding field",
+    "believable texture"
+  ],
+  "adaptiveGuidance": [
+    "Adapt light height and face turn to the subject; preserve shadow detail needed for identity."
+  ],
+  "applicability": [
+    "individual portraits",
+    "editorial profiles"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-low-key-character-portrait",
+    "ref-rembrandt-lighting-portrait"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Bending the Light",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/bending-the-light",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A dark, tightly framed portrait with directional side light, substantial shadow, restrained color, and visible human texture."
+        ]
+      }
+    ]
+  }
+}

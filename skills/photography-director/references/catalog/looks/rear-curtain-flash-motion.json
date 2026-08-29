@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "id": "rear-curtain-flash-motion",
+  "displayName": "Resolved Subject with Motion Trails",
+  "family": "action-nature-experimental",
+  "definition": "A moving subject remains readable at one point while surrounding light and ambient detail trail through a dark environment; the visible result alone does not identify flash timing or shutter method.",
+  "aliases": [
+    "dragged shutter flash",
+    "motion trail party photo"
+  ],
+  "cues": [
+    "readable-moving-subject",
+    "subject-motion-blur",
+    "directional-motion-trails",
+    "mixed-light"
+  ],
+  "antiCues": [
+    "trail leading ahead of motion",
+    "fully frozen static frame",
+    "software echo copies"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "event",
+      "sports",
+      "conceptual"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "oblique-view",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "normal-perspective"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "rear-curtain-feel",
+      "subject-motion-blur"
+    ],
+    "lighting": [
+      "mixed-light",
+      "hard-light",
+      "side-light",
+      "low-key-lighting"
+    ],
+    "composition": [
+      "diagonal-composition",
+      "edge-tension"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "split-tone",
+      "crushed-blacks"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "direct-flash-harshness",
+      "pronounced-grain"
+    ],
+    "era-movement": [
+      "late-century-direct-flash"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "readable moving subject",
+    "directional ambient trail",
+    "dark environmental context"
+  ],
+  "adaptiveGuidance": [
+    "Adapt motion rendering and movement path; prescribe flash timing or rear-curtain sync only when the desired method is explicit or documented."
+  ],
+  "applicability": [
+    "dance",
+    "night sports",
+    "events",
+    "conceptual movement"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-rear-curtain-flash-motion"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "The Basics of Flash Photography",
+        "publisher": "Nikon",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/the-basics-of-flash-photography",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A moving subject remains readable at one point while surrounding light and ambient detail trail through a dark environment; the visible result alone does not identify flash timing or shutter method."
+        ]
+      }
+    ]
+  }
+}

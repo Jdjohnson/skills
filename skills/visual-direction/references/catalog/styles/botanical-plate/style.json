@@ -1,0 +1,163 @@
+{
+  "id": "botanical-plate",
+  "displayName": "Botanical Plate",
+  "family": "scientific-diagram",
+  "definition": "Whole plants and diagnostic parts systematically arranged with fine contour, restrained natural color, numbered variants, captions, and scientific white space.",
+  "axes": {
+    "minimalOrnate": -0.4,
+    "geometricOrganic": 0.5,
+    "polishedRaw": -0.1,
+    "calmEnergetic": -0.2,
+    "historicalFuturistic": -0.1,
+    "realisticAbstract": -0.3,
+    "warmCool": 0.3,
+    "lightDark": -0.1,
+    "playfulSerious": 0.7,
+    "handmadeMachined": 0.6,
+    "flatDeep": -0.6,
+    "everydayLuxurious": -0.2
+  },
+  "cues": [
+    "whole-plant-view",
+    "dissected-details",
+    "scientific-accuracy",
+    "fine-contour",
+    "numbered-variants",
+    "restrained-natural-color",
+    "diagnostic-scale",
+    "white-space"
+  ],
+  "antiCues": [
+    "loose-botanical-watercolor",
+    "floral-pattern",
+    "bouquet-composition",
+    "decorative-herbarium",
+    "fantasy-plant"
+  ],
+  "emotionalEffects": [
+    "scholarly",
+    "serene",
+    "clear-headed"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.4,
+      "symmetry": 0.65,
+      "margins": 0.12
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#2E7D32",
+        "#F1F8E9",
+        "#1B5E20",
+        "#5D4037",
+        "#263238"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/botanical-plate.svg",
+      "descriptor": "system sans/display",
+      "weight": 500,
+      "tracking": 0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.4,
+      "lineWeight": 0.5,
+      "curveTension": 0.4
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/scientific-diagram-primary"
+      ],
+      "finish": "polished",
+      "grain": 0.2,
+      "tags": [
+        "paper",
+        "ink"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.45,
+      "keyDirection": "front",
+      "gradient": 0.25
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.35,
+      "parallax": 0.1
+    },
+    "motion": {
+      "energy": 0.4,
+      "descriptor": "still"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "representational",
+      "subjectRules": [
+        "show-whole-plant-and-diagnostic-parts",
+        "preserve-taxonomic-accuracy",
+        "include-scale-or-numbered-details",
+        "avoid-purely-decorative-florals"
+      ],
+      "abstraction": 0.35
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 1,
+    "web-app": 2,
+    "presentation": 2,
+    "editorial-document": 3,
+    "social-advertising": 1,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 1,
+    "product-3d": 0,
+    "interiors-architecture": 1,
+    "data-visualization": 2
+  },
+  "heroRecipe": {
+    "motif": "a scientifically accurate whole plant surrounded by enlarged diagnostic views of flower, fruit, seed, leaf attachment, and section",
+    "framing": "place the main specimen centrally with details ordered around it and enough white space for captions, scale, and comparison",
+    "mustShow": [
+      "whole habit",
+      "dissected or enlarged parts",
+      "fine accurate contour and restrained color"
+    ],
+    "mustAvoid": [
+      "bouquet styling",
+      "loose wash without structure",
+      "fantasy species",
+      "decorative pattern repeat",
+      "watermark"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "field-guide",
+    "anatomical-plate",
+    "specimen-label"
+  ],
+  "contrasting": [
+    "market-vernacular",
+    "neon-night-ui",
+    "academic-journal"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "id": "cyanotype-botanical-photogram",
+  "displayName": "Cyanotype Botanical Photogram",
+  "family": "historical-process",
+  "definition": "A cameraless botanical study defined by white contact silhouettes and fine plant structure against documented Prussian-blue cyanotype chemistry.",
+  "aliases": [
+    "blue botanical print",
+    "Anna Atkins style plant photogram"
+  ],
+  "cues": [
+    "cyanotype-process",
+    "photogram-process",
+    "monochrome-color",
+    "scientific"
+  ],
+  "antiCues": [
+    "blue-tinted camera photograph",
+    "volumetric lens perspective"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "scientific",
+      "fine-art"
+    ],
+    "viewpoint-framing": [
+      "detail-framing",
+      "overhead",
+      "straight-on-view"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "lighting": [
+      "daylight",
+      "flat-lighting"
+    ],
+    "composition": [
+      "negative-space",
+      "geometric-order"
+    ],
+    "color-tonality": [
+      "monochrome-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "cyanotype-process",
+      "photogram-process"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "straight-photography"
+    ],
+    "format-output": [
+      "portrait-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "Prussian-blue field",
+    "contact silhouette",
+    "botanical specificity"
+  ],
+  "adaptiveGuidance": [
+    "Adapt arrangement to the specimen; say appearance of cyanotype unless the real chemical process is documented."
+  ],
+  "applicability": [
+    "plants",
+    "specimens",
+    "cameraless studies"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-cyanotype-botanical-photogram"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Photographic Processes Video Series & Glossary",
+        "publisher": "George Eastman Museum",
+        "url": "https://www.eastman.org/photographic-processes-video-series-glossary",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A cameraless botanical study defined by white contact silhouettes and fine plant structure against documented Prussian-blue cyanotype chemistry."
+        ]
+      }
+    ]
+  }
+}

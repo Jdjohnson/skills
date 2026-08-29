@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consulting Navigator"
+  short_description: "Route ambiguous decisions to useful methods"
+  default_prompt: "Use $consulting-navigator to frame this decision and select the smallest useful method stack."

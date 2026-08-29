@@ -1,0 +1,4 @@
+interface:
+  display_name: "Time Partner"
+  short_description: "Plan, track, review, and reflect in-period"
+  default_prompt: "Use $time-partner for conversational journaling, planning, tracking, closeout, review, orientation, or in-period reflection."

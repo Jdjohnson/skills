@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "portable_exact_generation_record",
+  "styleId": "studio-pottery",
+  "generatedAt": "2026-08-02",
+  "model": "OpenAI imagegen built-in tool (exact model identifier not exposed)",
+  "generator": "OpenAI imagegen built-in tool",
+  "promptRecordStatus": "exact",
+  "prompt": "recognizable movement-level approximation\nUse case: product-mockup\nAsset type: Beauty Director studio-pottery style reference, portrait 4:5\nPrimary request: Create an original small-batch pottery studio portrait where one resolved vessel is unmistakably the hero and the making process remains visible.\nScene/backdrop: working ceramic studio with a wheel edge, two glaze test tiles, trimming tool, kiln shelf, and a softly blurred shelf of related forms\nSubject: one large wheel-thrown stoneware vessel in the foreground with a strong asymmetric shoulder, visible foot and rim, iron-rich clay body, ash-green glaze pooling, throwing rings, carved lines, and subtle kiln flashing; clay-dusted hands adjust the vessel near its base\nStyle/medium: photorealistic editorial craft photography\nComposition/framing: portrait 4:5; low three-quarter eye level, lead vessel fills the central frame with enough breathing room to read its silhouette, process tools remain clearly subordinate\nLighting/mood: raking side light reveals wall thickness, glaze depth, clay texture, and kiln variation; grounded and tactile\nColor palette: iron red, buff stoneware, ash green, charcoal, warm neutral studio tones\nConstraints: authored handmade form and small-batch process must dominate at thumbnail scale; credible clay and glaze behavior; no homeware catalog styling; no text; no logo; no watermark",
+  "sourceOutputStatus": "The distributable Skill retains the exact source-output SHA-256 but does not bundle the larger raw generation output.",
+  "sourceSha256": "8458ec2962b863e9e543952bc2aeb3960bccc4d91b9b7cef092960f975150982",
+  "finalAsset": "assets/refs/studio-pottery/generated-lead.jpg",
+  "finalSha256": "51cf2e4a5fd7c45cbedadd5b2e636dc7aa55736ac06e0f7dea0e2ae9eb4c127a",
+  "postProcessing": "Source output proportionally resized to fit within 800x1000 pixels, padded at the sides to preserve the complete generated composition, and converted to JPEG quality 90; no other edits.",
+  "provenanceNote": "This portable record preserves the exact prompt, generator, model label exposed by the tool, date, final asset, and checksums required to verify the bundled reference."
+}

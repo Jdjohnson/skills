@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "peak-action-photojournalism",
+  "displayName": "Peak-Action Documentary",
+  "family": "documentary-street-event",
+  "definition": "A real response, training, or public-event instant rendered at peak physical action with crisp motion, contextual stakes, and informational framing.",
+  "aliases": [
+    "decisive documentary action",
+    "emergency response photo"
+  ],
+  "cues": [
+    "documentary",
+    "frozen-motion",
+    "telephoto-compression",
+    "environmental-context"
+  ],
+  "antiCues": [
+    "posed reenactment presented as real",
+    "generic sports stock",
+    "contextless isolated action"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "documentary",
+      "photojournalism",
+      "event"
+    ],
+    "viewpoint-framing": [
+      "medium-shot",
+      "eye-level",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "telephoto-compression"
+    ],
+    "focus-depth": [
+      "moderate-separation"
+    ],
+    "exposure-motion": [
+      "frozen-motion"
+    ],
+    "lighting": [
+      "available-light",
+      "daylight",
+      "hard-light"
+    ],
+    "composition": [
+      "rule-of-thirds",
+      "edge-tension",
+      "environmental-context"
+    ],
+    "color-tonality": [
+      "neutral-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "contemporary-digital"
+    ],
+    "processing-texture": [
+      "crisp-clarity",
+      "natural-texture"
+    ],
+    "era-movement": [
+      "humanist-photojournalism"
+    ],
+    "format-output": [
+      "landscape-orientation",
+      "three-two-format"
+    ]
+  },
+  "lockedQualities": [
+    "legible decisive instant",
+    "real-world stakes",
+    "compressed contextual layers"
+  ],
+  "adaptiveGuidance": [
+    "Adapt focal length and shutter guidance to access and speed; state when an event is training, and never invent or remove material context."
+  ],
+  "applicability": [
+    "response training",
+    "news",
+    "public events"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-peak-action-photojournalism"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "The Photographic Record",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/photography/the-photographic-record",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A real response, training, or public-event instant rendered at peak physical action with crisp motion, contextual stakes, and informational framing."
+        ]
+      }
+    ]
+  }
+}

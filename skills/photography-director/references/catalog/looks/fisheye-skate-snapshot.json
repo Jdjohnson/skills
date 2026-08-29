@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "id": "fisheye-skate-snapshot",
+  "displayName": "Fisheye Skate Snapshot",
+  "family": "action-nature-experimental",
+  "definition": "A close action photograph with hemispheric fisheye curvature, looming foreground, hard flash or daylight, edge pressure, and immediate subcultural energy.",
+  "aliases": [
+    "fisheye skateboard photo",
+    "90s action fisheye"
+  ],
+  "cues": [
+    "fisheye-character",
+    "worm-eye",
+    "edge-tension",
+    "late-century-direct-flash"
+  ],
+  "antiCues": [
+    "rectilinear architecture",
+    "distant telephoto action",
+    "subtle formal balance"
+  ],
+  "axisValues": {
+    "genre-use": [
+      "sports",
+      "street",
+      "documentary"
+    ],
+    "viewpoint-framing": [
+      "worm-eye",
+      "extreme-wide",
+      "off-center-framing"
+    ],
+    "lens-perspective": [
+      "fisheye-character",
+      "ultra-wide-character"
+    ],
+    "focus-depth": [
+      "deep-focus"
+    ],
+    "exposure-motion": [
+      "frozen-motion",
+      "natural-motion"
+    ],
+    "lighting": [
+      "on-camera-flash",
+      "daylight",
+      "hard-light",
+      "front-light"
+    ],
+    "composition": [
+      "edge-tension",
+      "diagonal-composition",
+      "deliberate-imbalance"
+    ],
+    "color-tonality": [
+      "saturated-color",
+      "high-contrast-tonality"
+    ],
+    "medium-process": [
+      "35mm-color-negative"
+    ],
+    "processing-texture": [
+      "pronounced-grain",
+      "direct-flash-harshness"
+    ],
+    "era-movement": [
+      "late-century-direct-flash",
+      "late-century-fashion"
+    ],
+    "format-output": [
+      "three-two-format",
+      "landscape-orientation"
+    ]
+  },
+  "lockedQualities": [
+    "curved ultra-wide field",
+    "close low action",
+    "edge-driven energy"
+  ],
+  "adaptiveGuidance": [
+    "Adapt camera proximity to safety and action path; preserve real fisheye curvature rather than arbitrary warping."
+  ],
+  "applicability": [
+    "skate",
+    "BMX",
+    "music",
+    "subculture documentary"
+  ],
+  "incompatibilities": [],
+  "referenceIds": [
+    "ref-fisheye-skate-snapshot"
+  ],
+  "evidence": {
+    "sources": [
+      {
+        "title": "Lens basics",
+        "publisher": "Sony",
+        "url": "https://www.sony.com/electronics/support/articles/00268239",
+        "accessedAt": "2026-08-10",
+        "supports": [
+          "A close action photograph with hemispheric fisheye curvature, looming foreground, hard flash or daylight, edge pressure, and immediate subcultural energy."
+        ]
+      }
+    ]
+  }
+}

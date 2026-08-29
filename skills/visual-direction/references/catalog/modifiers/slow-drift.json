@@ -1,0 +1,55 @@
+{
+  "id": "slow-drift",
+  "group": "motion-energy",
+  "definition": "Suggest slow atmospheric drift.",
+  "targetConcerns": [
+    "motion",
+    "lighting"
+  ],
+  "compatibleStyles": [
+    "motion-sticker",
+    "film-noir"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "impact-freeze"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "motion",
+          "path": "energy",
+          "factor": 0.85
+        },
+        {
+          "op": "addParam",
+          "concern": "lighting",
+          "path": "contrast",
+          "amount": -0.15
+        }
+      ]
+    }
+  }
+}

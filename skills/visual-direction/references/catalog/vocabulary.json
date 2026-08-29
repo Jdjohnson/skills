@@ -1,0 +1,3525 @@
+{
+  "version": 1,
+  "tags": [
+    {
+      "id": "calm",
+      "group": "emotion"
+    },
+    {
+      "id": "energized",
+      "group": "emotion"
+    },
+    {
+      "id": "joyful",
+      "group": "emotion"
+    },
+    {
+      "id": "solemn",
+      "group": "emotion"
+    },
+    {
+      "id": "intimate",
+      "group": "emotion"
+    },
+    {
+      "id": "monumental",
+      "group": "emotion"
+    },
+    {
+      "id": "playful",
+      "group": "emotion"
+    },
+    {
+      "id": "austere",
+      "group": "emotion"
+    },
+    {
+      "id": "nostalgic",
+      "group": "emotion"
+    },
+    {
+      "id": "futuristic-feel",
+      "group": "emotion"
+    },
+    {
+      "id": "mysterious",
+      "group": "emotion"
+    },
+    {
+      "id": "clear-headed",
+      "group": "emotion"
+    },
+    {
+      "id": "luxurious-feel",
+      "group": "emotion"
+    },
+    {
+      "id": "humble",
+      "group": "emotion"
+    },
+    {
+      "id": "rebellious",
+      "group": "emotion"
+    },
+    {
+      "id": "serene",
+      "group": "emotion"
+    },
+    {
+      "id": "dramatic",
+      "group": "emotion"
+    },
+    {
+      "id": "whimsical",
+      "group": "emotion"
+    },
+    {
+      "id": "scholarly",
+      "group": "emotion"
+    },
+    {
+      "id": "sensual",
+      "group": "emotion"
+    },
+    {
+      "id": "clinical",
+      "group": "emotion"
+    },
+    {
+      "id": "warm-hearted",
+      "group": "emotion"
+    },
+    {
+      "id": "cool-detached",
+      "group": "emotion"
+    },
+    {
+      "id": "urgent",
+      "group": "emotion"
+    },
+    {
+      "id": "timeless",
+      "group": "emotion"
+    },
+    {
+      "id": "paper",
+      "group": "material"
+    },
+    {
+      "id": "ink",
+      "group": "material"
+    },
+    {
+      "id": "wood",
+      "group": "material"
+    },
+    {
+      "id": "stone",
+      "group": "material"
+    },
+    {
+      "id": "concrete",
+      "group": "material"
+    },
+    {
+      "id": "metal",
+      "group": "material"
+    },
+    {
+      "id": "glass",
+      "group": "material"
+    },
+    {
+      "id": "fabric",
+      "group": "material"
+    },
+    {
+      "id": "ceramic",
+      "group": "material"
+    },
+    {
+      "id": "plastic",
+      "group": "material"
+    },
+    {
+      "id": "film-grain",
+      "group": "material"
+    },
+    {
+      "id": "neon",
+      "group": "material"
+    },
+    {
+      "id": "gold-leaf",
+      "group": "material"
+    },
+    {
+      "id": "velvet",
+      "group": "material"
+    },
+    {
+      "id": "linen",
+      "group": "material"
+    },
+    {
+      "id": "brass",
+      "group": "material"
+    },
+    {
+      "id": "chrome",
+      "group": "material"
+    },
+    {
+      "id": "marble",
+      "group": "material"
+    },
+    {
+      "id": "clay",
+      "group": "material"
+    },
+    {
+      "id": "screen-pixel",
+      "group": "material"
+    },
+    {
+      "id": "watercolor-wash",
+      "group": "material"
+    },
+    {
+      "id": "letterpress-ink",
+      "group": "material"
+    },
+    {
+      "id": "silk",
+      "group": "material"
+    },
+    {
+      "id": "cardboard",
+      "group": "material"
+    },
+    {
+      "id": "enamel",
+      "group": "material"
+    },
+    {
+      "id": "patina",
+      "group": "material"
+    },
+    {
+      "id": "dust",
+      "group": "material"
+    },
+    {
+      "id": "fog",
+      "group": "material"
+    },
+    {
+      "id": "lacquer",
+      "group": "material"
+    },
+    {
+      "id": "matte-paint",
+      "group": "material"
+    },
+    {
+      "id": "ancient",
+      "group": "era"
+    },
+    {
+      "id": "medieval",
+      "group": "era"
+    },
+    {
+      "id": "renaissance",
+      "group": "era"
+    },
+    {
+      "id": "baroque-era",
+      "group": "era"
+    },
+    {
+      "id": "rococo-era",
+      "group": "era"
+    },
+    {
+      "id": "victorian-era",
+      "group": "era"
+    },
+    {
+      "id": "art-nouveau-era",
+      "group": "era"
+    },
+    {
+      "id": "art-deco-era",
+      "group": "era"
+    },
+    {
+      "id": "bauhaus-era",
+      "group": "era"
+    },
+    {
+      "id": "mid-century",
+      "group": "era"
+    },
+    {
+      "id": "1970s",
+      "group": "era"
+    },
+    {
+      "id": "1980s",
+      "group": "era"
+    },
+    {
+      "id": "1990s",
+      "group": "era"
+    },
+    {
+      "id": "y2k-era",
+      "group": "era"
+    },
+    {
+      "id": "contemporary",
+      "group": "era"
+    },
+    {
+      "id": "near-future",
+      "group": "era"
+    },
+    {
+      "id": "timeless-era",
+      "group": "era"
+    },
+    {
+      "id": "belle-epoque-era",
+      "group": "era"
+    },
+    {
+      "id": "postwar",
+      "group": "era"
+    },
+    {
+      "id": "digital-era",
+      "group": "era"
+    },
+    {
+      "id": "prewar",
+      "group": "era"
+    },
+    {
+      "id": "classical-era",
+      "group": "era"
+    },
+    {
+      "id": "folk-era",
+      "group": "era"
+    },
+    {
+      "id": "industrial-era",
+      "group": "era"
+    },
+    {
+      "id": "machine-age",
+      "group": "era"
+    },
+    {
+      "id": "grid",
+      "group": "formal"
+    },
+    {
+      "id": "symmetry",
+      "group": "formal"
+    },
+    {
+      "id": "asymmetry",
+      "group": "formal"
+    },
+    {
+      "id": "minimal",
+      "group": "formal"
+    },
+    {
+      "id": "ornate",
+      "group": "formal"
+    },
+    {
+      "id": "geometric",
+      "group": "formal"
+    },
+    {
+      "id": "organic",
+      "group": "formal"
+    },
+    {
+      "id": "flat",
+      "group": "formal"
+    },
+    {
+      "id": "deep",
+      "group": "formal"
+    },
+    {
+      "id": "high-contrast",
+      "group": "formal"
+    },
+    {
+      "id": "low-contrast",
+      "group": "formal"
+    },
+    {
+      "id": "modular",
+      "group": "formal"
+    },
+    {
+      "id": "freeform",
+      "group": "formal"
+    },
+    {
+      "id": "dense",
+      "group": "formal"
+    },
+    {
+      "id": "sparse",
+      "group": "formal"
+    },
+    {
+      "id": "typographic",
+      "group": "formal"
+    },
+    {
+      "id": "pictorial",
+      "group": "formal"
+    },
+    {
+      "id": "diagrammatic",
+      "group": "formal"
+    },
+    {
+      "id": "collage",
+      "group": "formal"
+    },
+    {
+      "id": "photographic",
+      "group": "formal"
+    },
+    {
+      "id": "illustrated",
+      "group": "formal"
+    },
+    {
+      "id": "monochrome",
+      "group": "formal"
+    },
+    {
+      "id": "polychrome",
+      "group": "formal"
+    },
+    {
+      "id": "linear",
+      "group": "formal"
+    },
+    {
+      "id": "painterly",
+      "group": "formal"
+    },
+    {
+      "id": "sculptural",
+      "group": "formal"
+    },
+    {
+      "id": "isometric",
+      "group": "formal"
+    },
+    {
+      "id": "planar",
+      "group": "formal"
+    },
+    {
+      "id": "layered",
+      "group": "formal"
+    },
+    {
+      "id": "framed",
+      "group": "formal"
+    },
+    {
+      "id": "bleeding",
+      "group": "formal"
+    },
+    {
+      "id": "centered",
+      "group": "formal"
+    },
+    {
+      "id": "flush-left",
+      "group": "formal"
+    },
+    {
+      "id": "ragged",
+      "group": "formal"
+    },
+    {
+      "id": "monument-scale",
+      "group": "formal"
+    },
+    {
+      "id": "intimate-scale",
+      "group": "formal"
+    },
+    {
+      "id": "bordered",
+      "group": "formal"
+    },
+    {
+      "id": "open-field",
+      "group": "formal"
+    },
+    {
+      "id": "tessellated",
+      "group": "formal"
+    },
+    {
+      "id": "radial",
+      "group": "formal"
+    },
+    {
+      "id": "axial",
+      "group": "formal"
+    },
+    {
+      "id": "hierarchical",
+      "group": "formal"
+    },
+    {
+      "id": "networked",
+      "group": "formal"
+    },
+    {
+      "id": "serial",
+      "group": "formal"
+    },
+    {
+      "id": "singular-focus",
+      "group": "formal"
+    },
+    {
+      "id": "repetition",
+      "group": "formal"
+    },
+    {
+      "id": "variation",
+      "group": "formal"
+    },
+    {
+      "id": "silhouette",
+      "group": "formal"
+    },
+    {
+      "id": "outline",
+      "group": "formal"
+    },
+    {
+      "id": "halftone",
+      "group": "formal"
+    },
+    {
+      "id": "gradient-form",
+      "group": "formal"
+    },
+    {
+      "id": "hard-edge",
+      "group": "formal"
+    },
+    {
+      "id": "soft-edge",
+      "group": "formal"
+    },
+    {
+      "id": "negative-space",
+      "group": "formal"
+    },
+    {
+      "id": "positive-space",
+      "group": "formal"
+    },
+    {
+      "id": "rule-bound",
+      "group": "formal"
+    },
+    {
+      "id": "improvised",
+      "group": "formal"
+    },
+    {
+      "id": "systematic",
+      "group": "formal"
+    },
+    {
+      "id": "vernacular-form",
+      "group": "formal"
+    },
+    {
+      "id": "institutional",
+      "group": "formal"
+    },
+    {
+      "id": "hand-drawn",
+      "group": "formal"
+    },
+    {
+      "id": "machine-precise",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-border",
+      "group": "formal"
+    },
+    {
+      "id": "panelized",
+      "group": "formal"
+    },
+    {
+      "id": "captioned",
+      "group": "formal"
+    },
+    {
+      "id": "annotated",
+      "group": "formal"
+    },
+    {
+      "id": "iconic",
+      "group": "formal"
+    },
+    {
+      "id": "narrative",
+      "group": "formal"
+    },
+    {
+      "id": "abstract-form",
+      "group": "formal"
+    },
+    {
+      "id": "figurative",
+      "group": "formal"
+    },
+    {
+      "id": "cartographic",
+      "group": "formal"
+    },
+    {
+      "id": "schematic",
+      "group": "formal"
+    },
+    {
+      "id": "poster-scale",
+      "group": "formal"
+    },
+    {
+      "id": "page-scale",
+      "group": "formal"
+    },
+    {
+      "id": "screen-scale",
+      "group": "formal"
+    },
+    {
+      "id": "object-scale",
+      "group": "formal"
+    },
+    {
+      "id": "environmental-scale",
+      "group": "formal"
+    },
+    {
+      "id": "editorial-pace",
+      "group": "formal"
+    },
+    {
+      "id": "advertising-pace",
+      "group": "formal"
+    },
+    {
+      "id": "meditative-pace",
+      "group": "formal"
+    },
+    {
+      "id": "kinetic",
+      "group": "formal"
+    },
+    {
+      "id": "static",
+      "group": "formal"
+    },
+    {
+      "id": "transparent",
+      "group": "formal"
+    },
+    {
+      "id": "opaque",
+      "group": "formal"
+    },
+    {
+      "id": "translucent",
+      "group": "formal"
+    },
+    {
+      "id": "reflective",
+      "group": "formal"
+    },
+    {
+      "id": "absorbent",
+      "group": "formal"
+    },
+    {
+      "id": "rough",
+      "group": "formal"
+    },
+    {
+      "id": "smooth",
+      "group": "formal"
+    },
+    {
+      "id": "patterned",
+      "group": "formal"
+    },
+    {
+      "id": "plain",
+      "group": "formal"
+    },
+    {
+      "id": "structured-type",
+      "group": "formal"
+    },
+    {
+      "id": "display-type",
+      "group": "formal"
+    },
+    {
+      "id": "text-type",
+      "group": "formal"
+    },
+    {
+      "id": "pictogram",
+      "group": "formal"
+    },
+    {
+      "id": "letterform-as-image",
+      "group": "formal"
+    },
+    {
+      "id": "image-as-type",
+      "group": "formal"
+    },
+    {
+      "id": "dual-tone",
+      "group": "formal"
+    },
+    {
+      "id": "tri-tone",
+      "group": "formal"
+    },
+    {
+      "id": "full-spectrum",
+      "group": "formal"
+    },
+    {
+      "id": "muted-chroma",
+      "group": "formal"
+    },
+    {
+      "id": "vivid-chroma",
+      "group": "formal"
+    },
+    {
+      "id": "earth-chroma",
+      "group": "formal"
+    },
+    {
+      "id": "pastel-chroma",
+      "group": "formal"
+    },
+    {
+      "id": "neon-chroma",
+      "group": "formal"
+    },
+    {
+      "id": "ink-black",
+      "group": "formal"
+    },
+    {
+      "id": "paper-white",
+      "group": "formal"
+    },
+    {
+      "id": "midtone-heavy",
+      "group": "formal"
+    },
+    {
+      "id": "shadow-heavy",
+      "group": "formal"
+    },
+    {
+      "id": "highlight-heavy",
+      "group": "formal"
+    },
+    {
+      "id": "edge-defined",
+      "group": "formal"
+    },
+    {
+      "id": "atmosphere-defined",
+      "group": "formal"
+    },
+    {
+      "id": "material-defined",
+      "group": "formal"
+    },
+    {
+      "id": "light-defined",
+      "group": "formal"
+    },
+    {
+      "id": "grid-defined",
+      "group": "formal"
+    },
+    {
+      "id": "motif-defined",
+      "group": "formal"
+    },
+    {
+      "id": "subject-defined",
+      "group": "formal"
+    },
+    {
+      "id": "raw-form",
+      "group": "formal"
+    },
+    {
+      "id": "historical-form",
+      "group": "formal"
+    },
+    {
+      "id": "commercial-form",
+      "group": "formal"
+    },
+    {
+      "id": "technical-form",
+      "group": "formal"
+    },
+    {
+      "id": "commercial",
+      "group": "signal"
+    },
+    {
+      "id": "cultural",
+      "group": "signal"
+    },
+    {
+      "id": "domestic",
+      "group": "signal"
+    },
+    {
+      "id": "ceremonial",
+      "group": "signal"
+    },
+    {
+      "id": "technical",
+      "group": "signal"
+    },
+    {
+      "id": "educational",
+      "group": "signal"
+    },
+    {
+      "id": "recreational",
+      "group": "signal"
+    },
+    {
+      "id": "fashion-signal",
+      "group": "signal"
+    },
+    {
+      "id": "editorial-signal",
+      "group": "signal"
+    },
+    {
+      "id": "product-signal",
+      "group": "signal"
+    },
+    {
+      "id": "wayfinding-signal",
+      "group": "signal"
+    },
+    {
+      "id": "brand-signal",
+      "group": "signal"
+    },
+    {
+      "id": "craft-signal",
+      "group": "signal"
+    },
+    {
+      "id": "art-signal",
+      "group": "signal"
+    },
+    {
+      "id": "science-signal",
+      "group": "signal"
+    },
+    {
+      "id": "hospitality-signal",
+      "group": "signal"
+    },
+    {
+      "id": "street-signal",
+      "group": "signal"
+    },
+    {
+      "id": "luxury-signal",
+      "group": "signal"
+    },
+    {
+      "id": "utility-signal",
+      "group": "signal"
+    },
+    {
+      "id": "youth-signal",
+      "group": "signal"
+    },
+    {
+      "id": "heritage-signal",
+      "group": "signal"
+    },
+    {
+      "id": "digital-signal",
+      "group": "signal"
+    },
+    {
+      "id": "print-signal",
+      "group": "signal"
+    },
+    {
+      "id": "spatial-signal",
+      "group": "signal"
+    },
+    {
+      "id": "performance-signal",
+      "group": "signal"
+    },
+    {
+      "id": "documentary-signal",
+      "group": "signal"
+    },
+    {
+      "id": "play-signal",
+      "group": "signal"
+    },
+    {
+      "id": "ritual-signal",
+      "group": "signal"
+    },
+    {
+      "id": "industrial-signal",
+      "group": "signal"
+    },
+    {
+      "id": "natural-signal",
+      "group": "signal"
+    },
+    {
+      "id": "urban-signal",
+      "group": "signal"
+    },
+    {
+      "id": "rural-signal",
+      "group": "signal"
+    },
+    {
+      "id": "collector-signal",
+      "group": "signal"
+    },
+    {
+      "id": "mass-market-signal",
+      "group": "signal"
+    },
+    {
+      "id": "atelier-signal",
+      "group": "signal"
+    },
+    {
+      "id": "museum-signal",
+      "group": "signal"
+    },
+    {
+      "id": "news-signal",
+      "group": "signal"
+    },
+    {
+      "id": "poetry-signal",
+      "group": "signal"
+    },
+    {
+      "id": "catalog-signal",
+      "group": "signal"
+    },
+    {
+      "id": "packaging-signal",
+      "group": "signal"
+    },
+    {
+      "id": "interface-signal",
+      "group": "signal"
+    },
+    {
+      "id": "cinematic-signal",
+      "group": "signal"
+    },
+    {
+      "id": "theatrical-signal",
+      "group": "signal"
+    },
+    {
+      "id": "architectural-signal",
+      "group": "signal"
+    },
+    {
+      "id": "cartographic-signal",
+      "group": "signal"
+    },
+    {
+      "id": "didactic-signal",
+      "group": "signal"
+    },
+    {
+      "id": "festive-signal",
+      "group": "signal"
+    },
+    {
+      "id": "solemn-signal",
+      "group": "signal"
+    },
+    {
+      "id": "abstract-block",
+      "group": "formal"
+    },
+    {
+      "id": "action-climax",
+      "group": "formal"
+    },
+    {
+      "id": "active-white-space",
+      "group": "formal"
+    },
+    {
+      "id": "adult-editorial-density",
+      "group": "formal"
+    },
+    {
+      "id": "airbrushed-gloss",
+      "group": "formal"
+    },
+    {
+      "id": "alphabet-display",
+      "group": "formal"
+    },
+    {
+      "id": "ambient-room-fill",
+      "group": "formal"
+    },
+    {
+      "id": "ambiguous-arrows",
+      "group": "formal"
+    },
+    {
+      "id": "ambiguous-narrative",
+      "group": "formal"
+    },
+    {
+      "id": "anime-pastiche",
+      "group": "formal"
+    },
+    {
+      "id": "annotated-sequence",
+      "group": "formal"
+    },
+    {
+      "id": "annotated-star-field",
+      "group": "formal"
+    },
+    {
+      "id": "anticipation-pose",
+      "group": "formal"
+    },
+    {
+      "id": "apparatus-sketch",
+      "group": "formal"
+    },
+    {
+      "id": "applique-borders",
+      "group": "formal"
+    },
+    {
+      "id": "arches-and-cylinders",
+      "group": "formal"
+    },
+    {
+      "id": "architectural-assembly",
+      "group": "formal"
+    },
+    {
+      "id": "art-directed-fashion",
+      "group": "formal"
+    },
+    {
+      "id": "art-text-dialogue",
+      "group": "formal"
+    },
+    {
+      "id": "article-structure",
+      "group": "formal"
+    },
+    {
+      "id": "astrology-zodiac-poster",
+      "group": "formal"
+    },
+    {
+      "id": "asymmetric",
+      "group": "formal"
+    },
+    {
+      "id": "asymmetrical-balance",
+      "group": "formal"
+    },
+    {
+      "id": "atmospheric-texture",
+      "group": "formal"
+    },
+    {
+      "id": "available-light",
+      "group": "formal"
+    },
+    {
+      "id": "awning-stripes",
+      "group": "formal"
+    },
+    {
+      "id": "balanced-portrait",
+      "group": "formal"
+    },
+    {
+      "id": "bathroom-showroom",
+      "group": "formal"
+    },
+    {
+      "id": "black-void",
+      "group": "formal"
+    },
+    {
+      "id": "blocked-sightline",
+      "group": "formal"
+    },
+    {
+      "id": "blown-white",
+      "group": "formal"
+    },
+    {
+      "id": "blue-neon-wireframe",
+      "group": "formal"
+    },
+    {
+      "id": "bold-outline",
+      "group": "formal"
+    },
+    {
+      "id": "border-placement",
+      "group": "formal"
+    },
+    {
+      "id": "border-system",
+      "group": "formal"
+    },
+    {
+      "id": "bouquet-composition",
+      "group": "formal"
+    },
+    {
+      "id": "boutique-hangtag",
+      "group": "formal"
+    },
+    {
+      "id": "box-panel-hierarchy",
+      "group": "formal"
+    },
+    {
+      "id": "brand-identity-board",
+      "group": "formal"
+    },
+    {
+      "id": "brand-specific-glyph-copy",
+      "group": "formal"
+    },
+    {
+      "id": "branded-construction-set",
+      "group": "formal"
+    },
+    {
+      "id": "bright-object-family",
+      "group": "formal"
+    },
+    {
+      "id": "buildable-parts",
+      "group": "formal"
+    },
+    {
+      "id": "calculation",
+      "group": "formal"
+    },
+    {
+      "id": "caption-discipline",
+      "group": "formal"
+    },
+    {
+      "id": "caption-utility",
+      "group": "formal"
+    },
+    {
+      "id": "captioned-photo",
+      "group": "formal"
+    },
+    {
+      "id": "carved-relief-line",
+      "group": "formal"
+    },
+    {
+      "id": "cast-paper-shadow",
+      "group": "formal"
+    },
+    {
+      "id": "catalog-grid",
+      "group": "formal"
+    },
+    {
+      "id": "catalog-number",
+      "group": "formal"
+    },
+    {
+      "id": "celestial-coordinate-grid",
+      "group": "formal"
+    },
+    {
+      "id": "centered-type",
+      "group": "formal"
+    },
+    {
+      "id": "ceremonial-color",
+      "group": "formal"
+    },
+    {
+      "id": "chaotic-overlap",
+      "group": "formal"
+    },
+    {
+      "id": "charged-negative-space",
+      "group": "formal"
+    },
+    {
+      "id": "cheerful-symmetry",
+      "group": "formal"
+    },
+    {
+      "id": "child-eye-level",
+      "group": "formal"
+    },
+    {
+      "id": "citations-footnotes",
+      "group": "formal"
+    },
+    {
+      "id": "clean-digital-gradient",
+      "group": "formal"
+    },
+    {
+      "id": "clean-final-report",
+      "group": "formal"
+    },
+    {
+      "id": "clean-tourist-vista",
+      "group": "formal"
+    },
+    {
+      "id": "clear-story-beat",
+      "group": "formal"
+    },
+    {
+      "id": "clinical-color",
+      "group": "formal"
+    },
+    {
+      "id": "clinical-white-balance",
+      "group": "formal"
+    },
+    {
+      "id": "cloth-flags",
+      "group": "formal"
+    },
+    {
+      "id": "cloth-ground",
+      "group": "formal"
+    },
+    {
+      "id": "collectible-variation",
+      "group": "formal"
+    },
+    {
+      "id": "collection-locality",
+      "group": "formal"
+    },
+    {
+      "id": "collector-date",
+      "group": "formal"
+    },
+    {
+      "id": "color-coded",
+      "group": "formal"
+    },
+    {
+      "id": "color-rotation",
+      "group": "formal"
+    },
+    {
+      "id": "colored-practical-light",
+      "group": "formal"
+    },
+    {
+      "id": "colored-sheet",
+      "group": "formal"
+    },
+    {
+      "id": "compact-institutional-type",
+      "group": "formal"
+    },
+    {
+      "id": "comparative-flow",
+      "group": "formal"
+    },
+    {
+      "id": "comparative-specimens",
+      "group": "formal"
+    },
+    {
+      "id": "comparison",
+      "group": "formal"
+    },
+    {
+      "id": "component-hierarchy",
+      "group": "formal"
+    },
+    {
+      "id": "component-id",
+      "group": "formal"
+    },
+    {
+      "id": "component-preview",
+      "group": "formal"
+    },
+    {
+      "id": "compressed-figure-ground",
+      "group": "formal"
+    },
+    {
+      "id": "compressed-perspective",
+      "group": "formal"
+    },
+    {
+      "id": "concept-sketch",
+      "group": "formal"
+    },
+    {
+      "id": "concert-wash",
+      "group": "formal"
+    },
+    {
+      "id": "concise-field-notes",
+      "group": "formal"
+    },
+    {
+      "id": "connected-net",
+      "group": "formal"
+    },
+    {
+      "id": "consistent-angle",
+      "group": "formal"
+    },
+    {
+      "id": "consistent-glyph-style",
+      "group": "formal"
+    },
+    {
+      "id": "consistent-mark",
+      "group": "formal"
+    },
+    {
+      "id": "consistent-offset",
+      "group": "formal"
+    },
+    {
+      "id": "consistent-scale",
+      "group": "formal"
+    },
+    {
+      "id": "constellation-boundary",
+      "group": "formal"
+    },
+    {
+      "id": "contemporary-photography",
+      "group": "formal"
+    },
+    {
+      "id": "contextless-poverty-aesthetic",
+      "group": "formal"
+    },
+    {
+      "id": "contextual-environment",
+      "group": "formal"
+    },
+    {
+      "id": "continuation-spread",
+      "group": "formal"
+    },
+    {
+      "id": "continuous-cloth-field",
+      "group": "formal"
+    },
+    {
+      "id": "continuous-surface",
+      "group": "formal"
+    },
+    {
+      "id": "contour-lines",
+      "group": "formal"
+    },
+    {
+      "id": "controlled-asymmetry",
+      "group": "formal"
+    },
+    {
+      "id": "controlled-haze",
+      "group": "formal"
+    },
+    {
+      "id": "controlled-variation",
+      "group": "formal"
+    },
+    {
+      "id": "cool-shadow",
+      "group": "formal"
+    },
+    {
+      "id": "coordinated-motif-family",
+      "group": "formal"
+    },
+    {
+      "id": "corporate-brand-system",
+      "group": "formal"
+    },
+    {
+      "id": "corporate-event-bunting",
+      "group": "formal"
+    },
+    {
+      "id": "corporate-planogram",
+      "group": "formal"
+    },
+    {
+      "id": "costume-plate",
+      "group": "formal"
+    },
+    {
+      "id": "cover-only",
+      "group": "formal"
+    },
+    {
+      "id": "crate-grid",
+      "group": "formal"
+    },
+    {
+      "id": "credit-rhythm",
+      "group": "formal"
+    },
+    {
+      "id": "crisp-distant-detail",
+      "group": "formal"
+    },
+    {
+      "id": "criticism",
+      "group": "formal"
+    },
+    {
+      "id": "cropped-detail-only",
+      "group": "formal"
+    },
+    {
+      "id": "cropped-scale",
+      "group": "formal"
+    },
+    {
+      "id": "cross-touchpoint",
+      "group": "formal"
+    },
+    {
+      "id": "crossing-out",
+      "group": "formal"
+    },
+    {
+      "id": "crushed-black",
+      "group": "formal"
+    },
+    {
+      "id": "culture-collage",
+      "group": "formal"
+    },
+    {
+      "id": "culture-mixing",
+      "group": "formal"
+    },
+    {
+      "id": "cut-paper",
+      "group": "formal"
+    },
+    {
+      "id": "cut-paper-edge",
+      "group": "formal"
+    },
+    {
+      "id": "cutaway-space",
+      "group": "formal"
+    },
+    {
+      "id": "cutout-bounce",
+      "group": "formal"
+    },
+    {
+      "id": "cyberpunk-trace",
+      "group": "formal"
+    },
+    {
+      "id": "dashboard-glow",
+      "group": "formal"
+    },
+    {
+      "id": "dashboard-ui",
+      "group": "formal"
+    },
+    {
+      "id": "data-free-diagram",
+      "group": "formal"
+    },
+    {
+      "id": "dated-entry",
+      "group": "formal"
+    },
+    {
+      "id": "daytime-road",
+      "group": "formal"
+    },
+    {
+      "id": "decoration",
+      "group": "formal"
+    },
+    {
+      "id": "decorative",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-chart",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-circuit-pattern",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-collage",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-compass-rose",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-constellation-lines",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-display",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-distress",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-gallery",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-herbarium",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-icon-grid",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-journal",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-latin",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-monochrome-pattern",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-skeleton",
+      "group": "formal"
+    },
+    {
+      "id": "decorative-symmetry",
+      "group": "formal"
+    },
+    {
+      "id": "deep-photographic-scene",
+      "group": "formal"
+    },
+    {
+      "id": "deep-urban-night",
+      "group": "formal"
+    },
+    {
+      "id": "delicate-engraving",
+      "group": "formal"
+    },
+    {
+      "id": "dense-apparatus",
+      "group": "formal"
+    },
+    {
+      "id": "dense-columns",
+      "group": "formal"
+    },
+    {
+      "id": "dense-interface-labels",
+      "group": "formal"
+    },
+    {
+      "id": "dense-neon-signage",
+      "group": "formal"
+    },
+    {
+      "id": "dense-open-air-hierarchy",
+      "group": "formal"
+    },
+    {
+      "id": "dense-research-paper",
+      "group": "formal"
+    },
+    {
+      "id": "diagnostic-callouts",
+      "group": "formal"
+    },
+    {
+      "id": "diagnostic-scale",
+      "group": "formal"
+    },
+    {
+      "id": "diaspora-narrative",
+      "group": "formal"
+    },
+    {
+      "id": "didactic-hierarchy",
+      "group": "formal"
+    },
+    {
+      "id": "diffused-air",
+      "group": "formal"
+    },
+    {
+      "id": "digital-gradient",
+      "group": "formal"
+    },
+    {
+      "id": "dimension-string",
+      "group": "formal"
+    },
+    {
+      "id": "dimensions",
+      "group": "formal"
+    },
+    {
+      "id": "directional",
+      "group": "formal"
+    },
+    {
+      "id": "directional-reading",
+      "group": "formal"
+    },
+    {
+      "id": "display-only",
+      "group": "formal"
+    },
+    {
+      "id": "dissected-details",
+      "group": "formal"
+    },
+    {
+      "id": "documentary-narrative",
+      "group": "formal"
+    },
+    {
+      "id": "domestic-scale",
+      "group": "formal"
+    },
+    {
+      "id": "ecliptic-band",
+      "group": "formal"
+    },
+    {
+      "id": "edit-rhythm",
+      "group": "formal"
+    },
+    {
+      "id": "efficient-nesting",
+      "group": "formal"
+    },
+    {
+      "id": "electrical-legend",
+      "group": "formal"
+    },
+    {
+      "id": "elemental-geometry",
+      "group": "formal"
+    },
+    {
+      "id": "elevation-label",
+      "group": "formal"
+    },
+    {
+      "id": "embroidered-figures",
+      "group": "formal"
+    },
+    {
+      "id": "emerging-form",
+      "group": "formal"
+    },
+    {
+      "id": "empty-stall",
+      "group": "formal"
+    },
+    {
+      "id": "encoded-quantity",
+      "group": "formal"
+    },
+    {
+      "id": "engraved-montage",
+      "group": "formal"
+    },
+    {
+      "id": "environmental",
+      "group": "formal"
+    },
+    {
+      "id": "equal-axis-projection",
+      "group": "formal"
+    },
+    {
+      "id": "erased-horizon",
+      "group": "formal"
+    },
+    {
+      "id": "essay-review-mix",
+      "group": "formal"
+    },
+    {
+      "id": "ethical-context",
+      "group": "formal"
+    },
+    {
+      "id": "event-specific-symbols",
+      "group": "formal"
+    },
+    {
+      "id": "evolving-thought",
+      "group": "formal"
+    },
+    {
+      "id": "explanatory-legend",
+      "group": "formal"
+    },
+    {
+      "id": "expressionist",
+      "group": "formal"
+    },
+    {
+      "id": "fabric-variation",
+      "group": "formal"
+    },
+    {
+      "id": "fake-equations",
+      "group": "formal"
+    },
+    {
+      "id": "fantasy-anatomy",
+      "group": "formal"
+    },
+    {
+      "id": "fantasy-map-ornament",
+      "group": "formal"
+    },
+    {
+      "id": "fantasy-plant",
+      "group": "formal"
+    },
+    {
+      "id": "fantasy-species",
+      "group": "formal"
+    },
+    {
+      "id": "fashion-glamour",
+      "group": "formal"
+    },
+    {
+      "id": "fashion-image",
+      "group": "formal"
+    },
+    {
+      "id": "fatalistic-tension",
+      "group": "formal"
+    },
+    {
+      "id": "feature-drama",
+      "group": "formal"
+    },
+    {
+      "id": "feature-opener",
+      "group": "formal"
+    },
+    {
+      "id": "festival-brightness",
+      "group": "formal"
+    },
+    {
+      "id": "figures-tables",
+      "group": "formal"
+    },
+    {
+      "id": "fine-contour",
+      "group": "formal"
+    },
+    {
+      "id": "flat-block-pattern",
+      "group": "formal"
+    },
+    {
+      "id": "flat-color",
+      "group": "formal"
+    },
+    {
+      "id": "flat-color-only",
+      "group": "formal"
+    },
+    {
+      "id": "flat-color-planes",
+      "group": "formal"
+    },
+    {
+      "id": "flat-front-light",
+      "group": "formal"
+    },
+    {
+      "id": "flat-midday-light",
+      "group": "formal"
+    },
+    {
+      "id": "flat-neon-ui",
+      "group": "formal"
+    },
+    {
+      "id": "flat-pastel-vector",
+      "group": "formal"
+    },
+    {
+      "id": "flat-pattern-only",
+      "group": "formal"
+    },
+    {
+      "id": "flat-vector-color",
+      "group": "formal"
+    },
+    {
+      "id": "flat-white-overlay",
+      "group": "formal"
+    },
+    {
+      "id": "flattened-scene",
+      "group": "formal"
+    },
+    {
+      "id": "floral-pattern",
+      "group": "formal"
+    },
+    {
+      "id": "forceful-contour",
+      "group": "formal"
+    },
+    {
+      "id": "foreground-obstruction",
+      "group": "formal"
+    },
+    {
+      "id": "frame-aware-layout",
+      "group": "formal"
+    },
+    {
+      "id": "frameless-vector-scene",
+      "group": "formal"
+    },
+    {
+      "id": "freeform-collage",
+      "group": "formal"
+    },
+    {
+      "id": "frosted-depth",
+      "group": "formal"
+    },
+    {
+      "id": "full-bleed",
+      "group": "formal"
+    },
+    {
+      "id": "full-sheet-order",
+      "group": "formal"
+    },
+    {
+      "id": "full-sticker-sheet",
+      "group": "formal"
+    },
+    {
+      "id": "full-threat-reveal",
+      "group": "formal"
+    },
+    {
+      "id": "functional-block",
+      "group": "formal"
+    },
+    {
+      "id": "functional-type",
+      "group": "formal"
+    },
+    {
+      "id": "garment-context",
+      "group": "formal"
+    },
+    {
+      "id": "generic-library-card",
+      "group": "formal"
+    },
+    {
+      "id": "generic-lifestyle",
+      "group": "formal"
+    },
+    {
+      "id": "generic-moroccan-mix",
+      "group": "formal"
+    },
+    {
+      "id": "generic-party-flags",
+      "group": "formal"
+    },
+    {
+      "id": "generic-retro-poster",
+      "group": "formal"
+    },
+    {
+      "id": "generic-rustic-metal",
+      "group": "formal"
+    },
+    {
+      "id": "generic-tapestry-filter",
+      "group": "formal"
+    },
+    {
+      "id": "generic-vector-folk",
+      "group": "formal"
+    },
+    {
+      "id": "generic-vintage-ephemera",
+      "group": "formal"
+    },
+    {
+      "id": "generous-margins",
+      "group": "formal"
+    },
+    {
+      "id": "glass-blur",
+      "group": "formal"
+    },
+    {
+      "id": "glazed-ceramic-units",
+      "group": "formal"
+    },
+    {
+      "id": "glossy-candy-plastic",
+      "group": "formal"
+    },
+    {
+      "id": "glossy-lifestyle-light",
+      "group": "formal"
+    },
+    {
+      "id": "glossy-plastic-depth",
+      "group": "formal"
+    },
+    {
+      "id": "glossy-surface",
+      "group": "formal"
+    },
+    {
+      "id": "glyph-detail",
+      "group": "formal"
+    },
+    {
+      "id": "grayscale",
+      "group": "formal"
+    },
+    {
+      "id": "grid-photography",
+      "group": "formal"
+    },
+    {
+      "id": "grocery-ledger",
+      "group": "formal"
+    },
+    {
+      "id": "hand-cut-variation",
+      "group": "formal"
+    },
+    {
+      "id": "hand-painted-lettering",
+      "group": "formal"
+    },
+    {
+      "id": "hand-sewn-labels",
+      "group": "formal"
+    },
+    {
+      "id": "hand-shaped-frame",
+      "group": "formal"
+    },
+    {
+      "id": "handmade-irregularity",
+      "group": "formal"
+    },
+    {
+      "id": "handwritten-price-cards",
+      "group": "formal"
+    },
+    {
+      "id": "hard-crop",
+      "group": "formal"
+    },
+    {
+      "id": "hard-edged-beam",
+      "group": "formal"
+    },
+    {
+      "id": "hard-light-cut",
+      "group": "formal"
+    },
+    {
+      "id": "hard-noir-shadow",
+      "group": "formal"
+    },
+    {
+      "id": "hard-shadow-cuts",
+      "group": "formal"
+    },
+    {
+      "id": "headline-deck",
+      "group": "formal"
+    },
+    {
+      "id": "heavy-black-shape",
+      "group": "formal"
+    },
+    {
+      "id": "held-moment",
+      "group": "formal"
+    },
+    {
+      "id": "high-key-pastel",
+      "group": "formal"
+    },
+    {
+      "id": "historicist",
+      "group": "formal"
+    },
+    {
+      "id": "horizon-ring",
+      "group": "formal"
+    },
+    {
+      "id": "horror-gore",
+      "group": "formal"
+    },
+    {
+      "id": "human-presence",
+      "group": "formal"
+    },
+    {
+      "id": "human-scale-tension",
+      "group": "formal"
+    },
+    {
+      "id": "icon-cloud",
+      "group": "formal"
+    },
+    {
+      "id": "icon-system",
+      "group": "formal"
+    },
+    {
+      "id": "identification-key",
+      "group": "formal"
+    },
+    {
+      "id": "identifier-hierarchy",
+      "group": "formal"
+    },
+    {
+      "id": "identity-system",
+      "group": "formal"
+    },
+    {
+      "id": "illustrated-premise",
+      "group": "formal"
+    },
+    {
+      "id": "illustrated-spread",
+      "group": "formal"
+    },
+    {
+      "id": "image-led",
+      "group": "formal"
+    },
+    {
+      "id": "image-text-balance",
+      "group": "formal"
+    },
+    {
+      "id": "image-text-pacing",
+      "group": "formal"
+    },
+    {
+      "id": "improvised-sign-shape",
+      "group": "formal"
+    },
+    {
+      "id": "inconsistent-branding",
+      "group": "formal"
+    },
+    {
+      "id": "industrial-sheet-metal",
+      "group": "formal"
+    },
+    {
+      "id": "inline-rhythm",
+      "group": "formal"
+    },
+    {
+      "id": "institutional-marginalia",
+      "group": "formal"
+    },
+    {
+      "id": "intellectual-brand",
+      "group": "formal"
+    },
+    {
+      "id": "interface-panels",
+      "group": "formal"
+    },
+    {
+      "id": "interoperable-token",
+      "group": "formal"
+    },
+    {
+      "id": "intimate-shrine-scale",
+      "group": "formal"
+    },
+    {
+      "id": "intimate-type",
+      "group": "formal"
+    },
+    {
+      "id": "isolated-die-cut-sticker",
+      "group": "formal"
+    },
+    {
+      "id": "junction-dot",
+      "group": "formal"
+    },
+    {
+      "id": "kinetic-silhouette",
+      "group": "formal"
+    },
+    {
+      "id": "kiss-cut-outline",
+      "group": "formal"
+    },
+    {
+      "id": "lane-rhythm",
+      "group": "formal"
+    },
+    {
+      "id": "large-exhibition-panel",
+      "group": "formal"
+    },
+    {
+      "id": "large-friendly-type",
+      "group": "formal"
+    },
+    {
+      "id": "layered-distance",
+      "group": "formal"
+    },
+    {
+      "id": "layered-overlap",
+      "group": "formal"
+    },
+    {
+      "id": "layered-system",
+      "group": "formal"
+    },
+    {
+      "id": "layered-veil-depth",
+      "group": "formal"
+    },
+    {
+      "id": "leader-lines",
+      "group": "formal"
+    },
+    {
+      "id": "leader-marks",
+      "group": "formal"
+    },
+    {
+      "id": "lens-flare",
+      "group": "formal"
+    },
+    {
+      "id": "lifestyle-promotion",
+      "group": "formal"
+    },
+    {
+      "id": "light-paper-texture",
+      "group": "formal"
+    },
+    {
+      "id": "limited-color-timing",
+      "group": "formal"
+    },
+    {
+      "id": "limited-ink",
+      "group": "formal"
+    },
+    {
+      "id": "literary-only",
+      "group": "formal"
+    },
+    {
+      "id": "local-commerce",
+      "group": "formal"
+    },
+    {
+      "id": "long-form",
+      "group": "formal"
+    },
+    {
+      "id": "long-shadow",
+      "group": "formal"
+    },
+    {
+      "id": "loose-botanical-watercolor",
+      "group": "formal"
+    },
+    {
+      "id": "loud-chroma",
+      "group": "formal"
+    },
+    {
+      "id": "low-amber-sun",
+      "group": "formal"
+    },
+    {
+      "id": "low-key-light",
+      "group": "formal"
+    },
+    {
+      "id": "luminous-mist",
+      "group": "formal"
+    },
+    {
+      "id": "luxury-merchandising",
+      "group": "formal"
+    },
+    {
+      "id": "luxury-polish",
+      "group": "formal"
+    },
+    {
+      "id": "luxury-signage",
+      "group": "formal"
+    },
+    {
+      "id": "luxury-whitespace",
+      "group": "formal"
+    },
+    {
+      "id": "magazine-chrome",
+      "group": "formal"
+    },
+    {
+      "id": "magazine-drama",
+      "group": "formal"
+    },
+    {
+      "id": "magenta-cyan-spill",
+      "group": "formal"
+    },
+    {
+      "id": "map-legend",
+      "group": "formal"
+    },
+    {
+      "id": "map-only",
+      "group": "formal"
+    },
+    {
+      "id": "masthead",
+      "group": "formal"
+    },
+    {
+      "id": "material-memory",
+      "group": "formal"
+    },
+    {
+      "id": "material-note",
+      "group": "formal"
+    },
+    {
+      "id": "matte-wood-block",
+      "group": "formal"
+    },
+    {
+      "id": "measured-hierarchy",
+      "group": "formal"
+    },
+    {
+      "id": "measured-plan",
+      "group": "formal"
+    },
+    {
+      "id": "measured-scale",
+      "group": "formal"
+    },
+    {
+      "id": "measured-sky",
+      "group": "formal"
+    },
+    {
+      "id": "measured-trial",
+      "group": "formal"
+    },
+    {
+      "id": "medical-stock-photo",
+      "group": "formal"
+    },
+    {
+      "id": "mineral-color",
+      "group": "formal"
+    },
+    {
+      "id": "mini-story",
+      "group": "formal"
+    },
+    {
+      "id": "miniature-isometric-world",
+      "group": "formal"
+    },
+    {
+      "id": "miniature-world",
+      "group": "formal"
+    },
+    {
+      "id": "minimal-captions",
+      "group": "formal"
+    },
+    {
+      "id": "minimal-depth",
+      "group": "formal"
+    },
+    {
+      "id": "minimal-luxury-box",
+      "group": "formal"
+    },
+    {
+      "id": "minimal-midtones",
+      "group": "formal"
+    },
+    {
+      "id": "minimal-retail-display",
+      "group": "formal"
+    },
+    {
+      "id": "mixed-letterforms",
+      "group": "formal"
+    },
+    {
+      "id": "mixed-typefaces",
+      "group": "formal"
+    },
+    {
+      "id": "modifier-logic",
+      "group": "formal"
+    },
+    {
+      "id": "modular-blocks",
+      "group": "formal"
+    },
+    {
+      "id": "modular-primitives",
+      "group": "formal"
+    },
+    {
+      "id": "modular-room",
+      "group": "formal"
+    },
+    {
+      "id": "modular-urgency",
+      "group": "formal"
+    },
+    {
+      "id": "motif-family",
+      "group": "formal"
+    },
+    {
+      "id": "motion-arc",
+      "group": "formal"
+    },
+    {
+      "id": "moving-night-depth",
+      "group": "formal"
+    },
+    {
+      "id": "multi-color-clutter",
+      "group": "formal"
+    },
+    {
+      "id": "multi-deck-headline",
+      "group": "formal"
+    },
+    {
+      "id": "multi-tile-image",
+      "group": "formal"
+    },
+    {
+      "id": "multicolor-ukiyo-e",
+      "group": "formal"
+    },
+    {
+      "id": "museum-wall-label",
+      "group": "formal"
+    },
+    {
+      "id": "muted-palette",
+      "group": "formal"
+    },
+    {
+      "id": "named-regional-motifs",
+      "group": "formal"
+    },
+    {
+      "id": "narrative-scene",
+      "group": "formal"
+    },
+    {
+      "id": "narrative-still",
+      "group": "formal"
+    },
+    {
+      "id": "neo-grotesk",
+      "group": "formal"
+    },
+    {
+      "id": "neon-night",
+      "group": "formal"
+    },
+    {
+      "id": "neutral-material",
+      "group": "formal"
+    },
+    {
+      "id": "news-urgency",
+      "group": "formal"
+    },
+    {
+      "id": "novelty-display",
+      "group": "formal"
+    },
+    {
+      "id": "numbered-structures",
+      "group": "formal"
+    },
+    {
+      "id": "numbered-variants",
+      "group": "formal"
+    },
+    {
+      "id": "object-plates",
+      "group": "formal"
+    },
+    {
+      "id": "objective-photography",
+      "group": "formal"
+    },
+    {
+      "id": "oblique-framing",
+      "group": "formal"
+    },
+    {
+      "id": "observation-note",
+      "group": "formal"
+    },
+    {
+      "id": "observational-framing",
+      "group": "formal"
+    },
+    {
+      "id": "off-center-subject",
+      "group": "formal"
+    },
+    {
+      "id": "oil-painted-volume",
+      "group": "formal"
+    },
+    {
+      "id": "one-off",
+      "group": "formal"
+    },
+    {
+      "id": "one-off-campaign",
+      "group": "formal"
+    },
+    {
+      "id": "one-page-synthesis",
+      "group": "formal"
+    },
+    {
+      "id": "optical-effects",
+      "group": "formal"
+    },
+    {
+      "id": "orange-filter-only",
+      "group": "formal"
+    },
+    {
+      "id": "ornament",
+      "group": "formal"
+    },
+    {
+      "id": "oversized-display",
+      "group": "formal"
+    },
+    {
+      "id": "oversized-type",
+      "group": "formal"
+    },
+    {
+      "id": "page-turn",
+      "group": "formal"
+    },
+    {
+      "id": "page-turn-pacing",
+      "group": "formal"
+    },
+    {
+      "id": "painted-devotional-image",
+      "group": "formal"
+    },
+    {
+      "id": "painterly-wash",
+      "group": "formal"
+    },
+    {
+      "id": "paper-craft",
+      "group": "formal"
+    },
+    {
+      "id": "paper-impression",
+      "group": "formal"
+    },
+    {
+      "id": "parked-car-exterior",
+      "group": "formal"
+    },
+    {
+      "id": "partial-reveal",
+      "group": "formal"
+    },
+    {
+      "id": "passing-light",
+      "group": "formal"
+    },
+    {
+      "id": "pastel-daylight",
+      "group": "formal"
+    },
+    {
+      "id": "patterned-surfaces",
+      "group": "formal"
+    },
+    {
+      "id": "pcb-photograph",
+      "group": "formal"
+    },
+    {
+      "id": "peelable-edge",
+      "group": "formal"
+    },
+    {
+      "id": "perfect-digital-symmetry",
+      "group": "formal"
+    },
+    {
+      "id": "perfectly-uniform-line",
+      "group": "formal"
+    },
+    {
+      "id": "performer-isolation",
+      "group": "formal"
+    },
+    {
+      "id": "period-noir-costume",
+      "group": "formal"
+    },
+    {
+      "id": "perspective-vanishing-point",
+      "group": "formal"
+    },
+    {
+      "id": "phase-change",
+      "group": "formal"
+    },
+    {
+      "id": "photo-sequence",
+      "group": "formal"
+    },
+    {
+      "id": "photo-type-integration",
+      "group": "formal"
+    },
+    {
+      "id": "photographic-cutout-only",
+      "group": "formal"
+    },
+    {
+      "id": "photographic-halftone",
+      "group": "formal"
+    },
+    {
+      "id": "photographic-motion-blur",
+      "group": "formal"
+    },
+    {
+      "id": "photographic-texture",
+      "group": "formal"
+    },
+    {
+      "id": "photorealism",
+      "group": "formal"
+    },
+    {
+      "id": "photorealistic",
+      "group": "formal"
+    },
+    {
+      "id": "physical-tag",
+      "group": "formal"
+    },
+    {
+      "id": "pictogram-sequence",
+      "group": "formal"
+    },
+    {
+      "id": "pieced-blocks",
+      "group": "formal"
+    },
+    {
+      "id": "placeless-symbols",
+      "group": "formal"
+    },
+    {
+      "id": "plastic-pennant-chain",
+      "group": "formal"
+    },
+    {
+      "id": "player-age-cues",
+      "group": "formal"
+    },
+    {
+      "id": "playful-color-clutter",
+      "group": "formal"
+    },
+    {
+      "id": "playful-recombination",
+      "group": "formal"
+    },
+    {
+      "id": "polished-retro-diner",
+      "group": "formal"
+    },
+    {
+      "id": "portable-page",
+      "group": "formal"
+    },
+    {
+      "id": "poster-only",
+      "group": "formal"
+    },
+    {
+      "id": "practical-bright-color",
+      "group": "formal"
+    },
+    {
+      "id": "practical-color",
+      "group": "formal"
+    },
+    {
+      "id": "precise-contour",
+      "group": "formal"
+    },
+    {
+      "id": "primary-accent",
+      "group": "formal"
+    },
+    {
+      "id": "print-gradation",
+      "group": "formal"
+    },
+    {
+      "id": "printed-ceramic-skin",
+      "group": "formal"
+    },
+    {
+      "id": "printed-comic-panel",
+      "group": "formal"
+    },
+    {
+      "id": "printed-fabric",
+      "group": "formal"
+    },
+    {
+      "id": "printed-patchwork",
+      "group": "formal"
+    },
+    {
+      "id": "printed-title-card",
+      "group": "formal"
+    },
+    {
+      "id": "procedural-sequence",
+      "group": "formal"
+    },
+    {
+      "id": "promotional-chrome",
+      "group": "formal"
+    },
+    {
+      "id": "promotional-cover",
+      "group": "formal"
+    },
+    {
+      "id": "proportional-mark",
+      "group": "formal"
+    },
+    {
+      "id": "prose-columns",
+      "group": "formal"
+    },
+    {
+      "id": "provenance-record",
+      "group": "formal"
+    },
+    {
+      "id": "public-space-rhythm",
+      "group": "formal"
+    },
+    {
+      "id": "pull-quote",
+      "group": "formal"
+    },
+    {
+      "id": "punched-detail",
+      "group": "formal"
+    },
+    {
+      "id": "quantitative",
+      "group": "formal"
+    },
+    {
+      "id": "quantitative-repetition",
+      "group": "formal"
+    },
+    {
+      "id": "quiet-dread",
+      "group": "formal"
+    },
+    {
+      "id": "quiet-hierarchy",
+      "group": "formal"
+    },
+    {
+      "id": "quiet-journal",
+      "group": "formal"
+    },
+    {
+      "id": "quilted-stitch-line",
+      "group": "formal"
+    },
+    {
+      "id": "racing-game-ui",
+      "group": "formal"
+    },
+    {
+      "id": "radial-sky-projection",
+      "group": "formal"
+    },
+    {
+      "id": "rain-glass",
+      "group": "formal"
+    },
+    {
+      "id": "random-3d-angle",
+      "group": "formal"
+    },
+    {
+      "id": "random-cultural-icons",
+      "group": "formal"
+    },
+    {
+      "id": "random-japanese-symbols",
+      "group": "formal"
+    },
+    {
+      "id": "random-latin-motifs",
+      "group": "formal"
+    },
+    {
+      "id": "random-stars",
+      "group": "formal"
+    },
+    {
+      "id": "random-symbol-row",
+      "group": "formal"
+    },
+    {
+      "id": "random-topography-lines",
+      "group": "formal"
+    },
+    {
+      "id": "range-map",
+      "group": "formal"
+    },
+    {
+      "id": "raw-recycled-flake",
+      "group": "formal"
+    },
+    {
+      "id": "reaction-chain",
+      "group": "formal"
+    },
+    {
+      "id": "readable-stacking",
+      "group": "formal"
+    },
+    {
+      "id": "reading-first",
+      "group": "formal"
+    },
+    {
+      "id": "realistic-architectural-render",
+      "group": "formal"
+    },
+    {
+      "id": "recombination",
+      "group": "formal"
+    },
+    {
+      "id": "recurring-motif",
+      "group": "formal"
+    },
+    {
+      "id": "reference-designator",
+      "group": "formal"
+    },
+    {
+      "id": "reflective-metal",
+      "group": "formal"
+    },
+    {
+      "id": "repeat-scale",
+      "group": "formal"
+    },
+    {
+      "id": "repeated-containers",
+      "group": "formal"
+    },
+    {
+      "id": "repeated-module",
+      "group": "formal"
+    },
+    {
+      "id": "repeated-ornament",
+      "group": "formal"
+    },
+    {
+      "id": "repeated-overhead-strands",
+      "group": "formal"
+    },
+    {
+      "id": "repeated-pictograms",
+      "group": "formal"
+    },
+    {
+      "id": "repeated-pose",
+      "group": "formal"
+    },
+    {
+      "id": "repeated-views",
+      "group": "formal"
+    },
+    {
+      "id": "repousse-tin",
+      "group": "formal"
+    },
+    {
+      "id": "restrained-color",
+      "group": "formal"
+    },
+    {
+      "id": "restrained-natural-color",
+      "group": "formal"
+    },
+    {
+      "id": "retail-thumbnail",
+      "group": "formal"
+    },
+    {
+      "id": "revision-mark",
+      "group": "formal"
+    },
+    {
+      "id": "ribbed-detail",
+      "group": "formal"
+    },
+    {
+      "id": "rigid-identical-tile",
+      "group": "formal"
+    },
+    {
+      "id": "rigid-symbol-grid",
+      "group": "formal"
+    },
+    {
+      "id": "rim-light",
+      "group": "formal"
+    },
+    {
+      "id": "road-scale-message",
+      "group": "formal"
+    },
+    {
+      "id": "road-vanishing-point",
+      "group": "formal"
+    },
+    {
+      "id": "rounded-molded-form",
+      "group": "formal"
+    },
+    {
+      "id": "route-network",
+      "group": "formal"
+    },
+    {
+      "id": "rule-iconography",
+      "group": "formal"
+    },
+    {
+      "id": "sanitized-farmers-market",
+      "group": "formal"
+    },
+    {
+      "id": "satellite-image-only",
+      "group": "formal"
+    },
+    {
+      "id": "saturated-color",
+      "group": "formal"
+    },
+    {
+      "id": "scale-bar",
+      "group": "formal"
+    },
+    {
+      "id": "scale-shift",
+      "group": "formal"
+    },
+    {
+      "id": "scholarly-apparatus",
+      "group": "formal"
+    },
+    {
+      "id": "scholarly-hierarchy",
+      "group": "formal"
+    },
+    {
+      "id": "sci-fi-hud",
+      "group": "formal"
+    },
+    {
+      "id": "sci-fi-interface",
+      "group": "formal"
+    },
+    {
+      "id": "scientific-accuracy",
+      "group": "formal"
+    },
+    {
+      "id": "scientific-plate",
+      "group": "formal"
+    },
+    {
+      "id": "scrapbook-collage",
+      "group": "formal"
+    },
+    {
+      "id": "screen-centered-type",
+      "group": "formal"
+    },
+    {
+      "id": "screen-native",
+      "group": "formal"
+    },
+    {
+      "id": "script-type",
+      "group": "formal"
+    },
+    {
+      "id": "sculptural-rim",
+      "group": "formal"
+    },
+    {
+      "id": "seam-rhythm",
+      "group": "formal"
+    },
+    {
+      "id": "seamless-digital-pattern",
+      "group": "formal"
+    },
+    {
+      "id": "seamless-repeat",
+      "group": "formal"
+    },
+    {
+      "id": "seamless-vector-pattern",
+      "group": "formal"
+    },
+    {
+      "id": "section-elevation",
+      "group": "formal"
+    },
+    {
+      "id": "section-identity",
+      "group": "formal"
+    },
+    {
+      "id": "sectioned-body",
+      "group": "formal"
+    },
+    {
+      "id": "seller-made-display",
+      "group": "formal"
+    },
+    {
+      "id": "semantic-combination",
+      "group": "formal"
+    },
+    {
+      "id": "sequential-stitched-scenes",
+      "group": "formal"
+    },
+    {
+      "id": "serial-scene",
+      "group": "formal"
+    },
+    {
+      "id": "setting-examples",
+      "group": "formal"
+    },
+    {
+      "id": "shape-first",
+      "group": "formal"
+    },
+    {
+      "id": "shelf-facing-title",
+      "group": "formal"
+    },
+    {
+      "id": "signal-flow",
+      "group": "formal"
+    },
+    {
+      "id": "silhouetted-figures",
+      "group": "formal"
+    },
+    {
+      "id": "single-decorative-portrait",
+      "group": "formal"
+    },
+    {
+      "id": "single-emblem",
+      "group": "formal"
+    },
+    {
+      "id": "single-hero",
+      "group": "formal"
+    },
+    {
+      "id": "single-isolated-icon",
+      "group": "formal"
+    },
+    {
+      "id": "single-light-pool",
+      "group": "formal"
+    },
+    {
+      "id": "single-ornamental-motif",
+      "group": "formal"
+    },
+    {
+      "id": "single-poster-composition",
+      "group": "formal"
+    },
+    {
+      "id": "single-surface",
+      "group": "formal"
+    },
+    {
+      "id": "site-specific-placement",
+      "group": "formal"
+    },
+    {
+      "id": "small-format",
+      "group": "formal"
+    },
+    {
+      "id": "smoke-haze",
+      "group": "formal"
+    },
+    {
+      "id": "smooth-vector-line",
+      "group": "formal"
+    },
+    {
+      "id": "smooth-vector-shape",
+      "group": "formal"
+    },
+    {
+      "id": "soft-gray-range",
+      "group": "formal"
+    },
+    {
+      "id": "soft-highlight-rolloff",
+      "group": "formal"
+    },
+    {
+      "id": "soft-relief",
+      "group": "formal"
+    },
+    {
+      "id": "softened-industrial-geometry",
+      "group": "formal"
+    },
+    {
+      "id": "solid-color",
+      "group": "formal"
+    },
+    {
+      "id": "space-nebula-art",
+      "group": "formal"
+    },
+    {
+      "id": "sparse-display-type",
+      "group": "formal"
+    },
+    {
+      "id": "specular-roll",
+      "group": "formal"
+    },
+    {
+      "id": "speed-blur",
+      "group": "formal"
+    },
+    {
+      "id": "speed-line",
+      "group": "formal"
+    },
+    {
+      "id": "squash-and-stretch",
+      "group": "formal"
+    },
+    {
+      "id": "stacked-goods",
+      "group": "formal"
+    },
+    {
+      "id": "stage-floor",
+      "group": "formal"
+    },
+    {
+      "id": "staged-heroics",
+      "group": "formal"
+    },
+    {
+      "id": "standalone-character-sheet",
+      "group": "formal"
+    },
+    {
+      "id": "standardized-pictograms",
+      "group": "formal"
+    },
+    {
+      "id": "standardized-symbol",
+      "group": "formal"
+    },
+    {
+      "id": "star-magnitude",
+      "group": "formal"
+    },
+    {
+      "id": "stark-crop",
+      "group": "formal"
+    },
+    {
+      "id": "static-cityscape",
+      "group": "formal"
+    },
+    {
+      "id": "static-icon",
+      "group": "formal"
+    },
+    {
+      "id": "static-wallpaper",
+      "group": "formal"
+    },
+    {
+      "id": "stitch-density",
+      "group": "formal"
+    },
+    {
+      "id": "streaming-ui",
+      "group": "formal"
+    },
+    {
+      "id": "strict-grid",
+      "group": "formal"
+    },
+    {
+      "id": "surface-texture",
+      "group": "formal"
+    },
+    {
+      "id": "surface-variation",
+      "group": "formal"
+    },
+    {
+      "id": "sustained-grid",
+      "group": "formal"
+    },
+    {
+      "id": "symbol-hierarchy",
+      "group": "formal"
+    },
+    {
+      "id": "symmetrical-view",
+      "group": "formal"
+    },
+    {
+      "id": "system-family",
+      "group": "formal"
+    },
+    {
+      "id": "systematic-grid",
+      "group": "formal"
+    },
+    {
+      "id": "tabletop-world",
+      "group": "formal"
+    },
+    {
+      "id": "tactile-play",
+      "group": "formal"
+    },
+    {
+      "id": "tactile-relief",
+      "group": "formal"
+    },
+    {
+      "id": "tale-book-rhythm",
+      "group": "formal"
+    },
+    {
+      "id": "taxonomic-hierarchy",
+      "group": "formal"
+    },
+    {
+      "id": "taxonomic-name",
+      "group": "formal"
+    },
+    {
+      "id": "technical-diagram",
+      "group": "formal"
+    },
+    {
+      "id": "text-led",
+      "group": "formal"
+    },
+    {
+      "id": "tile-grid-without-fabric",
+      "group": "formal"
+    },
+    {
+      "id": "title-block",
+      "group": "formal"
+    },
+    {
+      "id": "top-light",
+      "group": "formal"
+    },
+    {
+      "id": "torn-edge",
+      "group": "formal"
+    },
+    {
+      "id": "toy-catalog-grid",
+      "group": "formal"
+    },
+    {
+      "id": "toy-packaging",
+      "group": "formal"
+    },
+    {
+      "id": "toy-scale",
+      "group": "formal"
+    },
+    {
+      "id": "tradition-specific-motif",
+      "group": "formal"
+    },
+    {
+      "id": "translucent-color",
+      "group": "formal"
+    },
+    {
+      "id": "uncaptioned-gallery",
+      "group": "formal"
+    },
+    {
+      "id": "uncaptioned-imagery",
+      "group": "formal"
+    },
+    {
+      "id": "uncited-claims",
+      "group": "formal"
+    },
+    {
+      "id": "unconnected-symbols",
+      "group": "formal"
+    },
+    {
+      "id": "unframed-vector-icon",
+      "group": "formal"
+    },
+    {
+      "id": "uniform-wayfinding",
+      "group": "formal"
+    },
+    {
+      "id": "unlabeled-figure",
+      "group": "formal"
+    },
+    {
+      "id": "unlabeled-nature-art",
+      "group": "formal"
+    },
+    {
+      "id": "unlabeled-objects",
+      "group": "formal"
+    },
+    {
+      "id": "unlabeled-samples",
+      "group": "formal"
+    },
+    {
+      "id": "unlicensed-game-imitation",
+      "group": "formal"
+    },
+    {
+      "id": "unmeasured-outline",
+      "group": "formal"
+    },
+    {
+      "id": "unpolished-surface",
+      "group": "formal"
+    },
+    {
+      "id": "unrelated-images",
+      "group": "formal"
+    },
+    {
+      "id": "unscaled-diagram",
+      "group": "formal"
+    },
+    {
+      "id": "urban-night",
+      "group": "formal"
+    },
+    {
+      "id": "verse-lineation",
+      "group": "formal"
+    },
+    {
+      "id": "viewing-distance",
+      "group": "formal"
+    },
+    {
+      "id": "visible-backing-sheet",
+      "group": "formal"
+    },
+    {
+      "id": "visible-fiber",
+      "group": "formal"
+    },
+    {
+      "id": "visible-grain",
+      "group": "formal"
+    },
+    {
+      "id": "visible-grout-rhythm",
+      "group": "formal"
+    },
+    {
+      "id": "visible-thread",
+      "group": "formal"
+    },
+    {
+      "id": "visitor-wall-text",
+      "group": "formal"
+    },
+    {
+      "id": "visual-argument",
+      "group": "formal"
+    },
+    {
+      "id": "warm-character",
+      "group": "formal"
+    },
+    {
+      "id": "warm-haze",
+      "group": "formal"
+    },
+    {
+      "id": "water-boundary",
+      "group": "formal"
+    },
+    {
+      "id": "wayfinding",
+      "group": "formal"
+    },
+    {
+      "id": "weathered-board",
+      "group": "formal"
+    },
+    {
+      "id": "weight-comparison",
+      "group": "formal"
+    },
+    {
+      "id": "western-point-perspective",
+      "group": "formal"
+    },
+    {
+      "id": "wet-glass",
+      "group": "formal"
+    },
+    {
+      "id": "wet-reflections",
+      "group": "formal"
+    },
+    {
+      "id": "wet-street",
+      "group": "formal"
+    },
+    {
+      "id": "white-cut-mark",
+      "group": "formal"
+    },
+    {
+      "id": "white-line-on-blue",
+      "group": "formal"
+    },
+    {
+      "id": "white-space",
+      "group": "formal"
+    },
+    {
+      "id": "whole-plant-view",
+      "group": "formal"
+    },
+    {
+      "id": "wind-movement",
+      "group": "formal"
+    },
+    {
+      "id": "windshield-point-of-view",
+      "group": "formal"
+    },
+    {
+      "id": "wiring-photo",
+      "group": "formal"
+    },
+    {
+      "id": "wood-block",
+      "group": "formal"
+    },
+    {
+      "id": "woodblock-registration",
+      "group": "formal"
+    },
+    {
+      "id": "workshop-material",
+      "group": "formal"
+    }
+  ]
+}

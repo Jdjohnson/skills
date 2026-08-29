@@ -1,0 +1,1095 @@
+{
+  "version": 1,
+  "id": "lighting",
+  "displayName": "Lighting",
+  "definition": "The visible source family, quality, direction, color relationship, and contrast structure of illumination.",
+  "values": [
+    {
+      "id": "daylight",
+      "displayName": "Daylight",
+      "definition": "Sun or sky illumination is the dominant visible source family.",
+      "aliases": [
+        "natural daylight",
+        "sunlight"
+      ],
+      "visibleCues": [
+        "environmentally coherent sun or sky light",
+        "daytime color relationship"
+      ],
+      "antiCues": [
+        "fully controlled studio-only appearance"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-cyanotype-botanical-photogram",
+        "ref-albumen-travel-survey",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-large-format-monochrome-landscape",
+        "ref-fsa-social-documentary",
+        "ref-approachable-environmental-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-layered-street-observation",
+        "ref-new-color-street-observation",
+        "ref-peak-action-photojournalism",
+        "ref-travel-photo-essay",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-golden-hour-grand-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-aerial-graphic-landscape",
+        "ref-tilt-shift-architectural-study",
+        "ref-panoramic-desert-survey",
+        "ref-intentional-camera-movement-landscape",
+        "ref-rolling-automotive-pan",
+        "ref-frozen-sports-action",
+        "ref-super-telephoto-wildlife",
+        "ref-selective-focus-macro",
+        "ref-fisheye-skate-snapshot",
+        "ref-cross-processed-slide-look"
+      ]
+    },
+    {
+      "id": "available-light",
+      "displayName": "Available light",
+      "definition": "Existing light at the location is used as the main illumination rather than visibly introduced photographic light.",
+      "aliases": [
+        "found light",
+        "no added lights"
+      ],
+      "visibleCues": [
+        "light follows location sources",
+        "ambient falloff remains credible"
+      ],
+      "antiCues": [
+        "obvious studio modifier pattern"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-fsa-social-documentary",
+        "ref-humanist-available-light-photo-essay",
+        "ref-grunge-editorial-portrait",
+        "ref-layered-street-observation",
+        "ref-night-street-color",
+        "ref-peak-action-photojournalism",
+        "ref-candid-event-reportage",
+        "ref-travel-photo-essay",
+        "ref-concert-available-light",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-instant-film-everyday-snapshot",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "window-light",
+      "displayName": "Window light",
+      "definition": "A window creates a broad directional source with natural indoor falloff.",
+      "aliases": [
+        "lit by a window",
+        "soft window portrait"
+      ],
+      "visibleCues": [
+        "one-sided indoor daylight",
+        "gradual falloff across subject"
+      ],
+      "antiCues": [
+        "even all-around illumination"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-window-light-editorial-portrait",
+        "ref-soft-focus-romantic-portrait",
+        "ref-symmetrical-interior-study",
+        "ref-window-light-food-story"
+      ]
+    },
+    {
+      "id": "open-shade",
+      "displayName": "Open shade",
+      "definition": "The subject sits outside direct sun but receives broad skylight, often with soft shadows and bright surroundings.",
+      "aliases": [
+        "shade portrait",
+        "outdoor soft light"
+      ],
+      "visibleCues": [
+        "soft outdoor shadows",
+        "bright directional sky fill"
+      ],
+      "antiCues": [
+        "hard direct sun patches"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-grunge-editorial-portrait"
+      ]
+    },
+    {
+      "id": "overcast-light",
+      "displayName": "Overcast light",
+      "definition": "Cloud cover turns the sky into a broad source with low shadow definition.",
+      "aliases": [
+        "cloudy day light",
+        "soft gray sky"
+      ],
+      "visibleCues": [
+        "soft low-direction shadows",
+        "even outdoor exposure"
+      ],
+      "antiCues": [
+        "hard crisp sun shadows"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-grunge-editorial-portrait",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-intentional-camera-movement-landscape"
+      ]
+    },
+    {
+      "id": "midday-sun",
+      "displayName": "Midday sun",
+      "definition": "High direct sun produces compact hard shadows and strong top-down contrast.",
+      "aliases": [
+        "harsh noon sun",
+        "bright midday"
+      ],
+      "visibleCues": [
+        "short hard shadows",
+        "bright top planes and deep eye sockets"
+      ],
+      "antiCues": [
+        "long warm low-angle shadows"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-hard-sun-fashion-editorial"
+      ]
+    },
+    {
+      "id": "golden-hour",
+      "displayName": "Golden hour",
+      "definition": "Low sun creates warm color, long shadows, and often edge or back light near sunrise or sunset.",
+      "aliases": [
+        "sunset light",
+        "warm evening sun"
+      ],
+      "visibleCues": [
+        "low warm sun",
+        "long directional shadows"
+      ],
+      "antiCues": [
+        "cool post-sunset ambience"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-travel-photo-essay",
+        "ref-golden-hour-grand-landscape",
+        "ref-panoramic-desert-survey"
+      ]
+    },
+    {
+      "id": "blue-hour",
+      "displayName": "Blue hour",
+      "definition": "Twilight sky provides cool ambient light that can balance warm artificial sources.",
+      "aliases": [
+        "twilight blue",
+        "after sunset city"
+      ],
+      "visibleCues": [
+        "cool blue environment",
+        "residual sky detail"
+      ],
+      "antiCues": [
+        "hard midday sun"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-blue-hour-urban-architecture",
+        "ref-long-exposure-seascape",
+        "ref-night-light-trail-cityscape"
+      ]
+    },
+    {
+      "id": "on-camera-flash",
+      "displayName": "On-camera flash",
+      "definition": "Flash originates near the lens axis, producing frontal illumination and compact cast shadows.",
+      "aliases": [
+        "direct flash",
+        "camera flash"
+      ],
+      "visibleCues": [
+        "frontally lit subject",
+        "sharp shadow behind subject"
+      ],
+      "antiCues": [
+        "strong sculpting from the side"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-direct-flash-nightlife-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-fisheye-skate-snapshot",
+        "ref-degraded-zine-reproduction",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "off-camera-flash",
+      "displayName": "Off-camera flash",
+      "definition": "Flash arrives from a direction visibly separate from the lens axis.",
+      "aliases": [
+        "strobe from the side",
+        "off camera strobe"
+      ],
+      "visibleCues": [
+        "flash-shaped light from side, back, or above",
+        "directional controlled highlights"
+      ],
+      "antiCues": [
+        "flat lens-axis illumination"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-polished-commercial-headshot",
+        "ref-sculptural-hard-light-product"
+      ]
+    },
+    {
+      "id": "continuous-studio-light",
+      "displayName": "Continuous studio light",
+      "definition": "A controlled constant source shapes the subject in a studio-like environment.",
+      "aliases": [
+        "LED studio light",
+        "continuous light"
+      ],
+      "visibleCues": [
+        "stable controlled source pattern",
+        "studio falloff or modifier shape"
+      ],
+      "antiCues": [
+        "uncontrolled changing daylight"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-editorial-portrait",
+        "ref-mid-century-commercial-color",
+        "ref-high-key-beauty-portrait",
+        "ref-clean-seamless-product",
+        "ref-dark-moody-tabletop",
+        "ref-bright-editorial-food",
+        "ref-scientific-specimen-record",
+        "ref-constructed-conceptual-tableau",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "tungsten-practicals",
+      "displayName": "Tungsten practicals",
+      "definition": "Warm visible lamps or tungsten-balanced sources materially shape the scene.",
+      "aliases": [
+        "warm lamp light",
+        "tungsten look"
+      ],
+      "visibleCues": [
+        "warm localized pools",
+        "visible lamp motivation"
+      ],
+      "antiCues": [
+        "uniform cool daylight"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cinematic-practical-light-portrait",
+        "ref-night-street-color",
+        "ref-blue-hour-urban-architecture"
+      ]
+    },
+    {
+      "id": "industrial-ambient-light",
+      "displayName": "Industrial ambient light",
+      "definition": "Broad illumination keeps a large workplace readable with uneven ambient falloff; the exact source remains unclaimed unless documented or visible.",
+      "aliases": [
+        "fluorescent office light",
+        "factory ambient light"
+      ],
+      "visibleCues": [
+        "large work areas remain readable",
+        "ambient falloff varies across machinery"
+      ],
+      "antiCues": [
+        "isolated theatrical spotlight"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-industrial-workplace-documentary"
+      ]
+    },
+    {
+      "id": "mixed-light",
+      "displayName": "Mixed light",
+      "definition": "Sources with visibly different color temperatures coexist without being fully neutralized.",
+      "aliases": [
+        "mixed lighting",
+        "warm and cool light"
+      ],
+      "visibleCues": [
+        "distinct warm and cool regions",
+        "multiple source families"
+      ],
+      "antiCues": [
+        "single uniform color temperature"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-direct-flash-nightlife-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-night-street-color",
+        "ref-candid-event-reportage",
+        "ref-concert-available-light",
+        "ref-blue-hour-urban-architecture",
+        "ref-night-light-trail-cityscape",
+        "ref-rear-curtain-flash-motion"
+      ]
+    },
+    {
+      "id": "bounced-light",
+      "displayName": "Bounced light",
+      "definition": "Light is reflected from a wall, ceiling, or surface, enlarging and redirecting the apparent source.",
+      "aliases": [
+        "bounce flash",
+        "light bounced off wall"
+      ],
+      "visibleCues": [
+        "soft indirect direction",
+        "broad reflected fill"
+      ],
+      "antiCues": [
+        "small hard direct source"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-polished-commercial-headshot",
+        "ref-candid-event-reportage",
+        "ref-window-light-food-story"
+      ]
+    },
+    {
+      "id": "motivated-light",
+      "displayName": "Motivated light",
+      "definition": "Introduced light appears plausibly connected to a visible or implied source in the scene.",
+      "aliases": [
+        "natural-looking cinematic light",
+        "light motivated by lamp"
+      ],
+      "visibleCues": [
+        "illumination direction agrees with story source",
+        "enhancement remains believable"
+      ],
+      "antiCues": [
+        "unexplained glamour light"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cinematic-practical-light-portrait",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "cinematic-practicals",
+      "displayName": "Cinematic practicals",
+      "definition": "Visible lamps, signs, fixtures, or screens become compositional light sources and often motivate added shaping.",
+      "aliases": [
+        "cinematic lamp lighting",
+        "practical lights"
+      ],
+      "visibleCues": [
+        "visible luminous fixtures",
+        "localized pools and color separation"
+      ],
+      "antiCues": [
+        "featureless ambient wash"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cinematic-practical-light-portrait",
+        "ref-night-street-color",
+        "ref-concert-available-light",
+        "ref-blue-hour-urban-architecture",
+        "ref-night-light-trail-cityscape",
+        "ref-bleach-bypass-cinematic-still"
+      ]
+    },
+    {
+      "id": "hard-light",
+      "displayName": "Hard light",
+      "definition": "A small apparent source creates crisp shadow boundaries and distinct specular highlights.",
+      "aliases": [
+        "hard shadows",
+        "crisp light"
+      ],
+      "visibleCues": [
+        "sharp-edged shadows",
+        "highly defined highlights"
+      ],
+      "antiCues": [
+        "broad gradual shadow transitions"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-hard-sun-fashion-editorial",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-y2k-party-flash-portrait",
+        "ref-new-color-street-observation",
+        "ref-peak-action-photojournalism",
+        "ref-aerial-graphic-landscape",
+        "ref-tilt-shift-architectural-study",
+        "ref-panoramic-desert-survey",
+        "ref-sculptural-hard-light-product",
+        "ref-direct-flash-still-life",
+        "ref-frozen-sports-action",
+        "ref-high-speed-splash",
+        "ref-fisheye-skate-snapshot",
+        "ref-rear-curtain-flash-motion",
+        "ref-cross-processed-slide-look",
+        "ref-degraded-zine-reproduction"
+      ]
+    },
+    {
+      "id": "soft-light",
+      "displayName": "Soft light",
+      "definition": "A large apparent source creates broad transitions between light and shadow.",
+      "aliases": [
+        "soft flattering light",
+        "gentle light"
+      ],
+      "visibleCues": [
+        "gradual shadow edges",
+        "wrapped tonal transition"
+      ],
+      "antiCues": [
+        "razor-edged shadows"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-albumen-travel-survey",
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-humanist-available-light-photo-essay",
+        "ref-mid-century-editorial-portrait",
+      "ref-mid-century-commercial-color",
+      "ref-window-light-editorial-portrait",
+      "ref-polished-commercial-headshot",
+        "ref-soft-focus-romantic-portrait",
+        "ref-black-and-white-close-portrait",
+        "ref-medium-format-formal-portrait",
+        "ref-candid-event-reportage",
+        "ref-overcast-minimal-landscape",
+        "ref-long-exposure-seascape",
+        "ref-symmetrical-interior-study",
+        "ref-intentional-camera-movement-landscape",
+        "ref-clean-seamless-product",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-rolling-automotive-pan",
+        "ref-super-telephoto-wildlife",
+        "ref-selective-focus-macro",
+        "ref-instant-film-everyday-snapshot",
+        "ref-editorial-contact-sheet-sequence"
+      ]
+    },
+    {
+      "id": "very-soft-light",
+      "displayName": "Very soft light",
+      "definition": "An exceptionally broad source or heavy diffusion produces minimal edge definition and smooth tonal wrapping.",
+      "aliases": [
+        "very soft beauty light",
+        "cloud-like light"
+      ],
+      "visibleCues": [
+        "barely defined shadows",
+        "smooth surface rendering"
+      ],
+      "antiCues": [
+        "small-source specular harshness"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-high-key-beauty-portrait",
+        "ref-bright-editorial-food"
+      ]
+    },
+    {
+      "id": "diffused-light",
+      "displayName": "Diffused light",
+      "definition": "Scattering material or atmosphere lowers source edge definition and local contrast.",
+      "aliases": [
+        "light through diffusion",
+        "hazy light"
+      ],
+      "visibleCues": [
+        "softened highlights",
+        "reduced edge contrast"
+      ],
+      "antiCues": [
+        "unfiltered hard beam"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-pictorialist-soft-focus-landscape",
+        "ref-soft-focus-romantic-portrait",
+        "ref-scientific-specimen-record",
+        "ref-selective-focus-macro"
+      ]
+    },
+    {
+      "id": "front-light",
+      "displayName": "Front light",
+      "definition": "The dominant source comes from near the camera direction and minimizes lateral modeling.",
+      "aliases": [
+        "lit from the front",
+        "flat front light"
+      ],
+      "visibleCues": [
+        "even face or facade illumination",
+        "shadows fall mostly behind"
+      ],
+      "antiCues": [
+        "strong side shadow"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-albumen-travel-survey",
+        "ref-mid-century-commercial-color",
+        "ref-high-key-beauty-portrait",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-y2k-party-flash-portrait",
+        "ref-new-color-street-observation",
+        "ref-aerial-graphic-landscape",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-scientific-specimen-record",
+        "ref-super-telephoto-wildlife",
+        "ref-fisheye-skate-snapshot",
+        "ref-cross-processed-slide-look",
+        "ref-degraded-zine-reproduction",
+        "ref-instant-film-everyday-snapshot"
+      ]
+    },
+    {
+      "id": "side-light",
+      "displayName": "Side light",
+      "definition": "The source crosses the subject laterally, revealing relief, texture, and form.",
+      "aliases": [
+        "side lit",
+        "light from one side"
+      ],
+      "visibleCues": [
+        "one side brighter",
+        "form-defining lateral shadow"
+      ],
+      "antiCues": [
+        "symmetrical frontal illumination"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-straight-photography-precision",
+        "ref-new-vision-geometry",
+        "ref-large-format-monochrome-landscape",
+        "ref-fsa-social-documentary",
+        "ref-mid-century-editorial-portrait",
+        "ref-medium-format-formal-portrait",
+      "ref-window-light-editorial-portrait",
+      "ref-low-key-character-portrait",
+      "ref-tilt-shift-architectural-study",
+        "ref-sculptural-hard-light-product",
+        "ref-dark-moody-tabletop",
+        "ref-window-light-food-story",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-rolling-automotive-pan",
+        "ref-studio-automotive-hero",
+        "ref-frozen-sports-action",
+        "ref-selective-focus-macro",
+        "ref-rear-curtain-flash-motion",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-constructed-conceptual-tableau",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "backlight",
+      "displayName": "Backlight",
+      "definition": "The dominant source is behind the subject and creates edge brightness, translucency, flare, or reduced front exposure.",
+      "aliases": [
+        "backlit",
+        "sun behind subject"
+      ],
+      "visibleCues": [
+        "bright rim or transmitted light",
+        "source-facing camera"
+      ],
+      "antiCues": [
+        "front-only highlights"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-soft-focus-romantic-portrait",
+        "ref-concert-available-light",
+        "ref-golden-hour-grand-landscape",
+        "ref-window-light-food-story",
+        "ref-high-speed-splash"
+      ]
+    },
+    {
+      "id": "top-light",
+      "displayName": "Top light",
+      "definition": "Illumination falls primarily from above, emphasizing upper planes and casting downward shadows.",
+      "aliases": [
+        "lit from above",
+        "overhead light"
+      ],
+      "visibleCues": [
+        "bright top surfaces",
+        "downward eye or chin shadows"
+      ],
+      "antiCues": [
+        "upward-cast shadows"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-daguerreotype-studio-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-industrial-workplace-documentary",
+        "ref-bright-editorial-food"
+      ]
+    },
+    {
+      "id": "underlight",
+      "displayName": "Underlight",
+      "definition": "Illumination rises from below the subject, reversing familiar shadow placement.",
+      "aliases": [
+        "lit from below",
+        "uplight"
+      ],
+      "visibleCues": [
+        "bright lower planes",
+        "upward facial shadows"
+      ],
+      "antiCues": [
+        "ordinary overhead falloff"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "rim-light",
+      "displayName": "Rim light",
+      "definition": "A narrow back or side-back source traces the subject edge against the background.",
+      "aliases": [
+        "edge light",
+        "hair light"
+      ],
+      "visibleCues": [
+        "bright contour",
+        "separation at subject edge"
+      ],
+      "antiCues": [
+        "edge merges into background"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-cinematic-practical-light-portrait",
+        "ref-concert-available-light",
+        "ref-golden-hour-grand-landscape",
+        "ref-luxury-still-life-polish",
+        "ref-studio-automotive-hero",
+        "ref-high-speed-splash",
+        "ref-vertical-social-editorial"
+      ]
+    },
+    {
+      "id": "silhouette-lighting",
+      "displayName": "Silhouette lighting",
+      "definition": "The background or rear source is much brighter than the subject-facing side, reducing the subject to shape.",
+      "aliases": [
+        "silhouette",
+        "dark subject against bright sky"
+      ],
+      "visibleCues": [
+        "recognizable dark outline",
+        "little front detail"
+      ],
+      "antiCues": [
+        "fully modeled front detail"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-golden-hour-grand-landscape"
+      ]
+    },
+    {
+      "id": "rembrandt-lighting",
+      "displayName": "Rembrandt lighting",
+      "definition": "A high side source leaves a small lit triangle on the shadow-side cheek in a turned face.",
+      "aliases": [
+        "Rembrandt portrait light",
+        "triangle cheek light"
+      ],
+      "visibleCues": [
+        "one face side dominant",
+        "small cheek triangle across nose shadow"
+      ],
+      "antiCues": [
+        "even butterfly shadow"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "portrait"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-rembrandt-lighting-portrait"
+      ]
+    },
+    {
+      "id": "butterfly-lighting",
+      "displayName": "Butterfly lighting",
+      "definition": "A centered high source creates a small symmetrical shadow directly under the nose.",
+      "aliases": [
+        "Paramount lighting",
+        "beauty butterfly light"
+      ],
+      "visibleCues": [
+        "symmetrical frontal modeling",
+        "compact under-nose shadow"
+      ],
+      "antiCues": [
+        "strong lateral cheek shadow"
+      ],
+      "claimPolicy": "documented-or-inferred",
+      "applicability": [
+        "portrait",
+        "beauty"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-high-key-beauty-portrait"
+      ]
+    },
+    {
+      "id": "split-lighting",
+      "displayName": "Split lighting",
+      "definition": "Side light divides the face or form into a bright half and a dark half.",
+      "aliases": [
+        "half face light",
+        "split portrait light"
+      ],
+      "visibleCues": [
+        "near-bisected light-dark form",
+        "high lateral direction"
+      ],
+      "antiCues": [
+        "even frontal illumination"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-low-key-character-portrait"
+      ]
+    },
+    {
+      "id": "high-key-lighting",
+      "displayName": "High-key lighting",
+      "definition": "The frame is dominated by light tones with low shadow density and controlled contrast.",
+      "aliases": [
+        "bright airy lighting",
+        "white high key"
+      ],
+      "visibleCues": [
+        "bright background and subject values",
+        "open shadows"
+      ],
+      "antiCues": [
+        "large deep-black areas"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-mid-century-commercial-color",
+        "ref-high-key-beauty-portrait",
+        "ref-clean-seamless-product",
+        "ref-bright-editorial-food"
+      ]
+    },
+    {
+      "id": "low-key-lighting",
+      "displayName": "Low-key lighting",
+      "definition": "The frame is dominated by dark values with selective pools or edges of illumination.",
+      "aliases": [
+        "dark moody lighting",
+        "low key"
+      ],
+      "visibleCues": [
+        "limited lit areas",
+        "substantial shadow"
+      ],
+      "antiCues": [
+        "even bright field"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-low-key-character-portrait",
+        "ref-cinematic-practical-light-portrait",
+        "ref-night-street-color",
+        "ref-night-light-trail-cityscape",
+        "ref-dark-moody-tabletop",
+        "ref-luxury-still-life-polish",
+        "ref-studio-automotive-hero",
+        "ref-high-speed-splash",
+        "ref-rear-curtain-flash-motion",
+        "ref-intentional-blur-conceptual-fashion",
+        "ref-bleach-bypass-cinematic-still"
+      ]
+    },
+    {
+      "id": "flat-lighting",
+      "displayName": "Flat lighting",
+      "definition": "Directional difference is weak, so surfaces receive similar brightness and shallow modeling.",
+      "aliases": [
+        "flat light",
+        "even dull light"
+      ],
+      "visibleCues": [
+        "low modeling",
+        "similar brightness across planes"
+      ],
+      "antiCues": [
+        "strong sculpting shadows"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-wet-plate-collodion-portrait",
+        "ref-tintype-vernacular-portrait",
+        "ref-cyanotype-botanical-photogram",
+        "ref-grunge-editorial-portrait",
+        "ref-new-topographics-deadpan-landscape",
+        "ref-overcast-minimal-landscape",
+        "ref-scientific-specimen-record"
+      ]
+    },
+    {
+      "id": "high-ratio-lighting",
+      "displayName": "High-ratio lighting",
+      "definition": "Key-lit areas are much brighter than shadow or fill areas.",
+      "aliases": [
+        "dramatic contrast lighting",
+        "strong key low fill"
+      ],
+      "visibleCues": [
+        "deep shadow beside bright key",
+        "pronounced modeling"
+      ],
+      "antiCues": [
+        "open equalized shadows"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+        "ref-large-format-monochrome-landscape",
+        "ref-mid-century-editorial-portrait",
+        "ref-low-key-character-portrait",
+        "ref-hard-sun-fashion-editorial",
+        "ref-direct-flash-nightlife-portrait",
+        "ref-industrial-workplace-documentary",
+        "ref-concert-available-light",
+        "ref-golden-hour-grand-landscape",
+        "ref-sculptural-hard-light-product",
+        "ref-dark-moody-tabletop",
+        "ref-luxury-still-life-polish",
+        "ref-direct-flash-still-life",
+        "ref-studio-automotive-hero",
+        "ref-multiple-exposure-conceptual-portrait",
+        "ref-bleach-bypass-cinematic-still",
+        "ref-constructed-conceptual-tableau"
+      ]
+    },
+    {
+      "id": "low-ratio-lighting",
+      "displayName": "Low-ratio lighting",
+      "definition": "Key and fill are close in brightness, keeping shadows open and detail broadly visible.",
+      "aliases": [
+        "gentle contrast light",
+        "filled shadows"
+      ],
+      "visibleCues": [
+        "open shadow detail",
+        "small brightness difference across form"
+      ],
+      "antiCues": [
+        "deep unfilled shadow"
+      ],
+      "claimPolicy": "observed",
+      "applicability": [
+        "general"
+      ],
+      "incompatibilities": [],
+      "referenceIds": [
+      "ref-daguerreotype-studio-portrait",
+      "ref-window-light-editorial-portrait",
+      "ref-high-key-beauty-portrait",
+        "ref-polished-commercial-headshot",
+        "ref-black-and-white-close-portrait",
+        "ref-blue-hour-urban-architecture",
+        "ref-symmetrical-interior-study",
+        "ref-clean-seamless-product",
+        "ref-bright-editorial-food",
+        "ref-scientific-specimen-record"
+      ]
+    }
+  ]
+}

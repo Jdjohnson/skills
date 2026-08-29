@@ -1,0 +1,160 @@
+{
+  "id": "pop-art",
+  "displayName": "Pop Art",
+  "family": "pop-commercial",
+  "definition": "Mass-media imagery becomes art through hard crop, repetition, halftone or screen-print texture, process color, flat contour, and deadpan commercial scale.",
+  "axes": {
+    "minimalOrnate": 0.2,
+    "geometricOrganic": -0.5,
+    "polishedRaw": -0.4,
+    "calmEnergetic": 0.8,
+    "historicalFuturistic": -0.5,
+    "realisticAbstract": 0.2,
+    "warmCool": -0.2,
+    "lightDark": -0.5,
+    "playfulSerious": -0.9,
+    "handmadeMachined": 0.2,
+    "flatDeep": -0.7,
+    "everydayLuxurious": -0.4
+  },
+  "cues": [
+    "halftone",
+    "vivid-chroma",
+    "commercial",
+    "hard-edge",
+    "repetition"
+  ],
+  "antiCues": [
+    "muted-chroma",
+    "meditative-pace",
+    "ornate"
+  ],
+  "emotionalEffects": [
+    "playful",
+    "energized",
+    "rebellious"
+  ],
+  "concerns": {
+    "composition": {
+      "grid": "modular",
+      "density": 0.65,
+      "symmetry": 0.55,
+      "margins": 0.1
+    },
+    "palette": {
+      "roles": [
+        "primary",
+        "secondary",
+        "accent",
+        "ground",
+        "ink"
+      ],
+      "hexes": [
+        "#FFEF00",
+        "#FF00FF",
+        "#00FFFF",
+        "#000000",
+        "#FFFFFF"
+      ]
+    },
+    "typography": {
+      "specimenRef": "type-specimens/pop-art.svg",
+      "descriptor": "bold sans with comic impact",
+      "weight": 800,
+      "tracking": -0.02
+    },
+    "shapeLine": {
+      "cornerRadius": 0.2,
+      "lineWeight": 0.75,
+      "curveTension": 0.2
+    },
+    "materialTexture": {
+      "textureRefs": [
+        "textures/pop-commercial-primary"
+      ],
+      "finish": "matte",
+      "grain": 0.2,
+      "tags": [
+        "ink",
+        "paper",
+        "screen-pixel"
+      ]
+    },
+    "lighting": {
+      "contrast": 0.85,
+      "keyDirection": "front",
+      "gradient": 0.15
+    },
+    "depth": {
+      "layers": 2,
+      "shadowSoftness": 0.15,
+      "parallax": 0.05
+    },
+    "motion": {
+      "energy": 0.85,
+      "descriptor": "kinetic"
+    },
+    "ornament": {
+      "motifRefs": [],
+      "density": 0.4,
+      "tags": [
+        "plain"
+      ]
+    },
+    "imagery": {
+      "treatment": "stylized",
+      "subjectRules": [
+        "ordinary commercial object or media fragment",
+        "no-living-artist-mimicry",
+        "no-brands"
+      ],
+      "abstraction": 0.55
+    }
+  },
+  "adapterFit": {
+    "image-illustration": 3,
+    "brand-identity": 2,
+    "web-app": 1,
+    "presentation": 1,
+    "editorial-document": 1,
+    "social-advertising": 3,
+    "packaging": 2,
+    "photography": 1,
+    "motion-video": 2,
+    "product-3d": 1,
+    "interiors-architecture": 0,
+    "data-visualization": 0
+  },
+  "heroRecipe": {
+    "motif": "an original ordinary consumer object enlarged, repeated, and translated into hard-edged print color",
+    "framing": "crop the subject like mass media, repeat it in a rigid series, and exaggerate halftone, registration, and synthetic color as visible process",
+    "mustShow": [
+      "halftone",
+      "vivid-chroma",
+      "commercial"
+    ],
+    "mustAvoid": [
+      "muted-chroma",
+      "meditative-pace",
+      "ornate",
+      "copied celebrity likeness",
+      "watermark",
+      "brand-logos",
+      "living-artist-likeness"
+    ]
+  },
+  "culturalOrigin": null,
+  "traditionalOrLivingPractice": false,
+  "requiresCulturalReview": false,
+  "culturalContext": null,
+  "related": [
+    "comic-panel",
+    "sticker-bomb",
+    "memphis-design"
+  ],
+  "contrasting": [
+    "wabi-sabi",
+    "botanical-watercolor",
+    "specimen-label"
+  ]
+}

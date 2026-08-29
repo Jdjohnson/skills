@@ -1,0 +1,227 @@
+[
+  {
+    "id": "FH-01",
+    "brief": {
+      "problem": "A claims transformation launched six months ago, usage is high, but promised cycle-time and loss-adjustment benefits were never baselined or assigned to owners.",
+      "decision": "Determine what value was realized and which corrective actions should continue into the next release.",
+      "context": "Implementation records, operating metrics, benefit estimates, and user feedback are available.",
+      "constraints": ["Separate adoption from business benefit", "Do not rewrite the original business case after seeing results"],
+      "desired_output": "Baseline reconstruction, benefit measures, attribution limits, owner actions, and follow-up gates.",
+      "practice_areas": ["change-transformation", "program-project-management"],
+      "reasoning_jobs": ["gather-evidence", "measure-forecast", "evaluate-learn", "plan-implementation"]
+    },
+    "primary": ["benefits-realization-management", "post-implementation-review"],
+    "acceptable": ["project-closure-and-lessons-learned", "balanced-scorecard", "change-readiness-assessment"],
+    "forbidden": ["digital-transformation-framework"]
+  },
+  {
+    "id": "FH-02",
+    "brief": {
+      "problem": "Two dominant competitors may respond aggressively if a supplier cuts price, but their capacity constraints and likely retaliation differ by region.",
+      "decision": "Choose a regional pricing move and reversible response rules under uncertain competitor behavior.",
+      "context": "Market shares, capacity, historical reactions, economics, and customer switching data are available.",
+      "constraints": ["Do not assume competitors remain passive", "Preserve the option to withdraw"],
+      "desired_output": "Competitor response tree, scenarios, payoffs, trigger points, and staged recommendation.",
+      "practice_areas": ["competitive-strategy", "marketing-sales-pricing", "research-analytics"],
+      "reasoning_jobs": ["measure-forecast", "generate-options", "prioritize", "govern-risk"]
+    },
+    "primary": ["game-theory", "scenario-planning", "decision-tree-analysis"],
+    "acceptable": ["real-options-analysis", "sensitivity-analysis", "competitive-pricing-analysis"],
+    "forbidden": ["brand-archetypes"]
+  },
+  {
+    "id": "FH-03",
+    "brief": {
+      "problem": "Eight executives disagree about which service lines to stop, but the discussion cycles through anecdotes and the loudest voice dominates.",
+      "decision": "Run a working session that creates options, evaluates them against shared criteria, and ends with explicit decisions.",
+      "context": "Pre-read economics and customer evidence exist; the need is a fair, structured decision process.",
+      "constraints": ["Do not reopen data collection during the session", "Prevent premature convergence"],
+      "desired_output": "Workshop sequence, stakeholder roles, option-generation method, decision criteria, and recorded commitments.",
+      "practice_areas": ["consulting-craft"],
+      "reasoning_jobs": ["understand-stakeholders", "generate-options", "prioritize", "plan-implementation"]
+    },
+    "primary": ["facilitated-workshops", "structured-brainstorming", "stakeholder-mapping"],
+    "acceptable": ["delphic-method", "mece", "pyramid-principle"],
+    "forbidden": ["client-satisfaction-surveying"]
+  },
+  {
+    "id": "FH-04",
+    "brief": {
+      "problem": "A conglomerate's small logistics subsidiary consumes management attention, has weak strategic fit, and may be worth more to an industry buyer.",
+      "decision": "Choose whether to retain, partner, carve out, or sell the subsidiary and how to prepare the decision.",
+      "context": "Standalone economics are incomplete, shared services are intertwined, and two potential buyers have shown interest.",
+      "constraints": ["Quantify separation dependencies", "Do not launch a sale before identifying value leakage"],
+      "desired_output": "Ownership alternatives, parenting-fit logic, standalone value, separation requirements, and decision gates.",
+      "practice_areas": ["corporate-growth", "ma-diligence-turnaround", "finance-value"],
+      "reasoning_jobs": ["diagnose", "generate-options", "measure-forecast", "prioritize"]
+    },
+    "primary": ["divestiture-analysis", "asset-divestiture-strategy", "corporate-parenting-advantage"],
+    "acceptable": ["portfolio-strategy-analysis", "discounted-cash-flow-valuation", "operational-due-diligence"],
+    "forbidden": ["inorganic-growth-strategy"]
+  },
+  {
+    "id": "FH-05",
+    "brief": {
+      "problem": "A product group has fifty innovation concepts, scarce engineering capacity, and a history of carrying weak ideas because no one owns kill decisions.",
+      "decision": "Create an evidence-based funnel and fund the next three experiments.",
+      "context": "Customer problem statements, rough economics, technical risk, and strategic themes are available at uneven quality.",
+      "constraints": ["Use progressive evidence", "Make kill criteria explicit before experiments begin"],
+      "desired_output": "Comparable concept screen, staged evidence gates, experiment portfolio, owners, and continue-pivot-stop rules.",
+      "practice_areas": ["customer-product-innovation", "corporate-growth"],
+      "reasoning_jobs": ["generate-options", "prioritize", "govern-risk", "evaluate-learn"]
+    },
+    "primary": ["innovation-funnel", "stage-gate-process", "lean-startup"],
+    "acceptable": ["feature-prioritization", "design-sprints", "minimum-viable-product"],
+    "forbidden": ["product-roadmap-development"]
+  },
+  {
+    "id": "FH-06",
+    "brief": {
+      "problem": "A multinational holds excess cash in one region while another draws expensive short-term debt, and currency exposures are managed differently by each unit.",
+      "decision": "Define centralized liquidity, funding, and foreign-exchange governance.",
+      "context": "Entity cash, debt, forecasts, banking arrangements, restrictions, and exposures are available.",
+      "constraints": ["Respect legal repatriation limits", "Retain local emergency access"],
+      "desired_output": "Cash visibility, pooling options, funding rules, risk limits, roles, controls, and implementation sequence.",
+      "practice_areas": ["finance-value", "risk-resilience-sustainability"],
+      "reasoning_jobs": ["measure-forecast", "design-solution", "govern-risk", "plan-implementation"]
+    },
+    "primary": ["treasury-management-framework", "liquidity-management", "cash-flow-forecasting"],
+    "acceptable": ["working-capital-management", "enterprise-risk-management", "sensitivity-analysis"],
+    "forbidden": ["economic-value-added"]
+  },
+  {
+    "id": "FH-07",
+    "brief": {
+      "problem": "Before close, buyer and seller teams need integration planning data, but sharing customer-level prices and employee decisions could violate competition and confidentiality limits.",
+      "decision": "Define what can be analyzed, by whom, and how findings can inform Day 1 planning without contaminating operating teams.",
+      "context": "A signed deal awaits regulatory clearance; external counsel and a neutral analysis team are available.",
+      "constraints": ["No prohibited competitively sensitive sharing", "Maintain an auditable access trail"],
+      "desired_output": "Clean-team scope, data rules, access roles, aggregation thresholds, escalation path, and approved outputs.",
+      "practice_areas": ["ma-diligence-turnaround", "risk-resilience-sustainability"],
+      "reasoning_jobs": ["gather-evidence", "govern-risk", "design-solution", "plan-implementation"]
+    },
+    "primary": ["clean-room-process", "it-due-diligence", "m-and-a-integration-framework"],
+    "acceptable": ["commercial-due-diligence", "cultural-due-diligence", "risk-management-plan"],
+    "forbidden": ["crm-strategy"]
+  },
+  {
+    "id": "FH-08",
+    "brief": {
+      "problem": "Organic search traffic is stable but qualified pipeline from search has fallen as high-intent pages lost rankings and content production follows volume rather than buyer need.",
+      "decision": "Choose the next-quarter search strategy and content priorities tied to pipeline quality.",
+      "context": "Search Console, analytics, CRM attribution, competitor rankings, content inventory, and conversion paths are available.",
+      "constraints": ["Do not optimize traffic alone", "Separate technical, intent, content, and conversion causes"],
+      "desired_output": "Search diagnosis, keyword-intent portfolio, technical priorities, content plan, conversion tests, and measures.",
+      "practice_areas": ["marketing-sales-pricing", "research-analytics"],
+      "reasoning_jobs": ["diagnose", "gather-evidence", "prioritize", "plan-implementation"]
+    },
+    "primary": ["seo-strategy", "funnel-analysis", "customer-journey-mapping"],
+    "acceptable": ["competitive-benchmarking", "sales-funnel-optimization", "stp-framework"],
+    "forbidden": ["marketing-mix-modeling"]
+  },
+  {
+    "id": "FH-09",
+    "brief": {
+      "problem": "Warranty returns reveal that an engineered pump meets the written specification but fails installation and maintenance needs that customers never translated into technical requirements.",
+      "decision": "Redesign the next version's requirements and verification plan around customer needs and failure risk.",
+      "context": "Customer interviews, service records, warranty failure modes, engineering measures, and prototype capacity are available.",
+      "constraints": ["Maintain regulatory requirements", "Trace every priority need to an engineering characteristic and test"],
+      "desired_output": "Customer-needs hierarchy, requirement matrix, technical priorities, failure prevention, prototype, and verification plan.",
+      "practice_areas": ["operations-quality", "customer-product-innovation"],
+      "reasoning_jobs": ["understand-stakeholders", "decompose", "design-solution", "govern-risk"]
+    },
+    "primary": ["quality-function-deployment", "fmea", "rapid-prototyping"],
+    "acceptable": ["voice-of-the-customer", "design-for-six-sigma", "kano-model"],
+    "forbidden": ["statistical-process-control"]
+  },
+  {
+    "id": "FH-10",
+    "brief": {
+      "problem": "A company added account-management responsibilities to technical roles, but job levels, pay bands, performance expectations, and development criteria still reflect the old work.",
+      "decision": "Redefine the roles and performance system before the next compensation cycle.",
+      "context": "Role descriptions, employee interviews, market-pay data, performance ratings, and customer outcomes are available.",
+      "constraints": ["Evaluate the work, not incumbents", "Do not change pay before roles and criteria are calibrated"],
+      "desired_output": "Role analysis, level criteria, competency expectations, evaluation logic, performance measures, and transition plan.",
+      "practice_areas": ["organization-talent"],
+      "reasoning_jobs": ["decompose", "measure-forecast", "design-solution", "plan-implementation"]
+    },
+    "primary": ["job-analysis-and-evaluation", "competency-mapping", "performance-management-system"],
+    "acceptable": ["talent-management-strategy", "employee-value-proposition", "training-needs-analysis"],
+    "forbidden": ["succession-planning"]
+  },
+  {
+    "id": "FH-11",
+    "brief": {
+      "problem": "A three-year infrastructure program is closing with unresolved vendor claims, incomplete benefit ownership, undocumented operational handoffs, and repeated lessons likely to be lost.",
+      "decision": "Close the program cleanly and preserve actionable learning for the next capital program.",
+      "context": "Contracts, acceptance records, risks, benefits, issue logs, and stakeholder interviews are available.",
+      "constraints": ["Do not call administrative closure a successful outcome", "Assign residual obligations"],
+      "desired_output": "Closure criteria, residual-action register, benefit handoff, lessons with evidence, owners, and archive.",
+      "practice_areas": ["program-project-management", "change-transformation"],
+      "reasoning_jobs": ["gather-evidence", "govern-risk", "evaluate-learn", "plan-implementation"]
+    },
+    "primary": ["project-closure-and-lessons-learned", "benefits-realization-management", "post-implementation-review"],
+    "acceptable": ["pmbok-framework", "stakeholder-communication-plan", "risk-management-plan"],
+    "forbidden": ["scrum-framework"]
+  },
+  {
+    "id": "FH-12",
+    "brief": {
+      "problem": "A grocery chain wants to improve cross-sell, but simple co-purchase counts overstate items that are individually popular and vary by store format.",
+      "decision": "Identify actionable product associations and store segments for merchandising tests.",
+      "context": "Transaction baskets, product hierarchy, promotions, prices, loyalty IDs, and store attributes are available.",
+      "constraints": ["Control for base rates and promotions", "Validate findings out of sample"],
+      "desired_output": "Association rules, customer or store segments, lift thresholds, test cells, and evaluation plan.",
+      "practice_areas": ["research-analytics", "marketing-sales-pricing"],
+      "reasoning_jobs": ["decompose", "diagnose", "gather-evidence", "evaluate-learn"]
+    },
+    "primary": ["market-basket-analysis", "cluster-analysis", "a-b-testing"],
+    "acceptable": ["cohort-analysis", "regression-analysis", "customer-persona-development"],
+    "forbidden": ["marketing-mix-modeling"]
+  },
+  {
+    "id": "FH-13",
+    "brief": {
+      "problem": "A single overseas supplier makes a safety-critical component; alternate qualification takes nine months and port, geopolitical, and quality risks are rising.",
+      "decision": "Choose the resilience investments and trigger-based sourcing plan for the next year.",
+      "context": "Supplier financials, lead times, inventory, qualification costs, disruption scenarios, and customer service effects are available.",
+      "constraints": ["No instant source substitution", "Quantify both risk exposure and resilience cost"],
+      "desired_output": "Risk map, exposure scenarios, inventory and source options, triggers, owners, and continuity tests.",
+      "practice_areas": ["risk-resilience-sustainability", "supply-chain-manufacturing"],
+      "reasoning_jobs": ["diagnose", "measure-forecast", "generate-options", "govern-risk"]
+    },
+    "primary": ["supply-chain-resilience-analysis", "supply-chain-risk-management", "business-continuity-planning"],
+    "acceptable": ["scenario-planning", "inventory-optimization", "strategic-sourcing"],
+    "forbidden": ["last-mile-delivery-optimization"]
+  },
+  {
+    "id": "FH-14",
+    "brief": {
+      "problem": "An ecommerce company must replace a failing fulfillment partner while deciding whether to use one integrated lead-logistics provider or several specialized operators.",
+      "decision": "Choose the logistics operating model and provider selection process before peak season.",
+      "context": "Order profiles, lanes, service failures, facility needs, cost components, provider capabilities, and peak forecasts are available.",
+      "constraints": ["Peak readiness in eight months", "Compare operating-model risk as well as bid price"],
+      "desired_output": "3PL versus 4PL decision, network requirements, total-cost model, provider scorecard, transition risks, and award gates.",
+      "practice_areas": ["supply-chain-manufacturing", "finance-value", "risk-resilience-sustainability"],
+      "reasoning_jobs": ["measure-forecast", "generate-options", "prioritize", "govern-risk"]
+    },
+    "primary": ["3pl-4pl-selection-framework", "logistics-network-design", "total-cost-of-ownership"],
+    "acceptable": ["strategic-sourcing", "supply-chain-risk-management", "scor-model"],
+    "forbidden": ["vendor-managed-inventory"]
+  },
+  {
+    "id": "FH-15",
+    "brief": {
+      "problem": "Business units have created hundreds of low-code apps and bots with duplicate logic, embedded credentials, weak support ownership, and no retirement process.",
+      "decision": "Set a governed citizen-development and automation model without stopping useful local innovation.",
+      "context": "Microsoft Power Platform, several RPA tools, a central security team, and distributed process owners.",
+      "constraints": ["Use risk tiers", "Make compliant development easier than shadow work"],
+      "desired_output": "Platform boundaries, intake and lifecycle, control tiers, ownership, reusable components, monitoring, and rollout.",
+      "practice_areas": ["technology-digital-ai", "organization-talent", "risk-resilience-sustainability"],
+      "reasoning_jobs": ["diagnose", "design-solution", "govern-risk", "plan-implementation"]
+    },
+    "primary": ["low-code-no-code-strategy", "rpa-implementation-framework", "cobit"],
+    "acceptable": ["api-strategy-and-management", "cybersecurity-framework", "itil", "organizational-design"],
+    "forbidden": ["blockchain-strategy"]
+  }
+]

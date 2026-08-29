@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "operational-utility",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Public-service task systems with explicit steps, labels, and states",
+    "creatorOrTradition": "Government Digital Service and public-sector service design",
+    "sourceUrl": "https://design-system.service.gov.uk/patterns/step-by-step-navigation/",
+    "whyCanonical": "The GOV.UK pattern demonstrates visible ordering, direct task labels, numbered steps, and conditional paths whose form is determined by what a person must do."
+  },
+  "sources": [
+    {
+      "title": "Step by step navigation",
+      "publisher": "GOV.UK Design System",
+      "url": "https://design-system.service.gov.uk/patterns/step-by-step-navigation/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Operational information should present an end-to-end journey in logical, numbered steps ordered around user needs.",
+        "Explicit and-or branches support the guide's emphasis on visible states and action hierarchy."
+      ]
+    },
+    {
+      "title": "Ask users for information on a document",
+      "publisher": "UK Home Office User-Centred Design Manual",
+      "url": "https://design.homeoffice.gov.uk/design-system/patterns/ask-users-for/information-document",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Guidance images belong only where they help a person perform a task or locate specific information.",
+        "Images require explicit meaning and should not be added as decoration to an operational surface."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches utility signal, systematic, typographic, grid defined, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/operational-utility/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/operational-utility/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches utility signal, systematic, typographic, grid defined, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Checkpointed Research"
+  short_description: "Run durable, bounded research passes"
+  default_prompt: "Use $checkpointed-research to run one bounded research pass on this topic and preserve an inspectable checkpoint."
+policy:
+  allow_implicit_invocation: true

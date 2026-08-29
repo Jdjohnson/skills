@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "styleId": "operational-dashboard",
+  "reviewState": "approved",
+  "iconicAnchor": {
+    "label": "Grafana monitoring dashboard",
+    "creatorOrTradition": "Grafana Labs operational observability interface",
+    "sourceUrl": "https://grafana.com/docs/grafana/latest/visualizations/dashboards/",
+    "whyCanonical": "Grafana defines a dashboard as related query-driven panels organized for at-a-glance understanding, monitoring, and troubleshooting across one or more operational data sources."
+  },
+  "sources": [
+    {
+      "title": "Dashboards",
+      "publisher": "Grafana Labs",
+      "url": "https://grafana.com/docs/grafana/latest/visualizations/dashboards/",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "Operational dashboards organize related visualizations into panels, rows, or tabs for at-a-glance monitoring and troubleshooting.",
+        "Queries, transformations, controls, and panel options connect the visual system to real data and decisions."
+      ]
+    },
+    {
+      "title": "Introduction to dashboard tiles for Power BI designers",
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboard-tiles",
+      "accessedAt": "2026-08-02",
+      "supports": [
+        "A dashboard combines multiple data tiles and can include reports, streaming data, text, images, video, and web content.",
+        "Tiles support an overview surface that can lead into deeper reports rather than acting as unrelated decorative charts."
+      ]
+    }
+  ],
+  "bundledReferenceRationale": "Excellent single-image set. The lead clearly teaches interface signal, digital signal, object scale, diagrammatic, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles. The independently approved lead is assets/refs/operational-dashboard/generated-lead.jpg. No support image is needed because the lead carries the direction without filler.",
+  "culturalContext": null,
+  "humanVisualReview": {
+    "status": "approved",
+    "reviewer": "Codex independent remediation-v3 final visual auditor",
+    "reviewedAt": "2026-08-02",
+    "fullSize": true,
+    "cardScale": true,
+    "leadImage": "assets/refs/operational-dashboard/generated-lead.jpg",
+    "notes": "Excellent single-image set. The lead clearly teaches interface signal, digital signal, object scale, diagrammatic, retains its identity at card scale, and shows no visible anti-cue, integrity failure, or confusing overlap with neighboring styles.",
+    "reviewRecord": "references/provenance/final-visual-audit.json"
+  }
+}

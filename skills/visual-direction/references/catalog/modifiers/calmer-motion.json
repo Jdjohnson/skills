@@ -1,0 +1,48 @@
+{
+  "id": "calmer-motion",
+  "group": "motion-energy",
+  "definition": "Reduce kinetic energy toward stillness.",
+  "targetConcerns": [
+    "motion"
+  ],
+  "compatibleStyles": [
+    "motion-sticker",
+    "film-noir"
+  ],
+  "incompatibleStyles": [],
+  "compatibleFamilies": [
+    "modernist-grid",
+    "organic-craft",
+    "ornate-historical",
+    "pop-commercial",
+    "editorial-literary",
+    "digital-native",
+    "brutalist-raw",
+    "luxe-atelier",
+    "folk-vernacular",
+    "scientific-diagram",
+    "cinematic-noir",
+    "playful-system"
+  ],
+  "incompatibleFamilies": [],
+  "incompatibleModifiers": [
+    "more-energy"
+  ],
+  "strengths": {
+    "subtle": 0.5,
+    "standard": 1,
+    "strong": 1.5
+  },
+  "patch": {
+    "semantic": {
+      "operations": [
+        {
+          "op": "multiplyParam",
+          "concern": "motion",
+          "path": "energy",
+          "factor": 0.85
+        }
+      ]
+    }
+  }
+}
