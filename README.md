@@ -1,6 +1,6 @@
 # Jarad Johnson's Agent Skills
 
-Twenty-four reusable skills for thinking, research, writing, visual direction,
+Twenty-two reusable skills for thinking, research, writing, visual direction,
 and agent workflows.
 
 ## Install
@@ -69,7 +69,6 @@ Replace `visual-direction` with any skill below.
 | [visual-direction](./skills/visual-direction/SKILL.md) | Finding and refining an image-led visual language |
 | [photography-director](./skills/photography-director/SKILL.md) | Directing a photograph and preparing its execution handoff |
 | [plain-language-writer](./skills/plain-language-writer/SKILL.md) | Writing clear, natural, audience-aware prose |
-| [adhd-friendly-output](./skills/adhd-friendly-output/SKILL.md) | Making dense material easier to scan and act on |
 
 ### Agents and operations
 
@@ -82,7 +81,6 @@ Replace `visual-direction` with any skill below.
 | [comms-intake](./skills/comms-intake/SKILL.md) | Triaging a configured local message queue |
 | [time-partner](./skills/time-partner/SKILL.md) | Planning, tracking, reviewing, and reflecting in period |
 | [work-closeout](./skills/work-closeout/SKILL.md) | Reconciling proven outcomes across configured records |
-| [session-friction-review](./skills/session-friction-review/SKILL.md) | Extracting validated workflow friction from a visible session |
 
 
 ## Maintain
