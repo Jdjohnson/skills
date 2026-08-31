@@ -99,12 +99,6 @@
       "summary": "Draft or revise natural prose so the point is immediate and every sentence earns its place."
     },
     {
-      "slug": "adhd-friendly-output",
-      "title": "ADHD-Friendly Output",
-      "category": "Write and direct",
-      "summary": "Turn dense material into an action-first response that is easier to scan and use."
-    },
-    {
       "slug": "chatgpt-handoff",
       "title": "ChatGPT Handoff",
       "category": "Agents and operations",
@@ -152,13 +146,6 @@
       "category": "Agents and operations",
       "summary": "Reconcile a proven outcome across the exact records and trackers that need to reflect it.",
       "requirements": "Python 3 and configured records or trackers"
-    },
-    {
-      "slug": "session-friction-review",
-      "title": "Session Friction Review",
-      "category": "Agents and operations",
-      "summary": "Review the visible session for small workflow friction and append only validated, deduplicated findings.",
-      "requirements": "A configured local reviewer and destination"
     }
   ]
 }
